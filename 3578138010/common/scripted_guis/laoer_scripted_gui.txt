@@ -1,0 +1,59 @@
+scripted_gui = {
+
+	dtg = {
+		context_type = decision_category
+		window_name = "dtgs"
+		visible = {
+			always = yes
+		}
+		effects = {
+			zveno_icon_click ={
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = DSB_nothern_germany_fight_scf
+						}
+					}
+					set_country_flag = DSB_nothern_germany_fight_scf
+				}
+				else = {
+					clr_country_flag = DSB_nothern_germany_fight_scf
+				}
+			}
+		}
+	}
+	dtt = {
+		context_type = decision_category
+		window_name = "dtt"
+	}
+	Social_extremism = {
+		context_type = decision_category
+		window_name = "Social_extremism"
+	}
+	DAYBREAK_FRONTLINE = {
+		context_type = decision_category
+		window_name = "DAYBREAK_FRONTLINE"
+	}
+	Jew_Company = {
+		context_type = decision_category
+		window_name = "Jew_Company"
+	}
+	adsh = {
+		context_type = player_context
+		window_name = "braltic_war_gui"
+
+		visible = {
+			NOT = {
+				has_country_flag = DSB_jieshao_over_scf
+			}
+		}
+
+		effects = {
+			jieshao_icon_click = {
+				set_country_flag = DSB_jieshao_over_scf
+			}
+		}
+
+	}
+}
+

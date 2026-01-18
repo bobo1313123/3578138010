@@ -1,0 +1,1779 @@
+shared_focus = {
+	id = DSB_Wei_Jing_Zhi_Shi
+	icon = GFX_DSB_WJZS_p
+	available = {
+		always = no
+	}
+	cost = 0
+	x = 41
+	y = 11
+	allow_branch = {
+		has_country_flag = dsb_pashe5_work
+	}
+	completion_reward =  {
+		#渗透敌占区
+		set_variable = { DSB_ShenTou_Var = 0 }
+		set_variable = { DSB_ShenTou_lose_Var = 0 }
+		set_variable = { DSB_ShenTou_list_peace_var = 60 }
+		set_variable = { DSB_ShenTou_list_war_var = 40 }
+		#边境冲突
+		set_variable = { BJCT_random_list_war_var = 30 }
+		set_variable = { BJCT_random_list_peace_var = 70 }
+		set_variable = { BJCT_var = 0 }
+		set_variable = { Jew_daikuansecond = 0 }
+		add_to_variable = { Jew_daikuansecond = Jew_daikuan }
+		multiply_variable = { Jew_daikuansecond = 1.5 }
+		set_cosmetic_tag = Northern_Germany
+	}
+}
+shared_focus = {
+	id = DSB_YTCTCLSY
+	icon = GFX_DSB_YTSY_P
+	cost = 2
+	prerequisite = {
+		focus = DSB_Wei_Jing_Zhi_Shi
+	}
+	x = 41
+	y = 12
+	completion_reward =  {
+		country_event = { id = DSB.44 }
+		set_variable = { Jew_last_caiding = 0 }
+	}
+}
+shared_focus = {
+	id = DSB_HSJH
+	icon = GFX_goal_unknown
+	cost = 2
+	prerequisite = {
+		focus = DSB_WQGMSF
+		focus = DSB_BQCN
+	}
+	x = 41
+	y = 15
+	completion_reward =  {
+		set_country_flag = HSJH_scf
+		remove_dynamic_modifier = {
+			modifier = DSB_ytct
+		}
+	}
+}
+shared_focus = {
+	id = DSB_JJCDZW
+	icon = GFX_goal_unknown
+	available = {
+		always = no
+	}
+	cost = 0
+	prerequisite = {
+		focus = DSB_YTCTCLSY
+	}
+	mutually_exclusive = {
+		focus = DSB_CDZW
+	}
+	x = 40
+	y = 13
+	completion_reward =  {
+		add_timed_idea = {
+			idea = DSB_Asset_withdrawal
+			days = 100
+		}
+	}
+}
+shared_focus = {
+	id = DSB_CDZW
+	icon = GFX_goal_unknown
+	available = {
+		always = no
+	}
+	cost = 0
+	prerequisite = {
+		focus = DSB_YTCTCLSY
+	}
+	mutually_exclusive = {
+		focus = DSB_JJCDZW
+	}
+	x = 42
+	y = 13
+	completion_reward =  {
+		add_timed_idea = {
+			idea = DSB_jew_daikuan
+			days = Jew_daikuansecond
+		}
+	}
+}
+shared_focus = {
+	id = DSB_WQGMSF
+	icon = GFX_goal_unknown
+	available = {
+		always = no
+	}
+	cost = 0
+	prerequisite = {
+		focus = DSB_YTCTCLSY
+		focus = DSB_CDZW
+	}
+	mutually_exclusive = {
+		focus = DSB_BQCN
+	}
+	x = 40
+	y = 14
+	completion_reward =  {
+		add_political_power = 150
+		add_stability = 0.05
+	}
+}
+shared_focus = {
+	id = DSB_BQCN
+	icon = GFX_goal_unknown
+	available = {
+		always = no
+	}
+	cost = 0
+	prerequisite = {
+		focus = DSB_YTCTCLSY
+		focus = DSB_JJCDZW
+	}
+	mutually_exclusive = {
+		focus = DSB_WQGMSF
+	}
+	x = 42
+	y = 14
+	completion_reward =  {
+		add_stability = -0.05
+		add_war_support = 0.10
+	}
+}
+#内政
+shared_focus = {
+	id = DSB_Le_Jin_Jiang_Sheng
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 12
+	prerequisite = {
+		focus = DSB_Wei_Jing_Zhi_Shi
+	}
+	available = {
+		has_completed_focus = DSB_HSJH
+	}
+	completion_reward =  {
+		add_to_variable = { Nslack_stability_factor = -0.04 }
+		add_to_variable = { Nslack_war_support_factor = 0.05 }
+		add_to_variable = { Nslack_conscription = 0.005 }
+		add_to_variable = { Nslack_weekly_manpower = 2 }
+		add_to_variable =  { Nslack_training_time_factor = 0.4999 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = Nslack_fiction_ideas_1
+				add_idea = Nslack_fiction_ideas_2
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_zhong_jie_mi_lan_wen_hua
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 34
+	y = 13
+	prerequisite = {
+		focus = DSB_Le_Jin_Jiang_Sheng
+	}
+	completion_reward =  {
+		add_to_variable = { Nslack_war_support_factor = 0.05 }
+		add_to_variable = { Nslack_conscription = 0.005 }
+		add_to_variable = { Nslack_weekly_manpower = 2 }
+		add_to_variable = { Nslack_drift_defence_factor = 0.50 }
+		add_to_variable =  { Nslack_training_time_factor = 0.2501 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = Nslack_fiction_ideas_2
+				add_idea = Nslack_fiction_ideas_3
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_Fen_Sui_Duo_Luo_Zhu_Yi
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 34
+	y = 14
+	prerequisite = {
+		focus = DSB_zhong_jie_mi_lan_wen_hua
+	}
+	completion_reward =  {
+		add_to_variable = { Nslack_war_support_factor = 0.05 }
+		add_to_variable = { Nslack_conscription = 0.005 }
+		add_to_variable = { Nslack_weekly_manpower = 4 }
+		add_to_variable = { Nslack_drift_defence_factor = 0.20 }
+		add_to_variable =  { Nslack_training_time_factor = 0.10 }
+		add_to_variable =  { industrial_capacity_factory = 0.05 }
+		add_to_variable =  { army_attack_factor = 0.05 }
+		add_to_variable =  { army_defence_factor = 0.05 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = Nslack_fiction_ideas_2
+				add_idea = Nslack_fiction_ideas_3
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_JingHuaSheHui
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 36
+	y = 13
+	prerequisite = {
+		focus = DSB_Le_Jin_Jiang_Sheng
+	}
+	completion_reward =  {
+		add_popularity = { ideology = fascism popularity = 0.05 }
+		add_ideas = ZZZG_DSWF
+	}
+}
+shared_focus = {
+	id = DSB_Rong_Xu_Ji_YouYiZuZhi
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 36
+	y = 14
+	prerequisite = {
+		focus = DSB_JingHuaSheHui
+	}
+	completion_reward =  {
+		add_stability = -0.10
+		add_war_support = 0.15
+		swap_ideas = {
+			remove_idea = ZZZG_DSWF
+			add_idea = ZCLD_TQYH
+		}
+		add_popularity = { ideology = nazism popularity = 0.10 }
+	}
+}
+shared_focus = {
+	id = DSB_SZZL
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 15
+	prerequisite = {
+		focus = DSB_Fen_Sui_Duo_Luo_Zhu_Yi
+	}
+	prerequisite = {
+		focus = DSB_Rong_Xu_Ji_YouYiZuZhi
+	}
+	completion_reward =  {
+		country_event = { id = DSB.92 }
+		add_ideas = qbdwzg
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = ZCLD_TQYH
+				add_idea = QFDY_FBMH
+			}
+		}
+		hidden_effect = {
+			remove_ideas = ZCLD_TQYH
+			add_dynamic_modifier = {
+				modifier = DSB_RMDKDY
+			}
+		}
+		remove_dynamic_modifier = {
+			modifier = National_slackness
+		}
+		add_timed_idea = {
+			idea = Nslack_fiction_ideas_4
+			days = 120
+		}
+		set_variable = { RMDKZ_stability_factor = 0.10 }
+		set_variable = { RMDKZ_war_support_factor = -0.55 }
+		set_variable = { RMDKZ_army_attack_factor = -0.30 }
+		set_variable = { RMDKZ_army_defence_factor = -0.30 }
+		set_variable = { RMDKZ_consumer_goods_expected_value = 0.05 }
+		set_variable = { RMDKZ_army_morale_factor = -0.05 }
+		set_variable = { RMDKZ_army_speed_factor = -0.05 }
+		set_variable = { RMDKZ_combat_width_factor = -0.05 }
+		set_variable = { RMDKZ_industrial_capacity_factory = -0.20 }
+		set_variable = { RMDKZ_production_factory_max_efficiency_factor = -0.05 }
+		set_country_flag = dsb_good_end_scf
+		unlock_decision_category_tooltip = DSB_MinZuZhuYi
+	}
+}
+shared_focus = {
+	id = DSB_war_machine_never_stop
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 32
+	y = 16
+	prerequisite = {
+		focus = DSB_SZZL
+	}
+	completion_reward =  {
+		add_dynamic_modifier = {
+			modifier = DSB_jingchengtuanjie
+		}
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = DSB_JunGuoZhuYiYanXuQianNian
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 16
+	prerequisite = {
+		focus = DSB_SZZL
+	}
+	completion_reward =  {
+		add_dynamic_modifier = {
+			modifier = DSB_jindutiao_xiaoguo
+		}
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = DSB_DGSBTBXQ
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 38
+	y = 16
+	prerequisite = {
+		focus = DSB_SZZL
+	}
+	completion_reward =  {
+		add_dynamic_modifier = {
+			modifier = DSB_prussia_army_wwii
+		}
+		add_political_power = 150
+		unlock_decision_tooltip = DSB_TGJDDY
+	}
+}
+shared_focus = {
+	id = DSB_HuiFuNaZiSCX
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 32
+	y = 17
+	prerequisite = {
+		focus = DSB_war_machine_never_stop
+	}
+	completion_reward =  {
+		add_timed_idea = {
+			idea = DSB_HuiFuNaZiSCX
+			days = 80
+		}
+	}
+}
+shared_focus = {
+	id = DSB_SJYSTZ
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 18
+	prerequisite = {
+		focus = DSB_HuiFuNaZiSCX
+	}
+	completion_reward =  {
+		add_tech_bonus = {
+			bonus = 1.25
+			uses = 2
+			category = light_fighter
+		}
+		add_tech_bonus = {
+			bonus = 1.00
+			uses = 2
+			category = armor 
+		}
+		add_tech_bonus = {
+			bonus = 1.00
+			uses = 1
+			category = infantry_weapons
+		}
+		add_tech_bonus = {
+			bonus = 0.75
+			uses = 1
+			category = cat_strategic_bomber 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_HuiXingZhenXingDong
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 19
+	prerequisite = {
+		focus = DSB_SJYSTZ
+	}
+	completion_reward =  {
+		add_timed_idea = {
+			idea = HXZXD
+			days = 100
+		}
+		unlock_decision_tooltip = DSB_YCKYRYGZ
+	}
+}
+shared_focus = {
+	id = DSB_ZhuangBeiGeXin
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 29
+	y = 20
+	prerequisite = {
+		focus = DSB_HuiXingZhenXingDong
+	}
+	completion_reward =  {
+		custom_effect_tooltip = DSB_ZhuangBeiGeXin_tt
+		random_owned_state = {
+    			add_building_construction = {
+        			type = industrial_complex  
+        			level = 2 
+        			instant_build = yes 
+    			}
+		}
+		random_owned_state = {
+    			add_building_construction = {
+        			type = industrial_complex  
+        			level = 2 
+        			instant_build = yes 
+    			}
+		}
+		hidden_effect = {
+			modify_timed_idea = {
+				idea = DSB_HuiFuNaZiSCX
+				days = 285
+			}
+			modify_timed_idea = {
+				idea = HXZXD
+				days = 265
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_MinZuFuXing_Second_Pahse_two
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 32
+	y = 18
+	prerequisite = {
+		focus = DSB_HuiFuNaZiSCX
+	}
+	prerequisite = {
+		focus = DSB_WWFGJS
+	}
+	bypass = {
+		NOT = {
+			has_idea = Nslack_fiction_ideas_4
+		}
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_4_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 4
+            }
+        }
+	}
+	completion_reward =  {
+		remove_ideas = Nslack_fiction_ideas_4
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_SCGD
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 32
+	y = 19
+	prerequisite = {
+		focus = DSB_MinZuFuXing_Second_Pahse_two
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_5_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 5
+            }
+        }
+	}
+	completion_reward =  {
+		add_stability = -0.05
+		add_to_variable = { RenMinDK_var = -1 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_jingchengtuanjie_1
+				add_idea = DSB_jingchengtuanjie_2
+			}
+		}
+		custom_effect_tooltip = RMDKL_tt
+		add_to_variable = { DSB_jchz_production_speed_arms_factory_factor = 0.05 }
+		add_to_variable = { DSB_jchz_PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR = 0.05 }
+		add_to_variable = { DSB_jchz_industrial_capacity_factory = 0.10 }
+	}
+}
+shared_focus = {
+	id = DSB_RXNVLG
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 32
+	y = 20
+	prerequisite = {
+		focus = DSB_SCGD
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_6_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 6
+            }
+        }
+	}
+	completion_reward =  {
+		add_stability = -0.05
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_jingchengtuanjie_1
+				add_idea = DSB_jingchengtuanjie_3
+			}
+		}
+		add_to_variable = { RenMinDK_var = -1 }
+		custom_effect_tooltip = RMDKL_tt
+		add_to_variable = { DSB_jchz_stability_factor = -0.10 }
+		add_to_variable = { DSB_jchz_conscription = 0.01 }
+		add_to_variable = { DSB_jchz_industrial_capacity_factory = 0.10 }
+		add_to_variable = { DSB_jchz_production_factory_efficiency_gain_factor = 0.15 }
+		add_to_variable = { DSB_jchz_line_change_production_efficiency_factor = 0.10 }
+		unlock_decision_tooltip = DSB_QZGRJB
+	}
+}
+shared_focus = {
+	id = DSB_XFGJZ
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 32
+	y = 21
+	prerequisite = {
+		focus = DSB_ZhuangBeiGeXin
+	}
+	prerequisite = {
+		focus = DSB_RXNVLG
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_6_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 6
+            }
+        }
+	}
+	completion_reward =  {
+		set_stability = 0.75
+		add_popularity = { ideology = fascism popularity = 0.05 }
+		add_to_variable = { RenMinDK_var = 1 }
+		unlock_decision_tooltip = DSB_PJZYZYJZG
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_YWHGC
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 21
+	prerequisite = {
+		focus = DSB_HSNJHH
+	}
+	prerequisite = {
+		focus = DSB_RXNVLG
+	}
+	prerequisite = {
+		focus = DSB_SHTYSC
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_6_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 6
+            }
+        }
+	}
+	completion_reward =  {
+		add_country_leader_trait = DSB_King_of_the_country
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_HMZDZHYW
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 22
+	prerequisite = {
+		focus = DSB_YWHGC
+	}
+	prerequisite = {
+		focus = DSB_WMZFY
+	}
+	prerequisite = {
+		focus = DSB_XFGJZ
+	}
+	will_lead_to_war_with = FRA
+	will_lead_to_war_with = AUS
+	will_lead_to_war_with = RHI
+	will_lead_to_war_with = BAY
+	completion_reward =  {
+		custom_effect_tooltip = DSB_HMZDZHYW_tt
+		add_to_variable = { NJDVar = 20 }
+		hidden_effect = {
+			country_event = { id = DSB.94 hours = 6 }
+		}
+	}
+}
+shared_focus = {
+	id = DSB_QMZDY
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 18
+	prerequisite = {
+		focus = DSB_WWFGJS
+	}
+	prerequisite = {
+		focus = DSB_HuiFuNaZiSCX
+	}
+	prerequisite = {
+		focus = DSB_GGZZTX
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_4_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 4
+            }
+        }
+	}
+	completion_reward =  {
+		add_stability = -0.20
+		add_ideas = totaler_krieg_economy
+		add_to_variable = { RenMinDK_var = -1 }
+		custom_effect_tooltip = RMDKL_tt
+	}
+}
+shared_focus = {
+	id = DSB_XXZJRY
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 19
+	prerequisite = {
+		focus = DSB_QMZDY
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_5_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 5
+            }
+        }
+	}
+	completion_reward =  {
+		swap_ideas = {
+			remove_idea = totaler_krieg_economy
+			add_idea = totaler_krieg_economy_2
+		}
+		unlock_decision_tooltip = HYDYZJZG
+	}
+}
+shared_focus = {
+	id = DSB_HSNJHH
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 20
+	prerequisite = {
+		focus = DSB_XXZJRY
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_6_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 6
+            }
+        }
+	}
+	completion_reward =  {
+		swap_ideas = {
+			remove_idea = totaler_krieg_economy_2
+			add_idea = totaler_krieg_economy_3
+		}
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_QHZZYZ
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 38
+	y = 18
+	prerequisite = {
+		focus = DSB_WWFGJS
+	}
+	prerequisite = {
+		focus = DSB_GGZZTX
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_4_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 4
+            }
+        }
+	}
+	completion_reward =  {
+		add_to_variable = { DSB_pawi_army_attack_factor = 0.01 }
+		add_to_variable = { DSB_pawi_army_defence_factor = 0.01 }
+		add_to_variable = { DSB_pawi_army_org_factor = 0.05 }
+		add_to_variable = { DSB_pawi_out_of_supply_factor = -0.05 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_prussia_army_wwii_fi_1
+				add_idea = DSB_prussia_army_wwii_fi_3
+			}
+		}
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_Army_Emprie
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 38
+	y = 19
+	prerequisite = {
+		focus = DSB_QHZZYZ
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_5_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 5
+            }
+        }
+	}
+	completion_reward =  {
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_prussia_army_wwii_fi_1
+				add_idea = DSB_prussia_army_wwii_fi_4
+			}
+		}
+		add_to_variable = { DSB_pawi_army_core_attack_factor = 0.05 }
+		add_to_variable = { DSB_pawi_army_core_defence_factor = 0.05 }
+		add_to_variable = { DSB_pawi_surrender_limit = 0.05 }
+		add_to_variable = { DSB_pawi_war_support_factor = 0.10 }
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_SHTYSC
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 38
+	y = 20
+	prerequisite = {
+		focus = DSB_Army_Emprie
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_6_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 6
+            }
+        }
+	}
+	completion_reward =  {
+		add_to_variable = { DSB_jchz_army_core_attack_factor = 0.05 }
+		add_to_variable = { DSB_jchz_army_core_defence_factor = 0.05 }
+		add_to_variable = { DSB_jchz_army_morale_factor = 0.05 }
+		add_to_variable = { DSB_jchz_surrender_limit = 0.10 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_jingchengtuanjie_1
+				add_idea = DSB_jingchengtuanjie_4
+			}
+		}
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_DBZXTLL
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 40
+	y = 18
+	prerequisite = {
+		focus = DSB_GGZZTX
+	}
+	completion_reward =  {
+		add_to_variable = { DSB_pawi_coordination_bonus = 0.10 }
+		add_to_variable = { DSB_pawi_air_superiority_bonus_in_combat = 0.10 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_prussia_army_wwii_fi_1
+				add_idea = DSB_prussia_army_wwii_fi_5
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_PYZGNDX
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 40
+	y = 19
+	prerequisite = {
+		focus = DSB_DBZXTLL
+	}
+	completion_reward =  {
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_prussia_army_wwii_fi_1
+				add_idea = DSB_prussia_army_wwii_fi_6
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_QDZCMBQQJD
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 41
+	y = 20
+	prerequisite = {
+		focus = DSB_PYZGNDX
+	}
+	completion_reward =  {
+		add_to_variable = { DSB_pawi_planning_speed = 0.05 }
+		add_to_variable = { DSB_pawi_max_planning = 0.10 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_prussia_army_wwii_fi_1
+				add_idea = DSB_prussia_army_wwii_fi_2
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_WMZFY
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 38
+	y = 21
+	prerequisite = {
+		focus = DSB_SHTYSC
+	}
+	prerequisite = {
+		focus = DSB_QDZCMBQQJD
+	}
+	available = {
+        custom_trigger_tooltip = {
+            tooltip = SVZS_6_tt
+            check_variable = {
+                var = RenMinDK_var
+                value = 6
+            }
+        }
+	}
+	completion_reward =  {
+		country_event = { id = DSB.93 }
+		add_popularity = { ideology = nazism popularity = 0.05 }
+		add_to_variable = { RenMinDK_var = 1 }
+		add_to_variable = { DSB_pawi_conscription = 0.02 }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_prussia_army_wwii_fi_1
+				add_idea = DSB_prussia_army_wwii_fi_7
+			}
+		}
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_WWFGJS
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 35
+	y = 17
+	prerequisite = {
+		focus = DSB_JunGuoZhuYiYanXuQianNian
+	}
+	completion_reward =  {
+		add_ideas = sour_unification_3
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_GGZZTX
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 38
+	y = 17
+	prerequisite = {
+		focus = DSB_DGSBTBXQ
+	}
+	completion_reward =  {
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.75
+			uses = 3
+			category = land_doctrine
+			name = GER_autonomy_in_the_kriegsschulen
+		}
+	}
+}
+#外交
+shared_focus = {
+	id = DSB_LMQX
+	icon = GFX_DSB_LMQX_P
+	cost = 2
+	x = 47
+	y = 12
+	prerequisite = {
+		focus = DSB_Wei_Jing_Zhi_Shi
+	}
+	completion_reward =  {
+		unlock_decision_category_tooltip = DSB_QinLueDu
+	}
+}
+shared_focus = {
+	id = DSB_FZWJJG
+	icon = GFX_DSB_FZWJJG_p
+	cost = 2
+	x = 47
+	y = 13
+	prerequisite = {
+		focus = DSB_LMQX
+	}
+	completion_reward =  {
+		add_timed_idea = {
+			idea = HFDWGX
+			days = 100
+		}
+		add_political_power = 150
+	}
+}
+shared_focus = {
+	id = DSB_YD
+	icon = GFX_DSB_NWSD_p
+	cost = 2
+	x = 45
+	y = 14
+	prerequisite = {
+		focus = DSB_FZWJJG
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_SDMZCH
+	}
+}
+shared_focus = {
+	id = DSB_DSST
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 45
+	y = 15
+	prerequisite = {
+		focus = DSB_YD
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_ZZJDWS
+		add_to_variable = { QLDV = 1 }
+		custom_effect_tooltip = QLDVR_tt
+		hidden_effect = {
+			 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_JSWSL
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 46
+	y = 16
+	prerequisite = {
+		focus = DSB_DSST
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_ZZBJMC
+		add_to_variable = { QLDV = 1 }
+		custom_effect_tooltip = QLDVR_tt
+		add_ideas = JSWSL
+		hidden_effect = {
+			 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_BSRDL
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 46
+	y = 17
+	prerequisite = {
+		focus = DSB_JSWSL
+	}
+	completion_reward =  {
+		DEN = {
+			country_event = { id = DSB.75 }
+		}
+	}
+}
+shared_focus = {
+	id = DSB_XPBORL
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 45
+	y = 18
+	prerequisite = {
+		focus = DSB_BSRDL
+	}
+	completion_reward =  {
+		effect_tooltip = {
+			SWE = {
+				country_event = { id = DSB.75 }
+			}
+			NOR = {
+				country_event = { id = DSB.75 }
+			}
+		}
+		hidden_effect = {
+			country_event = { id = DSB.79 days = 2 }
+		}
+	}
+}
+shared_focus = {
+	id = DSB_PSDM
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 43
+	y = 15
+	prerequisite = {
+		focus = DSB_YD
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_XJDZQSS
+		random_list = {
+			DSB_ShenTou_list_peace_var = {
+				53 = { remove_core_of = BAY }
+				54 = { remove_core_of = BAY }
+				BAY = {
+					add_timed_idea = {
+						idea = shitshitshitshitshit
+						days = 20
+					}
+				}
+			}
+			DSB_ShenTou_list_war_var = {
+				add_to_variable = { QLDV = 2 }
+				custom_effect_tooltip = QLDVB_tt
+				FRA = {
+					add_opinion_modifier = {
+						target = DSB
+						modifier = DSB_fuck_france_and_Austria
+					}
+				}
+				AUS = {
+					add_opinion_modifier = {
+						target = DSB
+						modifier = DSB_fuck_france_and_Austria
+					}
+				}
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_CDLXQPL
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 42
+	y = 16
+	prerequisite = {
+		focus = DSB_PSDM
+	}
+	completion_reward =  {
+		random_list = {
+			DSB_ShenTou_list_peace_var = {
+				BAY = {
+					modify_timed_idea = {
+						idea = shitshitshitshitshit
+						days = 20
+					}
+				}
+				if = {
+					limit = { 
+						BAY = {
+							NOT = {
+								has_idea = shitshitshitshitshit
+							}
+						}
+					}
+					effect_tooltip = {
+						BAY = {
+							add_timed_idea = {
+								idea = shitshitshitshitshit
+								days = 40
+							}
+						}
+					}
+				}
+			}
+			DSB_ShenTou_list_war_var = {
+				add_to_variable = { QLDV = 2 }
+				custom_effect_tooltip = QLDVB_tt
+				FRA = {
+					add_opinion_modifier = {
+						target = DSB
+						modifier = DSB_fuck_france_and_Austria
+					}
+				}
+				AUS = {
+					add_opinion_modifier = {
+						target = DSB
+						modifier = DSB_fuck_france_and_Austria
+					}
+				}
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_BSRDLDSB_SQZZJQ
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 42
+	y = 17
+	prerequisite = {
+		focus = DSB_CDLXQPL
+	}
+	completion_reward =  {
+		random_list = {
+			DSB_ShenTou_list_peace_var = {
+				54 = { set_demilitarized_zone = yes }
+				BAY = {
+					add_stability = -0.10
+					add_war_support = -0.10
+					modify_timed_idea = {
+						idea = shitshitshitshitshit
+						days = 20
+					}
+				}
+				AUS = {
+					add_stability = -0.10
+					add_war_support = -0.10
+				}
+			}
+			DSB_ShenTou_list_war_var = {
+				add_to_variable = { QLDV = 2 }
+				custom_effect_tooltip = QLDVB_tt
+				FRA = {
+					add_opinion_modifier = {
+						target = DSB
+						modifier = DSB_fuck_france_and_Austria
+					}
+				}
+				AUS = {
+					add_opinion_modifier = {
+						target = DSB
+						modifier = DSB_fuck_france_and_Austria
+					}
+				}
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_WJSY
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 44
+	y = 16
+	prerequisite = {
+		focus = DSB_PSDM
+	}
+	prerequisite = {
+		focus = DSB_DSST
+	}
+	completion_reward =  {
+		add_to_variable = { QLDV = 2 }
+		custom_effect_tooltip = QLDVB_tt
+		hidden_effect = {
+			 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_YQMQGHQX
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 44
+	y = 17
+	prerequisite = {
+		focus = DSB_WJSY
+	}
+	completion_reward =  {
+		ROM = { give_resource_rights = { receiver = DSB state = 46 } }
+		ENG = {
+			add_to_faction = ROM
+		}
+		add_to_variable = { QLDV = 1 }
+		custom_effect_tooltip = QLDVR_tt
+		hidden_effect = {
+			 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_WJYX
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 44
+	y = 19
+	prerequisite = {
+		focus = DSB_YQMQGHQX
+	}
+	prerequisite = {
+		focus = DSB_CSWZQGG
+	}
+	prerequisite = {
+		focus = DSB_XPBORL
+	}
+	completion_reward =  {
+		remove_ideas = JSWSL
+		add_to_variable = { QLDV = -1 }
+		custom_effect_tooltip = QLDVL_tt
+		hidden_effect = {
+			 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_CSWZQGG
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 43
+	y = 18
+	prerequisite = {
+		focus = DSB_BSRDLDSB_SQZZJQ
+	}
+	completion_reward =  {
+		random_list = {
+			DSB_ShenTou_list_peace_var = {
+				BAY = {
+					add_stability = -0.10
+					add_war_support = -0.10
+					modify_timed_idea = {
+						idea = shitshitshitshitshit
+						days = 160
+					}
+					kill_country_leader = BAY
+				}
+			}
+			DSB_ShenTou_list_war_var = {
+				add_to_variable = { QLDV = 2 }
+				custom_effect_tooltip = QLDVB_tt
+				FRA = {
+					add_opinion_modifier = {
+						target = DSB
+						modifier = DSB_fuck_france_and_Austria
+					}
+					declare_war_on = {
+						target = DSB
+						type = annex_everything
+					}
+				}
+				AUS = {
+					add_opinion_modifier = {
+						target = DSB
+						modifier = DSB_fuck_france_and_Austria
+					}
+					declare_war_on = {
+						target = DSB
+						type = annex_everything
+					}
+				}
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_YY
+	icon = GFX_DSB_XTZY_P
+	cost = 2
+	x = 49
+	y = 14
+	prerequisite = {
+		focus = DSB_FZWJJG
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_MYTQMXGJKDH
+	}
+}
+shared_focus = {
+	id = DSB_LDHY
+	icon = GFX_DSB_LDHY_p
+	cost = 2
+	x = 49
+	y = 15
+	prerequisite = {
+		focus = DSB_YY
+	}
+	completion_reward =  {
+		126 = {
+    		add_building_construction = {
+        		type = industrial_complex  
+        		level = 2 
+        		instant_build = yes 
+    		}
+		}
+		1049 = {
+    		add_building_construction = {
+        		type = industrial_complex  
+        		level = 2 
+        		instant_build = yes 
+    		}
+		}
+		add_opinion_modifier = {
+			target = ENG
+			modifier = YDYY
+		}
+		ENG = {
+			add_opinion_modifier = {
+				target = DSB
+				modifier = YDYY
+			}
+		}
+		hidden_effect = {
+			news_event = { id = TVE_News.36 }
+		}
+	}
+}
+shared_focus = {
+	id = DSB_QHDBGZ
+	icon = GFX_DSB_QHDBGZ_P
+	cost = 2
+	x = 51
+	y = 15
+	prerequisite = {
+		focus = DSB_YY
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_QHJDPX
+		add_to_variable = { DSB_ShenTou_list_peace_var = 20 }
+		subtract_from_variable = { DSB_ShenTou_list_war_var = 20 }
+		clamp_variable = {
+			var = DSB_ShenTou_list_peace_var
+			min = 0
+			max = 100
+		}
+		clamp_variable = {
+			var = DSB_ShenTou_list_war_var
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_QHDBGZ_tt
+	}
+}
+shared_focus = {
+	id = DSB_YJPYQ
+	icon = GFX_DSB_YJPYQ_P
+	cost = 2
+	x = 53
+	y = 15
+	prerequisite = {
+		focus = DSB_YY
+	}
+	completion_reward =  {
+		add_offsite_building = { type = industrial_complex level = 3 }
+		add_opinion_modifier = {
+			target = JAP
+			modifier = YDYY
+		}
+		JAP = {
+			add_opinion_modifier = {
+				target = DSB
+				modifier = YDYY
+			}
+		}
+		add_opinion_modifier = {
+			target = CSA
+			modifier = YDYY
+		}
+		CSA = {
+			add_opinion_modifier = {
+				target = DSB
+				modifier = YDYY
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_LSMDNZM
+	icon = GFX_DSB_LSMDNZM_P
+	cost = 2
+	x = 52
+	y = 16
+	prerequisite = {
+		focus = DSB_YJPYQ
+	}
+	bypass = {
+		360 = {
+			NOT = {
+				is_owned_by = CSA
+			}
+		}
+	}
+	completion_reward =  {
+		add_ideas = CSA_DSB_LOVE
+	}
+}
+shared_focus = {
+	id = DSB_DSCYRY
+	icon = GFX_DSB_DSCYRY_P
+	cost = 2
+	x = 54
+	y = 16
+	prerequisite = {
+		focus = DSB_YJPYQ
+	}
+	completion_reward =  {
+		add_ideas = ITA_DSB_LOVE
+		SPM = {
+			add_ideas = ITA_DSB_LOVE
+		}
+		add_tech_bonus = {
+			name = fuck
+			bonus = 0.45
+			uses = 3
+			category = mountaineers_tech
+		}
+		ENG = {
+			add_to_faction = SPM
+		}
+	}
+}
+shared_focus = {
+	id = DSB_YZZX
+	icon = GFX_DSB_YZZX_P
+	cost = 2
+	x = 53
+	y = 17
+	prerequisite = {
+		focus = DSB_DSCYRY
+		focus = DSB_LSMDNZM
+	}
+	completion_reward =  {
+		add_ideas = JAP_DSB_LOVE
+		JAP = {
+			add_ideas = JAP_DSB_LOVE
+		}
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 2
+			category = cv_tech
+		}
+		add_tech_bonus = {
+			bonus = 0.50
+			uses = 2
+			category = ca_tech 
+		}
+		add_tech_bonus = {
+			bonus = 0.75
+			uses = 2
+			category = dd_tech
+		}
+	}
+}
+shared_focus = {
+	id = DSB_ZSQDJSTM
+	icon = GFX_DSB_ZSQDJSTM_P
+	cost = 2
+	x = 51
+	y = 18
+	prerequisite = {
+		focus = DSB_JSYDMY
+	}
+	prerequisite = {
+		focus = DSB_XQWJSY
+	}
+	prerequisite = {
+		focus = DSB_YZZX
+	}
+	completion_reward =  {
+		ENG = {
+			give_military_access = CSA
+			give_guarantee = CSA
+			give_guarantee = JAP
+			add_to_faction = DSB
+		}
+		CSA = {
+			give_military_access = DSB
+			give_guarantee = DSB
+			give_guarantee = ENG
+		}
+		JAP = {
+			give_military_access = DSB
+			give_guarantee = DSB
+			give_guarantee = ENG
+		}
+		CSA = {
+			give_military_access = ENG
+			give_guarantee = JAP
+		}
+		JAP = {
+			give_military_access = ENG
+			give_guarantee = CSA
+		}
+		DSB = {
+			give_military_access = CSA
+			give_guarantee = CSA
+			give_guarantee = JAP
+		}
+		DSB = {
+			give_military_access = JAP
+		}
+		give_guarantee = CSA
+		give_guarantee = JAP
+		ENG = {
+			give_military_access = JAP
+		}
+		add_to_variable = { QLDV = 1 }
+		custom_effect_tooltip = QLDVR_tt
+		hidden_effect = {
+			 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_YZWJKJBZ
+	icon = GFX_DSB_YZWJKJBZ_P
+	cost = 2
+	x = 51
+	y = 19
+	prerequisite = {
+		focus = DSB_ZSQDJSTM
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_GSGJXX
+		add_to_variable = { QLDV = -1 }
+		custom_effect_tooltip = QLDVL_tt
+		hidden_effect = {
+			 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_HQYGYZ
+	icon = GFX_DSB_HQYGYZ_P
+	cost = 2
+	x = 49
+	y = 16
+	prerequisite = {
+		focus = DSB_LDHY
+	}
+	completion_reward =  {
+		add_tech_bonus = {
+			bonus = 1.55
+			uses = 5
+			category = air_equipment
+		}
+		add_equipment_to_stockpile = { type = small_plane_airframe_1 amount = 400 producer = ENG variant_name = "Gloster Gladiator"}
+	}
+}
+shared_focus = {
+	id = DSB_JSYDMY
+	icon = GFX_DSB_JSYDMY_P
+	cost = 2
+	x = 48
+	y = 17
+	prerequisite = {
+		focus = DSB_HQYGYZ
+	}
+	completion_reward =  {
+		add_ideas = ENG_DSB_LOVE
+		ENG = {
+			add_ideas = ENG_DSB_LOVE
+		}
+	}
+}
+shared_focus = {
+	id = DSB_XQWJSY
+	icon = GFX_DSB_XQWJSY_P
+	cost = 2
+	x = 50
+	y = 17
+	prerequisite = {
+		focus = DSB_HQYGYZ
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_XQMYWJSY
+		add_to_variable = { QLDV = -1 }
+		custom_effect_tooltip = QLDVL_tt
+		hidden_effect = {
+			 
+		}
+	}
+}
+shared_focus = {
+	id = DSB_SHZD
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 47
+	y = 20
+	prerequisite = {
+		focus = DSB_WJYX
+	}
+	prerequisite = {
+		focus = DSB_YZWJKJBZ
+	}
+	completion_reward =  {
+        add_days_mission_timeout = {
+            mission = SHZD
+            days = 75
+        }
+	}
+}
+shared_focus = {
+	id = DSB_BLDHCN
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 45
+	y = 21
+	prerequisite = {
+		focus = DSB_SHZD
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_BLDHYE
+	}
+}
+shared_focus = {
+	id = DSB_RLBL
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 49
+	y = 21
+	prerequisite = {
+		focus = DSB_SHZD
+	}
+	completion_reward =  {
+		unlock_decision_tooltip = DSB_RLBLYELS
+	}
+}
+shared_focus = {
+	id = DSB_KYZCDZHJT
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 47
+	y = 22
+	prerequisite = {
+		focus = DSB_BLDHCN
+	}
+	prerequisite = {
+		focus = DSB_RLBL
+	}
+	available = {
+		has_completed_focus = DSB_WJYX
+		has_completed_focus = DSB_YZWJKJBZ
+	}
+	will_lead_to_war_with = FRA
+	will_lead_to_war_with = AUS
+	will_lead_to_war_with = RHI
+	will_lead_to_war_with = BAY
+	completion_reward =  {
+		custom_effect_tooltip = DSB_KYZCDZHJT_tt
+	}
+}
+shared_focus = {
+	id = DSB_FTLXD
+	icon = GFX_goal_unknown
+	cost = 5
+	x = 41
+	y = 23
+	prerequisite = {
+		focus = DSB_KYZCDZHJT
+	}
+	prerequisite = {
+		focus = DSB_HMZDZHYW
+	}
+	will_lead_to_war_with = FRA
+	will_lead_to_war_with = AUS
+	will_lead_to_war_with = RHI
+	will_lead_to_war_with = BAY
+	completion_reward =  {
+		hidden_effect = {
+			if = {
+				limit = { check_variable = { DSB_ShenTou_Var = 10 } }
+				DSB = {
+					annex_country = {
+						target = BAY
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = RHI
+						transfer_troops = yes
+					}
+					transfer_state = 1024
+				}
+			}
+		}
+		declare_war_on = {
+			target = RHI
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = BAY
+			type = annex_everything
+		}
+		CSA = {
+			declare_war_on = {
+				target = RHI
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BAY
+				type = annex_everything
+			}
+		}
+		custom_effect_tooltip = DSB_return_end_focus_work_tt
+		hidden_effect = {
+			set_country_flag = dsb_pashe6_work
+			mark_focus_tree_layout_dirty = yes
+			complete_national_focus = DSB_ZMSL
+			news_event = { id = TVE_News.37 }
+			BAY = {
+				country_event ={ id = script_events.12 }
+			}
+			RHI = {
+				country_event ={ id = script_events.12 }
+			}
+		}
+	}
+}

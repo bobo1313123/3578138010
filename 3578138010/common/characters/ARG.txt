@@ -1,0 +1,27 @@
+characters = {
+	ARG_maersailo = {
+		name = ARG_maersailo 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARG_maersailo
+			}
+		}
+	}
+
+	ARG_amadio_2 = {
+		name = ARG_amadio_2
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ARG_amadio_2
+			}
+		}
+		country_leader = {
+			ideology = chai_kai_shek
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+
+}
+	

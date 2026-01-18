@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_POL_jiaoao_pol"
+		texturefile = "gfx/texticons/banners/GFX_proud_pol.dds"  legacy_lazy_load = no
+	}
+}

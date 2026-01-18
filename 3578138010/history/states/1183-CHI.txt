@@ -1,0 +1,18 @@
+state={
+	id=1183
+	name="STATE_1183"
+	manpower = 1270509
+
+	state_category = rural
+
+	history={
+		owner = MON
+		add_core_of = MON
+	}
+
+	provinces={
+		10689 10558 12669 
+	}
+
+	local_supplies=7.0 
+}

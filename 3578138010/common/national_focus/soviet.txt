@@ -1,0 +1,146 @@
+focus_tree = {
+	id = soviet_TVE_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 2000 }
+
+	focus = {
+		id = SOV_wenzhong_xianghao
+		icon = GFX_WZXH_p
+		cost = 3
+		x = 4
+		y = 0
+		allow_branch={
+			not={
+				has_country_flag=SOV_gaoerchake_panluan_flag
+			}
+		}
+		available = {
+			is_subject = no
+		}
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_jingji_fazhan
+		icon = GFX_DSB_WII_SPEECH
+		cost = 5
+		x = 0
+		y = 1
+		relative_position_id=SOV_wenzhong_xianghao
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus =SOV_wenzhong_xianghao
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_laojiang_tuixiu
+		icon = GFX_DSB_WII_SPEECH
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id=SOV_jingji_fazhan
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus =SOV_jingji_fazhan
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_wengu_lianmeng
+		icon = GFX_DSB_WII_SPEECH
+		cost = 1
+		x = 2
+		y = 1
+		relative_position_id=SOV_jingji_fazhan
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus =SOV_jingji_fazhan
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_tiaojie_canmoubu
+		icon = GFX_DSB_WII_SPEECH
+		cost = 3
+		x = 0
+		y = 1
+		relative_position_id=SOV_laojiang_tuixiu
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus =SOV_laojiang_tuixiu
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_daxuan_zhunbei
+		icon = GFX_DSB_WII_SPEECH
+		cost = 1
+		x = -1
+		y = 1
+		relative_position_id=SOV_wengu_lianmeng
+		available = {
+			is_subject = no
+		}
+		prerequisite = {
+			focus =SOV_wengu_lianmeng
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = SOV_junqu_baogao
+		icon = GFX_DSB_WII_SPEECH
+		cost = 3
+		x = 1
+		y = 1
+		relative_position_id=SOV_wengu_lianmeng
+		available = {
+			has_completed_focus=SOV_daxuan_zhunbei
+		}
+		prerequisite = {
+			focus =SOV_wengu_lianmeng
+		}
+		completion_reward = {
+			country_event=SOV_TVE.1
+		}
+	}
+
+
+}

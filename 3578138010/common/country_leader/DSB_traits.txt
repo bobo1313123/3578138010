@@ -1,0 +1,52 @@
+leader_traits ={
+	DSB_reichswerke ={
+		random = no
+		industrial_capacity_factory = 0.15
+		conversion_cost_civ_to_mil_factor= -0.50
+		conversion_cost_mil_to_civ_factor = -0.50
+		industry_air_damage_factor = -0.50
+		production_factory_max_efficiency_factor = 0.05
+		production_speed_industrial_complex_factor = 0.10
+		production_speed_arms_factory_factor = 0.10
+	}
+	GER_Kurtvon_Schleicher_tz = {
+		random = no
+		operative_slot = 1
+		political_power_factor = 0.25
+		stability_factor = 0.15
+		war_stability_factor = 0.15
+		local_factory_sabotage = -0.10
+		production_speed_arms_factory_factor = 0.05
+	}
+	DSB_Heinrich_Bruning_tz = {
+		random = no
+		operative_slot = 1
+		political_power_factor = 0.15
+		stability_factor = 0.10
+		war_stability_factor = 0.05
+		research_speed_factor = 0.07
+		army_morale_factor = 0.05
+		compliance_gain = 0.05
+		consumer_goods_expected_value = -0.03
+		operation_outcome = 0.15
+		max_command_power = 25
+	}
+	dsb_reformer = {
+		random = no
+		research_speed_factor = 0.03
+		defensive_war_stability_factor = 0.15
+		drift_defence_factor = -0.45
+		political_advisor_cost_factor = -0.25
+	}
+	GER_von_Papen_tz = {
+		random =no
+		political_power_factor = 0.10
+		stability_factor = -0.05
+	}
+	RUS_Military_Region_Commander = {
+		random = no
+		army_attack_factor = 0.05
+		army_defence_factor = 0.05
+		breakthrough_factor = 0.10
+	}
+}

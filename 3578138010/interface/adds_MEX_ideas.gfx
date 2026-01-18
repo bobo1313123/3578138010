@@ -1,0 +1,28 @@
+spriteTypes = {	
+######################################ideas
+	spriteType = {
+		name = "GFX_idea_MEX_yaowang_lvtu"
+		texturefile = "gfx/interface/ideas/idea_MEX_yaowang_lvtu.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_MEX_crying_guadalupei"
+		texturefile = "gfx/interface/ideas/idea_MEX_crying_guadalupei.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_MEX_jundui_jieru"
+		texturefile = "gfx/interface/ideas/idea_MEX_jundui_jieru.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_MEX_wenren_zhiguo"
+		texturefile = "gfx/interface/ideas/idea_MEX_wenren_zhiguo.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_MEX_young_politic"
+		texturefile = "gfx/interface/ideas/idea_MEX_young_politic.dds"			
+	}
+
+}

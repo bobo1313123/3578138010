@@ -1,0 +1,148 @@
+DSB_example_balance = {
+	allowed = {
+		tag = DSB
+	}
+}
+DSB_army_decisions = {
+	icon = decision_SWE_set_army_budget
+
+	#picture = GFX_decision_cat_picture_chi_infiltration
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		has_completed_focus = DSB_banbu_jieyanling
+	}
+	priority = 998
+}
+DSB_gtteet = {
+	priority = 999
+	icon = decision_SWE_set_army_budget
+
+	#picture = GFX_decision_cat_picture_chi_infiltration
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		has_completed_focus = DSB_Attack_of_the_Empire
+		NOT = {
+			has_completed_focus = DSB_fight_for_GER
+		}
+	}
+
+	visible_when_empty = yes
+
+}
+DSB_ytct_dc = {
+	priority = 10
+	icon = decision_SWE_set_army_budget
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		NOT = {
+			has_country_flag = HSJH_scf
+		}
+	}
+	visible_when_empty = yes
+	scripted_gui = Jew_Company
+}
+DSB_recovery_plan = {
+	icon = decision_generic_reorganize_irregulars
+
+	picture = GFX_decision_cat_picture_unite_germany
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		has_completed_focus = DSB_liberate_germany
+		NOT = {
+			has_country_flag = DSB_return_end_focus_work
+		}
+	}
+	priority = 999
+}
+DSB_Compete_for_power = {
+	icon = decision_generic_reorganize_irregulars
+
+	picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		has_completed_focus = DSB_save_government
+		NOT = {
+			has_country_flag = DSB_government_stable
+		}
+		NOT = {
+			has_country_flag = DSB_return_end_focus_work
+		}
+	}
+	priority = 999
+}
+DSB_return_industry_rebuild = {
+	icon = decision_generic_reorganize_irregulars
+
+	picture = GFX_return_back_industry
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		has_completed_focus = DSB_fight_for_GER
+		NOT = {
+			has_country_flag = DSB_economy_rebuild_over
+		}
+	}
+	priority = 999
+}
+DSB_return_politics_rebuild = {
+	icon = decision_generic_reorganize_irregulars
+
+	picture = GFX_return_back_industry
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		has_completed_focus = DSB_fight_for_GER
+		NOT = {
+			has_completed_focus = DSB_Wei_Jing_Zhi_Shi
+		}
+	}
+	priority = 999
+}
+DSB_MinZuZhuYi = {
+	icon = decision_generic_reorganize_irregulars
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		has_completed_focus = DSB_SZZL
+	}
+	visible_when_empty = yes
+	priority = 999
+	scripted_gui = Social_extremism
+}
+DSB_QinLueDu = {
+	icon = decision_generic_reorganize_irregulars
+
+	allowed = {
+		original_tag = DSB
+	}
+	visible = {
+		has_completed_focus = DSB_LMQX
+		NOT = {
+			has_completed_focus = DSB_FTLXD
+		}
+	}
+	visible_when_empty = yes
+	priority = 999
+	scripted_gui = DAYBREAK_FRONTLINE
+}

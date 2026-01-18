@@ -1,0 +1,16 @@
+characters = {
+	BTG_antuowan_3 = {
+		name =BTG_antuowan_3
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BTG_antuowan_3
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

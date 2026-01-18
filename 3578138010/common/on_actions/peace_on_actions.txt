@@ -1,0 +1,2891 @@
+on_actions = {
+	#奥匈帝国民族叛乱——————奥匈镇压成功线
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = AUS
+					}
+					ROOT = {
+						OR = {
+							original_tag = HUN
+							original_tag = CZE
+							original_tag = SLO
+							original_tag = SLV
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				if = {
+					limit = { NOT = { ROOT = { original_tag = HUN } } }
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				else_if = {
+					limit = { ROOT = { original_tag = HUN } }
+					HUN = { dismantle_faction = Alies }
+					every_country = {
+						white_peace = ROOT
+					}
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				AUS = {
+					add_to_variable = {
+						AUS_CIVIL_WAR_VAR = 1
+					}
+					if = {
+						limit = {
+							check_variable = {
+								AUS_CIVIL_WAR_VAR = 3
+							}
+						}
+						AUS = {
+							add_ideas = Irreparable_national_problems
+							add_timed_idea = {
+								idea = The_border_of_the_country_is_full_of_sorrow
+								days = 150
+							}
+							remove_ideas = Austria_For_the_Empire_gantanhao
+							country_event = { id = script_events.36 days = 17 }
+							news_event = { id = TVE_News.16 }
+						}
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#第三次日俄战争————预设俄国完胜
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = REF
+					}
+					ROOT = {
+						OR = {
+							original_tag = FER
+							original_tag = VLA
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				FER = { dismantle_faction = Alies }
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				SOV = {
+					add_to_variable = {
+						Second_russia_japan_war_variable = 1
+					}
+					if = {
+						limit = {
+							check_variable = {
+								Second_russia_japan_war_variable = 2
+							}
+						}
+						SOV = { country_event = { id = script_events.8 days = 14 } }
+						JAP = { country_event = { id = script_events.30 days = 47 } }
+						JAP = {
+							remove_ideas = asia_united_supporter
+							remove_ideas = republic_country_sipirts
+							remove_ideas = republic_country_sipirts
+							remove_ideas = great_economy_low_3
+							remove_ideas = old_time_1
+							remove_ideas = Moderate_religious_policy
+							remove_ideas = The_knife_in_the_senake
+						}
+						SOV = { news_event = { id = TVE_News.22 } }
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#巴尔干战争————预设多瑙协定完胜
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = AUS
+							original_tag = BUL
+						}
+					}
+					ROOT = {
+						original_tag = YUG
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					AUS = {
+						transfer_state = 764
+						transfer_state = 163
+						transfer_state = 103
+						transfer_state = 109
+						transfer_state = 104
+						transfer_state = 804
+					}
+					annex_country = {
+						target = CRO
+					}
+					annex_country = {
+						target = BOS
+					}
+					163 = {
+						add_core_of = AUS
+					}
+					103 = {
+						add_core_of = AUS
+					}
+					109 = {
+						add_core_of = AUS
+					}
+					104 = {
+						add_core_of = AUS
+					}
+					804 = {
+						add_core_of = AUS
+					}
+					BUL = {
+						transfer_state = 803
+						transfer_state = 970
+						transfer_state = 106
+					}
+					803 = {
+						add_core_of = BUL
+					}
+					970 = {
+						add_core_of = BUL
+					}
+					106 = {
+						add_core_of = BUL
+					}
+					MNT = {
+						transfer_state = 105
+					}
+					AUS= {
+						set_autonomy = {
+							target = MNT
+							autonomous_state = autonomy_integrated_puppet
+							freedom_level = 0.1
+						}
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = AUS
+							original_tag = BUL
+						}
+					}
+					ROOT = {
+						original_tag = ROM
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				ROM = { dismantle_faction = Alies }
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					AUS = {
+						transfer_state = 82
+						transfer_state = 83
+						transfer_state = 84
+						transfer_state = 76
+					}
+					82 = {
+						add_core_of = AUS
+					}
+					83 = {
+						add_core_of = AUS
+					}
+					84 = {
+						add_core_of = AUS
+					}
+					76 = {
+						add_core_of = AUS
+					}
+					BUL = {
+						transfer_state = 77
+						transfer_state = 971
+					}
+					77 = {
+						add_core_of = BUL
+					}
+					971 = {
+						add_core_of = BUL
+					}
+					GAL = {
+						transfer_state = 80
+					}
+					SOV = {
+						transfer_state = 766
+						transfer_state = 78
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#波罗的海战争
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = DSB
+					}
+					ROOT = {
+						OR = {
+							original_tag = EST
+							original_tag = LIT
+							original_tag = LAT
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+					}
+					add_to_variable = { Baltic_War_Peace_Var = 1 }
+					if = {
+						limit = { check_variable = { Baltic_War_Peace_Var = 3 } }
+						transfer_state = 188
+						188 = { add_core_of = DSB }
+						puppet = LAT
+						DSB = {
+							set_country_flag = bo_luo_di_sheng
+						}
+						LAT = {
+							create_country_leader = {
+								name = Adolph_Friedrich
+								picture = GFX_Adolph_Friedrich
+								ideology = chai_kai_shek
+							}
+							set_politics = { ruling_party = tttt elections_allowed = no }
+							transfer_state = 808
+							transfer_state = 809
+							transfer_state = 12
+							transfer_state = 190
+							transfer_state = 191
+							transfer_state = 13
+							transfer_state = 813
+							transfer_state = 812
+							transfer_state = 815
+							transfer_state = 189
+							transfer_state = 11
+							transfer_state = 784
+							annex_country = {
+								target = LIT
+							}
+							transfer_state = 814
+							annex_country = {
+								target = EST
+							}
+							transfer_state = 811
+							set_cosmetic_tag = bo_luo_di_sea
+							every_state = {
+							limit = {
+								is_core_of = EST
+							}
+							add_core_of = LAT
+						}
+							every_state = {
+							limit = {
+								is_core_of = LIT
+								NOT = {
+									is_core_of = DSB
+								}
+							}
+							add_core_of = LAT
+						}
+						}
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#光复战争
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = DSB
+							original_tag = FRA
+							original_tag = AUS
+							original_tag = ENG
+							original_tag = POL
+						}
+					}
+					ROOT = {
+						original_tag = GER
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						NOT = {
+							has_global_flag = NZ_DIED
+						}
+					}
+					every_country = {
+						white_peace = ROOT
+					}
+					FROM = {
+						set_global_flag = NZ_DIED
+						DSB = {
+							transfer_state = 55
+							transfer_state = 56
+							transfer_state = 57
+							transfer_state = 58
+							transfer_state = 59
+							transfer_state = 60
+							transfer_state = 61
+							transfer_state = 62
+							transfer_state = 63
+							transfer_state = 64
+							transfer_state = 65
+							transfer_state = 66
+							transfer_state = 67
+							transfer_state = 68
+							transfer_state = 909
+							transfer_state = 912
+							transfer_state = 1021
+							transfer_state = 1022
+							transfer_state = 762
+							country_event = { id = DSB.23 hours = 1 }
+						}
+						BAY = {
+							transfer_state = 50
+							transfer_state = 52
+							transfer_state = 53
+							transfer_state = 54
+							transfer_state = 978
+							set_cosmetic_tag = Austria_Empire_autonomy
+						}
+						AUS = {
+							set_autonomy = {
+								target = BAY
+								autonomous_state = autonomy_integrated_puppet
+								freedom_level = 0.1
+							}
+							news_event = { id =TVE_News.35 hours = 8 }
+						}
+					}
+				}
+				else = {
+					every_country = {
+						white_peace = ROOT
+					}
+					DSB = {
+						annex_country = {
+							target = GER
+						}
+						set_variable = { RenMinDK_var = 5 }
+					}
+				}
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#流亡政府占领柏林
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 1049 }
+				}
+				if =  {
+					limit = {
+						tag = DSB
+					}
+					news_event = { id =TVE_News.34 }
+				}
+			}
+		}
+	}
+	#--邓楠遮起义--
+	#邓楠遮胜利
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = ITA
+					}
+					ROOT = {
+						OR ={
+							original_tag = SPM
+							original_tag = PAP
+							original_tag = LBV
+							original_tag = TTS
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				if = {
+					limit  = {
+						ROOT = { original_tag = SPM }
+					}
+					SPM = {
+						transfer_navy = {
+							target = ITA
+						}
+					}
+					ITA = {
+						annex_country = {
+							target = LBV
+						}
+						annex_country = {
+							target = TTS
+						}
+						annex_country = {
+							target = PAP
+						}
+						transfer_state = 158
+						transfer_state = 161
+						transfer_state = 162
+						transfer_state = 1047
+						transfer_state = 1048
+					}
+					FRA = {
+						add_to_faction = ITA
+					}
+				}
+				else= {
+					ITA = {
+						annex_country = {
+							target = ROOT
+						}
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#王国政府赢得内战
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR ={
+							original_tag = SPM
+							original_tag = PAP
+							original_tag = LBV
+							original_tag = TTS
+						}
+					}
+					ROOT = {
+						original_tag = ITA
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				SPM = {
+					transfer_navy = {
+							target = ITA
+						}
+				}
+				SPM = {
+					annex_country = {
+						target = LBV
+					}
+					annex_country = {
+						target = TTS
+					}
+					annex_country = {
+						target = PAP
+					}
+					annex_country = {
+						target = ITA
+					}
+					set_cosmetic_tag = SPM_ITA
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#——————
+	#英国内战
+	#本土
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = ENG
+					}
+					ROOT = {
+						OR = {
+							original_tag = SCO
+							original_tag = WLS
+							original_tag = BSR
+							original_tag = BRC
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				ENG = {
+					add_to_variable = {
+						ENG_CIVIL_WAR_VAR = 1
+					}
+					if = {
+						limit = {
+							check_variable = {
+								ENG_CIVIL_WAR_VAR = 4
+							}
+						}
+						ENG = { country_event = { id = script_events.26 days = 25 } }
+						ENG = { remove_ideas = TYWH }
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = SCO
+							original_tag = WLS
+							original_tag = BSR
+						}
+					}
+					ROOT = {
+						original_tag = BRC
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#爱尔兰:第一个镇压成功,第二个独立.
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = NIR
+							original_tag = ENG
+						}
+					}
+					ROOT = {
+						original_tag = IRE
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				NIR = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				ENG = {
+					set_country_flag = IRE_duli_down
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = IRE
+					}
+					ROOT = {
+						original_tag = NIR
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				ENG = {
+					set_country_flag = IRE_duli_win
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#马来亚叛乱:第一个殖民政府胜利,第二个独立运动胜利
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = MAL
+							original_tag = ENG
+						}
+					}
+					ROOT = {
+						original_tag = MLY
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				ENG = {
+					set_country_flag = MAL_duli_down
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 336 }
+				}
+				if =  {
+					limit = {
+						tag = MLY
+					}
+					MLY = {
+						annex_country = {
+							target = MAL
+						}
+					}
+					JAP = {
+						set_autonomy = {
+							target = MLY
+							autonomy_state = autonomy_colony
+						}
+					}
+				}
+			}
+		}
+	}
+	#印度解体:鲍斯胜利
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = RAJ
+					}
+					ROOT = {
+						original_tag = TGB
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+					RAJ = { remove_ideas = RAJ_for_free_ideas }
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#——————
+
+	#——————
+	#波兰内战
+	#波兰
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = DSB
+							original_tag = GAL
+							original_tag = SOV
+							original_tag = AUS
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = FPO
+							original_tag = POL
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					if = {
+						limit = { NOT = { has_global_flag = POL_WAS_DEAD } }
+						GAL = {
+							transfer_state = 88
+							transfer_state = 91
+							transfer_state = 1051
+						}
+						DSB = {
+							transfer_state = 807
+							transfer_state = 86
+							set_country_flag = PRUSSIA_POLAND_WAR_OVER_SCF
+							country_event = { id = DSB.47 days = 5 }
+						}
+						GER = {
+							transfer_state = 762
+						}
+						AUS = {
+							set_autonomy = {
+								target = GAL
+								autonomous_state = autonomy_integrated_puppet
+								freedom_level = 0.1
+							}
+						}
+						POL = {
+							set_cosmetic_tag = POL_country_name_sct
+							add_ideas = POL_gongguan_ideas
+							transfer_state = 87
+							annex_country = {
+								target = FPO
+							}
+							transfer_state = 10
+							transfer_state = 90
+							transfer_state = 92
+							transfer_state = 97
+							transfer_state = 98
+							transfer_state = 1052
+							remove_ideas = POL_CIVIL_WAR
+						}
+						set_global_flag = POL_WAS_DEAD
+					}
+					else = {
+						DSB = {
+							transfer_state = 87
+							transfer_state = 97
+							transfer_state = 98
+							transfer_state = 1050
+							transfer_state = 1051
+							set_autonomy = {
+								target = POL
+								autonomous_state = autonomy_integrated_puppet
+								freedom_level = 0.1
+							}
+						}
+						POL = {
+							if = {
+								limit = {
+									AUS = {
+										is_subject_of = DSB
+									}
+								}
+								annex_country = {
+									target = GAL
+									transfer_troops = yes
+								}
+							}
+						}
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = POL
+					}
+					ROOT = {
+						original_tag = FPO
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#一乌二白
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = SOV
+							original_tag = RKR
+						}
+					}
+					ROOT = {
+						original_tag = UKR
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				RKR = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+				SOV = { country_event = { id = script_events.32 days = 9 } }
+			}
+		}
+	}
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = SOV
+					}
+					ROOT = {
+						original_tag = BLR
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#——————
+
+	#俄国入侵中亚
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = SOV
+					}
+					ROOT = {
+						OR = {
+							original_tag = TRS
+							original_tag = KAZ
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#日本入侵菲律宾
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = FPH
+					}
+					ROOT = {
+						original_tag = PHI
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+				JAP = {
+					set_autonomy = {
+						target = FPH
+						autonomy_state = autonomy_colony
+					}
+				}
+			}
+		}
+	}
+	#高加索总督辖区叛乱
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = SOV
+					}
+					ROOT = {
+						original_tag = RCA
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#希土战争
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 797 }
+				}
+				if =  {
+					limit = {
+						OR = {
+							tag = TUR
+							tag = BUL
+						}
+					}
+					TUR = {
+						add_to_variable = { turky_greece_war_var = 1 }
+						if = {
+							limit = {
+								check_variable = {
+									turky_greece_war_var = 4
+								}
+							}
+							every_country = {
+								white_peace = GRE
+							}
+							TUR = {
+								white_peace = GRE
+								transfer_state = 797
+								transfer_state = 339
+								transfer_state = 340
+								transfer_state = 341
+							}
+							BUL = {
+								white_peace = GRE
+								transfer_state = 731
+								transfer_state = 184
+							}
+						}
+						set_global_flag = turky_greece_war__turky__win_sgf
+					}
+				}
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 339 }
+				}
+				if =  {
+					limit = {
+						OR = {
+							tag = TUR
+							tag = BUL
+						}
+					}
+					TUR = {
+						add_to_variable = { turky_greece_war_var = 1 }
+						if = {
+							limit = {
+								check_variable = {
+									turky_greece_war_var = 4
+								}
+							}
+							every_country = {
+								white_peace = GRE
+							}
+							TUR = {
+								white_peace = GRE
+								transfer_state = 797
+								transfer_state = 339
+								transfer_state = 340
+								transfer_state = 341
+							}
+							BUL = {
+								white_peace = GRE
+								transfer_state = 731
+								transfer_state = 184
+							}
+						}
+						set_global_flag = turky_greece_war__turky__win_sgf
+					}
+				}
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 340 }
+				}
+				if =  {
+					limit = {
+						OR = {
+							tag = TUR
+							tag = BUL
+						}
+					}
+					TUR = {
+						add_to_variable = { turky_greece_war_var = 1 }
+						if = {
+							limit = {
+								check_variable = {
+									turky_greece_war_var = 4
+								}
+							}
+							every_country = {
+								white_peace = GRE
+							}
+							TUR = {
+								white_peace = GRE
+								transfer_state = 797
+								transfer_state = 339
+								transfer_state = 340
+								transfer_state = 341
+							}
+							BUL = {
+								white_peace = GRE
+								transfer_state = 731
+								transfer_state = 184
+							}
+						}
+						set_global_flag = turky_greece_war__turky__win_sgf
+					}
+				}
+			}
+		}
+	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 341 }
+				}
+				if =  {
+					limit = {
+						OR = {
+							tag = TUR
+							tag = BUL
+						}
+					}
+					TUR = {
+						add_to_variable = { turky_greece_war_var = 1 }
+						if = {
+							limit = {
+								check_variable = {
+									turky_greece_war_var = 4
+								}
+							}
+							every_country = {
+								white_peace = GRE
+							}
+							TUR = {
+								white_peace = GRE
+								transfer_state = 797
+								transfer_state = 339
+								transfer_state = 340
+								transfer_state = 341
+							}
+							BUL = {
+								white_peace = GRE
+								transfer_state = 731
+								transfer_state = 184
+							}
+						}
+						set_global_flag = turky_greece_war__turky__win_sgf
+					}
+				}
+			}
+		}
+	}
+	#第二次英印战争
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { state = 427 }
+				}
+				if =  {
+					limit = {
+						original_tag = FIR
+					}
+					FIR = {
+						annex_country = {
+							target = HYD
+						}
+						annex_country = {
+							target = RJP
+						}
+						annex_country = {
+							target = SIN
+						}
+						annex_country = {
+							target = BLC
+						}
+						annex_country = {
+							target = KHL
+						}
+						annex_country = {
+							target = KAS
+						}
+						remove_ideas = RAJ_for_free_ideas
+						white_peace = ENG
+					}
+					RAJ = {
+						transfer_state = 982
+						transfer_state = 983
+						transfer_state = 423
+						transfer_state = 424
+						transfer_state = 425
+					}
+					ENG = {
+						set_autonomy = {
+							target = RAJ
+							autonomy_state = autonomy_dominion
+						}
+						remove_ideas = SHIT_DUSTRY
+					}
+					RAJ = {
+						set_cosmetic_tag = RAJ_UK
+					}
+				}
+			}
+		}
+	}
+	#叙利亚独立战争
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = FRA
+					}
+					ROOT = {
+						original_tag = SYR
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#高加索战争
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR = {
+							original_tag = SOV
+							original_tag = TUR
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = GEO
+							original_tag = AZR
+							original_tag = ARM
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					if = {
+						limit = {
+							ROOT = ARM
+						}
+						TUR = {
+							transfer_state = 354
+						}
+						SOV = {
+							annex_country = {
+								target = ROOT
+								transfer_troops = no
+							}
+						}
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#第二次美国内战
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = CSA
+					}
+					ROOT = {
+						original_tag = USA
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = yes
+					}
+					every_state = {
+						limit = {
+							is_core_of = USA
+						}
+						add_core_of = CSA
+					}
+					USA = {
+						transfer_navy = {
+							target = ITA
+						}
+					}
+					CSA = {
+						load_focus_tree = generic_focus
+						remove_ideas = Fight_against_the_north
+						transfer_state = 1034
+						news_event = { id = TVE_News.48 }
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+
+	#二次大战
+	#莱茵兰/南德意志
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR ={
+							original_tag = DSB
+							original_tag = CSA
+							original_tag = ITA
+							original_tag = ENG
+							original_tag = JAP
+						}
+					}
+					ROOT =  {
+						OR = {
+							original_tag = RHI
+							original_tag = BAY
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				if = {
+					limit = {
+						original_tag = RHI
+					}
+					every_country = {
+						white_peace = ROOT
+					}
+					DSB = {
+						set_autonomy = {
+							target = ROOT
+							autonomous_state = autonomy_integrated_puppet
+						}
+					}
+					ROOT = {
+						transfer_state = 1024
+						create_country_leader = {
+							name = GER_hermann_erhardt
+							picture = GFX_DSB_hermann_erhardt
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_RHI
+					}
+				}
+				else_if = {
+					limit = {
+						original_tag = BAY
+					}
+					every_country = {
+						white_peace = ROOT
+					}
+					DSB = {
+						set_autonomy = {
+							target = ROOT
+							autonomous_state = autonomy_integrated_puppet
+						}
+					}
+					ROOT = {
+						create_country_leader = {
+							name = GER_heinz_guderian
+							picture = GFX_DSB_heinz_guderian
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_BAY
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#低地/法兰西
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR ={
+							original_tag = DSB
+							original_tag = CSA
+							original_tag = ITA
+							original_tag = ENG
+							original_tag = JAP
+						}
+					}
+					ROOT =  {
+						OR = {
+							original_tag = HOL
+							original_tag = BEL
+							original_tag = LUX
+							original_tag = FRA
+						}
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				if = {
+					limit = {
+						original_tag = HOL
+					}
+					every_country = {
+						white_peace = ROOT
+					}
+					DSB = {
+						set_autonomy = {
+							target = ROOT
+							autonomous_state = autonomy_integrated_puppet
+						}
+					}
+					ROOT = {
+						create_country_leader = {
+							name = GER_werner_von_fritsch
+							picture = GFX_DSB_werner_von_fritsch
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_HOL
+					}
+				}
+				else_if = {
+					limit = {
+						original_tag = BEL
+					}
+					every_country = {
+						white_peace = ROOT
+					}
+					DSB = {
+						transfer_state = 980
+						transfer_state = 1023
+						transfer_state = 1053
+						set_autonomy = {
+							target = ROOT
+							autonomous_state = autonomy_integrated_puppet
+						}
+					}
+					ROOT = {
+						create_country_leader = {
+							name = GER_gerd_von_rundstedt
+							picture = GFX_DSB_gerd_von_rundstedt
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_BEL
+					}
+				}
+				else_if = {
+					limit = {
+						original_tag = LUX
+					}
+					every_country = {
+						white_peace = ROOT
+					}
+					DSB = {
+						annex_country = {
+							target = LUX
+						}
+						8 = { add_core_of  = DSB }
+					}
+				}
+				else_if = {
+					limit = {
+						original_tag = FRA
+					}
+					FRA = {
+						leave_faction = Asia_group
+					}
+					every_country = {
+						white_peace = ROOT
+					}
+					FRA = {
+						transfer_navy = {
+							target = DSB
+						}
+					}
+					BRI = {
+						transfer_state = 14
+					}
+					ENG = {
+						transfer_state = 15
+						transfer_state = 1055
+					}
+					BGD = {
+						transfer_state = 29
+						transfer_state = 785
+						transfer_state = 16
+						transfer_state = 1054
+						transfer_state = 27
+						transfer_state = 24
+						transfer_state = 30
+						transfer_state = 23
+						transfer_state = 19
+						transfer_state = 806
+					}
+					DSB = {
+						transfer_state = 28
+						transfer_state = 17
+						transfer_state = 18
+						set_autonomy = {
+							target = BGD
+							autonomous_state = autonomy_integrated_puppet
+						}
+					}
+					SPM = {
+						transfer_state = 735
+						transfer_state = 1
+					}
+					BGD = {
+						create_country_leader = {
+							name = GER_erwin_rommel
+							picture = GFX_DSB_erwin_rommel
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_BGD
+					}
+					add_to_variable= { DSB_WWII_winner_var = 1 }
+					if = {
+						limit = { check_variable = { DSB_WWII_winner_var = 4 } }
+						DSB = { country_event = { id = DSB.87 days = 3 } }
+						set_global_flag = GERMANY_REICH_DOWN_SCF
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#奥匈帝国
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR ={
+							original_tag = DSB
+							original_tag = CSA
+							original_tag = ITA
+							original_tag = ENG
+							original_tag = JAP
+						}
+					}
+					ROOT =  {
+						original_tag = AUS
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					AUS = {
+						release = CZE
+						release = GAL
+						release = SLO
+						release = HUN
+						release = TRA
+						release = CRO
+						release = BOS
+						transfer_navy = {
+							target = DSB
+						}
+					}
+					ROM = {
+						annex_country = {
+							target = TRA
+						}
+						transfer_state = 764
+					}
+					DSB = {
+						set_autonomy = {
+							target = AUS
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = CZE
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = HUN
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = SLO
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = CRO
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = GAL
+							autonomous_state = autonomy_integrated_puppet
+						}
+						transfer_state = 1051
+					}
+					CRO = {
+						annex_country = {
+							target = BOS
+						}
+						every_state = {
+							limit = { is_core_of = BOS }
+							add_core_of = BOS
+						}
+					}
+					AUS = {
+						create_country_leader = {
+							name = GER_werner_von_blomberg
+							picture = GFX_DSB_werner_von_blomberg
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_AUS
+					}
+					CZE = {
+						create_country_leader = {
+							name = GER_gunther_von_kluge
+							picture = GFX_DSB_gunther_von_kluge
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_CZE
+					}
+					HUN = {
+						create_country_leader = {
+							name = GER_fedor_von_bock
+							picture = GFX_GER_fedor_von_bock
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_HUN
+						transfer_state = 45
+					}
+					SLO = {
+						create_country_leader = {
+							name = GER_maximilian_von_weichs
+							picture = GFX_GER_maximilian_von_weichs
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_SLO
+					}
+					CRO = {
+						create_country_leader = {
+							name = GER_albert_kesselring
+							picture = GFX_GER_albert_kesselring
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_CRO
+					}
+					GAL = {
+						create_country_leader = {
+							name = GER_georghans_reinhardt
+							picture = GFX_GER_georghans_reinhardt
+							ideology = Wilhelm_II_ideologies
+						}
+						set_politics = { ruling_party = tttt elections_allowed = no }
+						add_popularity = {
+							ideology = tttt
+							popularity = 0.45
+						}
+						set_cosmetic_tag = DSB_GAL
+					}
+					if = {
+						limit = {
+							POL = {
+								is_subject_of = DSB
+							}
+						}
+						POL = {
+							annex_country = {
+								target = GAL
+								transfer_troops = yes
+							}
+						}
+					}
+					add_to_variable= { DSB_WWII_winner_var = 1 }
+					if = {
+						limit = { check_variable = { DSB_WWII_winner_var = 4 } }
+						DSB = { country_event = { id = DSB.87 days = 3 } }
+						set_global_flag = GERMANY_REICH_DOWN_SCF
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#俄罗斯
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR ={
+							original_tag = DSB
+							original_tag = CSA
+							original_tag = ITA
+							original_tag = ENG
+							original_tag = JAP
+						}
+					}
+					ROOT =  {
+						original_tag = SOV
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				FROM = {
+					every_country = {
+						white_peace = ROOT
+					}
+					SOV = {
+						release = LAT
+						release = UKR
+						release = BLR
+						release = KAL
+						release = KBK
+						release = NOA
+						release = CIN
+						release = DAG
+						release = RCA
+						release = KAZ
+						release = TRS
+						release = AZR
+						release = GEO
+						release = ARM
+						transfer_navy = {
+							target = DSB
+						}
+					}
+					FIN = {
+						transfer_state = 213
+						transfer_state = 215
+						transfer_state = 216
+					}
+					KAZ = {
+						transfer_state = 406
+					}
+					KAL = {
+						transfer_state = 236
+					}
+					UKR = {
+						transfer_state = 218
+					}
+					LAT = {
+						transfer_state = 810
+					}
+					RUS = {
+						transfer_state = 264
+						transfer_state = 248
+						transfer_state = 253
+						transfer_state = 252
+						transfer_state = 255
+						transfer_state = 239
+						transfer_state = 829
+						transfer_state = 217
+						transfer_state = 244
+						transfer_state = 263
+						transfer_state = 246
+						transfer_state = 247
+						transfer_state = 219
+						transfer_state = 254
+						transfer_state = 257
+						transfer_state = 258
+						transfer_state = 265
+						transfer_state = 1056
+						transfer_state = 208
+						transfer_state = 209
+						transfer_state = 210
+						transfer_state = 242
+						transfer_state = 243
+						transfer_state = 224
+						transfer_state = 220
+						transfer_state = 240
+						transfer_state = 260
+						transfer_state = 245
+						transfer_state = 205
+						transfer_state = 222
+						transfer_state = 223
+					}
+					DSB = {
+						transfer_state = 195
+						transfer_state = 137
+						transfer_state = 196
+						transfer_state = 1050
+						set_autonomy = {
+							target = LAT
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = UKR
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = BLR
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = RUS
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = KAL
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = KBK
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = NOA
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = CIN
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = DAG
+							autonomous_state = autonomy_integrated_puppet
+						}
+						set_autonomy = {
+							target = RCA
+							autonomous_state = autonomy_integrated_puppet
+						}
+					}
+					236 = { add_core_of = KAL }
+					213 = { add_core_of = FIN }
+					215 = { add_core_of = FIN }
+					216 = { add_core_of = FIN }
+					UKR = {
+						set_cosmetic_tag = GER_UKR
+					}
+					BLR = {
+						set_cosmetic_tag = GER_BLR
+						create_country_leader = {
+							name = BLR_Bronislav_Vladislavovich_Kaminsky
+							picture = GFX_BLR_Bronislav_Vladislavovich_Kaminsky
+							ideology = Wilhelm_II_ideologies
+						}
+					}
+					RUS = {
+						set_cosmetic_tag = GER_RUS
+						create_country_leader = {
+							name = GER_alfred_jodl
+							picture = GFX_GER_alfred_jodl
+							ideology = Wilhelm_II_ideologies
+						}
+					}
+					POL = {
+						set_cosmetic_tag = GER_POL
+					}
+					AZR = {
+						set_cosmetic_tag = GER_AZR
+					}
+					RCA = {
+						set_cosmetic_tag = GER_RCA
+						create_country_leader = {
+							name = RCA_YXL
+							picture = GFX_RCA_YXL
+							ideology = Wilhelm_II_ideologies
+						}
+					}
+					add_to_variable= { DSB_WWII_winner_var = 1 }
+					if = {
+						limit = { check_variable = { DSB_WWII_winner_var = 4 } }
+						DSB = { country_event = { id = DSB.87 days = 3 } }
+						set_global_flag = GERMANY_REICH_DOWN_SCF
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+	#意大利
+	on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						OR ={
+							original_tag = DSB
+							original_tag = CSA
+							original_tag = ITA
+							original_tag = ENG
+							original_tag = JAP
+						}
+					}
+					ROOT =  {
+						original_tag = ITA
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+					white_peace = ROOT
+				}
+				FROM = {
+					DSB = {
+						transfer_state = 39
+					}
+					39 = { add_core_of = DSB }
+					ITA = {
+						transfer_navy = {
+							target = DSB
+						}
+					}
+					ENG = {
+						transfer_state = 114
+					}
+					SPM = {
+						transfer_state = 850
+						annex_country = {
+							target = ITA
+							transfer_troops = yes
+						}
+						set_cosmetic_tag = SPM_ITA
+					}
+					add_to_variable= { DSB_WWII_winner_var = 1 }
+					if = {
+						limit = { check_variable = { DSB_WWII_winner_var = 4 } }
+						DSB = { country_event = { id = DSB.87 days = 3 } }
+						set_global_flag = GERMANY_REICH_DOWN_SCF
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+}

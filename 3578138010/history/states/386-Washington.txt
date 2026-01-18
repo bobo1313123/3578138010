@@ -1,0 +1,47 @@
+state = {
+	id = 386
+	name = "STATE_386" # Washington State
+	manpower = 234190
+	
+	state_category = large_town
+
+	history = {
+
+		owner = USA
+		add_core_of = USA
+
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 5
+
+			7315 = {
+				naval_base = 3
+			}
+
+			# Grand Coulee Dam
+			#10327 = { dam = 1 }
+
+		}
+		victory_points = {
+			1690 1 # Spokane
+		}
+		
+
+		1939.1.1 = {
+			buildings = {
+				7315 = {
+					air_facility = 1 # Boeing Factories
+				}
+			}
+		}
+	}
+
+	provinces = {
+		4747 10687 12673 10693 1690 10327
+	}
+
+	local_supplies = 0.0 
+}

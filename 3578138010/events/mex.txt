@@ -1,0 +1,81 @@
+﻿###########################
+# mex Events
+###########################
+
+add_namespace = tve_mex
+
+
+#备忘录：与那个思想家的谈话
+country_event = {
+	id = tve_mex.1
+	title = tve_mex.1.t
+	desc = tve_mex.1.desc
+	picture = GFX_report_event_chinese_soldiers_02
+	is_triggered_only = yes
+
+	#yes	
+	option = {
+		name = tve_mex.1.a
+	}
+
+}
+
+#备忘录：革命的艺术家们
+country_event = {
+	id = tve_mex.2
+	title = tve_mex.2.t
+	desc = tve_mex.2.desc
+	picture = GFX_report_event_chinese_soldiers_02
+	is_triggered_only = yes
+
+	#yes	
+	option = {
+		name = tve_mex.2.a
+	}
+
+}
+
+#备忘录：和新鲜血液的交流
+country_event = {
+	id = tve_mex.3
+	title = tve_mex.3.t
+	desc = tve_mex.3.desc
+	picture = GFX_report_event_chinese_soldiers_03
+	is_triggered_only = yes
+
+	#yes	
+	option = {
+		name = tve_mex.3.a
+	}
+
+}
+
+#备忘录：与军队高层人士的对话
+country_event = {
+	id = tve_mex.4
+	title = tve_mex.4.t
+	desc = tve_mex.4.desc
+	picture = GFX_report_event_chinese_soldiers_02
+	is_triggered_only = yes
+
+	#yes	
+	option = {
+		name = tve_mex.4.a
+	}
+
+}
+
+#高卓晚宴
+country_event = {
+	id = tve_mex.5
+	title = tve_mex.5.t
+	desc = tve_mex.5.desc
+	picture = GFX_report_event_chinese_soldiers_02
+	is_triggered_only = yes
+
+	#yes	
+	option = {
+		name = tve_mex.5.a
+	}
+
+}

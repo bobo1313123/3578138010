@@ -1,0 +1,40 @@
+state = {
+	id = 1026
+	name = "STATE_1026"
+	manpower = 2912076
+	state_category = city
+	resources = {
+		steel = 15.000
+		oil = 120
+	}
+
+	history = {
+
+		owner = TEX
+		add_core_of = TEX
+		add_core_of = CSA
+		add_claim_by = USA
+
+		#victory_points = {
+		#	11386 1 # Lyck
+		#}
+
+		victory_points = {
+			12782 1 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+		}
+		
+	}
+
+
+	provinces={
+		4955 12728 2019 12782 1927 4884 2042 6987 5061 6785 12369 1998 8064 6798
+	}
+
+	local_supplies = 20.0 
+}

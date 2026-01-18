@@ -1,0 +1,26 @@
+state={
+	id=1047
+	name="STATE_1047"
+
+	state_category = town
+
+
+	history={
+		owner = SPM
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = SPM
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		6862 11751
+	}
+	manpower = 236700
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

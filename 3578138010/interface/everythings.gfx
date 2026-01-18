@@ -1,0 +1,269 @@
+spriteTypes = {
+		# News Event #
+	spriteType = {
+		name = "GFX_news_event_generic_anglo_iraqi_war_1"
+		texturefile = "gfx/event_pictures/news_event_generic_anglo_iraqi_war_1.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ENG_middle_eastern_conflict_2"
+		texturefile = "gfx/event_pictures/news_event_ENG_middle_eastern_conflict_2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_generic_anglo_iraqi_war_2"
+		texturefile = "gfx/event_pictures/news_event_generic_anglo_iraqi_war_2.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_generic_arab_revolt"
+		texturefile = "gfx/event_pictures/news_event_generic_arab_revolt.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_ENG_middle_eastern_conflict"
+		texturefile = "gfx/event_pictures/news_event_ENG_middle_eastern_conflict.dds"
+	}
+
+	spriteType = {
+		name = "GFX_juan_kuan_ma"
+		texturefile = "gfx/event_pictures/juan_kuan_ma.jpg"
+	}
+	spriteType = {
+		name = "GFX_return_back_industry"
+		texturefile = "gfx/interface/decisions/return_back_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_END"
+		texturefile = "gfx/interface/goals/DSB_END.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_NACH_WESTERN"
+		texturefile = "gfx/interface/goals/DSB_NACH_WESTERN.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_PASHE_FOUR_FIRST"
+		texturefile = "gfx/interface/goals/DSB_PASHE_FOUR_FIRST.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_WII_SPEECH"
+		texturefile = "gfx/interface/goals/DSB_WII_SPEECH.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_National_industry"
+		texturefile = "gfx/interface/goals/DSB_National_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_National_capitalism"
+		texturefile = "gfx/interface/goals/DSB_National_capitalism.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_FREE_ECONOMY"
+		texturefile = "gfx/interface/goals/DSB_FREE_ECONOMY.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_WWII_first_flag"
+		texturefile = "gfx/leaders/DSB_WWII_first_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_CHIANG_KAI_SHEIK"
+		texturefile = "gfx/leaders/CHI_CHIANG_KAI_SHEIK.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_Chamberlain"
+		texturefile = "gfx/leaders/ENG_Chamberlain.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_Winston_c"
+		texturefile = "gfx/leaders/ENG_Winston_c.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Laval"
+		texturefile = "gfx/leaders/FRA_Laval.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_aleksandr_kerensky"
+		texturefile = "gfx/leaders/RUS/RUS_aleksandr_kerensky.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_Józef_ Klemens_Piłsudski"
+		texturefile = "gfx/leaders/POL/POL_Józef_ Klemens_Piłsudski.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_Józef_ Klemens_Piłsudski"
+		texturefile = "gfx/leaders/POL/POL_Józef_ Klemens_Piłsudski.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_HITTLER"
+		texturefile = "gfx/leaders/GER_HITTLER.dds"
+	}
+	spriteType = {
+		name = "GFX_ITA_Mussolini"
+		texturefile = "gfx/leaders/ITA_Mussolini.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Hirohito"
+		texturefile = "gfx/leaders/JAP_Hirohito.dds"
+	}
+	spriteType = {
+		name = "GFX_PRC_MAO_ZE_DONG"
+		texturefile = "gfx/leaders/PRC_MAO_ZE_DONG.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_STALIN"
+		texturefile = "gfx/leaders/SOV_STALIN.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_Baldwin"
+		texturefile = "gfx/leaders/ENG_Baldwin.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_coperate_with_von"
+		texturefile = "gfx/interface/goals/DSB_coperate_with_von.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_goverment_reform"
+		texturefile = "gfx/interface/goals/DSB_goverment_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_smooth_vage"
+		texturefile = "gfx/interface/goals/DSB_smooth_vage.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_close_Parliament"
+		texturefile = "gfx/interface/goals/DSB_close_Parliament.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Martial_Laws_promulgated"
+		texturefile = "gfx/interface/goals/DSB_Martial_Laws_promulgated.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_unterdrucken"
+		texturefile = "gfx/interface/goals/DSB_unterdrucken.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Wahlen_Uncer_Zwang"
+		texturefile = "gfx/interface/goals/DSB_Wahlen_Uncer_Zwang.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_WWII_March"
+		texturefile = "gfx/interface/goals/DSB_WWII_March.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_bribe"
+		texturefile = "gfx/interface/goals/DSB_bribe.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_oh_no"
+		texturefile = "gfx/interface/goals/DSB_oh_no.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_republic_get_out"
+		texturefile = "gfx/interface/goals/DSB_republic_get_out.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Ji_Ji_Xing"
+		texturefile = "gfx/interface/goals/DSB_Ji_Ji_Xing.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Man_F"
+		texturefile = "gfx/leaders/DSB_Man_F.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Man_S"
+		texturefile = "gfx/leaders/DSB_Man_S.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_HIT_HARD"
+		texturefile = "gfx/interface/goals/DSB_HIT_HARD.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_FU_PI"
+		texturefile = "gfx/interface/goals/DSB_FU_PI.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_GOOD_GOOD_BAD_BAD"
+		texturefile = "gfx/interface/goals/DSB_GOOD_GOOD_BAD_BAD.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_ZONG_CONG_GOOD"
+		texturefile = "gfx/interface/goals/DSB_ZONG_CONG_GOOD.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_I_SEE_YOU"
+		texturefile = "gfx/interface/goals/DSB_I_SEE_YOU.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_COMMUNISM_CCB"
+		texturefile = "gfx/interface/goals/DSB_COMMUNISM_CCB.dds"
+	}
+	spriteType = {
+		name = "GFX_REICH_BANZAI"
+		texturefile = "gfx/interface/goals/REICH_BANZAI.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_CUT_FACTORY_CHAT"
+		texturefile = "gfx/interface/goals/DSB_CUT_FACTORY_CHAT.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_UNITED_OVER"
+		texturefile = "gfx/interface/goals/DSB_UNITED_OVER.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_goverment_reform_not_start"
+		texturefile = "gfx/interface/ideas/goverment_reform_not_start.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_prussia_manpower"
+		texturefile = "gfx/interface/ideas/prussia_manpower.png"
+	}
+	spriteType = {
+		name = "GFX_DSB_ZHI_DAO_LONG_XUE"
+		texturefile = "gfx/interface/goals/DSB_ZHI_DAO_LONG_XUE.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_JING_WEI_BU"
+		texturefile = "gfx/interface/goals/DSB_JING_WEI_BU.dds"
+	}
+	progressbartype ={
+		name = "GFX_NOU_struggle_progress_bar"
+		textureFile1 = "gfx/interface/test/bar_progress_blue.dds"
+		textureFile2 = "gfx/interface/test/bar_going_left.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 350
+			y = 30
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+	spriteType = {
+		name = "GFX_DSB_copertae_with_god"
+		texturefile = "gfx/interface/goals/DSB_copertae_with_god.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_ZJSLXENG"
+		texturefile = "gfx/interface/goals/DSB_ZJSLXENG.dds"
+	}
+	spriteType = {
+		name = "GFX_QUE_BAO_VON_JUNGUAN"
+		texturefile = "gfx/interface/goals/QUE_BAO_VON_JUNGUAN.dds"
+	}
+	spriteType = {
+		name = "GFX_WWII_LOOK_FOR_D"
+		texturefile = "gfx/interface/goals/WWII_LOOK_FOR_D.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_CNGG"
+		texturefile = "gfx/interface/goals/DSB_CNGG.dds"
+	}
+	spriteType = {
+		name = "GFX_CLOSE_YIHUI"
+		texturefile = "gfx/interface/goals/CLOSE_YIHUI.dds"
+	}
+	spriteType = {
+		name = "GFX_Archduke_Franz_Ferdinand_of_Austria"
+		texturefile = "gfx/leaders/AUS/Archduke_Franz_Ferdinand_of_Austria.dds"
+	}
+	spriteType = {
+		name = "GFX_Subhash_Chandra_Bose_TVE"
+		texturefile = "gfx/leaders/RAJ/Subhash_Chandra_Bose_TVE.dds"
+	}
+}

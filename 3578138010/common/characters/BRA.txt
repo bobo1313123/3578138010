@@ -1,0 +1,25 @@
+characters = {
+	BRA_peideluo_3 = {
+		name = BRA_peideluo_3
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_peideluo_3
+			}
+		}
+		country_leader = {
+			ideology =despotism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	BRA_washitong_luyisi = {
+		name = BRA_washitong_luyisi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BRA_washitong_luyisi
+			}
+		}
+
+	}
+}
+	

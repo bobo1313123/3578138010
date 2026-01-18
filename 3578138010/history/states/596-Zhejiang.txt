@@ -1,0 +1,29 @@
+state={
+	id=596
+	name="STATE_596"
+	provinces={
+		1096 7058 9974 10058 
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 1
+
+			}
+
+		}
+
+	}
+	manpower=21230700
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

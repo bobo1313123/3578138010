@@ -1,0 +1,87 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FRA_Jean_dOrléans"
+		texturefile = "gfx/leaders/FRA/FRA_Jean_dOrléans.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Léon_Daudet"
+		texturefile = "gfx/leaders/FRA/FRA_Léon_Daudet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_1870_Heritage"
+		texturefile = "gfx/interface/ideas/FRA/1870_Heritage.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_A_torn_society"
+		texturefile = "gfx/interface/ideas/FRA/A_torn_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_France_with_exposed_white_bones"
+		texturefile = "gfx/interface/ideas/FRA/FRA_France_with_exposed_white_bones.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Vast_ecclesiastical_power"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Vast_ecclesiastical_power.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Poor_road_construction"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Poor_road_construction.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Economic_downturn"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Economic_downturn.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_The_Detrimental_Effects_of_the_Aboriginal_Ordinance"
+		texturefile = "gfx/interface/ideas/FRA/FRA_The_Detrimental_Effects_of_the_Aboriginal_Ordinance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Agricultural_protection_policy"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Agricultural_protection_policy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Chauvinism_is_unstoppable"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Chauvinism_is_unstoppable.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Decadent_World_Army"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Decadent_World_Army.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Ending_the_Stavicki_scandal"
+		texturefile = "gfx/interface/goals/FRA/FRA_Ending_the_Stavicki_scandal.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Ensure_the_loyalty_of_the_military"
+		texturefile = "gfx/interface/goals/FRA/FRA_Ensure_the_loyalty_of_the_military.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Protesters_outside_the_Elysee_Palace"
+		texturefile = "gfx/interface/goals/FRA/FRA_Protesters_outside_the_Elysee_Palace.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Money"
+		texturefile = "gfx/interface/goals/FRA/FRA_Money.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Against_with_Strike"
+		texturefile = "gfx/interface/goals/FRA/FRA_Against_with_Strike.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_need_bourgeoisie_help"
+		texturefile = "gfx/interface/goals/FRA/FRA_need_bourgeoisie_help.png"
+	}
+	spriteType = {
+		name = "GFX_FRA_FUCK"
+		texturefile = "gfx/interface/goals/FRA/FRA_FUCK.png"
+	}
+
+	spriteType = {
+		name = "GFX_FRA_france_Chauvinism"
+		texturefile = "gfx/texticons/banners/FRA_france_Chauvinism.dds"  legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_A_torn_society_p"
+		texturefile = "gfx/texticons/banners/A_torn_society_p.dds"  legacy_lazy_load = no
+	}
+}

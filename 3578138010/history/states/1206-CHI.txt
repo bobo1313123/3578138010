@@ -1,0 +1,18 @@
+state={
+	id=1206
+	name="STATE_1206"
+	manpower = 1270509
+
+	state_category = rural
+
+	history={
+		owner = TIB
+		add_core_of = TIB
+	}
+
+	provinces={
+		10856 4407 
+	}
+
+	local_supplies=7.0 
+}

@@ -1,0 +1,1124 @@
+#政治
+focus_tree = {
+	id = dashabi_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DSB
+		}
+	}
+
+	default = no
+	shared_focus = DSB_WWI_deat
+	shared_focus = DSB_National_Recovery
+	shared_focus = DSB_attack_nothern
+	shared_focus = DSB_fight_for_GER
+	shared_focus = DSB_industry_title
+	shared_focus = DSB_Wei_Jing_Zhi_Shi
+	shared_focus = DSB_ZMSL
+
+	continuous_focus_position = { x = 20 y = 2000 }
+
+	focus = {
+		id = DSB_again_year
+		icon = GFX_DSB_WII_SPEECH
+		cost = 1
+		x = 10
+		y = 0
+
+		available = {
+			is_subject = no
+		}
+
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.05
+			country_event = { id = DSB.48 }
+		}
+	}
+	focus = {
+		id = DSB_restore_work
+		prerequisite = {
+			focus = DSB_again_year
+		}
+		icon = GFX_DSB_goverment_reform
+		cost = 2
+		x = -1
+		y = 1
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = sour_restoration_3
+				
+				add_idea = sour_restoration_2
+		    }
+			country_event = { id = DSB.49 }
+		}
+	}
+	focus = {
+		id = DSB_appease_Juncker
+		prerequisite = {
+			focus = DSB_again_year
+		}
+		icon = GFX_DSB_coperate_with_von
+		cost = 2
+		x = 1
+		y = 1
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = sour_juncker_unhappy_3
+				add_idea = sour_juncker_unhappy_2
+		    }
+			country_event = { id = DSB.50 }
+		}
+	}
+	focus = {
+		id = DSB_smooth_voyage
+		prerequisite = {
+			focus = DSB_appease_Juncker
+		}
+		prerequisite = {
+			focus = DSB_restore_work
+		}
+		icon = GFX_DSB_smooth_vage
+		cost = 2
+		x = 0
+		y = 2
+		relative_position_id = DSB_again_year
+
+		select_effect = {
+			country_event = { id = DSB.51 days = 5 }
+		}
+
+		completion_reward = {
+			add_stability = 0.10
+			hidden_effect = {
+				country_event = {
+					id = DSB.1 days = 2
+				}
+				news_event = {
+					id = NEWS_DSB.1 days = 4
+				}
+			}
+		    custom_effect_tooltip = WWI_smooth_voyage
+		}
+	}
+	focus = {
+		id = DSB_yuci_fengbo
+		prerequisite = {
+			focus = DSB_smooth_voyage
+		}
+		icon = GFX_DSB_oh_no
+		cost = 0
+		x = 0
+		y = 3
+		relative_position_id = DSB_again_year
+
+		allow_branch = {
+			has_country_flag = WWI_live_new_focus
+		}
+
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+			country_event = {
+				id = DSB.32
+				days = 4
+			}
+			hidden_effect = {
+				country_event = { id = DSB.52 hours = 6 }
+			}
+		}
+	}
+	focus = {
+		id = DSB_banbu_jieyanling
+		prerequisite = {
+			focus = DSB_yuci_fengbo
+		}
+		icon = GFX_DSB_Martial_Laws_promulgated
+		cost = 0
+
+		available = {
+			always = no
+		}
+
+		x = 0
+		y = 4
+		relative_position_id = DSB_again_year
+
+		allow_branch = {
+			has_country_flag = DSB_WWi_live_new_focus_law_phase
+		}
+		completion_reward = {
+			add_ideas = sour_Martial_law
+			set_variable = { dsb_army_zong_cong_point = 75 }
+			set_variable = { dsb_army_power_wwi_live = 10}
+			set_variable = { dsb_wwi_power = 10 }
+			set_variable = { republic_timed = 1080 }
+			country_event = { id = DSB.61 hours = 8 }
+		}
+	}
+	focus = {
+		id = DSB_wajie_gongren_tuanjie
+		prerequisite = {
+			focus = DSB_banbu_jieyanling
+		}
+		icon = GFX_DSB_Ji_Ji_Xing
+		cost = 2
+		x = 2
+		y = 5
+		relative_position_id = DSB_again_year
+
+		allow_branch = {
+			has_country_flag = diaocha_over_scf
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = sour_juncker_unhappy_2
+				add_idea = sour_juncker_unhappy_3
+			}
+			add_dynamic_modifier = {
+				modifier = DSB_gh
+			}
+			country_event = { id = DSB.37 }
+			hidden_effect = {
+				country_event = { id = DSB.55 days = 5 }
+			}
+		}
+	}
+	focus = {
+		id = DSB_enwei_bingshi
+		prerequisite = {
+			focus = DSB_wajie_gongren_tuanjie
+		}
+		icon = GFX_DSB_GOOD_GOOD_BAD_BAD
+		cost = 2
+		x = 1
+		y = 6
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			unlock_decision_tooltip = DSB_ytct_df
+			country_event = { id = DSB.59 }
+			custom_effect_tooltip = jew_zong_cong_rise_low
+		}
+	}
+	focus = {
+		id = DSB_ancha_yanxian
+		prerequisite = {
+			focus = DSB_wajie_gongren_tuanjie
+		}
+		icon = GFX_DSB_I_SEE_YOU
+		cost = 2
+		x = 4
+		y = 6
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			show_ideas_tooltip = DSB_gh_2
+			add_to_variable = {
+				DSB_gh_operative_slot = 1
+			}
+			add_to_variable = {
+				DSB_gh_operation_outcome = 0.15
+			}
+		}
+	}
+	focus = {
+		id = DSB_geduan_lianluo
+		prerequisite = {
+			focus = DSB_ancha_yanxian
+		}
+		icon = GFX_DSB_CUT_FACTORY_CHAT
+		cost = 2
+		x = 4
+		y = 7
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			show_ideas_tooltip = DSB_gh_3
+			add_to_variable = {
+				DSB_gh_industrial_capacity_factory = 0.05
+			}
+			add_to_variable = {
+				DSB_gh_stability_factor = -0.05
+			}
+			add_to_variable = {
+				DSB_gh_production_speed_buildings_factor = 0.04
+			}
+		}
+	}
+	focus = {
+		id = DSB_jiashang
+		prerequisite = {
+			focus = DSB_enwei_bingshi
+		}
+		icon = GFX_DSB_ZONG_CONG_GOOD
+		cost = 2
+		x = 0
+		y = 7
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			show_ideas_tooltip = DSB_gh_1
+			add_to_variable = {
+				DSB_gh_consumer_goods_factor = 0.05
+			}
+			add_to_variable = {
+				DSB_gh_stability_factor = 0.05
+			}
+			add_to_variable = {
+				DSB_gh_production_speed_buildings_factor = -0.02
+			}
+			add_to_variable = {
+				DSB_gh_political_power_factor = 0.05
+			}
+			add_to_variable = {
+				DSB_gh_industrial_capacity_factory = 0.03
+			}
+			country_event = { id = DSB.38 }
+		}
+	}
+	focus = {
+		id = DSB_daya
+		prerequisite = {
+			focus = DSB_enwei_bingshi
+		}
+		icon = GFX_DSB_HIT_HARD
+		cost = 2
+
+		available = {
+			has_completed_focus = DSB_jiashang
+		}
+
+		x = 2
+		y = 7
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			if = {
+				limit = { has_idea = sour_juncker_unhappy_3 }
+				swap_ideas = {
+					remove_idea = sour_juncker_unhappy_3
+					add_idea = sour_juncker_unhappy_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_juncker_unhappy_2 }
+				swap_ideas = {
+					remove_idea = sour_juncker_unhappy_2
+					add_idea = sour_juncker_unhappy_1
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_juncker_unhappy_1 }
+				remove_ideas = sour_juncker_unhappy_1
+			}
+			add_stability = -0.05
+			country_event = { id = DSB.39 }
+			custom_effect_tooltip = jew_zong_cong_rise_meduim
+		}
+	}
+	focus = {
+		id = DSB_zhusha_chifei
+		prerequisite = {
+			focus = DSB_jiashang
+			focus = DSB_daya
+		}
+		prerequisite = {
+			focus = DSB_geduan_lianluo
+		}
+		icon = GFX_DSB_COMMUNISM_CCB
+		cost = 2
+		x = 2
+		y = 8
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			add_popularity = {
+				ideology = Totalitarianism
+				popularity = -0.50
+			}
+			add_popularity = {
+				ideology = Progressivism
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = radical_socialism
+				popularity = -0.15
+			}
+			hidden_effect = {
+				country_event = { id = DSB.40 }
+			}
+			country_event = { id = DSB.60 hours = 4 }
+			custom_effect_tooltip = jew_zong_cong_rise_meduim
+		}
+	}
+	focus = {
+		id = DSB_jiamian
+		prerequisite = {
+			focus = DSB_zhusha_chifei
+		}
+		prerequisite = {
+			focus = DSB_qzghzy
+		}
+
+		icon = GFX_DSB_FU_PI
+		cost = 10
+		x = 0
+		y = 9
+		relative_position_id = DSB_again_year
+
+		select_effect ={
+			country_event = { id = DSB.36 days = 7 }
+		}
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = sour_juncker_unhappy_3 }
+				swap_ideas = {
+					remove_idea = sour_juncker_unhappy_3
+					add_idea = sour_juncker_unhappy_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_juncker_unhappy_2 }
+				swap_ideas = {
+					remove_idea = sour_juncker_unhappy_2
+					add_idea = sour_juncker_unhappy_1
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_juncker_unhappy_1 }
+				remove_ideas = sour_juncker_unhappy_1
+			}
+
+			if = {
+				limit = { has_idea = sour_restoration_4 }
+				swap_ideas = {
+					remove_idea = sour_restoration_4
+					add_idea = sour_restoration_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_restoration_3 }
+				swap_ideas = {
+					remove_idea = sour_restoration_3
+					add_idea = sour_restoration_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_restoration_2 }
+				remove_ideas = sour_restoration_2
+			}
+			custom_effect_tooltip = dsb_jiamian_tt
+		}
+	}
+	focus = {
+		id = DSB_zanbi_yihui
+		prerequisite = {
+			focus = DSB_banbu_jieyanling
+		}
+		icon = GFX_DSB_close_Parliament
+		cost = 0
+		x = -3
+		y = 5
+		relative_position_id = DSB_again_year
+
+		allow_branch = {
+			has_country_flag = DSB_WWi_live_new_focus_yihui_close
+		}
+		
+		available = {
+			always = no
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = sour_restoration_2
+				add_idea = sour_restoration_4
+			}
+			add_timed_idea = {
+				idea = gonghe_saoluan
+				days = 1095
+			}
+			add_to_variable = {
+				dsb_wwi_power = 10
+			}
+			add_popularity = {
+				ideology = Liberalism
+				popularity = -0.07
+			}
+			custom_effect_tooltip = wwi_rise_mideum
+		}
+	}
+	focus = {
+		id = DSB_daya_junshizuzhi
+		prerequisite = {
+			focus = DSB_zanbi_yihui
+		}
+		icon = GFX_DSB_unterdrucken
+		cost = 2
+		x = -4
+		y = 6
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			add_popularity = {
+				ideology = Liberalism
+				popularity = -0.07
+			}
+			randomize_temp_variable = {
+				var = dsb_random_s
+				distribution = uniform
+				min = 0
+				max = 5
+			}
+			remove_ideas = gonghe_saoluan
+			add_timed_idea = {
+				idea = gonghe_saoluan
+				days = 730
+			}
+			add_to_variable ={ dsb_army_zong_cong_point = dsb_random_s }
+			add_timed_idea = {
+				idea = minjianzuzhijiesan
+				days = 180
+			}
+			country_event = { id = DSB.56 }
+			custom_effect_tooltip = army_zong_cong_rise_low
+		}
+	}
+	focus = {
+		id = DSB_huilu_dongyaozhe
+		prerequisite = {
+			focus = DSB_daya_junshizuzhi
+		}
+		prerequisite = {
+			focus = DSB_shouyu_jinjiquanli
+		}
+		icon = GFX_DSB_bribe
+		cost = 2
+		x = -4
+		y = 7
+		relative_position_id = DSB_again_year
+		mutually_exclusive = {
+			focus = DSB_bipo_toupiao
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = Liberalism
+				popularity = -0.07
+			}
+			remove_ideas = gonghe_saoluan
+			add_timed_idea = {
+				idea = gonghe_saoluan
+				days = 365
+			}
+			add_timed_idea = {
+				idea = DSB_gci
+				days = 150
+			}
+			country_event = { id = DSB.34 }
+			country_event = { id = DSB.63 }
+		}
+	}
+	focus = {
+		id = DSB_shouyu_jinjiquanli
+		prerequisite = {
+			focus = DSB_zanbi_yihui
+		}
+		icon = GFX_DSB_WWII_March
+		cost = 2
+		x = -2
+		y = 6
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			add_popularity = {
+				ideology = Liberalism
+				popularity = -0.07
+			}
+			swap_ideas = {
+				remove_idea = sour_Martial_law
+				add_idea = sour_Martial_law_imper_nb
+			}
+			country_event = { id = DSB.57 }
+			custom_effect_tooltip = army_zong_cong_reduce_low
+		}
+	}
+	focus = {
+		id = DSB_bipo_toupiao
+		prerequisite = {
+			focus = DSB_shouyu_jinjiquanli
+		}
+		prerequisite = {
+			focus = DSB_daya_junshizuzhi
+		}
+		icon = GFX_DSB_Wahlen_Uncer_Zwang
+		cost = 2
+		x = -2
+		y = 7
+		relative_position_id = DSB_again_year
+		mutually_exclusive = {
+			focus = DSB_huilu_dongyaozhe
+		}
+		completion_reward = {
+			remove_ideas = gonghe_saoluan
+			add_political_power = 150
+			country_event = { id = DSB.35 }
+			add_stability = -0.30
+		}
+	}
+	focus = {
+		id = DSB_qzghzy
+		prerequisite = {
+			focus = DSB_huilu_dongyaozhe
+			focus = DSB_bipo_toupiao
+		}
+		icon = GFX_DSB_republic_get_out
+		cost = 2
+		x = -3
+		y = 8
+		relative_position_id = DSB_again_year
+		completion_reward = {
+			add_popularity = {
+				ideology = Liberalism
+				popularity = -0.07
+			}
+			add_popularity = {
+				ideology = Progressivism
+				popularity = -0.15
+			}
+			set_politics = { ruling_party = tttt elections_allowed = no }
+			custom_effect_tooltip = qzghzyz_tt
+			if = {
+				limit = {
+					has_completed_focus = DSB_huilu_dongyaozhe
+				 }
+				 remove_ideas = gonghe_saoluan
+				 add_timed_idea = {
+					idea = gonghe_saoluan
+					days = 30
+				}
+				add_political_power = 200
+			}
+			if = {
+				limit = {
+					has_completed_focus = DSB_bipo_toupiao
+				}
+				swap_ideas = {
+					remove_idea = sour_Martial_law_imper_nb
+					add_idea = sour_Martial_law_imper_nb_s
+				}
+			}
+			swap_ideas = {
+				remove_idea = sour_return
+				add_idea = sour_return_s
+			}
+		}
+	}
+	focus = {
+		id = DSB_the_war_of_kill_god
+		icon = GFX_focus_attack_germany
+		cost = 0
+		x = 45
+		y = 0
+		available = {
+			always = no
+		}
+		allow_branch = {
+			has_country_flag = DSB_pashe_3_point_5_work
+		}
+		completion_reward =  {
+			country_event = {
+				id = DSB.28
+			}
+		}
+	}
+	focus = {
+		id = DSB_fast
+		icon = GFX_focus_attack_germany
+		cost = 0
+		x = -3
+		y = 1
+		relative_position_id = DSB_the_war_of_kill_god
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = DSB_the_war_of_kill_god
+		}
+		mutually_exclusive = {
+			focus = DSB_slowly
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = sour_return
+				add_idea = DSB_sdz
+			}
+		}
+	}
+	focus = {
+		id = DSB_alies_air_army
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = -2
+		y = 2
+		relative_position_id = DSB_fast
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = DSB_fast
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = { type = small_plane_airframe_1 amount = 400 producer = ENG variant_name = "Gloster Gladiator"}
+		}
+	}
+	focus = {
+		id = DSB_coperate_with_nazi_Navy
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+		relative_position_id = DSB_fast
+		prerequisite = {
+			focus = DSB_fast
+		}
+		completion_reward = {
+			GER = {
+				transfer_navy = {
+						target = DSB
+					}
+			}
+		}
+	}
+	focus = {
+		id = DSB_Marines_insurrection
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+		relative_position_id = DSB_coperate_with_nazi_Navy
+		prerequisite = {
+			focus = DSB_coperate_with_nazi_Navy
+		}
+		completion_reward = {
+			transfer_state = 61
+			division_template = {
+				name = "Kazachya Kavaleryskaya Diviziya"
+				division_names_group = SOV_CAV_02
+				template_counter = 05
+				regiments = {
+					infantry = { x = 0 y = 0 }
+					infantry = { x = 0 y = 1 }
+					infantry = { x = 0 y = 2 }
+					infantry = { x = 0 y = 3 }
+				}
+				support = {
+
+				}
+			}
+			61 = {
+					#Cossack Cavalry
+				create_unit = {
+					division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 0.6" owner = DSB
+				}
+				create_unit = { 
+					division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 0.6" owner = DSB
+				}
+				create_unit = { 
+					division = "name = \"10ya Tersko-Stavropolskaya Kazachya Kav. Div\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 0.6" owner = DSB
+				}
+				create_unit = { 
+					division = "name = \"12ya Kubanskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 0.6" owner = DSB
+				}
+			}
+		}
+	}
+	focus = {
+		id = DSB_study_eneimes
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = -1
+		y = 1
+		relative_position_id = DSB_Marines_insurrection
+		prerequisite = {
+			focus = DSB_alies_air_army
+			focus = DSB_Marines_insurrection
+		}
+		completion_reward = {
+			set_technology = { masterful_blitz = 1 popup = yes }
+		}
+	}
+	focus = {
+		id = DSB_Nothern_fight
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = -1
+		y = 1
+		relative_position_id = DSB_study_eneimes
+		prerequisite = {
+			focus = DSB_study_eneimes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_coordinated_operation_with_BHL
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+		relative_position_id = DSB_Nothern_fight
+		prerequisite = {
+			focus = DSB_Nothern_fight
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_Southern_fight
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 1
+		y = 1
+		relative_position_id = DSB_study_eneimes
+		prerequisite = {
+			focus = DSB_study_eneimes
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_waging_Totalitarianism
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+				relative_position_id = DSB_Southern_fight
+		prerequisite = {
+			focus = DSB_Southern_fight
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_Close_up
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = -1
+		y = 1
+		relative_position_id = DSB_waging_Totalitarianism
+		prerequisite = {
+			focus = DSB_waging_Totalitarianism
+		}
+		prerequisite = {
+			focus = DSB_coordinated_operation_with_BHL
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_slowly
+		icon = GFX_focus_attack_germany
+		cost = 0
+		x = 3
+		y = 1
+		relative_position_id = DSB_the_war_of_kill_god
+		available = {
+			always = no
+		}
+		prerequisite = {
+			focus = DSB_the_war_of_kill_god
+		}
+		mutually_exclusive = {
+			focus = DSB_fast
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = sour_return
+				add_idea = DSB_htxs
+			}
+		}
+	}
+	focus = {
+		id = DSB_wswhzy
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 6
+		y = 2
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_slowly
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_cwb
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 5
+		y = 3
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_wswhzy
+		}
+		mutually_exclusive = {
+			focus = DSB_qz
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_qz
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 7
+		y = 3
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_wswhzy
+		}
+		mutually_exclusive = {
+			focus = DSB_cwb
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_ggdhf
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 3
+		y = 2
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_slowly
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_kdzb
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 3
+		y = 3
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_ggdhf
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_dh
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 5
+		y = 4
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_kdzb
+		}
+		prerequisite = {
+			focus = DSB_cwb
+			focus = DSB_qz
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_jzl
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 5
+		y = 5
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_dh
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_bl
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 3
+		y = 6
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_jzl
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_hb
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 5
+		y = 6
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_jzl
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_zqk
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 5
+		y = 7
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_bl
+		}
+		prerequisite = {
+			focus = DSB_hb
+		}
+		prerequisite = {
+			focus = DSB_blg
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_blg
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 7
+		y = 6
+		relative_position_id = DSB_the_war_of_kill_god
+		prerequisite = {
+			focus = DSB_jzl
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_contact_destuch_people
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = -3
+		y = 1
+		relative_position_id = DSB_slowly
+		prerequisite = {
+			focus = DSB_fast
+			focus = DSB_slowly
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_distribute_handbill
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = -1
+		y = 1
+		relative_position_id = DSB_contact_destuch_people
+		prerequisite = {
+			focus = DSB_contact_destuch_people
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_openning_sea
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+		relative_position_id = DSB_distribute_handbill
+		prerequisite = {
+			focus = DSB_distribute_handbill
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_subsidize_resist
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+		relative_position_id = DSB_openning_sea
+		prerequisite = {
+			focus = DSB_distribute_handbill
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_develop_under_party
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 1
+		y = 1
+		relative_position_id = DSB_contact_destuch_people
+		prerequisite = {
+			focus = DSB_contact_destuch_people
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_Approval_copertae_with_Totalitarianism
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+		relative_position_id = DSB_develop_under_party
+		prerequisite = {
+			focus = DSB_develop_under_party
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_Small_scale_guerrilla
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+		relative_position_id = DSB_Approval_copertae_with_Totalitarianism
+		prerequisite = {
+			focus = DSB_Approval_copertae_with_Totalitarianism
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_r
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = -1
+		y = 1
+		relative_position_id = DSB_Small_scale_guerrilla
+		prerequisite = {
+			focus = DSB_Small_scale_guerrilla
+		}
+		prerequisite = {
+			focus = DSB_subsidize_resist
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DSB_a
+		icon = GFX_focus_attack_germany
+		cost = 2.5
+		x = 0
+		y = 1
+		relative_position_id = DSB_r
+		prerequisite = {
+			focus = DSB_r
+		}
+		completion_reward = {
+		}
+	}
+}

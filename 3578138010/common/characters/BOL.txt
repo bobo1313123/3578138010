@@ -1,0 +1,24 @@
+characters = {
+	BOL_aosika_leimengduo = {
+		name = BOL_aosika_leimengduo 
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BOL_aosika_leimengduo
+			}
+		}
+		country_leader = {
+			ideology =Conservatism_small
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	BOL_herman_bushi = {
+		name = BOL_herman_bushi
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BOL_herman_bushi
+			}
+		}
+	}
+}
+	

@@ -1,0 +1,131 @@
+bookmarks = {
+	bookmark = {
+		name = "TVE_bookmark_title"
+		desc = "TVE_bookmark_desc"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "DSB"
+		default = yes
+		"FRA"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AUS"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CHI"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"POL"={
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = Conservatism
+			ideas = {
+				POL_yuanshuai_yuanze
+				POL_jiaoaode_bolanren
+				POL_haibiande_kanke
+			}
+			focuses = {
+			}
+		}
+		"SPM"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			history = "SOV_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GER"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GRE"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"TUR"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CSA"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
+			ideology = Conservatism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"DSB"={
+			history = "DSB_GATHERING_STORM_DESC"
+			ideology = Authoritarianism
+			ideas = {
+				sour_return
+				prussia_army_second
+				sour_juncker_unhappy_3
+			}
+			focuses = {
+				DSB_smooth_voyage
+				DSB_qbdw
+				DSB_Wei_Jing_Zhi_Shi
+			}
+		}
+	}
+}

@@ -1,0 +1,868 @@
+characters={
+	Anarchy_TVE = {
+		name=Anarchy_TVE
+		portraits={
+			civilian={
+				large=GFX_ANA_anarchy
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits={ generallissimo }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DSB_chiang_WWI={
+		name=DSB_chiang_WWI
+		portraits={
+			civilian={
+				large = GFX_DSB_chiang_WWI_Start
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits={ generallissimo }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DSB_erwin_rommel = {
+		name = GER_erwin_rommel
+		portraits = {
+			army = {
+				large = GFX_DSB_erwin_rommel
+				small = GFX_idea_erwin_rommel
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = erwin_rommel
+			ledger = army
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				army_armored_3
+			}
+			cost = 200
+			ai_will_do = {
+				base = 8
+			}
+		}
+		
+		corps_commander = {
+			traits = { trait_reckless media_personality armor_officer war_hero trickster }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id = 4
+		}
+	}
+	DSB_Adolph_Friedrich = {
+		name = Adolph_Friedrich
+		portraits = {
+			army = {
+				large = GFX_Adolph_Friedrich
+			}
+		}
+		country_leader={
+			ideology = despotism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			traits = { media_personality armor_officer war_hero winter_specialist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 7
+			planning_skill = 5
+			logistics_skill = 9
+		}
+	}
+	DSB_heinz_guderian = {
+		name = GER_heinz_guderian
+		portraits = {
+			army = {
+				large = GFX_DSB_heinz_guderian
+				small = GFX_idea_heinz_guderian
+			}
+		}
+		advisor = {
+			cost = 200
+			slot = theorist
+			idea_token = heinz_guderian
+			ledger = army
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				blitzkrieg_theorist
+			}
+		}
+		
+		corps_commander = {
+			traits = { brilliant_strategist career_officer armor_officer trickster panzer_leader }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 6
+		}
+	}
+	DSB_chiang_WWI_democratic = {
+		name=DSB_chiang_WWI
+		portraits={
+			civilian={
+				large=GFX_DSB_chiang_WWI_Democratic
+			}
+		}
+		country_leader={
+			ideology = Conservatism_small
+			traits={ dsb_reformer }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DSB_chiang_WWI_tt = {
+		name=DSB_chiang_WWI
+		portraits={
+			civilian={
+				large=GFX_DSB_chiang_WWI_Start
+			}
+		}
+		country_leader={
+			ideology = Wilhelm_II_ideologies
+			traits={ generallissimo }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DSB_wilhelm_iii = { #Empty Wilhelm III so he doesn't become ruler automatically if the neutrals are in power
+		name = GER_wilhelm_iii
+		portraits = {
+			civilian = {
+				large = GFX_portrait_ger_wilhelm_iii
+			}	
+		}
+	}
+	DSB_otto_grotewohl = { 
+		name = GER_otto_grotewohl
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_otto_grotewohl
+				small = GFX_portrait_GER_otto_grotewohl_small
+			}
+		}
+		country_leader = { #Gets his role through an event
+			ideology = marxism
+			traits = { GER_pragmatic_socialist }
+			expire = "1965.1.1.1"
+		}
+	}
+	DSB_hans_vogel = {
+		name = GER_hans_vogel
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_hans_vogel
+				small = GFX_portrait_GER_hans_vogel_small
+			}
+		}
+		country_leader = { #Gets his role through an event
+			ideology = socialism
+			traits = { GER_staunch_social_democrat }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+	DSB_wilhelm_iv = { #Empty Wilhelm IV so he doesn't become ruler automatically if the neutrals are in power
+	name = GER_wilhelm_iv
+	portraits = {
+		civilian = {
+			large = GFX_portrait_GER_wilhelm_iv
+			small = GFX_portrait_GER_wilhelm_iv_small
+		}	
+	}
+}
+	DSB_werner_von_blomberg = {
+		name = GER_werner_von_blomberg
+		portraits = {
+			army = {
+				large = GFX_DSB_werner_von_blomberg
+				small = GFX_portrait_GER_werner_von_blomberg_small
+			}
+		}
+
+		field_marshal = { 
+			traits = { defensive_doctrine thorough_planner }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		}
+
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = GER_werner_von_blomberg
+			ledger = army
+			allowed = {
+				tag = DSB
+			}
+			traits = {
+				grand_battle_plan_expert
+			}
+		}
+	}
+
+	DSB_gerd_von_rundstedt = {
+		name = GER_gerd_von_rundstedt
+		portraits = {
+			army = {
+				large = GFX_DSB_gerd_von_rundstedt
+				small = GFX_idea_gerd_von_rundstedt
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = GER_gerd_von_rundstedt
+			ledger = army
+			allowed = {
+				tag = DSB
+			}
+			traits = {
+				army_regrouping_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+		
+		corps_commander = { 
+			traits = { trait_cautious brilliant_strategist old_guard }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = 1
+		}
+	}
+	DSB_ludwig_beck = {
+		name = GER_ludwig_beck
+		portraits = {
+			army = {
+				small = GFX_idea_ludwig_beck
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = ludwig_beck
+			allowed = {
+				tag = DSB
+			}
+			traits = {
+				army_chief_organizational_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 8.000
+			}
+		}
+	}
+
+	DSB_gunther_von_kluge = {
+		name = GER_gunther_von_kluge
+		portraits = {
+			army = {
+				large = GFX_DSB_gunther_von_kluge
+				small = GFX_portrait_GER_gunther_von_kluge_small
+			}
+		}
+		corps_commander = { 
+			traits = { trait_cautious brilliant_strategist }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id = 2
+		}
+	}
+	DSB_otto_strasser = {
+		name = DSB_chiang_WWI
+		portraits = {
+			civilian = {
+				large = GFX_DSB_chiang_WWI_Loser
+			}
+		}
+		country_leader = {
+			ideology = rexism
+			traits = { }
+			expire = "1954.1.1.1"
+			id = -1
+		}
+	}
+
+	DSB_walter_model = {
+		name = GER_walter_model
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_walter_model
+				small = GFX_portrait_GER_walter_model_small
+			}
+		}
+		corps_commander = { 
+			traits = { harsh_leader politically_connected inflexible_strategist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = 10
+			visible = {
+				OR = {
+					has_completed_focus = GER_bribe_senior_officers
+					has_global_flag = GER_civil_war_has_started
+				}
+			}
+		}
+	}
+	DSB_vincenz_muller = {
+		name = GER_vincenz_muller
+		portraits = {
+			army = {
+				large = GFX_portrait_GER_vincenz_muller
+				small = GFX_portrait_GER_vincenz_muller_small
+			}
+		}
+		field_marshal = { 
+			traits = { infantry_officer trait_reckless politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			visible = {
+				has_completed_focus = GER_reorganize_nationale_volksarmee
+			}
+		}
+	}
+	DSB_werner_von_fritsch = {
+		name = GER_werner_von_fritsch
+		portraits = {
+			army = {
+				large = GFX_DSB_werner_von_fritsch
+				small = GFX_portrait_GER_werner_von_fritsch_small
+			}
+		}
+
+		advisor = {
+			slot = high_command
+			idea_token = werner_von_fritsch_high_command
+			ledger = army
+			allowed = {
+				tag = DSB
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+
+		advisor = {
+			slot = army_chief
+			idea_token = werner_von_fritsch_army_chief
+			ledger = army
+			allowed = {
+				original_tag = GER
+				has_dlc = "Gotterdammerung"
+			}
+			visible = {
+				NOT = {
+					has_completed_focus = GER_remilitarize_the_rhineland
+					has_completed_focus = GER_the_monarchy_compromise_ww
+					has_completed_focus = GER_start_the_proletarian_revolution
+				}
+			}
+			available = {
+				not_already_hired_except_as = army_chief
+				has_completed_focus = GER_prussian_artillery
+			}
+			traits = {
+				army_chief_army_high_command
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.500
+			}
+		}
+
+		corps_commander = {
+			traits = { trait_cautious old_guard }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			visible = {
+				NOT = {
+					has_completed_focus = GER_reorganize_the_wehrmacht
+				}
+			}
+		}
+	}
+	DSB_erich_von_manstein = {
+		name = GER_erich_von_manstein
+		portraits = {
+			army = {
+				large = GFX_DSB_Man_F
+				small = GFX_idea_manstein
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			idea_token = manstein
+			ledger = army
+			allowed = {
+				tag = DSB
+			}
+			available = {
+				NOT = {
+					has_completed_focus = DSB_WWI_NB
+				}
+			}
+			traits = {
+				mobile_warfare_expert
+			}
+		}
+		
+		corps_commander = {
+			traits = { brilliant_strategist armor_officer trickster trait_engineer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = 5
+		}
+	}
+	DSB_ewald_von_kleist = {
+		name = GER_ewald_von_kleist
+		portraits = {
+			army = {
+				large = GFX_DSB_ewald_von_kleist
+				small = GFX_portrait_GER_ewald_von_kleist_small
+			}
+		}
+		corps_commander = {
+			traits = { harsh_leader armor_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id = 8
+		}
+	}
+	DSB_hans_oster = {
+		name = GER_hans_oster
+		portraits = {
+			army = {
+				small = GFX_idea_TVE_Hans_Oster
+			}
+		}
+		advisor = {
+			idea_token = GER_hans_oster
+			slot = political_advisor
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				anti_fascist_agent 
+			}
+		}
+	}
+	DSB_alfred_hugenberg = {
+		name = GER_alfred_hugenberg
+		portraits = {
+			army = {
+				small = GFX_idea_TVE_Alfred_Hugenberg
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_alfred_hugenberg
+			allowed = {
+				original_tag = DSB
+			}
+			available = {
+				has_government = Authoritarianism
+			}
+			traits = {
+				monarchist_media_mogul 
+			}
+		}
+	}
+	DSB_carl_friedrich_goerdeler = {
+		name = GER_carl_friedrich_goerdeler
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_carl_friedrich_goerdeler
+				small = GFX_idea_TVE_Carl_Goerdeler
+			}
+		}
+
+		#Can get Country Leader role after Operation Valkyrie
+
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_carl_friedrich_goerdeler
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				GER_price_commissioner 
+			}
+		}	
+	}
+	DSB_julius_leber = {
+		name = GER_julius_leber
+		portraits = {
+			army = {
+				small = GFX_idea_TVE_Julius_Leber
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_julius_leber
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				connected_citizen 
+			}
+		}
+	}
+	DSB_kurt_schumacher = {
+		name = GER_kurt_schumacher
+		portraits = {
+			army = {
+				small = GFX_idea_TVE_Kurt_Schumacher
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = kurt_schumacher
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				Liberalism_reformer
+			}
+		}		
+	}
+	DSB_theodor_heuss = {
+		name = GER_theodor_heuss
+		portraits = {
+			army = {
+				small = GFX_idea_GER_theodor_heuss
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_theodor_heuss
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				liberal_journalist 
+			}
+		}
+	}
+	DSB_hans_luther = {
+		name = GER_hans_luther
+		portraits = {
+			army = {
+				small = GFX_idea_TVE_hans_luther
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_hans_luther
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				GER_former_reichsbank_president
+			}
+		}		
+	}
+	DSB_ludwig_erhard = {
+		name = GER_ludwig_erhard
+		portraits = {
+			army = {
+				small = GFX_idea_TVE_Ludwig_Erhard
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_ludwig_erhard
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				economic_reformer
+			}
+		}		
+	}
+	DSB_hermann_erhardt = {
+		name = GER_hermann_erhardt
+		portraits = {
+			army = {
+				large = GFX_DSB_hermann_erhardt
+				small = GFX_idea_TVE_Hermann_Ehrhardt
+			}
+		}
+		corps_commander = {
+			traits = { militias_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id = -1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_hermann_erhardt
+			allowed = {
+				original_tag = DSB
+			}
+			available = {
+				NOT = {
+					has_government = Totalitarianism
+				}
+			}
+			traits = {
+				GER_freikorps_commander
+			}
+		}
+	}
+	DSB_andreas_hermes = {
+		name = GER_andreas_hermes
+
+		portraits = {
+			civilian = {
+				small = GFX_idea_TVE_Andreas_Hermes
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_andreas_hermes
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				GER_minister_of_agriculture
+			}
+		}		
+	}
+	DSB_wilhelm_von_gayl = {
+		name = GER_wilhelm_von_gayl
+
+		portraits = {
+			civilian = {
+				small = GFX_idea_TVE_Wilhelm_von_Gayl
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_wilhelm_von_gayl
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				GER_monarchist_jurist
+			}
+		}		
+	}
+	DSB_dietrich_bonhoeffer = {
+		name = GER_dietrich_bonhoeffer
+
+		portraits = {
+			civilian = {
+				small = GFX_idea_TVE_Dietrich_Bonhoeffer
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_dietrich_bonhoeffer
+			allowed = {
+				original_tag = DSB
+			}
+			traits = {
+				GER_influential_pastor
+			}
+		}		
+	}
+	DSB_ernst_thalmann = {
+		instance = {
+			name = GER_ernst_thalmann
+
+			portraits = {
+				civilian = {
+					large = GFX_portrait_GER_ernst_thalmann
+					small = GFX_portrait_GER_ernst_thalmann_imprisoned
+					# GFX_portrait_GER_ernst_thalmann_small when freed
+				}
+			}
+
+			advisor = {
+				slot = political_advisor
+				idea_token = ernst_thalmann
+				allowed = {
+					original_tag = DSB
+				}
+				traits = {
+					GER_proletarian_leader 
+				}
+			}
+		}
+	}
+	DSB_walter_ulbricht = {
+		name = GER_walter_ulbricht
+		portraits = {
+			civilian = {
+				large = GFX_portrait_GER_walter_ulbricht
+				small = GFX_idea_TVE_Walter_Ulbricht
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_walter_ulbricht
+			allowed = {
+				original_tag = DSB
+				has_dlc = "Gotterdammerung"
+			}
+			available = {
+				has_government = Totalitarianism
+			}
+			traits = {
+				GER_inflexible_communist_organizer 
+			}
+		}		
+	}
+	DSB_bernhard_bastlein = {
+		name = GER_bernhard_bastlein
+
+		portraits = {
+			civilian = {
+				small = GFX_idea_TVE_Bernhard_Bastlein
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_bernhard_bastlein
+			allowed = {
+				original_tag = DSB
+			}
+			available = {
+				has_government = Totalitarianism
+			}
+			traits = {
+				GER_seasoned_socialist_resistance_fighter
+			}
+		}
+	}
+	von_Papen = {
+		name = GER_von_Papen
+
+		portraits = {
+			civilian = {
+				small = GFX_idea_GER_von_Papen_small
+			}
+		}
+
+
+		advisor = {
+			slot = political_advisor
+			idea_token = GER_von_Papen
+			can_be_fired = no
+			allowed = {
+				original_tag = DSB
+			}
+			available = {
+				has_country_flag = DSB_PP
+			}
+			traits = {
+				GER_von_Papen_tz
+			}
+		}
+	}
+	DSB_Kurtvon_Schleicher = {
+		name = GER_Kurtvon_Schleicher
+
+		portraits = {
+			civilian = {
+				small = GFX_idea_GER_Kurtvon_Schleicher_small
+			}
+		}
+
+
+		advisor = {
+			idea_token = GER_Kurtvon_Schleicher
+			slot = political_advisor
+			can_be_fired = no
+			allowed = {
+				original_tag = DSB
+			}
+			available = {
+				has_country_flag = SSG
+			}
+			traits = {
+				GER_Kurtvon_Schleicher_tz
+			}
+		}
+	}
+	DSB_Heinrich_Bruning = {
+		name = GER_Heinrich_Bruning
+
+		portraits = {
+			civilian = {
+				small = GFX_idea_TVE_Heinrich_Bruning
+			}
+		}
+
+
+		advisor = {
+			idea_token = GER_Heinrich_Bruning
+			slot = political_advisor
+			can_be_fired = no
+			allowed = {
+				original_tag = DSB
+			}
+			available = {
+				has_country_flag = DSB_HB
+			}
+			traits = {
+				DSB_Heinrich_Bruning_tz
+			}
+		}
+	}
+
+}

@@ -1,0 +1,229 @@
+@FACTION_TEXT_X = 55
+@LOYALTY_TEXT_X = 240
+@POPULARITY_TEXT_X = 380
+@FACTION_ICONS_X = 10
+@FACTION_NAMES_X = 55
+@HEADERS_Y = 0
+guiTypes = {
+
+	containerWindowType = {
+		name = "political_attached_window"
+		position = { x = 19 y = 70 }
+		size = { width = 170 height = 260 }
+		orientation = upper_left
+		clipping = no
+
+		iconType = {
+			name ="second_leader_portrait"
+			quadTextureSprite = "GFX_leader_unknown"
+			scale = 1
+			pdx_tooltip = [GetSLName]
+			pdx_disabled_tooltip_delayed = [SLD]
+		}
+		buttonType = {
+			name = "change_leader"
+			position={ x= -3 y = 190 }
+			spriteType = "button_left"
+			clicksound = click_default
+		}
+		iconType = {
+			name = "leader_frame_tve"
+			spriteType = "GFX_pol_leader_frame"
+			position = { x = -8 y = -9 }		
+			alwaystransparent = yes
+		}
+		instantTextboxType = {
+			name = "second_leader_name"
+			position = { x = 4 y = 217 }
+			font = "hoi_18mbs"
+			text = "[GetSLName]"
+			maxWidth = 155
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+		}
+	}
+	containerWindowType = {
+		name = "dtgs"
+		position = { x = 0 y = 0 }
+		size = { width = 100 height= 210 }
+
+		#ICONS
+		buttonType = {
+			name ="zveno_icon"
+			quadTextureSprite = "GFX_closebutton_small"
+			position = { x = 5 y = 0 }
+		}
+	}
+	containerWindowType = {
+		name = "dtt"
+		position = { x = 100 y = 100 }
+		size = { width = 100 height= 210 }
+		iconType = {
+			name ="testicon"
+			quadTextureSprite = "GFX_prod_progress_bar2_red"
+			position = { x = 100 y = 0 }
+		}
+	}
+	containerWindowType = {
+		name = "Social_extremism"
+		position = { x = 0 y = 0 }
+		size = { width = 100 height = 210 }
+		background = {
+			name = Background
+			quadTextureSprite = "GFX_Social_extremism_picture"
+			position = { x = 10 y = -850 }
+		}
+	}
+	containerWindowType = {
+		name = "Jew_Company"
+		position = { x = 0 y = 0 }
+		size = { width = 100 height = 210 }
+		background = {
+			name = Background
+			quadTextureSprite = "GFX_Jew_Company_picture"
+			position = { x = 10 y = -635 }
+		}
+	}
+	containerWindowType = {
+		name = "DAYBREAK_FRONTLINE"
+		position = { x = 0 y = 0 }
+		size = { width = 100 height = 210 }
+		background = {
+			name = Background
+			quadTextureSprite = "GFX_DAYBREAK_FRONTLINE_picture"
+			position = { x = 10 y = -475 }
+		}
+	}
+	containerWindowType = {
+		name = "SOV_GUI"
+		position = { x = 100 y = 100 }
+		size = { width = 1500 height= 1500 }
+		fade_time = 7000
+		fade_type = linear
+		background = {
+			name = Background
+			quadTextureSprite = "GFX_DSB_The_Baltic_War_GUI_bg"
+		}
+
+		buttonType = {
+			name ="SOV_CARDS"
+			quadTextureSprite = "GFX_SOV_CARDS"
+			position = { x = 320 y = 190 }
+		}
+		buttonType = {
+			name ="SOV_CARDS_TWO"
+			quadTextureSprite = "GFX_SOV_CARDS"
+			position = { x = 1070 y = 190 }
+		}
+		buttonType = {
+			name ="SOV_ICON"
+			quadTextureSprite = "GFX_SOV_ICON"
+			position = { x = 325 y = 0 }
+		}
+		buttonType = {
+			name ="SOV_ICON_TWO"
+			quadTextureSprite = "GFX_SOV_ICON"
+			position = { x = 1080 y = 0 }
+		}
+		buttonType = {
+			name ="SOV_LEADER_NEED_POINTS"
+			quadTextureSprite = "GFX_SOV_LEADER_NEED_POINTS"
+			position = { x = 700 y = 185 }
+		}
+		buttonType = {
+			name ="SOV_LEADERS"
+			quadTextureSprite = "GFX_SOV_LEADERS"
+			position = { x = 625 y = 0 }
+		}
+		buttonType = {
+			name ="SOV_POINTS"
+			quadTextureSprite = "GFX_SOV_POINTS"
+			position = { x = 610 y = 175 }
+		}
+		buttonType = {
+			name ="SOV_POINTS_TWO"
+			quadTextureSprite = "GFX_SOV_POINTS"
+			position = { x = 890 y = 175 }
+		}
+		buttonType = {
+			name ="SOV_RUSSIAN_MAP"
+			quadTextureSprite = "GFX_SOV_RUSSIAN_MAP"
+			position = { x = 615 y = 320 }
+		}
+		instantTextBoxType = {
+			name = "TVE_DSB_KEWANLUXIAN"
+			position = { x = 1070 y = 630 }
+			borderSize = {x = 20 y = 0 }
+			font = "hoi_18mbs"
+			text = "TVE_DSB_KEWANLUXIAN_TT"
+			maxWidth = 410
+			maxHeight = 200
+		}
+		instantTextBoxType = {
+			name = "TVE_SOV_LEADER_PONITS"
+			position = { x = 570 y = 630 }
+			borderSize = {x = 20 y = 0 }
+			font = "hoi_18mbs"
+			text = "TVE_SOV_LEADER_PONITS_TT"
+			maxWidth = 410
+			maxHeight = 200
+		}
+	}
+	containerWindowType = {
+		name = "braltic_war_gui"
+		position = { x = 100 y = 100 }
+		size = { width = 1500 height= 1500 }
+		fade_time = 7000
+		fade_type = linear
+
+		background = {
+			name = Background
+			quadTextureSprite = "GFX_DSB_The_Baltic_War_GUI_bg"
+		}
+		buttonType = {
+			name ="jieshao_icon"
+			quadTextureSprite = "GFX_closebutton"
+			position = { x = 35 y = 44 }
+		}
+
+		instantTextBoxType = {
+			name = "TVE_DSB_JIESHAO_title"
+			position = { x = 890 y = 60 }
+			borderSize = {x = 0 y = 0 }
+			font = "hoi_24header"
+			text = ""
+			maxWidth = 410
+			maxHeight = 200
+		}
+
+		instantTextBoxType = {
+			name = "TVE_DSB_JIESHAO_description"
+			position = { x = 800 y = 125 }
+			borderSize = {x = -100 y = 0 }
+			font = "hoi_18mbs"
+			text = "[TVE_description_loc]"
+			maxWidth = 750
+			maxHeight = 250
+		}
+
+		instantTextBoxType = {
+			name = "TVE_DSB_JIESHAO_tip"
+			position = { x = 680 y = 625 }
+			borderSize = {x = 20 y = 0 }
+			font = "hoi_18mbs"
+			text = "[TVE_country_tip_loc]"
+			maxWidth = 410
+			maxHeight = 200
+		}
+		instantTextBoxType = {
+			name = "TVE_DSB_KEWANLUXIAN"
+			position = { x = 1070 y = 630 }
+			borderSize = {x = 20 y = 0 }
+			font = "hoi_18mbs"
+			text = "[TVE_country_content_loc]"
+			maxWidth = 410
+			maxHeight = 200
+		}
+	}
+}

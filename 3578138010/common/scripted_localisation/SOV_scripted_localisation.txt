@@ -1,0 +1,60 @@
+defined_text = { # Country
+    name = ZONGTONGMINGZI
+    text = {
+        trigger = {
+            original_tag = SOV
+            has_country_flag = KLSJ
+        }
+        localization_key = SOV_KLSJ
+    }
+    text = {
+        trigger = {
+            original_tag = SOV
+            has_country_flag = NBKF
+        }
+        localization_key = SOV_NBKF
+    }
+}
+defined_text = { # Country
+    name = SOV_DUMA_OPEN_CLOSE
+    text = {
+        trigger = {
+            original_tag = SOV
+            has_country_flag = KLSJ_TH
+        }
+        localization_key = SOV_DUMA_OPEN_ING
+    }
+    text = {
+        trigger = {
+            original_tag = SOV
+            NOT = {
+                has_country_flag = KLSJ_TH
+            }
+        }
+        localization_key = SOV_DUMA_CLOSE_ING
+    }
+}
+defined_text = { # Country
+    name = SOV_KLSJ_TG_JJ
+    text = {
+        trigger = {
+            original_tag = SOV
+            has_country_flag = KLSJ_TH_CHENGGONG
+        }
+        localization_key = SOV_DD
+    }
+    text = {
+        trigger = {
+            original_tag = SOV
+            has_country_flag = KLSJ_TH_SHIBAI
+        }
+        localization_key = SOV_PP
+    }
+    text = {
+        trigger = {
+            original_tag = SOV
+            has_country_flag = KLSJ
+        }
+        localization_key = SOV_SHIT
+    }
+}

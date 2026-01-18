@@ -1,0 +1,42 @@
+state={
+	id=613
+	name="STATE_613"
+	provinces={
+		7014 10034 11928 12052 12076 13413 13414 13415 13416 13417 13425 13426 13427 13428 13429
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+		history = {
+
+			owner = CHI
+			add_core_of = CHI
+			add_core_of = PRC
+	
+			buildings = {
+				infrastructure = 3 #was: 5
+				industrial_complex = 1
+				air_base = 6
+				dockyard = 1
+				7014 = {
+					naval_base = 6
+					coastal_bunker = 1
+					bunker = 1
+				}
+			}
+	
+			victory_points = {
+				13416 25 # Shanghai
+			}
+		}
+	}
+	manpower=17305100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

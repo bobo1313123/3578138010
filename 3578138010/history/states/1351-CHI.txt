@@ -1,0 +1,19 @@
+state={
+	id=1351
+	name="STATE_1351"
+	manpower = 1270509
+
+	state_category = rural
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+
+	provinces={
+		7665 12017 12310 
+	}
+
+	local_supplies=7.0 
+}

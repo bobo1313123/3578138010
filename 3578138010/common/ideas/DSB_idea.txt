@@ -1,0 +1,3746 @@
+ideas = {
+
+	country = {
+		ZFBK = {
+			picture = National_Society_extremity_variable_picture
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -5.0
+				army_defence_factor = -5.0
+				stability_factor = -1.75
+			}
+		}
+		LEVEL_ONE_ARMY = {
+			picture = National_Society_extremity_variable_picture
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.15
+				max_planning = 0.25
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				army_speed_factor = 0.20
+				army_morale_factor = 0.10
+				army_org_factor = 0.25
+				combat_width_factor = -0.05
+				supply_consumption_factor = -0.15
+			}
+		}
+		LEVEL_TWO_ARMY = {
+			picture = National_Society_extremity_variable_picture
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.20
+				max_planning = 0.35
+				army_attack_factor = 0.20
+				army_defence_factor = 0.20
+				army_speed_factor = 0.25
+				army_morale_factor = 0.15
+				army_org_factor = 0.30
+				combat_width_factor = -0.10
+				supply_consumption_factor = -0.20
+			}
+		}
+		LEVEL_THREE_ARMY = {
+			picture = National_Society_extremity_variable_picture
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.25
+				max_planning = 0.40
+				army_attack_factor = 0.25
+				army_defence_factor = 0.25
+				army_speed_factor = 0.30
+				army_morale_factor = 0.20
+				army_org_factor = 0.35
+				combat_width_factor = -0.10
+				supply_consumption_factor = -0.25
+			}
+		}
+		LEVEL_ONE = {
+			picture = National_Society_extremity_variable_picture
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army = 0.15
+				experience_gain_navy = 0.15
+				experience_gain_air = 0.15
+				political_power_factor = 0.15
+				research_speed_factor = 0.10
+				conscription = 0.02
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.15
+				line_change_production_efficiency_factor = 0.15
+				consumer_goods_expected_value = -0.05
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		LEVEL_TWO = {
+			picture = National_Society_extremity_variable_picture
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army = 0.3
+				experience_gain_navy = 0.3
+				experience_gain_air = 0.3
+				political_power_factor = 0.25
+				stability_factor = 0.15
+				war_support_factor = 0.15
+				research_speed_factor = 0.20
+				conscription = 0.05
+				industrial_capacity_factory = 0.25
+				production_factory_max_efficiency_factor = 0.20
+				production_factory_efficiency_gain_factor = 0.25
+				line_change_production_efficiency_factor = 0.25
+				consumer_goods_expected_value = -0.10
+				production_speed_buildings_factor = 0.25
+			}
+		}
+		LEVEL_THREE = {
+			picture = National_Society_extremity_variable_picture
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_army = 0.45
+				experience_gain_navy = 0.45
+				experience_gain_air = 0.45
+				political_power_factor = 0.45
+				stability_factor = 0.30
+				war_support_factor = 0.30
+				research_speed_factor = 0.30
+				conscription = 0.10
+				industrial_capacity_factory = 0.35
+				production_factory_max_efficiency_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.30
+				line_change_production_efficiency_factor = 0.30
+				consumer_goods_expected_value = -0.10
+				production_speed_buildings_factor = 0.30
+			}
+		}
+		XDBC = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.35
+				army_defence_factor = -0.35
+			}
+		}
+		XZYL = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				political_advisor_cost_factor = -0.15
+				stability_factor = -0.05
+			}
+		}
+		MSCM = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.25
+				army_defence_factor = 0.25
+				army_org_factor = 0.15
+				stability_weekly = -0.01
+				war_support_weekly = 0.01
+			}
+		}
+		JSDY_1 = {
+			name = army_dongyuan
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = 0.10
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				consumer_goods_expected_value = -0.05
+			}
+		}
+		JSDY_2 = {
+			name = army_dongyuan
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.15
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				consumer_goods_expected_value = -0.10
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		JSDY_3 = {
+			name = army_dongyuan
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.20
+				army_attack_factor = 0.25
+				army_defence_factor = 0.25
+				consumer_goods_expected_value = -0.15
+				industrial_capacity_factory = 0.15
+				production_factory_max_efficiency_factor = 0.15
+			}
+		}
+		ZZZG_DSWF = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.40 
+				war_support_factor = -1.00 
+				army_attack_factor = -0.75 
+				army_defence_factor = -0.75 
+				consumer_goods_expected_value = 0.45 
+				army_morale_factor = -0.35 
+				army_speed_factor = -0.35 
+				combat_width_factor = 0.10 
+				industrial_capacity_factory = -0.50 
+				production_factory_max_efficiency_factor = -0.15
+			}
+		}
+		JSWSL = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+			}
+		}
+		shitshitshitshitshit = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				resistance_target  = 0.15
+				resistance_growth = 0.25
+				compliance_gain = -0.15
+				required_garrison_factor = 0.45
+			}
+		}
+		ENG_DSB_LOVE = {
+
+			allowed = {
+				original_tag = DSB
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			targeted_modifier = {
+				tag = ENG
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.75
+			}
+			targeted_modifier = {
+				tag = DSB
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.50
+			}
+		}
+		ITA_DSB_LOVE = {
+
+			allowed = {
+				original_tag = DSB
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			targeted_modifier = {
+				tag = SPM
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.75
+			}
+			targeted_modifier = {
+				tag = DSB
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.50
+			}
+		}
+		JAP_DSB_LOVE = {
+
+			allowed = {
+				original_tag = DSB
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			targeted_modifier = {
+				tag = JAP
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.75
+			}
+			targeted_modifier = {
+				tag = DSB
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.50
+			}
+		}
+		CSA_DSB_LOVE = {
+
+			allowed = {
+				original_tag = DSB
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_war_college
+
+			targeted_modifier = {
+				tag = CSA
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.75
+			}
+			targeted_modifier = {
+				tag = DSB
+				trade_cost_for_target_factor = -0.25
+				extra_trade_to_target_factor = 0.50
+			}
+			modifier = {
+				consumer_goods_factor = -0.15
+				fuel_gain_factor = 0.45
+				air_fuel_consumption_factor = -0.10
+				army_fuel_consumption_factor = -0.10
+				navy_fuel_consumption_factor = -0.10
+				army_fuel_capacity_factor = 0.10
+			}
+		}
+		HXZXD = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.15
+				weekly_manpower = 5
+				stability_weekly_factor = -0.001
+			}
+		}
+		HFDWGX = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.10                            #政治点数 +500%
+				trade_opinion_factor = 0.45                              #贸易关系加成 +100% 
+				drift_defence_factor = -0.25                              #意识形态变化排斥加成 +100%
+				opinion_gain_monthly_factor = 0.25                       #关系每月增加 +100% 
+				opinion_gain_monthly_same_ideology_factor = 0.25         #同意识形态关系
+			}
+		}
+		ZCLD_TQYH = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.20 
+				war_support_factor = -0.85 
+				army_attack_factor = -0.60 
+				army_defence_factor = -0.60 
+				consumer_goods_expected_value = 0.30 
+				army_morale_factor = -0.30 
+				army_speed_factor = -0.30 
+				combat_width_factor = 0.05 
+				industrial_capacity_factory = -0.40 
+				production_factory_max_efficiency_factor = -0.10 
+			}
+		}
+		QFDY_FBMH = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.15 
+				war_support_factor = -0.70 
+				army_attack_factor = -0.45 
+				army_defence_factor = -0.45 
+				consumer_goods_expected_value = 0.15 
+				army_morale_factor = -0.20 
+				army_speed_factor = -0.20 
+				combat_width_factor = 0 
+				industrial_capacity_factory = -0.30 
+				production_factory_max_efficiency_factor = -0.10 
+			}
+		}
+		DSB_HuiFuNaZiSCX = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.75
+        		line_change_production_efficiency_factor = 0.75
+			}
+		}
+		DSB_Asset_withdrawal = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.25
+				stability_factor = -0.10
+				political_power_factor = -0.15
+				production_speed_buildings_factor = -0.25
+				mobilization_laws_cost_factor = 0.35
+        		trade_laws_cost_factor = 0.35
+        		economy_cost_factor = 0.35
+        		political_advisor_cost_factor = 0.35
+			}
+		}
+		DSB_jew_daikuan = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.75
+			}
+		}
+		nazi_greamny_bianjingyali = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.01
+				political_power_factor = -0.05
+				industrial_capacity_factory = -0.03
+				consumer_goods_factor = 0.02
+				training_time_army_factor = -0.35
+			}
+			available ={
+				NOT = {
+					has_war_with = GER
+				}
+			}
+		}
+		fuck_you_france = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				weekly_manpower = 1000
+			}
+			rule = {
+				can_create_factions = yes
+			}
+			available ={
+				country_exists = GER
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.02
+				defense_bonus_against = 0.02
+			}
+		}
+		MMDY = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 7500
+			}
+			targeted_modifier = {
+				tag = DSB
+				attack_bonus_against = 0.40
+				defense_bonus_against = 0.40
+			}
+		}
+		MMDY_2 = {
+			name = MMDY
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 2500
+			}
+			targeted_modifier = {
+				tag = DSB
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
+			}
+		}
+		LAST_WAR = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 2500
+				stability_weekly = -0.005
+				war_support_weekly = -0.005
+			}
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.05
+			}
+		}
+		GER_SHIT = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = -1000
+				stability_factor = -0.10
+				war_support_factor = -0.15
+			}
+			targeted_modifier = {
+				tag = DSB
+				attack_bonus_against = -0.10
+				defense_bonus_against = -0.10
+			}
+		}
+		LAST_WAR_two = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				offensive_war_stability_factor = 0.50
+			}
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+		}
+		LAST_WAR_third = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				offensive_war_stability_factor = 0.50
+				winter_attrition_factor = -0.15
+				supply_node_range = 0.15
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+		}
+		FTLXD_FRA = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = -0.15
+				defense_bonus_against = -0.15
+			}
+		}
+		FTLXD_AUS = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = -0.15
+				defense_bonus_against = -0.15
+			}
+		}
+		FTLXD_SOV = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			}
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.10
+				defense_bonus_against = 0.10
+				breakthrough_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = -0.15
+				defense_bonus_against = -0.15
+				breakthrough_bonus_against = -0.15
+			}
+			targeted_modifier = {
+				tag = AUS
+				attack_bonus_against = -0.15
+				defense_bonus_against = -0.15
+				breakthrough_bonus_against = -0.15
+			}
+		}
+		DSB_TGHFSCXL = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 1000
+				industry_air_damage_factor = -0.45
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.15
+			}
+			available ={
+				country_exists = GER
+			}
+		}
+		sour_return = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				weekly_manpower = 1000
+				send_volunteer_factor = 0.25
+				send_volunteer_divisions_required = -1.0
+			}
+			rule = {
+				can_create_factions = yes
+			}
+			available ={
+				country_exists = GER
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.02
+				defense_bonus_against = 0.02
+			}
+		}
+		sour_return_t = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				weekly_manpower = 1000
+				send_volunteer_factor = 0.25
+			}
+			rule = {
+				can_create_factions = yes
+			}
+			available ={
+				country_exists = GER
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+		}
+		sour_return_t_two = {
+			name = sour_return_t
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+				weekly_manpower = 1000
+				send_volunteer_factor = 0.25
+				stability_weekly = -0.005
+				war_support_weekly = -0.005
+				enemy_army_bonus_air_superiority_factor = -0.15
+			}
+			rule = {
+				can_create_factions = yes
+			}
+			available ={
+				country_exists = GER
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.25
+				defense_bonus_against = 0.25
+			}
+		}
+		industry_first = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_synthetic_refinery_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+				production_speed_dockyard_factor = -0.05
+				production_speed_infrastructure_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR = 0.30
+				industrial_capacity_factory = -0.10
+				line_change_production_efficiency_factor = 0.10
+			}
+		}
+		industry_second = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				monthly_population = -0.05
+				consumer_goods_factor = -0.10
+				production_speed_infrastructure_factor = 0.10
+				production_speed_industrial_complex_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+		industry_third = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.10
+			}
+		}
+		old_soilders = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+				mobilization_speed = 0.05
+			}
+		}
+		DSB_KBXJ = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = -0.03
+				weekly_manpower = -2500
+				war_support_factor = -0.15
+				stability_factor = -0.15
+				stability_weekly = -0.003
+				war_support_weekly = -0.003
+			}
+		}
+		Supply_military_ideas = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_speed_arms_factory_factor = 0.05
+				political_power_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.25
+			}
+		}
+		The_Kaiser_had_full_authority_to_manage_the_economy = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_synthetic_refinery_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				trade_opinion_factor = -0.10
+			}
+		}
+		Decentralized_economy = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.5
+				consumer_goods_factor = -0.05
+				stability_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_infrastructure_factor = 0.10
+				production_speed_industrial_complex_factor = 0.10
+			}
+		}
+		new_mark_ideas = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			available = {
+				NOT = {
+					has_war_with = ENG
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.025
+				political_power_cost = -0.01
+				icc_production_speed_buildings_factor = 0.05
+			}
+		}
+		Dependent_on_British_gold_reserves = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			available = {
+				NOT = {
+					has_war_with = ENG
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.10
+				research_speed_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				trade_opinion_factor = -0.30
+			}
+		}
+		Asset_collateral = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				production_factory_max_efficiency_factor = 0.10
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_arms_factory_factor = -0.05
+				PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR = -0.10
+			}
+		}
+		sour_kill_nazi = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			available ={
+				country_exists = GER
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.09
+				defense_bonus_against = 0.09
+			}
+		}
+		tongyi_kuangre = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			available ={
+				country_exists = GER
+			}
+			modifier = {
+				army_core_attack_factor = 0.02
+				army_core_defence_factor = 0.02
+				annex_cost_factor = -0.15
+			}
+		}
+		prussia_tese_jgzy = {
+			picture = DSB_SZZB
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			available ={
+				country_exists = GER
+			}
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				offensive_war_stability_factor = 0.15
+				training_time_army_factor = -0.10
+				annex_cost_factor = -0.20
+			}
+		}
+		prussia_tese_jgzy_two = {
+			picture = DSB_SZZB
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			available ={
+				country_exists = GER
+			}
+			modifier = {
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+				offensive_war_stability_factor = 0.40
+				training_time_army_factor = -0.15
+				no_supply_grace = 48
+				annex_cost_factor = -0.30
+			}
+		}
+		prussia_tese_jgzy_three = {
+			picture = DSB_SZZB
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			available ={
+				country_exists = GER
+			}
+			modifier = {
+				stability_factor = 0.06
+				war_support_factor = 0.09
+				political_power_factor = 0.15
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+				offensive_war_stability_factor = 0.40
+				training_time_army_factor = -0.15
+				no_supply_grace = 48
+				annex_cost_factor = -0.30
+			}
+		}
+		qbdwzg = {
+			picture = DSB_SZZB
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = 0.10
+				political_power_factor = 0.10
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+				offensive_war_stability_factor = 0.40
+				training_time_army_factor = -0.15
+				no_supply_grace = 48
+				annex_cost_factor = -0.30
+				consumer_goods_factor = -0.40
+				local_resources_factor = -0.10
+				PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR = -0.20
+				subversive_activites_upkeep = -0.45
+				consumer_goods_expected_value = -0.15
+				production_speed_arms_factory_factor = 0.15
+				army_org_factor = 0.10
+				army_attack_factor = 0.15
+				army_defence_factor = 0.10
+			}
+		}
+		sour_police_station = {
+			picture = sour_biggest_goverment_power_two_p
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = 0.20
+				drift_defence_factor = 0.50
+				agency_upgrade_time = -0.25
+				resistance_target = -0.05
+				compliance_gain = 0.02
+				consumer_goods_factor = 0.10
+			}
+		}
+		sour_biggest_goverment_power = {
+			picture = sour_biggest_goverment_power_two_p
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.30
+				drift_defence_factor = 0.75
+				agency_upgrade_time = -0.45
+				resistance_target = -0.10
+				compliance_gain = 0.04
+				opinion_gain_monthly_factor = 0.15
+				industry_air_damage_factor = -0.35
+				production_speed_buildings_factor = 0.08
+				consumer_goods_factor = 0.11
+			}
+		}
+		Totalitarianism_against = {
+			picture = DSB_TY_FUCK_P
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.45
+				industrial_capacity_factory = -0.15
+				production_factory_max_efficiency_factor = -0.20         #工厂最大产能 +250%
+        		production_factory_efficiency_gain_factor = -0.10        #工厂产能增加度 +250%
+        		line_change_production_efficiency_factor = -0.50         #换线产能维持度 +250%
+        		global_building_slots_factor = -0.05                     #地区可用建筑格 +100%   
+			}
+		}
+		sour_biggest_goverment_power_two = {
+			picture = sour_biggest_goverment_power_two_p
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.35
+				drift_defence_factor = 1
+				agency_upgrade_time = -0.60
+				resistance_target = -0.10
+				compliance_gain = 0.05
+				opinion_gain_monthly_factor = -0.20
+				industry_air_damage_factor = -0.25
+				production_speed_buildings_factor = 0.10
+				consumer_goods_factor = 0.15
+			}
+		}
+		sour_suxing_zhengfu = {
+			picture = BRA_dasp
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.20
+				drift_defence_factor = 0.25
+				agency_upgrade_time = -0.55
+				resistance_target = -0.10
+				opinion_gain_monthly_factor = -0.05
+				industry_air_damage_factor = -0.25
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = 0.15
+			}
+		}
+		god_person = {
+			picture = BRA_dasp
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = -0.10
+				conscription = 0.02
+				opinion_gain_monthly_same_ideology_factor = 0.40
+			}
+		}
+		sour_return_s = {
+			picture = DSB_GKJR
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.15
+				weekly_manpower = 150
+				political_power_cost = 0.05
+				send_volunteer_factor = 0.25
+			}
+			available ={
+				country_exists = GER
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.01
+				defense_bonus_against = 0.01
+			}
+		}
+		gonghui = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.35
+				stability_factor = 0.05
+				political_power_factor = 0.05
+				industrial_capacity_factory = 0.07
+				production_speed_buildings_factor = 0.03
+				consumer_goods_factor = 0.10
+			}
+		}
+		DSB_gh_1 = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+				industrial_capacity_factory = 0.03
+				production_speed_buildings_factor = -0.02
+				consumer_goods_factor = 0.05
+			}
+		}
+		DSB_gh_2 = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				operation_infiltrate_outcome = 0.15
+				operative_slot = 1
+			}
+		}
+		DSB_gh_3 = {
+			picture = sour_loser
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.04
+			}
+		}
+		prussia_army_second = {
+			picture = DSB_prussia_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.015
+				political_power_cost = 0.15
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				max_planning = 0.10
+			}
+			rule = {
+				can_send_volunteers = yes
+			}
+		}
+		prussia_army_zhi_liang = {
+			picture = DSB_prussia_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.01
+				political_power_cost = 0.65
+				army_attack_factor = 0.06
+				army_defence_factor = 0.06
+				max_planning = 0.15
+			}
+			rule = {
+				can_send_volunteers = yes
+			}
+		}
+		prussia_army_zong_cong = {
+			picture = DSB_prussia_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.005
+				political_power_cost = 0.10
+				army_attack_factor = 0.01
+				army_defence_factor = 0.01
+				max_planning = 0.10
+			}
+			rule = {
+				can_send_volunteers = yes
+			}
+		}
+		pawi_one = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.05
+				consumer_goods_factor = -0.10
+			}
+		}
+		pawi_two = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				mobilization_speed = 0.15
+				consumer_goods_factor = -0.10
+			}
+		}
+		pawi_three = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				planning_speed = 0.25
+				max_planning = 0.05
+			}
+		}
+		pawi_four = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.04
+				army_defence_factor = 0.04
+				conscription = 0.02
+			}
+		}
+		pawi_new_one = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		pawi_new_two = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_factor = 0.25
+				experience_gain_army_unit_factor = 0.15
+				army_armor_attack_factor = 0.05
+				army_armor_defence_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+		pawi_new_three = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_armor_attack_factor = 0.10
+				army_armor_defence_factor = 0.10
+			}
+		}
+		pawi_new_four = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				motorized_attack_factor = 0.15
+				motorized_defence_factor = 0.15
+				mechanized_attack_factor = 0.15
+				mechanized_defence_factor = 0.15
+			}
+		}
+		pawi_old_one = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+				max_dig_in = 2
+			}
+		}
+		pawi_old_two = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				land_doctrine_cost_factor = -0.15
+				dig_in_speed_factor = 0.15
+				conscription = 0.005
+			}
+		}
+		pawi_old_three = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_artillery_defence_factor = 0.10
+				army_artillery_attack_factor = 0.10
+				war_support_factor = 0.05
+			}
+		}
+		pawi_old_four = {
+			picture = hol_expand_the_colonial_army
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				supply_factor = 0.15
+				out_of_supply_factor = -0.10
+				org_loss_when_moving = -0.10
+			}
+		}
+		DSB_tank_cost_low = {
+			picture = DSB_tank_cost_low_picture
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.20
+			}
+			equipment_bonus = {
+				light_tank_chassis = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				medium_tank_chassis = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				heavy_tank_chassis = {
+					build_cost_ic = -0.15 instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.15 instant = yes
+				}
+			}
+		}
+		sour_restoration_3 = {
+			picture = goverment_reform_not_start
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier ={
+				political_power_factor = -0.20
+				production_speed_buildings_factor = -0.10
+				stability_factor = -0.15
+				consumer_goods_factor = 0.15
+			}
+		}
+		gonghe_saoluan = {
+			picture = DSB_TY_FUCK_P
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier ={
+				political_power_factor = -0.40
+				stability_factor = -0.25
+			}
+		}
+		sour_army_unhappy = {
+			picture = chi_army_corruption
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				army_speed_factor = -0.20
+				army_morale_factor = -0.10
+				army_org_factor = -0.30
+			}
+	   }
+		sour_juncker_unhappy_3 = {
+			picture = DSB_von_unhappy
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.25
+				justify_war_goal_time = 0.75
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.20
+				production_speed_industrial_complex_factor = -0.15
+			   }
+		  }
+		sour_juncker_unhappy_2 = {
+			picture = DSB_von_unhappy
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.20
+				justify_war_goal_time = 0.40
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.15
+				production_speed_industrial_complex_factor = -0.10
+			   }
+		  }
+		sour_juncker_unhappy_1 = {
+			picture = DSB_von_unhappy
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = -0.05
+				justify_war_goal_time = 0.15
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+			   }
+		  }
+		sour_Totalitarianism_1 = {
+			picture = generic_Totalitarianism_drift_bonus
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+				industrial_capacity_factory = 0.05
+			   }
+		  }
+		sour_Liberalism_1 = {
+			picture = generic_Liberalism_drift_bonus
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.07
+				stability_factor = 0.10
+			   }
+		  }
+		sour_Martial_law = {
+			picture = ARG_subdue_dissension
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = -0.10
+			   }
+		}
+		sour_Martial_law_imper_nb = {
+			picture = ARG_subdue_dissension
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.20
+				political_power_factor = -0.05
+				justify_war_goal_time = -0.45
+				mobilization_laws_cost_factor =  -0.15                          #征兵法案花费 
+        		trade_laws_cost_factor = -0.15                                 #贸易法案花费 
+        		economy_cost_factor = -0.15                                    #经济法案花费 
+        		political_advisor_cost_factor = -0.15                          #政治顾问花费 
+			   }
+		}
+		sour_Martial_law_imper_nb_s = {
+			picture = dsb_king_party_policit_power_great
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.25
+				political_power_factor = 0.05
+				justify_war_goal_time = -0.45
+				drift_defence_factor = 1.00
+				mobilization_laws_cost_factor =  -0.20                          #征兵法案花费 
+        		trade_laws_cost_factor = -0.20                                 #贸易法案花费 
+        		economy_cost_factor = -0.20                                    #经济法案花费 
+        		political_advisor_cost_factor = -0.20                          #政治顾问花费 
+			   }
+		}
+		sour_von_against = {
+			picture = ARG_subdue_dissension
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				political_power_factor = -0.10
+				conscription = -0.006
+			   }
+		  }
+		minjianzuzhijiesan = {
+			picture = DSB_TY_FUCK_P
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.15
+				political_power_factor = -0.05
+				conscription = -0.006
+				army_core_attack_factor = -0.02
+				army_core_defence_factor = -0.02
+			   }
+		  }
+		sour_people_against = {
+			picture = ARG_subdue_dissension
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				political_power_factor = -0.05
+			   }
+		  }
+		sour_von_cooperate = {
+			picture = PER_unification_initiative_idea
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = 0.05
+				conscription = 0.01
+				opinion_gain_monthly_same_ideology_factor = 0.20
+			   }
+		  }
+		sour_yihui_yongjiu_close = {
+			picture = sour_biggest_goverment_power_two_p
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.25
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		  }
+		sour_restoration_2 = {
+			picture = goverment_reform_not_start
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier ={
+				political_power_factor = -0.15
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.10
+				consumer_goods_factor = 0.10
+			}
+		}
+		sour_restoration_1 = {
+			picture = goverment_reform_not_start
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier ={
+				political_power_factor = -0.10
+				production_speed_buildings_factor = -0.05
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		sour_restoration_4 = {
+			picture = goverment_reform_not_start
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier ={
+				political_power_factor = -0.30
+				production_speed_buildings_factor = -0.20
+				stability_factor = -0.25
+				consumer_goods_factor = 0.40
+			}
+		}
+		sour_army_unhappy_2 = {
+			picture = chi_army_corruption2
+				
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+	
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				army_speed_factor = -0.15
+				army_morale_factor = -0.05
+				army_org_factor = -0.15
+			}
+	   }
+		sour_army_unhappy_3 = {
+			picture = chi_army_corruption3
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				army_speed_factor = -0.10
+				army_org_factor = -0.05
+			}
+   		}
+		sour_strict_law = {
+			picture = EST_Liberalism_opposition
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_advisor_cost_factor = -0.35
+				economy_cost_factor = -0.35
+				mobilization_laws_cost_factor = -0.35
+				conscription_factor = 0.15
+				political_power_factor = 0.05
+			}
+   		}
+		sour_unite_party_c = {
+			picture = Authoritarianism_idea
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				Authoritarianism_drift = -0.03
+				stability_factor = 0.05
+			}
+   		}
+		sour_unite_party_n = {
+			picture = Authoritarianism_idea
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				Totalitarianism_drift = -0.05
+				fascism_drift = -0.05
+				Liberalism_drift = -0.05
+				stability_factor = 0.10
+			}
+   		}
+		DSB_preety_future = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = Liberalism
+			}
+
+			removal_cost = -1
+
+			picture = GER_the_shield_of_democracy
+
+			modifier = {
+				political_power_factor = 0.15
+				party_popularity_stability_factor = -0.15
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				drift_defence_factor = -0.2
+			}
+		}
+		DSB_c_r = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = Liberalism
+			}
+
+			removal_cost = -1
+
+			picture = generic_oppression
+
+			modifier = {
+				defensive_war_stability_factor = 0.5
+				conscription_factor = 0.15
+				non_core_manpower = 0.05
+			}
+		}
+		DSB_gci = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = Liberalism
+			}
+
+			removal_cost = -1
+
+			picture = DSB_TY_HIAHIAHIA_P
+
+			modifier = {
+				consumer_goods_factor = 0.10
+			}
+		}
+		DSB_gii = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = Liberalism
+			}
+
+			removal_cost = -1
+
+			picture = ARG_civilian_economy_boost
+
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.05
+				consumer_goods_factor = -0.10
+			}
+		}
+		DSB_gh_4 = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ARG_civilian_economy_boost
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		LJoint_Mining_Resources_Exploitation_Program_idea = {
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = LJoint_Mining_Resources_Exploitation_Program
+
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.05
+				local_resources_factor = 0.10
+				PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR = -0.15
+			}
+		}
+		DSB_comecon_puppet_default = {
+
+			picture = generic_flexible_foreign_policy
+
+			removal_cost = -1
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			modifier = {
+				consumer_goods_factor = -0.15
+				cic_to_overlord_factor = 0.9
+				mic_to_overlord_factor = 0.9
+				extra_trade_to_overlord_factor = 0.25
+				master_ideology_drift = 0.05
+				autonomy_gain_trade_factor = -0.75
+			}
+		}
+		sour_constitution_good = {
+			picture = CHL_ligas_patrioticas
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				research_speed_factor = 0.05
+				production_speed_infrastructure_factor = 0.10
+				production_speed_arms_factory_factor = 0.10
+			}
+   		}
+		sour_stabilize_society = {
+			picture = DEN_occupation_laws
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				compliance_gain = 0.07
+				resistance_target = -0.15
+				resistance_growth = -0.10
+			}
+   		}
+		sour_popular_need = {
+			picture = ARG_civilian_economy_boost
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier ={
+				consumer_goods_factor = 0.05
+			}
+		}
+		sour_unification_1 = {
+			picture = sour_unification_picutre
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.10
+				generate_wargoal_tension = -0.45
+				production_speed_arms_factory_factor = 0.05
+				max_planning = 0.05
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+   		}
+		sour_unification_2 = {
+			picture = sour_unification_picutre
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.10
+				generate_wargoal_tension = -0.60
+				org_loss_when_moving = -0.05
+				max_planning = 0.15
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				production_speed_arms_factory_factor = 0.10
+				out_of_supply_factor = -0.15
+			}
+   		}
+		sour_unification_3 = {
+			picture = sour_unification_picutre
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			removal_cost = -1
+			modifier = {
+				training_time_factor = -0.10
+				generate_wargoal_tension = -0.75
+				org_loss_when_moving = -0.10
+				max_planning = 0.15
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				production_speed_arms_factory_factor = 0.10
+				out_of_supply_factor = -0.15
+				army_speed_factor = 0.10
+				army_morale_factor = 0.15
+			}
+   		}
+		sour_economy_serve_army = {
+			picture = AFG_adopt_nufus
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			available ={
+				country_exists = GER
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = 0.10
+				consumer_goods_factor = -0.25
+				production_speed_arms_factory_factor = 0.15
+				army_org_factor = 0.10
+				training_time_army_factor = -0.45
+			}
+   		}
+		sour_national_serve_army = {
+			picture = DSB_YGZJ
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			available ={
+				country_exists = GER
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = 0.02
+				consumer_goods_factor = -0.02
+				production_speed_arms_factory_factor = 0.05
+				army_org_factor = 0.03
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+   		}
+		sour_national_serve_army_second = {
+			picture = DSB_YGZJ
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			available ={
+				country_exists = GER
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.25
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.05
+				production_speed_arms_factory_factor = 0.05
+				army_org_factor = 0.05
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+			}
+   		}
+		sour_national_serve_army_third = {
+			picture = DSB_YGZJ
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			available ={
+				country_exists = GER
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.30
+				political_power_factor = -0.05
+				consumer_goods_factor = -0.40
+				local_resources_factor = -0.10
+				PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR = -0.20
+				subversive_activites_upkeep = -0.45
+				consumer_goods_expected_value = -0.15
+				production_speed_arms_factory_factor = 0.15
+				army_org_factor = 0.10
+				army_attack_factor = 0.15
+				army_defence_factor = 0.10
+			}
+   		}
+		sour_von_money_tt = {
+			picture = FIN_finnish_federation_of_trade_unions_light
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.50
+			}
+   		}
+		sk = {
+			picture = DSB_SK
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.50
+				add_stability = -0.20
+			}
+   		}
+		jchz_one = {
+			picture = FIN_finnish_federation_of_trade_unions_light
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				mobilization_laws_cost_factor = -0.25
+				trade_laws_cost_factor  = -0.25
+				economy_cost_factor = -0.25
+			}
+   		}
+		jchz_two = {
+			picture = FIN_finnish_federation_of_trade_unions_light
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.10
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+   		}
+		jchz_three = {
+			picture = FIN_finnish_federation_of_trade_unions_light
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.25
+				production_speed_buildings_factor = 0.05
+			}
+   		}
+		sour_goverment_money_tt = {
+			picture = civilian_economy
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.25
+			}
+   		}
+		sour_optimize_production_line = {
+			picture = NORDIC_industry_communist
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.20
+					instant = yes
+				}
+			}
+			modifier = {
+				industrial_capacity_factory = 0.10
+			}
+   		}
+		sour_tong_yi = {
+			picture = FIN_german_threat
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			available ={
+				country_exists = GER
+			}
+
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				annex_cost_factor = -0.50
+			}
+   		}
+		#反攻后
+		industry_has_been_broken = {
+			picture = generic_devalue_currency
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.35
+				industrial_capacity_factory = -0.20
+				production_factory_efficiency_gain_factor = -0.25
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.50
+				industry_repair_factor = -0.40
+			}
+   		}
+		industry_has_been_broken_1 = {
+			picture = generic_devalue_currency
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.35
+				industrial_capacity_factory = -0.15
+				production_factory_efficiency_gain_factor = -0.20
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.50
+				industry_repair_factor = -0.15
+			}
+   		}
+		industry_has_been_broken_2 = {
+			picture = generic_devalue_currency
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.10
+				production_factory_efficiency_gain_factor = -0.20
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.35
+				industry_repair_factor = -0.15
+			}
+   		}
+		industry_has_been_broken_3 = {
+			picture = generic_devalue_currency
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.20
+				industrial_capacity_factory = -0.10
+				production_factory_efficiency_gain_factor = -0.10
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.25
+				industry_repair_factor = -0.10
+			}
+   		}
+		industry_has_been_broken_4 = {
+			picture = generic_devalue_currency
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				production_factory_max_efficiency_factor = -0.10
+				production_speed_buildings_factor = -0.10
+				industry_repair_factor = -0.05
+			}
+   		}
+		politics_has_been_broken = {
+			picture = SWE_neither_death_nor_dishonor
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.25
+				conscription = -0.02
+				justify_war_goal_time = 1.5
+				trade_opinion_factor = -0.50
+				opinion_gain_monthly_factor = -0.35
+				guarantee_tension = 1.5
+				join_faction_tension = 1.5
+				send_volunteers_tension = 1.5
+				encryption = -20
+			}
+   		}
+		politics_has_been_broken_1 = {
+			picture = SWE_neither_death_nor_dishonor
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				justify_war_goal_time = 0.75
+				trade_opinion_factor = -0.25
+				opinion_gain_monthly_factor = -0.35
+				guarantee_tension = 0.75
+				join_faction_tension = 0.75
+				send_volunteers_tension = 0.75
+				encryption = -15
+			}
+   		}
+		politics_has_been_broken_2 = {
+			picture = SWE_neither_death_nor_dishonor
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.05
+				justify_war_goal_time = 0.45
+				trade_opinion_factor = -0.15
+				opinion_gain_monthly_factor = -0.20
+				guarantee_tension = 0.50
+				join_faction_tension = 0.50
+				send_volunteers_tension = 0.50
+				encryption = -10
+			}
+   		}
+		   politics_has_been_broken_3 = {
+			picture = SWE_neither_death_nor_dishonor
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				justify_war_goal_time = 0.25
+				trade_opinion_factor = -0.10
+				opinion_gain_monthly_factor = -0.15
+				guarantee_tension = 0.25
+				join_faction_tension = 0.25
+				send_volunteers_tension = 0.25
+				encryption = -15
+			}
+   		}
+		people_Hatred_other = {
+			picture = RAJ_partition_india_united
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.20
+				army_core_attack_factor = -0.15
+				army_core_defence_factor = -0.15
+				research_speed_factor = -0.15
+				political_power_cost = 0.4
+				surrender_limit = -0.25
+				conscription_factor = -0.25
+				compliance_gain = -0.10
+				resistance_target = 0.25
+				resistance_growth = 0.15
+				war_support_factor = -0.50
+				civilian_intel_to_others = 25                    
+				army_intel_to_others = 25                          
+				navy_intel_to_others = 25                        
+				airforce_intel_to_others = 25
+			}
+   		}
+		people_Hatred_other_1 = {
+			picture = RAJ_partition_india_united
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				army_core_attack_factor = -0.10
+				army_core_defence_factor = -0.10
+				research_speed_factor = -0.10
+				surrender_limit = -0.25
+				conscription_factor = -0.20
+				compliance_gain = -0.07
+				resistance_target = 0.20
+				resistance_growth = 0.10
+				war_support_factor = -0.35
+				civilian_intel_to_others = 20                    
+				army_intel_to_others = 20                          
+				navy_intel_to_others = 20                        
+				airforce_intel_to_others = 20
+			}
+   		}
+		people_Hatred_other_2 = {
+			picture = RAJ_partition_india_united
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.15
+				army_core_attack_factor = -0.05
+				army_core_defence_factor = -0.05
+				research_speed_factor = -0.10
+				surrender_limit = -0.20
+				conscription_factor = -0.20
+				compliance_gain = -0.05
+				resistance_target = 0.17
+				resistance_growth = 0.08
+				war_support_factor = -0.25
+				civilian_intel_to_others = 15                    
+				army_intel_to_others = 15                          
+				navy_intel_to_others = 15                        
+				airforce_intel_to_others = 15
+			}
+   		}
+		people_Hatred_other_3 = {
+			picture = RAJ_partition_india_united
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.10
+				research_speed_factor = -0.05
+				political_power_cost = 0.2
+				surrender_limit = -0.10
+				conscription_factor = -0.15
+				compliance_gain = -0.05
+				resistance_target = 0.10
+				resistance_growth = 0.05
+				war_support_factor = -0.15
+				civilian_intel_to_others = 10                    
+				army_intel_to_others = 10                          
+				navy_intel_to_others = 10                        
+				airforce_intel_to_others = 10
+			}
+   		}
+		   people_Hatred_other_4 = {
+			picture = RAJ_partition_india_united
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.04
+				surrender_limit = -0.05
+				conscription_factor = -0.10
+				resistance_growth = 0.03
+				war_support_factor = -0.05
+				civilian_intel_to_others = 5                    
+				army_intel_to_others = 5                          
+				navy_intel_to_others = 5                        
+				airforce_intel_to_others = 5
+			}
+   		}
+		companies_national = {
+			picture = BRA_dasp
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				trade_laws_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				consumer_goods_factor = -0.10
+				production_speed_buildings_factor = 0.05
+			}
+   		}
+		reopen_factory_i ={
+			picture = FRA_factory_strikes
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				industry_repair_factor = 0.50
+			}
+		}
+		social_security_system ={
+			picture = tur_balkan_central_bank_wealthy_greece
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = 0.15
+				line_change_production_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.10
+			}
+		}
+		DSB_cooperate_with_great_companies ={
+			picture = BRA_dasp
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				mobilization_laws_cost_factor = -0.15 
+        		trade_laws_cost_factor = -0.15
+        		economy_cost_factor = -0.15
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+		}
+		people_wonder ={
+			picture = chi_incompetent_officers
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.15
+				stability_factor = -0.15
+				political_power_factor = -0.10
+				industrial_capacity_factory = -0.15
+			}
+		}
+		coperate_with_jew ={
+			picture = eng_a_change_in_course
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				global_building_slots_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = -0.15
+			}
+		}
+		jew_Citizen_right ={
+			picture = eng_a_change_in_course
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription  = 0.01
+				weekly_manpower = 500
+				stability_factor = 0.05
+				trade_opinion_factor = 0.45
+			}
+		}
+		hit_jew ={
+			picture = eng_a_change_in_course
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+				war_support_factor = 0.03
+				resistance_target  = 0.02
+			}
+		}
+		Nuremberg_Code ={
+			picture = eng_a_change_in_course
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.10
+				war_support_factor = 0.05
+				resistance_target  = 0.05
+				compliance_gain = -0.002
+				non_core_manpower = -0.03
+			}
+		}
+		old_good_time ={
+			picture = eng_a_change_in_course
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+                political_power_factor = -0.25
+                party_popularity_stability_factor = 0.40
+                stability_factor = -0.05
+                war_support_factor = 0.15
+                drift_defence_factor = 0.2
+			}
+		}
+		scoiety_freedom = {
+			picture = AUS_phonix_insurance_variant
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.10
+				research_speed_factor =  0.05
+				conscription = 0.01
+				justify_war_goal_time = -1
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		week_people_scoiety = {
+			picture = AUS_women_in_academia
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.10
+				political_power_factor = -0.15
+				conscription = 0.02
+				justify_war_goal_time = -0.25
+			}
+		}
+		week_people_scoiety_two = {
+			picture = AUS_women_in_academia
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.15
+				political_power_factor = -0.10
+				conscription = 0.01
+				civilian_intel_to_others = -25                       #泄露给他国的民政情报
+        		army_intel_to_others = -25                           #泄露给他国的陆军情报
+        		navy_intel_to_others = -25                           #泄露给他国的海军情报
+        		airforce_intel_to_others = -25                       #泄露给他国的空军情报
+				enemy_operative_capture_chance_factor = 0.15
+				political_advisor_cost_factor = 0.15
+			}
+		}
+		GER_oberste_heeresleitung_trait ={
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.1
+				max_planning_factor = 0.1
+				experience_gain_army_factor = 0.1
+				experience_gain_navy_factor = 0.1
+				experience_gain_air_factor = 0.1
+				high_command_cost_factor = -0.25
+				air_chief_cost_factor = -0.25
+				army_chief_cost_factor = -0.25
+				navy_chief_cost_factor = -0.25
+			}
+		}
+		tongyi_zhengyi_ziyou ={
+			picture = generic_victors_of_ww1
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.10                      #工厂产出 +250% (Factory Output)
+
+        		production_factory_max_efficiency_factor = 0.05         #工厂最大产能 +250%
+
+        		production_factory_efficiency_gain_factor = 0.15        #工厂产能增加度 +250%
+
+        		line_change_production_efficiency_factor = 0.20         #换线产能维持
+			}
+		}
+		rongyao_zhongcheng_zhixu = {
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_factor = 0.05
+       			research_speed_factor =  0.10
+        		trade_opinion_factor = 0.45 
+        		drift_defence_factor = 0.5
+				consumer_goods_factor = -0.15
+			}
+		}
+
+		DSB_return_to_king_i ={
+			picture = generic_women_in_the_army
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				generate_wargoal_tension = -0.75
+       			guarantee_tension = -0.75
+       			join_faction_tension = -0.75
+        		send_volunteers_tension = -0.75
+        		lend_lease_tension = -0.75
+				political_power_factor = 0.15
+				annex_cost_factor = -0.35
+			}
+		}
+		DSB_sdz ={
+			picture = SWI_spirit_of_helvetia_aggressive_war
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				planning_speed = 0.15
+				army_speed_factor = 0.10
+				drift_defence_factor = 0.5
+				weekly_manpower = 1000
+			}
+			rule = {
+				can_create_factions = yes
+			}
+			available ={
+				country_exists = GER
+			}
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = 0.15
+			}
+		}
+		DSB_htxs ={
+			picture = SWI_spirit_of_helvetia_defensive_war
+			
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			modifier = {
+				max_planning = 0.25
+				army_defence_factor = 0.05
+			}
+			targeted_modifier = {
+				tag = GER
+				defense_bonus_against = 0.15
+			}
+		}
+
+	}
+	industrial_concern ={
+		DSB_reichswerke = {
+
+            picture = GER_reichswerke
+            
+            allowed = {
+                original_tag = DSB
+            }
+
+            available = {
+				OR ={
+					has_completed_focus = DSB_jianli_guoying_daqiye
+					has_completed_focus = DSB_annex_companies
+					has_country_flag = DQY_scf
+				}
+            }
+            
+            cost = 150
+            
+            traits = { DSB_reichswerke }
+            
+        }
+		ig_faben = {
+			
+			allowed = {
+				original_tag = DSB
+			}
+
+			available ={
+				has_completed_focus = DSB_cooperate_with_companies
+			}
+
+			cost = 150
+			
+			research_bonus = {
+				industry = 0.05
+				synth_resources = 0.15
+			}
+			
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		krupp = {
+			
+			allowed = {
+				original_tag = DSB
+			}
+
+			available ={
+				has_completed_focus = DSB_cooperate_with_companies
+			}
+
+			cost = 150
+			
+			research_bonus = {
+				industry = 0.15
+			}
+
+			traits = { industrial_concern }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+		siemens = {
+			
+			allowed = {
+				original_tag = DSB
+			}
+
+			available ={
+				has_completed_focus = DSB_cooperate_with_companies
+			}
+
+			cost = 150
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+
+		GER_vereinigte_stahlwerke = {
+
+			picture = GER_vereinigte_stahlwerke
+			
+			allowed = {
+				original_tag = DSB
+			}
+
+			available ={
+				has_completed_focus = DSB_cooperate_with_companies
+			}
+			
+			cost = 150
+
+			research_bonus = {
+				excavation_tech = 0.15
+			}
+			
+			traits = { mining_company }
+		}
+	}
+}
+
+

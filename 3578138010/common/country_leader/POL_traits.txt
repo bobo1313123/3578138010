@@ -1,0 +1,13 @@
+leader_traits ={
+	POL_yuanshuai_weidazhiren ={
+		random = no
+		war_support_factor=0.2
+		army_attack_factor =0.2
+		army_org_factor =0.1
+	}
+
+	POL_yuanshuai_qingmizhanyou ={
+		random = no
+		stability_factor=0.1
+	}
+}

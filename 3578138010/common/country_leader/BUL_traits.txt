@@ -1,0 +1,12 @@
+leader_traits ={
+	
+	BUL_boris_iii_gaochaodewuzhe = {
+		stability_factor = 0.15
+		political_power_cost = -0.5
+		war_support_factor = 0.1
+	}
+	BUL_boris_iii_jiefangzheshahuang = {
+		political_power_cost = -0.02
+		stability_factor = 0.05
+	}
+}

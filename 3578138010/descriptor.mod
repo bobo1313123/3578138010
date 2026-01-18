@@ -1,0 +1,15 @@
+version="1.16.10"
+tags={
+	"Alternative History"
+}
+name="何意味，，，"
+supported_version="1.16.10"
+remote_file_id="3604405256"
+replace_path = "map/bulidings.txt"
+replace_path = "map/strategicregions"
+replace_path = "map/provinces.bmp"
+replace_path = "map/definition.csv"
+replace_path = "history/states"
+replace_path = "history/countries"
+replace_path = "map/supplyareas"
+replace_path = "map/terrain"

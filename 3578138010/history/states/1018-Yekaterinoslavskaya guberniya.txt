@@ -1,0 +1,37 @@
+state = {
+	id = 1018
+	name = "STATE_1018"
+	manpower = 1194514
+	state_category = town
+	resources = {
+		steel = 5.000
+		oil = 4.000
+	}
+
+	history = {
+
+		owner = UKR
+		add_core_of = RKR
+		add_core_of = UKR
+
+		victory_points = {
+			453 10 #巴甫洛夫格勒
+		}
+
+		#victory_points = {
+		#	11386 1 # Lyck
+		#}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+	}
+
+	provinces={
+		9463 453 11452 9479 486 472
+	}
+
+	local_supplies = 20.0 
+}

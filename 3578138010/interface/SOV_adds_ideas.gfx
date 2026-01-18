@@ -1,0 +1,29 @@
+spriteTypes = {	
+	### new tfv nat spirit icons
+	spriteType = {
+		name = "GFX_idea_SOV_lower_industry"
+		texturefile = "gfx/interface/ideas/idea_SOV_lower_industry.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_The_shame_of_the_Minsk_Treaty"
+		texturefile = "gfx/interface/ideas/idea_SOV_The_shame_of_the_Minsk_Treaty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_A_stagnant_economy"
+		texturefile = "gfx/interface/ideas/idea_SOV_A_stagnant_economy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_qianzai_yinhuan"
+		texturefile = "gfx/interface/ideas/idea_SOV_qianzai_yinhuan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_SOV_hunluan_canmoubu"
+		texturefile = "gfx/interface/ideas/idea_SOV_hunluan_canmoubu.dds"
+	}
+
+
+}

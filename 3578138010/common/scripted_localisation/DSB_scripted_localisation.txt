@@ -1,0 +1,286 @@
+defined_text = { # Country
+    name = GetattacksovNames
+    text = {
+        trigger = {
+            original_tag = DSB
+            has_government = Liberalism
+        }
+        localization_key = DSB_attack_sov_neutral
+    }
+    text = {
+        trigger = {
+            original_tag = DSB
+            has_government = Totalitarianism
+        }
+        localization_key = DSB_attack_sov_Totalitarianism
+    }
+    text = {
+        localization_key = DSB_attack_sov_what
+    }
+}
+defined_text = { # Country
+    name = Getportrait
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = DSB_PP
+            }
+        }
+        localization_key = "GFX_DSB_von_Papen"
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = SSG
+            }
+        }
+        localization_key = "GFX_DSB_Kurtvon_Schleicher"
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = DSB_HB
+            }
+        }
+        localization_key = "GFX_DSB_Heinrich_Bruning"
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = STNG
+            }
+        }
+        localization_key = "GFX_STNG"
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = FRA_Daudet_ZongLi
+            }
+        }
+        localization_key = "GFX_FRA_Léon_Daudet"
+    }
+}
+defined_text = { # Country
+    name = GetSLName
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = DSB_PP
+            }
+        }
+        localization_key = GER_von_Papen
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = SSG
+            }
+        }
+        localization_key = GER_Kurtvon_Schleicher
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = DSB_HB
+            }
+        }
+        localization_key = GER_Heinrich_Bruning
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = STNG
+            }
+        }
+        localization_key = STNG
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = FRA_Daudet_ZongLi
+            }
+        }
+        localization_key = FRA_Daudet_ZongLi
+    }
+}
+defined_text = { # Country
+    name = SLD
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = DSB_PP
+            }
+        }
+        localization_key = GER_von_Papen
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = SSG
+            }
+        }
+        localization_key = GER_Kurtvon_Schleicher
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = DSB_HB
+            }
+        }
+        localization_key = GER_Heinrich_Bruning
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = STNG
+            }
+        }
+        localization_key = STNG_desc
+    }
+    text = {
+        trigger = {
+            THIS = {
+                has_country_flag = FRA_Daudet_ZongLi
+            }
+        }
+        localization_key = FRA_Daudet_ZongLi_Desc
+    }
+}
+defined_text = { # Country
+    name = GetJew_powername
+    text = {
+        trigger = {
+            check_variable = { Jew_power < 0.20 }
+        }
+        localization_key = Jew_power_very_low
+    }
+    text = {
+        trigger = {
+            check_variable = { Jew_power > 0.20 }
+            check_variable = { Jew_power < 0.40 }
+        }
+        localization_key = Jew_power_low
+    }
+    text = {
+        trigger = {
+            check_variable = { Jew_power > 0.40 }
+            check_variable = { Jew_power < 0.60 }
+        }
+        localization_key = Jew_power_meduim
+    }
+    text = {
+        trigger = {
+            check_variable = { Jew_power > 0.60 }
+            check_variable = { Jew_power < 0.80 }
+        }
+        localization_key = Jew_power_high
+    }
+    text = {
+        trigger = {
+            check_variable = { Jew_power > 0.80 }
+            check_variable = { Jew_power < 1.01 }
+        }
+        localization_key = Jew_power_very_high
+    }
+}
+defined_text = { # Country
+    name = GetJew_zong_congname
+    text = {
+        trigger = {
+            check_variable = { Jew_zong_cong < 0.20 }
+        }
+        localization_key = Jew_power_very_low
+    }
+    text = {
+        trigger = {
+            check_variable = { Jew_zong_cong > 0.20 }
+            check_variable = { Jew_zong_cong < 0.40 }
+        }
+        localization_key = Jew_power_low
+    }
+    text = {
+        trigger = {
+            check_variable = { Jew_zong_cong > 0.40 }
+            check_variable = { Jew_zong_cong < 0.60 }
+        }
+        localization_key = Jew_power_meduim
+    }
+    text = {
+        trigger = {
+            check_variable = { Jew_zong_cong > 0.60 }
+            check_variable = { Jew_zong_cong < 0.80 }
+        }
+        localization_key = Jew_power_high
+    }
+    text = {
+        trigger = {
+            check_variable = { Jew_zong_cong > 0.80 }
+            check_variable = { Jew_zong_cong < 1.01 }
+        }
+        localization_key = Jew_power_very_high
+    }
+}
+defined_text = { # Country
+    name = GetDKZNames
+    text = {
+        trigger = {
+            check_variable = { RenMinDK_var = 0 }
+        }
+        localization_key = YZZYZD
+    }
+    text = {
+        trigger = {
+            check_variable = { RenMinDK_var = 1 }
+        }
+        localization_key = YZZYSX
+    }
+    text = {
+        trigger = {
+             check_variable = { RenMinDK_var = 2 }
+        }
+        localization_key = YZZYDC
+    }
+    text = {
+        trigger = {
+             check_variable = { RenMinDK_var = 3 }
+        }
+        localization_key = YZZYSW
+    }
+    text = {
+        trigger = {
+             check_variable = { RenMinDK_var = 4 }
+        }
+        localization_key = ZCZZ
+    }
+    text = {
+        trigger = {
+             check_variable = { RenMinDK_var = 5 }
+        }
+        localization_key = YHZZ
+    }
+    text = {
+        trigger = {
+             check_variable = { RenMinDK_var = 6 }
+        }
+        localization_key = KWZZ
+    }
+    text = {
+        trigger = {
+             check_variable = { RenMinDK_var = 7 }
+        }
+        localization_key = XWZZ
+    }
+    text = {
+        trigger = {
+             check_variable = { RenMinDK_var = 8 }
+        }
+        localization_key = KRZZ
+    }
+    text = {
+        trigger = {
+             check_variable = { RenMinDK_var = 9 }
+        }
+        localization_key = RMJDZSERROR
+    }
+}

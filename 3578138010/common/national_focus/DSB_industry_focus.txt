@@ -1,0 +1,454 @@
+shared_focus = {
+	id = industry_title
+	icon = GFX_goal_unknown
+	cost = 3
+	x = 30
+	y = 0
+	completion_reward = {
+		add_dynamic_modifier = {
+			modifier = industry_dynamic
+		}
+	}
+}
+shared_focus = {
+	id = against_inflation
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 1
+
+	prerequisite = {
+		focus = industry_title
+	}
+
+	completion_reward = {
+		show_ideas_tooltip = industry_first
+		add_to_variable = {
+			icc_production_speed_synthetic_refinery_factor = -0.05
+		}
+		add_to_variable = {
+			icc_production_speed_arms_factory_factor = -0.05
+		}
+		add_to_variable = {
+			icc_production_speed_dockyard_factor = -0.05
+		}
+		add_to_variable = {
+			icc_production_speed_infrastructure_factor = 0.05
+		}
+		add_to_variable = {
+			icc_production_speed_industrial_complex_factor = 0.05
+		}
+		add_to_variable = {
+			icc_PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR = 0.30
+		}
+		add_to_variable = {
+			icc_industrial_capacity_factory = -0.10
+		}
+		add_to_variable = {
+			icc_line_change_production_efficiency_factor = 0.10
+		}
+	}
+}
+shared_focus = {
+	id = Regulate_the_Imperial_Budget
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 2
+
+	prerequisite = {
+		focus = against_inflation
+	}
+
+	completion_reward = {
+		show_ideas_tooltip = industry_second
+		add_political_power = 100
+		army_experience = -20
+		navy_experience = -10
+		air_experience = -10
+		add_to_variable = {
+			icc_monthly_population = -0.05
+		}
+		add_to_variable = {
+			icc_consumer_goods_factor = -0.10
+		}
+		add_to_variable = {
+			icc_production_speed_infrastructure_factor = 0.10
+		}
+		add_to_variable = {
+			icc_production_speed_industrial_complex_factor = 0.10
+		}
+		add_to_variable = {
+			icc_line_change_production_efficiency_factor = 0.05
+		}
+		add_to_variable = {
+			icc_production_factory_max_efficiency_factor = 0.05
+		}
+		unlock_decision_tooltip = 
+	}
+}
+shared_focus = {
+	id = new_mark
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 29
+	y = 3
+
+	prerequisite = {
+		focus = Regulate_the_Imperial_Budget
+	}
+	mutually_exclusive = {
+		focus = Dependent_on_British_gold_reserves
+	}
+
+	completion_reward = {
+		add_timed_idea = {
+			idea = new_mark_ideas
+			days = 365
+		}
+		add_stability = 0.05
+		add_political_power = 75
+	}
+}
+shared_focus = {
+	id = Dependent_on_British_gold_reserves
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 31
+	y = 3
+
+	prerequisite = {
+		focus = Regulate_the_Imperial_Budget
+	}
+	mutually_exclusive = {
+		focus = new_mark
+	}
+
+	completion_reward = {
+		add_ideas = Dependent_on_British_gold_reserves
+	}
+}
+shared_focus = {
+	id = Request_debt_transfer
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 31
+	y = 4
+
+	prerequisite = {
+		focus = Dependent_on_British_gold_reserves
+		focus = new_mark
+	}
+	mutually_exclusive = {
+		focus = Fiscal_austerity
+	}
+
+	completion_reward = {
+		add_ideas = Asset_collateral
+		763 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex #创造建筑类型
+				level = 2 #创造建造数量
+				instant_build = yes #瞬间制造
+			}
+		}
+	}
+}
+shared_focus = {
+	id = Fiscal_austerity
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 29
+	y = 4
+
+	prerequisite = {
+		focus = Dependent_on_British_gold_reserves
+		focus = new_mark
+	}
+	mutually_exclusive = {
+		focus = Request_debt_transfer
+	}
+
+	completion_reward = {
+		add_political_power = -100
+		show_ideas_tooltip = industry_third
+		add_to_variable = {
+			icc_consumer_goods_factor = -0.10
+		}
+		add_to_variable = {
+			icc_industrial_capacity_factory = 0.10
+		}
+		add_to_variable = {
+			icc_production_factory_max_efficiency_factor = 0.10
+		}
+	}
+}
+shared_focus = {
+	id = Focus_on_trading
+	icon = GFX_goal_unknown
+	cost = 1
+	x = 29
+	y = 5
+
+	prerequisite = {
+		focus = Fiscal_austerity
+		focus = Request_debt_transfer
+	}
+	mutually_exclusive = {
+		focus = Focus_on_local_development
+	}
+
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = Focus_on_local_development
+	icon = GFX_goal_unknown
+	cost = 1
+	x = 31
+	y = 5
+
+	prerequisite = {
+		focus = Fiscal_austerity
+		focus = Request_debt_transfer
+	}
+	mutually_exclusive = {
+		focus = Focus_on_trading
+	}
+
+	completion_reward = {
+		add_political_power = 100
+		add_tech_bonus = {
+			name = GER_the_four_year_plan
+			bonus = 1
+			uses = 1
+			category = industry
+		}
+	}
+}
+shared_focus = {
+	id = Invest_in_the_local_military_industry
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 31
+	y = 6
+
+	prerequisite = {
+		focus = Focus_on_trading
+		focus = Focus_on_local_development
+	}
+	mutually_exclusive = {
+		focus = Transfer_to_overseas_industry
+	}
+
+	completion_reward = {
+        763 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = arms_factory #创造建筑类型
+                level = 2 #创造建造数量
+                instant_build = yes #瞬间制造
+            }
+        }
+        add_war_support = 0.10
+	}
+}
+shared_focus = {
+	id = Transfer_to_overseas_industry
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 29
+	y = 6
+
+	prerequisite = {
+		focus = Focus_on_trading
+		focus = Focus_on_local_development
+	}
+	mutually_exclusive = {
+		focus = Invest_in_the_local_military_industry
+	}
+
+	completion_reward = {
+		add_stability = 0.10
+		add_offsite_building = { type = industrial_complex level = 2 }
+	}
+}
+shared_focus = {
+	id = Develop_naval_facilities
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 28
+	y = 7
+
+	prerequisite = {
+		focus = Transfer_to_overseas_industry
+		focus = Invest_in_the_local_military_industry
+	}
+	mutually_exclusive = {
+		focus = Comprehensively_strengthen_military_spending
+	}
+	mutually_exclusive = {
+		focus = Recall_veterans
+	}
+
+	completion_reward = {
+		763 = {
+    		add_building_construction = {
+        		type = dockyard #创造建筑类型
+        		level = 3 #创造建造数量
+        		instant_build = yes #瞬间制造
+    		}
+			add_extra_state_shared_building_slots = 3
+		}
+	}
+}
+shared_focus = {
+	id = Recall_veterans
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 7
+
+	prerequisite = {
+		focus = Transfer_to_overseas_industry
+		focus = Invest_in_the_local_military_industry
+	}
+	mutually_exclusive = {
+		focus = Develop_naval_facilities
+	}
+	mutually_exclusive = {
+		focus = Comprehensively_strengthen_military_spending
+	}
+
+	completion_reward = {
+		add_ideas = old_soilders
+	}
+}
+shared_focus = {
+	id = Comprehensively_strengthen_military_spending
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 32
+	y = 7
+
+	prerequisite = {
+		focus = Transfer_to_overseas_industry
+		focus = Invest_in_the_local_military_industry
+	}
+	mutually_exclusive = {
+		focus = Develop_naval_facilities
+	}
+	mutually_exclusive = {
+		focus = Recall_veterans
+	}
+
+	completion_reward = {
+		random_owned_state = {
+    		add_building_construction = {
+    			type = arms_factory #创造建筑类型
+        		level = 3 #创造建造数量
+        		instant_build = yes #瞬间制造
+    		}
+		}
+		add_ideas = war_economy
+	}
+}
+shared_focus = {
+	id = Strengthen_the_power_of_the_Kaiser
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 8
+
+	prerequisite = {
+		focus = Develop_naval_facilities
+		focus = Recall_veterans
+		focus = Comprehensively_strengthen_military_spending
+	}
+
+	completion_reward = {
+		remove_ideas = new_mark_ideas
+		add_ideas = The_Kaiser_had_full_authority_to_manage_the_economy
+	}
+}
+shared_focus = {
+	id = local_economy_to_national_economy
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 9
+
+	prerequisite = {
+		focus = Strengthen_the_power_of_the_Kaiser
+	}
+
+	completion_reward = {
+		add_ideas = new_mark_ideas
+		add_ideas = Decentralized_economy
+	}
+}
+shared_focus = {
+	id = Rebuild_the_High_Seas_Fleet
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 26
+	y = 8
+
+	prerequisite = {
+		focus = Develop_naval_facilities
+	}
+	mutually_exclusive = {
+		focus = Advocate_assault_transport
+	}
+
+	completion_reward = {
+		763 = {
+    		add_building_construction = {
+        		type = dockyard #创造建筑类型
+        		level = 3 #创造建造数量
+        		instant_build = yes #瞬间制造
+    		}
+			add_extra_state_shared_building_slots = 3
+		}
+	}
+}
+shared_focus = {
+	id = Advocate_assault_transport
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 28
+	y = 8
+
+	prerequisite = {
+		focus = Develop_naval_facilities
+	}
+	mutually_exclusive = {
+		focus = Rebuild_the_High_Seas_Fleet
+	}
+
+	completion_reward = {
+			add_tech_bonus = {
+				name = GER_u_boat_efforts
+				bonus = 1.5
+				uses = 2
+				category = ss_tech
+			}
+	}
+}
+shared_focus = {
+	id = local_economy_to_national_economy
+	icon = GFX_goal_unknown
+	cost = 2
+	x = 30
+	y = 9
+
+	prerequisite = {
+		focus = Strengthen_the_power_of_the_Kaiser
+	}
+
+	completion_reward = {
+		add_ideas = new_mark_ideas
+		add_ideas = Decentralized_economy
+	}
+}

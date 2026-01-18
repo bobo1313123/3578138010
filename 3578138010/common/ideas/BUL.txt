@@ -1,0 +1,90 @@
+ideas = {
+
+	country = {
+		dushezhiya = {
+			picture = xxx
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				production_speed_buildings_factor = -0.3
+				global_building_slots = -1
+				monthly_population = -0.05
+			}
+		}
+		wuwangzhizai = {
+			picture = xxx
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.5
+				stability_factor = -0.1
+				local_resources_factor = -0.15
+			}
+		}
+ 		anyingzhiren = {
+			picture = xxx
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.2
+				nazism_drift = 0.01
+			}
+		}
+
+		nayitiaoyue = {
+			picture = xxx
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				political_power_gain = -0.5
+				industrial_capacity_factory = -0.2
+				dockyard_donations = -0.2
+				hidden_modifier = {
+					political_power_gain = 0.1
+				}
+				custom_modifier_tooltip = nayitiaoyue_tt
+			}
+		}
+	}
+}

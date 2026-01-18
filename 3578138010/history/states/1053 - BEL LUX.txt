@@ -1,0 +1,21 @@
+state={
+	id=1053
+	name="STATE_1053"
+	manpower = 1140
+
+	state_category = city
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BEL
+	}
+
+	provinces={
+		13379
+	}
+
+	local_supplies=7.0 
+}

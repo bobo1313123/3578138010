@@ -1,0 +1,22 @@
+state={
+	id=1056
+	name="STATE_1056"
+	manpower = 1270509
+
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		9540 11501 533 9516 3489 3505 449 484 509 3478 11418
+	}
+
+	local_supplies=7.0 
+}

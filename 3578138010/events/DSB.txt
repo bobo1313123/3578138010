@@ -1,0 +1,2535 @@
+add_namespace = DSB
+add_namespace = NEWS_DSB
+country_event = {
+	id = DSB.1
+	title = DSB.1.t
+	desc = DSB.1.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+	option = {
+		name = DSB.1.a
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.40
+		remove_country_leader_role = {
+			character = DSB_chiang_WWI
+			ideology = despotism
+		}
+		create_country_leader = {
+			name = DSB_Interim_government
+			picture = GFX_portrait_eng_fallen_government
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				
+			}
+		}
+		set_country_flag = WWI_gg_new_focus
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = DSB_WWI_deat
+		custom_effect_tooltip = TVE_OLD_TIME_TT
+	}
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = DSB.1.b
+		add_stability = -0.40
+		set_country_flag = WWI_live_new_focus
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = DSB_yuci_fengbo
+		hidden_effect = {
+			country_event = { id = DSB.52 hours = 10 }
+		}
+	}
+}
+
+country_event = {
+	id = DSB.8
+	title = DSB.8.t
+	desc = DSB.8.c
+	picture = GFX_report_event_hungary_parliament
+	is_triggered_only = yes
+
+	option = { 
+		name = DSB.8.a
+		add_to_variable = {
+			DSB_army_power_wwi_gg = 4
+		}
+		remove_ideas = sour_juncker_unhappy_1
+		add_ideas = GER_wilhelm_iii
+		custom_effect_tooltip = event_DSB_eight_A_tt
+	}
+	option = { 
+		name = DSB.8.b
+		add_to_variable = {
+			DSB_army_power_wwi_gg = 2
+		}
+		add_stability = 0.11
+		remove_ideas = sour_juncker_unhappy_1
+		add_ideas = GER_wilhelm_iii
+		custom_effect_tooltip = event_DSB_eight_B_tt
+	}
+}
+
+country_event = {
+	id = DSB.2
+	title = DSB.2.t
+	desc = DSB.2.d
+	picture = GFX_report_event_SOV_national_academy_of_sciences
+	is_triggered_only = yes
+	
+	option = {
+		name = DSB.2.a
+		swap_ideas = {
+
+			remove_idea = sour_restoration_2
+
+			add_idea = sour_restoration_4
+		}
+		complete_national_focus = DSB_support_people
+		set_country_flag = DSB_support_people_scf
+		unlock_decision_tooltip = DSB_army_is_action
+	}
+	option = {
+		name = DSB.2.f
+		swap_ideas = {
+
+			remove_idea = sour_restoration_2
+
+			add_idea = sour_restoration_4
+		}
+		complete_national_focus = DSB_support_army
+		set_country_flag = DSB_support_army_scf
+		unlock_decision_tooltip = DSB_people_is_action
+	}
+}
+country_event = {
+	id = DSB.9
+	title = DSB.9.t
+	desc = DSB.9.d
+	picture = GFX_report_event_SOV_national_academy_of_sciences
+	is_triggered_only = yes
+	
+	option = {
+		name = DSB.9.a
+		if = {
+			limit = {
+				check_variable = {DSB_army_power_wwi_gg > DSB_Totalitarianism_power_wwi_gg }
+			}
+			country_event = {
+				id = DSB.10
+				days = 5
+			}
+		}
+		if = {
+			limit = {
+				check_variable = {DSB_army_power_wwi_gg < DSB_Totalitarianism_power_wwi_gg }
+			}
+			country_event = {
+				id = DSB.11
+				days = 5
+			}
+		}
+	}
+}
+country_event = {
+	id = DSB.10
+	title = DSB.10.t
+	desc = DSB.10.d
+	picture = GFX_report_event_SOV_national_academy_of_sciences
+	is_triggered_only = yes
+	
+	option = {
+		name = DSB.10.a
+		create_country_leader = {
+			name = GER_august_von_mackensen
+			picture = GFX_portrait_ger_august_von_mackensen
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				great_war_hero
+			}
+		}
+		remove_ideas = sour_restoration_2
+	}
+}
+country_event = {
+	id = DSB.11
+	title = DSB.11.t
+	desc = DSB.11.d
+	picture = GFX_report_event_SOV_national_academy_of_sciences
+	is_triggered_only = yes
+	
+	option = {
+		name = DSB.11.a
+		country_event = {
+			id = DSB.3
+			days = 2
+		}
+		remove_ideas = sour_restoration_2
+	}
+}
+country_event = {
+	id = DSB.3
+	title = DSB.3.t
+	desc = DSB.3.d
+	picture = GFX_report_event_SOV_national_academy_of_sciences
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DSB.3.a
+		add_popularity = {
+			ideology = Totalitarianism
+			popularity = 0.35
+		}
+		set_politics = { ruling_party = Totalitarianism elections_allowed = no }
+		if = {
+			limit = {has_country_flag = DSB_coopertate_von_replacement_country_name}
+			set_cosmetic_tag = DSB_kingdom_country_name
+			add_ideas = GER_wilhelm_iii
+	}
+}
+	
+	
+	option ={
+		name = DSB.3.c
+		add_popularity = {
+			ideology = Liberalism
+			popularity = 0.25
+		}
+		set_politics = { ruling_party = Liberalism elections_allowed = no }
+		if = {
+			limit = {has_country_flag = DSB_coopertate_von_replacement_country_name}
+			set_cosmetic_tag = DSB_kingdom_country_name
+			add_ideas = GER_wilhelm_iii
+		}
+	}
+}
+country_event = {
+	id = DSB.4
+	title = DSB.4.t
+	desc = DSB.4.d
+	picture = GFX_report_event_SOV_national_academy_of_sciences
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = DSB.4.a
+		complete_national_focus = DSB_liberate_germany
+	}
+}
+country_event = {
+	id = DSB.5
+	title = DSB.5.T
+	desc = DSB.5.C
+	picture = GFX_report_event_soviet_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.5.N
+			DSB = {
+				country_event = {
+					id = DSB.6
+					days = 2
+				}
+			}
+		}
+}
+country_event = {
+	id = DSB.6
+	title = DSB.6.T
+	desc = DSB.6.C
+	picture = GFX_report_event_soviet_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.6.N
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 1000
+			producer = DSB
+		}
+	}
+}
+country_event = {
+	id = DSB.7
+	title = DSB.7.T
+	desc = DSB.7.C
+	picture = GFX_report_event_soviet_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.7.N
+		DSB = {
+			country_event = {
+				id = DSB.100
+				days = 4
+			}
+		}
+	}
+}
+country_event = {
+	id = DSB.20
+	title = DSB.20.t
+	desc = DSB.20.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = { 
+		name = DSB.20.n.a
+		ENG ={
+			country_event = {
+				id = DSB.21
+				days = 3
+			}
+		}
+	}
+	option = {
+		trigger = {
+			has_government = Totalitarianism
+		}
+		name = DSB.20.n.b
+		SOV ={
+			country_event = {
+				id = DSB.21
+				days = 3
+			}
+		}
+	}
+}
+country_event = {
+	id = DSB.21
+	title = DSB.21.t
+	desc = DSB.21.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = { 
+		name = DSB.21.n
+		add_to_faction = FROM
+	}
+}
+country_event = {
+	id = DSB.22
+	title = DSB.22.t
+	desc = DSB.22.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.22.n.a
+		set_country_flag = DSB_government_highly_control_industry_scf
+	}
+	option = {
+		name = DSB.22.n.b
+		set_country_flag = DSB_government_indulge_industry_scf
+	}
+}
+#反攻后
+country_event = {
+	id = DSB.23
+	title = DSB.23.t
+	desc = DSB.23.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.23.n.a
+		set_country_flag = DSB_return_end_focus_work
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = DSB_fight_for_GER
+		set_capital = { state = 1049 }
+		custom_effect_tooltip = DSB_return_end_focus_work_tt
+		add_ideas = industry_has_been_broken
+		add_ideas = politics_has_been_broken
+		add_ideas = people_Hatred_other
+		remove_ideas = qbdwzg
+		remove_ideas = sour_return
+		remove_ideas = sour_return_s
+		remove_ideas = sour_return_t
+		remove_ideas = sour_return_t_two
+		add_dynamic_modifier = {
+			modifier = National_slackness
+		}
+		every_state = {
+			remove_dynamic_modifier = {
+				modifier = FNZQY
+			}
+		}
+		remove_dynamic_modifier = {
+			modifier = DSB_jingchengtuanjie
+		}
+		remove_dynamic_modifier = {
+			modifier = DSB_jindutiao_xiaoguo
+		}
+		remove_dynamic_modifier = {
+			modifier = DSB_prussia_army_wwii
+		}
+		remove_ideas = sour_unification_1
+		remove_ideas = sour_unification_2
+		remove_ideas = sour_unification_3
+		annex_country = {
+			target = GER
+		}
+		every_state = {
+			limit = {
+				is_core_of = GER
+				NOT = {
+					is_core_of = DSB
+				}
+				is_owned_by = DSB	
+			}
+			add_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+	}
+}
+country_event = {
+	id = DSB.24
+	title = DSB.24.t
+	desc = DSB.24.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.24.n.a
+		country_event = {
+			id = DSB.25
+			days = 7
+		}
+		add_to_variable = {
+			DSB_return_politics_rebuild = -1
+		}
+	}
+	option = {
+		name = DSB.24.n.b
+		country_event = {
+			id = DSB.25
+			days = 7
+		}
+		add_to_variable = {
+			DSB_return_politics_rebuild = 1
+		}
+	}
+}
+country_event = {
+	id = DSB.25
+	title = DSB.25.t
+	desc = DSB.25.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.25.n.a
+		country_event = {
+			id = DSB.26
+			days = 7
+		}
+		set_country_flag = democray_germany
+		add_to_variable = {
+			DSB_return_politics_rebuild = -1
+		}
+	}
+	option = {
+		name = DSB.25.n.b
+		country_event = {
+			id = DSB.26
+			days = 7
+		}
+		add_to_variable = {
+			DSB_return_politics_rebuild = 1
+		}
+	}
+}
+country_event = {
+	id = DSB.26
+	title = DSB.26.t
+	desc = DSB.26.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.26.n.a
+		set_country_flag = histroy_decision_scf
+		if = {
+			limit = { 
+				check_variable = {
+					DSB_return_politics_rebuild < 0
+				}
+			}
+			set_country_flag = DSB_france_dog
+		}
+		if = {
+			limit = { 
+				check_variable = {
+					DSB_return_politics_rebuild = 0
+				}
+			}
+			set_country_flag = DSB_france_friend
+		}
+		if = {
+			limit = { 
+				check_variable = {
+					DSB_return_politics_rebuild > 0
+				}
+			}
+			set_country_flag = DSB_france_enemy
+		}
+	}
+}
+country_event = {
+	id = DSB.27
+	title = DSB.27.t
+	desc = DSB.27.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.27.n.a
+		set_politics = { ruling_party = Conservatism elections_allowed = no }
+		add_popularity = {
+			ideology = Conservatism
+			popularity = 0.35
+		}
+		remove_ideas = GER_Kurtvon_Schleicher
+		add_ideas = GER_Heinrich_Bruning
+		set_country_flag = DSB_HB
+		clr_country_flag = DSB_PP
+		clr_country_flag = SSG
+		trigger = {
+			has_country_flag = democray_germany
+		}
+	}
+	option = {
+		name = DSB.27.n.b
+		set_politics = { ruling_party = Authoritarianism elections_allowed = no }
+		add_popularity = {
+			ideology = Authoritarianism
+			popularity = 0.35
+		}
+		hidden_effect = {
+            create_country_leader = {
+                name = DSB_chiang_WWI
+                picture = GFX_DSB_chiang_WWI_Authoritarianism
+                expire = "1965.1.1"
+                ideology = despotism
+                traits = {
+                }
+            }
+		}
+	}
+	option = {
+		name = DSB.27.n.c
+		set_politics = { ruling_party = tttt elections_allowed = no }
+		add_popularity = {
+			ideology = tttt
+			popularity = 0.35
+		}
+	}
+}
+country_event = {
+	id = DSB.28
+	title = DSB.28.t
+	desc = DSB.28.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.28.n.a
+		complete_national_focus = DSB_fast
+	}
+	option = {
+		name = DSB.28.n.b
+		complete_national_focus = DSB_slowly
+	}
+}
+country_event = {
+	id = DSB.29
+	title = DSB.29.t
+	desc = DSB.29.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.29.n.a
+		complete_national_focus = DSB_fast
+	}
+	option = {
+		name = DSB.29.n.b
+		complete_national_focus = DSB_slowly
+	}
+}
+country_event = {
+	id = DSB.30
+	title = DSB.30.t
+	desc = DSB.30.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.30.n.a
+		set_country_flag = DSB_WWi_live_new_focus_law_phase
+		mark_focus_tree_layout_dirty = yes
+		show_ideas_tooltip = sour_Martial_law
+		complete_national_focus = DSB_banbu_jieyanling
+	}
+}
+country_event = {
+	id = DSB.31
+	title = DSB.31.t
+	desc = DSB.31.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.31.n.a
+		set_country_flag = diaocha_over_scf
+		mark_focus_tree_layout_dirty = yes
+	}
+}
+country_event = {
+	id = DSB.32
+	title = DSB.32.t
+	desc = DSB.32.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.32.n.a
+		custom_effect_tooltip = army_zong_cong_rise_low
+		randomize_temp_variable = {
+				var = dsb_random_f
+				distribution = uniform
+				min = 0
+				max = 5
+		}
+		add_to_variable = {
+			dsb_army_zong_cong_point = dsb_random_f
+		}
+		hidden_effect = {
+			country_event = { id = DSB.33 days = 3 }
+			country_event = { id = DSB.31 days = 23 }
+		}
+	}
+}
+country_event = {
+	id = DSB.33
+	title = DSB.33.t
+	desc = DSB.33.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.33.n.a
+		set_country_flag = DSB_WWi_live_new_focus_yihui_close
+		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = army_zong_cong_reduce_low
+		randomize_temp_variable = {
+				var = dsb_random_t
+				distribution = uniform
+				min = 0
+				max = 5
+		}
+		add_to_variable = {
+			dsb_army_zong_cong_point = dsb_random_t
+		}
+		complete_national_focus = DSB_zanbi_yihui
+	}
+}
+country_event = {
+	id = DSB.34
+	title = DSB.34.t
+	desc = DSB.34.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.34.n.a
+		add_manpower = -1
+		remove_country_leader_role = {
+			character = DSB_hans_vogel
+			ideology = socialism
+		}
+	}
+}
+country_event = {
+	id = DSB.35
+	title = DSB.35.t
+	desc = DSB.35.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.35.n.a
+		add_popularity = {
+			ideology = Liberalism
+			popularity = -0.07
+		}
+		remove_country_leader_role = {
+			character = DSB_hans_vogel
+			ideology = socialism
+		}
+		add_manpower = -100
+	}
+}
+country_event = {
+	id = DSB.36
+	title = DSB.36.t
+	desc = DSB.36.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.36.n.a
+		load_focus_tree = dsb_balance_power_focus
+		set_power_balance = {
+			id = DSB_FAKER_VI_BIN
+		}
+		complete_national_focus = DSB_jiamian_gg
+		complete_national_focus = DSB_W
+	}
+	option = {
+        name = DSB.36.n.b
+        load_focus_tree = MAN_DSB_focus
+        mark_focus_tree_layout_dirty = yes
+        set_variable = { DSB_var_manyingxiang = 25 }
+        set_variable = { DSB_var_weiyingxiang = 75 }
+    }
+}
+country_event = {
+	id = DSB.37
+	title = DSB.37.t
+	desc = DSB.37.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.37.n.a
+		add_timed_idea = {
+			idea = Totalitarianism_against
+			days = 730
+		}
+	}
+}
+country_event = {
+	id = DSB.38
+	title = DSB.38.t
+	desc = DSB.38.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.38.n.a
+	}
+}
+country_event = {
+	id = DSB.39
+	title = DSB.39.t
+	desc = DSB.39.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.39.n.a
+		remove_ideas = Totalitarianism_against
+		add_timed_idea = {
+			idea = Totalitarianism_against
+			days = 365
+		}
+	}
+}
+country_event = {
+	id = DSB.40
+	title = DSB.40.t
+	desc = DSB.40.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.40.n.a
+		remove_ideas = Totalitarianism_against
+		add_timed_idea = {
+			idea = Totalitarianism_against
+			days = 20
+		}
+	}
+}
+country_event = {
+	id = DSB.41
+	title = DSB.41.t
+	desc = DSB.41.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.41.n.a
+		set_country_flag = army_zhi_liang
+	}
+	option = {
+		name = DSB.41.n.b
+		set_country_flag = army_zong_cong
+	}
+}
+country_event = {
+	id = DSB.42
+	title = DSB.42.t
+	desc = DSB.42.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.42.n.a
+		every_state = {
+			limit = {
+				is_core_of = LIT
+			}
+			add_core_of = DSB
+		}
+		every_state = {
+			limit = {
+				is_core_of = LAT
+			}
+			add_core_of = DSB
+		}
+		every_state = {
+			limit = {
+				is_core_of = EST
+			}
+			add_core_of = DSB
+		}
+	}
+	option = {
+		name = DSB.42.n.b
+		transfer_state = 188
+		188 = { add_core_of = DSB }
+		puppet = LAT
+		set_country_flag = bo_luo_di_sheng
+		LAT ={
+			transfer_state = 808
+			transfer_state = 809
+			transfer_state = 810
+			transfer_state = 12
+			transfer_state = 190
+			transfer_state = 191
+			transfer_state = 13
+			transfer_state = 813
+			transfer_state = 812
+			transfer_state = 815
+			transfer_state = 189
+			transfer_state = 11
+			annex_country = {
+				target = LIT
+			}
+			transfer_state = 814
+			annex_country = {
+				target = EST
+			}
+			transfer_state = 811
+			set_cosmetic_tag = bo_luo_di_sea
+    		every_state = {
+        	limit = {
+            	is_core_of = EST
+        	}
+        	add_core_of = LAT
+    	  }
+    		every_state = {
+        	limit = {
+            	is_core_of = LIT
+				NOT = {
+					is_core_of = DSB
+				}
+        	}
+        	add_core_of = LAT
+    	  }
+		}
+	}
+}
+country_event = {
+	id = DSB.43
+	title = DSB.43.t
+	desc = DSB.43.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.43.n.a
+		transfer_state = 85
+		transfer_state = 1033
+		add_claim_by = 85
+		add_claim_by = 86
+		add_claim_by = 807
+		add_claim_by = 1033
+		set_country_flag = DSB_hit_poland
+	}
+}
+country_event = {
+	id = DSB.44
+	title = DSB.44.t
+	desc = DSB.44.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.44.n.a
+		complete_national_focus = DSB_JJCDZW
+		country_event = { id = DSB.45 }
+		custom_effect_tooltip = Jew_hezuo_tt
+		add_to_variable  = { Jew_last_caiding = 1 }
+	}
+	option = {
+		name = DSB.44.n.b
+		complete_national_focus = DSB_CDZW
+		country_event = { id = DSB.45 }
+		custom_effect_tooltip = Jew_run_tt
+		add_to_variable = { Jew_last_caiding = -1 }
+	}
+}
+country_event = {
+	id = DSB.45
+	title = DSB.45.t
+	desc = DSB.45.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.45.n.a
+		complete_national_focus = DSB_WQGMSF
+		custom_effect_tooltip = DSB_event_sw_one_tt
+		custom_effect_tooltip = Jew_hezuo_tt
+		add_to_variable  = { Jew_last_caiding = 1 }
+	}
+	option = {
+		name = DSB.45.n.b
+		complete_national_focus = DSB_BQCN
+		custom_effect_tooltip = Jew_run_tt
+		add_to_variable  = { Jew_last_caiding = -1 }
+	}
+	option = {
+		name = DSB.45.n.c
+		complete_national_focus = DSB_BQCN
+		modify_timed_idea = {
+			idea = DSB_Asset_withdrawal
+			days = 180
+		}
+		custom_effect_tooltip = Jew_kill_tt
+		add_to_variable  = { Jew_last_caiding = -100 }
+	}
+}
+country_event = {
+	id = DSB.46
+	title = DSB.46.t
+	desc = DSB.46.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.46.n.a
+		transfer_state = 85
+		transfer_state = 1033
+		set_country_flag = DSB_attack_poland_civil_war_start_scf
+		unlock_decision_tooltip = DSB_attack_poland_missionout_decicions
+		unlock_decision_tooltip = DSB_attack_poland
+		unlock_decision_tooltip = DSB_zhenghe_poland
+		unlock_decision_tooltip = SOV_attack_Northern_Baltic_countries
+		unlock_decision_tooltip = DSB_cefan_GaoJiaSuo
+		85 = { remove_dynamic_modifier = { modifier = international_city } }
+		85 = { set_demilitarized_zone = no }
+	}
+}
+country_event = {
+	id = DSB.47
+	title = DSB.47.t
+	desc = DSB.47.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.47.n.a
+		add_ideas = nazi_greamny_bianjingyali
+	}
+}
+#文案事件导入
+country_event = {
+	id = DSB.48
+	title = DSB.48.t
+	desc = DSB.48.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.48.n.a
+	}
+}
+country_event = {
+	id = DSB.49
+	title = DSB.49.t
+	desc = DSB.49.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.49.n.a
+		 
+	}
+}
+country_event = {
+	id = DSB.50
+	title = DSB.50.t
+	desc = DSB.50.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.50.n.a
+		 
+	}
+}
+country_event = {
+	id = DSB.51
+	title = DSB.51.t
+	desc = DSB.51.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.51.n.a
+		 
+	}
+}
+country_event = {
+	id = DSB.52
+	title = DSB.52.t
+	desc = DSB.52.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.52.n.a
+		country_event = { id = DSB.53 days = 2 }
+	}
+}
+country_event = {
+	id = DSB.53
+	title = DSB.53.t
+	desc = DSB.53.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.53.n.a
+		country_event = { id = DSB.54 days = 3 }
+	}
+}
+country_event = {
+	id = DSB.54
+	title = DSB.54.t
+	desc = DSB.54.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.54.n.a
+		country_event = { id = DSB.30 }
+		country_event = { id = DSB.62 hours = 4 }
+	}
+}
+country_event = {
+	id = DSB.55
+	title = DSB.55.t
+	desc = DSB.55.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.55.n.a
+		 
+	}
+	option = {
+		name = DSB.55.n.b
+		 
+	}
+}
+country_event = {
+	id = DSB.56
+	title = DSB.56.t
+	desc = DSB.56.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.56.n.a
+		 
+	}
+}
+country_event = {
+	id = DSB.57
+	title = DSB.57.t
+	desc = DSB.57.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.57.n.a
+		country_event = { id = DSB.58 days = 2 }
+	}
+}
+country_event = {
+	id = DSB.58
+	title = DSB.58.t
+	desc = DSB.58.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.58.n.a
+		 
+	}
+}
+country_event = {
+	id = DSB.59
+	title = DSB.59.t
+	desc = DSB.59.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.59.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.60
+	title = DSB.60.t
+	desc = DSB.60.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.60.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.61
+	title = DSB.61.t
+	desc = DSB.61.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.61.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.62
+	title = DSB.62.t
+	desc = DSB.62.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.62.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.63
+	title = DSB.63.t
+	desc = DSB.63.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.63.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.64
+	title = DSB.64.t
+	desc = DSB.64.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.64.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.65
+	title = DSB.65.t
+	desc = DSB.65.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.65.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.66
+	title = DSB.66.t
+	desc = DSB.66.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.66.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.67
+	title = DSB.67.t
+	desc = DSB.67.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.67.n.a
+		 
+	}
+}
+
+country_event = {
+	id = DSB.68
+	title = DSB.68.t
+	desc = DSB.68.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.68.n.a
+		 
+	}
+}
+country_event = {
+	id = DSB.69
+	title = DSB.69.t
+	desc = DSB.69.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.69.n.a
+	}
+}
+country_event = {
+	id = DSB.70
+	title = DSB.70.t
+	desc = DSB.70.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.70.n.a
+		complete_national_focus = DSB_kill_nazi_high_officers
+	}
+	option = {
+		name = DSB.70.n.b
+		complete_national_focus = DSB_Pardon_some_former_Nazi_officials
+	}
+}
+country_event = {
+	id = DSB.71
+	title = DSB.71.t
+	desc = DSB.71.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.71.n.a
+		set_country_flag = dsb_pashe5_work
+		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = DSB_last_neirong
+		complete_national_focus = DSB_Wei_Jing_Zhi_Shi
+		set_country_flag = DYZ_banzai
+	}
+}
+country_event = {
+	id = DSB.72
+	title = DSB.72.t
+	desc = DSB.72.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.72.n.a
+		HOL = {
+			set_cosmetic_tag = GER_HOL
+		}
+		BGD = {
+			transfer_state = 17
+			transfer_state = 18
+			transfer_state = 785
+			transfer_state = 1055
+		}
+		UKR = {
+			set_cosmetic_tag = GER_UKR
+		}
+		BLR = {
+			set_cosmetic_tag = GER_BLR
+		}	
+		RUS = {
+			set_cosmetic_tag = GER_RUS
+		}
+		POL = {
+			set_cosmetic_tag = GER_POL
+		}	
+		AZR = {
+			set_cosmetic_tag = GER_AZR
+		}
+	}
+}
+country_event = {
+	id = DSB.73
+	title = DSB.73.t
+	desc = DSB.73.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.73.n.a
+		AUS = {
+			add_stability = -0.05
+			add_manpower = -10
+		}
+		FRA = {
+			add_stability = -0.05
+			add_manpower = -10
+		}
+		RHI = {
+			add_stability = -0.05
+			add_manpower = -10
+		}
+		BAY = {
+			add_stability = -0.05
+			add_manpower = -10
+		}
+	}
+}
+country_event = {
+	id = DSB.74
+	title = DSB.74.t
+	desc = DSB.74.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.74.n.a
+		FRA = {
+			add_opinion_modifier = {
+				target = DSB
+				modifier = DSB_fuck_france_and_Austria
+			}
+		}
+		AUS = {
+			add_opinion_modifier = {
+				target = DSB
+				modifier = DSB_fuck_france_and_Austria
+			}
+		}
+		BAY = {
+			add_autonomy_score = {
+				value = -150
+			}
+		}
+		RHI = {
+			add_autonomy_score = {
+				value = -150
+			}
+		}
+			add_to_variable = { QLDV = 2 }
+			custom_effect_tooltip = QLDVB_tt
+	}
+}
+country_event = {
+	id = DSB.75
+	title = DSB.75.t
+	desc = DSB.75.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.75.n.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 1.75
+				DSB = {
+					check_variable = { QLDV < 3 }
+				}
+			}
+			modifier = {
+				factor = 2.5
+				DSB = {
+					check_variable = { QLDV = 4 }
+				}
+			}
+			modifier = {
+				factor = 2.5
+				DSB = {
+					check_variable = { QLDV = 5 }
+				}
+			}
+			modifier = {
+				factor = 10
+				DSB = {
+					check_variable = { QLDV > 5 }
+				}
+			}
+		}
+		DSB = { country_event = { id  = DSB.76 hours = 16 } }
+	}
+	option = {
+		name = DSB.75.n.b
+		ai_chance = {
+			base = 35
+		}
+		DSB = { country_event = { id  = DSB.78 hours = 23 } }
+	}
+}
+country_event = {
+	id = DSB.76
+	title = DSB.76.t
+	desc = DSB.76.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.76.n.a
+		if = {
+			limit = { 360 = { is_owned_by = CSA } }
+			CSA = {
+				transfer_state = 101
+			}
+		}
+		else = {
+			ENG = {
+				transfer_state = 101
+			}
+		}
+		ENG = {
+			transfer_state = 337
+		}
+		set_autonomy = {
+			target = DEN
+			autonomy_state = autonomy_integrated_puppet
+		}
+		set_country_flag = {
+			flag = National_people_happy_scf
+			value= 1
+			days = 50
+		}
+		DSB = {
+			transfer_state = 910
+		}
+		910 = {
+			add_claim_by = DSB
+		}
+		hidden_effect = {
+			DEN = {
+				create_country_leader = {
+					name = DSB_ewald_von_kleist
+					picture = GFX_DSB_ewald_von_kleist
+					ideology = chai_kai_shek
+				}
+				set_politics = { ruling_party = tttt elections_allowed = no }
+				set_cosmetic_tag = DSB_DEN
+			}
+		}
+		add_stability = 0.05
+		add_war_support = 0.05
+		add_political_power = 75
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+		add_to_variable = { QLDV = 1 }
+		custom_effect_tooltip = QLDVR_tt
+		custom_effect_tooltip = DSB_76_tt
+		hidden_effect = {
+			Assessment_timeline_for_the_aggression_level_of_the_North_German_Confederation_government_from_an_international_perspective_sf = yes
+		}
+	}
+}
+country_event = {
+	id = DSB.77
+	title = DSB.77.t
+	desc = DSB.77.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.77.n.a
+		set_country_flag = Natioanl_people_inneed_scf
+		set_variable = { National_people_inneed_var = QLDV }
+		randomize_temp_variable = {
+			var = National_people_inneed_randomize_var
+			distribution = uniform
+			min = 1
+			max = 3
+		}
+		round_variable = National_people_inneed_randomize_var
+		unlock_decision_tooltip = Natioanl_people_inneed_decision_missionout
+		add_to_variable = { National_people_inneed_var = National_people_inneed_randomize_var }
+		set_variable = { why_the_shit_variable_are_to_large_well = National_people_inneed_var }
+		set_variable = { why_the_shit_variable_are_to_large_bad = National_people_inneed_var }
+		multiply_variable = { why_the_shit_variable_are_to_large_well = 0.009 }
+		multiply_variable = { why_the_shit_variable_are_to_large_bad = -0.008 }
+	}
+}
+country_event = {
+	id = DSB.78
+	title = DSB.78.t
+	desc = DSB.78.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.78.n.a
+		declare_war_on = {
+			target = DEN
+			type = annex_everything
+		}
+	}
+	option = {
+		name = DSB.78.n.b
+		if = {
+			limit = {
+				has_country_flag = Pass_Medium_Phase_scf
+			}
+			add_stability = -0.45
+			add_war_support = 0.45
+			add_to_variable = { RenMinDK_var = 3 }
+			custom_effect_tooltip = RMDKRT_tt
+			custom_effect_tooltip = DSB_seventy_eight_tt
+		}
+		else = {
+			add_stability = -0.15
+			add_war_support = 0.15
+			add_to_variable = { RenMinDK_var = 1 }
+			custom_effect_tooltip = RMDKR_tt
+			custom_effect_tooltip = DSB_seventy_eight_tt
+		}
+	}
+}
+country_event = {
+	id = DSB.79
+	title = DSB.79.t
+	desc = DSB.79.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.79.n.a
+		SWE = { give_resource_rights = { receiver = DSB state = 666 } }
+		SWE = { give_resource_rights = { receiver = DSB state = 918 } }
+		NOR = { give_resource_rights = { receiver = DSB state = 142 } }
+		NOR = { give_resource_rights = { receiver = DSB state = 923 } }
+		add_stability = 0.10
+		add_war_support = 0.10
+		add_political_power = 100
+		add_to_variable = { RenMinDK_var = 1 }
+		hidden_effect = {
+			Assessment_timeline_for_the_aggression_level_of_the_North_German_Confederation_government_from_an_international_perspective_sf = yes
+		}
+		custom_effect_tooltip = RMDKR_tt
+		add_to_variable = { QLDV = 1 }
+		custom_effect_tooltip = QLDVR_tt
+		custom_effect_tooltip = DSB_76_tt
+	}
+}
+country_event = {
+	id = DSB.80
+	title = DSB.80.t
+	desc = DSB.80.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.80.n.a
+		if = {
+			limit = { NOT = { has_country_flag = Natioanl_people_inneed_scf } }
+			set_country_flag = Natioanl_people_inneed_scf
+			set_variable = { National_people_inneed_var = QLDV }
+			randomize_temp_variable = {
+				var = National_people_inneed_randomize_var
+				distribution = uniform
+				min = 1
+				max = 3
+			}
+			add_to_variable = { National_people_inneed_var = National_people_inneed_randomize_var }
+			set_variable = { why_the_shit_variable_are_to_large_well = National_people_inneed_var }
+			set_variable = { why_the_shit_variable_are_to_large_bad = National_people_inneed_var }
+			multiply_variable = { why_the_shit_variable_are_to_large_well = 0.02 }
+			multiply_variable = { why_the_shit_variable_are_to_large_bad = -0.02 }
+		}
+
+
+		if = {
+			limit = { check_variable = { QLDV > 1 } }
+			add_stability = -0.20
+			add_war_support = -0.20
+			add_political_power = -175
+			add_to_variable = { RenMinDK_var = 3 }
+			custom_effect_tooltip = RMDKRT_tt
+			custom_effect_tooltip = DSB_National_people_fuck_country
+			add_to_variable = { DSB_National_people_fuck_country_var = 1 }
+			if = {
+				limit = { check_variable = { DSB_National_people_fuck_country_var = 1 } }
+				start_civil_war = {
+					ideology = nazism
+				}
+			}
+		}
+		else_if = {
+			limit = { check_variable = { QLDV = 1 } }
+			add_stability = -0.15
+			add_war_support = -0.15
+			add_political_power = -125
+			add_to_variable = { RenMinDK_var = 1 }
+			custom_effect_tooltip = RMDKR_tt
+		}
+		else_if = {
+			limit = { check_variable = { QLDV = 2 } }
+			add_stability = -0.10
+			add_war_support = -0.10
+			add_political_power = -75
+			add_to_variable = { RenMinDK_var = 1 }
+			custom_effect_tooltip = RMDKR_tt
+		}
+		else_if = {
+			limit = { check_variable = { QLDV = 3 } }
+			add_stability = -0.05
+			add_war_support = -0.05
+			add_political_power = -25
+		}
+	}
+}
+country_event = {
+	id = DSB.81
+	title = DSB.81.t
+	desc = DSB.81.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.81.n.a
+		effect_tooltip = {
+			AUS = {
+				add_ideas = MMDY
+			}
+			FRA = {
+				add_ideas = MMDY
+			}
+		}
+	}
+}
+country_event = {
+	id = DSB.82
+	title = DSB.82.t
+	desc = DSB.82.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.82.n.a
+		hidden_effect = {
+			SOV = { country_event = { id = DSB.83 days = 30 } }
+			create_wargoal = {
+				type = annex_everything
+				target = SOV
+				expire = 30
+			}
+		}
+		custom_effect_tooltip = DSB_WWII_Russia_attack_GFermany_tt
+	}
+	option = {
+		name = DSB.82.n.b
+		SOV = {
+			annex_country = {
+				target = LAT
+				transfer_troops = yes
+			}
+			every_state = {
+				limit = { is_core_of = LAT }
+			}
+			add_claim_by = SOV
+		}
+		hidden_effect = {
+			country_event = { id = DSB.84 days = 45 }
+		}
+		add_stability = -0.05
+		add_war_support = -0.10
+		add_popularity = {
+			ideology = nazism
+			popularity = 0.05
+		}
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+		custom_effect_tooltip = DSB_WWII_Russia_attack_GFermany_tt_b
+	}
+}
+country_event = {
+	id = DSB.83
+	title = DSB.83.t
+	desc = DSB.83.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.83.n.a
+		ai_chance = {
+			base = 400
+		}
+		declare_war_on = {
+			target = DSB
+			type = annex_everything
+		}
+		SOV = {
+			set_autonomy = {
+				target = POL
+				autonomous_state = autonomy_integrated_puppet
+			}
+		}
+		POL = {
+			drop_cosmetic_tag = POL_country_name_sct
+			set_cosmetic_tag = RUS_POL
+			remove_ideas = POL_gongguan_ideas
+			remove_ideas = POL_gongguan_ideas_2
+		}
+		DSB = {
+			set_country_flag = Russia_attack_Baltic_scf
+		}
+	}
+}
+country_event = {
+	id = DSB.84
+	title = DSB.84.t
+	desc = DSB.84.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.84.n.a
+		hidden_effect = {
+			SOV = { country_event = { id = DSB.83 days = 30 } }
+			create_wargoal = {
+				type = annex_everything
+				target = SOV
+				expire = 30
+			}
+		}
+		custom_effect_tooltip = DSB_WWII_Russia_attack_GFermany_tt
+	}
+	option = {
+		name = DSB.84.n.b
+		SOV = {
+			set_autonomy = {
+				target = POL
+				autonomous_state = autonomy_integrated_puppet
+			}
+		}
+		POL = {
+			drop_cosmetic_tag = POL_country_name_sct
+			set_cosmetic_tag = RUS_POL
+			remove_ideas = POL_gongguan_ideas
+			remove_ideas = POL_gongguan_ideas_2
+		}
+		hidden_effect = {
+			country_event = { id = DSB.85 days = 45 }
+		}
+		add_stability = -0.10
+		add_war_support = -0.15
+		add_popularity = {
+			ideology = nazism
+			popularity = 0.10
+		}
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+		custom_effect_tooltip = DSB_WWII_Russia_attack_GFermany_tt_c
+	}
+}
+country_event = {
+	id = DSB.85
+	title = DSB.85.t
+	desc = DSB.85.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.85.n.a
+		hidden_effect = {
+			SOV = { country_event = { id = DSB.83 days = 30 } }
+			create_wargoal = {
+				type = annex_everything
+				target = SOV
+				expire = 30
+			}
+		}
+		custom_effect_tooltip = DSB_WWII_Russia_attack_GFermany_tt
+	}
+}
+country_event = {
+	id = DSB.86
+	title = DSB.86.t
+	desc = DSB.86.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.86.n.a
+        SOV = {
+            release = LAT
+            release = UKR
+            release = BLR
+            release = KAL
+            release = KBK
+            release = NOA
+            release = CIN
+            release = DAG
+            release = RCA
+            release = KAZ
+            release = TRS
+            release = AZR
+            release = GEO
+            release = ARM
+        }
+        FIN = {
+            transfer_state = 213
+            transfer_state = 215
+            transfer_state = 216
+        }
+        KAZ = {
+            transfer_state = 406
+        }
+        KAL = {
+            transfer_state = 236
+        }
+        UKR = {
+            transfer_state = 218
+        }
+        LAT = {
+            transfer_state = 810
+        }
+        RUS = {
+            transfer_state = 264
+            transfer_state = 248
+            transfer_state = 253
+            transfer_state = 252
+            transfer_state = 255
+            transfer_state = 239
+            transfer_state = 829
+            transfer_state = 217
+            transfer_state = 244
+            transfer_state = 263
+            transfer_state = 246
+            transfer_state = 247
+            transfer_state = 219
+            transfer_state = 254
+            transfer_state = 257
+            transfer_state = 258
+            transfer_state = 265
+            transfer_state = 1056
+            transfer_state = 208
+            transfer_state = 209
+            transfer_state = 210
+            transfer_state = 242
+            transfer_state = 243
+            transfer_state = 224
+            transfer_state = 220
+            transfer_state = 240
+            transfer_state = 260
+            transfer_state = 245
+        }
+        DSB = {
+            set_autonomy = {
+                target = LAT
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = UKR
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = BLR
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = RUS
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = KAL
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = KBK
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = NOA
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = CIN
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = DAG
+                autonomous_state = autonomy_integrated_puppet
+            }
+            set_autonomy = {
+                target = RCA
+                autonomous_state = autonomy_integrated_puppet
+            }
+        }
+        236 = { add_core_of = KAL }
+        213 = { add_core_of = FIN }
+        215 = { add_core_of = FIN }
+        216 = { add_core_of = FIN }
+	}
+}
+country_event = {
+	id = DSB.87
+	title = DSB.87.t
+	desc = DSB.87.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.87.n.a
+		set_global_flag = WWII_Germany_Reich_win_sgf
+		custom_effect_tooltip = Germany_Reich_win_events_tt
+	}
+}
+country_event = {
+	id = DSB.88
+	title = DSB.88.t
+	desc = DSB.88.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.88.n.a
+		ai_chance = {
+			base = 400
+		}
+		declare_war_on = {
+			target = RAJ
+			type = annex_everything
+		}
+		FRA = {
+			add_to_faction = FIR
+		}
+	}
+}
+country_event = {
+	id = DSB.89
+	title = DSB.89.t
+	desc = DSB.89.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.89.n.a
+		set_country_flag = National_Society_extremity_variable_was_error_scf
+		unlock_decision_tooltip = National_Society_extremity_variable_was_error
+	}
+}
+country_event = {
+	id = DSB.90
+	title = DSB.90.t
+	desc = DSB.90.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.90.n.a
+		add_stability = -0.45
+		add_war_support = -0.45
+		add_political_power = -250
+		GER = {
+			transfer_state = 61
+			transfer_state = 62
+			transfer_state = 63
+			transfer_state = 68
+			declare_war_on = {
+				target = DSB
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {
+	id = DSB.91
+	title = DSB.91.t
+	desc = DSB.91.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.91.n.a
+		add_to_variable = { QLDV = -2 }
+	}
+}
+country_event = {
+	id = DSB.92
+	title = DSB.92.t
+	desc = DSB.92.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.92.n.a
+		custom_effect_tooltip = DSB_92_tt
+	}
+}
+country_event = {
+	id = DSB.93
+	title = DSB.93.t
+	desc = DSB.93.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.93.n.a
+		add_manpower = 1
+		add_stability = 0.20
+		custom_effect_tooltip = DSB_93_tt
+	}
+}
+country_event = {
+	id = DSB.94
+	title = DSB.94.t
+	desc = DSB.94.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.94.n.a
+		add_manpower = -1
+		custom_effect_tooltip = DSB_94_tt
+	}
+	option = {
+		name = DSB.94.n.b
+		custom_effect_tooltip = DSB_HMZDZHYW_tt
+		add_to_variable = { NJDVar = 20 }
+		clr_country_flag = Pass_Medium_Phase_scf
+		set_country_flag = The_Rabbit_scf
+		custom_effect_tooltip = DSB_94_ttt
+	}
+}
+country_event = {
+	id = DSB.95
+	title = DSB.95.t
+	desc = DSB.95.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.95.n.a
+		add_war_support = -0.15
+		division_template = {
+			name = "Kazachya Kavaleryskaya Diviziya"
+			division_names_group = SOV_CAV_02
+			template_counter = 05
+
+			regiments = {
+				militia = { x = 0 y = 0 }
+				militia = { x = 0 y = 1 }
+				militia = { x = 1 y = 0 }
+				militia = { x = 1 y = 1 }
+				militia = { x = 2 y = 0 }
+				militia = { x = 3 y = 0 }
+				militia = { x = 2 y = 1 }
+				militia = { x = 3 y = 1 }
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+		capital_scope = {
+			#Cossack Cavalry
+			create_unit = { 
+				division = "name = \"4ya Donskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+			create_unit = { 
+				division = "name = \"6ya Kubansko-Terskaya Kazachya Kav. Div.\" division_template = \"Kazachya Kavaleryskaya Diviziya\" start_experience_factor = 0.8 start_equipment_factor = 1.0" owner = ROOT
+			}
+		}
+	}
+	option = {
+		name = DSB.95.n.b
+		add_stability = 0.10
+		add_political_power = 250
+	}
+}
+country_event = {
+	id = DSB.96
+	title = DSB.96.t
+	desc = DSB.96.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.96.n.a
+	}
+}
+country_event = {
+	id = DSB.97
+	title = DSB.97.t
+	desc = DSB.97.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.97.a
+		add_manpower = -1
+		add_to_variable = {
+			DSB_return_nazi_against_power = -10
+		}
+		clamp_variable = {
+			var = DSB_return_nazi_against_power
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_fyh_tt
+		custom_effect_tooltip = 97_tttttt
+		country_event = { id = DSB.98 days = 3 }
+	}
+}
+country_event = {
+	id = DSB.98
+	title = DSB.98.t
+	desc = DSB.98.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.98.a
+		add_popularity = {
+			ideology = nazism
+			popularity = -0.05
+		}
+		add_to_variable = {
+			DSB_return_nazi_against_power = -10
+		}
+		clamp_variable = {
+			var = DSB_return_nazi_against_power
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_fyh_tt
+		add_manpower = -1
+		country_event = { id = DSB.99 days = 2 }
+	}
+}
+country_event = {
+	id = DSB.99
+	title = DSB.99.t
+	desc = DSB.99.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.99.a
+		randomize_temp_variable = {
+			var = random_jew_zong_cong_socre
+			distribution = uniform
+			min = 0.05
+			max = 0.10
+		}
+		add_to_variable = {
+			Jew_zong_cong = random_jew_zong_cong_socre
+		}
+		custom_effect_tooltip = jew_zong_cong_rise_high
+		country_event = { id = DSB.100 days = 5 }
+	}
+}
+country_event = {
+	id = DSB.100
+	title = DSB.100.t
+	desc = DSB.100.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.100.a
+		add_political_power = -15
+		add_manpower = -1
+		country_event = { id = DSB.102 days = 5 }
+	}
+}
+country_event = {
+	id = DSB.101
+	title = DSB.101.t
+	desc = DSB.101.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.101.a
+	}
+}
+country_event = {
+	id = DSB.102
+	title = DSB.102.t
+	desc = DSB.102.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.102.a
+		country_event = { id = DSB.101 days = 3 }
+	}
+}
+country_event = {
+	id = DSB.103
+	title = DSB.103.t
+	desc = DSB.103.d
+	picture = GFX_report_event_hungary_parliament
+
+	is_triggered_only = yes
+
+	option = {
+		name = DSB.103.n.a
+		set_variable = { RenMinDK_var = 9 }
+	}
+}
+
+
+#新闻
+news_event = {
+	id = NEWS_DSB.1
+	title = DSB.1.t
+	desc = DSB.1.d
+	picture = GFX_TVE_NEWS_WWII
+	is_triggered_only = yes
+	option = {
+		name = DSB.1.a
+		trigger = {
+			NOT = {
+				tag = DSB
+			}
+		}
+	}
+	option = {
+		name = DSB.news.1.a
+		trigger = {
+			tag = DSB
+		}
+	}
+}
+news_event = {
+	id = NEWS_DSB.2
+	title = DSB.2.t
+	desc = DSB.2.d
+	picture = GFX_news_event_026
+	is_triggered_only = yes
+	option = {
+		name = DSB.2.a
+		trigger =  {
+			NOT = {
+				tag = DSB
+			}
+		}
+	}
+	option = {
+		name = DSB.news.2.a
+		trigger = {
+			tag = DSB
+		}
+	}
+}
+country_event = {
+	id = DSB.2233
+	title = DSB.2233.t
+	desc = DSB.2233.d
+	picture = GFX_report_event_hungary_parliament
+	is_triggered_only = yes
+	option = {
+		name = DSB.2233.a
+		country_event = { id = DSB.2234 }
+	}
+	option = {
+		name = DSB.2233.b
+		country_event = { id = DSB.2234 }
+		FRA = {
+			add_ideas = LEVEL_ONE
+		}
+		AUS = {
+			add_ideas = LEVEL_ONE
+		}
+		SOV = {
+			add_ideas = LEVEL_ONE
+		}
+	}
+	option = {
+		name = DSB.2233.c
+		country_event = { id = DSB.2234 }
+		FRA = {
+			add_ideas = LEVEL_TWO
+		}
+		AUS = {
+			add_ideas = LEVEL_TWO
+		}
+		SOV = {
+			add_ideas = LEVEL_TWO
+		}
+	}
+	option = {
+		name = DSB.2233.n.d
+		country_event = { id = DSB.2234 }
+		FRA = {
+			add_ideas = LEVEL_THREE
+		}
+		AUS = {
+			add_ideas = LEVEL_THREE
+		}
+		SOV = {
+			add_ideas = LEVEL_THREE
+		}
+	}
+}
+country_event = {
+	id = DSB.2234
+	title = DSB.2234.t
+	desc = DSB.2234.d
+	picture = GFX_report_event_hungary_parliament
+	is_triggered_only = yes
+	option = {
+		name = DSB.2234.a
+	}
+	option = {
+		name = DSB.2234.b
+		FRA = {
+			add_ideas = LEVEL_ONE_ARMY
+		}
+		AUS = {
+			add_ideas = LEVEL_ONE_ARMY
+		}
+		SOV = {
+			add_ideas = LEVEL_ONE_ARMY
+		}
+	}
+	option = {
+		name = DSB.2234.c
+		FRA = {
+			add_ideas = LEVEL_TWO_ARMY
+		}
+		AUS = {
+			add_ideas = LEVEL_TWO_ARMY
+		}
+		SOV = {
+			add_ideas = LEVEL_TWO_ARMY
+		}
+	}
+	option = {
+		name = DSB.2234.d
+		FRA = {
+			add_ideas = LEVEL_THREE_ARMY
+		}
+		AUS = {
+			add_ideas = LEVEL_THREE_ARMY
+		}
+		SOV = {
+			add_ideas = LEVEL_THREE_ARMY
+		}
+	}
+}
+country_event = {
+	id = DSB.223322
+	title = DSB.223322.t
+	desc = DSB.223322.d
+	picture = GFX_juan_kuan_ma
+	is_triggered_only = yes
+	option = {
+		name = DSB.2233.a
+		country_lock_all_division_template = no
+	}
+	option = {
+		name = DSB.223322.a
+		country_event = {
+			id = DSB.2233
+		}
+	}
+}

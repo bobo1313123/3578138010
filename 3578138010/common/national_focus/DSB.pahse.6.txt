@@ -1,0 +1,583 @@
+shared_focus = {
+	id = DSB_ZMSL
+	icon = GFX_goal_unknown
+	available = {
+		always = no
+	}
+	cost = 0
+	x = 41
+	y = 30
+	allow_branch = {
+		has_country_flag = dsb_pashe6_work
+	}
+	completion_reward =  {
+		add_timed_idea = {
+			idea = LAST_WAR
+			days = 180
+		}
+		hidden_effect = {
+			AUS = {
+				add_ideas = MMDY
+			}
+			FRA = {
+				add_ideas = MMDY
+			}
+			country_event = { id = DSB.82 days = 40 }
+			country_event = { id = DSB.81 }
+			FIR = {
+				country_event = { id = DSB.88 days = 65 }
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_JSCJMZ
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_ZMSL
+	}
+	cost = 1.5
+	x = 39
+	y = 31
+	completion_reward =  {
+		every_state = {
+			limit = {
+				is_owned_by = RHI
+			}
+			add_dynamic_modifier = {
+				modifier = DSB_SCJBMZ
+				scope = DSB
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_WMSST
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_ZMSL
+	}
+	cost = 1.5
+	x = 43
+	y = 31
+	completion_reward =  {
+		add_ideas = sour_optimize_production_line
+	}
+}
+shared_focus = {
+	id = DSB_YJZSHH
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_JSCJMZ
+	}
+	prerequisite = {
+		focus = DSB_WMSST
+	}
+	select_effect = { add_ideas = MSCM }
+	cost = 10
+	x = 41
+	y = 32
+	completion_reward =  {
+		custom_effect_tooltip = MSCM_tt_third
+		custom_effect_tooltip = MSCM_tt
+		effect_tooltip = {
+			add_ideas = MSCM
+		}
+		custom_effect_tooltip = MSCM_tt_two
+		remove_ideas = MSCM
+		swap_ideas = {
+			remove_idea = LAST_WAR
+			add_idea = LAST_WAR_two
+		}
+		every_state = {
+			remove_dynamic_modifier = {
+				modifier = DSB_SCJBMZ
+				scope = DSB
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_GLLZZH
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_YJZSHH
+	}
+	bypass = {
+		RHI = {
+			is_subject_of = DSB
+		}
+	}
+	select_effect = {
+		every_state = {
+			limit = {
+				is_owned_by = RHI
+			}
+			add_dynamic_modifier = {
+				modifier = CFXD
+				scope = DSB
+				days = 180
+			}
+		}
+	}
+	cost = 5
+	x = 38
+	y = 33
+	completion_reward =  {
+		custom_effect_tooltip = MSCM_tt
+		effect_tooltip = {
+			every_state = {
+				limit = {
+					is_owned_by = RHI
+				}
+				add_dynamic_modifier = {
+					modifier = CFXD
+					scope = DSB
+					days = 180
+				}
+			}
+		}
+		custom_effect_tooltip = XBC_TT
+		every_state = {
+			limit = {
+				is_owned_by = RHI
+			}
+			remove_dynamic_modifier = {
+				modifier = CFXD
+				scope = DSB
+			}
+		}
+		add_timed_idea = {
+			idea = XDBC
+			days = 100
+		}
+		add_stability = -0.25
+		add_war_support = -0.25
+	}
+}
+shared_focus = {
+	id = DSB_ZJCDRY
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_YJZSHH
+	}
+	available = {
+		RHI = {
+			is_subject_of = DSB
+		}
+		BAY = {
+			is_subject_of = DSB
+		}
+	}
+	cost = 3
+	x = 41
+	y = 33
+	completion_reward =  {
+		add_stability = 0.25
+		add_war_support = 0.25
+		AUS = {
+			swap_ideas = {
+				remove_idea = MMDY
+				add_idea = MMDY_2
+			}
+		}
+		FRA = {
+			swap_ideas = {
+				remove_idea = MMDY
+				add_idea = MMDY_2
+			}
+		}
+		unlock_decision_tooltip = annex_RHI
+		unlock_decision_tooltip = annex_BAY
+		unlock_decision_tooltip = add_core_of_arss
+		unlock_decision_tooltip = add_core_of_ad
+		unlock_decision_tooltip = add_core_of_Austria
+		unlock_decision_tooltip = add_core_of_outside_prussia
+		unlock_decision_tooltip = add_core_of_CZE
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_QHWCM
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_YJZSHH
+	}
+	bypass = {
+		RHI = {
+			is_subject_of = DSB
+		}
+	}
+	select_effect = {
+		every_state = {
+			limit = {
+				is_owned_by = BAY
+			}
+			add_dynamic_modifier = {
+				modifier = BXSTXD
+				scope = DSB
+				days = 180
+			}
+		}
+	}
+	cost = 5
+	x = 44
+	y = 33
+	completion_reward =  {
+		custom_effect_tooltip = MSCM_tt
+		effect_tooltip = {
+			every_state = {
+				limit = {
+					is_owned_by = BAY
+				}
+				add_dynamic_modifier = {
+					modifier = BXSTXD
+					scope = DSB
+					days = 180
+				}
+			}
+		}
+		custom_effect_tooltip = XBC_TT
+		every_state = {
+			limit = {
+				is_owned_by = RHI
+			}
+			remove_dynamic_modifier = {
+				modifier = BXSTXD
+				scope = DSB
+			}
+		}
+		add_timed_idea = {
+			idea = XDBC
+			days = 100
+		}
+		add_stability = -0.25
+		add_war_support = -0.25
+	}
+}
+shared_focus = {
+	id = DSB_FSLJS
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_QHWCM
+	}
+	cost = 1
+	x = 46
+	y = 34
+	completion_reward =  {
+		every_state = {
+			limit = {
+				is_core_of = CZE
+			}
+			add_dynamic_modifier = {
+				modifier = ZRSXD
+				scope = DSB
+				days = 180
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_MZSY
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_QHWCM
+	}
+	prerequisite = {
+		focus = DSB_ZJCDRY
+	}
+	bypass = {
+		SOV = {
+			has_war_with = DSB
+		}
+	}
+	cost = 3
+	x = 43
+	y = 34
+	completion_reward =  {
+		custom_effect_tooltip = DSB_MZSY_tt
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = LAST_WAR_two
+				add_idea = LAST_WAR_third
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_JMKBE
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_GLLZZH
+	}
+	cost = 1
+	x = 36
+	y = 34
+	completion_reward =  {
+		declare_war_on = {
+			target = HOL
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = BEL
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = LUX
+			type = annex_everything
+		}
+		every_state = {
+			limit = {
+				is_owned_by = HOL
+			}
+			add_dynamic_modifier = {
+				modifier = KLSXD
+				scope = DSB
+				days = 180
+			}
+		}
+		every_state = {
+			limit = {
+				is_owned_by = BEL
+			}
+			add_dynamic_modifier = {
+				modifier = KLSXD
+				scope = DSB
+				days = 180
+			}
+		}
+		every_state = {
+			limit = {
+				is_owned_by = LUX
+			}
+			add_dynamic_modifier = {
+				modifier = KLSXD
+				scope = DSB
+				days = 180
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_JSXJ
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_GLLZZH
+	}
+	prerequisite = {
+		focus = DSB_ZJCDRY
+	}
+	bypass = {
+		FRA = {
+			NOT = {
+				has_war_with = DSB
+			}
+		}
+		AUS = {
+			NOT = {
+				has_war_with = DSB
+			}
+		}
+	}
+	cost = 3
+	x = 39
+	y = 34
+	completion_reward =  {
+		custom_effect_tooltip = DSB_JSXJ_tt
+		add_manpower = -15000
+		FRA = {
+			add_timed_idea = {
+				idea = DSB_KBXJ
+				days = 100
+			}
+		}
+		AUS = {
+			add_timed_idea = {
+				idea = DSB_KBXJ
+				days = 100
+			}
+		}
+		add_to_variable = { RenMinDK_var = 1 }
+		custom_effect_tooltip = RMDKR_tt
+	}
+}
+shared_focus = {
+	id = DSB_QDBHLJH
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_QHWCM
+	}
+	prerequisite = {
+		focus = DSB_ZJCDRY
+	}
+	prerequisite = {
+		focus = DSB_GLLZZH
+	}
+	cost = 3
+	x = 41
+	y = 34
+	completion_reward =  {
+		add_tech_bonus = {
+			name = GER_uranverein
+			bonus = 1.75
+			uses = 1
+			category = nuclear
+		}
+		add_breakthrough_progress = {
+			specialization = specialization_nuclear
+			value = 1.5
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
+	}
+}
+shared_focus = {
+	id = DSB_XSXJ
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_JMKBE
+	}
+	prerequisite = {
+		focus = DSB_JSXJ
+	}
+	bypass = {
+		FRA = {
+			NOT = {
+				has_war_with = DSB
+			}
+		}
+	}
+	select_effect = { add_ideas = FTLXD_FRA }
+	cost = 14.3
+	x = 38
+	y = 35
+	completion_reward =  {
+		custom_effect_tooltip = MSCM_tt
+		effect_tooltip = {
+			add_ideas = FTLXD_FRA
+		}
+		custom_effect_tooltip = XBC_TT
+		remove_ideas = FTLXD_FRA
+		add_timed_idea = {
+			idea = XDBC
+			days = 100
+		}
+		add_stability = -0.25
+		add_war_support = -0.25
+	}
+}
+shared_focus = {
+	id = DSB_FJJX
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_JSXJ
+	}
+	prerequisite = {
+		focus = DSB_QDBHLJH
+	}
+	prerequisite = {
+		focus = DSB_MZSY
+	}
+	available = {
+		DSB = {
+			has_war_with = SOV
+		}
+	}
+	bypass = {
+		SOV = {
+			NOT = {
+				has_war_with = DSB
+			}
+		}
+	}
+	select_effect = { add_ideas = FTLXD_SOV }
+	cost = 14.3
+	x = 41
+	y = 35
+	completion_reward =  {
+		custom_effect_tooltip = MSCM_tt
+		effect_tooltip = {
+			add_ideas = FTLXD_SOV
+		}
+		custom_effect_tooltip = XBC_TT
+		add_timed_idea = {
+			idea = XDBC
+			days = 100
+		}
+		add_stability = -0.25
+		add_war_support = -0.25
+	}
+}
+shared_focus = {
+	id = DSB_ZSBXLSK
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_MZSY
+	}
+	prerequisite = {
+		focus = DSB_FSLJS
+	}
+	bypass = {
+		AUS = {
+			NOT = {
+				has_war_with = DSB
+			}
+		}
+	}
+	select_effect = { add_ideas = FTLXD_AUS }
+	cost = 14.3
+	x = 44
+	y = 35
+	completion_reward =  {
+		custom_effect_tooltip = MSCM_tt
+		effect_tooltip = {
+			add_ideas = FTLXD_AUS
+		}
+		custom_effect_tooltip = XBC_TT
+		add_timed_idea = {
+			idea = XDBC
+			days = 100
+		}
+		add_stability = -0.25
+		add_war_support = -0.25
+	}
+}
+shared_focus = {
+	id = DSB_SQSJZTJ
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_ZSBXLSK
+	}
+	prerequisite = {
+		focus = DSB_FJJX
+	}
+	prerequisite = {
+		focus = DSB_XSXJ
+	}
+	available = {
+		28 = {
+			is_owned_by = DSB
+		}
+		1053 = {
+			is_owned_by = DSB
+		}
+		4 = {
+			is_owned_by = DSB
+		}
+		9 = {
+			is_owned_by = DSB
+		}
+		97 = {
+			is_owned_by = DSB
+		}
+		has_global_flag = GERMANY_REICH_DOWN_SCF
+	}
+	cost = 7
+	x = 41
+	y = 36
+	completion_reward =  {
+		set_cosmetic_tag = GERMANY_THIRD_REICH
+		custom_effect_tooltip = DSB_SQSJZTJ_tt
+		
+	}
+}

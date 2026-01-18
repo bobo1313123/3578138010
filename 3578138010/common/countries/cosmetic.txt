@@ -1,0 +1,128 @@
+bo_luo_di_sea = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+AUS_DEC_COLOR ={
+	color = rgb { 117 117 117 }
+	color_ui = rgb { 117 117 117 }
+}
+TRA_ROM_ANT = {
+	color = rgb { 215 196 72 }
+	color_ui = rgb { 255 255 120 }
+}
+ROC = {
+	color = rgb { 55 64 130 }
+	color_ui = rgb { 55 64 130 }
+}
+ENG_NEW_color = {
+	color = rgb { 157 43 45 }
+	color_ui = rgb { 255 73 121 }
+}
+BOG_color = {
+	color = rgb { 157 43 45 }
+	color_ui = rgb { 80  165  10 }
+}
+ITALY_color = {
+	color = rgb { 0 102 0 }
+	color_ui = rgb { 0 102 0 }
+}
+FNA_color = {
+	color = rgb { 47 74 163 }
+	color_ui = rgb { 47 74 163 }
+}
+FNA_MOR_color = {
+	color = rgb { 47 74 163 }
+	color_ui = rgb { 47 74 163 }
+}
+FNA_TUN_color = {
+	color = rgb { 47 74 163 }
+	color_ui = rgb { 47 74 163 }
+}
+FREE_RAJ_COLOR = {
+	color = rgb { 204 102 0 }
+	color_ui = rgb { 47 74 163 }
+}
+SCO_color = {
+	color = rgb { 102 178 255 }
+	color_ui = rgb { 102  178  255 }
+}
+WLS_color = {
+	color = rgb { 76 153 0 }
+	color_ui = rgb { 76  153  0 }
+}
+BSR_color = {
+	color = rgb { 97 2 89 }
+	color_ui = rgb { 97  2  89 }
+}
+BRC_color = {
+	color = rgb { 187 10 64 }
+	color_ui = rgb { 187  10  64 }
+}
+anarchy_color = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ENG_IRE = {
+	color = rgb { 157 43 45 }
+	color_ui = rgb { 80  165  10 }
+}
+PAP_color = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 80  165  10 }
+}
+AUS_COLOR = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
+}
+KAZ_color = {
+	color = rgb { 14 115 229 }
+	color_ui = rgb { 14 115 229 }
+}
+DSB_RHI = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_BAY = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_HOL = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_BEL = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_BGD = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_AUS = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_CZE = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_HUN = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_SLO = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+DSB_CRO = {
+	color = rgb { 138 155 116 }
+	color_ui = rgb { 138 155 116 }
+}
+YUG_CRO = {
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
+}
+YUG_BOS = {
+	color = rgb { 72 73 126 }
+	color_ui = rgb { 94 95 164 }
+}

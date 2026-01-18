@@ -1,0 +1,2000 @@
+shared_focus = {
+	id = DSB_fight_for_GER
+	icon = GFX_DSB_fight_for_GER_p
+	cost = 0
+	x = 21
+	y = 11
+	allow_branch = {
+		has_country_flag = DSB_return_end_focus_work
+	}
+	available = {
+		NOT = {
+			country_exists = GER
+		}
+		all_state = { 
+			OR = {
+				NOT = { is_core_of = ROOT }
+				is_controlled_by = ROOT
+			}
+			
+		}
+		controls_state = 64
+	}
+	completion_reward =  {
+		set_country_flag = NZ_DIED
+		set_cosmetic_tag = DSB_after_return_country_name
+		hidden_effect = {
+			remove_dynamic_modifier = {
+				modifier = DSB_National_recovery_plan_dynamic_modifiers
+			}
+			remove_dynamic_modifier = {
+				modifier = DSB_prussia_army
+			}
+			set_variable = {DSB_return_economy_rebuild = 0}
+			set_variable = {DSB_return_politics_rebuild = 0}
+			set_variable = {DSB_return_nazi_against_power = 45}
+			RHI = {
+				army_experience = 150
+			}
+			BAY = {
+				army_experience = 150
+			}
+		}
+		set_variable = { ENA_production_speed_buildings_factor = 0.05 }
+		set_country_flag = DSB_against_goverment_power
+		custom_effect_tooltip = DSB_prt_tt
+	}
+}
+#经济
+shared_focus = {
+	id = DSB_old_field_broken
+	icon = GFX_DSB_old_field_broken_p
+	prerequisite = {
+		focus = DSB_fight_for_GER
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -4
+	y = 1
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		add_political_power = 300
+		unlock_decision_category_tooltip = DSB_return_industry_rebuild
+	}
+}
+shared_focus = {
+	id = DSB_country_interpose_economy
+	icon = GFX_DSB_country_interpose_economy_p
+	prerequisite = {
+		focus = DSB_old_field_broken
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -7
+	y = 2
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		DSB_economy_broken_repair = yes
+		add_dynamic_modifier = {
+			modifier = DSB_New_Germany_Economic
+		}
+		unlock_decision_tooltip = rebuild_industry_2
+		custom_effect_tooltip = DSB_country_interpose_economy_tt
+		custom_effect_tooltip = DSB_cie_tt
+	}
+}
+shared_focus = {
+	id = DSB_industry_expand
+	icon = GFX_DSB_industry_expand_p
+	prerequisite = {
+		focus = DSB_country_interpose_economy
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DSB_drafting_labor
+		}
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = -6
+	y = 3
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = industrial_complex #创造建筑类型
+
+				level = 2 #创造建造数量
+
+				instant_build = yes #瞬间制造
+
+			}
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = industrial_complex #创造建筑类型
+
+				level = 2 #创造建造数量
+
+				instant_build = yes #瞬间制造
+
+			}
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = industrial_complex #创造建筑类型
+
+				level = 2 #创造建造数量
+
+				instant_build = yes #瞬间制造
+
+			}
+		}
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = DSB_money_jinsuo_fiction
+			}
+		}
+		add_to_variable = { ENA_consumer_goods_factor = -0.25 }
+		add_to_variable = { ENA_stability_factor = -0.10 }
+	}
+}
+shared_focus = {
+	id = DSB_great_Infrastructure_works
+	icon = GFX_DSB_great_Infrastructure_works
+	prerequisite = {
+		focus = DSB_country_interpose_economy
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DSB_Subsidies_for_small_and_medium-sized_enterprises
+		}
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = -4
+	y = 3
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		unlock_decision_tooltip = rebuild_industry_3
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = infrastructure #创造建筑类型
+	
+				level = 2 #创造建造数量
+	
+				instant_build = yes #瞬间制造
+	
+			}
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = infrastructure #创造建筑类型
+	
+				level = 2 #创造建造数量
+	
+				instant_build = yes #瞬间制造
+	
+			}
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = infrastructure #创造建筑类型
+	
+				level = 2 #创造建造数量
+	
+				instant_build = yes #瞬间制造
+	
+			}
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = infrastructure #创造建筑类型
+	
+				level = 2 #创造建造数量
+	
+				instant_build = yes #瞬间制造
+	
+			}
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = infrastructure #创造建筑类型
+	
+				level = 2 #创造建造数量
+	
+				instant_build = yes #瞬间制造
+	
+			}
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = infrastructure #创造建筑类型
+	
+				level = 2 #创造建造数量
+	
+				instant_build = yes #瞬间制造
+	
+			}
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = infrastructure #创造建筑类型
+	
+				level = 2 #创造建造数量
+	
+				instant_build = yes #瞬间制造
+	
+			}
+		}
+		add_to_variable = {
+			DSB_return_economy_rebuild = 5
+		}
+		clamp_variable = {
+			var = DSB_return_economy_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_ri_ttt
+	}
+}
+shared_focus = {
+	id = DSB_Modernization_of_agriculture
+	icon = GFX_DSB_Modernization_of_agriculture_p
+	prerequisite = {
+		focus = DSB_country_interpose_economy
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DSB_develop_cityization
+		}
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = -2
+	y = 3
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		add_to_variable = {
+			DSB_return_economy_rebuild = 15
+		}
+		clamp_variable = {
+			var = DSB_return_economy_rebuild
+			min = 0
+			max = 100
+		}
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = Modernization_of_agriculture_fiction
+			}
+		}
+		add_to_variable = { ENA_local_resources_factor = 0.25 }
+		custom_effect_tooltip = DSB_afi_ttt
+	}
+}
+shared_focus = {
+	id = DSB_Subsidies_for_small_and_medium-sized_enterprises
+	icon = GFX_DSB_Subsidies_for_small_and_medium_p
+	prerequisite = {
+		focus = DSB_country_interpose_economy
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DSB_great_Infrastructure_works
+		}
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -10
+	y = 3
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =   {
+		hidden_effect = {
+			add_tech_bonus = {
+				name = DSB_autarky_efforts
+				bonus = 1
+				uses = 3
+				category = industry
+			}
+		}
+		custom_effect_tooltip = DSB_sfsamse_tt
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = Subsidies_for_small_and_medium_sized_enterprises_i_fiction
+			}
+		}
+		add_to_variable = { ENA_consumer_goods_factor = 0.10 }
+		add_to_variable = { ENA_industrial_capacity_factory = 0.07 }
+		add_to_variable = { ENA_production_factory_max_efficiency_factor = 0.03 }
+		add_to_variable = { ENA_production_speed_buildings_factor = 0.05 }
+		add_to_variable = { ENA_global_building_slots_factor = 0.05 }
+	}
+}
+shared_focus = {
+	id = DSB_develop_cityization
+	icon = GFX_DSB_develop_cityization_p
+	prerequisite = {
+		focus = DSB_country_interpose_economy
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DSB_Modernization_of_agriculture
+		}
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -12
+	y = 3
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		unlock_decision_tooltip = rebuild_industry_4
+		random_owned_controlled_state = {
+    		add_building_construction = {
+        		type = industrial_complex 
+        		level = 2
+        		instant_build = yes 
+    		}
+		}
+		random_owned_controlled_state = {
+    		add_building_construction = {
+        		type = industrial_complex 
+        		level = 2
+        		instant_build = yes 
+    		}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_DFCJWYH
+	icon = GFX_DSB_DFCJWYH_p
+	prerequisite = {
+		focus = DSB_develop_cityization
+		focus = DSB_Modernization_of_agriculture
+	}
+	prerequisite = {
+		focus = DSB_Subsidies_for_small_and_medium-sized_enterprises
+		focus = DSB_great_Infrastructure_works
+	}
+	prerequisite = {
+		focus = DSB_industry_expand
+		focus = DSB_drafting_labor
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -9
+	y = 4
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = dqbk_1
+			}
+		}
+		add_to_variable = { ENA_consumer_goods_expected_value = 0.10 }
+		add_to_variable = { ENA_min_export = -0.15 }
+		add_to_variable = { ENA_global_building_slots_factor = 0.10 }
+		add_to_variable = { ENA_local_resources_factor = 0.10 }
+		add_to_variable = { ENA_PRODUCTION_LACK_OF_RESOURCE_PENALTY_FACTOR = -0.20 }
+	}
+}
+shared_focus = {
+	id = DSB_Inspire_market_confidence
+	icon = GFX_DSB_Inspire_market_confidence_p
+	prerequisite = {
+		focus = DSB_develop_cityization
+		focus = DSB_Modernization_of_agriculture
+		
+	}
+	prerequisite = {
+		focus = DSB_Subsidies_for_small_and_medium-sized_enterprises
+		focus = DSB_great_Infrastructure_works
+	}
+	prerequisite = {
+		focus = DSB_industry_expand
+		focus = DSB_drafting_labor
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -5
+	y = 4
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		unlock_decision_tooltip = rebuild_industry_5
+	}
+}
+shared_focus = {
+	id = DSB_FYDGM
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_Attract_foreign_investment
+	}
+	prerequisite = {
+		focus = DSB_JS
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+		has_country_flag = DSB_economy_rebuild_pashe_two_scf
+	}
+	cost = 3
+	x = -5
+	y = 7
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		DSB_economy_broken_repair = yes
+		add_research_slot = 1
+	}
+}
+shared_focus = {
+	id = DSB_Attract_foreign_investment
+	icon = GFX_XYWSTZ_P
+	prerequisite = {
+		focus = DSB_Restart_foreign_trade
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -6
+	y = 6
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = Restart_foreign_trade_i_1
+				add_idea = Restart_foreign_trade_i_2
+			}
+		}
+		add_to_variable = { ENA_trade_opinion_factor = 0.45 }
+		add_to_variable = { ENA_min_export = 0.10 }
+		add_to_variable = { ENA_resource_trade_cost_bonus_per_factory = 1 }
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = industrial_complex #创造建筑类型
+
+				level = 2 #创造建造数量
+
+				instant_build = yes #瞬间制造
+
+		 }
+		}
+		random_owned_controlled_state =  {
+			add_building_construction = {
+
+				type = industrial_complex #创造建筑类型
+
+				level = 2 #创造建造数量
+
+				instant_build = yes #瞬间制造
+
+		 }
+		}
+		add_to_variable = {
+			DSB_return_economy_rebuild = 15
+		}
+		clamp_variable = {
+			var = DSB_return_economy_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_afi_ttt
+	}
+}
+shared_focus = {
+	id = DSB_JS
+	icon = GFX_FSJM_P
+	prerequisite = {
+		focus = DSB_LDGMXF
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -4
+	y = 6
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_Cultivating_consumerism_1
+				add_idea = DSB_Cultivating_consumerism_2
+			}
+		}
+		add_to_variable = { ENA_consumer_goods_factor = 0.10 }
+		add_to_variable = { ENA_production_speed_arms_factory_factor = 0.05 }
+		add_to_variable = { ENA_production_speed_industrial_complex_factor = -0.05 }
+		add_to_variable = {
+			DSB_return_economy_rebuild = 10
+		}
+		clamp_variable = {
+			var = DSB_return_economy_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_rf_tt
+	}
+}
+shared_focus = {
+	id = DSB_The_post-war_economy_boomed
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_FYDGM
+	}
+	prerequisite = {
+		focus = DSB_JJPDDLB
+	}
+	available = {
+		has_country_flag = DSB_economy_rebuild_over
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -7
+	y = 8
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		if = {
+            limit = { has_idea = industry_has_been_broken }
+            swap_ideas = {
+                remove_idea = industry_has_been_broken
+                add_idea = industry_has_been_broken_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = industry_has_been_broken_1 }
+            swap_ideas = {
+                remove_idea = industry_has_been_broken_1
+                add_idea = industry_has_been_broken_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = industry_has_been_broken_2 }
+			swap_ideas = {
+                remove_idea = industry_has_been_broken_2
+                add_idea = industry_has_been_broken_3
+            }
+        }
+		else_if = {
+            limit = { has_idea = industry_has_been_broken_3 }
+			swap_ideas = {
+                remove_idea = industry_has_been_broken_3
+                add_idea = industry_has_been_broken_4
+            }
+        }
+		else_if = {
+            limit = { has_idea = industry_has_been_broken_4 }
+            remove_ideas = industry_has_been_broken_4
+        }
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = The_post_war_economy_boomed_i_fiction
+			}
+		}
+		add_to_variable = { ENA_global_building_slots_factor = 0.15 }
+		add_to_variable = { ENA_production_factory_max_efficiency_factor = 0.05 }
+		add_to_variable = { ENA_production_factory_efficiency_gain_factor = 0.10 }
+		add_to_variable = { ENA_line_change_production_efficiency_factor = 0.10 }
+	}
+}
+shared_focus = {
+	id = DSB_Restart_foreign_trade
+	icon = GFX_DSB_Restart_foreign_trade_p
+	prerequisite = {
+		focus = DSB_Inspire_market_confidence
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -6
+	y = 5
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = Restart_foreign_trade_i_1
+			}
+		}
+		add_to_variable = { ENA_trade_opinion_factor = 0.10 }
+		add_to_variable = { ENA_min_export = 0.05 }
+		add_to_variable = { ENA_resource_trade_cost_bonus_per_factory = 1 }
+	}
+}
+shared_focus = {
+	id = DSB_QXXLXYJC
+	icon = GFX_DSB_QXXLXYJC_P
+	prerequisite = {
+		focus = DSB_DFCJWYH
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -10
+	y = 5
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		66 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+    		add_building_construction = {
+        		type = industrial_complex 
+        		level = 2
+        		instant_build = yes 
+    		}
+		}
+		67 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+    		add_building_construction = {
+        		type = industrial_complex 
+        		level = 2
+        		instant_build = yes 
+    		}
+		}
+		762 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+    		add_building_construction = {
+        		type = industrial_complex 
+        		level = 2
+        		instant_build = yes 
+    		}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_ZXBLDBGYQ
+	icon = GFX_DSB_CZBLDHMY_p
+	prerequisite = {
+		focus = DSB_QXXLXYJC
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -10
+	y = 6
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		60 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		64 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		65 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = DSB_keyan
+			}
+		}
+		add_to_variable = { ENA_research_speed_factor = 0.10 }
+	}
+}
+shared_focus = {
+	id = DSB_TZYHSF
+	icon = GFX_DSB_TZYHSF_p
+	prerequisite = {
+		focus = DSB_DFCJWYH
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -8
+	y = 5
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		56 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+			add_dynamic_modifier = {
+				modifier = DSB_mytq
+			}
+		}
+		58 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+			add_dynamic_modifier = {
+				modifier = DSB_mytq
+			}
+		}
+		59 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+			add_dynamic_modifier = {
+				modifier = DSB_mytq
+			}
+		}
+		909 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+			add_dynamic_modifier = {
+				modifier = DSB_mytq
+			}
+		}
+		912 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+			add_dynamic_modifier = {
+				modifier = DSB_mytq
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_CZBLDHMY
+	icon = GFX_DSB_ZXBLDBGYQ_p
+	prerequisite = {
+		focus = DSB_TZYHSF
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -8
+	y = 6
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		61 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		62 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		63 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		55 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		57 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		1021 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		1022 = {
+			remove_dynamic_modifier = {
+				modifier = DSB_local_economy_was_be_broken
+			}
+		}
+		custom_effect_tooltip = DSB_CZBLDHMY_tt
+	}
+}
+shared_focus = {
+	id = DSB_JJPDDLB
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_CZBLDHMY
+	}
+	prerequisite = {
+		focus = DSB_ZXBLDBGYQ
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+		has_country_flag = DSB_economy_rebuild_pashe_two_scf
+	}
+	cost = 3
+	x = -9
+	y = 7
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		DSB_economy_broken_repair = yes
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = dqbk_1
+				add_idea = dqbk_2
+			}
+		}
+		add_to_variable = { ENA_consumer_goods_expected_value = -0.10 }
+		add_to_variable = { ENA_min_export = 0.05 }
+		add_to_variable = { ENA_consumer_goods_factor = 0.05 }
+	}
+}
+shared_focus = {
+	id = DSB_LDGMXF
+	icon = GFX_DSB_LDGMXF_p
+	prerequisite = {
+		focus = DSB_Inspire_market_confidence
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -4
+	y = 5
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = DSB_Cultivating_consumerism_1
+			}
+		}
+		add_to_variable = { ENA_consumer_goods_factor = 0.15 }
+		add_to_variable = { ENA_industrial_capacity_factory = 0.08 }
+		add_to_variable = { ENA_production_speed_arms_factory_factor = -0.05 }
+		add_to_variable = { ENA_production_speed_industrial_complex_factor = 0.15 }
+	}
+}
+shared_focus = {
+	id = DSB_drafting_labor
+	icon = GFX_DSB_drafting_labor_p
+	prerequisite = {
+		focus = DSB_country_interpose_economy
+	}
+	available = {
+		NOT = {
+			has_completed_focus = DSB_industry_expand
+		}
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = -8
+	y = 3
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		effect_tooltip = {
+			swap_ideas = {
+				remove_idea = DSB_New_Germany_Economic_fiction_idea
+				add_idea = social_security_system_fiction
+			}
+		}
+		add_to_variable = { ENA_consumer_goods_factor = 0.10 }
+		add_to_variable = { ENA_industrial_capacity_factory = 0.15 }
+		add_to_variable = { ENA_line_change_production_efficiency_factor = 0.05 }
+		add_to_variable = { ENA_production_speed_buildings_factor = 0.05 }
+		add_to_variable = { ENA_stability_factor = 0.10 }
+	}
+}
+#政治
+shared_focus = {
+	id = DSB_politics_rebuild_title
+	icon = GFX_DSB_politics_rebuild_title_p
+	prerequisite = {
+		focus = DSB_fight_for_GER
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = 3
+	y = 1
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		add_political_power = 300
+		unlock_decision_category_tooltip = DSB_return_politics_rebuild
+	}
+}
+shared_focus = {
+	id = DSB_against_faicsm_education
+	icon = GFX_DSB_against_faicsm_education_p
+	prerequisite = {
+		focus = DSB_politics_rebuild_title
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = 2
+	y = 2
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		unlock_decision_tooltip = rebuild_politics_8
+		if = {
+            limit = { has_idea = people_Hatred_other }
+            swap_ideas = {
+                remove_idea = people_Hatred_other
+                add_idea = people_Hatred_other_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_1 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_1
+                add_idea = people_Hatred_other_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_2 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_2
+                add_idea = people_Hatred_other_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_3 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_3
+                add_idea = people_Hatred_other_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_4 }
+            remove_ideas = people_Hatred_other_4
+        }
+	}
+}
+shared_focus = {
+	id = DSB_fuck_you_hittler
+	icon = GFX_DSB_fuck_you_hittler_p
+	prerequisite = {
+		focus = DSB_politics_rebuild_title
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = 4
+	y = 2
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		add_political_power = 150
+		unlock_decision_tooltip = rebuild_politics_9
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.10
+		}
+		add_to_variable = {
+			DSB_return_nazi_against_power = -10
+		}
+		clamp_variable = {
+			var = DSB_return_nazi_against_power
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_fyh_tt
+	}
+}
+shared_focus = {
+	id = DSB_Expose_nazi_atrocities
+	icon = GFX_DSB_Expose_nazi_atrocities_p
+	prerequisite = {
+		focus = DSB_against_faicsm_education
+	}
+	prerequisite = {
+		focus = DSB_fuck_you_hittler
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = 5
+	y = 3
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		if = {
+            limit = { has_idea = people_Hatred_other }
+            swap_ideas = {
+                remove_idea = people_Hatred_other
+                add_idea = people_Hatred_other_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_1 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_1
+                add_idea = people_Hatred_other_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_2 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_2
+                add_idea = people_Hatred_other_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_3 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_3
+                add_idea = people_Hatred_other_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_4 }
+            remove_ideas = people_Hatred_other_4
+        }
+		add_timed_idea = {
+			idea = people_wonder
+			days = 730
+		}
+		add_to_variable = {
+			DSB_return_politics_rebuild = 10
+		}
+		clamp_variable = {
+			var = DSB_return_politics_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_return_politics_rebuild_ten_tt
+	}
+}
+shared_focus = {
+	id = DSB_kill_nazi_high_officers
+	icon = GFX_DSB_kill_nazi_high_officers_p
+	prerequisite = {
+		focus = DSB_fuck_you_hittler
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 14.4
+	x = 3
+	y = 3
+
+	select_effect = {
+		country_event = { id = DSB.97 hours = 5 }
+	}
+
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		add_stability = -0.10
+		GER = {
+			every_unit_leader = {
+				set_nationality = DSB
+			}
+		}
+		add_to_variable = {
+			DSB_return_nazi_against_power = -10
+		}
+		clamp_variable = {
+			var = DSB_return_nazi_against_power
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_fyh_tt
+		add_to_variable = {
+			DSB_return_politics_rebuild = 10
+		}
+		clamp_variable = {
+			var = DSB_return_politics_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_kill_nazi_high_officers_tt
+		custom_effect_tooltip = DSB_return_politics_rebuild_ten_tt
+	}
+}
+shared_focus = {
+	id = DSB_start_history_decision_meeting
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_Expose_nazi_atrocities
+	}
+	prerequisite = {
+		focus = DSB_Appropriation_of_welfare_expenditures
+	}
+	prerequisite = {
+		focus = DSB_kill_nazi_high_officers
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 1
+	x = 3
+	y = 4
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+
+		if = {
+            limit = { has_idea = politics_has_been_broken }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken
+                add_idea = politics_has_been_broken_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_1 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_1
+                add_idea = politics_has_been_broken_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_2 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_2
+                add_idea = politics_has_been_broken_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_3 }
+            remove_ideas = politics_has_been_broken_3
+        }
+		unlock_decision_tooltip = rebuild_politics_10
+		set_variable = {DSB_history_decision = 0 }
+	}
+}
+shared_focus = {
+	id = DSB_Appropriation_of_welfare_expenditures
+	icon = GFX_DSB_Appropriation_of_welfare_expenditures_p
+	prerequisite = {
+		focus = DSB_fuck_you_hittler
+	}
+	prerequisite = {
+		focus = DSB_against_faicsm_education
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = 1
+	y = 3
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		if = {
+            limit = { has_idea = people_Hatred_other }
+            swap_ideas = {
+                remove_idea = people_Hatred_other
+                add_idea = people_Hatred_other_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_1 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_1
+                add_idea = people_Hatred_other_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_2 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_2
+                add_idea = people_Hatred_other_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_3 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_3
+                add_idea = people_Hatred_other_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_4 }
+            remove_ideas = people_Hatred_other_4
+        }
+		unlock_decision_tooltip = rebuild_politics_2
+		unlock_decision_tooltip = rebuild_politics_3
+		unlock_decision_tooltip = rebuild_politics_4
+		unlock_decision_tooltip = rebuild_politics_5
+		unlock_decision_tooltip = rebuild_politics_6
+		unlock_decision_tooltip = rebuild_politics_7
+	}
+}
+shared_focus = {
+	id = DSB_The_final_blow_for_nazi
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_start_history_decision_meeting
+	}
+	available = {
+		has_country_flag = histroy_decision_scf
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = 2
+	y = 5
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		if = {
+            limit = { has_idea = people_Hatred_other }
+            swap_ideas = {
+                remove_idea = people_Hatred_other
+                add_idea = people_Hatred_other_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_1 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_1
+                add_idea = people_Hatred_other_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_2 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_2
+                add_idea = people_Hatred_other_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_3 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_3
+                add_idea = people_Hatred_other_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_4 }
+            remove_ideas = people_Hatred_other_4
+        }
+		remove_ideas = people_wonder
+		add_to_variable = {
+			DSB_return_politics_rebuild = 7
+		}
+		clamp_variable = {
+			var = DSB_return_politics_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_return_politics_rebuild_seven_tt
+	}
+}
+shared_focus = {
+	id = DSB_open_Civil_and_political_rights
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_start_history_decision_meeting
+	}
+	available = {
+		has_country_flag = DSB_politics_rebuild_pashe_two_scf
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = 4
+	y = 5
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		if = {
+            limit = { has_idea = politics_has_been_broken }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken
+                add_idea = politics_has_been_broken_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_1 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_1
+                add_idea = politics_has_been_broken_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_2 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_2
+                add_idea = politics_has_been_broken_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_3 }
+            remove_ideas = politics_has_been_broken_3
+        }
+		add_to_variable = {
+			DSB_return_politics_rebuild = 10
+		}
+		clamp_variable = {
+			var = DSB_return_politics_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_return_politics_rebuild_ten_tt
+		set_party_name = { ideology = Totalitarianism long_name = FEIFA name = FEIFA }
+		set_party_name = { ideology = radical_socialism long_name = FEIFA name = FEIFA }
+		set_party_name = { ideology = Progressivism long_name = FEIFA name = FEIFA }
+		set_party_name = { ideology = Liberalism long_name = DSB_Liberalism_pn name = DSB_Liberalism_pn }
+		set_party_name = { ideology = Conservatism long_name = DSB_conservatism_pn name = DSB_conservatism_pn }
+		set_party_name = { ideology = Authoritarianism long_name = DSB_Authoritarianism_pn name = DSB_Authoritarianism_pn }
+		set_party_name = { ideology = tttt long_name = DSB_tttt_pn name = DSB_tttt_pn }
+		set_party_name = { ideology = fascism long_name = DSB_fascism_pn name = DSB_fascism_pn }
+		set_party_name = { ideology = nazism long_name = FEIFA name = FEIFA }
+	}
+}
+shared_focus = {
+	id = DSB_Promote_the_glory_of_the_past
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_open_Civil_and_political_rights
+	}
+	prerequisite = {
+		focus = DSB_The_final_blow_for_nazi
+	}
+	mutually_exclusive = {
+		focus = DSB_walk_to_future
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = 1
+	y = 6
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		add_ideas = DSB_preety_future
+		add_to_variable = {
+			DSB_return_politics_rebuild = 10
+		}
+		clamp_variable = {
+			var = DSB_return_politics_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_return_politics_rebuild_ten_tt
+	}
+}
+shared_focus = {
+	id = DSB_Maintain_a_military_dictatorship
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_Promote_the_glory_of_the_past
+		focus = DSB_walk_to_future
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = 3
+	y = 7
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		add_to_variable = {
+			DSB_return_politics_rebuild = 10
+		}
+		clamp_variable = {
+			var = DSB_return_politics_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_return_politics_rebuild_ten_tt
+		add_ideas = GER_oberste_heeresleitung_trait
+	}
+}
+shared_focus = {
+	id = DSB_walk_to_future
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_open_Civil_and_political_rights
+	}
+	prerequisite = {
+		focus = DSB_The_final_blow_for_nazi
+	}
+	mutually_exclusive = {
+		focus = DSB_Promote_the_glory_of_the_past
+	}
+	bypass = {
+		has_idea = DSB_preety_future
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 2
+	x = 5
+	y = 6
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		add_ideas = old_good_time
+		add_to_variable = {
+			DSB_return_politics_rebuild = 10
+		}
+		clamp_variable = {
+			var = DSB_return_politics_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_return_politics_rebuild_ten_tt
+	}
+}
+shared_focus = {
+	id = DSB_open_party
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_Promote_the_glory_of_the_past
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = 0
+	y = 7
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		if = {
+            limit = { has_idea = politics_has_been_broken }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken
+                add_idea = politics_has_been_broken_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_1 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_1
+                add_idea = politics_has_been_broken_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_2 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_2
+                add_idea = politics_has_been_broken_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_3 }
+            remove_ideas = politics_has_been_broken_3
+        }
+		if = {
+            limit = { has_idea = people_Hatred_other }
+            swap_ideas = {
+                remove_idea = people_Hatred_other
+                add_idea = people_Hatred_other_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_1 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_1
+                add_idea = people_Hatred_other_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_2 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_2
+                add_idea = people_Hatred_other_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_3 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_3
+                add_idea = people_Hatred_other_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_4 }
+            remove_ideas = people_Hatred_other_4
+        }
+		country_event = {
+			id = DSB.27
+		}
+		add_to_variable = {
+			DSB_return_politics_rebuild = 10
+		}
+		clamp_variable = {
+			var = DSB_return_politics_rebuild
+			min = 0
+			max = 100
+		}
+		custom_effect_tooltip = DSB_return_politics_rebuild_ten_tt
+		set_country_flag = DSB_xuanju_scf
+	}
+}
+shared_focus = {
+	id = DSB_Strict_social_control
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_walk_to_future
+	}
+	available = {
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 3
+	x = 6
+	y = 7
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		if = {
+            limit = { has_idea = politics_has_been_broken }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken
+                add_idea = politics_has_been_broken_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_1 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_1
+                add_idea = politics_has_been_broken_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_2 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_2
+                add_idea = politics_has_been_broken_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_3 }
+            remove_ideas = politics_has_been_broken_3
+        }
+		if = {
+            limit = { has_idea = people_Hatred_other }
+            swap_ideas = {
+                remove_idea = people_Hatred_other
+                add_idea = people_Hatred_other_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_1 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_1
+                add_idea = people_Hatred_other_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_2 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_2
+                add_idea = people_Hatred_other_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_3 }
+            swap_ideas = {
+                remove_idea = people_Hatred_other_3
+                add_idea = people_Hatred_other_4
+            }
+        }
+        else_if = {
+            limit = { has_idea = people_Hatred_other_4 }
+            remove_ideas = people_Hatred_other_4
+        }
+		add_ideas = week_people_scoiety_two
+	}
+}
+#最终决断
+shared_focus = {
+	id = DSB_Unfreeze_the_content_of_the_Constitution
+	icon = GFX_goal_unknown
+    prerequisite = {
+        focus = DSB_Strict_social_control
+        focus = DSB_open_party
+    }
+    prerequisite = {
+        focus = DSB_Maintain_a_military_dictatorship
+    }
+    available = {
+        NOT = {
+            has_country_flag = DYZ_banzai
+        }
+    }
+    cost = 3
+    x = 3
+    y = 8
+    relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		if = {
+            limit = { has_idea = politics_has_been_broken }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken
+                add_idea = politics_has_been_broken_1
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_1 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_1
+                add_idea = politics_has_been_broken_2
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_2 }
+            swap_ideas = {
+                remove_idea = politics_has_been_broken_2
+                add_idea = politics_has_been_broken_3
+            }
+        }
+        else_if = {
+            limit = { has_idea = politics_has_been_broken_3 }
+            remove_ideas = politics_has_been_broken_3
+        }
+		add_ideas = rongyao_zhongcheng_zhixu
+	}
+}
+shared_focus = {
+	id = DSB_Renunciation_of_German_identity
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_Unfreeze_the_content_of_the_Constitution
+	}
+	prerequisite = {
+		focus = DSB_The_post-war_economy_boomed
+	}
+	mutually_exclusive = {
+		focus = DSB_kaizhan
+	}
+	available = {
+		has_country_flag = DSB_politics_rebuild_over
+		has_country_flag = DSB_wudi
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 10
+	x = 0
+	y = 9
+	relative_position_id = DSB_fight_for_GER
+	completion_reward =  {
+		effect_tooltip = {
+			if = {
+				limit = { has_idea = politics_has_been_broken }
+				swap_ideas = {
+					remove_idea = politics_has_been_broken
+					add_idea = politics_has_been_broken_1
+				}
+			}
+			else_if = {
+				limit = { has_idea = politics_has_been_broken_1 }
+				swap_ideas = {
+					remove_idea = politics_has_been_broken_1
+					add_idea = politics_has_been_broken_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = politics_has_been_broken_2 }
+				swap_ideas = {
+					remove_idea = politics_has_been_broken_2
+					add_idea = politics_has_been_broken_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = politics_has_been_broken_3 }
+				remove_ideas = politics_has_been_broken_3
+			}
+			if = {
+				limit = { 
+					51 = { is_owned_or_subject_trigger = yes }
+					42 = { is_owned_or_subject_trigger = yes }
+				}
+				RHI = {
+					transfer_state = 51
+					transfer_state = 42
+				}
+				puppet = RHI
+			}
+			if = {
+				limit = {
+					4 = { is_owned_or_subject_trigger = yes }
+					152 = { is_owned_or_subject_trigger = yes }
+					153 = { is_owned_or_subject_trigger = yes }
+					848 = { is_owned_or_subject_trigger = yes }
+					975 = { is_owned_or_subject_trigger = yes }
+					976 = { is_owned_or_subject_trigger = yes }
+				}
+				AUS = {
+					transfer_state = 4
+					transfer_state = 152
+					transfer_state = 153
+					transfer_state = 848
+					transfer_state = 975
+					transfer_state = 976  
+				}
+				puppet = AUS
+			}
+			if = { #set up Wurtemberg puppet
+				limit = {
+					50 = {
+						is_owned_or_subject_trigger = yes
+					}
+					978 = {
+						is_owned_or_subject_trigger = yes
+					}
+				}
+				WUR = {
+					transfer_state = 50
+					add_state_core = 50
+					transfer_state = 978 #BADEN -> BADEN-WURTTEMBERG
+					add_state_core = 978
+				}
+				puppet = WUR
+			}
+			if = { #set up Saxony puppet
+				limit = {
+					65 = {
+						is_owned_or_subject_trigger = yes
+					}
+				}
+				SAX = {
+					transfer_state = 65
+					add_state_core = 65
+				}
+				puppet = SAX
+			}
+			if = { #set up Mecklenburg puppet
+				limit = {
+					61 = {
+						is_owned_or_subject_trigger = yes
+					}
+				}
+				MEK = {
+					transfer_state = 61
+					add_state_core = 61
+				}
+				puppet = MEK
+			}
+			if = { #set up Schleswig-Holstein puppet
+				limit = {
+					58 = {
+						is_owned_or_subject_trigger = yes
+					}
+				}
+				SHL = {
+					transfer_state = 58
+					add_state_core = 58
+					transfer_state = 909 #New state of SCHLESWIG
+					add_state_core = 909 #New state of SCHLESWIG
+				}
+				puppet = SHL
+			}
+			if = { #set up Bavaria puppet
+				limit = {
+					52 = {
+						is_owned_or_subject_trigger = yes
+					}
+					53 = {
+						is_owned_or_subject_trigger = yes
+					}
+					54 = {
+						is_owned_or_subject_trigger = yes
+					}
+				}
+				BAY = {
+					transfer_state = 52
+					transfer_state = 53
+					transfer_state = 54
+					add_state_core = 52
+					add_state_core = 53
+					add_state_core = 54
+				}
+				puppet = BAY
+			}
+			if = { #set up Hanover puppet
+				limit = {
+					59 = {
+						is_owned_or_subject_trigger = yes
+					}
+					56 = {
+						is_owned_or_subject_trigger = yes
+					}
+					57 = {
+						is_owned_or_subject_trigger = yes
+					}
+				}
+				HAN = {
+					transfer_state = 59
+					transfer_state = 56
+					transfer_state = 57
+					add_state_core = 59
+					add_state_core = 56
+					add_state_core = 57
+				}
+				puppet = HAN
+			}
+			if = {
+				limit = {
+					CZE = { exists = yes }
+					NOT = { has_war_with = CZE }
+				}
+				every_state = {
+					limit = { 
+						is_core_of = CZE 
+						is_owned_or_subject_trigger = yes
+					}
+					CZE = { transfer_state = PREV }
+				}
+			}
+			else = {
+				every_state = {
+					limit = { 
+						is_core_of = CZE 
+						is_owned_or_subject_trigger = yes
+					}
+					CZE = { transfer_state = PREV }
+				}
+				puppet = CZE
+			}
+			every_state = {
+				limit = { 
+					is_core_of = GER 
+					is_owned_or_subject_trigger = yes
+					CONTROLLER = {
+						NOT = {
+							OR = {
+								tag = BAY
+								tag = MEK
+								tag = SAX
+								tag = HAN
+								tag = SHL
+								tag = WUR
+								tag = CZE
+							}
+						}
+					}
+					NOT = {
+						state = 42 #MOSELLAND
+						state = 51
+					}
+				}
+				PRE = {
+					transfer_state = PREV
+					add_state_core = PREV
+				}
+			}
+			if = {
+				limit = {
+					country_exists = PRE
+				}
+				puppet = PRE
+			}
+			set_cosmetic_tag = germany_duli_flag
+			transfer_state = 5
+			transfer_state = 763
+			every_state = {
+				limit = {
+					is_core_of = DSB
+					is_core_of = GER
+				}
+				remove_core_of = DSB
+			}
+		}
+		hidden_effect = {
+			
+		}
+	}
+}
+shared_focus = {
+	id = DSB_kaizhan
+	icon = GFX_goal_unknown
+	prerequisite = {
+		focus = DSB_Unfreeze_the_content_of_the_Constitution
+	}
+	prerequisite = {
+		focus = DSB_The_post-war_economy_boomed
+	}
+	mutually_exclusive = {
+		focus = DSB_Renunciation_of_German_identity
+	}
+	available = {
+		has_country_flag = DSB_politics_rebuild_over
+		NOT = {
+			has_country_flag = DYZ_banzai
+		}
+	}
+	cost = 10
+	x = -4
+	y = 9
+	relative_position_id = DSB_fight_for_GER
+	select_effect = {
+		country_event = { id = DSB.71 days = 35 }
+	}
+	completion_reward = {
+		effect_tooltip = {
+			annex_country = {
+				target = BAY
+			}
+			annex_country = {
+				target = RHI
+			}
+			transfer_state = 1024
+		}
+		custom_effect_tooltip = whatfuck_tt
+	}
+}

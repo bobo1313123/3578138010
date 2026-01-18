@@ -1,0 +1,147 @@
+#政治
+focus_tree = {
+	id = dashabi_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 2000 }
+
+	focus = {
+		id = FRA_FAT_Five
+		icon = GFX_FRA_Ending_the_Stavicki_scandal
+		cost = 1
+		x = 10
+		y = 0
+
+		available = {
+			is_subject = no
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Money
+		icon = GFX_FRA_Money
+		cost = 1
+		x = 8
+		y = 1
+
+		available = {
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = FRA_FAT_Five
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_The_Against_out_of_Elysee
+		icon = GFX_FRA_Protesters_outside_the_Elysee_Palace
+		cost = 1
+		x = 12
+		y = 1
+
+		available = {
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = FRA_FAT_Five
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Keep_Army_Honset
+		icon = GFX_FRA_Ensure_the_loyalty_of_the_military
+		cost = 1
+		x = 10
+		y = 2
+
+		available = {
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = FRA_Money
+			focus = FRA_The_Against_out_of_Elysee
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_need_bourgeoisie_help
+		icon = GFX_FRA_need_bourgeoisie_help
+		cost = 1
+		x = 7
+		y = 2
+
+		available = {
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = FRA_Money
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_Against_with_Strike
+		icon = GFX_FRA_Against_with_Strike
+		cost = 1
+		x = 13
+		y = 2
+
+		available = {
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = FRA_The_Against_out_of_Elysee
+		}
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = FRA_FUCK
+		icon = GFX_FRA_FUCK
+		cost = 1
+		x = 10
+		y = 4
+
+		available = {
+			is_subject = no
+		}
+
+		prerequisite = {
+			focus = FRA_need_bourgeoisie_help
+		}
+		prerequisite = {
+			focus = FRA_Keep_Army_Honset
+		}
+		prerequisite = {
+			focus = FRA_Against_with_Strike
+		}
+
+		completion_reward = {
+		}
+	}
+}

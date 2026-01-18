@@ -1,0 +1,395 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ENG_George_V"
+		texturefile = "gfx/leaders/ENG/ENG_George_V.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Andre_Tardieu"
+		texturefile = "gfx/leaders/FRA/FRA_Andre_Tardieu.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_chiang_WWI_Start"
+		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Start.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_chiang_WWI_Democratic"
+		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Democratic.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_chiang_WWI_Loser"
+		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Loser.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_chiang_WWI_Winner"
+		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Winner.dds"
+	}
+	spriteType = {
+		name = "GFX_Adolph_Friedrich"
+		texturefile = "gfx/leaders/DSB/Adolph_Friedrich.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_SPR_LEADERS"
+		texturefile = "gfx/leaders/SPR/TVE_SPR_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_chiang_WWI_Authoritarianism"
+		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Authoritarianism.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_Edward_VII"
+		texturefile = "gfx/leaders/ENG/ENG_Edward_VII.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_WWII_first_flag"
+		texturefile = "gfx/leaders/DSB_WWII_first_flag.dds"
+	}
+	spriteType = {
+		name = "GFX_STNG"
+		texturefile = "gfx/leaders/JAP/STNG.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_CHIANG_KAI_SHEIK"
+		texturefile = "gfx/leaders/CHI_CHIANG_KAI_SHEIK.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_Chamberlain"
+		texturefile = "gfx/leaders/ENG_Chamberlain.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_Winston_c"
+		texturefile = "gfx/leaders/ENG_Winston_c.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Laval"
+		texturefile = "gfx/leaders/FRA_Laval.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_aleksandr_kerensky"
+		texturefile = "gfx/leaders/RUS/RUS_aleksandr_kerensky.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Mikhail_Gordeevich_Drozdovsky"
+		texturefile = "gfx/leaders/RUS/RUS_Mikhail_Gordeevich_Drozdovsky.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Krasnov"
+		texturefile = "gfx/leaders/RUS/RUS_Krasnov.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Rinov"
+		texturefile = "gfx/leaders/RUS/RUS_Rinov.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Mikhail_Konstantinovich_Tzeterikhs"
+		texturefile = "gfx/leaders/RUS/RUS_Mikhail_Konstantinovich_Tzeterikhs.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_Józef_ Klemens_Piłsudski"
+		texturefile = "gfx/leaders/POL/POL_Józef_ Klemens_Piłsudski.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Tsuyoshi_Inukai"
+		texturefile = "gfx/leaders/JAP/JAP_Tsuyoshi_Inukai.dds"
+	}
+	spriteType = {
+		name = "GFX_GER_HITTLER"
+		texturefile = "gfx/leaders/GER_HITTLER.dds"
+	}
+	spriteType = {
+		name = "GFX_ITA_Mussolini"
+		texturefile = "gfx/leaders/ITA_Mussolini.dds"
+	}
+	spriteType = {
+		name = "GFX_REZHEN"
+		texturefile = "gfx/leaders/CHI/TIB_REZHEN.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_TAN_LEADERS"
+		texturefile = "gfx/leaders/CHI/TVE_TAN_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_MON_ENQIN"
+		texturefile = "gfx/leaders/RUS/MON_ENQIN.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_Hirohito"
+		texturefile = "gfx/leaders/JAP_Hirohito.dds"
+	}
+	spriteType = {
+		name = "GFX_PRC_MAO_ZE_DONG"
+		texturefile = "gfx/leaders/PRC_MAO_ZE_DONG.dds"
+	}
+	spriteType = {
+		name = "GFX_SOV_STALIN"
+		texturefile = "gfx/leaders/SOV_STALIN.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_Baldwin"
+		texturefile = "gfx/leaders/ENG_Baldwin.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_HU_HAN_MIN"
+		texturefile = "gfx/leaders/CHI/CHI_HU_HAN_MIN.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Yudenich"
+		texturefile = "gfx/leaders/RUS/RUS_Yudenich.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_George_Lansbury"
+		texturefile = "gfx/leaders/ENG/ENG_George_Lansbury.dds"
+	}
+	spriteType = {
+		name = "GFX_UKR_BIDE_LIULA"
+		texturefile = "gfx/leaders/UKR/UKR_BIDE_LIULA.dds"
+	}
+	spriteType = {
+		name = "GFX_BLR_YANG_XIELADA"
+		texturefile = "gfx/leaders/BLR/BLR_YANG_XIELADA.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Aleksey_Maksimovich_Karelin"
+		texturefile = "gfx/leaders/RUS/RUS_Aleksey_Maksimovich_Karelin.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_Rotha_Lintorn_Orman"
+		texturefile = "gfx/leaders/ENG/ENG_Rotha_Lintorn_Orman.dds"
+	}
+	spriteType = {
+		name = "GFX_ENG_George_VI"
+		texturefile = "gfx/leaders/ENG/ENG_George_VI.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Man_F"
+		texturefile = "gfx/leaders/DSB_Man_F.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Man_S"
+		texturefile = "gfx/leaders/DSB_Man_S.dds"
+	}
+	spriteType = {
+		name = "GFX_ANA_anarchy"
+		texturefile = "gfx/leaders/ANA/ANA_anarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_Henri_Philippe_Petain"
+		texturefile = "gfx/leaders/FRA/FRA_Henri_Philippe_Petain.dds"
+	}
+	spriteType = {
+		name = "GFX_George_II"
+		texturefile = "gfx/leaders/GRE/George_II.dds"
+	}
+	spriteType = {
+		name = "GFX_IRE_Michael_John_Mick_Collins"
+		texturefile = "gfx/leaders/IRE/IRE_Michael_John_Mick_Collins.dds"
+	}
+	spriteType = {
+		name = "GFX_IRE_William_Thomas_Cosgrave"
+		texturefile = "gfx/leaders/IRE/IRE_William_Thomas_Cosgrave.dds"
+	}
+	spriteType = {
+		name = "GFX_RHI_Konrad_Adenauer"
+		texturefile = "gfx/leaders/RHI/RHI_Konrad_Adenauer.dds"
+	}
+	spriteType = {
+		name = "GFX_ITA_Gaetano_Rapagnetta"
+		texturefile = "gfx/leaders/ITA/ITA_Gaetano_Rapagnetta.dds"
+	}
+	spriteType = {
+		name = "GFX_TUR_Mustafa_Kemal_Ataturk"
+		texturefile = "gfx/leaders/TUR/TUR_Mustafa_Kemal_Ataturk.dds"
+	}
+	spriteType = {
+		name = "GFX_CSA_William_Henry_Davis_Murray"
+		texturefile = "gfx/leaders/CSA/CSA_William_Henry_Davis_Murray.dds"
+	}
+	spriteType = {
+		name = "GFX_USA_George_William_Norris"
+		texturefile = "gfx/leaders/USA/USA_George_William_Norris.dds"
+	}
+	spriteType = {
+		name = "GFX_WLS_Lewis_Sanders"
+		texturefile = "gfx/leaders/WLS/WLS_Lewis_Sanders.dds"
+	}
+	spriteType = {
+		name = "GFX_RUS_Pyotr_Nikolayevich_Wrangel"
+		texturefile = "gfx/leaders/RUS/RUS_Pyotr_Nikolayevich_Wrangel.dds"
+	}
+	spriteType = {
+		name = "GFX_SCO_John_McCormick"
+		texturefile = "gfx/leaders/SCO/SCO_John_McCormick.dds"
+	}
+	spriteType = {
+		name = "GFX_AUS_Charles_I"
+		texturefile = "gfx/leaders/AUS/AUS_Charles_I.dds"
+	}
+	spriteType = {
+		name = "GFX_AUS_OTTO_I"
+		texturefile = "gfx/leaders/AUS/AUS_OTTO_I.dds"
+	}
+	spriteType = {
+		name = "GFX_CHI_ARMY_STATE"
+		texturefile = "gfx/leaders/CHI/CHI_ARMY_STATE.dds"
+	}
+	spriteType = {
+		name = "GFX_BLR_Biełaruskaja_centralnaja_rada"
+		texturefile = "gfx/leaders/BLR/BLR_Biełaruskaja_centralnaja_rada.dds"
+	}
+	spriteType = {
+		name = "GFX_UKR_Pavlo_Petrovych_Skoropadskyi"
+		texturefile = "gfx/leaders/UKR/UKR_Pavlo_Petrovych_Skoropadskyi.dds"
+	}
+	spriteType = {
+		name = "GFX_Pope_Pius_XI"
+		texturefile = "gfx/leaders/ITA/Pope_Pius_XI.dds"
+	}
+	#I'm so sorry but actually there leaders's pitcure are all one person do that me,So for the working-speed, I have to simplification this leaders name.plzzzzz Forgive me,My work is too hard and large.TAT I will Formalize thier leaders if I have enough times after publish this mod.
+	spriteType = {
+		name = "GFX_TVE_DEN_LEADERS"
+		texturefile = "gfx/leaders/DEN/TVE_DEN_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_EST_LEADERS"
+		texturefile = "gfx/leaders/EST/TVE_EST_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_FIN_LEADERS"
+		texturefile = "gfx/leaders/FIN/TVE_FIN_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_ICE_LEADERS"
+		texturefile = "gfx/leaders/ICE/TVE_ICE_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_LAT_LEADERS"
+		texturefile = "gfx/leaders/LAT/TVE_LAT_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_LIT_LEADERS"
+		texturefile = "gfx/leaders/LIT/TVE_LIT_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_NOR_LEADERS"
+		texturefile = "gfx/leaders/NOR/TVE_NOR_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_SWE_LEADERS"
+		texturefile = "gfx/leaders/SWE/TVE_SWE_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_LBV_LEADERS"
+		texturefile = "gfx/leaders/ITA/TVE_LBV_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_ITA_KINGDOM_LEADERS"
+		texturefile = "gfx/leaders/ITA/TVE_ITA_KINGDOM_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_TTS_LEADERS"
+		texturefile = "gfx/leaders/ITA/TVE_TTS_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_FRA_parliament"
+		texturefile = "gfx/leaders/FRA/FRA_parliament.dds"
+	}
+	spriteType = {
+		name = "GFX_AUS_parliament"
+		texturefile = "gfx/leaders/AUS/AUS_parliament.dds"
+	}
+	spriteType = {
+		name = "GFX_POL_parliament"
+		texturefile = "gfx/leaders/POL/POL_parliament.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_BEL_LEADERS"
+		texturefile = "gfx/leaders/BEL/TVE_BEL_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_BUL_LEADERS"
+		texturefile = "gfx/leaders/BUL/TVE_BUL_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_IRQ_LEADERS"
+		texturefile = "gfx/leaders/IRQ/TVE_IRQ_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_JOR_LEADERS"
+		texturefile = "gfx/leaders/JOR/TVE_JOR_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_PER_LEADERS"
+		texturefile = "gfx/leaders/PER/TVE_PER_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_SAU_LEADERS"
+		texturefile = "gfx/leaders/SAU/TVE_SAU_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_SYR_LEADERS"
+		texturefile = "gfx/leaders/SYR/TVE_SYR_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_MON_LEADERS"
+		texturefile = "gfx/leaders/CHI/TVE_MON_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_MLY_LEADERS"
+		texturefile = "gfx/leaders/MLY/TVE_MLY_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_POR_TVE_LEADERS"
+		texturefile = "gfx/leaders/POR/POR_TVE_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_HOL_LEADERS"
+		texturefile = "gfx/leaders/HOL/TVE_HOL_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_BOS_LEADERS"
+		texturefile = "gfx/leaders/Yug_and_her_firends/TVE_BOS_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_CRO_LEADERS"
+		texturefile = "gfx/leaders/Yug_and_her_firends/TVE_CRO_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_YUG_LEADERS"
+		texturefile = "gfx/leaders/Yug_and_her_firends/TVE_YUG_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_ROM_LEADERS"
+		texturefile = "gfx/leaders/ROM/TVE_ROM_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_LUX_LEADERS"
+		texturefile = "gfx/leaders/LUX/TVE_LUX_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_ALB_LEADERS"
+		texturefile = "gfx/leaders/ALB/TVE_ALB_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_TVE_SWI_LEADERS"
+		texturefile = "gfx/leaders/SWI/TVE_SWI_LEADERS.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_von_Papen"
+		texturefile = "gfx/leaders/DSB/DSB_von_Papen.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Kurtvon_Schleicher"
+		texturefile = "gfx/leaders/DSB/DSB_Kurtvon_Schleicher.dds"
+	}
+	spriteType = {
+		name = "GFX_DSB_Heinrich_Bruning"
+		texturefile = "gfx/leaders/DSB/DSB_Heinrich_Bruning.dds"
+	}
+	spriteType = {
+		name = "GFX_RCA_YXL"
+		texturefile = "gfx/leaders/DSB/RCA_YXL.dds"
+	}
+	spriteType = {
+		name = "GFX_BLR_Bronislav_Vladislavovich_Kaminsky"
+		texturefile = "gfx/leaders/BLR/BLR_Bronislav_Vladislavovich_Kaminsky.dds"
+	}
+}

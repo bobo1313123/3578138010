@@ -1,0 +1,118 @@
+ideas = {
+
+	country = {
+
+		POL_5nian_jihua1= {
+			picture = POL_5nian_jihua1
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		POL_zhanshu_zhengzhi= {
+			picture = POL_zhanshu_zhengzhi
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+
+		POL_aidao_beike= {
+			picture = POL_aidao_beike
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor=-0.2
+			}
+		}
+
+		POL_yuanshuai_yuanze= {
+			picture = POL_yuanshuai_yuanze
+			
+			allowed = {
+				
+			}
+			cancel = {
+				NOT={
+					has_country_leader = { ruling_only = yes character = POL_Józef_Klemens_Piłsudski }
+				}
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor=0.2
+				war_support_factor=0.2
+			}
+		}
+
+
+		POL_jiaoaode_bolanren= {
+			picture = POL_jiaoaode_bolanren
+			
+			allowed = {
+				
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost=0.05
+				experience_gain_army_factor = 0.25
+			}
+		}
+
+		POL_haibiande_kanke= {
+			picture = POL_haibiande_kanke
+			
+			allowed = {
+				
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+		}
+	}
+}

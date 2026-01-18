@@ -1,0 +1,16 @@
+characters = {
+	COL_huan_bisengte = {
+		name = COL_huan_bisengte
+		portraits = {
+			civilian = {
+				large = GFX_portrait_COL_huan_bisengte
+			}
+		}
+		country_leader = {
+			ideology = Conservatism_small
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

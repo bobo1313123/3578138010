@@ -1,0 +1,20 @@
+state={
+	id=1062
+	name="STATE_1062"
+	provinces={
+		1197 1934 4318 4996 
+	}
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category=rural
+}

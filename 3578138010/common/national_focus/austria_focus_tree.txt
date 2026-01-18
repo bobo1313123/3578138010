@@ -1,0 +1,84 @@
+focus_tree = {
+	id = austria_TVE_FOCUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUS
+		}
+	}
+	default = no
+	focus = {
+		id = aus_difficult_walk
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10
+		x = 5
+		y = 0
+	}
+	focus = {
+		id = aus_empersay
+		icon = GFX_goal_generic_radar
+		cost = 1
+		x = 5
+		y = 1
+		prerequisite = {
+			focus = aus_difficult_walk
+		}
+	}
+	focus = {
+		id = aus_laws
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10
+		x = 4
+		y = 2
+		prerequisite = {
+			focus = aus_empersay
+		}
+	}
+	focus = {
+		id = aus_national_unity
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		x = 4
+		y = 3
+		prerequisite = {
+			focus = aus_laws
+		}
+	}
+	focus = {
+		id = aus_bigunit
+		icon = GFX_goal_support_democracy
+		cost = 10
+		x = 6
+		y = 2
+		prerequisite = {
+			focus = aus_empersay
+		}
+	}
+	focus = {
+		id = aus_nofasim
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 10
+		x = 6
+		y = 3
+		prerequisite = {
+			focus = aus_bigunit
+		}
+		prerequisite = {
+			focus = aus_laws
+		}
+	}
+	focus = {
+		id = aus_lorr
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10
+		x = 5
+		y = 4
+		prerequisite = {
+			focus = aus_nofasim
+		}
+		prerequisite = {
+			focus = aus_national_unity
+		}
+		
+}

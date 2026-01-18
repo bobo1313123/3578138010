@@ -1,0 +1,323 @@
+captial = 763
+
+set_research_slots = 3
+
+recruit_character = DSB_chiang_WWI_democratic
+recruit_character = DSB_heinz_guderian
+recruit_character = DSB_erwin_rommel
+recruit_character = DSB_chiang_WWI_tt
+recruit_character = DSB_chiang_WWI
+recruit_character = DSB_hans_vogel
+recruit_character = DSB_werner_von_blomberg
+recruit_character = DSB_gerd_von_rundstedt
+recruit_character = DSB_gunther_von_kluge
+recruit_character = DSB_walter_model
+recruit_character = DSB_vincenz_muller
+recruit_character = DSB_werner_von_fritsch
+recruit_character = DSB_erich_von_manstein
+recruit_character = DSB_ewald_von_kleist
+recruit_character = GER_august_von_mackensen
+recruit_character = DSB_otto_strasser
+recruit_character = DSB_otto_grotewohl
+recruit_character = DSB_ludwig_beck
+recruit_character = DSB_wilhelm_iv
+recruit_character = DSB_wilhelm_iii
+recruit_character = DSB_hans_oster
+recruit_character = DSB_alfred_hugenberg
+recruit_character = DSB_carl_friedrich_goerdeler
+recruit_character = DSB_julius_leber
+recruit_character = DSB_kurt_schumacher
+recruit_character = DSB_hans_luther
+recruit_character = DSB_ludwig_erhard
+recruit_character = DSB_hermann_erhardt
+recruit_character = DSB_andreas_hermes
+recruit_character = DSB_wilhelm_von_gayl
+recruit_character = DSB_dietrich_bonhoeffer
+recruit_character = DSB_ernst_thalmann
+recruit_character = DSB_walter_ulbricht
+recruit_character = DSB_bernhard_bastlein
+recruit_character = DSB_Kurtvon_Schleicher
+recruit_character = DSB_Heinrich_Bruning
+recruit_character = DSB_Adolph_Friedrich
+recruit_character = von_Papen
+
+load_focus_tree = dashabi_focus
+
+add_ideas = {
+	sour_return
+	prussia_army_second
+	sour_juncker_unhappy_3
+	sour_restoration_3
+	prussia_manpower
+	partial_economic_mobilisation
+	uncontrolled_exports
+	GER_von_Papen
+}
+load_oob = DSB_1936_nsb
+
+set_country_flag = DSB_PP
+
+set_stability = 0.30
+set_war_support = 0.75
+add_political_power = 70
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_technology = {
+			aa_lmg = 1
+			aa_cannon_1 = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			basic_small_airframe = 1
+			iw_medium_airframe = 1
+			basic_medium_airframe = 1
+			iw_large_airframe = 1
+			air_torpedoe_1 = 1
+			photo_reconnaisance = 1
+			bba_early_transport_plane = 1
+		}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			fighter1 = 1
+			early_bomber = 1
+			tactical_bomber1 = 1
+			strategic_bomber1 = 1
+			CAS1 = 1
+			naval_bomber1 = 1
+			early_transport_plane = 1
+		}
+	}
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	mobile_warfare = 1
+	trade_interdiction = 1
+	formation_flying = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		panzerschiffe = 1
+		pre_dreadnoughts = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		mtg_transport = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		sonar = 1
+		basic_cruiser_armor_scheme = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_politics = {
+	ruling_party = Authoritarianism
+	last_election = "1936.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	Liberalism = 30
+
+	Totalitarianism = 20
+
+	radical_socialism = 2
+
+	Progressivism = 2
+
+	Authoritarianism = 25
+
+	tttt = 21
+}
+
+add_to_variable = {
+	DSB_political_power_factor = 0.05
+}
+
+add_to_variable = {
+	DSB_industrial_capacity_factory = 0.05
+}
+
+add_to_variable = {
+	DSB_army_attack_factor = 0.05
+}
+add_to_variable = {
+	DSB_army_speed_factor = 0.05
+}
+add_to_variable = {
+	DSB_industry_consumer_goods_factor = -0.05
+}
+add_to_variable = {
+	DSB_industry_stability_factor = -0.15
+}
+add_to_variable = {
+	DSB_industry_production_factory_efficiency_gain_factor = 0.05
+}
+#犹太财团
+set_variable = {
+	Jew_power = 0.45
+}
+set_variable = {
+	Jew_zong_cong = 0.30
+}
+set_variable = {
+	Jew_daikuan = 3
+}
+add_dynamic_modifier = {
+	modifier = DSB_ytct
+}
+#帝国福利工人工会修正创建处
+add_to_variable = {
+	DSB_gh_industrial_capacity_factory = 0.07
+}
+add_to_variable = {
+	DSB_gh_stability_factor = 0.05
+}
+add_to_variable = {
+	DSB_gh_consumer_goods_factor = 0.10
+}
+add_to_variable = {
+	DSB_gh_production_speed_buildings_factor = 0.03
+}
+add_to_variable = {
+	DSB_gh_drift_defence_factor = 0.35
+}
+add_to_variable = {
+	political_power_factor = 0.05
+}
+#军国主义战争机器
+add_to_variable = {
+	DSB_pawi_conscription = 0.01
+}
+add_to_variable = {
+	DSB_pawi_mobilization_speed = 0.05
+}
+add_to_variable = {
+	DSB_pawi_research_speed_factor = -0.10
+}
+add_to_variable = {
+	DSB_pawi_war_support_factor = 0.05
+}
+add_to_variable = {
+	DSB_pawi_consumer_goods_factor = 0.25
+}
+#桂冠计划
+add_to_variable = {
+	test_gui_var = 10
+}
+#精诚团结，共赴国难
+add_to_variable = {
+	DSB_jchz_stability_factor = 0.05
+}
+add_to_variable = {
+	surrender_limit = -0.05
+}
+add_to_variable = {
+	DSB_jchz_war_support_factor = 0.05
+}
+#对我好一点谢谢
+add_to_variable = {
+	icc_resource_trade_cost_bonus_per_factory = 1
+}
+add_to_variable = {
+	icc_production_speed_buildings_factor = 0.05
+}
+set_variable = { Nslack_stability_factor = 0.05 }
+set_variable = { Nslack_war_support_factor = -0.25 }
+set_variable = { Nslack_conscription = -0.025 }
+set_variable = { Nslack_training_time_factor = 0.999 }
+set_variable = { Nslack_industrial_capacity_factory = -0.15 }
+set_variable = { Nslack_army_attack_factor = -0.10 }
+set_variable = { Nslack_army_defence_factor = -0.10 }
+set_variable = { Nslack_drift_defence_factor = -0.75 }
+set_variable = { Nslack_weekly_manpower = -10 }
+set_variable = { RenMinDK_var = 3 }
+set_variable = { DSB_DK_BOOM = 0 }
+set_variable = { NJDVar = 30 }
+set_variable = { QLDV = 3 }
+set_variable = { Baltic_War_Peace_Var = 0 }
+set_variable = { DSB_National_people_fuck_country_var = 0 }
+set_variable = { DSB_WWII_Russia_attack_GFermany_var = 0 }
+set_variable = { DSB_WWII_winner_var = 0 }

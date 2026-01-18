@@ -1,0 +1,29 @@
+state={
+	id=749
+	name="STATE_749"
+	provinces={
+		1099 4105 
+	}
+	history = {
+
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 6
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=1161
+	name="STATE_1161"
+	manpower = 1270509
+
+	state_category = rural
+
+	history={
+		owner = TAN
+		add_core_of = TAN
+		add_core_of = SOV
+	}
+
+	provinces={
+		10646 7731 
+	}
+
+	local_supplies=7.0 
+}

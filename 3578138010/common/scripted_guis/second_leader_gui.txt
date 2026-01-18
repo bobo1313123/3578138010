@@ -1,0 +1,47 @@
+scripted_gui = {
+	political_attached_window = {
+		context_type = player_context
+		window_name = "political_attached_window"
+		parent_window_token = politics_tab
+
+		visible = {
+			THIS = {
+				has_second_leader = yes
+			}
+		}
+		effects = {
+			change_leader_click = {
+				ROOT = {
+					leader_portraits_effect = yes
+				}
+			}
+		}
+		triggers = {
+			second_leader_portrait_visible = {
+				ROOT = {
+					has_country_flag = change_second_leader
+				}
+			}
+		}
+		triggers = {
+			leader_frame_tve_visible = {
+				ROOT = {
+					has_country_flag = change_second_leader
+				}
+			}
+		}
+		triggers = {
+			second_leader_name_visible = {
+				ROOT = {
+					has_country_flag = change_second_leader
+				}
+			}
+		}
+		properties = {
+			second_leader_portrait = {
+				image = "[Getportrait]"
+			}
+		}
+	}
+}
+

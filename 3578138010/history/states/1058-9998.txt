@@ -1,0 +1,30 @@
+state={
+	id=1058
+	name="STATE_1058"
+	provinces={
+		778 6609 9603 9745 11573 
+	}
+	history={
+		owner = FRA 
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+			arms_factory = 1
+			fuel_silo = 1
+			air_base = 10
+		}
+		add_core_of = OCC
+		add_core_of = SPM
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				dockyard = 2
+			}
+		}
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

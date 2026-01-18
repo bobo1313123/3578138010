@@ -1,0 +1,31 @@
+state = {
+	id = 1028
+	name = "STATE_1028"
+	manpower = 907092
+	state_category = city
+	resources = {
+		aluminium=6.000
+	}
+
+	history = {
+
+		owner = CSA
+		add_core_of = CSA
+		add_claim_by = USA
+
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+	}
+
+
+	provinces={
+		1621 4569 4540 4449 12346 12463 1441 1564 10717 12361 10370 1534
+	}
+
+	local_supplies = 20.0 
+}

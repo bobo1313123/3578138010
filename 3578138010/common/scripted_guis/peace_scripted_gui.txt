@@ -1,0 +1,138 @@
+scripted_gui = {
+	TVE_peace_popup_window = {
+		window_name = "TVE_peace_popup_window"
+		context_type = player_context
+		properties = {
+			flag_1 = {
+				image = "[winning_country.GetFlag]"
+			}
+			flag_2 = {
+				image = "[losing_country.GetFlag]"
+			}
+		}
+		#parent_window_token = top_bar
+
+		#visible = {
+		#	always = yes
+		#}
+
+		effects = {
+		}
+
+		triggers = {
+	    	
+	    }
+
+		visible = {
+			is_ai = no
+			has_global_flag = show_peace_popup_alert
+		}
+
+		effects = {
+			close_button_click = {
+				clr_global_flag = show_peace_popup_alert
+				clr_global_flag = losing_country_multiple
+				clr_global_flag = winning_country_multiple
+				clr_global_flag = war_continuing
+				clr_global_flag = war_won
+
+				clear_variable = global.winning_country
+				clear_variable = global.losing_country
+			}
+		}
+	}
+	TVE_SOV_GUI = {
+		window_name = "SOV_GUI"
+		context_type = player_context
+
+		visible = {
+			has_global_flag = SOV_PLAY_CARDS_SGL
+		}
+
+		
+
+		effects = {
+			SOV_CARDS_click = {
+				clr_global_flag = SOV_PLAY_CARDS_SGL
+			}
+			SOV_CARDS_TWO_click = {
+				add_to_variable = { SOV_KLSJ_VAR = 5 }
+			}
+			SOV_LEADER_NEED_POINTS_click = {
+				if = {
+					limit = {
+						check_variable = {
+							SOV_KLSJ_VAR > SOV_LEADER_NEED_POINTS
+						}
+					}
+					SOV = { country_event = { id = SOV_TVE.1 } }
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							SOV_KLSJ_VAR = SOV_LEADER_NEED_POINTS
+						}
+					}
+					SOV = { country_event = { id = SOV_TVE.1 } }
+				}
+			}
+		}
+	}
+	SOV_Legco = {
+		window_name = "SOV_Legco"
+		context_type = player_context
+
+		visible = {
+			has_global_flag = SHITFF
+		}
+		effects = {
+			SOV_CPP_click = {
+				if = {
+					limit  = {
+						has_country_flag = SCC
+					}
+					clr_country_flag = SCC
+				}
+				else = {
+					set_country_flag = SCC
+				}
+			}
+		}
+	}
+	SOV_PARTY = {
+		window_name = "SOV_PARTY"
+		context_type = player_context
+
+		
+		visible = {
+			has_country_flag = SCC
+		}
+	}
+	HEYIWEI = {
+		window_name = "HEYIWEI"
+		context_type = player_context
+
+		
+		visible = {
+			has_country_flag = KLSJ_TH_TWO
+		}
+	}
+	SOV_ZHEMEQIANG = {
+		window_name = "SOV_ZHEMEQIANG"
+		context_type = player_context
+
+		visible = {
+			has_country_flag = KLSJ_TH
+		}
+	}
+	
+	NBKF_LAILE = {
+		window_name = "NBKF_LAILE"
+		context_type = player_context
+
+		visible = {
+			has_country_flag = NBKF
+		}
+	}
+}
+

@@ -1,0 +1,41 @@
+state= {
+	id=595
+	name="STATE_595"
+	manpower = 11755600
+	state_category = city
+	history=
+	{
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		victory_points = { 
+			4196 25
+		}
+
+		1938.10.25 = {		
+			JAP = {
+				set_province_controller = 4196
+				set_province_controller = 7071
+			} 			
+		}
+	}
+	provinces={
+		1166 4196 7027 13456 13457 13458 13459 13460 13461 13462 13463 13464 13465 13466
+	}
+
+	local_supplies=0.0 
+}

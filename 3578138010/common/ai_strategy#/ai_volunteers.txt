@@ -1,0 +1,42 @@
+Austria_Poland_war_volunteers_strategy = {
+	allowed = {
+		original_tag = AUS
+	}
+	enable = {
+		has_country_flag = Austria_Poland_war_scf
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = GAL
+		value = 9999
+	}
+}
+Free_PHI_war_volunteers_strategy = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_country_flag = PHI_free_war_scf
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = FPH
+		value = 9999
+	}
+}
+Germany_civil_war_voluntters = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_global_flag = Germany_civil_war_sgf
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = DSB
+		value = 9999
+	}
+}

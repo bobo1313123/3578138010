@@ -1,0 +1,17 @@
+leader_traits = {
+
+	CSA_lianbang_shenfu = {
+		random = no
+		
+		fascism_drift = 0.01
+		war_support_factor = 0.15		
+	}
+
+	NMX_mex_american = {
+		random = no
+		
+		neutrality_drift = 0.01
+		consumer_goods_factor = -0.02	
+	}
+	
+}

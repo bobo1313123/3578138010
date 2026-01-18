@@ -1,0 +1,1102 @@
+shared_focus = {
+	id = DSB_National_Recovery
+	available = {
+		always = no
+	}
+	icon = GFX_DSB_NACH_WESTERN
+	cost = 0
+	allow_branch = {
+		has_country_flag = DSB_focus_work_3
+	}
+	x = 22
+	y = 0
+	completion_reward = {
+		country_event = {
+			id = DSB.4 days = 7
+		}
+	}
+}
+#反攻
+shared_focus = {
+	id = DSB_liberate_germany
+	available = {
+		always = no
+	}
+	prerequisite = {
+		focus = DSB_National_Recovery
+	}
+	icon = GFX_focus_AFG_against_kabul
+	cost = 0
+	x = 22
+	y = 1
+	completion_reward = {
+	}
+}
+shared_focus = {
+	id = DSB_National_light_plan
+	prerequisite = {
+		focus = DSB_liberate_germany
+	}
+	icon = GFX_focus_POL_expand_polish_intelligence
+	cost = 5
+	x = 20
+	y = 2
+	completion_reward = {
+		add_dynamic_modifier = { modifier = DSB_National_recovery_plan_dynamic_modifiers }
+		unlock_decision_tooltip = DSB_start_avid
+	    }
+}
+shared_focus = {
+	id = DSB_avid_publicize_focus
+	prerequisite = {
+		focus = DSB_National_light_plan
+	}
+	icon = GFX_focus_SWI_establish_pro_helvetia
+	cost = 5
+	x = 19
+	y = 3
+	completion_reward = {
+		add_political_power = 150
+		unlock_decision_tooltip = DSB_avid_publicize
+		add_to_variable = {DSB_political_power_factor = 0.05}
+		add_to_variable = {DSB_stability_factor = 0.05}
+		custom_effect_tooltip = DSB_research_speed_factor_tt
+	    }
+}
+shared_focus = {
+	id = DSB_promise_for_von
+	prerequisite = {
+		focus = DSB_avid_publicize_focus
+	}
+	prerequisite = {
+		focus = DSB_economy_serve_army
+	}
+	icon = GFX_focus_NOR_approach_kretsen
+	cost = 5
+	x = 20
+	y = 4
+	bypass = {
+		OR ={
+			has_idea = sour_juncker_unhappy_2
+			has_idea = sour_juncker_unhappy_3
+			NOT = {
+				has_idea = sour_juncker_unhappy_1
+			}
+		}
+	}
+	completion_reward = {
+		remove_ideas = sour_juncker_unhappy_1
+	    }
+}
+shared_focus = {
+	id = DSB_great_Military_investments
+	prerequisite = {
+		focus = DSB_promise_for_von
+	}
+	prerequisite = {
+		focus = DSB_appropriation_research
+	}
+	icon = GFX_focus_generic_military_industry
+	cost = 5
+	x = 20
+	y = 5
+	completion_reward = {
+		763 ={
+			add_extra_state_shared_building_slots = 7
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		5 ={
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_expropriation_civil
+	prerequisite = {
+		focus = DSB_great_Military_investments
+	}
+	prerequisite = {
+		focus = DSB_guaranteenational_defense_cost
+	}
+	icon = GFX_focus_SWI_issue_war_bonds
+	cost = 10
+	x = 20
+	y = 6
+	completion_reward = {
+		add_stability = -0.10
+		763 ={
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		5 ={
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_army_first_politics_focus
+	prerequisite = {
+		focus = DSB_liberate_germany
+	}
+	icon = GFX_focus_PER_march_on_saadabad
+	cost = 5
+	x = 24
+	y = 2
+	completion_reward = {
+		add_dynamic_modifier = {modifier = DSB_prussia_army}
+		army_experience = 30
+		add_doctrine_cost_reduction = {
+			cost_reduction = 0.75
+			uses = 2
+			category = land_doctrine
+		}
+		custom_effect_tooltip = DSB_army_first_politics_focus_tt
+	    }
+}
+shared_focus = {
+	id = DSB_army_reform_focus
+	icon = GFX_focus_NORDIC_mon_army
+	cost = 8
+	prerequisite = {
+		focus = DSB_army_first_politics_focus
+	}
+	x = 25
+	y = 3
+	completion_reward = {
+		army_experience = 40
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = cat_medium_armor
+		}
+		add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = artillery
+		}
+		add_tech_bonus = {
+			bonus = 1
+			uses = 2
+			category = infantry_weapons
+		}
+	}
+}
+shared_focus = {
+	id = DSB_Revival_prussia_militarism
+	available = {
+		NOT = {
+			has_idea = sour_army_unhappy
+			has_idea = sour_army_unhappy_2
+			has_idea = sour_army_unhappy_3
+		}
+	}
+	prerequisite = {
+		focus = DSB_army_reform_focus
+	}
+	prerequisite = {
+		focus = DSB_economy_serve_army
+	}
+	icon = GFX_focus_AFG_royal_guard
+	cost = 5
+	x = 24
+	y = 4
+	completion_reward = {
+		add_to_variable = {
+			DSB_conscription = 0.03
+		}
+		custom_effect_tooltip = DSB_Revival_prussia_militarism_tt
+	    }
+}
+shared_focus = {
+	id = DSB_economy_serve_army
+	prerequisite = {
+		focus = DSB_National_light_plan
+		focus = DSB_army_first_politics_focus
+	}
+	icon = GFX_focus_AFG_mountain_training
+	cost = 5
+	x = 22
+	y = 3
+	completion_reward = {
+		add_ideas = sour_economy_serve_army
+	}
+}
+shared_focus = {
+	id = DSB_appropriation_research
+	prerequisite = {
+		focus = DSB_economy_serve_army
+	}
+	icon = GFX_focus_research
+	cost = 5
+	x = 22
+	y = 4
+	completion_reward = {
+		add_research_slot = 1
+	    }
+}
+shared_focus = {
+	id = DSB_optimize_production_line
+	prerequisite = {
+		focus = DSB_Revival_prussia_militarism
+	}
+	prerequisite = {
+		focus = DSB_appropriation_research
+	}
+	icon = GFX_focus_GER_support_the_proletarian_uprising
+	cost = 5
+	x = 24
+	y = 5
+	completion_reward = {
+		add_ideas = sour_optimize_production_line
+	    }
+}
+shared_focus = {
+	id = DSB_nationwide_unanimous
+	prerequisite = {
+		focus = DSB_optimize_production_line
+	}
+	prerequisite = {
+		focus = DSB_guaranteenational_defense_cost
+	}
+	icon = GFX_focus_generic_limited_social_mobilization
+	cost = 5
+	x = 24
+	y = 6
+	completion_reward = {
+		add_to_variable = {DSB_stability_factor_dra = 0.10}
+		add_to_variable = {DSB_army_core_attack_factor_dra = 0.10}
+		add_to_variable = {DSB_army_core_defence_factor_dra = 0.10}
+		add_to_variable = {DSB_combat_width_factor = -0.15}
+		if = {
+			limit = {has_idea = sour_unite_party_n}
+			add_stability = 0.10
+		}
+		if = {
+			limit = {has_idea = sour_unite_party_c}
+			add_stability = 0.10
+		}
+		if = {
+			limit = {has_idea = sour_unite_party_d}
+			add_stability = 0.10
+		}
+		custom_effect_tooltip = DSB_nationwide_unanimous_tt
+	}
+}
+shared_focus = {
+	id = DSB_Seek_foreign_assistance
+	prerequisite = {
+		focus = DSB_nationwide_unanimous
+	}
+	icon = GFX_focus_hol_the_fourth_ally
+	cost = 5
+	x = 23
+	y = 7
+	completion_reward = {
+		unlock_decision_tooltip = DSB_foreign_assistance_SOV
+		unlock_decision_tooltip = DSB_foreign_assistance_USA
+		unlock_decision_tooltip = DSB_foreign_assistance_ENG
+	}
+}
+shared_focus = {
+	id = DSB_Turn_the_war_machine
+	prerequisite = {
+		focus = DSB_Seek_foreign_assistance
+	}
+	prerequisite = {
+		focus = DSB_Military_rationing_first
+	}
+	icon = GFX_focus_CHL_la_corporacion_araucania
+	cost = 10
+	x = 22
+	y = 8
+	completion_reward = {
+		add_ideas = sour_tong_yi
+		add_research_slot = 1
+		set_country_flag = DSB_attck_pashe4_work
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = DSB_attack_nothern
+	}
+}
+shared_focus = {
+	id = DSB_guaranteenational_defense_cost
+	prerequisite = {
+		focus = DSB_Revival_prussia_militarism
+	}
+	prerequisite = {
+		focus = DSB_promise_for_von
+	}
+	prerequisite = {
+		focus = DSB_appropriation_research
+	}
+	icon = GFX_focus_generic_monetary_union
+	cost = 5
+	x = 22
+	y = 5
+	completion_reward = {
+		add_to_variable = {
+			DSB_supply_consumption_factor = -0.15
+		}
+		custom_effect_tooltip = DSB_guaranteenational_defense_cost_tt
+	    }
+}
+shared_focus = {
+	id = DSB_Military_rationing_first
+	prerequisite = {
+		focus = DSB_expropriation_civil
+	}
+	icon = GFX_focus_generic_mass_production
+	cost = 5
+	x = 21
+	y = 7
+	completion_reward = {
+		add_stability = -0.15
+		add_to_variable ={DSB_production_factory_max_efficiency_factor = 0.05}
+		add_to_variable ={DSB_production_factory_efficiency_gain_factor = 0.10}
+		add_to_variable ={DSB_line_change_production_efficiency_factor = 0.05}
+		custom_effect_tooltip = DSB_Military_rationing_first_tt
+	    }
+}
+shared_focus = {
+	id = DSB_attack_nothern
+	icon = GFX_DSB_PASHE_FOUR_FIRST
+	available = {
+		always = no
+	}
+	cost = 0
+	allow_branch = {
+		has_country_flag = DSB_attck_pashe4_work
+	}
+	x = 36
+	y = 0
+	completion_reward = {
+	    }
+}
+shared_focus = {
+	id = DSB_wu_tong
+	icon = GFX_focus_HABSBURG_offensive_hussars
+	prerequisite = {
+		focus = DSB_attack_nothern
+	}
+	mutually_exclusive = {
+		focus = DSB_kui_lei
+	}
+	cost = 7
+	x = -1
+	y = 1
+	relative_position_id = DSB_attack_nothern
+	completion_reward = {
+		add_named_threat = { threat = 3 }
+		create_wargoal = {
+			type = take_state_focus
+			target = LIT
+			expire = 730
+			generator = { 11 }
+		}	
+		create_wargoal = {
+			type = take_state_focus
+			target = LAT
+			expire = 730
+			generator = { 808 }
+		}
+		create_wargoal = {
+			type = take_state_focus
+			target = EST
+			expire = 730
+			generator = { 812 }
+		}
+		set_country_flag = DSB_wu_tong_scf
+	}
+}
+shared_focus = {
+	id = DSB_kui_lei
+	icon = GFX_focus_BRA_end_the_state_of_emergency
+	prerequisite = {
+		focus = DSB_attack_nothern
+	}
+	mutually_exclusive = {
+		focus = DSB_wu_tong
+	}
+	cost = 7
+	x = 1
+	y = 1
+	relative_position_id = DSB_attack_nothern
+	completion_reward = {
+		LIT ={
+			country_event = {
+				id = DSB.7
+			}
+		}
+		LAT ={
+			country_event = {
+				id = DSB.7
+			}
+		}
+		EST = {
+			country_event = {
+				id = DSB.7
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_biggest_Resource_utilization
+	icon = GFX_focus_generic_central_planning
+	available = {
+		11 ={
+            is_controlled_by_ROOT_or_subject = yes
+        }
+        808 ={
+            is_controlled_by_ROOT_or_subject = yes
+        }
+        812 ={
+            is_controlled_by_ROOT_or_subject = yes
+        }
+	}
+	prerequisite = {
+		focus = DSB_wu_tong
+		focus = DSB_kui_lei
+	}
+	cost = 5
+	x = 0
+	y = 2
+	relative_position_id = DSB_attack_nothern
+	completion_reward = {
+		set_variable = {DSB_investment_day = 70}
+		set_variable = {DSB_investment_cost = 100}
+		unlock_decision_tooltip = DSB_biggest_Resource_utilization_decision
+		unlock_decision_tooltip = DSB_annex_bo_luo_di_sea
+	}
+}
+shared_focus = {
+	id = DSB_Consolidate_rule
+	icon = GFX_focus_generic_monarchy_1
+	prerequisite = {
+		focus = DSB_biggest_Resource_utilization
+	}
+	cost = 10
+	x = -1
+	y = 3
+	relative_position_id = DSB_attack_nothern
+	completion_reward = {
+		add_ideas = DSB_c_r
+	}
+}
+shared_focus = {
+	id = DSB_duide_rentong
+	icon = GFX_focus_GER_strafbataillon
+	prerequisite = {
+		focus = DSB_Consolidate_rule
+	}
+	cost = 5
+	x = -1
+	y = 4
+	relative_position_id = DSB_attack_nothern
+	completion_reward = {
+		if = {
+			limit = { 
+				has_country_flag = DSB_wu_tong_scf
+				NOT = {
+					has_country_flag = bo_luo_di_sheng
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = LIT
+				}
+				add_core_of = DSB
+			}
+			every_state = {
+				limit = {
+					is_core_of = LAT
+				}
+				add_core_of = DSB
+			}
+			every_state = {
+				limit = {
+					is_core_of = EST
+				}
+				add_core_of = DSB
+			}
+		}
+		if = {
+			limit = { 
+				num_subjects > 0
+			}
+			every_other_country = {
+				limit = {
+					is_subject_of = ROOT
+				}
+				add_ideas = DSB_comecon_puppet_default
+			}
+		}
+		custom_effect_tooltip = DSB_duide_rentong_tt
+	}
+}
+shared_focus = {
+	id = DSB_tuozhan_yingxiang
+	icon = GFX_focus_RAJ_to_shake_the_world
+	prerequisite = {
+		focus = DSB_duide_rentong
+	}
+	cost = 5
+	x = -1
+	y = 5
+	relative_position_id = DSB_attack_nothern
+	completion_reward =  {
+		add_named_threat = { threat = -7 }
+		country_event = {
+			id =DSB.20
+			days =3
+		}
+	}
+}
+shared_focus = {
+	id = DSB_jiyu_jili_butie
+	icon = GFX_focus_AFG_a_modern_economy
+	prerequisite = {
+		focus = DSB_biggest_Resource_utilization
+	}
+	cost = 10
+	x = 1
+	y = 3
+	relative_position_id = DSB_attack_nothern
+	completion_reward = {
+		add_to_variable = {
+			DSB_investment_day = -35
+		}
+		add_to_variable = {
+			DSB_investment_cost = -50
+		}
+		custom_effect_tooltip = DSB_jiyu_jili_butie_tt
+	}
+}
+shared_focus = {
+    id = DSB_bo_xue
+    icon = GFX_focus_AFG_scavenging
+    prerequisite = {
+        focus = DSB_jiyu_jili_butie
+    }
+    cost = 5
+    x = 1
+    y = 4
+	relative_position_id = DSB_attack_nothern
+    completion_reward = {
+        add_stability = -0.20
+        808 ={
+            add_extra_state_shared_building_slots = 5
+            add_building_construction = {
+                type = arms_factory
+                level = 5
+                instant_build = yes
+            }
+        }
+        812 ={
+            add_extra_state_shared_building_slots = 3
+            add_building_construction = {
+                type = arms_factory
+                level = 3
+                instant_build = yes
+            }
+        }
+        11 ={
+            add_extra_state_shared_building_slots = 3
+            add_building_construction = {
+                type = arms_factory
+                level = 3
+                instant_build = yes
+            }
+        }
+        810 ={
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = arms_factory
+                level = 2
+                instant_build = yes
+            }
+        }
+        811 ={
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = arms_factory
+                level = 2
+                instant_build = yes
+            }
+        }
+    }
+}
+shared_focus = {
+	id = DSB_ziyuan_kaicai
+	icon = GFX_focus_generic_coal_mining
+	prerequisite = {
+		focus = DSB_bo_xue
+	}
+	cost = 5
+	x = 1
+	y = 5
+	relative_position_id = DSB_attack_nothern
+	completion_reward = {
+		189 ={
+			add_resource = {
+				type = steel
+				amount = 21.000
+			}
+		}
+		808 ={
+			add_resource = {
+				type = steel
+				amount = 18.000
+			}
+		}
+		810 ={
+			add_resource = {
+				type = steel
+				amount = 19.000
+			}
+		}
+		13 ={
+			add_resource = {
+				type = oil
+				amount = 11.000
+			}
+		}
+		11 ={
+			add_resource = {
+				type = tungsten
+				amount = 25.000
+			}
+		}
+	}
+}
+shared_focus = {
+    id = DSB_last_war
+    icon = GFX_focus_BRA_air_force
+    prerequisite = {
+        focus = DSB_ziyuan_kaicai
+    }
+	prerequisite = {
+		focus = DSB_tuozhan_yingxiang
+    }
+    cost = 5
+    x = 0
+    y = 6
+	relative_position_id = DSB_attack_nothern
+    completion_reward = {
+        create_wargoal = {
+            type = take_state_focus
+            target = GER
+            expire = 0
+            generator = { 28 }
+        }
+        every_state = {
+            limit = {
+                is_core_of = GER
+				NOT = {
+					is_core_of = AUS
+				}
+				NOT = {
+					is_core_of = CZE
+				}
+				NOT = {
+					is_core_of = POL
+				}
+            }
+            add_claim_by = DSB
+        }
+        set_cosmetic_tag = DSB_return_country_name
+		custom_effect_tooltip = DSB_name_genggai
+    }
+}
+#工业线
+shared_focus = {
+	id = DSB_industry_title
+	icon = GFX_DSB_National_industry
+	cost = 5
+	allow_branch = {
+		has_country_flag = DSB_industry_scf
+	}
+	x = 30
+	y = 0
+	completion_reward =  {
+		country_event = {
+			id = DSB.22
+		}
+	}
+}
+shared_focus = {
+	id = DSB_government_control_industry
+	icon = GFX_DSB_National_capitalism
+	prerequisite = {
+		focus = DSB_industry_title
+	}
+	available = {
+		has_country_flag = DSB_government_highly_control_industry_scf
+	}
+	mutually_exclusive = {
+		focus = DSB_government_indulge_industry
+	}
+	cost = 5
+	x = 30
+	y = 1
+	completion_reward = {
+		add_dynamic_modifier = {
+			modifier = DSB_industry
+		}
+	}
+}
+shared_focus = {
+	id = DSB_wangxiang_rongke_zichan
+	icon = GFX_focus_RAJ_war_taxes
+	prerequisite = {
+		focus = DSB_government_control_industry
+	}
+	cost = 5
+	x = 31
+	y = 2
+	completion_reward = {
+		add_timed_idea = {
+			idea = sour_von_money_tt
+			days = 365
+		}
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_zhengfu_caigou_ziyuan
+	icon = GFX_focus_GER_integrated_economies
+	prerequisite = {
+		focus = DSB_wangxiang_rongke_zichan
+	}
+	cost = 5
+	x = 31
+	y = 3
+	completion_reward = {
+		add_timed_idea = {
+			idea = sour_goverment_money_tt
+			days = 180
+		}
+		add_to_variable = {
+			DSB_industry_production_factory_efficiency_gain_factor = -0.05
+		}
+		add_to_variable = {
+			DSB_industry_production_factory_max_efficiency_factor = 0.05
+		}
+		add_political_power = 75
+		custom_effect_tooltip = DSB_zhengfu_caigou_ziyuan_tt
+	}
+}
+shared_focus = {
+	id = DSB_tongchou_guihua
+	icon = GFX_focus_GER_customs_union
+	prerequisite = {
+		focus = DSB_government_control_industry
+	}
+	cost = 5
+	x = 29
+	y = 2
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_production_factory_efficiency_gain_factor = 0.05
+		}
+		add_to_variable = {
+			DSB_industry_production_factory_max_efficiency_factor = 0.05
+		}
+		custom_effect_tooltip = DSB_tongchou_idea_add_tt
+	}
+}
+shared_focus = {
+	id = DSB_tiaojie_jingji
+	icon = GFX_focus_generic_price_controls
+	prerequisite = {
+		focus = DSB_tongchou_guihua
+	}
+	cost = 5
+	x = 29
+	y = 3
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_consumer_goods_factor = -0.05
+		}
+		add_to_variable = {
+			DSB_industry_stability_factor = 0.05
+		}
+		custom_effect_tooltip = DSB_tjjj_tt
+	}
+}
+shared_focus = {
+	id = DSB_jianli_guoying_daqiye
+	icon = GFX_focus_DEN_no_regulations
+	prerequisite = {
+		focus = DSB_tiaojie_jingji
+	}
+	prerequisite = {
+		focus = DSB_zhengfu_caigou_ziyuan
+	}
+	cost = 5
+	x = 30
+	y = 4
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_consumer_goods_factor = -0.05
+		}
+		add_to_variable = {
+			DSB_industry_stability_factor = 0.05
+		}
+		custom_effect_tooltip = DSB_tjjj_tt
+		custom_effect_tooltip = DSB_jlgydqy_tt
+	}
+}
+shared_focus = {
+	id = DSB_guojia_jingtie_buzhu
+	icon = GFX_focus_ETH_adopt_the_lira
+	prerequisite = {
+		focus = DSB_jianli_guoying_daqiye
+	}
+	mutually_exclusive = {
+		focus = DSB_jianbing_difang_jingji
+	}
+	cost = 5
+	x = 31
+	y = 5
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_consumer_goods_factor = 0.05
+		}
+		add_to_variable = {
+			DSB_industry_stability_factor = 0.10
+		}
+		add_to_variable = {
+			DSB_industry_industrial_capacity_factory = 0.05
+		}
+		custom_effect_tooltip = DSB_guojia_jingtie_buzhu_tt
+	}
+}
+shared_focus = {
+	id = DSB_touzi_keyan_jishu
+	icon = GFX_focus_NORDIC_com_research
+	prerequisite = {
+		focus = DSB_guojia_jingtie_buzhu
+	}
+	cost = 5
+	x = 31
+	y = 6
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_research_speed_factor = 0.07
+		}
+		custom_effect_tooltip = DSB_fuli_bokuan_tt
+	}
+}
+shared_focus = {
+	id = DSB_fuli_bokuan
+	icon = GFX_focus_RAJ_trickle_down_economics
+	prerequisite = {
+		focus = DSB_touzi_keyan_jishu
+	}
+	cost = 5
+	x = 32
+	y = 7
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_production_factory_efficiency_gain_factor = 0.10
+		}
+		add_to_variable = {
+			DSB_industry_production_factory_max_efficiency_factor = 0.10
+		}
+		add_to_variable = {
+			DSB_industry_stability_factor = 0.05
+		}
+		add_to_variable = {
+			DSB_industry_consumer_goods_factor = 0.10
+		}
+		custom_effect_tooltip = DSB_touzi_keyan_jishu_tt
+	}
+}
+shared_focus = {
+	id = DSB_tiaojie_jieceng_guanxi
+	icon = GFX_focus_eng_concessions_to_the_trade_unions
+	prerequisite = {
+		focus = DSB_fuli_bokuan
+	}
+	cost = 5
+	x = 31
+	y = 8
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_production_speed_arms_factory_factor = 0.30
+		}
+		add_to_variable = {
+			DSB_industry_stability_factor = 0.15
+		}
+		add_to_variable = {
+			DSB_industry_consumer_goods_factor = 0.20
+		}
+		custom_effect_tooltip = DSB_tiaojie_jieceng_guanxi_tt
+	}
+}
+shared_focus = {
+	id = DSB_jianbing_difang_jingji
+	icon = GFX_focus_generic_annex_country_2
+	prerequisite = {
+		focus = DSB_jianli_guoying_daqiye
+	}
+	mutually_exclusive = {
+		focus = DSB_guojia_jingtie_buzhu
+	}
+	cost = 5
+	x = 29
+	y = 5
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_consumer_goods_factor = -0.15
+		}
+		add_to_variable = {
+			DSB_industry_stability_factor = -0.10
+		}
+		custom_effect_tooltip = DSB_jianbing_difang_jingji_tt
+	}
+}
+shared_focus = {
+	id = DSB_huoqu_gaoe_longduan_lirun
+	icon = GFX_focus_generic_low_cost_housing
+	prerequisite = {
+		focus = DSB_jianbing_difang_jingji
+	}
+	cost = 5
+	x = 29
+	y = 6
+	completion_reward = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_laogong_lianjiahua
+	icon = GFX_focus_NOR_lurk_in_the_shadows
+	prerequisite = {
+		focus = DSB_huoqu_gaoe_longduan_lirun
+	}
+	cost = 5
+	x = 28
+	y = 7
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_industrial_capacity_factory = 0.25
+		}
+		add_to_variable = {
+			DSB_industry_stability_factor = -0.05
+		}
+		add_to_variable = {
+			DSB_industry_production_factory_efficiency_gain_factor = -0.05
+		}
+		custom_effect_tooltip = DSB_laogong_lianjiahua_tt
+	}
+}
+shared_focus = {
+	id = DSB_zengzhi_longduan_ziben
+	icon = GFX_focus_mex_privatisation
+	prerequisite = {
+		focus = DSB_laogong_lianjiahua
+	}
+	cost = 5
+	x = 29
+	y = 8
+	completion_reward = {
+		add_to_variable = {
+			DSB_industry_consumer_goods_factor = -0.15
+		}
+		add_to_variable = {
+			DSB_industry_production_speed_arms_factory_factor = 0.15
+		}
+		custom_effect_tooltip = DSB_zengzhi_longduan_ziben_tt
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
+		}
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = arms_factory
+				level = 5
+				instant_build = yes
+			}
+		}
+	}
+}
+shared_focus = {
+	id = DSB_government_indulge_industry
+	icon = GFX_DSB_FREE_ECONOMY
+	prerequisite = {
+		focus = DSB_industry_title
+	}
+	mutually_exclusive = {
+		focus = DSB_government_control_industry
+	}
+	available = {
+		has_country_flag = DSB_government_indulge_industry_scf
+	}
+	cost = 5
+	x = 32
+	y = 1
+	completion_reward = {
+		add_ideas = DSB_gii
+	    }
+}

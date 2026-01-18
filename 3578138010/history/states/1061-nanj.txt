@@ -1,0 +1,45 @@
+state={
+	id=1061
+	name="STATE_1061"
+	provinces={
+		996 11913 11982 13406 13407 13408 13409 13410 13411 13412
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		
+		
+
+			
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 6
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+
+		victory_points = {
+			11913 20 # Nanjing
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 1
+
+			}
+
+		}
+	}
+	
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

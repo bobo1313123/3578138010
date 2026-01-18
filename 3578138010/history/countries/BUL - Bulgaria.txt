@@ -1,0 +1,183 @@
+﻿capital = 48
+load_focus_tree = generic_focus
+oob = "BUL_1936" 
+
+set_air_oob = "BUL_1936_air_bba"
+set_convoys = 5 
+
+set_party_name = {
+	ideology = Totalitarianism
+	name = BUL_Totalitarianism_party_bulgarian
+	long_name = BUL_Totalitarianism_party_bulgarian_long
+}
+set_party_name = {
+	ideology = fascism
+	name = BUL_fascism_party_bulgarian
+	long_name = BUL_fascism_party_bulgarian_long
+}
+set_party_name = {
+	ideology = Authoritarianism
+	name = BUL_Authoritarianism_party_bulgarian
+	long_name = BUL_Authoritarianism_party_bulgarian
+}
+
+load_focus_tree = generic_focus
+
+recruit_character = BUL_boris_iii
+
+	set_party_name = {
+		ideology = Liberalism
+		name = BUL_Liberalism_party_bftb
+		long_name = BUL_Liberalism_party_bftb_bulgarian_long
+	}
+	set_cosmetic_tag = BUL_Authoritarianism
+
+	add_ideas = {
+		dushezhiya
+		wuwangzhizai
+		anyingzhiren
+		nayitiaoyue
+	}
+
+	set_rule = {
+		can_not_declare_war = yes
+	}
+	country_lock_all_division_template = yes
+
+	randomize_variable = {
+		var = BUL_tsars_destination
+		distribution = uniform
+		min = 2
+		max = 13
+	}
+	round_variable = BUL_tsars_destination
+	randomize_variable = {
+		var = BUL_march_destination
+		distribution = uniform
+		min = 2
+		max = 13
+	}
+	round_variable = BUL_march_destination
+	48 = { set_state_flag = BUL_initial_bulgarian_state_flag }
+	212 = { set_state_flag = BUL_initial_bulgarian_state_flag }
+	801 = { set_state_flag = BUL_initial_bulgarian_state_flag }
+	211  = { set_state_flag = BUL_initial_bulgarian_state_flag }
+	77 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	803 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	106 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	731 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	184 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	971 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+
+	add_opinion_modifier = { 
+		target = GRE
+		modifier = BFTB_incongruous_neighbors
+	}
+	add_opinion_modifier = { 
+		target = ROM
+		modifier = BFTB_incongruous_neighbors
+	}
+	add_opinion_modifier = { 
+		target = TUR
+		modifier = BFTB_incongruous_neighbors
+	}
+	add_opinion_modifier = { 
+		target = YUG
+		modifier = BFTB_incongruous_neighbors
+	}
+
+	set_popularities = {
+		Liberalism = 10
+		fascism = 30
+		Authoritarianism = 55
+		Totalitarianism = 5
+	}
+
+	recruit_character = BUL_georgi_dimitrov
+	recruit_character = BUL_nikola_mushanov
+	recruit_character = BUL_hristo_lukov
+	recruit_character = BUL_atanas_shalapatov
+	recruit_character = BUL_nikola_mihov
+	recruit_character = BUL_georgi_popov
+	recruit_character = BUL_vasil_boydev
+	recruit_character = BUL_ivan_markov
+	recruit_character = BUL_georgi_markov
+	recruit_character = BUL_asen_nikolov
+	recruit_character = BUL_konstantin_lukash
+	recruit_character = BUL_nikola_stoychev
+	recruit_character = BUL_damian_velchev
+	recruit_character = BUL_angel_dotsev
+	recruit_character = BUL_theodosi_daskalov
+	recruit_character = BUL_trifon_trifonov
+	recruit_character = BUL_sava_ivanov
+	recruit_character = BUL_vladimir_stoychev
+	recruit_character = BUL_stoyan_stoyanov
+	recruit_character = BUL_zachari_zachariev
+	recruit_character = BUL_stefan_tsanev
+	recruit_character = BUL_kiril_dimitrov_yanchulev
+	recruit_character = BUL_georgi_petsov
+	recruit_character = BUL_ivan_sapundzhiev
+	recruit_character = BUL_atanas_zhilkov
+	recruit_character = BUL_kiril_stanchev
+	recruit_character = BUL_ferdinand_kozovski
+	recruit_character = BUL_georgi_drenikov
+	recruit_character = BUL_stoyan_trendafilov
+	recruit_character = BUL_ivan_variklechkov
+	recruit_character = BUL_gancho_manchev
+	recruit_character = BUL_dimitr_ayryanov
+	recruit_character = BUL_nikola_hadzipetkov
+	recruit_character = BUL_asen_toshev
+	recruit_character = BUL_bogdan_filov_fascism
+	recruit_character = BUL_dobri_bozhilov
+	recruit_character = BUL_dimitrana_ivanova
+	recruit_character = BUL_bogdan_filov
+	recruit_character = BUL_stoycho_mushanov
+	recruit_character = BUL_aleksandar_tsankov
+	recruit_character = BUL_todor_pavlov
+	recruit_character = BUL_kimon_georgiev
+	recruit_character = BUL_ivan_dochev
+	recruit_character = BUL_georgi_ivanov_kyoseivanov
+	recruit_character = BUL_stefan_stefanov
+	recruit_character = BUL_nikola_zhekov
+	recruit_character = BUL_valko_chervenkov
+	recruit_character = BUL_vasil_kolarov
+	recruit_character = BUL_konstantin_muraviev
+	recruit_character = BUL_nikola_petkov
+
+	recruit_character = BUL_ferdinand_i
+	recruit_character = BUL_regency_council
+	recruit_character = BUL_nikola_nakov
+
+	activate_advisor = BUL_georgi_ivanov_kyoseivanov
+
+
+	create_operative_leader = {
+		name = "Vladimir Zaimov"
+		GFX = GFX_portrait_bul_vladimir_zaimov
+		traits = { operative_infiltrator operative_commando }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+	recruit_character = BUL_stefan_nedev
+
+	set_research_slots = 3
+
+	set_politics = {
+		ruling_party = Authoritarianism
+		last_election = "1935.1.22"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	basic_train = 1
+	tech_mountaineers = 1
+}

@@ -1,0 +1,489 @@
+focus_tree = {
+	id = dsb_balance_power_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = DSB
+		}
+	}
+
+	default = no
+	shared_focus = DSB_WWI_deat
+	shared_focus = DSB_National_Recovery
+	shared_focus = DSB_attack_nothern
+	shared_focus = DSB_fight_for_GER
+	shared_focus = DSB_industry_title
+	#shared_focus = DSB_Wei_Jing_Zhi_Shi
+	#shared_focus = DSB_Wei_Jing_Zhi_Sh
+
+	continuous_focus_position = { x = 20 y = 2000 }
+
+	focus = {
+		id = DSB_jiamian_gg
+		icon = GFX_DSB_UNITED_OVER
+		cost = 0
+
+		available = {
+			always = no
+		}
+
+		x = 5
+		y = 0
+		completion_reward = {
+			set_country_flag = duoquan
+		}
+	}
+	#WWI_fuck_army
+	focus = {
+		id = DSB_Zhi_Dao_Dragon_xue
+		icon = GFX_DSB_ZHI_DAO_LONG_XUE
+		cost = 1
+
+		prerequisite = {
+			focus = DSB_Yi_Hui_WCNM
+		}
+		x = -2
+		y = 2
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.15
+			}
+			add_political_power = 450
+		}
+	}
+	focus = {
+		id = DSB_Que_Bao_Von
+		icon = GFX_QUE_BAO_VON_JUNGUAN
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Zhi_Dao_Dragon_xue
+		}
+		x = -3
+		y = 3
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.05
+			}
+			DSB_werner_von_blomberg ={
+				add_trait = {
+					trait = von_army
+				}
+			}
+			DSB_gunther_von_kluge = {
+				add_trait = {
+					trait = von_army
+				}
+			}
+			if = {
+				limit = { has_idea = sour_juncker_unhappy_3 }
+				swap_ideas = {
+					remove_idea = sour_juncker_unhappy_3
+					add_idea = sour_juncker_unhappy_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_juncker_unhappy_2 }
+				swap_ideas = {
+					remove_idea = sour_juncker_unhappy_2
+					add_idea = sour_juncker_unhappy_1
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_juncker_unhappy_1 }
+				remove_ideas = sour_juncker_unhappy_1
+			}
+			custom_effect_tooltip = wwi_rise_mideum
+		}
+	}
+	focus = {
+		id = DSB_Yu_Shen_Zhi_people_copertate
+		icon = GFX_DSB_copertae_with_god
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Que_Bao_Von
+		}
+		x = -3
+		y = 4
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.05
+			}
+			swap_ideas = {
+				remove_idea = sour_von_cooperate
+				add_idea = god_person
+			}
+			custom_effect_tooltip = wwi_rise_low
+		}
+	}
+	#BOTH
+	focus = {
+		id = DSB_ZhenYa_Kangyizhe
+		icon = GFX_DSB_Crackdown_on_dissent
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Set_Police_station
+		}
+
+		x = 0
+		y = 3
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			unlock_decision_tooltip = DSB_CLOSE_AGASINT_PARTY_NEWS
+		}
+	}
+	focus = {
+		id = DSB_ZuJian_Shi_Lai_Xie_Er_Ge
+		icon = GFX_DSB_ZJSLXENG
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Huang_E_Duo_Bu
+		}
+
+		x = 3
+		y = 3
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_ideas = GER_Kurtvon_Schleicher
+			set_country_flag = SSG
+			clr_country_flag = DSB_PP
+		}
+	}
+	focus = {
+		id = DSB_Set_Xiao_Zu
+		icon = GFX_DSB_set_Commi_sioner_system
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_ZuJian_Shi_Lai_Xie_Er_Ge
+		}
+		x = 3
+		y = 4
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.25
+			}
+			add_political_power = -100
+			custom_effect_tooltip = wwi_rise_mideum
+		}
+	}
+	focus = {
+		id = DSB_WWI_NB
+		icon = GFX_REICH_BANZAI
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Develop_xiaolv
+		}
+		prerequisite = {
+			focus = DSB_Gui_Fan_Zhi_Fa
+		}
+
+		available = {
+			is_power_balance_in_range = {
+				id = DSB_FAKER_VI_BIN
+				range > DSB_WWI_NB_T
+			}
+		}
+
+		x = 0
+		y = 8
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			set_country_flag = ZD_OVER
+			if = {
+				limit = { has_idea = sour_juncker_unhappy_3 }
+				swap_ideas = {
+					remove_idea = sour_juncker_unhappy_3
+					add_idea = sour_juncker_unhappy_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_juncker_unhappy_2 }
+				swap_ideas = {
+					remove_idea = sour_juncker_unhappy_2
+					add_idea = sour_juncker_unhappy_1
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_juncker_unhappy_1 }
+				remove_ideas = sour_juncker_unhappy_1
+			}
+			set_country_flag = jiamian_over
+			load_focus_tree = dsb_wwii_politics_focus
+			complete_national_focus = DSB_fengtian_chiling
+			mark_focus_tree_layout_dirty = yes
+			remove_power_balance = {
+				id = DSB_FAKER_VI_BIN
+			}
+			hidden_effect = {
+				DSB_erich_von_manstein = {
+					set_nationality = SWI
+				}
+			}
+		}
+	}
+	#WWI_fuck_yihui
+	focus = {
+		id = DSB_Yi_Hui_WCNM
+		icon = GFX_CLOSE_YIHUI
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_jiamian_gg
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_ideas = sour_yihui_yongjiu_close
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.05
+			}
+		}
+	}
+	focus = {
+		id = DSB_Wei_Jew_Open_DOOOOORRRRR
+		icon = GFX_DSB_Help_the_chaebol
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_ZhenYa_Kangyizhe
+		}
+
+		x = 0
+		y = 4
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.05
+			}
+			unlock_decision_tooltip = DSB_CLOSE_AGASINT_PARTY_NEWS
+			custom_effect_tooltip = jew_zong_cong_rise_meduim
+			custom_effect_tooltip = jew_rise_high
+			country_event = { id = DSB.64 }
+		}
+	}
+	focus = {
+		id = DSB_Set_Police_station
+		icon = GFX_DSB_JING_WEI_BU
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Yi_Hui_WCNM
+		}
+		x = 0
+		y = 2
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			if = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				swap_ideas = {
+					remove_idea = sour_yihui_yongjiu_close
+					add_idea = sour_police_station
+				}
+				if = {
+					limit = {
+						has_intelligence_agency = no
+					}
+
+					create_intelligence_agency = {
+						name = "C-Byrån"
+						icon = GFX_intelligence_agency_logo_swe
+					}
+				}	
+			}
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.1
+			}
+		}
+	}
+	focus = {
+		id = DSB_WWI_GEINICCB
+		icon = GFX_WWII_LOOK_FOR_D
+		cost = 0.5
+
+		prerequisite = {
+			focus = DSB_Set_Xiao_Zu
+		}
+		x = 2
+		y = 5
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			set_country_flag = wwi_had_chiyao
+			country_event = { id = DSB.65 }
+			custom_effect_tooltip = wwi_chiyao_tt
+		}
+	}
+	#WWI_reform_goverment
+	focus = {
+		id = DSB_Huang_E_Duo_Bu
+		icon = GFX_DSB_CNGG
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Yi_Hui_WCNM
+		}
+		x = 2
+		y = 2
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.1
+			}
+			unlock_decision_tooltip = reform_end
+			custom_effect_tooltip = hedb_tt
+		}
+	}
+	focus = {
+		id = DSB_Develop_xiaolv
+		icon = GFX_DSB_Improve_efficiency
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Kuo_Da_goverment_zhineng
+		}
+		x = -1
+		y = 7
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.15
+			}
+			if = {
+				limit = { has_idea = sour_restoration_4 }
+				swap_ideas = {
+					remove_idea = sour_restoration_4
+					add_idea = sour_restoration_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_restoration_3 }
+				swap_ideas = {
+					remove_idea = sour_restoration_3
+					add_idea = sour_restoration_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_restoration_2 }
+				remove_ideas = sour_restoration_2
+			}
+		}
+	}
+	focus = {
+		id = DSB_Gui_Fan_Zhi_Fa
+		icon = GFX_DSB_Regulate_law_enforcement
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Kuo_Da_goverment_zhineng
+		}
+
+		available = {
+			has_completed_focus = DSB_Develop_xiaolv
+		}
+
+		x = 1
+		y = 7
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.15
+			}
+			if = {
+				limit = { has_idea = sour_restoration_4 }
+				swap_ideas = {
+					remove_idea = sour_restoration_4
+					add_idea = sour_restoration_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_restoration_3 }
+				swap_ideas = {
+					remove_idea = sour_restoration_3
+					add_idea = sour_restoration_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_restoration_2 }
+				remove_ideas = sour_restoration_2
+			}
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = DSB_Kuo_Da_goverment_zhineng
+		icon = GFX_DSB_Expand_government_functions
+		cost = 2
+
+		prerequisite = {
+			focus = DSB_Yu_Shen_Zhi_people_copertate
+		}
+		prerequisite = {
+			focus = DSB_Wei_Jew_Open_DOOOOORRRRR
+		}
+		prerequisite = {
+			focus = DSB_Set_Xiao_Zu
+		}
+
+		available = {
+			has_completed_focus = DSB_Set_Police_station
+		}
+
+		x = 0
+		y = 6
+		relative_position_id = DSB_jiamian_gg
+		completion_reward = {
+			add_power_balance_value = {
+				id = DSB_FAKER_VI_BIN
+				value = 0.20
+			}
+			swap_ideas = {
+				remove_idea = sour_police_station
+				add_idea = sour_biggest_goverment_power
+			}
+			if = {
+				limit = { has_idea = sour_restoration_4 }
+				swap_ideas = {
+					remove_idea = sour_restoration_4
+					add_idea = sour_restoration_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_restoration_3 }
+				swap_ideas = {
+					remove_idea = sour_restoration_3
+					add_idea = sour_restoration_2
+				}
+			}
+			else_if = {
+				limit = { has_idea = sour_restoration_2 }
+				remove_ideas = sour_restoration_2
+			}
+			custom_effect_tooltip = wwi_rise_high
+		}
+	}
+}

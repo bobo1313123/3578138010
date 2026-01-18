@@ -1,0 +1,32 @@
+state={
+	id=1035
+	name="STATE_1035"
+	resources={
+		steel=12 # was: 20.000
+	}
+
+	state_category = large_town
+
+
+	history={
+		owner = USA
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+			dockyard = 1
+		}
+		add_core_of = USA
+		victory_points = {
+			12459 1 
+		}
+
+	}
+
+	provinces={
+		3732 6719 7462 12202 12221 12459 10318 1282 1338 1619 4287 10247
+	}
+	manpower=829600
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

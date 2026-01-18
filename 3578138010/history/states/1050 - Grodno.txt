@@ -1,0 +1,25 @@
+state={
+	id=1050
+	name="STATE_1050"
+
+	state_category = large_town
+
+
+	history={
+		owner = PBR
+		add_core_of = PBR
+		add_core_of = BLR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		13376
+	}
+	manpower = 12190
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,9 @@
+has_second_leader = {
+	OR = {
+		has_country_flag = DSB_PP
+		has_country_flag = SSG
+		has_country_flag = DSB_HB
+		has_country_flag = STNG
+		has_country_flag = FRA_Daudet_ZongLi
+	}
+}

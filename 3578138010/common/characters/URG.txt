@@ -1,0 +1,16 @@
+characters = {
+	URG_jiafuliefu_tela = {
+		name = URG_jiafuliefu_tela
+		portraits = {
+			civilian = {
+				large = GFX_portrait_URG_jiafuliefu_tela
+			}
+		}
+		country_leader = {
+			ideology =  chai_kai_shek
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

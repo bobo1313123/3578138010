@@ -9,8 +9,6 @@ state={
 		owner = MPQ
 		add_core_of = MPQ
 		add_core_of = CHL
-		add_core_of = WLA
-
 		buildings = {
 			infrastructure = 1
 			10953 = {

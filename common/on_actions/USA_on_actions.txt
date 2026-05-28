@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = { 
+			if = {
+				limit = { USA = { is_ai = no } }
+				USA = { country_event = { id = usa.history.1 days = 3 } }
+			}
+		}
+	}
+}

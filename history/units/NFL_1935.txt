@@ -1,0 +1,70 @@
+division_template = {
+	name = "英国殖民军"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "国民警卫队"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "第 1 英国殖民军师"
+		location = 4720
+		division_template = "英国殖民军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "第 2 英国殖民军师"
+		location = 12503
+		division_template = "英国殖民军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "第 1 国民警卫队"
+		location = 12680
+		division_template = "国民警卫队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "第 2 国民警卫队"
+		location = 12505
+		division_template = "国民警卫队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "第 3 国民警卫队"
+		location = 12505
+		division_template = "国民警卫队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+}

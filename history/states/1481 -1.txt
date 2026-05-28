@@ -1,0 +1,25 @@
+
+state={
+	id = 1481
+	name="STATE_1481"
+	manpower = 28261
+	resources={
+
+	}
+	
+	state_category = town
+
+	history={
+		owner = VEN
+		
+		
+		add_core_of = VEN
+	
+	}
+
+	provinces={
+		5000 4892 5056
+	}
+
+	local_supplies=0.0 
+}

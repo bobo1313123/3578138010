@@ -6,6 +6,14 @@ HUN_EMPIRE_neutrality_TVE = {
 	color = rgb { 209 199 199 }
 	color_ui = rgb { 209 199 199 }
 }
+RKR_UKR_IND = {
+	color = rgb { 191 253 0 }
+	color_ui = rgb { 209 199 199 }
+}
+CZE_AUS_EMPIRE = {
+	color = rgb { 209 199 199 }
+	color_ui = rgb { 209 199 199 }
+}
 HUN_INDE_TVE = {
 	color = rgb { 100 188 0 }
 	color_ui = rgb { 100 188 0 }
@@ -42,11 +50,19 @@ ENG_NEW_color = {
 	color = rgb { 157 43 45 }
 	color_ui = rgb { 255 73 121 }
 }
+TUR_Authoritarianism = {
+	color = rgb { 117 0 5 }
+	color_ui = rgb { 79 0 3 }
+}
 BOG_color = {
 	color = rgb { 157 43 45 }
 	color_ui = rgb { 80  165  10 }
 }
 ITALY_color = {
+	color = rgb { 0 102 0 }
+	color_ui = rgb { 0 102 0 }
+}
+ITALY_color_TTS = {
 	color = rgb { 0 102 0 }
 	color_ui = rgb { 0 102 0 }
 }
@@ -104,12 +120,13 @@ KAZ_color = {
 }
 
 YUG_CRO = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 94 95 164 }
+	color = rgb { 0 217 200 }
+	color_ui = rgb { 13 217 200 }
 }
+
 YUG_BOS = {
-	color = rgb { 72 73 126 }
-	color_ui = rgb { 94 95 164 }
+	color = rgb { 0 205 116 }
+	color_ui = rgb { 13 217 200 }
 }
 SPR_puppet_CUB = {
 	color = rgb { 213 164 15 }
@@ -142,4 +159,28 @@ POR_puppet_MZB = {
 ARG_puppet_PAR = {
 	color = rgb { 50 64 90 }
 	color_ui = rgb { 189 204 255 }
+}
+COL_CCW = {
+	color = rgb { 109 20 2 }
+	color_ui = rgb { 255 243 118 }
+}
+ECU_CCW = {
+	color = rgb { 211 211 46 }
+	color_ui = rgb { 255 190 127 }
+}
+WLA_CCW = {
+	color = rgb { 204 0 51 }
+	color_ui = rgb { 255 190 127 }
+}
+RIG_CCW = {
+	color = rgb { 184 134 11 }
+	color_ui = rgb { 255 190 127 }
+}
+MAY_CCW = {
+	color = rgb { 81 81 81 }
+	color_ui = rgb { 255 190 127 }
+}
+MIS_CCW = {
+	color = rgb { 6 54 98 }
+	color_ui = rgb { 255 190 127 }
 }

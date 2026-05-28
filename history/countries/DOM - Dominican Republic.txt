@@ -11,9 +11,10 @@ set_technology = {
 
 
  
-set_war_support = 0.1
+set_war_support = 0.1 
 set_convoys = 5
 
+set_country_flag = tfe_second_leader
 
 
 
@@ -21,28 +22,21 @@ set_cosmetic_tag = SPR_puppet_DOM
 recruit_character = DOM_Hector_Trujillo #埃克托尔·特鲁希略
 add_ideas = {
 	DOM_The_Feast_of_the_Ram #公羊的盛宴
-	DOM_spanish_influence #西班牙影响度
+	DOM_The_Spaniards_wwhb
+	DOM_The_whitewashing_peif
+	DOM_Plans_for_the_wah
+
+	DOM_Raphael_Trujillo
 }
 set_politics = {
-	ruling_party = tttt
+	ruling_party = fascism
 	last_election = "1934.5.16"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	tttt= 100
-}
-
-
-DOM = {
-	add_opinion_modifier = {
-	target = SPR
-	modifier = DOM_spanish_influence 
-}
-}
-SPR = {
-	add_opinion_modifier = {
-	target = DOM
-	modifier = DOM_spanish_influence 
-}
+	Democracy = 1
+	Authoritarianism = 42
+	tttt = 3
+	fascism = 54
 }

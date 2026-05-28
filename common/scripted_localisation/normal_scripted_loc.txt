@@ -30,6 +30,12 @@ defined_text = {
         }
         localization_key = "TFE_title_loc_CSA"
     }
+    text = {
+		trigger = {
+            tag = USA
+        }
+        localization_key = "TFE_title_loc_USA"
+    }
 }
 defined_text = {
     name = TVE_desc_loc
@@ -63,6 +69,12 @@ defined_text = {
         }
         localization_key = "TFE_desc_loc_CSA"
     }
+    text = {
+		trigger = {
+            tag = USA
+        }
+        localization_key = "TFE_desc_loc_USA"
+    }
 }
 defined_text = {
     name = welcome_icon_loc
@@ -83,5 +95,17 @@ defined_text = {
             tag = POL
         }
         localization_key = "GFX_POLWELCOME"
+    }
+    text = {
+		trigger = {
+            tag = CSA
+        }
+        localization_key = "GFX_CSAWELCOME"
+    }
+    text = {
+		trigger = {
+            tag = USA
+        }
+        localization_key = "GFX_USAWELCOME"
     }
 }

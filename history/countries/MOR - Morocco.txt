@@ -9,10 +9,12 @@ set_cosmetic_tag = SPR_puppet_MOR
 
 set_convoys = 20
 
-recruit_character = MOR_Emilio_Mora #埃米利奥·莫拉
+recruit_character = MOR_MHMD_IV
 
 add_ideas = {
-	MOR_Afrika_Korps #非洲军团
+	#MOR_Afrika_Korps #非洲军团
+	BLT_PORMOSE
+	unpublic_country
 }
 set_politics = {
 	ruling_party = tttt
@@ -26,7 +28,11 @@ set_popularities = {
 	Communism = 5
 	tttt = 50
 }
-
+set_party_name = {
+	ideology = tttt
+	name = MOR_tttt_1
+	long_name = MOR_tttt_1
+}
 create_country_leader = {
 	name = "Mohammed V"
 	desc = ""

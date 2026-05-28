@@ -6,7 +6,17 @@ on_actions = {
 				add_to_coalition = yes
 				set_temp_variable = { coalition_partner_var = token:Authoritarianism }
 				add_to_coalition = yes
-			}			
+			}
+			
+			USA = {# USA 对 CSA 好感 -200（永久）
+				remove_opinion_modifier = { target = CSA modifier = USA_CSA_ethnic_division }
+				add_opinion_modifier    = { target = CSA modifier = USA_CSA_ethnic_division }
+			}
+			
+			CSA = {# CSA 对 USA 好感 -200（永久）
+				remove_opinion_modifier = { target = USA modifier = USA_CSA_ethnic_division }
+				add_opinion_modifier    = { target = USA modifier = USA_CSA_ethnic_division }
+			}
 		}
 	}
 }

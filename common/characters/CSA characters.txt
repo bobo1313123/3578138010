@@ -65,7 +65,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology= military_junta
+			ideology= military_junta_authoritarianism
 			traits={  }
 			expire="1947.1.1.1"
 			id=-1

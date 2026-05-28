@@ -1,0 +1,8 @@
+spriteTypes = {
+	#领导人
+	spriteType = { #贝内特
+		name = "GFX_leader_NFL_Bennett"
+		texturefile = "gfx/leaders/NFL/NFL_Bennett.dds"
+	}
+	
+}

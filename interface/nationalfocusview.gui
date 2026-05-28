@@ -12,7 +12,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "national_focus_title"
-			position = { x = 45 y = 8 }
+			position = { x = 45 y = 16 }
 			textureFile = ""
 			font = "hoi_36header"
 			borderSize = {x = 0 y = 0}
@@ -717,7 +717,7 @@ guiTypes = {
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 0 y = 60 }
+			position = { x = 9 y = 68 }
 			spriteType = "GFX_goal_unknown"
 			alwaystransparent = yes
 		}
@@ -885,7 +885,7 @@ guiTypes = {
 		}
 		iconType = {
 			name = "symbol"
-			position = { x = 42 y = 88 }
+			position = { x = 49 y = 88 }
 			spriteType = "GFX_goal_unknown"
 			alwaystransparent = yes
 		}

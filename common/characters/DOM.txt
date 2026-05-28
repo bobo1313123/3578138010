@@ -3,13 +3,13 @@ characters={
     name = DOM_Hector_Trujillo
     portraits = {
         civilian = {
-            large = GFX_idea_TVE_DOM_Hector_Trujillo
+            large = GFX_leader_DOM_Hector_Trujillo
         }
     }
     
     country_leader = {
         desc = DOM_Hector_Trujillo_desc
-        ideology = tttt_small
+        ideology = Trujillos_ideology
         traits = {
             DOM_Black_person
         }

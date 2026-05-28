@@ -1,0 +1,17 @@
+characters = {
+	NFL_Bennett = {
+		name = NFL_Bennett
+
+		portraits = {
+			civilian = {
+				large = "GFX_leader_NFL_Bennett"
+			}
+		}
+
+		country_leader = {
+			ideology = Territory_under_the_Eng_king
+			#traits = { }
+			expire = "1965.1.1"
+		}
+	}
+}

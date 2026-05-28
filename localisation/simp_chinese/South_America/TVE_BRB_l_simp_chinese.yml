@@ -33,7 +33,7 @@
         BRB_Republican_refuge:0 "共和派的避难所" 
         BRB_Republican_refuge_desc:0 "\n\n\n\n£GFX_BRB_Republican_refuge_Pictures\n\n\n\n\n\n月盈则亏，对曾经繁盛一时的巴西王室来说，这句话是最好的印证。王室在三国同盟战争的糟糕表现和1888年解放法案的实施彻底击破了资产阶级和地主阶级的拥护，再此背景下，丰塞卡将军正准备实施一次共和革命，推翻腐朽的布拉干萨王室。\n事与愿违，如同法国大革命最终以路易十八的回归收场，丰塞卡的大革命最终在保王党的军队抵抗之下一步一步后撤，里约热内卢丢了，圣保罗也失守。所有共和派军队被迫撤离到巴拉那州和南里奥格兰德州进行最后的坚守，最终于帝国达成无条件和平。\n此后40年，巴西帝国掌控的地区不断爆发起义，一次又一次被血腥镇压，残存的共和派总是来到我们这个南部的小国，我们也不断坚持自己的信念：一定要解放巴西全境。"
         BRB_argentine_militaryaid:0 "阿根廷军事援助"
-        BRB_argentine_militaryaid_tt:0 "§Y我们与阿根廷的关系评价互相:+40§!"
+        BRB_argentine_militaryaid_tt:0 "我们与[BRA.GetFlag]§Y[BRA.GetName]§!的关系评价互相: §G+40§!"
         BRB_argentine_militaryaid_desc:0 "\n\n\n\n£GFX_BRB_argentine_militaryaid_Pictures\n\n\n\n\n\n在阿雷格里港协议之后，我国陷入了一种无助和恐慌，在国际上没有国家愿意承认我们，在如此时候，乌拉圭和阿根廷向我们伸出了援手，他们为我国提供武器和军事援助，同时派部队进驻我国，且承认我国为合法独立国家，这一举动也在国际上为我国取得了话语权，我们由衷的感谢他们为巴西人民独立和民族解放的支持。"
         BRB_Vargas_Populism:0 "瓦加斯民众主义"
         BRB_Vargas_Populism_desc:0 "\n\n\n\n£GFX_BRB_Vargas_Populism_Pictures\n\n\n\n\n\n热图里奥·瓦加斯是土生土长的南里奥格兰德州人，他在1935年当选总统，他奉行一种民众主义，但并不民粹，这种思想在内部十分留行，因此，我国很自然的接受了。\n但是，内部一些人尤其是法西斯主义者和共产党对此非常不满意，火药已经埋下，等待的就是火星了。"

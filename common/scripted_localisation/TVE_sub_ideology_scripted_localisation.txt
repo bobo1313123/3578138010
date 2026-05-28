@@ -68,22 +68,13 @@ defined_text = {
 		localization_key = socialism_small
 	}
 	text = {
-		trigger = { #激进左翼民粹主义
+		trigger = { #左翼民粹主义
 			OR = {
-				has_country_leader_ideology = Radical_left_wing_populism
+				has_country_leader_ideology = left_wing_populism
 			}
 			
 		}
-		localization_key = Radical_left_wing_populism
-	}
-	text = {
-		trigger = { #温和左翼民粹主义
-			OR = {
-				has_country_leader_ideology = moderate_left_wing_populism
-			}
-			
-		}
-		localization_key = moderate_left_wing_populism
+		localization_key = left_wing_populism
 	}
 }
 defined_text = {
@@ -121,6 +112,12 @@ defined_text = {
 		localization_key = Kerenskyism
 		
 	}
+	text = {
+		trigger = { #盖坦主义
+			has_country_leader_ideology = Gaitanism
+		}
+		localization_key = Gaitanism
+	}
 }
 defined_text = {
 	name = GetSubIdeologyLocSocDem
@@ -153,6 +150,12 @@ defined_text = {
 		}
 		localization_key = isolationism
 	}
+	text = {
+		trigger = { #殖民政府-自由主义
+			has_country_leader_ideology = colonial_government_liberalism
+		}
+		localization_key = colonial_government_tttt
+    }
 }
 defined_text = {
 	name = GetSubIdeologyLocSocLib
@@ -220,9 +223,9 @@ defined_text = {
 	}
 	text = {
 		trigger = { #军政府
-			has_country_leader_ideology = Military_dictatorship
+			has_country_leader_ideology = military_junta_authoritarianism
 		}
-		localization_key = Military_dictatorship
+		localization_key = military_junta
     }
 }
 defined_text = {
@@ -254,16 +257,22 @@ defined_text = {
 		localization_key = Spain_rivera_ideologies
 	}
 	text = {
-		trigger = { #殖民政府
-			has_country_leader_ideology = colonial_government_ideologies
+		trigger = { #殖民政府-专制主义
+			has_country_leader_ideology = colonial_government_tttt
 		}
-		localization_key = colonial_government_ideologies 
+		localization_key = colonial_government_tttt 
     }
 	text = {
 		trigger = { #军官独裁制
 			has_country_leader_ideology = Military_dictatorship
 		}
 		localization_key = Military_dictatorship
+    }
+	text = {
+		trigger = { #军政府
+			has_country_leader_ideology = military_junta_tttt
+		}
+		localization_key = military_junta
     }
 }
 defined_text = {
@@ -274,6 +283,7 @@ defined_text = {
 			OR = {
 				has_country_leader_ideology = fascism_small
 				has_country_leader_ideology = works_on_constitution
+				has_country_leader_ideology = Trujillos_ideology 
 			}
 			
 		}
@@ -290,6 +300,12 @@ defined_text = {
 			has_country_leader_ideology = MEX_cosmic_racism
 		}
 		localization_key = MEX_cosmic_racism
+    }
+	text = {
+		trigger = { #军政府-法西斯主义
+			has_country_leader_ideology = military_junta_fascism
+		}
+		localization_key = military_junta
     }
 }
 defined_text = {

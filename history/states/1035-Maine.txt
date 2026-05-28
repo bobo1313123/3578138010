@@ -11,15 +11,16 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			industrial_complex = 2
+			industrial_complex = 3
 			infrastructure = 3
 			dockyard = 1
+			arms_factory = 2
 		}
 		add_core_of = USA
 		victory_points = {
 			12459 1 
 		}
-
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

@@ -13,7 +13,6 @@ state={
 		owner = BTG
 		add_core_of = BTG
 		add_core_of = CHL
-		add_core_of = WLA
 
 		buildings = {
 			infrastructure = 1

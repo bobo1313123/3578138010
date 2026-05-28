@@ -1,19 +1,19 @@
-state=
-{
+state={
 	id=311
 	name="STATE_311"
 	manpower = 51000
 	
 	state_category = pastoral
-	history=
-	{
+	history={
 		add_core_of = BLZ
-		owner = BOG
+		owner = BLZ
 		victory_points = {
-			2077 1 
+			2077 5 
 		}
 		buildings = {
 			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
 			2077 = {
 				naval_base = 1
 			}

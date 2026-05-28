@@ -316,6 +316,9 @@ CHR = "countries/Charrua.txt"
 ITZ = "countries/Itza.txt"
 NAH = "countries/Nahua.txt"
 IAS = "countries/Isthmo Amerindia.txt"
+ROL = "countries/ROL.txt"
+WAL = "countries/WAL.txt"
+
 
 # GoE 
 DIP = "countries/Partisans.txt"
@@ -398,3 +401,7 @@ ZJG = "countries/浙江省.txt"
 GXI = "countries/广西省.txt"
 GAD = "countries/广东省.txt"
 HNA = "countries/湖南省.txt"
+
+
+#英国在北美的傀儡----纽芬兰
+NFL = "countries/Newfoundland.txt"

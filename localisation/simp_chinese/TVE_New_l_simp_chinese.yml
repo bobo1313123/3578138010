@@ -15,11 +15,17 @@
       is_in_coalition_with: "已与§H[?global.ideology_groups^$INDEX$.GetTokenLocalizedKey]§!党派联盟。"
       is_in_coalition_with_NOT: "未与§H[?global.ideology_groups^$INDEX$.GetTokenLocalizedKey]§!党派联盟。"
 
-      #第二领导人
+      #副领导人
       second_leader_tt:0 "[THIS.second_leader]"
       second_leader_tt2:0 "§R副领导人将发生变化§!"
 
       #阵营
       TFE_CAMP_TT: "[GetGlobalAssociationTT]"
       TFE_BAO_CAMP_MEMBER_TT: "[THIS.GetFlag]§Y[THIS.GetName]§!是§Y布宜诺斯艾利斯公约组织§!的成员国"
+
+      #其他
+      illegal:0 "§R非法§!"
+      illegal_long:0 "§R非法§!"
+      event_completed:0 "§R事件完成§!"
+      military_disloyalty_tt:0 "§R无法编辑、调整、删除陆军和陆军模板§!"
      

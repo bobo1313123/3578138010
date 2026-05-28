@@ -40,6 +40,22 @@ characters={
 			}
 		}
 	}
+	II.Abdvlmecid={
+		name=II.Abdvlmecid
+		portraits={
+			civilian={
+				large=GFX_II_Abdvlmecid
+			}
+		}
+		
+		country_leader={
+			ideology=progressivism_small
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		
+	}
 
 	TUR_sefik_husnu={
 		instance = {

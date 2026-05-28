@@ -8,7 +8,7 @@ characters = {
     }
     
     country_leader = {
-        ideology = Radical_left_wing_populism
+        ideology = left_wing_populism
 		desc = BBR_Bayard_Rustin_desc
         traits = {
             

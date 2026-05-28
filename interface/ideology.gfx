@@ -103,9 +103,13 @@ spriteTypes = {
 		name = "GFX_ideology_Spain_rivera_ideologies"
 		texturefile = "gfx/interface/ideologies/Spain_rivera_ideologies.dds"
 	}
-	spriteType = { #殖民政府
-		name = "GFX_ideology_colonial_government_ideologies"
-		texturefile = "gfx/interface/ideologies/colonial_government_ideologies.dds"
+	spriteType = { #殖民政府-专制主义
+		name = "GFX_ideology_colonial_government_tttt"
+		texturefile = "gfx/interface/ideologies/colonial_government.dds" 
+	}
+	spriteType = { #殖民政府-自由主义 
+		name = "GFX_ideology_colonial_government_Liberalism"
+		texturefile = "gfx/interface/ideologies/colonial_government.dds" 
 	}
 	spriteType = { #军官独裁制
 		name = "GFX_ideology_Military_dictatorship"
@@ -120,12 +124,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/CSA_Hueylon_Doctrine.dds"
 	}
 	spriteType = { #激进左翼民粹主义
-		name = "GFX_ideology_Radical_left_wing_populism"
-		texturefile = "gfx/interface/ideologies/Radical_left_wing_populism.dds"
-	}
-	spriteType = { #温和左翼民粹主义
-		name = "GFX_ideology_moderate_left_wing_populism"
-		texturefile = "gfx/interface/ideologies/moderate_left_wing_populism.dds"
+		name = "GFX_ideology_left_wing_populism"
+		texturefile = "gfx/interface/ideologies/left_wing_populism.dds"
 	}
 	spriteType = { #无支配体制
 		name = "GFX_ideology_non_domination_system"
@@ -134,5 +134,25 @@ spriteTypes = {
 	spriteType = { #自由激进主义
 		name = "GFX_ideology_liberal_radicalism"
 		texturefile = "gfx/interface/ideologies/liberal_radicalism.dds"
+	}
+	spriteType = { #盖坦主义
+		name = "GFX_ideology_Gaitanism"
+		texturefile = "gfx/interface/ideologies/Gaitanism.dds"
+	}
+	spriteType = { #特鲁希略的意识形态
+		name = "GFX_ideology_Trujillos_ideology"
+		texturefile = "gfx/interface/ideologies/Trujillos_ideology.dds"
+	}
+	spriteType = { #军政府-威权主义
+		name = "GFX_ideology_military_junta_authoritarianism"
+		texturefile = "gfx/interface/ideologies/military_junta.dds"
+	}
+	spriteType = { #军政府-专制主义
+		name = "GFX_ideology_military_junta_tttt"
+		texturefile = "gfx/interface/ideologies/military_junta.dds"
+	}
+	spriteType = { #军政府-法西斯主义
+		name = "GFX_ideology_military_junta_fascism"
+		texturefile = "gfx/interface/ideologies/military_junta.dds"
 	}
 }

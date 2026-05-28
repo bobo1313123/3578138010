@@ -1,5 +1,5 @@
 ideas = {
-	hidden_ideas = {  #用于第二领导人的隐藏ideas
+	hidden_ideas = {  #用于副领导人的隐藏ideas
 		ARG_Marcelo_Torquato_de_Alvial = { #马塞洛·托尔夸托·德·阿尔维亚尔
 			modifier = {
 				stability_factor = -0.05
@@ -15,6 +15,18 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.05
 				stability_factor = 0.05
+			}
+		}
+		DOM_Raphael_Trujillo = { #拉斐尔·特鲁希略
+			modifier = {
+				
+			}
+		}
+		GER_wilhelm_ii = { #威廉二世 
+			modifier = {
+				 stability_factor = 0.10
+        		 war_support_factor = 0.10
+        		 political_power_factor = 0.50
 			}
 		}
 	}

@@ -24,9 +24,6 @@ focus_tree={
 			add_political_power = 250
 			add_war_support = 0.1
 			add_manpower = 20000
-			SCF = {
-				add_ideas = BBR_Riots_broke_out
-			}
 			NEV = {
 				add_ideas = BBR_Riots_broke_out
 			}
@@ -89,7 +86,7 @@ focus_tree={
 				cost_reduction = 0.15
 			}
 			swap_ideas = {
-				remove_idea = BRB_revolutionary_enthusiasm_1
+				remove_idea = BBR_revolutionary_enthusiasm_1
 				add_idea = BRB_revolutionary_enthusiasm_2
 			}
 			add_ideas = {

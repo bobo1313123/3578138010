@@ -5,7 +5,8 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = FRA
+		owner = BAS
+		add_claim_by = BAS
 		buildings = {
 			infrastructure = 2
 			373 = {

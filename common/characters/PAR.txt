@@ -8,7 +8,7 @@ characters = {
     }
     
     country_leader = {
-        ideology = colonial_government_ideologies
+        ideology = colonial_government_tttt
         traits = {
             
         }

@@ -1,7 +1,36 @@
 SpriteTypes = { 
 	#领导人
-	spriteType = { #约翰·卡尔文·柯立芝
+	SpriteType = { #约翰·卡尔文·柯立芝
 		name = "GFX_leader_USA_John_Calvin_Coolidge"
 		texturefile = "gfx/leaders/USA/USA_John_Calvin_Coolidge.dds"
+	}
+	#民族精神
+	SpriteType = { #经济危机的余波
+		name = "GFX_USA_The_aftermath_of_the_ec"
+		texturefile = "gfx/interface/ideas/USA/USA_The_aftermath_of_the_ec.dds"
+	}
+	SpriteType = { #国家由大企业主导
+		name = "GFX_idea_USA_The_Nation_of_Enterprises"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_The_Nation_of_Enterprises.dds"
+	}
+	SpriteType = { #北方自由州
+		name = "GFX_idea_USA_Northern_Free_State"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_Northern_Free_State.dds"
+	}
+	SpriteType = { #祖国分裂之殇
+		name = "GFX_idea_USA_The_Tragedy_of_a_Divided_Homeland"
+		texturefile = "gfx/interface/ideas/USA/idea_USA_The_Tragedy_of_a_Divided_Homeland.dds"
+	}
+
+	#开局介绍图片
+	SpriteType = { 
+		name = "GFX_USAWELCOME"
+		texturefile = "gfx/interface/Playerccccc/USA/WELCOME.dds"
+	}
+
+	#事件配图
+	SpriteType = { 
+		name = "GFX_usa_history_1"
+		texturefile = "gfx/event_pictures/USA/usa_history_1.dds"
 	}
 }

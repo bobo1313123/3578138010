@@ -41,6 +41,16 @@ MEX_under_our_shadow:"在我们的影子之下"
 MEX_runwu_wusheng:"润物无声"
 MEX_naxie_xuwei_shenming:"那些虚伪的神明们"
 MEX_bihua_xingdong:"壁画行动"
+
+MEX_Fear_from_the_unknown:"来自未知的恐惧"
+MEX_Martial_law:"戒严令"
+MEX_Support_of_the_workers:"工人的支持"
+MEX_Association_for_young:"青年协会为青年"
+MEX_revolutionary_propaganda:"革命宣传"
+MEX_Support_of_contemporary_people:"当代人的支持"
+MEX_Populist_fervor:"民粹狂热"
+MEX_Suppress_the_militia:"镇压民兵"
+MEX_The_initial_awakening_of_the_nation:"民族的初步觉醒"
 ############墨西哥民族精神描述#####################
 MEX_yaowang_lvtu_desc:"\n\n\n\n£GFX_MEX_yaowang_lvtu_Pictures\n\n\n\n\n\n遥望墨西哥的革命，匆忙而又激烈，我们赶跑了那个欧洲的虚伪皇帝，然而留下的墨西哥确是一片废墟，那场战争我们付出了太多，不能在有一次战争了，除非，除非他能使我们一雪前耻..."
 MEX_crying_guadalupei_desc:"\n\n\n\n£GFX_MEX_crying_guadalupei_Pictures\n\n\n\n\n\n墨西哥教会作为几百年在墨西哥的农村和城市中最有权利的机构使墨西哥成为了一个虔诚的“基督教国家”——至少在革命前如此，而现在，仍有许多工人农民对于我们打压教会的行为感到不满并且反对我们。"
@@ -87,12 +97,27 @@ tve_mex.4.a:"备忘录：与军队高层人士的对话"
 tve_mex.5.t:"高卓晚宴"
 tve_mex.5.desc:"高卓晚宴"
 tve_mex.5.a:"高卓晚宴"
+
+tve_mex.6.t:"左右路线分支"
+tve_mex.6.desc:"左右路线分支"
+tve_mex.6.a:"左"
+tve_mex.6.b:"右"
+
+tve_mex.7.t:"新的接班人"#左线最终胜利
+tve_mex.7.desc:"1"
+tve_mex.7.a:"1"
+
+tve_mex.8.t:"新的接班人"#右线最终胜利
+tve_mex.8.desc:"2"
+tve_mex.8.a:"2"
 #####################墨西哥文本#################
 MEX_junfang_jieru_increase_tt:"军方介入程度上升一级！"
 MEX_yaowang_lvtu_modifier_tt:"获得§Y遥望你的旅途...§!,其效果为：\n"
 MEX_yaowang_lvtu_modifier_ttt:"§Y遥望你的旅途...§!追加效果："
 MEX_runwu_wusheng_modifier_tt:"获得§Y润物无声§!,其效果为：\n"
 MEX_runwu_wusheng_modifier_ttt:"§Y润物无声§!追加效果："
+
+MEX_chenai_luoding_tt:"\n§G墨§!§W西§!§R哥§!§Y选择了她的未来......§!"
 #####################墨西哥国策#################
 MEX_a_new_year:"新的一年"
 MEX_yitan_nanni:"一滩烂泥"
@@ -113,6 +138,23 @@ MEX_xuanchuan_bihua_geming:"宣传壁画革命"
 MEX_weiyou_li_tianxia:"唯有利天下"
 MEX_fangke_hui_benguo:"方可惠本国"
 MEX_wenhe_geming:"温和革命"
+
+MEX_wujin_de_siwang:"无尽的死亡"
+MEX_xuanbu_jieyan:"宣布戒严"
+MEX_choubei_jinji_xuanju:"筹备紧急选举"
+MEX_zuopai_jueqi:"左派崛起"
+MEX_junfang_hezuo:"与军方激进派合作"
+MEX_nianqingren_zhichi:"年轻人的支持"
+MEX_gongren_qunti:"发动工人群体"
+MEX_geming_wenhua:"宣传革命文化"
+MEX_dangdairen_zuzhi:"与当代人组织合作"
+MEX_youpai_wending_jushi:"右派稳定局势"
+MEX_Guadalupe_hezuo:"与瓜达卢佩的交易"
+MEX_zhenya_jinshanjun:"镇压金衫军"
+MEX_mincui_qingxv:"煽动民粹情绪"
+MEX_meisidisuo_ren:"梅斯蒂索人的骄傲"
+MEX_kaliesi_changgtan:"与卡列斯的彻夜畅谈"
+MEX_chenai_luoding:"尘埃落定"
 
 
 MEX_a_new_year_desc:"从1920年到如今，雅典娜青年协会已经统治墨西哥16年，而如今，阿方索雷耶斯做到了这个位置，开启了他的任期，让我们拭目以待..."
@@ -135,6 +177,55 @@ MEX_weiyou_li_tianxia_desc:"如果我们想要推行我们的政策，那我们�
 MEX_fangke_hui_benguo_desc:"这些对于底层劳动人民的举动旨在提高人民生活水平的同时让我们的统治更加稳固，而现在我们做到了这样一点"
 MEX_wenhe_geming_desc:"阿方索雷耶斯证明了这一点：他在大部分人都满意的情况下成功进行了这一场温和的革命——土地改革的同时打压了教会的实力，在安抚军方的同时提高了人民的生活水平，现在，让我们为阿方索雷耶斯——诗人，散文家，作家高呼三声万岁！"
 
+MEX_wujin_de_siwang_desc:"雷耶斯的血溅在宴会上上，雅典娜青年协会一夜之间从思想的庙堂坠入权力的修罗场。戈罗斯蒂萨的长诗中所言 \"水借杯形方能存在，却也因杯而终\" ，此刻显得格外讽刺而又宿命：一个国家需要一个容器般的强权才能成形，而那只容器注定会碎裂、注定带来消亡。同仁们的理想在这片虚空中漂浮，无人敢先开口说出那个问题 —— 谁来握住这只杯子？"
+MEX_xuanbu_jieyan_desc:"革命功臣，也是著名军官的奥布雷贡以 \"防止国家陷入无政府\" 为由，出动宪兵封锁了宪法广场。共和国的心脏被暂时按停。显而易见的是：谁能在戒严期稳住秩序，谁就握住了通往总统府的钥匙"
+MEX_choubei_jinji_xuanju_desc:""
+MEX_zuopai_jueqi_desc:""
+MEX_junfang_hezuo_desc:"军队并非铁板一块。以奥布雷贡为代表的一批在革命中成长起来的底层军官，他们渴望真正的土地革命。我们应该趁机递出橄榄枝。通过与这些人的合作可以让我们在之后的选举中掌握更多的主动权。"
+MEX_nianqingren_zhichi_desc:"雅典娜的左翼本就是一场青年运动 —— 他们中最年轻的一代，正是雅典娜青年协会里那批 \"创造派\"年轻诗人和激进学生。我们可以动员他们青占领大学礼堂，把雷耶斯的遗像与革命标语并排悬挂。他们可以为我们带来演讲台、印刷机和最狂热的街头动员力。"
+MEX_gongren_qunti_desc:"墨西哥城的纺织厂、铁路机务段、矿场里的工人，是这片土地上最庞大、最被忽视的政治力量。我们曾经把宪法送进工会，把红旗插上烟囱，并且承诺土地与劳动法的兑现。工人可不是雅典娜沙龙里那些细声细气的精英，但当他们集体走上街头，整个国家的工业都会为之震颤。"
+MEX_geming_wenhua_desc:"我们从来没有忘记自己是文人。我们应该动员壁画三杰，让里维拉的画笔重新爬满政府大楼；电台里播放工人合唱，报纸连载革命小说。艺术不再是沙龙里的孤芳自赏，而成了最锋利的选举武器 —— 我们用美去争取每一颗尚未决定的心。"
+MEX_dangdairen_zuzhi_desc:"对宏大叙事敬而远之的当代人集团，在墨西哥的后革命时代也逐渐明白了一个道理——纯诗的孤高救不了破碎的国家。戈罗斯蒂萨，比利亚乌鲁蒂亚等较为先锋的文学家选择与雅典娜青年协会的创造派进行合作，并且站到左翼身后——艺术可以服务选举，却永远不能被政令绑架。这是文人最后的骄傲。"
+MEX_youpai_wending_jushi_desc:""
+MEX_Guadalupe_hezuo_desc:"墨西哥人骨子里仍眷恋着瓜达卢佩圣母的庇护。保守的天主教势力愿意在选举中暗中出力，条件是右翼承诺恢复教会的一些旧日尊严。圣母像在游行的旗帜上缓缓前移，数百万信徒的心也随之偏移。这是信仰与权力的古老联姻。"
+MEX_zhenya_jinshanjun_desc:"金衫军 —— 那支穿着金色衬衫、崇拜强权的法西斯准军事组织 —— 正在街头横行，他们既仇恨左翼，也威胁着秩序。我们必须在选举前彻底剿灭这些不受控的暴力分子。既清除了威胁稳定的混乱根源，又向选民展示了自己 \"敢于铁腕\" 的领袖气质。"
+MEX_mincui_qingxv_desc:"比起高深的政治纲领，群众更容易被 \"墨裔的荣光\"\" 外来思想的侵蚀\" 这类炽热的词汇点燃。他们用最直白、最滚烫的语言，把国家面临的一切困境都归咎于内外的敌人，把选举变成一场关乎民族尊严的圣战。热情如野火，焚烧理智，也焚烧对手的票仓。"
+MEX_meisidisuo_ren_desc:"我们必须宣称：墨西哥的未来属于混血民族 —— 梅斯蒂索人，唯有他们配得上领导这个国家。这是对殖民时代白人精英史观的一次彻底反叛，也是动员主体民族情感的最有力号角。"
+MEX_kaliesi_changgtan_desc:"普卢塔科・卡列斯，这位奥布雷贡之下的军事强人，是墨西哥右翼政坛真正的 \"教父\"。我们可以带着一瓶陈年龙舌兰登门，与他促膝谈到天明。这一夜谈成了什么无人知晓，但天亮之后，部分军队就可以对我们的政策露出微笑。与魔鬼共舞，换取选票与枪杆的背书。"
+MEX_chenai_luoding_desc:"选票清点完毕，新总统宣誓就职，戒严解除，宪法广场重归喧嚷。无论谁坐上那把椅子，墨西哥都迎来了它历史上最特殊的一任领袖 —— 一位由文人集团在枪与墨之间锻造出的总统。漫长的政治真空终于有了答案。"
 
 
 MEX_cosmic_racism_desc:0 ""
+
+
+
+
+CAN:"加拿大联邦共和国"
+ CAN_DEF:"加拿大联邦共和国"
+ CAN_ADJ:"加拿大联邦共和国"
+
+ #人物
+ CAN_Mackenzie_King:"威廉·莱昂·麦肯齐·金"
+
+
+ #意识形态和政党
+ CAN_Communism_party:"加拿大共产党"
+ CAN_Communism_party_long:"加拿大共产党"
+ CAN_Socialism_party:"CCF平民合作联盟党"
+ CAN_Socialism_party_long:"CCF平民合作联盟党"
+ CAN_Progressivism_party:"CCF平民合作联盟党"
+ CAN_Progressivism_party_long:"CCF平民合作联盟党"
+ CAN_Liberalism_party:"加拿大自由党"
+ CAN_Liberalism_party_long:"加拿大自由党"
+ CAN_Democracy_party:"加拿大自由党"
+ CAN_Democracy_party_long:"加拿大自由党"
+ CAN_tttt_party:"保守党"
+ CAN_tttt_party_long:"保守党"
+ CAN_Conservatism_party:"保守党"
+ CAN_Conservatism_party_long:"保守党"
+ CAN_Authoritarianism_party:"保守党"
+ CAN_Authoritarianism_party_long:"保守党"
+ CAN_fascism_party:"无选举权组织"
+ CAN_fascism_party_long:"无选举权组织"
+ CAN_nazism_party:"魁北克人民解放阵线"
+ CAN_nazism_party_long:"魁北克人民解放阵线"

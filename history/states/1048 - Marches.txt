@@ -6,9 +6,11 @@ state={
 
 
 	history={
-		owner = SPM
-		add_core_of = SPM
-		add_core_of = ITA
+		owner = TTS
+		add_core_of = TTS
+
+		add_claim_by = ITA
+		add_claim_by = LBV
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

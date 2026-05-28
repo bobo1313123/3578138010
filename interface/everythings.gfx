@@ -278,6 +278,15 @@ spriteTypes = {
 		name = "GFX_bookmark_american_TVE"
 		texturefile = "gfx/interface/bookmark_american.png"
 	}
-	
+	FrameAnimatedSpriteType = {
+		name = "GFX_frame_warview"
+		textureFile = "gfx/interface/decisions/warview_191.png"
+		noOfFrames = 191
+		alwaystransparent = no
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
 	
 }

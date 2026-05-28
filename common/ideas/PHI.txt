@@ -2,7 +2,6 @@ ideas = {
 	country = {
 		PHI_bansang_isla= { #众岛之国
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PHI_bansang_isla"}
-			picture = GFX_idea_PHI_bansang_isla
 			modifier = {
 			war_support_factor = -0.05
 			stability_factor = -0.03
@@ -11,7 +10,7 @@ ideas = {
 		}
 		PHI_asian_outpost = { #亚洲前哨
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea PHI_asian_outpost"}
-			picture = GFX_idea_PHI_asian_outpost
+
 			modifier = {
 				production_speed_bunker_factor = 0.3
 				production_speed_coastal_bunker_factor = 0.3

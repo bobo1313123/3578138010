@@ -224,16 +224,179 @@ ideas = {
 		}
 
 
+		#二阶段国策给予的民族精神如下
+		MEX_Fear_from_the_unknown = {#来自未知的恐惧
+			picture = 1
 
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
 
+		MEX_Martial_law = {#戒严令
+			picture = 1
 
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
 
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = -0.15
+				consumer_goods_factor = -0.1
+			}
+		}
 
+		MEX_Support_of_the_workers = {#工人的支持
+			picture = 1
 
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				line_change_production_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		MEX_Association_for_young = {#青年协会为青年
+			picture = 1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.2
+				political_power_gain = 0.3
+			}
+		}
+
+		MEX_revolutionary_propaganda = {#革命宣传
+			picture = 1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+			}
+		}
+
+		MEX_Support_of_contemporary_people = {#当代人的支持
+			picture = 1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+		MEX_Populist_fervor = {#民粹狂热
+			picture = 1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		MEX_Suppress_the_militia = {#镇压民兵
+			picture = 1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				experience_gain_army = 0.3
+				weekly_manpower = -100
+			}
+		}
+
+		MEX_The_initial_awakening_of_the_nation = {#民族的初步觉醒
+			picture = 1
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.1
+				industrial_capacity_factory = 0.05
+				army_core_defence_factor = 0.1
+			}
+		}
 	}
 
 }

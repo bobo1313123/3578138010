@@ -2,11 +2,10 @@ ideas = {
 	country = {
 		SPR_Legacy_of_the_Civil_War = { #内战的遗产
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_Legacy_of_the_Civil_War"}
-			picture = GFX_idea_SPR_Legacy_of_the_Civil_War
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_Legacy_of_the_Civil_War
 			allowed_civil_war = {
 				always = yes
 			}
@@ -23,7 +22,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_Legacy_of_the_Civil_War
 			allowed_civil_war = {
 				always = yes
 			}
@@ -38,11 +37,10 @@ ideas = {
 		}
 		SPR_spanish_army = { #西班牙军队
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_spanish_army "}
-			picture = GFX_idea_SPR_spanish_army
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_spanish_army
 			allowed_civil_war = {
 				always = yes
 			}
@@ -53,11 +51,10 @@ ideas = {
 		}
 		SPR_The_hanging_throne = { #空悬王座
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_The_hanging_throne"}
-			picture = GFX_idea_SPR_The_hanging_throne
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_The_hanging_throne
 			allowed_civil_war = {
 				always = yes
 			}
@@ -68,11 +65,10 @@ ideas = {
 		}
 		SPR_Autonomy_Dilemma = { #自治难题
 			on_add = {log = "[GetDateText]: [Root.GetName]: add idea SPR_Autonomy_Dilemma"}
-			picture = GFX_idea_SPR_Autonomy_Dilemma
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_Autonomy_Dilemma
 			allowed_civil_war = {
 				always = yes
 			}

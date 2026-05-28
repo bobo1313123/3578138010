@@ -349,8 +349,8 @@ SpriteTypes = {
 	}
     #事件及世界新闻配图
     spriteType = { #西部革命
-        name = "GFX_news_CSA_western_revolution"
-        textureFile = "gfx/interface/news/CSA/CSA_western_revolution.dds"
+        name = "GFX_events_CSA_western_revolution"
+        textureFile = "gfx/interface/events/CSA/CSA_western_revolution.dds"
     }
 }
     

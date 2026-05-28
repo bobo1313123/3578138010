@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		NFL_union_jack_guardian = {# 大洋彼岸的米字卫士
+			#picture =
+
+			modifier = {
+				stability_factor = 0.03
+				war_support_factor = 0.10
+				Authoritarianism_drift = 0.01
+				tttt_drift = 0.01
+			}
+		}
+	}
+}

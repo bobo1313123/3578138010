@@ -12,6 +12,7 @@ state = {
 
 		buildings = {
 			infrastructure = 1
+			dockyard = 2
 		}
 
 	}

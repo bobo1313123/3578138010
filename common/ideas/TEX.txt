@@ -1,8 +1,6 @@
 ideas = {
 	country = { 
 	TEX_lone_star_republic = { #孤星共和国
-			picture = GFX_idea_TEX_lone_star_republic
-			
 			allowed = {
 				always = no
 			}
@@ -20,9 +18,7 @@ ideas = {
 			}
 		}
 
-		TEX_Autonomous_States_and_tcobs = {
-			picture = GFX_idea_TEX_Autonomous_States_and_tcobs
-			
+		TEX_Autonomous_States_and_tcobs = {	
 			allowed = {
 				always = no
 			}

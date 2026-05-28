@@ -33,7 +33,6 @@ state={
 			}
 		}
 		add_core_of = USA
-		add_core_of = SAF
 		victory_points = {
 			9671 25
 		}

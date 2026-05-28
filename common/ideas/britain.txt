@@ -27,7 +27,7 @@ ideas = {
 				can_create_factions = yes
 				can_send_volunteers = yes
 			}
-		}	
+		}
 		FengSuoLand = {
 			picture = British_bloated_colony
 			
@@ -78,29 +78,7 @@ ideas = {
 				lend_lease_tension = -0.75                              
 			}
 		}
-		The_London_stock_market_crashed = {
-
-			picture = British_London_stock_market_crashed
-			
-			allowed = {
-				original_tag = ENG
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = 0.5
-				production_speed_arms_factory_factor = -0.25      
-				production_speed_industrial_complex_factor = -0.25
-				production_speed_dockyard_factor = -0.25          
-				production_speed_bunker_factor = -0.25            
-				production_speed_coastal_bunker_factor = -0.25 
-			}
-		}
+		
 		Overly_cumbersome_colonies = {
 
 			picture = British_bloated_colony

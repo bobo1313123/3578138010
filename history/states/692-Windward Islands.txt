@@ -6,7 +6,8 @@ state={
 
 	history={
 		add_core_of = BAS
-		owner = BOG
+		owner = SPR
+		add_claim_by = SPR
 		buildings = {
 			infrastructure = 2
 			11350 = {

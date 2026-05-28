@@ -16,10 +16,7 @@ add_ideas = {
 	SOV_Viktor_Chernov
 }
 
-set_autonomy = {
-	target = RKR
-	autonomy_state = Governorate
-}
+
 set_autonomy = {
 	target = RCA
 	autonomy_state = Governorate

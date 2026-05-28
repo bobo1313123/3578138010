@@ -6,7 +6,7 @@ state = {
 	state_category = enclave
 	
 	history = {
-		owner = CRO
+		owner = YUG
 		add_core_of = YUG
 		add_core_of = CRO
 		add_core_of = LBV

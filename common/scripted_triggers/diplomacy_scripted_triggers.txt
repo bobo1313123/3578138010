@@ -734,3 +734,15 @@ DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
 		}
 	}
 }
+DIPLOMACY_REVOKE_EMBARGO_ENABLE_TRIGGER = { #禁止取消禁运
+	if = {
+		limit = {
+			has_idea = USA_divided_house
+		}
+		custom_trigger_tooltip = {
+			tooltip = USA_divided_house_tt
+			always = no
+		}
+	}
+	
+}

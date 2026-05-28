@@ -1,31 +1,87 @@
 ideas = {
 
 	country = {
-		USA_The_aftermath_of_the_ec = { #经济危机的余波
+
+		USA_Incompetent_Army = { #无能的军队
+			#picture = USA_The_Nation_of_Enterprises
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
 			modifier = {
-				industrial_capacity_factory = -0.1
-				consumer_goods_factor  = 0.08
-				production_speed_industrial_complex_factor = -0.05
-				production_speed_infrastructure_factor = -0.05
-				production_speed_fuel_silo_factor = -0.05
+				army_org_factor = -0.05
+				supply_factor = -0.15
+				max_command_power = -5
+				custom_modifier_tooltip = USA_Incompetent_Army_tip
 			}
 		}
-		USA_Ford_giant = { #福特公司巨头
-			equipment_bonus = {
-				motorized_equipment = {
-					build_cost_ic = -0.1
-					instant = yes
+
+		USA_The_Nation_of_Enterprises = { #国家由大企业主导
+			picture = USA_The_Nation_of_Enterprises
+			
+			allowed = {
+				always = no
 			}
-		}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
 			modifier = {
-				custom_modifier_tooltip = USA_Ford_giant_tt
+				political_power_gain = -0.25
+				stability_factor = -0.05
+				industrial_capacity_factory = 0.05
 			}
 			
 		}
-		USA_Southern_Enemy = { #南方宿敌
+
+		USA_Ethnic_conflict = { #民族冲突 
+			#picture = USA_The_Nation_of_Enterprises
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
 			modifier = {
-				conscription_factor = 0.1
-				war_support_factor = 0.05
+				political_power_factor = -0.03
+				stability_factor = -0.1
+				production_factory_max_efficiency_factor = -0.05
+				drift_defence_factor = -0.05
+			}
+			
+		}
+
+		USA_The_Tragedy_of_a_Divided_Homeland = { #祖国分裂之殇
+			picture = USA_The_Tragedy_of_a_Divided_Homeland
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_core_defence_factor = 0.07
+				max_dig_in = 3
 			}
 			targeted_modifier = {
 				tag = CSA
@@ -52,14 +108,26 @@ ideas = {
 				attack_bonus_against = 0.15
 			}
 		}
-		USA_political_openness = { #政治开放
-			modifier = {
-				political_power_factor = 0.1
-				stability_factor = -0.05
-				enemy_operative_intel_extraction_rate = 0.05
-				agency_upgrade_time = -0.05
-			}
+
+		USA_Northern_Free_State = { #北方自由州
+			picture = USA_Northern_Free_State
 			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				conscription_factor = -0.15
+				Liberalism_drift = 0.025
+				Democracy_drift = 0.025
+			}
 		}
 	}
 }

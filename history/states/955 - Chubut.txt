@@ -14,7 +14,6 @@ state = {
 		owner =MPQ
 		add_core_of = MPQ
 		add_core_of = ARG
-		add_core_of = WLA
 
 		buildings = {
 			infrastructure = 1

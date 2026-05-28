@@ -2,165 +2,86 @@
 # USA Events
 ###########################
 
-add_namespace = usa
+add_namespace = usa.history
 
-# Amelia Eartharts wants to join the USAAC
 country_event = {
-	id = usa.1
-	title = usa.1.t
-	desc = usa.1.d
-	picture = GFX_report_event_usa_amelia_earhart_airplane
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = USA
-		has_war = yes
-		NOT = { has_global_flag = earhart_disappeared }
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	option = { # Let her join
-		name = usa.1.a
-		add_political_power = -10
-		add_ace = {
-			name = "Amelia"
-			surname = "Earhart"
-			callsign = "Revenant"
-			type = fighter_genius
-			is_female = yes
-		}
-		set_country_flag = amelia_active_ace
-	}
-	option = { # Refuse
-		name = usa.1.b
-	}
-}
-
-# Pearl Harbor Gambit
-country_event = {
-	id = usa.3
-	title = usa.3.t
-	desc = usa.3.d
-	picture = GFX_report_event_usa_pearl_harbor_airphoto
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = JAP
-		USA = {
-			focus_progress = {
-				focus = USA_pearl_harbor_gambit
-				progress > 0.1
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 21
-		modifier = {
-			factor = 0.5
-			USA = {
-				focus_progress = {
-					focus = USA_pearl_harbor_gambit
-					progress > 0.6
-				}
-			}
-		}
-	}
-
-	option = {
-		name = usa.3.a
-		USA = {
-			add_war_support = 0.5
-		}
-		create_wargoal = {
-			type = take_state
-			target = USA
-			generator = { 629 } # Hawaii
-		}
-	}
-}
-
-# Destroyers for Bases
-country_event = {
-	id = usa.4
-	title = usa.4.t
-	desc = usa.4.d
-	picture = GFX_report_event_usa_british_sailors_destroyers
+	id = usa.history.1
+	title = usa.history.1.t
+	desc = usa.history.1.d
+	picture = GFX_usa_history_1
 
 	is_triggered_only = yes
+	fire_only_once = yes
 	
-	option = {
-		name = usa.4.a
-		custom_effect_tooltip = usa.4.a.tt
-		hidden_effect = {
-			if = {
-				limit = { not = { has_dlc = "Man the Guns" } }
-				ENG = {	load_oob = "ENG_destroyers_for_bases" }
-				CAN = { load_oob = "CAN_destroyers_for_bases" }
-			}
-			else = {
-				ENG = {	load_oob = "ENG_destroyers_for_bases_mtg" }
-				CAN = { load_oob = "CAN_destroyers_for_bases_mtg" }
-			}
-			ENG = {
-				if = { limit = { 696 = { is_controlled_by = ENG } }
-					remove_state_core = 696
-				}
-				if = { limit = { 331 = { is_controlled_by = ENG } }
-					remove_state_core = 331
-				}
-				if = { limit = { 308 = { is_controlled_by = ENG } } 
-					remove_state_core = 308
-				}
-				if = { limit = { 693 = { is_controlled_by = ENG } } 
-					remove_state_core = 693
-				}
-				if = { limit = { 689 = { is_controlled_by = ENG } } 
-					remove_state_core = 689
-				}
-				if = { limit = { 691 = { is_controlled_by = ENG } } 
-					remove_state_core = 691
-				}
-			}
-		}
-		USA = {
-			if = { limit = { 696 = { is_controlled_by = ENG } }
-				transfer_state = 696
-			}
-			if = { limit = { 331 = { is_controlled_by = ENG } }
-				transfer_state = 331
-			}
-			if = { limit = { 308 = { is_controlled_by = ENG } } 
-				transfer_state = 308
-			}
-			if = { limit = { 693 = { is_controlled_by = ENG } } 
-				transfer_state = 693
-			}
-			if = { limit = { 689 = { is_controlled_by = ENG } } 
-				transfer_state = 689
-			}
-			if = { limit = { 691 = { is_controlled_by = ENG } } 
-				transfer_state = 691
-			}
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = destroyers_for_bases_opinion
-			}
-			country_event = { id = usa.401 days = 3 }
-		}
+	
+	option = { 
+		name = usa.history.1.a
+		country_event = usa.history.2
 	}
-
-	option = {
-		name = usa.4.b
-		USA = { country_event = { id = usa.5 days = 1 } }
-		ai_chance = { factor = 0 }
+	option = { 
+		name = usa.history.1.b
+		add_political_power = 10
 	}
+}
 
+country_event = {
+	id = usa.history.2
+	title = usa.history.2.t
+	desc = usa.history.2.d
+	#picture = GFX_report_event_usa.history_amelia_earhart_airplane
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = usa.history.2.a
+		country_event = usa.history.3
+	}
+}
+
+country_event = {
+	id = usa.history.3
+	title = usa.history.3.t
+	desc = usa.history.3.d
+	#picture = GFX_report_event_usa.history_amelia_earhart_airplane
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = usa.history.3.a
+		country_event = usa.history.4
+	}
+}
+
+country_event = {
+	id = usa.history.4
+	title = usa.history.4.t
+	desc = usa.history.4.d
+	#picture = GFX_report_event_usa.history_amelia_earhart_airplane
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = usa.history.4.a
+		country_event = usa.history.5
+	}
+}
+
+country_event = {
+	id = usa.history.5
+	title = usa.history.5.t
+	desc = usa.history.5.d
+	#picture = GFX_report_event_usa.history_amelia_earhart_airplane
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = usa.history.5.a
+		add_political_power = 10
+	}
 }
 
 # Britain accepts offer

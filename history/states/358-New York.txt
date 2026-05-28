@@ -6,13 +6,13 @@ state={
 	}
 	
 	state_category = large_city
-
+	
 	history={
 		owner = USA
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 2
-			industrial_complex = 7
+			industrial_complex = 3
 			air_base = 10
 			3878 = {
 				naval_base = 6
@@ -24,6 +24,7 @@ state={
                 }
 			}
 		}
+		set_demilitarized_zone = yes
 		add_core_of = USA
 		victory_points = {
 			11654 3 

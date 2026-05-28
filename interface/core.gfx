@@ -1835,5 +1835,20 @@ bitmapfonts = {
 		noOfFrames = 4
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-	
+	bitmapfont = {
+		name = "guifonts_24"
+		fontfiles = {
+			"gfx/fonts/guifonts_0.fnt"
+			"gfx/fonts/guifonts_1.fnt"
+			"gfx/fonts/guifonts_2.fnt"
+			"gfx/fonts/guifonts_3.fnt"
+			"gfx/fonts/guifonts_4.fnt"
+			"gfx/fonts/guifonts_5.fnt"
+		}
+		cursor_offset = {
+			y = 0
+			x = 0
+		}
+		languages = { "l_simp_chinese" } 
+	}
 }

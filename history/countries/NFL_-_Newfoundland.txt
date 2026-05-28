@@ -1,0 +1,35 @@
+capital = 311
+
+set_research_slots = 2
+set_stability = 0.60 
+set_war_support = 0.30 
+
+set_politics = {
+	ruling_party = Authoritarianism
+	last_election = "1934.6.11"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	Communism = 3
+	Socialism = 8
+	Progressivism = 10
+	Liberalism = 10
+	Democracy = 9
+	Conservatism = 10
+	Authoritarianism = 30
+	tttt = 12
+	fascism = 6
+	nazism = 2
+}
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = NFL_Bennett
+
+oob = "NFL_1935"
+
+add_ideas = NFL_union_jack_guardian

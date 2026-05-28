@@ -14,6 +14,21 @@ characters={
 			id=-1
 		}
 	}
+	IRE_kesilin ={
+		name= IRE_kesilin
+		desc = IRE_kesilin_desc
+		portraits={
+			civilian={
+				large = GFX_IRE_Michael_John_Mick_Collins
+			}
+		}
+		country_leader={
+			ideology = liberalism_small
+			traits={  }
+			expire="2999.1.1"
+			id=-1
+		}
+	}
 
 
 

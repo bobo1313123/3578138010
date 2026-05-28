@@ -2296,7 +2296,7 @@ country_event = {
 					add_ideas = SPR_disbanded_army_1
 					set_party_name = { ideology = neutrality long_name = SPR_neutrality_anarchism_party_long name = SPR_neutrality_anarchism_party }
 				}
-				set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
+				set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_authoritarianism_party_long name = SPR_neutrality_military_junta_authoritarianism_party }
 				#every_unit_leader = {
 				#	limit = {
 				#		has_unit_leader_flag = SPR_reassigned_flag
@@ -4318,7 +4318,7 @@ country_event = {
 							SPA = { set_capital = { state = PREV } }
 						}
 					}
-					set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
+					set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_authoritarianism_party_long name = SPR_neutrality_military_junta_authoritarianism_party }
 				}
 				# We need to teleport the railway guns after capitals have been set. transfer_units_fraction will
 				# teleport them but to the wrong province.
@@ -4373,7 +4373,7 @@ country_event = {
 		effect_tooltip = {
 			add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
 			SPD = { add_timed_idea = { idea = SPR_death_before_surrender days = 900 } }
-			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
+			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_authoritarianism_party_long name = SPR_neutrality_military_junta_authoritarianism_party }
 			kill_ideology_leader = fascism
 		}
 		complete_national_focus = SPA_unify_the_nationalist_front
@@ -4419,7 +4419,7 @@ country_event = {
 		effect_tooltip = {
 			add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
 			SPD = { add_timed_idea = { idea = SPR_death_before_surrender days = 900 } }
-			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
+			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_authoritarianism_party_long name = SPR_neutrality_military_junta_authoritarianism_party }
 		}
 		complete_national_focus = SPA_the_phalanx_ascendant
 	}
@@ -4464,7 +4464,7 @@ country_event = {
 		effect_tooltip = {
 			add_timed_idea = { idea = SPA_death_before_surrender days = 900 }
 			SPD = { add_timed_idea = { idea = SPR_death_before_surrender days = 900 } }
-			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
+			set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_authoritarianism_party_long name = SPR_neutrality_military_junta_authoritarianism_party }
 			kill_ideology_leader = fascism
 		}
 		complete_national_focus = SPA_supremacy_of_the_communion
@@ -6307,7 +6307,7 @@ country_event = {
 				delete_unit_template_and_units = {
 					division_template = "Requeté Carlista"
 				}
-				set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_party_long name = SPR_neutrality_military_junta_party }
+				set_party_name = { ideology = neutrality long_name = SPR_neutrality_military_junta_authoritarianism_party_long name = SPR_neutrality_military_junta_authoritarianism_party }
 			}
 			set_party_name = { ideology = neutrality long_name = SPR_neutrality_party_long name = SPR_neutrality_party }
 			add_popularity = {
@@ -11080,8 +11080,8 @@ country_event = {
 			kill_country_leader = yes
 			create_country_leader = {
 				name = "Military Junta"
-				desc = "POLITICS_MILITARY_JUNTA_DESC"
-				picture = "GFX_portrait_SPA_military_junta"
+				desc = "POLITICS_military_junta_authoritarianism_DESC"
+				picture = "GFX_portrait_SPA_military_junta_authoritarianism"
 				expire = "1965.1.1"
 				ideology = authoritarianism_small
 				traits = {
@@ -11100,8 +11100,8 @@ country_event = {
 			}
 			create_country_leader = {
 				name = "Military Junta"
-				desc = "POLITICS_MILITARY_JUNTA_DESC"
-				picture = "GFX_portrait_SPA_military_junta"
+				desc = "POLITICS_military_junta_authoritarianism_DESC"
+				picture = "GFX_portrait_SPA_military_junta_authoritarianism"
 				expire = "1965.1.1"
 				ideology = authoritarianism_small
 				traits = {

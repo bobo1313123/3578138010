@@ -1,0 +1,602 @@
+division_template = {
+	name = "Infantry Division2"
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Medium Armor Division"
+	is_locked = yes
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Marine Division"
+	is_locked = yes
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Pratrooper Division"
+	is_locked = yes
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "摩托化轻坦师"
+	is_locked = yes
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		light_armor = { x = 3 y = 0 }
+		light_armor = { x = 3 y = 1 }
+	}
+	priority = 1
+}
+
+units = {
+
+	division = {
+		name = "第一游骑兵团"
+		location = 4760
+		division_template = "摩托化轻坦师"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "第二装甲师"
+		location = 4830
+		division_template = "摩托化轻坦师"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+
+	#九步一炮
+	division = {
+		name = "Puerto Rico Department"
+		location = 10606
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 10333
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 12586
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 1770
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 6696
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 9727
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 831
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 882
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 9820
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 9820
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 891
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 891
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 891
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 6845
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Panama Canal Force"
+		location = 11817
+		division_template = "Infantry Division2"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	#九步
+	division = {
+		name = "Panama Canal Force"
+		location = 11817
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 702
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 1534
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 702
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 4449
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 4540
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 4569
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 11785
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 3897
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 3897
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 3850
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 880
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 11769
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 6823
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 11800
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 9825
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 7466
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 3687
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 4442
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 3802
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 12405
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 702
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 11888
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 720
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 11635
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 4508
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 4402
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 9450
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 3957
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 11892
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	#六坦
+	division = {
+		name = "Panama Canal Force"
+		location = 3917
+		division_template = "Medium Armor Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 7646
+		division_template = "Medium Armor Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 7466
+		division_template = "Medium Armor Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 7528
+		division_template = "Medium Armor Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 9760
+		division_template = "Medium Armor Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	#空降兵
+	division = {
+		name = "Panama Canal Force"
+		location = 3917
+		division_template = "Pratrooper Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 7646
+		division_template = "Pratrooper Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 7466
+		division_template = "Pratrooper Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 7528
+		division_template = "Pratrooper Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 9760
+		division_template = "Pratrooper Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	#海军陆战队
+	division = {
+		name = "Panama Canal Force"
+		location = 4988
+		division_template = "Marine Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "Panama Canal Force"
+		location = 1582
+		division_template = "Marine Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+
+
+#产线
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 4
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+}

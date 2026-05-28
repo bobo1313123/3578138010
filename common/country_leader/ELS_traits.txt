@@ -1,0 +1,37 @@
+leader_traits = {
+	els_disarmament_advocate = {#裁军之人
+		random = no
+		stability_factor = 0.05
+		conscription_factor = -0.2
+		air_doctrine_cost_factor = 1
+		land_doctrine_cost_factor = 1
+		naval_doctrine_cost_factor = 1
+	}
+
+	els_infrastructure_builder = {#基础设施建造者
+		random = no
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_infrastructure_factor = 0.1
+	}
+
+	els_core_political_ally = {#核心政治盟友
+		random = no
+		stability_factor = 0.05
+		party_popularity_stability_factor = 0.1
+		command_power_gain = -0.2
+	}
+
+	els_veteran_classical_liberal = {#老牌古典自由派
+		random = no
+		trade_laws_cost_factor = -0.25
+		production_speed_buildings_factor = 0.05
+		consumer_goods_factor = -0.1
+	}
+
+	els_doctors_and_young_political_talents = {#医生及青年政坛骨干
+		random = no
+		war_support_factor = 0.05
+		stability_factor = 0.05
+		weekly_manpower = 500
+	}
+}

@@ -135,42 +135,4 @@ spriteTypes = {
 		name = "GFX_idea_winner_of_RussoJapanese_War"
 		texturefile = "gfx/interface/ideas/JAP/winner_of_RussoJapanese_War.png"
 	}
-
-	#德国民族精神
-	#普鲁士军魂
-	#spriteType = {
-	#	name = "GFX_idea_Prussian_military_spirit"
-	#	texturefile = "gfx/interface/ideas/GER/Prussian_military_spirit.png"
-	#}
-	#臃肿的行政系统
-
-	#十一月革命的余烬
-	spriteType = {
-		name = "GFX_idea_Aftermath_of_November_Revolution"
-		texturefile = "gfx/interface/ideas/GER/Aftermath_of_November_Revolution.png"
-	}
-	#《凡尔赛条约》的枷锁
-	spriteType = {
-		name = "GFX_idea_Shackles_of_Treaty_of_Versailles"
-		texturefile = "gfx/interface/ideas/GER/Shackles_of_Treaty_of_Versailles.png"
-	}
-	#动荡不安的局面
-
-	#战火带来的阴影
-
-	#帝国陆军
-	spriteType = {
-		name = "GFX_idea_Imperial_Army_1"
-		texturefile = "gfx/interface/ideas/GER/Imperial_Army_1.png"
-	}
-	#帝国海军
-	spriteType = {
-		name = "GFX_idea_Imperial_Navy_1"
-		texturefile = "gfx/interface/ideas/GER/Imperial_Navy_1.png"
-	}
-	#帝国空军
-	spriteType = {
-		name = "GFX_idea_Imperial_AirForce_1"
-		texturefile = "gfx/interface/ideas/GER/Imperial_AirForce_1.png"
-	}
 }

@@ -11,28 +11,22 @@ set_technology = {
 	fuel_refining = 1
 }
 
-if = {
-	limit = {
-		NOT = { has_dlc = "By Blood Alone" }
-	}
-	set_technology = {
-		early_fighter = 1
-	}
-}
-
 
 
 
 recruit_character = VEN_Miguel_Cavanellas #米格尔·卡瓦内利亚斯
+recruit_character = VEN_Eliazar_Lopez_Contreras #埃利亚扎尔·洛佩斯·孔特雷拉斯
 
 set_cosmetic_tag = SPR_puppet_VEN
 
 add_ideas = {
-	VEN_shadow_of_the_past #旧日阴影
+	VEN_The_land_where_bgf
+	VEN_on_ones_last_legs
+	VEN_Wolf_Lair_and_Fortress
 }
 set_convoys = 10
 set_politics = {
-	ruling_party = Conservatism
+	ruling_party = tttt
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

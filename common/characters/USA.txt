@@ -1,7 +1,7 @@
 characters={
 	#领导人
 	USA_John_Calvin_Coolidge={ #约翰·卡尔文·柯立芝
-		name=USA_John_Calvin_Coolidge
+		name = USA_John_Calvin_Coolidge
 		portraits={
 			civilian={
 				large=GFX_leader_USA_John_Calvin_Coolidge
@@ -9,23 +9,100 @@ characters={
 		}
 		country_leader={
 			ideology = liberalism_small
-			traits={  }
+			#traits={  }
 		}
-}
+	}
 
+	USA_John_Reed = { #约翰·里德
+		name = USA_John_Reed
+		portraits={
+			civilian={
+				#large=GFX_leader_USA_John_Calvin_Coolidge
+			}
+		}
+		country_leader={
+			ideology = communism_small
+			#traits={  }
+		}
+	}
 
+	USA_Earl_Browder = { #厄尔·白劳德
+		name = USA_Earl_Browder
+		portraits={
+			civilian={
+				#large=GFX_leader_USA_John_Calvin_Coolidge
+			}
+		}
+		country_leader={
+			ideology = socialism_small
+			#traits={  }
+		}
+	}
 
+	USA_Manchester_Boddy = { #曼彻斯特·博迪
+		name = USA_Manchester_Boddy
+		portraits={
+			civilian={
+				#large=GFX_leader_USA_John_Calvin_Coolidge
+			}
+		}
+		country_leader={
+			ideology = progressivism_small
+			#traits={  }
+		}
+	}
 
+	USA_Orson_Welles = { #奥逊•威尔斯
+		name = USA_Orson_Welles
+		portraits={
+			civilian={
+				#large=GFX_leader_USA_John_Calvin_Coolidge
+			}
+		}
+		country_leader={
+			ideology = democracy_small
+			#traits={  }
+		}
+	}
 
+	USA_Al_Smith = { #阿尔•史密斯
+		name = USA_Al_Smith
+		portraits={
+			civilian={
+				#large=GFX_leader_USA_John_Calvin_Coolidge
+			}
+		}
+		country_leader={
+			ideology = Conservatism_small
+			#traits={  }
+		}
+	}
 
+	USA_Corporate_Board = { #企业理事会
+		name = USA_Corporate_Board
+		portraits={
+			civilian={
+				#large=GFX_leader_USA_John_Calvin_Coolidge
+			}
+		}
+		country_leader={
+			ideology = authoritarianism_small
+			#traits={  }
+		}
+	}
 
-
-
-
-
-
-
-
+	USA_George_Mosley = { #乔治·莫斯利
+		name = USA_George_Mosley
+		portraits={
+			civilian={
+				#large=GFX_leader_USA_John_Calvin_Coolidge
+			}
+		}
+		country_leader={
+			ideology = fascism_small
+			#traits={  }
+		}
+	}
 
 
 

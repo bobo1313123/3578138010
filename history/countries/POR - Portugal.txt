@@ -1,6 +1,11 @@
 ﻿capital = 112
 load_focus_tree = generic_focus
 oob = "POR_1936"
+add_ideas = {
+	king_in_huoshan
+	spr_ring
+	zhiming_headache
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "POR_1936_naval_mtg"
@@ -94,7 +99,7 @@ if = {
 	
 }
 
-
+recruit_character = POR_Duarte_II
 
 set_autonomy = {
 		target = MZB

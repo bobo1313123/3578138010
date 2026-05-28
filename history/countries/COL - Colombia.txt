@@ -1,24 +1,7 @@
 ﻿capital = 306
 
 oob = "COL_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "COL_1936_naval_mtg"
-	else = {
-		set_naval_oob = "COL_1936_naval_legacy"
-	}
-}
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "COL_1936_air_bba"
-	else = {
-		set_air_oob = "COL_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-		}
-	}
-}
+
 
 # Starting tech
 set_technology = {
@@ -29,41 +12,51 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-	early_destroyer = 1
-	}
+
+set_convoys = 50
+add_ideas = {
+	COL_The_legacy_and_aotgm
+	COL_divided_house
+	COL_Fulfilling_Bolivars_last_wish
+	COL_Cooperation_between_baa
+	COL_Do_not_train_the_border
 }
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-	}
-}
-
-
-
- 
-
-set_convoys = 10
-
-
-set_convoys = 5
+recruit_character = COL_Jorge_Elisel_Gaitan #豪尔赫·埃利塞尔·盖坦
+recruit_character = COL_National_Assembly #大哥伦比亚国民议会
+recruit_character = COL_Plinio_Mendoza_Nera #普利尼奥·门多萨·内拉
 set_politics = {
-	ruling_party = Conservatism
+	ruling_party = Progressivism
 	last_election = "1934.2.11"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	Conservatism = 99
-	Communism = 1
+	Communism = 6
+	Socialism = 7
+	Progressivism = 37
+	Liberalism = 10
+	Democracy = 0
+	Authoritarianism = 15
+	tttt = 15
+	fascism = 5
+	nazism = 5
 }
-
+BRA = {
+	add_opinion_modifier = {
+	target = COL
+	modifier = COL_Do_not_train_the_border
+}
+}
+BOL = {
+	add_opinion_modifier = {
+	target = COL
+	modifier = COL_Do_not_train_the_border
+}
+}
+GYA = {
+	add_opinion_modifier = {
+	target = COL
+	modifier = COL_Do_not_train_the_border 
+}
+}
 

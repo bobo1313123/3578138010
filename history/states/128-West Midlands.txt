@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = BRC
+		owner = ENG
 		add_core_of = BRC
 		buildings = {
 			infrastructure = 4 #was: 8

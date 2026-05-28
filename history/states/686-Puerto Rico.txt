@@ -7,7 +7,8 @@ state={
 
 	history={
 		add_core_of = PUE
-		owner = FRA
+		owner = BAS
+		add_claim_by = BAS
 		victory_points = {
 			1440 1 
 		}

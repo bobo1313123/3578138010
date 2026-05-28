@@ -14,6 +14,20 @@ characters = {
 			id = -1
 		}
 	}
+	POR_Duarte_II = {
+		name = POR_Duarte_II
+		desc = POR_Duarte_II_desc
+		portraits = {
+			civilian = {
+				large = GFX_Duarte_II
+			}
+		}
+		country_leader = {
+			ideology=tttt_small
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
 
 	POR_bento_goncalves = {
 		name = POR_bento_goncalves

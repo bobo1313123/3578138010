@@ -84,4 +84,10 @@ defined_text = {
         }
         localization_key = "GFX_POLWELCOME"
     }
+    text = {
+		trigger = {
+            tag = CSA
+        }
+        localization_key = "GFX_CSAWELCOME"
+    }
 }

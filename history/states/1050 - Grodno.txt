@@ -6,8 +6,7 @@ state={
 
 
 	history={
-		owner = PBR
-		add_core_of = PBR
+		owner = BLR
 		add_core_of = BLR
 		buildings = {
 			infrastructure = 2

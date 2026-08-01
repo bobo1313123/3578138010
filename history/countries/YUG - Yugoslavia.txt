@@ -1,18 +1,8 @@
 ﻿capital = 107
 load_focus_tree = generic_focus
 set_oob = "YUG_TVE"
+set_cosmetic_tag = SER_YUG
 
-set_autonomy = {
-	target = CRO
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.4
-}
-
-set_autonomy = {
-	target = BOS
-	autonomous_state = autonomy_dominion
-	freedom_level = 0.4
-}
 
 set_research_slots = 3
 

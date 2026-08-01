@@ -8,7 +8,9 @@ set_politics = {
 	election_frequency = 36
 	elections_allowed = yes
 }
-
+add_ideas = {
+	Papal_Meridian
+}
 set_convoys = 150
 set_stability = 0.5
 

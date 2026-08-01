@@ -1,0 +1,36 @@
+
+state={
+	id = 1454
+	name="STATE_1454"
+	manpower = 28267
+	resources={
+		oil=15 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = ITA
+		victory_points = {
+			6973 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			6973 = {
+				naval_base = 10
+			}
+		}
+	
+		add_core_of = LBV
+		add_core_of = ITA
+		add_core_of = TTS
+	}
+
+	provinces={
+		6973
+	}
+
+	local_supplies=0.0 
+}

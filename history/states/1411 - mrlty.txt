@@ -11,7 +11,7 @@ state = {
 	
 	history = {
 
-		owner = CRO
+		owner = YUG
 		add_core_of = YUG
 		add_core_of = CRO
 		
@@ -35,7 +35,7 @@ state = {
 	}
 
 	provinces = {
-		3943 3924 11816 3868 6889
+		3943 3924 11816 3868 6889 11901 984 3974
 	}
 	local_supplies = 0.0 
 

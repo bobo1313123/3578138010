@@ -20,6 +20,9 @@ state = {
 			air_base = 10
 
 		}
+		add_core_of = LBV
+		add_core_of = ITA
+		add_core_of = TTS
 		add_core_of = ITA
 		add_core_of = LBV
 		1939.1.1 = {

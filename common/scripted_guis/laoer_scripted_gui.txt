@@ -51,9 +51,6 @@ scripted_gui = {
             TVE_DSB_page2_visible = {
 				has_country_flag = welcome_page2
             }
-			TVE_DSB_JIESHAO_title_visible = {
-				NOT = {has_country_flag = welcome_page2}
-            }
 			TVE_DSB_JIESHAO_desc_visible = {
 				NOT = {has_country_flag = welcome_page2}
             }

@@ -1,4 +1,4 @@
-﻿capital = 160
+﻿capital = 159
 
 set_research_slots = 3
 set_stability = 0.5
@@ -10,7 +10,7 @@ add_ideas = {
 
 recruit_character = TVE_LBV_LEADERS
 
-set_cosmetic_tag = ITALY_color
+set_cosmetic_tag = LBV_COM_FA
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -101,16 +101,16 @@ IF = {
 set_convoys = 60
 
 set_politics = {
-	ruling_party = tttt
+	ruling_party = fascism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
 	Liberalism = 10
-	fascism = 10
+	fascism = 60
 	Communism = 20
-	tttt = 60
+	tttt = 10
 }
 
 recruit_character = LBV_robert_von_habsburg

@@ -93,7 +93,11 @@ set_autonomy = {
 	autonomous_state = autonomy_colony
 	freedom_level = 0.2
 }
-
+set_autonomy = {
+	target = CZE
+	autonomous_state = autonomy_colony
+	freedom_level = 0.2
+}
 set_variable = {
 	AUS_CIVIL_WAR_VAR = 0
 }
@@ -748,7 +752,15 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+CZE = {
+	
+set_politics = {
+	ruling_party = tttt
+	last_election = "1935.5.19"
+	election_frequency = 60
+	elections_allowed = yes
+}
+}
 set_popularities = {
 	tttt = 22
 	fascism = 27

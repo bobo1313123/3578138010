@@ -40,7 +40,8 @@ state = {
 			}
 
 		}
-		add_core_of = ITA
+		add_claim_by = ITA
+		add_claim_by = LBV
 		add_core_of = TTS
 
 	}

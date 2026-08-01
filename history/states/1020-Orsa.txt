@@ -8,8 +8,7 @@ state = {
 
 	history = {
 
-		owner = PBR
-		add_core_of = PBR
+		owner = BLR
 		add_claim_by = SOV
 		add_core_of = BLR
 

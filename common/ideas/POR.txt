@@ -1,0 +1,43 @@
+ideas = {
+	country = { ### NATIONAL SPIRITS ###
+	
+	Papal_Meridian = {
+		name = Papal_Meridian
+		allowed = {
+			always = no
+			tag = POR
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+
+		picture = GFX_idea_Papal_Meridian
+		modifier = {
+			political_power_gain = 0.05
+			stability_factor = 0.05
+			consumer_goods_factor = -0.05
+			industrial_capacity_factory = 0.05
+		}	
+	}
+	Duarte_II = {
+		name = Habsburg_glory
+		allowed = {
+			always = no
+			tag = POR
+		}
+
+		allowed_civil_war = {
+			always = yes
+		}
+
+		removal_cost = -1
+		picture = aus_Habsburg_glory
+		modifier = {
+		
+		}	
+	}
+
+	}
+}

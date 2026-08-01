@@ -33,6 +33,11 @@ country_event = {
 	id = POL_TVE.1
 	hours = 12
 }
+
+country_event = {
+	id = POL_TVE.3
+	days = 70
+}
 #领导人
 recruit_character = POL_Jozef_Pilsudski #约瑟夫·毕苏斯基
 recruit_character = POL_Walery_Slawek #瓦莱雷·斯瓦韦克
@@ -58,7 +63,11 @@ add_ideas={
 set_research_slots = 4
 create_faction = Intermarium
 set_autonomy = {
-	target = PBR
+	target = LIT
+	autonomy_state = Comrade_country
+}
+set_autonomy = {
+	target = BLR
 	autonomy_state = Comrade_country
 }
 set_autonomy = {

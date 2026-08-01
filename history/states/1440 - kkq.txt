@@ -1,0 +1,32 @@
+
+state={
+	id = 1440
+	name="STATE_1440"
+	manpower = 2826781
+	resources={
+		oil=15 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 4
+		}
+	
+		add_claim_by = BUL
+		add_claim_by = TUR
+		victory_points = {
+			11842 5
+		}
+	}
+
+	provinces={
+		11842 3893 13533
+	}
+
+	local_supplies=0.0 
+}

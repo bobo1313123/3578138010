@@ -2460,11 +2460,6 @@ ideas = {
 			}
 		}
 
-###  ##   ##  ##  ###  ## ###     ### ###  ###  ##   ##
-#   #  # #   #  #  #  #    #       #  #  # #   #  # #   {~._.~}
-##  ####  #  #     #   #   #       #  #  # ##  ####  #   ( Y )
-#   #  #   # #  #  #    #  #       #  #  # #   #  #   # ()~*~()
-#   #  # ##   ##  ### ##   #      ### ###  ### #  # ##  (_)-(_)
 		SOV_fascist_womens_movement_idea = {
 
 			picture = SOV_fascist_womens_movement
@@ -2506,26 +2501,7 @@ ideas = {
 			}
 		}
 
-#		SOV_organize_wreckers_idea = {
-#
-#			picture = SOV_organize_wreckers
-#
-#			removal_cost = -1
-#
-#			allowed = {
-#				always = no
-#			}
-#
-#			allowed_civil_war = {
-#				has_government = Communism
-#			}
-#
-#			modifier = {
-#				industrial_capacity_factory = -0.2
-#				industrial_capacity_dockyard = -0.2
-#				production_speed_buildings_factor = -0.2
-#			}
-#		}
+#	
 
 		SOV_aristocratic_investments_idea = {
 
@@ -10589,5 +10565,23 @@ ideas = {
 				industrial_capacity_dockyard = 0.05
 			}
 		}
+	}
+	SOV_ATUCK_RKR = {
 
+		name = SOV_gosproyektstroy_1
+
+		picture = SOV_ATUCK_RKR
+
+		allowed = {
+			original_TAG = SOV
+
+		}
+
+		
+
+		
+		modifier = {
+			ai_focus_aggressive_factor = 2
+		}
+	}
 }

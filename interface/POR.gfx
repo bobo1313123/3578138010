@@ -1,0 +1,12 @@
+spriteTypes = {
+	#ideas
+	spriteType = {
+		name = "GFX_idea_Papal_Meridian"
+		texturefile = "gfx/interface/ideas/POR/Papal_Meridian.dds"
+	}
+	spriteType = {
+		name = "GFX_Duarte_II"
+		texturefile = "gfx/leaders/POR/Duarte_II.dds"
+	}
+
+}

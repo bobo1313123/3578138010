@@ -1,15 +1,15 @@
 #reload countrycolors
 
 GER = {
-	color = rgb { 95 95 95 }
+	color = rgb { 92 99 112 }
 	color_ui = rgb { 79 79 79 }
 }
 ENG = {
-	color = rgb { 157 43 45 }
+	color = rgb { 122 49 50 }
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
-	color = rgb { 30 149 18 }
+	color = rgb { 30 127 37 }
 	color_ui = rgb { 30 149 18 }
 }
 BGD = {
@@ -17,11 +17,11 @@ BGD = {
 	color_ui = rgb { 127 137 154 }
 }
 SWE = {
-	color = rgb { 36 132 247 }
+	color = rgb { 16 94 190 }
 	color_ui = rgb { 47 172 255 }
 }
 FRA = {
-	color = rgb { -184 36 123 }
+	color = rgb { 16 47 122 }
 	color_ui = rgb { 0 134 172 }
 }
 TRS = {
@@ -46,12 +46,12 @@ BEL = { color 	 = rgb { 239 160 23 }
 HOL = {	color = rgb { 178 138 114 }
 		color_ui = rgb { 178 138 114 }
 }
-CZE = {	color = rgb { 54 167 156 }
-		color_ui = rgb { 70 217 203 }
+CZE = {	color = rgb { 209 199 199 }
+color_ui = rgb { 209 199 199 }
 }
 POL = {
 	color = rgb { 165 87 146 }
-	color_ui = rgb { 165 87 146 }
+	color_ui = rgb { 126 61 110 }
 }
 PBR = {
 	color = rgb { 222 178 208 }
@@ -82,15 +82,15 @@ SPR = {
 	color_ui = rgb { 213 164 15 }
 }
 ITA = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 87 165 82 }
+	color = rgb { 178 2 0 }
+	color_ui = rgb { 220 2 0 }
 }
 TRA = {
 	color = rgb { 198 179 1 }
 	color_ui = rgb { 198 179 1 }
 }
 ROM = {
-	color = rgb { 215 196 72 }
+	color = rgb { 187 167 37 }
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
@@ -328,10 +328,13 @@ RAJ = {
 }
 
 CRO = {
-	color = rgb { 230  70  180 }
-	color_ui = rgb { 230 255 122 }
+	color = rgb { 0 217 200 }
+	color_ui = rgb { 13 217 200 }
 }
-
+BOS = {
+	color = rgb { 0 205 116 }
+	color_ui = rgb { 13 217 200 }
+}
 PRC = {
 	color = rgb { 245 12 55 }
 	color_ui = rgb { 178 34 60 }
@@ -393,7 +396,7 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 15 37 208 }
+	color = rgb { 19 39 197 }
 	color_ui = rgb { 15 37 208 }	
 }
 
@@ -884,8 +887,8 @@ AOI = {
 	color_ui = rgb { 0 77 26 }
 }
 LBV = {
-	color = rgb { 179 11 0 }
-	color_ui = rgb { 102 0 0 }
+	color = rgb { 131 24 20 }
+	color_ui = rgb { 110 85 85 }
 }
 PAP = {
 	color = rgb { 255 255 204 }
@@ -896,7 +899,7 @@ TOS = {
 	color_ui = rgb { 204 0 0 }
 }
 SPM = {
-	color = rgb { 0 255 255 }
+	color = rgb { 117 159 178 }
 	color_ui = rgb { 0 179 179 }
 }
 TTS = {

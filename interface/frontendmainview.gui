@@ -114,12 +114,12 @@ guiTypes = {
 	### MAIN MENU PANEL (upperleft)
 	containerWindowType = {
 		name  ="mainmenu_panel_upperleft"
-		position = { x=1051 y =-200 }
-		show_position = { x=800 y =450 }
+		position = { x=920 y =-200 }
+		show_position = { x=920 y =100 }
 		animation_type = decelerated
 		animation_time = 1000
-		size = { width = 256 height = 768}
-		Origo = center	
+		size = { width = 520 height = 350}
+		Origo = "CENTER_UP"
 		iconType =
 		{
 			name ="frontend_game_logo"

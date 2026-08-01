@@ -7,9 +7,9 @@ state = {
 
 	history = {
 
-		owner = POL
+		owner = GER
 		add_core_of = POL
-		add_core_of = KSH
+		add_core_of = GER
 		add_claim_by = PRE
 
 		victory_points = {
@@ -40,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		243 279 334 389 3295 3324 6347 9263
+		279 334 389 3295 3324 6347 9263
 	}
 
 	local_supplies = 0.0 

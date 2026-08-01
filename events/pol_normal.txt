@@ -33,3 +33,152 @@ country_event = {
 		#}
 	}
 }
+country_event = {
+	id = POL_TVE.3
+	title = POL_TVE.3.t
+	desc =POL_TVE.3.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = POL_TVE.B.1
+		POL = {
+			kill_country_leader = POL_Jozef_Pilsudski
+		}
+		news_event = { id = TVE_News.19 }
+		news_event = { id =POL_TVE.7 hours = 10 }
+		country_event = {
+			id = POL_TVE.4
+			hours = 100
+		}
+	}
+}
+country_event = {
+	id = POL_TVE.4
+	title = POL_TVE.4.t
+	desc =POL_TVE.4.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = POL_TVE.B.2
+		news_event = { id = POL_TVE.8 }
+		POL = {
+			remove_from_faction = UKR
+			set_autonomy = {
+				target = UKR
+				autonomy_state = autonomy_free
+			}
+		}
+		UKR = {
+			load_oob = UKR_CIVIL
+		}
+		country_event = {
+			id = POL_TVE.5
+			hours = 24
+		}
+	}
+}
+country_event = {
+	id = POL_TVE.5
+	title = POL_TVE.5.t
+	desc =POL_TVE.5.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = POL_TVE.B.3
+		#news_event = { POL_TVE.9 }
+		POL = {
+			declare_war_on = { target = UKR type = take_state_focus }
+		}
+		
+	}
+}
+country_event = {
+	id = POL_TVE.6
+	title = POL_TVE.6.t
+	desc =POL_TVE.6.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = POL_TVE.B.4
+		news_event = { id = POL_TVE.10 }
+		RKR = {
+			transfer_state = 193
+			transfer_state = 225
+			transfer_state = 259
+			transfer_state = 221
+			transfer_state = 1018
+			transfer_state = 200
+			transfer_state = 196
+			transfer_state = 227
+			transfer_state = 221
+			transfer_state = 228
+			set_cosmetic_tag = RKR_UKR_IND
+		}
+		CRI = {
+			transfer_state = 137
+		}
+		SOV = {
+			declare_war_on = { target = RKR type = take_state_focus }
+			declare_war_on = { target = CRI type = take_state_focus }
+			add_ideas = {
+				SOV_ATUCK_RKR
+			}
+		}
+	}
+}
+#海间联邦内乱
+news_event = {
+	id = POL_TVE.7
+	title = POL_TVE.7.t
+	desc = POL_TVE.7.d
+	picture = GFX_Aus_Hungry_Aus_Win
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = POL_TVE.7.a
+	}
+}
+#乌克兰宣布退出海间联邦
+news_event = {
+	id = POL_TVE.8
+	title = POL_TVE.8.t
+	desc = POL_TVE.8.d
+	picture = GFX_Aus_Hungry_Aus_Win
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = POL_TVE.8.a
+	}
+}
+#波兰对乌克兰发起特别军事行动
+news_event = {
+	id = POL_TVE.9
+	title = POL_TVE.9.t
+	desc = POL_TVE.9.d
+	picture = GFX_Aus_Hungry_Aus_Win
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = POL_TVE.9.a
+	}
+}
+#俄罗斯要求波兰从东乌克兰撤军
+news_event = {
+	id = POL_TVE.10
+	title = POL_TVE.10.t
+	desc = POL_TVE.10.d
+	picture = GFX_Aus_Hungry_Aus_Win
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = POL_TVE.10.a
+	}
+}

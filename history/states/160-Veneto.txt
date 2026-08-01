@@ -19,6 +19,9 @@ state = {
 		victory_points = { #Verona
 			603 1
 		}
+		add_core_of = LBV
+		add_core_of = ITA
+		add_core_of = TTS
 
 		buildings = {
 			infrastructure = 3 #was: 6

@@ -1,0 +1,31 @@
+
+state={
+	id = 1447
+	name="STATE_1447"
+	manpower = 282678
+	resources={
+		oil=15 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = YUG
+	
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	
+		add_core_of = YUG
+		add_core_of = SER
+		add_core_of = CRO
+	}
+
+	provinces={
+		11580
+	}
+
+	local_supplies=0.0 
+}

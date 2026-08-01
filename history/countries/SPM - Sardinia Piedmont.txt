@@ -7,26 +7,10 @@ set_stability = 0.5
 set_war_support = 0.5
 add_ideas = {
 }
-
+set_cosmetic_tag = SPM_LAND
 recruit_character = TVE_ITA_KINGDOM_LEADERS
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_oob = "ITA_1936"
-}
-if = {
-	limit = {
-		has_dlc = "No Step Back"
-	}
-	set_oob = "ITA_1936_nsb"
-}
 
-
-set_cosmetic_tag = ITALY_color
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -53,14 +37,7 @@ if = {
 		coastal_defense_ships = 1
 		improved_airplane_launcher = 1
 	}
-	set_naval_oob = "ITA_1936_naval_mtg"
 }
-
-create_faction = ITALY_KINGDOM
-add_to_faction = PAP
-add_to_faction = LBV
-add_to_faction = TTS
-
 
 
 

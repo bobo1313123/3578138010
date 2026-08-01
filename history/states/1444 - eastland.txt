@@ -1,0 +1,32 @@
+
+state={
+	id = 1444
+	name="STATE_1444"
+	manpower = 2826781
+	resources={
+		oil=15 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = BLR
+		victory_points = {
+			3393 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+	
+		add_core_of = BLR
+		add_core_of = LIT
+	}
+
+	provinces={
+		6413 9359 6359 3281 13206 3393 3366 318 
+	}
+
+	local_supplies=0.0 
+}

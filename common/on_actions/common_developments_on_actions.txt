@@ -11,4 +11,17 @@ on_actions = {
 			update_development = yes
 		}
 	}
+	on_startup = {
+		effect = {
+			CZE = {
+				
+				set_politics = {
+					ruling_party = tttt
+					last_election = "1935.5.19"
+					election_frequency = 60
+					elections_allowed = yes
+				}
+			}
+		}
+	}
 }

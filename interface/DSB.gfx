@@ -573,6 +573,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_CSAWELCOME"
+		texturefile = "gfx/interface/Playerccccc/CSA/WELCOME.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_Social_extremism_picture"
 		texturefile = "gfx/interface/Playerccccc/DSB/Social_extremism_picture.dds"
 	}

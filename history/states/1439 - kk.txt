@@ -1,0 +1,29 @@
+
+state={
+	id = 1439
+	name="STATE_1439"
+	manpower = 2826781
+	resources={
+		oil=15 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 4
+		}
+	
+		add_claim_by = BUL
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		6990
+	}
+
+	local_supplies=0.0 
+}

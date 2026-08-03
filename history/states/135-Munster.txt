@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = FRL
+		owner = IRE
 		add_core_of = FRL
 		buildings = {
 			infrastructure = 3 #was: 6

@@ -10,6 +10,10 @@ set_politics = {
 }
 add_ideas = {
 	Papal_Meridian
+	SPR_Legacy_of_the_Civil_War
+	SPR_spanish_army
+	SPR_The_hanging_throne
+	SPR_Autonomy_Dilemma
 }
 set_convoys = 150
 set_stability = 0.5

@@ -8,7 +8,7 @@ add_ideas = {
 
 }
 
-recruit_character = TVE_TTS_LEADERS
+
 
 # Starting tech
 set_technology = {
@@ -96,7 +96,6 @@ IF = {
 	}
 }
 set_cosmetic_tag = ITALY_color_TTS
-recruit_character = TTS_ferdinand_pius
 
 set_convoys = 60
 
@@ -112,7 +111,7 @@ set_popularities = {
 	Communism = 20
 	tttt = 60
 }
-
+recruit_character = TVE_ITA_KINGDOM_LEADERS
 
 ### VARIANTS ###
 # 1936 Start #

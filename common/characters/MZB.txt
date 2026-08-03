@@ -1,9 +1,9 @@
 characters={
-	MZB_Jose_Ricardo_Pereira_Cabral = { #米格尔·普里莫·德里维拉
+	MZB_Jose_Ricardo_Pereira_Cabral = {
     name = MZB_Jose_Ricardo_Pereira_Cabral
     portraits = {
         civilian = {
-            #large = GFX_idea_MZB_Jose_Ricardo_Pereira_Cabral
+            large = GFX_POR_hesai
         }
     }
     

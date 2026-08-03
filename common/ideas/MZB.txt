@@ -1,6 +1,7 @@
 ideas = {
 	country = {
 		MZB_Resistance = { #雨林中的抵抗组织
+			picture = GFX_idea_MZB_Resistance
 			modifier = {
 				war_support_factor= -0.1
 				stability_factor = -0.1
@@ -8,6 +9,7 @@ ideas = {
 			}
 		}
 		MZB_expanding_colony = { #扩张的殖民地
+			picture = GFX_idea_MZB_expanding_colony
 			modifier = {
 				production_speed_buildings_factor = 0.05
 			}

@@ -11,7 +11,7 @@ set_technology = {
 set_convoys = 5
 recruit_character = MZB_Jose_Ricardo_Pereira_Cabral
 add_ideas = {
-	MZB_Resistance #雨林中的地块组织
+	MZB_Resistance #雨林中的抵抗组织
 	MZB_expanding_colony #扩张的殖民地
 }
 set_cosmetic_tag = POR_puppet_MZB

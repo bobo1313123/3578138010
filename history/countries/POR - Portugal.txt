@@ -2,8 +2,9 @@
 load_focus_tree = generic_focus
 oob = "POR_1936"
 add_ideas = {
-	Papal_Meridian
-	#Duarte_II
+	king_in_huoshan
+	spr_ring
+	zhiming_headache
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }

@@ -1,0 +1,110 @@
+Second_japan_russia_war_Japan = {
+	allowed = {
+		original_tag = JAP
+	}
+	enable = {
+		has_country_flag = Second_japan_russia_war_Start_japan
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = FER
+		value = 9999
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = VLA
+		value = 9999
+	}
+}
+Prussia_Poland_War_Volunteers_England = {
+	allowed = {
+		original_tag = ENG
+	}
+	enable = {
+		has_global_flag = Prussia_Poland_War_Volunteers_scf
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = DSB
+		value = 9999
+	}
+}
+Prussia_Poland_War_Volunteers_France = {
+	allowed = {
+		original_tag = FRA
+	}
+	enable = {
+		has_global_flag = Prussia_Poland_War_Volunteers_scf
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = DSB
+		value = 9999
+	}
+}
+Second_japan_russia_war_Russian = {
+	allowed = {
+		original_tag = SOV
+	}
+	enable = {
+		has_country_flag = Second_japan_russia_war_Start_Russian
+	}
+
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = REF
+		value = 9999
+	}
+	ai_strategy = {
+		type = befriend
+		id = REF
+		value = 200
+	}
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = REF
+		value = 9999
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = REF
+		value = 9999
+	}
+	ai_strategy = {
+		type = support
+		id = REF
+		value = 9999
+	}
+}
+fuck_you_bitch_russia_army = {
+	allowed = {
+		original_tag = REF
+	}
+	enable = {
+		has_country_flag = Second_japan_russia_war_Start_Russian
+	}
+
+	ai_strategy = {
+		type = befriend
+		id = SOV
+		value = 200
+	}
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = SOV
+		value = 9999
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = SOV
+		value = 9999
+	}
+	ai_strategy = {
+		type = support
+		id = REF
+		value = 9999
+	}
+}

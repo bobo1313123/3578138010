@@ -1,0 +1,326 @@
+on_actions = {
+	on_new_term_election ={
+			effect = {
+				if ={
+					limit ={
+						tag = DSB
+						has_country_flag = DSB_xuanju_scf
+					}
+					DSB ={
+						country_event ={
+							id = DSB.27
+						}
+					}
+				}
+			}
+		}
+	on_war ={
+		effect ={
+			if = {
+				limit = { 
+					tag = DSB
+					DSB = {
+						has_war_with = GER
+					}
+					NOT = {
+						has_global_flag = NZ_DIED
+					}
+				}
+				DSB = {
+					complete_national_focus = DSB_clgx
+					set_country_flag = DSB_pashe_3_point_5_work_ssccff
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
+		}
+	}
+	on_war ={
+		effect ={
+			if = {
+				limit = { 
+					tag = DSB
+					DSB = {
+						has_war_with = SOV
+						has_completed_focus = DSB_MZSY
+					}
+				}
+				DSB = {
+			        swap_ideas = {
+						remove_idea = LAST_WAR_two
+						add_idea = LAST_WAR_third
+					}
+				}
+			}
+		}
+	}
+	on_daily ={
+		effect = {
+			set_variable ={ DSB_sdz_research_speed_factor = Jew_power }
+			set_variable ={ DSB_sdz_industrial_capacity_factory = Jew_power }
+			set_variable ={ DSB_sdz_line_change_production_efficiency_factor = Jew_power }
+			set_variable ={ DSB_sdz_production_factory_max_efficiency_factor = Jew_power }
+			set_variable ={ DSB_sdz_production_factory_efficiency_gain_factor = Jew_power }
+			set_variable ={ DSB_sdz_conversion_cost_civ_to_mil_factor = Jew_power }
+
+			set_variable ={ DSB_sdz_stability_factor = Jew_zong_cong }
+			set_variable ={ DSB_sdz_consumer_goods_factor = Jew_zong_cong }
+			set_variable ={ DSB_sdz_army_core_attack_factor = Jew_zong_cong }
+			set_variable ={ DSB_sdz_army_core_defence_factor = Jew_zong_cong }
+
+			multiply_variable = { DSB_sdz_research_speed_factor = 0.01 }
+			multiply_variable = { DSB_sdz_industrial_capacity_factory = 0.02 }
+			multiply_variable = { DSB_sdz_line_change_production_efficiency_factor = 0.03 }
+			multiply_variable = { DSB_sdz_production_factory_max_efficiency_factor = 0.04 }
+			multiply_variable = { DSB_sdz_production_factory_efficiency_gain_factor = 0.05 }
+			multiply_variable = { DSB_sdz_conversion_cost_civ_to_mil_factor = 0.04 }
+
+			if ={
+				limit ={ check_variable = { Jew_zong_cong < 0.49 } }
+				multiply_variable = { DSB_sdz_stability_factor = -0.05 }
+				multiply_variable = { DSB_sdz_consumer_goods_factor = -0.04 }
+				multiply_variable = { DSB_sdz_army_core_attack_factor = -0.03 }
+				multiply_variable = { DSB_sdz_army_core_defence_factor = -0.02 }
+			}
+			if ={
+				limit ={ check_variable = { Jew_zong_cong > 0.49 } }
+				multiply_variable = { DSB_sdz_stability_factor = 0.05 }
+				multiply_variable = { DSB_sdz_consumer_goods_factor = 0.04 }
+				multiply_variable = { DSB_sdz_army_core_attack_factor = 0.03 }
+				multiply_variable = { DSB_sdz_army_core_defence_factor = 0.02 }
+			}
+
+			clamp_variable = {
+				var = Jew_power
+				min = 0
+				max = 1
+			}
+			clamp_variable = {
+				var = Jew_zong_cong
+				min = 0
+				max = 1
+			}
+		}
+	}
+	on_daily ={
+		effect = {
+			set_variable = { DSB_ggjh_var = test_gui_var }
+			set_variable ={ DSB_jxg_line_change_production_efficiency_factor = test_gui_var }
+			set_variable ={ DSB_jxg_production_factory_max_efficiency_factor = test_gui_var }
+			set_variable ={ DSB_jxg_production_factory_efficiency_gain_factor = test_gui_var }
+			set_variable ={ DSB_jxg_production_speed_buildings_factor = test_gui_var }
+			set_variable ={ DSB_jxg_stability_factor = test_gui_var }
+			set_variable ={ DSB_jxg_consumer_goods_factor = test_gui_var }
+
+			multiply_variable = { DSB_jxg_line_change_production_efficiency_factor = 0.04 }
+			multiply_variable = { DSB_jxg_production_factory_max_efficiency_factor = 0.05 }
+			multiply_variable = { DSB_jxg_production_factory_efficiency_gain_factor = 0.06 }
+			multiply_variable = { DSB_jxg_production_speed_buildings_factor = 0.07 }
+			multiply_variable = { DSB_jxg_stability_factor = 0.06 }
+			multiply_variable = { DSB_jxg_consumer_goods_factor = 0.05 }
+			multiply_variable = { DSB_jxg_line_change_production_efficiency_factor = 0.02 }
+			multiply_variable = { DSB_jxg_production_factory_max_efficiency_factor = 0.02 }
+			multiply_variable = { DSB_jxg_production_factory_efficiency_gain_factor = 0.02 }
+			multiply_variable = { DSB_jxg_production_speed_buildings_factor = 0.02 }
+			multiply_variable = { DSB_jxg_stability_factor = 0.02 }
+			multiply_variable = { DSB_jxg_consumer_goods_factor = 0.05 }
+			
+			clamp_variable = {
+				var = test_gui_var
+				min = 0
+				max = 100
+			}
+		}
+	}
+	on_daily = {
+		effect = {
+			clamp_variable = {
+				var = RenMinDK_var
+				min = 0
+				max = 9
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 0 } }
+				set_variable = { RMDKZ_stability_factor = 0.20 }
+				set_variable = { RMDKZ_war_support_factor = -0.25 }
+				set_variable = { RMDKZ_army_attack_factor = -0.15 }
+				set_variable = { RMDKZ_army_defence_factor = -0.15 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = -0.20 }
+				set_variable = { RMDKZ_army_morale_factor = -0.15 }
+				set_variable = { RMDKZ_army_speed_factor = -0.15 }
+				set_variable = { RMDKZ_combat_width_factor = 0.10 }
+				set_variable = { RMDKZ_industrial_capacity_factory = -0.25 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = -0.15 }
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 1 } }
+				set_variable = { RMDKZ_stability_factor = 0.10 }
+				set_variable = { RMDKZ_war_support_factor = -0.20 }
+				set_variable = { RMDKZ_army_attack_factor = -0.10 }
+				set_variable = { RMDKZ_army_defence_factor = -0.10 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = -0.15 }
+				set_variable = { RMDKZ_army_morale_factor = -0.10 }
+				set_variable = { RMDKZ_army_speed_factor = -0.10 }
+				set_variable = { RMDKZ_combat_width_factor = 0.05 }
+				set_variable = { RMDKZ_industrial_capacity_factory = -0.20 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = -0.10 }
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 2 } }
+				set_variable = { RMDKZ_stability_factor = 0.05 }
+				set_variable = { RMDKZ_war_support_factor = -0.15 }
+				set_variable = { RMDKZ_army_attack_factor = -0.05 }
+				set_variable = { RMDKZ_army_defence_factor = -0.05 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = -0.10 }
+				set_variable = { RMDKZ_army_morale_factor = -0.05 }
+				set_variable = { RMDKZ_army_speed_factor = -0.05 }
+				set_variable = { RMDKZ_combat_width_factor = 0 }
+				set_variable = { RMDKZ_industrial_capacity_factory = -0.15 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = -0.10 }
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 3 } }
+				set_variable = { RMDKZ_stability_factor = 0 }
+				set_variable = { RMDKZ_war_support_factor = -0.10 }
+				set_variable = { RMDKZ_army_attack_factor = 0 }
+				set_variable = { RMDKZ_army_defence_factor = 0 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = -0.05 }
+				set_variable = { RMDKZ_army_morale_factor = 0 }
+				set_variable = { RMDKZ_army_speed_factor = 0 }
+				set_variable = { RMDKZ_combat_width_factor = -0.05 }
+				set_variable = { RMDKZ_industrial_capacity_factory = -0.10 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = -0.05 }
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 4 } }
+				set_variable = { RMDKZ_stability_factor = 0.05 }
+				set_variable = { RMDKZ_war_support_factor = -0.10 }
+				set_variable = { RMDKZ_army_attack_factor = 0 }
+				set_variable = { RMDKZ_army_defence_factor = 0 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = 0 }
+				set_variable = { RMDKZ_army_morale_factor = 0 }
+				set_variable = { RMDKZ_army_speed_factor = 0 }
+				set_variable = { RMDKZ_combat_width_factor = -0.05 }
+				set_variable = { RMDKZ_industrial_capacity_factory = -0.10 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = 0 }
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 5 } }
+				set_variable = { RMDKZ_stability_factor = 0.10 }
+				set_variable = { RMDKZ_war_support_factor = 0.10 }
+				set_variable = { RMDKZ_army_attack_factor = 0.01 }
+				set_variable = { RMDKZ_army_defence_factor = 0.01 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = 0.05 }
+				set_variable = { RMDKZ_army_morale_factor = 0.05 }
+				set_variable = { RMDKZ_army_speed_factor = 0.05 }
+				set_variable = { RMDKZ_combat_width_factor = -0.10 }
+				set_variable = { RMDKZ_industrial_capacity_factory = 0 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = 0.05 }
+				if = {
+					limit = { NOT = { has_country_flag = Pass_Medium_Phase_scf } NOT = { has_country_flag = The_Rabbit_scf } }
+					set_country_flag = Pass_Medium_Phase_scf
+					DSB = { country_event = { id = DSB.69 } }
+				}
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 6 } }
+				set_variable = { RMDKZ_stability_factor = 0.15 }
+				set_variable = { RMDKZ_war_support_factor = 0.10 }
+				set_variable = { RMDKZ_army_attack_factor = 0.10 }
+				set_variable = { RMDKZ_army_defence_factor = 0.10 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = 0.10 }
+				set_variable = { RMDKZ_army_morale_factor = 0.10 }
+				set_variable = { RMDKZ_army_speed_factor = 0.10 }
+				set_variable = { RMDKZ_combat_width_factor = -0.10 }
+				set_variable = { RMDKZ_industrial_capacity_factory = 0.10 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = 0.10 }
+				if = {
+					limit = { NOT = { has_country_flag = Pass_Medium_Phase_scf } NOT = { has_country_flag = The_Rabbit_scf } }
+					set_country_flag = Pass_Medium_Phase_scf
+					DSB = { country_event = { id = DSB.69 } }
+				}
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 7 } }
+				set_variable = { RMDKZ_stability_factor = 0.15 }
+				set_variable = { RMDKZ_war_support_factor = 0.10 }
+				set_variable = { RMDKZ_army_attack_factor = 0.10 }
+				set_variable = { RMDKZ_army_defence_factor = 0.10 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = 0.10 }
+				set_variable = { RMDKZ_army_morale_factor = 0.10 }
+				set_variable = { RMDKZ_army_speed_factor = 0.10 }
+				set_variable = { RMDKZ_combat_width_factor = -0.10 }
+				set_variable = { RMDKZ_industrial_capacity_factory = 0.10 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = 0.10 }
+				if = {
+					limit = { NOT = { has_country_flag = Pass_Medium_Phase_scf } NOT = { has_country_flag = The_Rabbit_scf } }
+					set_country_flag = Pass_Medium_Phase_scf
+					DSB = { country_event = { id = DSB.69 } }
+				}
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 8 } }
+				set_variable = { RMDKZ_stability_factor = 0.15 }
+				set_variable = { RMDKZ_war_support_factor = 0.25 }
+				set_variable = { RMDKZ_army_attack_factor = 0.15 }
+				set_variable = { RMDKZ_army_defence_factor = 0.15 }
+				set_variable = { RMDKZ_consumer_goods_expected_value = 0.15 }
+				set_variable = { RMDKZ_army_morale_factor = 0.10 }
+				set_variable = { RMDKZ_army_speed_factor = 0.10 }
+				set_variable = { RMDKZ_combat_width_factor = -0.10 }
+				set_variable = { RMDKZ_industrial_capacity_factory = 0.20 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = 0.15 }
+				if = {
+					limit = { NOT = { has_country_flag = Pass_Medium_Phase_scf } NOT = { has_country_flag = The_Rabbit_scf } }
+					set_country_flag = Pass_Medium_Phase_scf
+					DSB = { country_event = { id = DSB.69 } }
+				}
+			}
+			if = {
+				limit = { check_variable = { RenMinDK_var = 9 } }
+				set_variable = { RMDKZ_stability_factor = -5.00 }
+				set_variable = { RMDKZ_war_support_factor = 1.00 }
+				set_variable = { RMDKZ_army_attack_factor = 0.45}
+				set_variable = { RMDKZ_army_defence_factor = 0.45}
+				set_variable = { RMDKZ_consumer_goods_expected_value = -0.75 }
+				set_variable = { RMDKZ_army_morale_factor = -0.45 }
+				set_variable = { RMDKZ_army_speed_factor = 0.45 }
+				set_variable = { RMDKZ_combat_width_factor = 0.30 }
+				set_variable = { RMDKZ_industrial_capacity_factory = 0.125 }
+				set_variable = { RMDKZ_production_factory_max_efficiency_factor = -0.75 }
+				if = {
+					limit = { check_variable = { DSB_DK_BOOM = 0 } NOT = { has_country_flag = DSB_BK_ING } }
+					DSB = { country_event = { id = DSB.89 } }
+					set_country_flag = {
+						flag = DSB_BK_ING
+						value = 1
+						days = 50
+					}
+				}
+				else_if = {
+					limit = { check_variable = { DSB_DK_BOOM = 1 } }
+					GER = {
+						transfer_state = 61
+						transfer_state = 62
+						transfer_state = 63
+						transfer_state = 68
+						declare_war_on = {
+							target = DSB
+							type = annex_everything
+						}
+					}
+					DSB = { country_event = { id = DSB.90 } }
+					add_to_variable = { DSB_DK_BOOM = 1 }
+				}
+				if = {
+					limit = { NOT = { has_country_flag = Pass_Medium_Phase_scf } NOT = { has_country_flag = The_Rabbit_scf } }
+					set_country_flag = Pass_Medium_Phase_scf
+					DSB = { country_event = { id = DSB.69 } }
+				}
+			}
+			if = {
+				limit = { has_completed_focus = DSB_HMZDZHYW }
+				add_to_variable = { RMDKZ_consumer_goods_expected_value = -0.05 }
+			}
+		}
+	}
+}

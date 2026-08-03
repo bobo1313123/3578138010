@@ -50,6 +50,10 @@ ENG_NEW_color = {
 	color = rgb { 157 43 45 }
 	color_ui = rgb { 255 73 121 }
 }
+TUR_Authoritarianism = {
+	color = rgb { 117 0 5 }
+	color_ui = rgb { 79 0 3 }
+}
 BOG_color = {
 	color = rgb { 157 43 45 }
 	color_ui = rgb { 80  165  10 }

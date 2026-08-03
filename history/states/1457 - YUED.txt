@@ -1,0 +1,28 @@
+
+state={
+	id = 1457
+	name="STATE_1457"
+	manpower = 2826
+	resources={
+		oil=15 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = SAU
+	
+		
+	
+		
+		add_core_of = SAU
+		add_core_of = JOR
+		
+	}
+
+	provinces={
+		4440 1544 4562 4603
+	}
+
+	local_supplies=0.0 
+}

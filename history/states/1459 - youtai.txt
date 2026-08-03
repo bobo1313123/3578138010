@@ -1,0 +1,29 @@
+
+state={
+	id = 1459
+	name="STATE_1459"
+	manpower = 28261
+	resources={
+		oil=15 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = SYR
+	
+		victory_points = {
+			1065 1 # Nazareth
+		}
+		
+		add_core_of = SYR
+		add_core_of = PAL
+		
+	}
+
+	provinces={
+		1065 7107 1
+	}
+
+	local_supplies=0.0 
+}

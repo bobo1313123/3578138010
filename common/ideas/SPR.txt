@@ -5,7 +5,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_Legacy_of_the_Civil_War
 			allowed_civil_war = {
 				always = yes
 			}
@@ -22,7 +22,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_Legacy_of_the_Civil_War
 			allowed_civil_war = {
 				always = yes
 			}
@@ -40,7 +40,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_spanish_army
 			allowed_civil_war = {
 				always = yes
 			}
@@ -54,7 +54,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_The_hanging_throne
 			allowed_civil_war = {
 				always = yes
 			}
@@ -68,7 +68,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-
+			picture = SPR_Autonomy_Dilemma
 			allowed_civil_war = {
 				always = yes
 			}

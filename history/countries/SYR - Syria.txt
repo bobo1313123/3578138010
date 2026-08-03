@@ -2,7 +2,7 @@
 
 
 set_convoys = 5
-
+set_cosmetic_tag = SYR_EMPIRE
 recruit_character = SYR_Ghazi_Ibn_Faisal #加齐·伊本·费萨尔
 set_politics = {
 	ruling_party = tttt

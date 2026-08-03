@@ -264,6 +264,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/TUR/TUR_Mustafa_Kemal_Ataturk.dds"
 	}
 	spriteType = {
+		name = "GFX_II_Abdvlmecid"
+		texturefile = "gfx/leaders/TUR/II_Abdvlmecid.png"
+	}
+	spriteType = {
 		name = "GFX_USA_George_William_Norris"
 		texturefile = "gfx/leaders/USA/USA_George_William_Norris.dds"
 	}
@@ -301,7 +305,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_Pope_Pius_XI"
-		texturefile = "gfx/leaders/ITA/Pope_Pius_XI.dds"
+		texturefile = "gfx/leaders/ITA/Pope_Pius_XI.png"
 	}
 	#I'm so sorry but actually there leaders's pitcure are all one person do that me,So for the working-speed, I have to simplification this leaders name.plzzzzz Forgive me,My work is too hard and large.TAT I will Formalize thier leaders if I have enough times after publish this mod.
 	spriteType = {
@@ -342,7 +346,19 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_TVE_ITA_KINGDOM_LEADERS"
-		texturefile = "gfx/leaders/ITA/TVE_ITA_KINGDOM_LEADERS.dds"
+		texturefile = "gfx/leaders/ITA/TVE_ITA_KINGDOM_LEADERS.png"
+	}
+	spriteType = {
+		name = "GFX_ITA_Gramsci"
+		texturefile = "gfx/leaders/ITA/ITA_Gramsci.png"
+	}
+	spriteType = {
+		name = "ITA_Mussolini"
+		texturefile = "gfx/leaders/ITA/ITA_Mussolini.png"
+	}
+	spriteType = {
+		name = "GFX_POR_hesai"
+		texturefile = "gfx/leaders/POR/POR_hesai.PNG"
 	}
 	spriteType = {
 		name = "GFX_TVE_TTS_LEADERS"

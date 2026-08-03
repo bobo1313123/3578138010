@@ -8,7 +8,7 @@ add_ideas = {
 
 }
 
-recruit_character = TVE_LBV_LEADERS
+recruit_character = ITA_Mussolini
 
 set_cosmetic_tag = LBV_COM_FA
 # Starting tech

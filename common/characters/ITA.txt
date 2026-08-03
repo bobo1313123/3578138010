@@ -50,6 +50,20 @@ characters = {
 			id=-1
 		}
 	}
+	ITA_Gramsci = {
+		name=ITA_Gramsci
+		portraits={
+			civilian={
+				large= GFX_ITA_Gramsci
+			}
+		}
+		country_leader={
+			ideology = socialism_small
+			traits={  }
+			expire="1947.1.1.1"
+			id=-1
+		}
+	}
 	TVE_LBV_LEADERS = {
 		name=TVE_LBV_LEADERS
 		portraits={
@@ -59,6 +73,20 @@ characters = {
 		}
 		country_leader={
 			ideology = Absolute_monarchy
+			traits={  }
+			expire="1947.1.1.1"
+			id=-1
+		}
+	}
+	ITA_Mussolini = {
+		name=ITA_Mussolini
+		portraits={
+			civilian={
+				large=ITA_Mussolini
+			}
+		}
+		country_leader={
+			ideology = fascism_small
 			traits={  }
 			expire="1947.1.1.1"
 			id=-1

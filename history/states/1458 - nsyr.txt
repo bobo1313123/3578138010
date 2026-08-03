@@ -1,0 +1,35 @@
+
+state={
+	id = 1458
+	name="STATE_1458"
+	manpower = 2826
+	resources={
+		oil=15 # was: 20
+	}
+	
+	state_category = town
+
+	history={
+		owner = TUR
+		victory_points = {
+			12473 3 
+		}
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
+	
+		
+		add_core_of = SYR
+		add_core_of = KUR
+		
+	}
+
+	provinces={
+		12473 7671 6883 1606 1634 1578 1549 10882
+	}
+
+	local_supplies=0.0 
+}

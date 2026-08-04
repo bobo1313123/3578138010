@@ -15,7 +15,7 @@ set_technology = {
 set_convoys = 10
 
 
-
+recruit_character = IRE_kesilin
 recruit_character = IRE_William_Thomas_Cosgrave
 recruit_character = IRE_Michael_John_Mick_Collins
 recruit_character = IRE_Éamon_de_valera
@@ -39,70 +39,31 @@ recruit_character = IRE_sean_lemass
 recruit_character = IRE_douglas_hyde
 recruit_character = IRE_sean_ceallaigh
 recruit_character = IRE_ernest_walton
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "IRE_1939"
-	set_technology = {
-		gw_artillery = 1
-		interwar_antiair = 1
-		infantry_weapons2 = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		fuel_refining = 1
-	}
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
+add_ideas ={
+	EU_IN_ONLY
+	green_island
 }
 
+
 set_politics = {
-	ruling_party = Conservatism
+	ruling_party = Liberalism
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	Conservatism = 48
-	fascism = 50
-	Communism = 2
+	Communism = 0
+	Socialism = 3
+	Progressivism = 22
+	Liberalism = 25
+	Democracy = 10
+	Conservatism = 12
+	Authoritarianism = 4
+	tttt = 8
+	fascism = 10
+	nazism =6
 }
+
 
 1939.1.1 = {
 	set_politics = {
@@ -111,4 +72,46 @@ set_popularities = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
+}
+set_party_name = {
+	ideology = Communism
+	name = IRE_1_Communism
+	long_name = IRE_1_Communism
+}
+set_party_name = {
+	ideology = Socialism
+	name = IRE_1_Socialism
+	long_name = IRE_1_Socialism
+}set_party_name = {
+	ideology = Progressivism
+	name = IRE_1_Progressivism
+	long_name = IRE_1_Progressivism
+}set_party_name = {
+	ideology = Liberalism
+	name = IRE_1_Liberalism
+	long_name = IRE_1_Liberalism
+}set_party_name = {
+	ideology = Democracy
+	name = IRE_1_Democracy
+	long_name = IRE_1_Democracy
+}set_party_name = {
+	ideology = Conservatism
+	name = IRE_1_Conservatism
+	long_name = IRE_1_Conservatism
+}set_party_name = {
+	ideology = Authoritarianism
+	name = IRE_1_Authoritarianism
+	long_name = IRE_1_Authoritarianism
+}set_party_name = {
+	ideology = tttt
+	name = IRE_1_tttt
+	long_name = IRE_1_tttt
+}set_party_name = {
+	ideology = fascism
+	name = IRE_1_fascism
+	long_name = IRE_1_fascism
+}set_party_name = {
+	ideology = nazism
+	name = IRE_1_nazism
+	long_name = IRE_1_nazism
 }

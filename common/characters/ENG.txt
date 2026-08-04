@@ -1,6 +1,7 @@
 characters={
 	ENG_George_V = {
 		name=ENG_George_V
+		desc=ENG_George_V_desc
 		portraits={
 			civilian={
 				large=GFX_ENG_George_V

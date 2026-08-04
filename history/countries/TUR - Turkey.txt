@@ -1,4 +1,4 @@
-﻿capital = 49
+﻿capital = 797
 load_focus_tree = generic_focus
 set_autonomy = {
 	target = SYR

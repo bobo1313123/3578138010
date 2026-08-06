@@ -6,7 +6,8 @@ state={
 	state_category = city
 
 	history={
-		owner = BEL
+		owner = HOL
+		add_core_of = HOL
 		buildings = {
 			infrastructure = 2
 		}

@@ -356,16 +356,7 @@ if = {
 }
 recruit_character = TVE_BEL_LEADERS
 
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_autonomy = {
-		target = COG
-		autonomous_state = autonomy_colony
-		freedom_level = 0.2
-	}
-}
+
 
 IF = {
 	limit = {

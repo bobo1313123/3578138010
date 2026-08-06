@@ -13,6 +13,20 @@ characters={
 			id=-1
 		}
 	}
+	LIBD_III={
+		name=LIBD_III
+		portraits={
+			civilian={
+				large=LIBD_III
+			}
+		}
+		country_leader={
+			ideology = authoritarianism_small
+			traits={  }
+			expire="1947.1.1.1"
+			id=-1
+		}
+	}
 	HOL_hendrikus_colijn={
 		name=HOL_hendrikus_colijn
 		portraits={

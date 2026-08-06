@@ -9,6 +9,7 @@ characters={
 		}
 		country_leader={
 			ideology=Britain_Conservatism
+			desc=ENG_George_V_desc
 			traits={ George_V_traits }
 			expire="1965.1.1.1"
 			id=-1

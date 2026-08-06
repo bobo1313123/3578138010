@@ -30,5 +30,11 @@ defined_text = {
         }
         localization_key = "GER_wilhelm_ii_sl_desc"
     }
+   # text = {
+    #    trigger = { #亨舍尔
+    #        has_idea = union_dream
+    #    }
+    #    localization_key = "jhon_heser_second_leader"
+  #  }
 
 }

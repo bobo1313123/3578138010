@@ -5,8 +5,8 @@ state={
 		1099 4105 
 	}
 	history = {
-
-		owner = CHI
+		owner = ANH
+		add_core_of = ANH
 add_core_of = CHI
 		add_core_of = PRC
 

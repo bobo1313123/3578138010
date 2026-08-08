@@ -1,4 +1,4 @@
-capital = 1355
+capital = 1078
 
 set_research_slots = 3
 
@@ -29,11 +29,9 @@ set_popularities = {
 
 create_country_leader = {
     name = "Leader Name"
-    picture = "gfx/leaders/HNA/HNA_leader.dds"
+    picture = "gfx/leaders/ZJG/ZJG_leader.dds"
     expire = "1965.1.1"
-    ideology = Authoritarianism
+    ideology = authoritarianism_small
     traits = {
     }
 }
-
-# No OOB generated

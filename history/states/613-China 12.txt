@@ -5,8 +5,7 @@ state={
 		7014 10034 11928 12052 12076 13413 13414 13415 13416 13417 13425 13426 13427 13428 13429
 	}
 	history={
-		owner = JSU
-		add_core_of = JSU
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {

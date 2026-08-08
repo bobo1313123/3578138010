@@ -79,14 +79,14 @@ recruit_character = ROC_YUAN_SHI_KAI
 set_stability = 0.4
 set_war_support = 0.5
 
-#set_autonomy = {
-#	target = TIB
-#	autonomy_state = autonomy_personal_union
-#}
-#set_autonomy = {
-#	target = MON
-#	autonomy_state = autonomy_personal_union
-#}
+set_autonomy = {
+	target = TIB
+	autonomy_state = autonomy_personal_union
+}
+set_autonomy = {
+	target = MON
+	autonomy_state = autonomy_personal_union
+}
 
 # Starting tech
 set_technology = {

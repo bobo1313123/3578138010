@@ -14,7 +14,7 @@ state = {
 		#victory_points = {
 		#	11386 1 # Lyck
 		#}
-		
+		add_core_of = WAL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

@@ -13,7 +13,7 @@ state = {
 		owner = HOL
 		add_core_of = HOL
 		add_core_of = BEL
-
+		add_core_of = WAL
 
 		buildings = {
 			infrastructure = 1

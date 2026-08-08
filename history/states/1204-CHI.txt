@@ -6,9 +6,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = CHI
+		owner = TIB
 		add_core_of = TIB
-		add_core_of = CHI
 	}
 
 	provinces={

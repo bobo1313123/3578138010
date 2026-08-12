@@ -1,0 +1,183 @@
+add_namespace = HOL_NEWS
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.1
+	title = HOL_NEWS.1.t
+	desc = HOL_NEWS.1.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.1.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.2
+	title = HOL_NEWS.2.t
+	desc = HOL_NEWS.2.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.2.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.3
+	title = HOL_NEWS.3.t
+	desc = HOL_NEWS.3.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.3.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.4
+	title = HOL_NEWS.4.t
+	desc = HOL_NEWS.4.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.4.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.5
+	title = HOL_NEWS.5.t
+	desc = HOL_NEWS.5.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.5.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.6
+	title = HOL_NEWS.6.t
+	desc = HOL_NEWS.6.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.6.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.7
+	title = HOL_NEWS.7.t
+	desc = HOL_NEWS.7.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.7.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.8
+	title = HOL_NEWS.8.t
+	desc = HOL_NEWS.8.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.8.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.9
+	title = HOL_NEWS.9.t
+	desc = HOL_NEWS.9.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.9.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.10
+	title = HOL_NEWS.10.t
+	desc = HOL_NEWS.10.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.10.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.11
+	title = HOL_NEWS.11.t
+	desc = HOL_NEWS.11.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.11.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.12
+	title = HOL_NEWS.12.t
+	desc = HOL_NEWS.12.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.12.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.13
+	title = HOL_NEWS.13.t
+	desc = HOL_NEWS.13.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.13.a
+		
+	}
+}
+news_event = {
+	#immediate = {log = "[GetDateText]: [Root.GetName]: event germany_news.1"}
+	id = HOL_NEWS.14
+	title = HOL_NEWS.14.t
+	desc = HOL_NEWS.14.d
+	#picture = GFX_events_GER_Bruning_wins_the_election
+	is_triggered_only = yes
+
+	option = {
+		name = HOL_NEWS.14.a
+		
+	}
+}

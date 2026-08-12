@@ -4,6 +4,8 @@
 
         MOR_Emilio_Mora:0 "埃米利奥·莫拉"
 
-        SPR_puppet_MOR:0 "西班牙属摩洛哥保护国"
-        SPR_puppet_MOR_DEF:0 "西属摩洛哥"
-        SPR_puppet_MOR_ADJ:0 "西属摩洛哥"
+        SPR_puppet_MOR:0 "摩洛哥苏丹国"
+        SPR_puppet_MOR_DEF:0 "摩洛哥苏丹国"
+        SPR_puppet_MOR_ADJ:0 "摩洛哥苏丹国"
+        MOR_MHMD_IV: "穆罕默德五世"
+        MOR_tttt_1: "阿拉维王室"

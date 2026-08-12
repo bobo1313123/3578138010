@@ -5,6 +5,8 @@ welcome_close_text_desc: "§2如此少数英雄竟能挽救芸芸众生"
 SER_YUG: "塞尔维亚-克罗地亚-斯拉沃尼亚王国"
 HOL_BEL_LUX: "尼德兰联合王国"
 COG_FREEDOM: "刚果自由邦"
+BEL_FLD: "弗兰德军事委员会"
+ROL_RED: "低地人民共和国"
 #国策本地化
 aus_difficult_walk: "艰难航行"
 aus_empersay: "皇帝演说"
@@ -30,6 +32,20 @@ ethnic_unrest: "国内民族动乱"
 ethnic_unrest_desc: "§R联邦化失败了，但还有机会吗"
 Combat_separatism: "打击分裂主义"
 Combat_separatism_desc: "§R必须重拳出击"
+tech_communcaite_things: "科技交流成果"
+great_step: "§R急速扩张的工业"
+factory_money: "扩展民用经济"
+factory_money_0: "持续民用经济"
+food_factory: "民用食品公司惠及奥地利"
+protect_worker: "工人的权益"
+army_industry_amr: "军用工业计划"
+gen_car_com: "通用卡车公司"
+un_lesswork_problem: "以工代赈"
+money_tciket_national: "国家债券"
+gen_tank_com: "奥地利装甲工厂"
+army_industry_amr_1: "扩张军用工业"
+aus_industry_plan: "奥地利工业经济"
+nothing_happen: "§3一切按照计划进行，无事发生"
 AUS_TVE.1: "沉思"
 AUS_TVE.2: "演讲"
 AUS_TVE.3: "历史遗留问题"
@@ -43,6 +59,16 @@ AUS_TVE.1.a: "身体越来越糟"
 AUS_TVE.2.a: "能听清吗？"
 AUS_TVE.3.a: "皇帝万岁！"
 GERMAN_UNIT: "德意志邦联"
+AUS_TVE.5.a: "一路顺风！"
+AUS_TV.5.t: "出发"
+
+
+
+
+
+
+
+
 redfac: "革命阵线"
 TVE_DSB_JIESHAO_title: "[ROOT.GetName]"
 TVE_DSB_JIESHAO_title_1: "§b[TVE_title_loc]"
@@ -219,11 +245,25 @@ world_war_heat_desc: "上次大战对我国的影响无疑是深刻的，无论�
 jhon_heser_second_leader: "约翰.舍尔\n\n\n\n\n\n\n£jhon_heser\n\n\n\n\n\n\n\n\n总理\n\n\n\n\n\n\n\n\n"
 HOL_Communism_1: "低地共产党"
 HOL_Socialism_1: "低地社会民主工党"
-HOL_Liberalism_1: "低地自由民主联盟"
+HOL_Liberalism_1: "反革命党"
 HOL_Democracy_1: "低地社会基督教党"
 HOL_Conservatism_1: "民族阵线"
 HOL_nazism_1: "低地民族社会主义运动"
 no_party_rule: "无领导层§R"
+HOL_NEWS.1: "荷兰爆发首相贪污丑闻"
+HOL_NEWS.2: "科莱恩内阁解散"
+HOL_NEWS.3: "路易贝尔被任命为首相"
+HOL_NEWS.4: "瓦隆爆发独立运动"
+HOL_NEWS.5: "佛兰德军事委员会建立"
+HOL_NEWS.6: "卢森堡独立"
+HOL_NEWS.7: "鹿特丹工人起义"
+HOL_NEWS.8: "尼德兰内战爆发"
+HOL_NEWS.9: "卢森堡加入德意志帝国"
+HOL_NEWS.10: "低地人民共和国成立"
+HOL_NEWS.11: "德国宣战低地人民共和国"
+HOL_NEWS.12: "法国进军瓦隆"
+HOL_NEWS.13: "尼德兰王国复辟"
+HOL_NEWS.14: "海牙地区爆发首相刺杀事件"
 
 
 
@@ -231,10 +271,42 @@ no_party_rule: "无领导层§R"
 
 
 
-LIBD_III: "利奥波得三世"
+
+
+
+
+
+
+
+
+
+
+LIBD_III: "利奥波德三世"
 liaoboweiwhere: "利奥波德维尔"
 liaoboweiwhere_desc: "在刚果这片土地上，比利时人用尽了一切你能想象的手段来榨取这里的人民。如果你生来是个黑人，完不成当天的橡胶定额，就会被剁去双手；你的家人会被活埋，或以更残忍的方式被处决。你的村庄会被他们的卡车和履带碾成平地。比利时人在此犯下的罪行，足以让整个人类文明为之侧目。无数黑人孩子死于殖民统治的铁蹄之下，而他们的命运，恰如这片始终在流血的大陆。\n§R【非洲人用自己的鲜血喂饱了殖民者】\n\n\n\n\n\n£liaoboweiwhere_desc\n\n\n\n\n\n"
 what_is_freedom: "何为自由"
 what_is_freedom_desc: "刚果自由邦，名义上冠着“自由”二字，法理上却是利奥波德国王的私人领地。在这片土地上，一座座种植园和橡胶加工厂拔地而起，机器的轰鸣盖过了黑人的哭喊。那些被驱赶进林子的部落，那些被砍去手脚的男人，那些被抢走孩子的母亲都在无声地嘲笑着“自由”这个词。放眼整个刚果，大概也只有国名里那几个字母，还勉强算得上是自由的。\n\n\n\n\n\n£what_is_freedom_desc\n\n\n\n\n\n"
 xiangjiao_land: "橡胶之地"
 xiangjiao_land_desc: "刚果这片土地，富饶得近乎奢侈。最不缺的就是橡胶成片成片的高大树群，像是取之不尽的活泉，日夜不停地流淌着乳白的汁液。加上遍地廉价的劳力，几乎不需要多少成本，就能换来满仓的胶块。"
+
+
+
+
+BLT_PORMOSE: "拉巴特之誓"
+BLT_PORMOSE_desc: "西班牙从法国手中取得我国的保护权后，便加速了对该地区的蚕食。从政府到商场，从教堂到学校，西班牙人试图在每一个领域渗透其影响力。在日益沉重的压迫下，当地民众忍无可忍，终于爆发了19世纪以来规模最大的反殖民运动——摩洛哥起义。\n开战之初，西班牙人被突如其来的反抗打了个措手不及。但他们很快调整战略，稳住了战线。正当西班牙人准备一举剿灭叛军之际，经济危机在本土骤然爆发。迫于无奈，西班牙当局只得向我们妥协。\n最终双方在拉巴特签订了合约，西班牙承认摩洛哥为独立国家，但我们仍在军事和外交方面受西班牙人掣肘。\n\n\n\n\n\n£BLT_PORMOSE_desc\n\n\n\n\n\n"
+unpublic_country: "背叛共和之国"
+unpublic_country_desc: "阿卜杜勒·克里姆是每一位里夫人心中的民族英雄。摩洛哥战争期间，他率领北部里夫地区的诸部落奋起反抗西班牙，并宣布成立里夫共和国。\n开战初期，克里姆的部队士气高昂。怀着对真主的虔诚信仰，他们向西班牙人发起了一次次悍不畏死的冲锋。西班牙人难以招架，一时间，共和国大有向海峡进军的势头。直到西班牙人动用毒气弹等武器，才勉强收回失地。\n然而，在我们与西班牙达成妥协之后，新生的里夫共和国很快便陷入孤立。面对西班牙人的重兵围剿，共和国最终宣告灭亡，克里姆本人也流亡埃及。而这也导致了在那些。民族主义者与自由派眼中，我国始终是那个背叛了摩洛哥人民的叛徒。\n\n\n\n\n\n£unpublic_country_desc\n\n\n\n\n\n"
+
+
+
+
+
+
+
+AUS_GUNMU_1: "§R无相关组织"
+AUS_Conservatism_1: "基督教社会党"
+AUS_tttt_1: "多瑙联邦党"
+AUS_fascism_1: "祖国阵线"
+AUS_nazism_1: "乡村同盟"
+AUS_Socialism_1: "社会民主工党"
+AUS_Liberalism_1: "阿戴克党"

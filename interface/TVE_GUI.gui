@@ -266,7 +266,12 @@ guiTypes = {
 			maxHeight = 250
 			
 		}
-		
+		iconType = {
+			name = "AUS_FRAME_ICON"
+			position = { x = 700 y =100 }
+			quadTextureSprite = "GFX_frame_warview"
+		}
+
 
 	
 

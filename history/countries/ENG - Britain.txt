@@ -146,7 +146,7 @@ if = {
 	}
 }
 
-set_cosmetic_tag = ENG_NEW_color
+#set_cosmetic_tag = ENG_NEW_color
 
 
 

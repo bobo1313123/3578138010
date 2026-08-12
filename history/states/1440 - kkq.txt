@@ -9,13 +9,13 @@ state={
 	state_category = town
 
 	history={
-		owner = BUL
+		owner = TUR
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 			air_base = 4
 		}
-	
+		add_core_of = TUR
 		add_claim_by = BUL
 		add_claim_by = TUR
 		victory_points = {

@@ -76,7 +76,7 @@ add_opinion_modifier = {
 load_focus_tree = austria_TVE_FOCUS
 add_manpower = 500000
 recruit_character = Archduke_Franz_Ferdinand_of_Austria
-recruit_character = AUS_kurt_schuschnigg
+#recruit_character = AUS_kurt_schuschnigg
 create_faction = AUS_HUN_FAC
 add_to_faction = AUS
 add_to_faction = HUN
@@ -747,7 +747,7 @@ IF = {
 
 
 set_politics = {
-	ruling_party = tttt
+	ruling_party = Conservatism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -762,17 +762,63 @@ set_politics = {
 }
 }
 set_popularities = {
-	tttt = 22
-	fascism = 27
-	Communism = 11
-	Progressivism = 9
-	Socialism = 6
-	Liberalism = 11
-	Conservatism = 9
-	Authoritarianism = 5
+	tttt = 19
+	fascism = 10
+	Communism = 0
+	Progressivism = 0
+	Socialism = 28
+	Liberalism = 13
+	Conservatism = 26
+	nazism = 4
+	Authoritarianism = 0
 }
 
 set_stability = 0.50
 
 
 
+set_party_name = {
+	ideology = Conservatism
+	name = AUS_Conservatism_1
+	long_name = AUS_Conservatism_1
+}
+set_party_name = {
+	ideology = tttt
+	name = AUS_tttt_1
+	long_name = AUS_tttt_1
+}
+set_party_name = {
+	ideology = fascism
+	name = AUS_fascism_1
+	long_name = AUS_fascism_1
+}
+set_party_name = {
+	ideology = nazism
+	name = AUS_nazism_1
+	long_name = AUS_nazism_1
+}
+set_party_name = {
+	ideology = Socialism
+	name = AUS_Socialism_1
+	long_name = AUS_Socialism_1
+}
+set_party_name = {
+	ideology = Liberalism
+	name = AUS_Liberalism_1
+	long_name = AUS_Liberalism_1
+}
+set_party_name = {
+	ideology = Authoritarianism
+	name = AUS_GUNMU_1
+	long_name = AUS_GUNMU_1
+}
+set_party_name = {
+	ideology = Progressivism
+	name = AUS_GUNMU_1
+	long_name = AUS_GUNMU_1
+}
+set_party_name = {
+	ideology = Communism
+	name = AUS_GUNMU_1
+	long_name = AUS_GUNMU_1
+}

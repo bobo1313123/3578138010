@@ -1,17 +1,33 @@
 characters = {
 	MOR_Emilio_Mora= { #埃米利奥·莫拉
-    name = MOR_Emilio_Mora
-    portraits = {
-        civilian = {
-            large = GFX_idea_TVE_MOR_Emilio_Mora
+        name = MOR_Emilio_Mora
+        portraits = {
+            civilian = {
+                large = GFX_idea_TVE_MOR_Emilio_Mora
+            }
+        }
+        
+        country_leader = {
+            ideology = colonial_government_tttt
+            traits = {
+                
+            }
         }
     }
-    
-    country_leader = {
-        ideology = colonial_government_tttt
-        traits = {
-            
+    MOR_MHMD_IV= {
+        name =  MOR_MHMD_IV
+        portraits = {
+            civilian = {
+                large = GFX_leaders_MOR_MHMD_IV
+            }
+        }
+        
+        country_leader = {
+            ideology = tttt_small
+
+            traits = {
+                
+            }
         }
     }
-}
 }

@@ -43,8 +43,8 @@ TRA_ROM_ANT = {
 	color_ui = rgb { 255 255 120 }
 }
 ROC = {
-	color = rgb { 200 150 45 }
-	color_ui = rgb { 200 150 45 }
+	color = rgb { 55 64 130 }
+	color_ui = rgb { 55 64 130 }
 }
 ENG_NEW_color = {
 	color = rgb { 157 43 45 }

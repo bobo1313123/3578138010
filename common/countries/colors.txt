@@ -5,8 +5,8 @@ GER = {
 	color_ui = rgb { 79 79 79 }
 }
 ENG = {
-	color = rgb { 122 49 50 }
-	color_ui = rgb { 255 73 121 }
+	color = rgb { 137 9 0 }
+	color_ui = rgb { 137 9 0 }
 }
 SOV = {
 	color = rgb { 30 127 37 }
@@ -170,8 +170,8 @@ CAN = {
 	color_ui = rgb { 188 7 89 }
 }
 CHI = {
-	color = rgb { 200 150 45 }
-	color_ui = rgb { 200 150 45 }
+	color = rgb { 55 64 130 }
+	color_ui = rgb { 55 64 130 }
 }
 CHL = {
 	color = rgb { 99 73 58 }
@@ -1245,33 +1245,33 @@ BBR = {
 	color_ui = rgb{ 0 127 14 }
 }
 FUJ = {
-    color = rgb { 170 -30 3 }
-    color_ui = rgb { 170 -30 3 }
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
 }
 
 JXI = {
-    color = rgb { 170 191 -105 }
-    color_ui = rgb { 170 191 -105 }
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
 }
 
 ZJG = {
-    color = rgb { -103 213 255 }
-    color_ui = rgb { -103 213 255 }
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
 }
 
 GXI = {
-    color = rgb { 216 108 -196 }
-    color_ui = rgb { 216 108 -196 }
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
 }
 
 GAD = {
-    color = rgb { -205 133 195 }
-    color_ui = rgb { -205 133 195 }
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
 }
 
 HNA = {
-    color = rgb { -389 103 228 }
-    color_ui = rgb { -389 103 228 }
+    color = rgb { 55 64 130 }
+    color_ui = rgb { 55 64 130 }
 }
 
 GYA = {
@@ -1304,13 +1304,12 @@ ITZ = {
 	color_ui = rgb { 102 102 0 }
 }
 
-JSU = {
-	color = { 152 152 73 }
-	color_ui = { 152 152 73 }
-}
 
-ANH = {
-	color = { -6 181 -306 }
-	color_ui = { -6 181 -306 }
+WAL = {
+	color = rgb { 181 171 32 }
+	color_ui = rgb { 181 171 32 }
 }
-
+ROL = {
+	color = rgb { 125 0 9 }
+	color_ui = rgb { 125 0 9 }
+}

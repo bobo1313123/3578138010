@@ -155,4 +155,9 @@ spriteTypes = {
 		name = "GFX_ideology_military_junta_fascism"
 		texturefile = "gfx/interface/ideologies/military_junta.dds"
 	}
+
+	spriteType = {#稳健进步主义
+		name = "GFX_ideology_steady_Progressivism_subtype"
+		texturefile = "gfx/interface/ideologies/steady_Progressivism_subtype.dds"
+	}
 }

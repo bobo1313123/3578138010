@@ -1,4 +1,58 @@
 characters={
+	CHI_Tang_Hualong = {#汤化龙
+		name = CHI_Tang_Hualong
+		portraits = {
+			civilian = {
+				large = GFX_CHI_Tang_Hualong
+			}
+		}
+		country_leader = {
+			ideology = steady_Progressivism_subtype
+			desc = CHI_Tang_Hualong_leader_desc
+		}
+	}
+	CHI_Gu_Zhongxiu = {#谷中秀
+		name = CHI_Gu_Zhongxiu
+		country_leader = {
+			ideology = liberalism_small
+		}
+	}
+
+	CHI_Ye_Gongchuo = {#叶恭绰
+		name = CHI_Ye_Gongchuo
+		country_leader = {
+			ideology = Conservatism_small
+		}
+	}
+
+	CHI_Cai_e = {#蔡锷
+		name = CHI_Cai_e
+		country_leader = {
+			ideology = authoritarianism_small
+		}
+	}
+
+	CHI_Cao_Kun = {#曹锟
+		name = CHI_Cao_Kun
+		country_leader = {
+			ideology = tttt_small
+		}
+	}
+
+	CHI_Zhang_Junmai = {#张君劢
+		name = CHI_Zhang_Junmai
+		country_leader = {
+			ideology = Social_democracy
+		}
+	}
+
+	CHI_Jiang_Kanghu = {#江亢虎
+		name = CHI_Jiang_Kanghu
+		country_leader = {
+			ideology = socialism_small
+		}
+	}
+
 	ROC_YUAN_SHI_KAI={
 		name=ROC_YUAN_SHI_KAI_NAME
 		portraits={

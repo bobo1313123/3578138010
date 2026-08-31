@@ -226,6 +226,9 @@ ideologies = {
 		types = {
 			democracy_small = {
 			}
+			steady_Progressivism_subtype = {#稳健进步主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {

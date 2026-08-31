@@ -36,7 +36,6 @@ set_variable = { Chinese_Communism_Party_Support = 130 }
 set_variable = { Chinese_Facsism_Party_Support = 10 }
 
 recruit_character = CHI_Hu_Han_Min
-recruit_character = CHI_chiang_kaishek
 recruit_character = CHI_zhang_guotao
 recruit_character = CHI_wang_jingwei
 recruit_character = CHI_weng_wenhao
@@ -75,6 +74,13 @@ recruit_character = CHI_random_prince_of_terror
 recruit_character = CHI_lin_sen
 recruit_character = CHI_wang_ganchang
 recruit_character = ROC_YUAN_SHI_KAI
+recruit_character = CHI_Tang_Hualong
+recruit_character = CHI_Gu_Zhongxiu
+recruit_character = CHI_Jiang_Kanghu
+recruit_character = CHI_Ye_Gongchuo
+recruit_character = CHI_Cai_e
+recruit_character = CHI_Cao_Kun
+recruit_character = CHI_Zhang_Junmai
 
 set_stability = 0.4
 set_war_support = 0.5
@@ -178,14 +184,16 @@ if = {
 add_ideas = {
 	### 初始民族精神 ###
 	CHI_Aftermath_of_the_stock_market_crash_1 #伦敦股殇余瘟
-	CHI_Difficult_Industrialization_1 #工业化堪为艰
-	CHI_Year_of_Career_Success #正值事业之年
-	CHI_super_president #超级大总统制
-	CHI_Rise_of_nationalism #民族主义崛起
-	CHI_slow_school #府学啄玉徐缓
-	CHI_Yuan_pride #袁帅武威扬望
-	CHI_Beiyang_army #刀枪鸣北洋军
-	CHI_farmer_eco #佃农家经济依
+	CHI_idea_XianZheng_Shiye
+	CHI_idea_controversial_jiaxu_parliament
+	CHI_limited_education
+	CHI_idea_banner_of_moderation
+	CHI_renshen_military_reform
+	CHI_provincial_autonomy_central_local_rift
+	CHI_idea_divided_national_conscience
+	CHI_idea_pacify_the_interior_first
+	CHI_idea_asia_first_democracy
+	CHI_idea_constitutional_amendment_crisis
 }
 
 save_global_event_target_as = WTT_current_china_leader
@@ -193,17 +201,55 @@ save_global_event_target_as = WTT_current_china_leader
 set_convoys = 40
 
 set_politics = {
-	ruling_party = Authoritarianism
+	ruling_party = Democracy
 	last_election = "1932.9.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	Authoritarianism = 51
-	progressivism = 2
-	liberalism = 3
-	Conservatism = 44
+	Democracy = 48
+	Liberalism = 30
+	Conservatism = 6
+	Authoritarianism = 10
+	tttt = 2
+	Progressivism = 3
+	Socialism = 1
+}
+
+promote_character = {
+	character = CHI_Tang_Hualong
+	ideology = steady_Progressivism_subtype
+}
+
+promote_character = {
+	character = CHI_Gu_Zhongxiu
+	ideology = liberalism_small
+}
+
+promote_character = {
+	character = CHI_Ye_Gongchuo
+	ideology = Conservatism_small
+}
+
+promote_character = {
+	character = CHI_Cai_e
+	ideology = authoritarianism_small
+}
+
+promote_character = {
+	character = CHI_Cao_Kun
+	ideology = tttt_small
+}
+
+promote_character = {
+	character = CHI_Zhang_Junmai
+	ideology = Social_democracy
+}
+
+promote_character = {
+	character = CHI_Jiang_Kanghu
+	ideology = socialism_small
 }
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }

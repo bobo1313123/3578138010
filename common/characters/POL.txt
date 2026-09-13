@@ -1,4 +1,4 @@
-
+character = {
 	POL_anna_andersson = {
 		name="Anastasia Romanov"
 		portraits = {

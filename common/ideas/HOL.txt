@@ -18,7 +18,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.1
-				Communism__drift = 0.01
+				Communism_drift = 0.01
 			}
 		
 		}		

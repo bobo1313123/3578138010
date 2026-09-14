@@ -15,7 +15,7 @@ set_popularities = {
 add_ideas = {
 	BBR_Unorganized_leadership #无组织的领导层
 	BBR_revolutionary_enthusiasm_1 #革命热情
-	BBR_Confederate_siege #邦联的围剿
+	#BBR_Confederate_siege #邦联的围剿
 }
 
 recruit_character = BBR_Bayard_Rustin #贝亚德·鲁斯汀

@@ -1,0 +1,26 @@
+
+state={
+	id = 1490
+	name="STATE_1490"
+	manpower = 28261
+	resources={
+
+	}
+	
+	state_category = town
+
+	history={
+		owner = POL
+		buildings = {
+		
+		}
+		add_core_of = POL
+	
+	}
+
+	provinces={
+		13378 11385
+	}
+
+	local_supplies=0.0 
+}

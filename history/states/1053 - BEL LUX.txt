@@ -12,6 +12,8 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = BEL
+		add_core_of = LUX
+		add_core_of = WAL
 	}
 
 	provinces={

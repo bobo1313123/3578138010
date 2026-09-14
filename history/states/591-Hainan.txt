@@ -9,8 +9,7 @@ state={
 	}
 
 	history={
-		owner = GAD
-		add_core_of = GAD
+		owner = CHI
 		add_core_of = GXC
 		add_core_of = CHI
 		add_core_of = PRC

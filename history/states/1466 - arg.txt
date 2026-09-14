@@ -1,0 +1,29 @@
+
+state={
+	id = 1466
+	name="STATE_1466"
+	manpower = 28261
+	resources={
+
+	}
+	
+	state_category = town
+
+	history={
+		owner = ARG
+		buildings = {
+			13542 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		13541 12379 13542
+	}
+
+	local_supplies=0.0 
+}

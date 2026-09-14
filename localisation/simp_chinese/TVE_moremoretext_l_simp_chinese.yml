@@ -7,6 +7,26 @@ HOL_BEL_LUX: "尼德兰联合王国"
 COG_FREEDOM: "刚果自由邦"
 BEL_FLD: "弗兰德军事委员会"
 ROL_RED: "低地人民共和国"
+POL_LIT_UNIN: "波兰-立陶宛联盟"
+
+
+
+SE_title_text: "[SE_title_text_loc]"
+SE_desc_text: "[SE_desc_text_loc]"
+SE_bottom_text: "[SE_bottom_text_loc]"
+
+
+SE_title_text_loc.1: "意大利再统一"
+SE_bottom_text_loc.1: "领袖！"
+SE_title_desc_loc.1: "MAKE ITALY GREAT AGAIN"
+
+SE_title_text_loc.2: "巴尔干战争"
+SE_bottom_text_loc.2: "火药桶又炸了"
+SE_title_desc_loc.2: "在关乎民族未来的荣誉与利益的重大道德问题上，没有讨价还价的余地，没有权宜之计的借口。\n——I·C·布勒蒂亚努"
+
+SE_title_text_loc.3: "欧陆战争"
+SE_bottom_text_loc.3: "世界再陷入战火"
+SE_title_desc_loc.3: "拿起武器，任何犹豫，任何动摇都是对祖国的背叛。\n-威廉二世《告德意志人民书》"
 #国策本地化
 aus_difficult_walk: "艰难航行"
 aus_empersay: "皇帝演说"

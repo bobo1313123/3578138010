@@ -1,0 +1,24 @@
+
+state={
+	id = 1475
+	name="STATE_1475"
+	manpower = 28261
+	resources={
+
+	}
+	
+	state_category = town
+
+	history={
+		owner = COL
+		
+		
+		add_core_of = COL
+	}
+
+	provinces={
+		13558 13557 13556
+	}
+
+	local_supplies=0.0 
+}

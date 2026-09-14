@@ -182,3 +182,108 @@ news_event = {
 		name = POL_TVE.10.a
 	}
 }
+country_event = {
+	id = POL_TVE.11
+	title = POL_TVE.11.t
+	desc =POL_TVE.11.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		
+		name = POL_TVE.A.11
+		POL = {
+				white_peace = UKR
+		}
+		UKR = {
+			transfer_state = 1491 
+			transfer_state = 1492
+			#transfer_state = 91
+		
+		}
+		country_event = {
+			id = POL_TVE.12
+			hours = 24
+		}
+		
+			
+			
+		
+		
+	}
+}
+country_event = {
+	id = POL_TVE.12
+	title = POL_TVE.12.t
+	desc =POL_TVE.12.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		
+		name = POL_TVE.A.12
+		POL = {
+			remove_from_faction = POL
+			remove_from_faction = LIT
+			remove_from_faction = BLR
+			transfer_state = 1050
+			set_autonomy = {
+				target = BLR
+				autonomy_state = autonomy_free
+			}
+		}
+		LIT = {
+			transfer_state = 1498
+		}
+		country_event = {
+			id = POL_TVE.13
+			hours = 24
+		}
+		
+			
+			
+		
+		
+	}
+}
+country_event = {
+	id = POL_TVE.13
+	title = POL_TVE.13.t
+	desc =POL_TVE.13.desc
+	#picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		
+		name = POL_TVE.A.13
+		every_state = {
+			limit = {
+				is_core_of = LIT
+			}
+			add_core_of = POL
+		}
+		POL = {
+			set_cosmetic_tag = POL_LIT_UNIN
+			annex_country = { target = LIT transfer_troops = yes }
+		}
+		country_event = {
+			id = POL_TVE.14
+			hours = 24
+		}
+		
+		hidden_effect = {
+			SOV = {
+				set_autonomy = {
+					target = BLR
+					autonomy_state = autonomy_dominion
+				}
+			}
+		}
+			
+		
+		
+	}
+}

@@ -20,61 +20,9 @@ if = {
 	}
 }
 set_research_slots = 5
-set_cosmetic_tag = ROC
 
-set_variable = { Fan_Asian_support = 47 }
-set_variable = { Fan_Asian_support_pp = Fan_Asian_support }
-divide_variable = { Fan_Asian_support_pp = 1500 }
-set_variable = {Fan_Asian_support_st = Fan_Asian_support }
-divide_variable = { Fan_Asian_support_st = 1000 }
-set_variable = { angry_with_Western = -0.07 }
-
-
-#ROC_National_Assembly
-set_variable = { Chinese_Kuo_Ming_Tang_Support = 194 }
-set_variable = { Chinese_Communism_Party_Support = 130 }
-set_variable = { Chinese_Facsism_Party_Support = 10 }
-
-recruit_character = CHI_Hu_Han_Min
-recruit_character = CHI_chiang_kaishek
-recruit_character = CHI_zhang_guotao
-recruit_character = CHI_wang_jingwei
-recruit_character = CHI_weng_wenhao
-recruit_character = CHI_tu_yuming
-recruit_character = CHI_hsueh_yueh
-recruit_character = CHI_tai_anlan
-recruit_character = CHI_wang_yaowu
-recruit_character = CHI_sun_li_jen
-recruit_character = CHI_hu_zongnan
-recruit_character = CHI_gu_zhutong
-recruit_character = CHI_wei_lihuang
-recruit_character = CHI_fu_zuoyi
-recruit_character = CHI_zhang_xueliang
-recruit_character = CHI_fang_zeyi
-recruit_character = CHI_zhu_de
-recruit_character = CHI_chen_cheng
-recruit_character = CHI_li_zongren
-recruit_character = CHI_bo_yibo
-recruit_character = CHI_huang_shen
-recruit_character = CHI_chen_jitang
-recruit_character = CHI_wang_shuming
-recruit_character = CHI_bai_chongxi
-recruit_character = CHI_zhou_zhirou
-recruit_character = CHI_xiao_yisu
-recruit_character = CHI_chen_shaokuan
-recruit_character = CHI_xiao_jinguang
-recruit_character = CHI_yu_hanmou
-recruit_character = CHI_he_yingqin
-recruit_character = CHI_gao_zhihang
-recruit_character = CHI_h_h_kung
-recruit_character = CHI_chen_guofu
-recruit_character = CHI_chiang_ching_kuo
-recruit_character = CHI_chen_yi
-recruit_character = CHI_soong_mei_ling
-recruit_character = CHI_random_prince_of_terror
-recruit_character = CHI_lin_sen
-recruit_character = CHI_wang_ganchang
-recruit_character = ROC_YUAN_SHI_KAI
+#领导人
+recruit_character = CHI_Tang_Hualong #汤化龙
 
 set_stability = 0.4
 set_war_support = 0.5
@@ -129,52 +77,6 @@ if = {
 	}
 }
 
-600 = { #Jiangxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-749 = { #Huangshan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-606 = { #Anhui
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-607 = { #Henan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-620 = { #Hubei
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-602 = { #Hunan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-750 = { #Changde
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-744 = { #Xian
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-605 = { #Sichuan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-748 = { #Zunyi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-603 = { #Guizhu
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-615 = { #Shanxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-622 = { #Shaanxi
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-325 = { #Yunnan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-325 = { #Dali
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-
 add_ideas = {
 	### 初始民族精神 ###
 	CHI_Aftermath_of_the_stock_market_crash_1 #伦敦股殇余瘟
@@ -193,17 +95,20 @@ save_global_event_target_as = WTT_current_china_leader
 set_convoys = 40
 
 set_politics = {
-	ruling_party = Authoritarianism
+	ruling_party = Democracy
 	last_election = "1932.9.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	Authoritarianism = 51
-	progressivism = 2
-	liberalism = 3
-	Conservatism = 44
+	Democracy = 48
+	Liberalism = 30
+	Conservatism = 6
+	Authoritarianism = 10
+	tttt = 2
+	Progressivism = 3
+	Socialism = 1
 }
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }

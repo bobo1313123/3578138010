@@ -37,6 +37,11 @@ spriteTypes = {
 		name = "GFX_BUL_Kimon_Georgiev_large"
 		texturefile = "gfx/leaders/BUL/BUL_Kimon_Georgiev.png"
 	}
+	#中华民国
+	spriteType = {
+		name = "GFX_CHI_Tang_Hualong_large"
+		texturefile = "gfx/leaders/CHI/CHI_Tang_Hualong.dds"
+	}
 	#波兰
 	#领导人
 	spriteType = {

@@ -81,6 +81,14 @@ add_ideas = {
 	### 初始民族精神 ###
 	CHI_Aftermath_of_the_stock_market_crash_1 #伦敦股殇
 	CHI_Good_Constitution #宪治稳实业兴
+	CHI_Bad_Education_1 #教化未广，文教不兴
+	CHI_Banner_of_Stability #“稳健”为帜
+	CHI_State_Divergences #国心两歧
+	CHI_Asias_first_democracy #亚洲第一民主国
+	CHI_renshen_reform #壬申军改
+	CHI_Questioned_Jiaxu_Congress #备受争议的“甲戌国会”
+	CHI_Provincial_Autonomy_CentralLocal_Tension #省宪自治：央地不和
+	CHI_Stable_Internally_first #“攘外必先安内”
 
 	### 废弃民族精神 ###
 	#CHI_Difficult_Industrialization_1 #工业化堪为艰

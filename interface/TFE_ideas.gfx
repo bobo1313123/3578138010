@@ -32,6 +32,91 @@ spriteTypes = {
 		name = "GFX_idea_Good_Constitution"
 		texturefile = "gfx/interface/ideas/CHI/Good_Constitution.png"
 	}
+	spriteType = {
+		name = "GFX_idea_Good_Constitution_desc"
+		texturefile = "gfx/interface/ideas/CHI/Good_Constitution_desc.png"
+		legacy_lazy_load = no
+	}
+	#教化未广，文教不兴
+	spriteType = {
+		name = "GFX_idea_Bad_Education_1"
+		texturefile = "gfx/interface/ideas/CHI/Bad_Education_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Bad_Education_1_desc"
+		texturefile = "gfx/interface/ideas/CHI/Bad_Education_1_desc.png"
+		legacy_lazy_load = no
+	}
+	#“稳健”为帜
+	spriteType = {
+		name = "GFX_idea_Banner_of_Stability"
+		texturefile = "gfx/interface/ideas/CHI/Banner_of_Stability.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Banner_of_Stability_desc"
+		texturefile = "gfx/interface/ideas/CHI/Banner_of_Stability_desc.png"
+		legacy_lazy_load = no
+	}
+	#国心两歧
+	spriteType = {
+		name = "GFX_idea_State_Divergences"
+		texturefile = "gfx/interface/ideas/CHI/State_Divergences.png"
+	}
+	spriteType = {
+		name = "GFX_idea_State_Divergences_desc"
+		texturefile = "gfx/interface/ideas/CHI/State_Divergences_desc.png"
+		legacy_lazy_load = no
+	}
+	#亚洲第一民主国
+	spriteType = {
+		name = "GFX_idea_Asias_first_democracy"
+		texturefile = "gfx/interface/ideas/CHI/Asias_first_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Asias_first_democracy_desc"
+		texturefile = "gfx/interface/ideas/CHI/Asias_first_democracy_desc.png"
+		legacy_lazy_load = no
+	}
+	#“攘外必先安内”
+	spriteType = {
+		name = "GFX_idea_Stable_Internally_first"
+		texturefile = "gfx/interface/ideas/CHI/Stable_Internally_first.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Stable_Internally_first_desc"
+		texturefile = "gfx/interface/ideas/CHI/Stable_Internally_first_desc.png"
+		legacy_lazy_load = no
+	}
+	#壬申军改
+	spriteType = {
+		name = "GFX_idea_renshen_reform"
+		texturefile = "gfx/interface/ideas/CHI/renshen_reform.png"
+	}
+	spriteType = {
+		name = "GFX_idea_renshen_reform_desc"
+		texturefile = "gfx/interface/ideas/CHI/renshen_reform_desc.png"
+		legacy_lazy_load = no
+	}
+	#备受争议的“甲戌国会”
+	spriteType = {
+		name = "GFX_idea_Questioned_Jiaxu_Congress"
+		texturefile = "gfx/interface/ideas/CHI/Questioned_Jiaxu_Congress.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Questioned_Jiaxu_Congress_desc"
+		texturefile = "gfx/interface/ideas/CHI/Questioned_Jiaxu_Congress_desc.png"
+		legacy_lazy_load = no
+	}
+	#省宪自治：央地不和
+	spriteType = {
+		name = "GFX_idea_Provincial_Autonomy_CentralLocal_Tension"
+		texturefile = "gfx/interface/ideas/CHI/Provincial_Autonomy_CentralLocal_Tension.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Provincial_Autonomy_CentralLocal_Tension_desc"
+		texturefile = "gfx/interface/ideas/CHI/Provincial_Autonomy_CentralLocal_Tension_desc.png"
+		legacy_lazy_load = no
+	}
 	#工业化堪为艰
 	spriteType = {
 		name = "GFX_idea_Difficult_Industrialization"

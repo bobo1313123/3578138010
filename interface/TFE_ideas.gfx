@@ -17,10 +17,20 @@ spriteTypes = {
 	}
 	#中国民族精神
 
-	#伦敦股殇余瘟
+	#伦敦股殇
 	spriteType = {
 		name = "GFX_idea_stock_market_crash"
 		texturefile = "gfx/interface/ideas/CHI/stock_market_crash.png"
+	}
+	spriteType = {
+		name = "GFX_idea_stock_market_crash_desc"
+		texturefile = "gfx/interface/ideas/CHI/stock_market_crash_desc.png"
+		legacy_lazy_load = no
+	}
+	#宪治稳实业兴
+	spriteType = {
+		name = "GFX_idea_Good_Constitution"
+		texturefile = "gfx/interface/ideas/CHI/Good_Constitution.png"
 	}
 	#工业化堪为艰
 	spriteType = {

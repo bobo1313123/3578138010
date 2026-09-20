@@ -79,15 +79,18 @@ if = {
 
 add_ideas = {
 	### 初始民族精神 ###
-	CHI_Aftermath_of_the_stock_market_crash_1 #伦敦股殇余瘟
-	CHI_Difficult_Industrialization_1 #工业化堪为艰
-	CHI_Year_of_Career_Success #正值事业之年
-	CHI_super_president #超级大总统制
-	CHI_Rise_of_nationalism #民族主义崛起
-	CHI_slow_school #府学啄玉徐缓
-	CHI_Yuan_pride #袁帅武威扬望
-	CHI_Beiyang_army #刀枪鸣北洋军
-	CHI_farmer_eco #佃农家经济依
+	CHI_Aftermath_of_the_stock_market_crash_1 #伦敦股殇
+	CHI_Good_Constitution #宪治稳实业兴
+
+	### 废弃民族精神 ###
+	#CHI_Difficult_Industrialization_1 #工业化堪为艰
+	#CHI_Year_of_Career_Success #正值事业之年
+	#CHI_super_president #超级大总统制
+	#CHI_Rise_of_nationalism #民族主义崛起
+	#CHI_slow_school #府学啄玉徐缓
+	#CHI_Yuan_pride #袁帅武威扬望
+	#CHI_Beiyang_army #刀枪鸣北洋军
+	#CHI_farmer_eco #佃农家经济依
 }
 
 save_global_event_target_as = WTT_current_china_leader

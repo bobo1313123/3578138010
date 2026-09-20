@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
         ### 初始民族精神 ###
-        #伦敦股殇余瘟
+        #伦敦股殇
         CHI_Aftermath_of_the_stock_market_crash_1 = {
 			on_add = { log = "[GetLogRoot]: add idea CHI_Aftermath_of_the_stock_market_crash_1" }
 			picture = stock_market_crash
@@ -14,6 +14,21 @@ ideas = {
 		        production_speed_arms_factory_factor = -0.2
                 production_speed_infrastructure_factor = -0.2
                 min_export = -0.15
+			}
+		}
+        #宪治稳实业兴
+        CHI_Good_Constitution = {
+			on_add = { log = "[GetLogRoot]: add idea CHI_Good_Constitution" }
+			picture = Good_Constitution
+			allowed = { always = no }
+			modifier = {
+                political_power_factor = 0.10
+				political_power_gain = 0.20
+                stability_factor = 0.05
+                production_speed_buildings_factor = 0.05
+                production_speed_industrial_complex_factor = 0.05
+		        production_speed_arms_factory_factor = 0.05
+                production_speed_infrastructure_factor = 0.10
 			}
 		}
         #工业化堪为艰

@@ -161,6 +161,12 @@ defined_text = {
 	name = GetSubIdeologyLocSocLib
 	#民主主义及其子意识形态
 	text = {
+		trigger = { #稳健进步主义
+			has_country_leader_ideology = steady_Progressivism_subtype
+		}
+		localization_key = steady_Progressivism_subtype
+	}
+	text = {
 		trigger = { #民主主义
 			has_country_leader_ideology = democracy_small
 		}

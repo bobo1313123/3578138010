@@ -19,6 +19,7 @@ if = {
 		}
 	}
 }
+set_cosmetic_tag = ROC_TangsDemo
 set_research_slots = 5
 
 #领导人
@@ -26,15 +27,6 @@ recruit_character = CHI_Tang_Hualong #汤化龙
 
 set_stability = 0.4
 set_war_support = 0.5
-
-set_autonomy = {
-	target = TIB
-	autonomy_state = autonomy_personal_union
-}
-set_autonomy = {
-	target = MON
-	autonomy_state = autonomy_personal_union
-}
 
 # Starting tech
 set_technology = {

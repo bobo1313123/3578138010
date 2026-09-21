@@ -4,19 +4,19 @@ state={
 	provinces={
 		4900 12807 
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
-		owner = TIB
+		owner = CHI
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 			arms_factory = 1
 		}
 		add_core_of = TIB
+		add_core_of = CHI
 
 	}
-
 	local_supplies=0.0 
+	manpower=25000
+	buildings_max_level_factor=1.000
 }

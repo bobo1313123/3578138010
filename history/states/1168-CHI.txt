@@ -1,13 +1,17 @@
 state={
 	id=1168
 	name="STATE_1168"
-	manpower = 1270509
+	manpower = 30509
 
 	state_category = rural
 
 	history={
-		owner = MON
+		owner = CHI
+		buildings = {
+			infrastructure = 0
+		}
 		add_core_of = MON
+		add_core_of = CHI
 	}
 
 	provinces={

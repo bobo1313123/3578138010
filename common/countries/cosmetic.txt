@@ -1,3 +1,9 @@
+#汤化龙的土黄民国
+ROC_TangsDemo = {
+	color = rgb { 200 150 45 }
+	color_ui = rgb { 200 150 45 }
+}
+
 bo_luo_di_sea = {
 	color = rgb { 138 155 116 }
 	color_ui = rgb { 138 155 116 }

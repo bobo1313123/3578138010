@@ -1,13 +1,17 @@
 state={
 	id=1196
 	name="STATE_1196"
-	manpower = 1270509
+	manpower = 60509
 
 	state_category = rural
 
 	history={
-		owner = TIB
+		owner = CHI
+		buildings = {
+			infrastructure = 0
+		}
 		add_core_of = TIB
+		add_core_of = CHI
 	}
 
 	provinces={

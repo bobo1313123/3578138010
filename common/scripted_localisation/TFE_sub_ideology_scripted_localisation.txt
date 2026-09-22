@@ -313,6 +313,12 @@ defined_text = {
 		}
 		localization_key = military_junta
     }
+	text = {
+		trigger = { #军政府-法西斯主义
+			has_country_leader_ideology = National_fascism
+		}
+		localization_key = National_fascism
+    }
 }
 defined_text = {
 	name = GetSubIdeologyLocFascist

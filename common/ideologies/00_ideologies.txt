@@ -455,12 +455,15 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			MEX_cosmic_racism = { #宇宙种族主义
-
+				can_be_randomly_selected = no
 			}
 			Trujillos_ideology = { #特鲁希略的意识形态
-
+				can_be_randomly_selected = no
 			}
-			military_junta_fascism = { # 军政府-法西斯主义
+			military_junta_fascism = { #军政府-法西斯主义
+				can_be_randomly_selected = no
+			}
+			National_fascism = { #国家法西斯主义
 				can_be_randomly_selected = no
 			}
 		}

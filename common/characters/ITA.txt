@@ -64,20 +64,6 @@ characters = {
 			id=-1
 		}
 	}
-	TVE_LBV_LEADERS = {
-		name=TVE_LBV_LEADERS
-		portraits={
-			civilian={
-				large=GFX_TVE_LBV_LEADERS
-			}
-		}
-		country_leader={
-			ideology = Absolute_monarchy
-			traits={  }
-			expire="1947.1.1.1"
-			id=-1
-		}
-	}
 	ITA_Mussolini = {
 		name=ITA_Mussolini
 		portraits={

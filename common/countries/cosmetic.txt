@@ -3,6 +3,11 @@ ROC_TangsDemo = {
 	color = rgb { 200 150 45 }
 	color_ui = rgb { 200 150 45 }
 }
+#墨索里尼的民族共和国
+LBV_Mussolini_first = {
+	color = rgb { 126 24 42 }
+	color_ui = rgb { 126 24 42 }
+}
 
 bo_luo_di_sea = {
 	color = rgb { 138 155 116 }

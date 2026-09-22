@@ -94,10 +94,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GER_HITTLER.dds"
 	}
 	spriteType = {
-		name = "GFX_ITA_Mussolini"
-		texturefile = "gfx/leaders/ITA_Mussolini.dds"
-	}
-	spriteType = {
 		name = "GFX_JAP_Hirohito"
 		texturefile = "gfx/leaders/JAP_Hirohito.dds"
 	}

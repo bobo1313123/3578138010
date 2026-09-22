@@ -1,0 +1,17 @@
+characters={
+	#领导人
+	#贝尼托·墨索里尼
+	LBV_Benito_Mussolini = {
+		name= LBV_Benito_Mussolini
+		portraits={
+			civilian={
+				large=GFX_LBV_Benito_Mussolini_large
+			}
+		}
+		country_leader={
+			desc = LBV_Benito_Mussolini_desc
+			ideology= National_fascism
+			traits= { LBV_Arrogant_Dictator }
+		}
+	}
+}

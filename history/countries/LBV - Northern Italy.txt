@@ -4,13 +4,17 @@ set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
 
+
+
 add_ideas = {
 
 }
 
-recruit_character = ITA_Mussolini
+set_cosmetic_tag = LBV_Mussolini_first
 
-set_cosmetic_tag = LBV_COM_FA
+#领导人
+recruit_character = LBV_Benito_Mussolini #贝尼托·墨索里尼
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -107,10 +111,9 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Liberalism = 10
-	fascism = 60
-	Communism = 20
-	tttt = 10
+	fascism = 93.5
+	Socialism = 4.5
+	Conservatism = 2
 }
 
 recruit_character = LBV_robert_von_habsburg

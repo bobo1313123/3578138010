@@ -65,6 +65,12 @@ spriteTypes = {
 		name = "GFX_POL_Edward_Rydz_Smigly_small"
 		texturefile = "gfx/interface/advisors/POL/POL_Edward_Rydz_Smigly.png"
 	}
+	#北意大利（意大利民族共和国）
+	#领导人
+	spriteType = {
+		name = "GFX_LBV_Benito_Mussolini_large"
+		texturefile = "gfx/leaders/LBV/LBV_Benito_Mussolini.png"
+	}
 
 
 	
@@ -167,10 +173,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GER_HITTLER"
 		texturefile = "gfx/leaders/GER_HITTLER.dds"
-	}
-	spriteType = {
-		name = "GFX_ITA_Mussolini"
-		texturefile = "gfx/leaders/ITA_Mussolini.dds"
 	}
 	spriteType = {
 		name = "GFX_REZHEN"
@@ -356,10 +358,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ITA_Gramsci"
 		texturefile = "gfx/leaders/ITA/ITA_Gramsci.png"
-	}
-	spriteType = {
-		name = "ITA_Mussolini"
-		texturefile = "gfx/leaders/ITA/ITA_Mussolini.png"
 	}
 	spriteType = {
 		name = "GFX_POR_hesai"

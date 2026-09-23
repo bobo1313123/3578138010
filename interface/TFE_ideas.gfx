@@ -15,6 +15,17 @@ spriteTypes = {
 		name = "GFX_idea_well_industry"
 		texturefile = "gfx/interface/ideas/_industry.dds"
 	}
+	#意大利地区通用民族精神
+	#内战旷久
+	spriteType = {
+		name = "GFX_idea_Protracted_civilwar"
+		texturefile = "gfx/interface/ideas/LBV/Protracted_civilwar.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Protracted_civilwar_desc"
+		texturefile = "gfx/interface/ideas/LBV/Protracted_civilwar_desc.png"
+		legacy_lazy_load = no
+	}
 	#中国民族精神
 
 	#伦敦股殇
@@ -230,4 +241,26 @@ spriteTypes = {
 		name = "GFX_idea_winner_of_RussoJapanese_War"
 		texturefile = "gfx/interface/ideas/JAP/winner_of_RussoJapanese_War.png"
 	}
+	#北意大利民族精神
+	#瘫痪的黑衫军
+	spriteType = {
+		name = "GFX_idea_Paralyzed_Blackshirts"
+		texturefile = "gfx/interface/ideas/LBV/Paralyzed_Blackshirts.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Paralyzed_Blackshirts_desc"
+		texturefile = "gfx/interface/ideas/LBV/Paralyzed_Blackshirts_desc.png"
+		legacy_lazy_load = no
+	}
+	#岌岌可危的委员会
+	spriteType = {
+		name = "GFX_idea_Committee_in_danger"
+		texturefile = "gfx/interface/ideas/LBV/Committee_in_danger.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Committee_in_danger_desc"
+		texturefile = "gfx/interface/ideas/LBV/Committee_in_danger_desc.png"
+		legacy_lazy_load = no
+	}
+
 }

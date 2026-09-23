@@ -7,7 +7,13 @@ set_war_support = 0.5
 
 
 add_ideas = {
+	### 初始法案 ###
+	service_by_requirement #按需服兵役
 
+	### 初始民族精神 ###
+	ITAG_Protracted_civilwar #内战旷久
+	LBV_Paralyzed_Blackshirts #瘫痪的黑衫军
+	LBV_Committee_in_danger #岌岌可危的委员会
 }
 
 set_cosmetic_tag = LBV_Mussolini_first

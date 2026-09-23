@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+		### 内战通用民族精神 ###
+		#内战旷久
+		ITAG_Protracted_civilwar = {
+			on_add = { log = "[GetLogRoot]: add idea ITAG_Protracted_civilwar" }
+			picture = Protracted_civilwar
+			allowed = { always = no }
+			modifier = {
+				war_support_factor = -0.10
+				conscription = -0.035
+				non_core_manpower = -0.0025
+				consumer_goods_factor = 0.20
+			}
+		}
+
+        ### 初始民族精神 ###
+        #瘫痪的黑衫军
+        LBV_Paralyzed_Blackshirts = {
+			on_add = { log = "[GetLogRoot]: add idea LBV_Paralyzed_Blackshirts" }
+			picture = Paralyzed_Blackshirts
+			allowed = { always = no }
+			modifier = {
+				army_org_factor = -0.20
+				army_morale_factor = -0.20
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+			}
+		}
+		#岌岌可危的委员会
+		LBV_Committee_in_danger = {
+			on_add = { log = "[GetLogRoot]: add idea LBV_Committee_in_danger" }
+			picture = Committee_in_danger
+			allowed = { always = no }
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+    }
+}

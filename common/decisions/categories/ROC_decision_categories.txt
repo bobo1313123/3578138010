@@ -1,0 +1,26 @@
+ROC_Fan_Asian = {
+	icon = decision_SWE_set_army_budget
+
+	picture = GFX_Fan_Asian
+
+	allowed = {
+		OR = {
+			original_tag = CHI
+			original_tag = JAP
+		}
+	}
+	visible = {
+		NOT = {
+			has_country_flag = Brother's_Wall
+		}
+	}
+	priority = 998
+}
+ROC_National_Assembly = {
+	icon = decision_SWE_set_army_budget
+
+	allowed = {
+		original_tag = CHI
+	}
+	priority = 998
+}

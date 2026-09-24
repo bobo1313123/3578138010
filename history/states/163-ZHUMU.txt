@@ -6,10 +6,9 @@ state = {
 	state_category = enclave
 	
 	history = {
-		owner = YUG
-		add_core_of = YUG
+		owner = CRO
+		add_claim_by = YUG
 		add_core_of = CRO
-		add_core_of = LBV
 		#start_resistance = CRO #Yugoslavia shouldn't resist occupation
 		buildings = {
 			infrastructure = 3

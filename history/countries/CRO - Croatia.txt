@@ -40,7 +40,7 @@ if = {
 
 set_convoys = 5
 
-set_cosmetic_tag = YUG_CRO
+set_cosmetic_tag = AUS_CRO
 
 1939.1.1 = {
 

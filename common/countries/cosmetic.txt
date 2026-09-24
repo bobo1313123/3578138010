@@ -130,9 +130,9 @@ KAZ_color = {
 	color_ui = rgb { 14 115 229 }
 }
 
-YUG_CRO = {
-	color = rgb { 0 217 200 }
-	color_ui = rgb { 13 217 200 }
+AUS_CRO = {
+	color = rgb { 209 199 199 }
+	color_ui = rgb { 209 199 199 }
 }
 
 YUG_BOS = {

@@ -93,7 +93,7 @@ recruit_character = IRE_ernest_walton
 }
 
 set_politics = {
-	ruling_party = Communism
+	ruling_party = communism
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
@@ -101,5 +101,5 @@ set_politics = {
 set_popularities = {
 	Conservatism = 48
 	fascism = 50
-	Communism = 2
+	communism = 2
 }

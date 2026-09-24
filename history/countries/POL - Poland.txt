@@ -135,7 +135,7 @@ if = {
 		value = 30
 	}
 	set_variable = {
-		var = pol_peasant_Communism
+		var = pol_peasant_communism
 		value = 30
 	}
 }
@@ -166,7 +166,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Communism = 10 
+	communism = 10 
 	Socialism = 10
 	Progressivism = 30
 	Liberalism = 2

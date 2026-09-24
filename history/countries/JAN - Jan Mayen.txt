@@ -70,7 +70,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 0
 	fascism = 0
-	Communism = 0
+	communism = 0
 	Authoritarianism = 100
 }
 add_research_slot = 2

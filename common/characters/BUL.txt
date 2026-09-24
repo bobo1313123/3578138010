@@ -431,7 +431,7 @@ characters = {
 					has_completed_focus = BUL_oppose_the_royal_dictatorship
 				}
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			
@@ -562,7 +562,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			traits = {
@@ -688,7 +688,7 @@ characters = {
 				}
 				available = {
 					NOT = {
-						has_government = Communism
+						has_government = communism
 					}
 				}
 				traits = {
@@ -755,7 +755,7 @@ characters = {
 				}
 				available = {
 					NOT = {
-						has_government = Communism
+						has_government = communism
 					}
 				}
 				traits = {
@@ -904,7 +904,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			traits = {
@@ -977,7 +977,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			traits = {
@@ -1040,7 +1040,7 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_government = Communism
+				has_government = communism
 				has_country_flag = BUL_back_from_the_scw_flag
 			}
 			traits = {
@@ -1170,7 +1170,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			traits = {
@@ -1208,7 +1208,7 @@ characters = {
 				}
 				available = {
 					NOT = {
-						has_government = Communism
+						has_government = communism
 					}
 				}
 				traits = {
@@ -1279,7 +1279,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			traits = {
@@ -1312,7 +1312,7 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_government = Communism
+				has_government = communism
 			}
 			traits = {
 				army_entrenchment_2
@@ -1418,7 +1418,7 @@ characters = {
 				}
 				available = {
 					NOT = {
-						has_government = Communism 
+						has_government = communism 
 					}
 					BUL_has_abolished_monarchy = no 
 				}
@@ -1915,7 +1915,7 @@ characters = {
 			available = {
 				has_country_flag = BUL_appointed_nsm_members_flag 
 				NOT = {
-					has_government = Communism 
+					has_government = communism 
 				}
 			}
 			traits = {
@@ -1958,7 +1958,7 @@ characters = {
 					has_government = Liberalism 
 				}
 				NOT = {
-					has_government = Communism 
+					has_government = communism 
 				}
 			}
 			traits = {
@@ -2054,7 +2054,7 @@ characters = {
 					has_government = Liberalism 
 				}
 				NOT = {
-					has_government = Communism 
+					has_government = communism 
 				}
 			}
 			visible = {
@@ -2094,7 +2094,7 @@ characters = {
 					has_government = Liberalism 
 				}
 				NOT = {
-					has_government = Communism 
+					has_government = communism 
 				}
 			}
 			visible = {

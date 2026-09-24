@@ -87,6 +87,6 @@ set_popularities = {
 	Progressivism = 12
 	Liberalism = 19
 	nazism = 15
-	Communism = 2
+	communism = 2
 	Authoritarianism = 9
 }

@@ -31,8 +31,8 @@ leader_traits = {
 	}
 	CSA_Populist_agitators = { # 民粹煽动者
 		political_power_gain = 0.1
-		Communism_acceptance = -80
+		communism_acceptance = -80
 		stability_factor = 0.1
-		Communism_drift = -0.05
+		communism_drift = -0.05
 	}
 }

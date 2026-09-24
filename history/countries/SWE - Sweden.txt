@@ -282,7 +282,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 75
 	Authoritarianism = 14
-	Communism = 8
+	communism = 8
 	fascism = 3
 }
 
@@ -296,7 +296,7 @@ set_popularities = {
 	set_popularities = {
 		Liberalism = 85
 		Authoritarianism = 10
-		Communism = 4
+		communism = 4
 		fascism = 1
 	}
 }
@@ -743,9 +743,9 @@ if = {
 	#activate_mission = SWE_BoP_election_countdown
 
 	set_party_name = {
-		ideology = Communism
-		name = SWE_aat_Communism_party
-		long_name = SWE_aat_Communism_party_long
+		ideology = communism
+		name = SWE_aat_communism_party
+		long_name = SWE_aat_communism_party_long
 	}
 
 	set_party_name = {

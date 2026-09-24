@@ -357,7 +357,7 @@ set_politics = {
 set_popularities = {
 	Conservatism = 60
 	fascism = 18
-	Communism = 2
+	communism = 2
 	Authoritarianism = 20
 }
 
@@ -378,7 +378,7 @@ create_country_leader = {
 	set_popularities = {
 		Liberalism = 20
 		fascism = 35
-		Communism = 2
+		communism = 2
 		Authoritarianism = 43
 	}
 }

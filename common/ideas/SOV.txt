@@ -506,7 +506,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 
 			modifier = {
@@ -522,7 +522,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 
 			modifier = {
@@ -543,7 +543,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 		}
 
@@ -1127,7 +1127,7 @@ ideas = {
 			}
 		}
 
-		SOV_young_builders_of_Communism = { #Comes from Propaganda Campaign
+		SOV_young_builders_of_communism = { #Comes from Propaganda Campaign
 			removal_cost = -1
 
 			allowed = {
@@ -1248,7 +1248,7 @@ ideas = {
 			}
 		}
 
-		SOV_support_in_china_Communism = {
+		SOV_support_in_china_communism = {
 			name = SOV_support_in_china_generic
 
 			removal_cost = -1
@@ -1271,10 +1271,10 @@ ideas = {
 				}
 			}
 
-			picture = generic_Communism_drift_bonus
+			picture = generic_communism_drift_bonus
 
 			modifier = {
-				Communism_acceptance = 15
+				communism_acceptance = 15
 			}
 		}
 
@@ -1698,7 +1698,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = 0.05
 				research_speed_factor = 0.02
 				drift_defence_factor = 0.05
-				Communism_drift = 0.05
+				communism_drift = 0.05
 				consumer_goods_factor = -0.05
 			}
 		}
@@ -1779,7 +1779,7 @@ ideas = {
 
 			modifier = {
 				experience_gain_army = 0.1
-				Communism_drift = 0.05
+				communism_drift = 0.05
 			}
 		}
 
@@ -2367,11 +2367,11 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 
 			modifier = {
-				Communism_acceptance = 35
+				communism_acceptance = 35
 				Liberalism_acceptance = -50
 				fascism_acceptance = -50
 				Authoritarianism_acceptance = -50
@@ -2389,7 +2389,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 
 			on_add = {
@@ -2575,7 +2575,7 @@ ideas = {
 			}
 
 			modifier = {
-				Communism_drift = -0.2
+				communism_drift = -0.2
 				stability_weekly = 0.005
 			}
 		}
@@ -2629,11 +2629,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = SOV
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 
 			modifier = {
-				Communism_drift = -0.01
+				communism_drift = -0.01
 				stability_factor = 0.05
 			}
 		}
@@ -2650,11 +2650,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = SOV
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 
 			modifier = {
-				Communism_drift = -0.01
+				communism_drift = -0.01
 				stability_factor = 0.05
 				political_power_factor = 0.05
 			}
@@ -2671,11 +2671,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = SOV
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 
 			modifier = {
-				Communism_drift = -0.01
+				communism_drift = -0.01
 				stability_factor = 0.1
 				political_power_factor = 0.05
 				consumer_goods_factor = -0.10
@@ -2693,11 +2693,11 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = SOV
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 
 			modifier = {
-				Communism_drift = -0.01
+				communism_drift = -0.01
 				stability_factor = 0.1
 				political_power_factor = 0.1
 				consumer_goods_factor = -0.15
@@ -2715,7 +2715,7 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = SOV
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 
 			modifier = {
@@ -2755,7 +2755,7 @@ ideas = {
 
 			allowed_civil_war = {
 				original_tag = SOV
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 
 			modifier = {
@@ -3270,7 +3270,7 @@ ideas = {
 			}
 
 			modifier = {
-				Communism_drift = 0.1
+				communism_drift = 0.1
 				political_power_factor = 0.1
 				intel_network_gain_factor = 0.15
 				compliance_growth = 0.15
@@ -3449,7 +3449,7 @@ ideas = {
 			picture = SPR_international_brigades
 
 			modifier = {
-				Communism_drift = 0.03
+				communism_drift = 0.03
 				stability_factor = -0.1
 				drift_defence_factor = -0.1
 				custom_modifier_tooltip = SOV_trotskyist_revolutionary_agitation_tt
@@ -3468,7 +3468,7 @@ ideas = {
 			}
 
 			modifier = {
-				Communism_drift = 0.01
+				communism_drift = 0.01
 				stability_factor = -0.05
 			}
 		}
@@ -3484,7 +3484,7 @@ ideas = {
 			}
 			allowed_civil_war = {
 				original_tag = SOV #Every SOV has this
-				has_government = Communism # Not if exiles, right?
+				has_government = communism # Not if exiles, right?
 			}
 
 			modifier = {
@@ -3510,7 +3510,7 @@ ideas = {
 			}
 			allowed_civil_war = {
 				original_tag = SOV #Every SOV has this
-				has_government = Communism # Not if exiles, right?
+				has_government = communism # Not if exiles, right?
 			}
 
 			modifier = {
@@ -3724,7 +3724,7 @@ ideas = {
 
 
 	hidden_ideas = {
-		SOV_non_Communism_aversion_ns = {
+		SOV_non_communism_aversion_ns = {
 			removal_cost = -1
 
 			allowed = {
@@ -3732,7 +3732,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 
 			modifier = {
@@ -4199,10 +4199,10 @@ ideas = {
 				always = yes
 			}
 
-			picture = generic_Communism_drift_bonus
+			picture = generic_communism_drift_bonus
 
 			modifier = {
-				Communism_drift = 0.05
+				communism_drift = 0.05
 			}
 		}
 
@@ -4249,7 +4249,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			picture = generic_production_bonus
@@ -4289,7 +4289,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4306,7 +4306,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4342,7 +4342,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			picture = generic_manpower_bonus
@@ -4362,7 +4362,7 @@ ideas = {
 #			picture = generic_production_bonus
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4378,7 +4378,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4395,7 +4395,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4419,7 +4419,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4442,7 +4442,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4465,7 +4465,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4488,7 +4488,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4511,7 +4511,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4534,7 +4534,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4557,7 +4557,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4580,7 +4580,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4603,7 +4603,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4627,7 +4627,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4649,7 +4649,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			research_bonus = {
@@ -4675,7 +4675,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4697,7 +4697,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4719,7 +4719,7 @@ ideas = {
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {
@@ -4734,14 +4734,14 @@ ideas = {
 #		SOV_collectivist_propaganda = {
 #			removal_cost = -1
 #
-#			picture = generic_Communism_drift_bonus
+#			picture = generic_communism_drift_bonus
 #
 #			allowed = {
 #				always = no # Added via focus
 #			}
 #
 #			allowed_civil_war = {
-#				has_government = Communism
+#				has_government = communism
 #			}
 #
 #			modifier = {

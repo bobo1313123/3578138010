@@ -10,7 +10,7 @@ set_politics = {
 } 
 set_popularities = {
 	Socialism = 80
-	Communism = 20
+	communism = 20
 }
 add_ideas = {
 	BBR_Unorganized_leadership #无组织的领导层

@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
- Communism_drift: "每日共产主义支持率"
- Communism_drift_tt: "$Communism_drift$：$RIGHT|+=2$"
+ communism_drift: "每日共产主义支持率"
+ communism_drift_tt: "$communism_drift$：$RIGHT|+=2$"
  Liberalism_drift: "每日自由主义支持率"
  Liberalism_drift_tt: "$Liberalism_drift$：$RIGHT|+=2$"
  Conservatism_drift: "每日保守主义支持率"
@@ -22,7 +22,7 @@
  tttt_drift_tt: "$tttt_drift$：$RIGHT|+=2$"
 
 
- Communism_acceptance: "共产主义外交接纳度"
+ communism_acceptance: "共产主义外交接纳度"
  Liberalism_acceptance: "自由主义外交接纳度"
  fascism_acceptance: "法西斯主义外交接纳度"
  Authoritarianism_acceptance: "威权主义外交接纳度"
@@ -2361,7 +2361,7 @@
  special_forces_marines_organization_tt: "$modifier_army_sub_unit_marine_max_org_factor$：$RIGHT|+=0%$"
  SWE_royal_visit_modifier: "$POL_growing_monarchist_sentiment$"
  navy_capital_ship_defense_factor_tt: "$MODIFIER_NAVY_CAPITAL_SHIP_DEFENCE_FACTOR$：$RIGHT|+=%1$"
- Communism_drift_factor_tt: "$Communism_drift$：$RIGHT|+=2$"
+ communism_drift_factor_tt: "$communism_drift$：$RIGHT|+=2$"
  Liberalism_drift_factor_tt: "$Liberalism_drift$：$RIGHT|+=2$"
  fascism_drift_factor_tt: "$fascism_drift$：$RIGHT|+=2$"
  Authoritarianism_drift_factor_tt: "$Authoritarianism_drift$:$RIGHT|+=2$"

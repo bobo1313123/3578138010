@@ -1061,9 +1061,9 @@ operation_coup_government = { ### 7 1/70
 			}
 			if = {
 				limit = {
-					PREV.ROOT = { has_government = Communism }
+					PREV.ROOT = { has_government = communism }
 				}
-				Communism > 0.2
+				communism > 0.2
 			}
 			if = {
 				limit = {

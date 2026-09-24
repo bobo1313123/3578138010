@@ -189,7 +189,7 @@ if = {
 
 	#PARY POPULARITY
 	set_variable = { DEN_Liberalism_popularity = 94 }
-	set_variable = { DEN_Communism_popularity = 2 }
+	set_variable = { DEN_communism_popularity = 2 }
 	set_variable = { DEN_Authoritarianism_popularity = 3 }
 	set_variable = { DEN_fascism_popularity = 1 }
 
@@ -402,7 +402,7 @@ if = {
 	set_popularities = {
 		Liberalism = DEN_Liberalism_popularity
 		fascism = DEN_fascism_popularity
-		Communism = DEN_Communism_popularity
+		communism = DEN_communism_popularity
 		Authoritarianism = DEN_Authoritarianism_popularity
 	}
 
@@ -415,7 +415,7 @@ if = {
 	set_popularities = {
 		Liberalism = 94
 		fascism = 1
-		Communism = 2
+		communism = 2
 		Authoritarianism = 3
 	}
 	set_politics = {

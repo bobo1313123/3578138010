@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_ideology_Communism_group"
-		texturefile = "gfx/interface/ideologies/Communism_group.png"
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_Authoritarianism_group"

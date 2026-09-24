@@ -158,7 +158,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	Communism = 0
+	communism = 0
 	Socialism = 0
 	Progressivism = 9
 	Liberalism = 12
@@ -170,9 +170,9 @@ set_popularities = {
 	nazism = 5
 }
 set_party_name = {
-	ideology = Communism
-	name = ENG_Communism_1
-	long_name = ENG_Communism_1
+	ideology = communism
+	name = ENG_communism_1
+	long_name = ENG_communism_1
 }
 
 set_party_name = {

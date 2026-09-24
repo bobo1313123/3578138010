@@ -67,7 +67,7 @@ characters={
 					small = "GFX_idea_RAJ_subhas_chanda_bose" #small="GFX_idea_generic_political_advisor_india_1"
 				}
 				civilian = {
-					large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (Communism -> communism_small) (Fascism -> Nazism)
+					large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (communism -> communism_small) (Fascism -> Nazism)
 				}
 			}
 			advisor = {
@@ -112,7 +112,7 @@ characters={
 					small = GFX_portrait_RAJ_subhas_chandra_bose_military_small #small="GFX_idea_generic_political_advisor_india_1"
 				}
 				civilian ={
-					large = GFX_portrait_RAJ_subhas_chandra_bose #Can become country leader (Communism -> communism_small) (Fascism -> Nazism) (Neutrality -> Centrism)
+					large = GFX_portrait_RAJ_subhas_chandra_bose #Can become country leader (communism -> communism_small) (Fascism -> Nazism) (Neutrality -> Centrism)
 					small = GFX_portrait_RAJ_subhas_chandra_bose_civilian_small
 				}
 			}
@@ -126,7 +126,7 @@ characters={
 				logistics_skill = 2
 				visible = {  
 					OR = {
-						has_country_flag = has_swayed_bose_to_Communism
+						has_country_flag = has_swayed_bose_to_communism
 						ROOT = { 
 							has_completed_focus = RAJ_forward_bloc 
 							NOT = { has_country_flag = has_arrested_bose }
@@ -142,7 +142,7 @@ characters={
 				}
 				available = {
 					OR = {
-						has_country_flag = has_swayed_bose_to_Communism
+						has_country_flag = has_swayed_bose_to_communism
 						ROOT = { 
 							has_completed_focus = RAJ_forward_bloc 
 							NOT = { has_country_flag = has_arrested_bose }
@@ -152,7 +152,7 @@ characters={
 
 				visible = {
 					OR = {
-						has_country_flag = has_swayed_bose_to_Communism
+						has_country_flag = has_swayed_bose_to_communism
 						AND = {
 							has_completed_focus = RAJ_forward_bloc 
 							NOT = { has_country_flag = has_arrested_bose }
@@ -1694,7 +1694,7 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = Communism 
+					has_government = communism 
 				}
 			}
 			ai_will_do = {

@@ -14,4 +14,23 @@ characters={
 			traits= { LBV_Arrogant_Dictator }
 		}
 	}
+
+	#政治顾问
+	#罗伯托·法里纳奇
+	LBV_Roberto_Farinacci = {
+		name = LBV_Roberto_Farinacci
+		portraits = {
+			civilian = {
+				small = GFX_LBV_Roberto_Farinacci_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = LBV_Roberto_Farinacci_pol
+			desc = LBV_Roberto_Farinacci_desc
+			traits = { LBV_party_brain }
+			cost = 0
+			can_be_fired = no
+		}
+	}
 }

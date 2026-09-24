@@ -23,13 +23,13 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = Communism
+	ruling_party = communism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	Communism = 97
+	communism = 97
 	Socialism = 0
 	Liberalism = 1
 	Democracy = 1

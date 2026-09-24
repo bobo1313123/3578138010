@@ -149,6 +149,6 @@ set_popularities = {
 	Conservatism = 60
 	Liberalism = 15
 	Authoritarianism = 15
-	Communism = 10
+	communism = 10
 }
 

@@ -127,7 +127,7 @@ set_politics = {
 }
 set_popularities = {
 	fascism = 32
-	Communism = 4
+	communism = 4
 	Conservatism = 11
 	Authoritarianism = 20
 	nazism = 10

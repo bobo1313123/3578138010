@@ -4,7 +4,10 @@ set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
 
-
+#领导人
+recruit_character = LBV_Benito_Mussolini #贝尼托·墨索里尼
+#政治顾问
+recruit_character = LBV_Roberto_Farinacci #罗伯托·法里纳奇
 
 add_ideas = {
 	### 初始法案 ###
@@ -14,12 +17,14 @@ add_ideas = {
 	ITAG_Protracted_civilwar #内战旷久
 	LBV_Paralyzed_Blackshirts #瘫痪的黑衫军
 	LBV_Committee_in_danger #岌岌可危的委员会
+
+	### 政治顾问 ###
+	LBV_Roberto_Farinacci_pol #罗伯托·法里纳奇
+	
 }
 
 set_cosmetic_tag = LBV_Mussolini_first
 
-#领导人
-recruit_character = LBV_Benito_Mussolini #贝尼托·墨索里尼
 
 # Starting tech
 set_technology = {

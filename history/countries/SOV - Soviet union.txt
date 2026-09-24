@@ -41,7 +41,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Communism = 0
+	communism = 0
 	Socialism = 0
 	Progressivism = 50
 	Liberalism = 27

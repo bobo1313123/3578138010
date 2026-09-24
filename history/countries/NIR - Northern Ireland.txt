@@ -91,7 +91,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 98
 	fascism = 1
-	Communism = 1
+	communism = 1
 }
 
 1939.1.1 = {

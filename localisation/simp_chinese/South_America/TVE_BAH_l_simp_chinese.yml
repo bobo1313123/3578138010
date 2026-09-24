@@ -3,8 +3,8 @@
         BAH_DEF:"美属巴哈马"
         BAH_ADJ:"美属巴哈马"
 
-        BAH_Communism_party:0 "-"
-        BAH_Communism_party_long:0 "-"
+        BAH_communism_party:0 "-"
+        BAH_communism_party_long:0 "-"
         BAH_Socialism_party:0 "-"
         BAH_Socialism_party_long:0 "-"
         BAH_Progressivism_party:0 "-"

@@ -694,7 +694,7 @@ set_politics = {
 set_popularities = {
 	tttt = 19
 	fascism = 10
-	Communism = 0
+	communism = 0
 	Progressivism = 0
 	Socialism = 28
 	Liberalism = 13
@@ -748,7 +748,7 @@ set_party_name = {
 	long_name = AUS_GUNMU_1
 }
 set_party_name = {
-	ideology = Communism
+	ideology = communism
 	name = AUS_GUNMU_1
 	long_name = AUS_GUNMU_1
 }

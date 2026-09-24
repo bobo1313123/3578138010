@@ -180,7 +180,7 @@ characters = {
 			}
 			available = {	
 				OR = {
-					has_government = Communism
+					has_government = communism
 					has_completed_focus = AUS_a_safe_harbor_for_dissidents
 				}
 			}

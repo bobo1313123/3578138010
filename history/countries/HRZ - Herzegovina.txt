@@ -75,7 +75,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 33
 	Authoritarianism = 33
-	Communism = 34
+	communism = 34
 }
 
 recruit_character = HRZ_acd2

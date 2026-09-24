@@ -82,7 +82,7 @@ create_country_leader = {
 set_popularities = {
 	Liberalism = 33
 	Authoritarianism = 33
-	Communism = 34
+	communism = 34
 }
 
 recruit_character = TRA_pot

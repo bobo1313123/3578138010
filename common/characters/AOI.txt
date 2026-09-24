@@ -33,7 +33,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 					has_government = Liberalism
 				}
 			}
@@ -59,7 +59,7 @@ characters = {
 			}
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			ai_will_do = {
@@ -90,7 +90,7 @@ characters = {
 
 			visible = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 		}
@@ -117,7 +117,7 @@ characters = {
 
 			visible = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 		}

@@ -6,8 +6,8 @@
     COL_CCW_DF: "哥伦比亚全国临时政府"
     COL_CCW_ADJ: "哥伦比亚全国临时政府"
 
-    COL_Communism_party:0 "哥伦比亚左翼联盟(左翼派)"
-    COL_Communism_party_long:0 "哥伦比亚左翼联盟(左翼派)"
+    COL_communism_party:0 "哥伦比亚左翼联盟(左翼派)"
+    COL_communism_party_long:0 "哥伦比亚左翼联盟(左翼派)"
     COL_Socialism_party:0 "哥伦比亚左翼联盟/自由党（主导派)"
     COL_Socialism_party_long:0 "哥伦比亚左翼联盟/自由党（主导派)"
     COL_Progressivism_party:0 "哥伦比亚左翼联盟-自由党-国家民主党大联盟(主导派)"
@@ -27,8 +27,8 @@
     COL_nazism_party:0 "猎豹党(右派)"
     COL_nazism_party_long:0 "猎豹党(右派)"
 
-    COL_Communism_party_1:0 "哥伦比亚共产党"
-    COL_Communism_party_1_long:0 "哥伦比亚共产党"
+    COL_communism_party_1:0 "哥伦比亚共产党"
+    COL_communism_party_1_long:0 "哥伦比亚共产党"
     COL_Socialism_party_2:0 "全国左翼联盟"
     COL_Socialism_party_2_long:0 "全国左翼联盟"
     COL_Progressivism_party_3:0 "全国左翼联盟"

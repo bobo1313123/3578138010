@@ -129,7 +129,7 @@ characters = {
 					has_completed_focus = wuw_HUN_reinstate_the_navy
 					NOT = {
 						OR = {
-							has_government = Communism
+							has_government = communism
 							has_government = fascism
 						}
 					}
@@ -796,7 +796,7 @@ characters = {
 				visible = {
 					NOT = {
 						OR = {
-							has_government = Communism
+							has_government = communism
 							has_government = Liberalism
 						}
 					}
@@ -813,7 +813,7 @@ characters = {
 					has_completed_focus = wuw_HUN_invest_in_ludovica_academy
 					NOT = {
 						OR = {
-							has_government = Communism
+							has_government = communism
 							has_government = Liberalism
 						}
 					}
@@ -944,7 +944,7 @@ characters = {
 				visible = {
 					NOT = {
 						OR = {
-							has_government = Communism
+							has_government = communism
 							has_government = Liberalism
 						}
 					}
@@ -1104,7 +1104,7 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						has_government = Communism
+						has_government = communism
 						has_government = Liberalism
 					}
 				}
@@ -1135,7 +1135,7 @@ characters = {
 			visible = {
 				NOT = {
 					OR = {
-						has_government = Communism
+						has_government = communism
 						has_government = Liberalism
 					}
 				}
@@ -2525,7 +2525,7 @@ characters = {
 				available = {
 					NOT = {
 						OR = {
-							has_government = Communism
+							has_government = communism
 							has_government = Liberalism
 						}
 					}
@@ -2600,7 +2600,7 @@ characters = {
 
 				available = {
 					NOT = {
-						has_government = Communism
+						has_government = communism
 					}
 				}
 
@@ -2839,7 +2839,7 @@ characters = {
 				available = {
 					NOT = {
 						OR = {
-							has_government = Communism
+							has_government = communism
 							has_government = Liberalism
 						}
 					}
@@ -3102,7 +3102,7 @@ characters = {
 			available = {
 				NOT = {
 					OR = {
-						has_government = Communism
+						has_government = communism
 						has_government = Liberalism
 					}
 				}
@@ -3143,7 +3143,7 @@ characters = {
 
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 				# This is replaced by an on_action
 				#has_war = no 
@@ -3247,7 +3247,7 @@ characters = {
 			}
 
 			available = {
-				has_government = Communism 
+				has_government = communism 
 				has_completed_focus = wuw_HUN_join_the_comintern
 			}
 
@@ -3295,7 +3295,7 @@ characters = {
 			available = {
 				NOT = {
 					OR = {
-						has_government = Communism
+						has_government = communism
 						has_government = Liberalism
 					}
 				}
@@ -3336,7 +3336,7 @@ characters = {
 
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 
@@ -3384,7 +3384,7 @@ characters = {
 
 			available = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 				has_completed_focus = wuw_HUN_pass_statute_xix
 			}
@@ -3508,7 +3508,7 @@ characters = {
 			}
 
 			available = {
-				has_government = Communism
+				has_government = communism
 			}
 
 			traits = {
@@ -3554,7 +3554,7 @@ characters = {
 
 			available = {
 				OR = {
-					has_government = Communism
+					has_government = communism
 					has_government = Liberalism
 				}
 			}
@@ -3594,7 +3594,7 @@ characters = {
 			available = {
 				NOT = {
 					OR = {
-						has_government = Communism
+						has_government = communism
 						has_government = fascism
 					}
 				}
@@ -3645,7 +3645,7 @@ characters = {
 			available = {
 				has_intelligence_agency  = yes 
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 
@@ -3734,7 +3734,7 @@ characters = {
 			available = {
 				NOT = {
 					OR = {
-						has_government = Communism
+						has_government = communism
 						has_government = fascism
 					}
 				}
@@ -3820,10 +3820,10 @@ characters = {
 
 			available = {
 				OR = {
-					has_completed_focus = wuw_HUN_goulash_Communism
+					has_completed_focus = wuw_HUN_goulash_communism
 					has_completed_focus = wuw_HUN_restore_the_socialist_federative_republic
 				}
-				has_government = Communism
+				has_government = communism
 			}
 
 			traits = {

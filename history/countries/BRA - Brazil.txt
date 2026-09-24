@@ -41,7 +41,7 @@ set_politics = {
 	}
 
 	set_popularities = {
-		Communism = 3
+		communism = 3
 		Socialism = 2
 		Liberalism = 5
 		Democracy = 10

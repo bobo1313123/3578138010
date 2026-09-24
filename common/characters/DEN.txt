@@ -397,7 +397,7 @@ characters={
 					NOT = {
 						has_government = fascism
 						has_character_flag = DEN_political_agitator_flag
-						has_country_flag = DEN_banned_Communism_flag
+						has_country_flag = DEN_banned_communism_flag
 					}
 				}
 				ai_will_do = {
@@ -478,7 +478,7 @@ characters={
 				available = {
 					is_country_leader = no
 					NOT = {
-						has_government = Communism
+						has_government = communism
 						has_character_flag = DEN_political_agitator_flag
 						has_country_flag = DEN_banned_fascism_flag
 					}
@@ -2182,7 +2182,7 @@ characters={
 					has_government = fascism
 				}	
 				NOT = {
-					has_government = Communism
+					has_government = communism
 					has_character_flag = DEN_political_agitator_flag
 					has_country_flag = DEN_banned_fascism_flag
 				}

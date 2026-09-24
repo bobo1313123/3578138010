@@ -11,8 +11,8 @@
       SPR_puppet_VEN_DEF:0 "小威尼斯共和国" 
       SPR_puppet_VEN_ADJ:0 "小威尼斯共和国"
 
-      VEN_Communism_party:0 "-"
-      VEN_Communism_party_long:0 "-"
+      VEN_communism_party:0 "-"
+      VEN_communism_party_long:0 "-"
       VEN_Socialism_party:0 "-"
       VEN_Socialism_party_long:0 "-"
       VEN_Progressivism_party:0 "-"

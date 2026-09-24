@@ -6070,7 +6070,7 @@ focus_tree = {
 		available = {
 			has_government = communism
 			SOU = {
-				has_government = Communism
+				has_government = communism
 				has_civil_war = no 
 			}
 		}

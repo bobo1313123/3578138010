@@ -126,7 +126,7 @@ set_popularities = {
 	Conservatism = 70
 	Authoritarianism = 15
 	fascism = 12
-	Communism = 3
+	communism = 3
 }
 
 1939.1.1 = {

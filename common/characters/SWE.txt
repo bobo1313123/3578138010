@@ -53,7 +53,7 @@ characters={
 			allowed = { has_dlc = "Arms Against Tyranny" }
 				advisor={
 				
-					visible = { has_government = Communism }
+					visible = { has_government = communism }
 					slot = political_advisor
 					cost = 125
 					idea_token = SWE_sven_linderot
@@ -159,7 +159,7 @@ characters={
 				anti_stalinist_marxist 
 			}
 			visible = { 
-				has_government = Communism 
+				has_government = communism 
 				NOT = {
 					has_country_leader = { character = SWE_sven_linderot }
  				}
@@ -169,7 +169,7 @@ characters={
 					has_country_leader = { character = SWE_sven_linderot }
  				}
 				is_country_leader = no
-				has_government = Communism 
+				has_government = communism 
 			}
 		}
 	}
@@ -1469,14 +1469,14 @@ characters={
 			available = {
 				OR = {
 					has_government = Liberalism
-					has_government = Communism
+					has_government = communism
 				}
 			}
 
 			visible = {
 				OR = {
 					has_government = Liberalism
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			traits  = {
@@ -1501,7 +1501,7 @@ characters={
 			visible = { 
 				OR = {
 					has_government = Liberalism 
-					has_government = Communism
+					has_government = communism
 					has_government = Authoritarianism
 				}
 			}
@@ -1509,7 +1509,7 @@ characters={
 			available = {
 				OR = {
 					has_government = Liberalism 
-					has_government = Communism
+					has_government = communism
 					has_government = Authoritarianism
 				}
 			}
@@ -1542,7 +1542,7 @@ characters={
 			available = {
 				OR = {
 					has_government = Liberalism 
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			slot = political_advisor
@@ -1716,7 +1716,7 @@ characters={
 				has_completed_focus = SWE_education_reform
 				#OR = {
 				#	has_government = Liberalism
-				#	has_government = Communism
+				#	has_government = communism
 				#}
 			}
 
@@ -1764,7 +1764,7 @@ characters={
 				has_completed_focus = SWE_education_reform
 				#OR = {
 				#	has_government = Liberalism
-				#	has_government = Communism
+				#	has_government = communism
 				#}
 			}
 
@@ -1811,13 +1811,13 @@ characters={
 			visible = { 
 				has_government = Liberalism 
 				has_government = Authoritarianism
-				has_government = Communism
+				has_government = communism
 			}
 
 			available = {
 				has_government = Liberalism 
 				has_government = Authoritarianism
-				has_government = Communism
+				has_government = communism
 			}
 			traits = { SWE_minister_of_defense }
 		}
@@ -1859,7 +1859,7 @@ characters={
 				original_tag  = SWE
 			}
 			visible = { 
-				has_government = Communism 
+				has_government = communism 
 				NOT = {
 					has_country_leader = { character = SWE_sven_linderot }
  				}
@@ -1965,7 +1965,7 @@ characters={
 			}
 			available = { 
 				OR = {
-					has_government = Communism
+					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = Liberalism
@@ -1976,7 +1976,7 @@ characters={
 
 			visible = {
 				OR = {
-					has_government = Communism
+					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = Liberalism
@@ -2019,7 +2019,7 @@ characters={
 			}
 			available = { 
 				OR = {
-					has_government = Communism
+					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = Liberalism
@@ -2030,7 +2030,7 @@ characters={
 
 			visible = {
 				OR = {
-					has_government = Communism
+					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = Liberalism
@@ -2065,7 +2065,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = Communism
+					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = Liberalism
@@ -2076,7 +2076,7 @@ characters={
 
 			visible = {
 				OR = {
-					has_government = Communism
+					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
 						has_government = Liberalism
@@ -2106,7 +2106,7 @@ characters={
 			visible = {
 				OR = {
 					has_government = Liberalism
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			traits = { humanist }
@@ -2129,13 +2129,13 @@ characters={
 				original_tag  = SWE
 			}
 			visible = {
-				has_government = Communism 
+				has_government = communism 
 				has_country_leader = {
 					character = SWE_sven_linderot
 				}
 			}
 			available = {
-				has_government = Communism
+				has_government = communism
 			}
 			traits = { staunch_stalinist }
 

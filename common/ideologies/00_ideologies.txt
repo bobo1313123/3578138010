@@ -1,5 +1,5 @@
 ideologies = {
-	Communism = { #共产主义
+	communism = { #共产主义
 
 		types = {
 			communism_small = {

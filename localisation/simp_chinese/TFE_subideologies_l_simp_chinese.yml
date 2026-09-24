@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
- Communism: "共产主义"
- Communism_noun: "共产主义"
+ communism: "共产主义"
+ communism_noun: "共产主义"
  Socialism: "社会主义"
  Socialism_noun: "社会主义"
  Progressivism: "进步主义"
@@ -20,7 +20,7 @@
  nazism: "民族社会主义"
  nazism_noun: "民族社会主义"
 
- Communism_desc: "全能型国家政府"
+ communism_desc: "全能型国家政府"
  Socialism_desc: "社会主义政府"
  Progressivism_desc: "自由派政府"
  Liberalism_desc: "自由派政府"

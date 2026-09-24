@@ -803,7 +803,7 @@ characters = {
 			visible = {
 				AND = {
 					is_subject = no
-					has_government = Communism
+					has_government = communism
 				}
 			}
 		}
@@ -820,7 +820,7 @@ characters = {
 			available = {
 				AND = {
 					is_subject = no
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			traits = {

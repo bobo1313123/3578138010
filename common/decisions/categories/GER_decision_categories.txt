@@ -488,7 +488,7 @@ GER_proletarian_revolution_cat = {
 
 	visible = {
 		is_subject = no
-		NOT = { has_government = Communism }
+		NOT = { has_government = communism }
 		has_country_flag = GER_the_proletarian_revolution_flag
 	}
 
@@ -511,7 +511,7 @@ GER_volkskommissariats_cat = {
 
 	visible = {
 		is_subject = no
-		has_government = Communism
+		has_government = communism
 		has_completed_focus = GER_establish_volkskommissariats
 	}
 
@@ -531,7 +531,7 @@ GER_spreading_the_red_flame_cat = {
 
 	visible = {
 		is_subject = no
-		has_government = Communism
+		has_government = communism
 		has_completed_focus = GER_spark_the_flame_of_revolution
 	}
 }

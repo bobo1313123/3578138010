@@ -7,8 +7,8 @@
         SPR_puppet_CUB_DEF:0 "古巴自治领"
         SPR_puppet_CUB_ADJ:0 "古巴自治领"
 
-        CUB_Communism_party:0 "古巴共产革命党"
-        CUB_Communism_party_long:0 "古巴共产革命党"
+        CUB_communism_party:0 "古巴共产革命党"
+        CUB_communism_party_long:0 "古巴共产革命党"
         CUB_Socialism_party:0 "青年古巴"
         CUB_Socialism_party_long:0 "青年古巴"
         CUB_Progressivism_party:0 "全国左翼联盟"

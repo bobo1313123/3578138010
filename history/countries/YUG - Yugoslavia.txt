@@ -281,7 +281,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 15
 	fascism = 10
-	Communism = 15
+	communism = 15
 	tttt = 60
 }
 
@@ -302,7 +302,7 @@ create_country_leader = {
 	set_popularities = { # Will get +7 from Italian focus: Potential Allies in the Balkans
 		Liberalism = 10
 		fascism = 20
-		Communism = 10
+		communism = 10
 		Authoritarianism = 60
 	}
 }

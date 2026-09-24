@@ -391,7 +391,7 @@ ideas = {
 				has_war_support > 0.5
 				OR = {
 					has_government = fascism
-					has_government = Communism
+					has_government = communism
 					custom_trigger_tooltip = { tooltip = or_clarification_tooltip always = no }
 					AND = {
 						has_war = yes
@@ -807,7 +807,7 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					surrender_progress > 0.75
-					NOT = { has_government = Communism }
+					NOT = { has_government = communism }
 				}
 			}
 
@@ -836,7 +836,7 @@ ideas = {
 			allowed_to_remove = {
 				OR = {
 					surrender_progress > 0.75
-					NOT = { has_government = Communism }
+					NOT = { has_government = communism }
 				}
 			}
 
@@ -1313,7 +1313,7 @@ ideas = {
 				has_war = yes
 				OR = {
 					has_government = fascism
-					has_government = Communism
+					has_government = communism
 				}
 				OR = {
 					has_idea = war_economy

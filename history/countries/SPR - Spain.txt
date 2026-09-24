@@ -77,7 +77,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-		Communism = 5
+		communism = 5
 		Democracy = 5
 		Socialism = 10
 		tttt = 36

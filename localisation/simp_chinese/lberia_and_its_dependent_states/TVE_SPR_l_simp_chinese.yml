@@ -29,8 +29,8 @@
     SPR_Autonomy_Dilemma:0 "自治难题"
     SPR_Autonomy_Dilemma_desc:0 "\n\n\n\n£GFX_SPR_Autonomy_Dilemma_Pictures\n\n\n\n\n\n在战后西班牙的灰烬中，没有哪个问题比巴斯克与加泰罗尼亚的自治命运更能象征那场内战的裂痕。这两个地区曾作为共和派的坚实堡垒奋战至最后一刻，如今，胜利的国民军政权决心彻底清算这份“背叛”。他们过去享有的自治权被无情废除，语言文化被公然打压，连最基本的民族象征也沦为非法。\n然而，独裁政府的强硬手段并未真正抹去两地人民的身份认同。在加泰罗尼亚，中产阶级与知识界虽在战后初期被迫沉默，但那份对共和岁月的记忆与自治的渴望，只是转入了地下悄然滋长。而在巴斯克，问题则更为严峻：连绵的青山成为反法西斯游击队出没的屏障，分离主义的情绪因镇压而愈发坚定，使得该地区始终是政权体内一根难以拔除的毒刺。"
 
-    SPR_Communism_party:0 "西班牙共产党"
-    SPR_Communism_party_long:0 "西班牙共产党"
+    SPR_communism_party:0 "西班牙共产党"
+    SPR_communism_party_long:0 "西班牙共产党"
     SPR_Socialism_party:0 "西班牙社会工人党"
     SPR_Socialism_party_long:0 "西班牙社会工人党"
     SPR_Democracy_party:0 "加泰罗尼亚共和左派"

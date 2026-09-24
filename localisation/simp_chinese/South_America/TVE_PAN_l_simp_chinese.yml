@@ -3,8 +3,8 @@
         PAN_DEF:"美属巴拿马运河管委会"
         PAN_ADJ:"美属巴拿马运河管委会"
 
-        PAN_Communism_party:0 "-"
-        PAN_Communism_party_long:0 "-"
+        PAN_communism_party:0 "-"
+        PAN_communism_party_long:0 "-"
         PAN_Socialism_party:0 "-"
         PAN_Socialism_party_long:0 "-"
         PAN_Progressivism_party:0 "-"

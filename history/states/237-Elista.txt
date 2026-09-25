@@ -9,6 +9,7 @@ state={
 	history={
 		owner = RCA
 		add_core_of = RCA
+		add_core_of = DON
 		buildings = {
 			infrastructure = 1
 		}

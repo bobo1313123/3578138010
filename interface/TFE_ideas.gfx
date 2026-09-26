@@ -272,5 +272,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/LBV/Committee_in_danger_desc.png"
 		legacy_lazy_load = no
 	}
-
+	#西班牙民族精神
+	#教皇子午线
+	spriteType = {
+		name = "GFX_idea_Papal_Meridian"
+		texturefile = "gfx/interface/ideas/SPR/Papal_Meridian.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Papal_Meridian_desc"
+		texturefile = "gfx/interface/ideas/SPR/Papal_Meridian_desc.png"
+		legacy_lazy_load = no
+	}
+	#内战的遗产
+	spriteType = {
+		name = "GFX_idea_Legacy_of_the_Civil_War"
+		texturefile = "gfx/interface/ideas/SPR/Legacy_of_the_Civil_War.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Legacy_of_the_Civil_War_desc"
+		texturefile = "gfx/interface/ideas/SPR/Legacy_of_the_Civil_War_desc.png"
+		legacy_lazy_load = no
+	}
+	#西班牙军队
+	spriteType = {
+		name = "GFX_idea_spanish_army"
+		texturefile = "gfx/interface/ideas/SPR/spanish_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_spanish_army_desc"
+		texturefile = "gfx/interface/ideas/SPR/spanish_army_desc.png"
+		legacy_lazy_load = no
+	}
+	#空悬王座
+	spriteType = {
+		name = "GFX_idea_The_hanging_throne"
+		texturefile = "gfx/interface/ideas/SPR/The_hanging_throne.png"
+	}
+	spriteType = {
+		name = "GFX_idea_The_hanging_throne_desc"
+		texturefile = "gfx/interface/ideas/SPR/The_hanging_throne_desc.png"
+		legacy_lazy_load = no
+	}
+	#自治难题
+	spriteType = {
+		name = "GFX_idea_Autonomy_Dilemma"
+		texturefile = "gfx/interface/ideas/SPR/Autonomy_Dilemma.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Autonomy_Dilemma_desc"
+		texturefile = "gfx/interface/ideas/SPR/Autonomy_Dilemma_desc.png"
+		legacy_lazy_load = no
+	}
 }

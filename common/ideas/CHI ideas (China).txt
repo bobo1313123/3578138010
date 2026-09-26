@@ -195,7 +195,18 @@ ideas = {
                 defense_bonus_against = 0.1
             }
 		}
-        #
+        #修宪风波
+        CHI_Constitutional_amendment_controversy = {
+			on_add = { log = "[GetLogRoot]: add idea CHI_Constitutional_amendment_controversy" }
+			picture = Constitutional_amendment_controversy
+			allowed = { always = no }
+			modifier = {
+                political_power_gain = -0.5
+                stability_factor = -0.10
+                modifier_army_sub_unit_militia_attack_factor = 0.05
+                modifier_army_sub_unit_militia_defence_factor = 0.05
+			}
+		}
 
 
         #工业化堪为艰

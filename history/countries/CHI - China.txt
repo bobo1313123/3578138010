@@ -1,4 +1,4 @@
-﻿capital = 613 # Nanjing
+﻿capital = 608 #北京
 
 oob = "CHI_1936"
 if = {
@@ -81,6 +81,7 @@ add_ideas = {
 	CHI_Questioned_Jiaxu_Congress #备受争议的“甲戌国会”
 	CHI_Provincial_Autonomy_CentralLocal_Tension #省宪自治：央地不和
 	CHI_Stable_Internally_first #“攘外必先安内”
+	CHI_Constitutional_amendment_controversy #修宪风波
 
 	### 废弃民族精神 ###
 	#CHI_Difficult_Industrialization_1 #工业化堪为艰

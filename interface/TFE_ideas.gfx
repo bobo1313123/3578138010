@@ -128,6 +128,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/CHI/Provincial_Autonomy_CentralLocal_Tension_desc.png"
 		legacy_lazy_load = no
 	}
+	#修宪风波
+	spriteType = {
+		name = "GFX_idea_Constitutional_amendment_controversy"
+		texturefile = "gfx/interface/ideas/CHI/Constitutional_amendment_controversy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Constitutional_amendment_controversy_desc"
+		texturefile = "gfx/interface/ideas/CHI/Constitutional_amendment_controversy_desc.png"
+		legacy_lazy_load = no
+	}
 	#工业化堪为艰
 	spriteType = {
 		name = "GFX_idea_Difficult_Industrialization"

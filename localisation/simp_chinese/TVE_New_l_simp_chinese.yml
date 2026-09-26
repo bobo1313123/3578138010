@@ -20,8 +20,9 @@
       second_leader_tt2:0 "§R副领导人将发生变化§!"
 
       #阵营
-      TFE_CAMP_TT: "[GetGlobalAssociationTT]"
-      TFE_BAO_CAMP_MEMBER_TT: "[THIS.GetFlag]§Y[THIS.GetName]§!是§Y布宜诺斯艾利斯公约组织§!的成员国"
+      Leader:0 "领导者"
+      Member_states:0"成员国"
+      camp_button_tt:0 "§G点击§!查看§Y阵营状况§!。\n§G再次点击§!关闭§Y阵营窗口§!。\n----------------------------------\n[THIS.GetFlag]§Y[THIS.GetName]§!是§Y[THIS.GetFactionName]§!的§Y[GetFactionLeader]§!"
 
       #其他
       illegal:0 "§R非法§!"

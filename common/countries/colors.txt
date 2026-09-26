@@ -759,7 +759,7 @@ CIN = {
 	color_ui = rgb { 0 153 0 }
 }
 DAG = {
-	color = rgb { 0 204 255 }
+	color = rgb { 9 89 107 }
 	color_ui = rgb { 0 163 204 }
 }
 BYA = {

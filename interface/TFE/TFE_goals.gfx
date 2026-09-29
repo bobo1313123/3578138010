@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_SPR_Battlesmoke_dissipated"
+		texturefile = "gfx/interface/goals/SPR/SPR_Battlesmoke_dissipated.png"
+	}
+}

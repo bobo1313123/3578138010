@@ -46,8 +46,8 @@ BEL = { color 	 = rgb { 239 160 23 }
 HOL = {	color = rgb { 178 138 114 }
 		color_ui = rgb { 178 138 114 }
 }
-CZE = {	color = rgb { 209 199 199 }
-color_ui = rgb { 209 199 199 }
+CZE = {	color = rgb { 192 182 182 }
+color_ui = rgb { 192 182 182 }
 }
 POL = {
 	color = rgb { 131 62 114 }
@@ -102,8 +102,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 TUR = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 97 13 13 }
+	color_ui = rgb { 97 13 13 }
 }
 GRE = {
 	color = rgb { 93 181 227 }

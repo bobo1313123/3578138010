@@ -10,33 +10,6 @@ music = {
 	}
 }
 
-music = {
-	song = "duceduce"
-	
-	chance = {
-		modifier = {
-			factor = 0
-		}		
-	}	
-}
-music = {
-	song = "magyarr"
-	
-	chance = {
-		modifier = {
-			factor = 0
-		}		
-	}	
-}
-music = {
-	song = "eu_war_44.1kHz"
-	
-	chance = {
-		modifier = {
-			factor = 0
-		}		
-	}	
-}
 # PEACE SONGS ##################
 music = {
 	song = "general_peace_1"

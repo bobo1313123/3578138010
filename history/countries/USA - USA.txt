@@ -1,7 +1,7 @@
 ﻿capital = 360 # Washington DC
-
 load_focus_tree = generic_focus
-oob = "USA_1935"
+oob = "USA_1936"
+
 
 # Starting tech
 set_technology = {
@@ -13,21 +13,14 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	superior_firepower = 1
+	base_strike = 1
+	motorised_infantry = 1
 	fuel_silos = 1
 	fuel_refining = 1
 	marines = 1
 	basic_train = 1
 	engine_tech_1 = 1
-	gwtank_chassis = 1
-	basic_naval_mines = 1
-	early_ship_hull_light = 1
-	basic_ship_hull_light = 1
-	early_ship_hull_cruiser = 1
-	basic_battery = 1
-	basic_light_battery = 1
-	basic_torpedo = 1
-	basic_depth_charges = 1
-	mtg_transport = 1
 } 
 set_autonomy = {
 		target = IDA
@@ -41,29 +34,21 @@ set_party_name = {
 }
 
 recruit_character = USA_John_Calvin_Coolidge #约翰·卡尔文·柯立芝
-recruit_character = USA_John_Reed #约翰·里德
-recruit_character = USA_Earl_Browder #厄尔·白劳德
-recruit_character = USA_Manchester_Boddy #曼彻斯特·博迪
-recruit_character = USA_Orson_Welles #奥逊•威尔斯
-recruit_character = USA_Al_Smith #阿尔•史密斯
-recruit_character = USA_Corporate_Board #企业理事会
-recruit_character = USA_George_Mosley #乔治·莫斯利
 
 add_ideas = {
-	USA_The_Nation_of_Enterprises#国家由大企业主导
-	USA_Incompetent_Army#无能的军队
-	USA_Ethnic_conflict#民族冲突
-	USA_The_Tragedy_of_a_Divided_Homeland#祖国分裂之殇
-	USA_Northern_Free_State#北方自由州
+	USA_The_aftermath_of_the_ec #经济危机的余波
+    USA_Ford_giant #福特公司巨头
+    USA_Southern_Enemy #南方宿敌
+    USA_political_openness #开放的社会风气
+	USA_divided_house #分裂之家
 }
-
+send_embargo = CSA
 set_politics = {
 	ruling_party = Liberalism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
 	Communism = 11
 	Socialism = 5
@@ -74,28 +59,4 @@ set_popularities = {
 	Authoritarianism = 5
 	fascism = 4
 	nazism = 2
-}
-
-send_embargo = CSA
-set_convoys = 50
-set_stability = 0.2
-set_war_support = 0.3
-set_research_slots = 4
-
-every_owned_state = {#对所有同联盟国相连的省份给予"北方边境州"地区修正
-	limit = {
-		OR = {
-			state = 381
-			state = 384
-			state = 373
-			state = 1028
-			state = 369
-			state = 816
-			state = 361
-		}
-	}
-	add_dynamic_modifier = {
-		modifier = USA_Northern_Border_State #北方边境州
-		scope = ROOT
-	}
 }

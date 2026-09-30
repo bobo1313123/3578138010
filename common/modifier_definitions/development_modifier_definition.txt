@@ -33,7 +33,7 @@ administrative_efficiency_development_monthly = {
 	category = country
 }
 
-poverty_development_monthly = {
+education_development_monthly = {
 	color_type = good
 	value_type = percentage
 	precision = 1

@@ -29,12 +29,13 @@ JAP_Authoritarianism_party_kodoha_long: "立宪民进党"
 JAP_Authoritarianism_party_kodoha: "立宪民进党"
 
 #中国
-CHI_democratic_party:0"中国国民党-保守派"
-CHI_fascism_party:0"中国国家复兴党"
-CHI_communism_party:0"中国共产党"
-CHI_neutrality_party:0"中国国民党-反建制派"
-CHI_army_goverement_party:0"军政府"
-
+CHI_Democracy_party:0"进步党"
+CHI_Liberalism_party: "国民党"
+CHI_Conservatism_party: "保守党"
+CHI_Authoritarianism_party: "新军系"
+CHI_tttt_party: "北洋系"
+CHI_Progressivism_party: "国社党"
+CHI_Socialism_party:0"社会党"
 #日本
 JAP_Authoritarianism_party:0"立宪民进党"
 JAP_Conservatism_party:0"无所属"

@@ -85,4 +85,109 @@ spriteTypes = {
 		name = "GFX_ROC_YUAN_SHI_KAI"
 		texturefile = "gfx/leaders/CHI/ROC_YUAN_SHI_KAI.png"
 	}
+
+	spriteType = {
+		name = "GFX_CHI_Tang_Hualong"
+		texturefile = "gfx/leaders/CHI/CHI_Tang_Hualong.dds"
+	}
+
+	#idea
+	spriteType = {
+		name = "GFX_idea_CHI_Aftermath_of_the_stock_market_crash_1"
+		texturefile = "gfx/interface/ideas/CHI/CHI_Aftermath_of_the_stock_market_crash_1.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_Aftermath_of_the_stock_market_crash_1_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_Aftermath_of_the_stock_market_crash_1_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_idea_XianZheng_Shiye"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_XianZheng_Shiye.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_idea_XianZheng_Shiye_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_XianZheng_Shiye_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_idea_controversial_jiaxu_parliament"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_controversial_jiaxu_parliament.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_idea_controversial_jiaxu_parliament_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_controversial_jiaxu_parliament_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_limited_education"
+		texturefile = "gfx/interface/ideas/CHI/CHI_limited_education.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_limited_education_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_limited_education_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_idea_banner_of_moderation"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_banner_of_moderation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_idea_banner_of_moderation_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_banner_of_moderation_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_renshen_military_reform"
+		texturefile = "gfx/interface/ideas/CHI/CHI_renshen_military_reform.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_renshen_military_reform_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_renshen_military_reform_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_provincial_autonomy_central_local_rift"
+		texturefile = "gfx/interface/ideas/CHI/CHI_provincial_autonomy_central_local_rift.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_provincial_autonomy_central_local_rift_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_provincial_autonomy_central_local_rift_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_idea_divided_national_conscience"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_divided_national_conscience.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_idea_divided_national_conscience_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_divided_national_conscience_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_idea_pacify_the_interior_first"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_pacify_the_interior_first.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_idea_pacify_the_interior_first_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_pacify_the_interior_first_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_idea_asia_first_democracy"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_asia_first_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_idea_asia_first_democracy_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_asia_first_democracy_desc.png"
+	}
+
+	spriteType = {
+		name = "GFX_idea_CHI_idea_constitutional_amendment_crisis"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_constitutional_amendment_crisis.png"
+	}
+	spriteType = {
+		name = "GFX_idea_CHI_idea_constitutional_amendment_crisis_desc"
+		texturefile = "gfx/interface/ideas/CHI/CHI_idea_constitutional_amendment_crisis_desc.png"
+	}
 }

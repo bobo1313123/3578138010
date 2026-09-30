@@ -186,9 +186,6 @@ ideologies = {
 			colonial_government_Liberalism = { #殖民政府
 				can_be_randomly_selected = no
 			}
-			classical_liberalism = {
-				can_be_randomly_selected = no	#古典自由主义
-			}
 
 		}
 
@@ -228,6 +225,9 @@ ideologies = {
 	Democracy = { #民主主义
 		types = {
 			democracy_small = {
+			}
+			steady_Progressivism_subtype = {#稳健进步主义
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -349,9 +349,6 @@ ideologies = {
 			military_junta_authoritarianism = { # 军政府
 				can_be_randomly_selected = no
 			}
-			Territory_under_the_Eng_king = { #英王管辖地
-				can_be_randomly_selected = no
-			}
 		}
 
 		dynamic_faction_names = {
@@ -457,10 +454,10 @@ ideologies = {
 			CSA_Confederate = {
 				can_be_randomly_selected = no
 			}
-			MEX_cosmic_racism = { # 宇宙种族主义
+			MEX_cosmic_racism = { #宇宙种族主义
 
 			}
-			Trujillos_ideology = { # 特鲁希略的意识形态
+			Trujillos_ideology = { #特鲁希略的意识形态
 
 			}
 			military_junta_fascism = { # 军政府-法西斯主义

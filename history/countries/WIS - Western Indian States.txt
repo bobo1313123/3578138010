@@ -88,16 +88,21 @@ if = {
 }
 
 set_politics = {
-	ruling_party = Authoritarianism
-	last_election = "1934.2.11"
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = tttt
+	elections_allowed = no
 }
 set_popularities = {
-	Liberalism = 30
-	Communism = 5
-	Authoritarianism = 60
-	fascism = 5
+	tttt = 100
+}
+
+create_country_leader = {
+	
+	name = "Vinayak_Damodar_Savarkar"
+	picture = "gfx//leaders//Portrait_Vinayak_Damodar_Savarkar.png"
+	expire = "1965.1.1"
+	ideology = tttt_small
+	traits = {
+	}
 }
 
 

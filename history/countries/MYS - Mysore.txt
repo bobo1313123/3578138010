@@ -77,16 +77,24 @@ if = {
 }
 
 set_politics = {
-	ruling_party = Authoritarianism
+	ruling_party = tttt
 	last_election = "1934.2.11"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	Liberalism = 20
-	Communism = 15
-	Authoritarianism = 60
-	fascism = 5
+	tttt = 100
 }
 
+create_country_leader = {
+	
+	name = "Krishnaraja_Wadiyar_IV"
+	picture = "gfx//leaders//Portrait_Krishnaraja_Wadiyar_IV.png"
+	expire = "1965.1.1"
+	ideology = tttt_small
+	traits = {
+	}
+}
+
+###############################
 

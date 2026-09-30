@@ -18,7 +18,14 @@ add_ideas = {
 set_convoys = 150
 set_stability = 0.5
 
-
+add_ideas = {
+	modern_agriculture
+	normal_industry
+	severe_bureaucracy
+	normal_military
+	normal_society
+	compulsory_education
+}
 
 add_ideas = {
 		#SPR_Republic_down 共和国之荡

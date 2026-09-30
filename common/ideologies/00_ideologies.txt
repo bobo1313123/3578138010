@@ -413,6 +413,9 @@ ideologies = {
 			military_junta_tttt = { # 军政府
 				can_be_randomly_selected = no
 			}
+			Spanish_Revivalism = { #西班牙复兴主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {

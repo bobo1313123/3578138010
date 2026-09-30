@@ -1,6 +1,8 @@
-leader_traits ={ 
-	SPR_dictator = { #大独裁者
+leader_traits ={
+	#领导人特质
+	#大独裁者 
+	SPR_dictator = { 
+		random = no
 		political_power_gain =  0.2
-		
 	} 
 }

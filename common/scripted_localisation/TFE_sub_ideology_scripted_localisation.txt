@@ -280,6 +280,12 @@ defined_text = {
 		}
 		localization_key = military_junta
     }
+	text = {
+		trigger = { #西班牙复兴主义
+			has_country_leader_ideology = Spanish_Revivalism
+		}
+		localization_key = Spanish_Revivalism
+    }
 }
 defined_text = {
 	name = GetSubIdeologyLocDespot

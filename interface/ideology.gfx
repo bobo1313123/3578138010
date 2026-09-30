@@ -103,6 +103,10 @@ spriteTypes = {
 		name = "GFX_ideology_Spain_rivera_ideologies"
 		texturefile = "gfx/interface/ideologies/Spain_rivera_ideologies.dds"
 	}
+	spriteType = { #西班牙复兴主义
+		name = "GFX_ideology_Spanish_Revivalism"
+		texturefile = "gfx/interface/ideologies/Spanish_Revivalism.png"
+	}
 	spriteType = { #殖民政府-专制主义
 		name = "GFX_ideology_colonial_government_tttt"
 		texturefile = "gfx/interface/ideologies/colonial_government.dds" 

@@ -42,6 +42,11 @@ spriteTypes = {
 		name = "GFX_CHI_Tang_Hualong_large"
 		texturefile = "gfx/leaders/CHI/CHI_Tang_Hualong.dds"
 	}
+	#西班牙
+	spriteType = { #米格尔·普里莫·德里维拉
+		name = "GFX_SPR_Miguel_Primo_Derivella_large"
+		texturefile = "gfx/leaders/SPR/SPR_Miguel_Primo_Derivella.png"
+	}
 	#波兰
 	#领导人
 	spriteType = {

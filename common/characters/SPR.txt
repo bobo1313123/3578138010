@@ -1,20 +1,4 @@
 characters={
-	SPR_Miguel_Primo_Derivella = { #米格尔·普里莫·德里维拉
-    name = SPR_Miguel_Primo_Derivella
-    portraits = {
-        civilian = {
-            large = GFX_leader_SPR_Miguel_Primo_Derivella
-        }
-    }
-    
-    country_leader = {
-        ideology = Spain_rivera_ideologies
-		desc = MEX_afangsuo_leiyesi_desc
-        traits = {
-            SPR_dictator
-        }
-    }
-}
     SPR_Francisco_Franco = { #弗朗西斯科·佛朗哥
     name = SPR_Francisco_Franco
     portraits = {

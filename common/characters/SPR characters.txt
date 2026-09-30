@@ -1,0 +1,18 @@
+characters = {
+	#领导人
+	#米格尔·普里莫·德里维拉
+    SPR_Miguel_Primo_Derivella = {
+        name = SPR_Miguel_Primo_Derivella
+        portraits = {
+            civilian = {
+				small = GFX_portrait_WEI_Muweizhu_civilian_small
+				large = GFX_SPR_Miguel_Primo_Derivella_large
+			}
+		}
+        country_leader={
+			desc = SPR_Miguel_Primo_Derivella_desc
+			ideology= Spanish_Revivalism
+			traits= { SPR_dictator }
+		}
+    }
+}

@@ -161,4 +161,64 @@
  			
  		}
  	}
+	#精兵简政
+	focus = {
+ 		id = SPR_Better_soldier_Easier_policy
+ 		icon = GFX_goal_SPR_Better_soldier_Easier_policy
+ 		relative_position_id = SPR_Battlesmoke_dissipated
+		prerequisite = { focus = SPR_general_politics }
+ 		x = -4
+ 		y = 4
+ 		cost = 2
+ 		ai_will_do = { 
+ 			base = 1
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			
+ 		}
+ 	}
+	#势在必行的改革
+	focus = {
+ 		id = SPR_Necessary_reforms
+ 		icon = GFX_goal_SPR_Necessary_reforms
+ 		relative_position_id = SPR_Battlesmoke_dissipated
+		prerequisite = { focus = SPR_Rusted_gear }
+ 		x = 4
+ 		y = 4
+ 		cost = 2
+ 		ai_will_do = { 
+ 			base = 1
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			
+ 		}
+ 	}
+	#雄狮暮年
+	focus = {
+ 		id = SPR_The_old_lion
+ 		icon = GFX_goal_SPR_The_old_lion
+ 		relative_position_id = SPR_Battlesmoke_dissipated
+		prerequisite = { focus = SPR_Better_soldier_Easier_policy }
+		prerequisite = { focus = SPR_Dirty_war }
+		prerequisite = { focus = SPR_Must_be_faced}
+		prerequisite = { focus = SPR_Necessary_reforms }
+ 		x = 0
+ 		y = 6
+ 		cost = 2
+ 		ai_will_do = { 
+ 			base = 1
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			
+ 		}
+ 	}
 }

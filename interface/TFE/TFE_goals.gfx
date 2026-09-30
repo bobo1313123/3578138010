@@ -31,4 +31,16 @@ spriteTypes = {
 		name = "GFX_goal_SPR_Must_be_faced" 
 		texturefile = "gfx/interface/goals/SPR/SPR_Must_be_faced.png"
 	}
+	SpriteType = { #精兵简政
+		name = "GFX_goal_SPR_Better_soldier_Easier_policy" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Better_soldier_Easier_policy.png"
+	}
+	SpriteType = { #势在必行的改革
+		name = "GFX_goal_SPR_Necessary_reforms" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Necessary_reforms.png"
+	}
+	SpriteType = { #雄狮暮年
+		name = "GFX_goal_SPR_The_old_lion" 
+		texturefile = "gfx/interface/goals/SPR/SPR_The_old_lion.png"
+	}
 }

@@ -5,4 +5,28 @@ leader_traits ={
 		random = no
 		political_power_gain =  0.2
 	} 
+	#顾问特质
+	#长袖善舞
+	SPR_Smooth_operator = { 
+		random = no
+		political_power_gain = 0.5
+		stability_factor = 0.05
+		drift_defence_factor = 0.02
+	} 
+	#欧洲最年轻的将军
+	SPR_Europes_youngest_general = { 
+		random = no
+		training_time_army_factor = -0.10
+		army_attack_factor = 0.08
+		army_defence_factor = 0.08
+		planning_speed = 0.10
+	} 
+	#律师
+	SPR_Lawyer = { 
+		random = no
+		stability_factor = 0.05
+		political_power_gain = 0.1
+		Conservatism_drift = 0.05
+		tttt_drift = 0.05
+	} 
 }

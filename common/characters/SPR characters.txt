@@ -15,4 +15,85 @@ characters = {
 			traits= { SPR_dictator }
 		}
     }
+
+	#政治顾问
+	#塞拉洛·苏涅尔
+	SPR_Serralo_Sunier = {
+		name = SPR_Serralo_Sunier
+		portraits={
+			civilian={
+				small = GFX_SPR_Serralo_Sunier_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SPR_Serralo_Sunier_pol
+			desc = SPR_Serralo_Sunier_desc
+			traits = { SPR_Smooth_operator }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	#弗朗西斯科·佛朗哥
+	SPR_Francisco_Franco = {
+		name = SPR_Francisco_Franco
+		portraits={
+			civilian={
+				large = GFX_SPR_Francisco_Franco_large
+				small = GFX_SPR_Francisco_Franco_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SPR_Francisco_Franco_pol
+			desc = SPR_Francisco_Franco_desc
+			traits = { SPR_Europes_youngest_general }
+			cost = 0
+			can_be_fired = no
+		}
+		field_marshal = {
+			traits = { war_hero brilliant_strategist career_officer trickster }
+			skill = 3
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	#何塞·希尔-罗夫莱斯
+	SPR_Jose_GilRobles = {
+		name = SPR_Jose_GilRobles
+		portraits={
+			civilian={
+				small = GFX_SPR_Jose_GilRobles_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SPR_Jose_GilRobles_pol
+			desc = SPR_Jose_GilRobles_desc
+			traits = { SPR_Lawyer }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	#元帅
+	#达马索·贝伦格尔
+	SPR_Damaso_Berenguer = {
+		name = SPR_Damaso_Berenguer
+		portraits={
+			civilian={
+				large = GFX_SPR_Damaso_Berenguer_large
+				small = GFX_SPR_Damaso_Berenguer_small
+			}
+		}
+		field_marshal = {
+			traits = { organisational_leader thorough_planner infantry_officer old_guard }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
 }

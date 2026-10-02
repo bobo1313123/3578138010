@@ -1,47 +1,4 @@
 characters={
-    SPR_Francisco_Franco = { #弗朗西斯科·佛朗哥
-    name = SPR_Francisco_Franco
-    portraits = {
-        army = {
-            small = GFX_idea_SPR_Francisco_Franco_ad
-        }
-        civilian = {
-            large = GFX_leader_SPR_Francisco_Franco
-        }
-    }
-    
-    advisor = {
-        slot = political_advisor
-        idea_token = SPR_Francisco_Franco
-        traits = {
-            JUNO_minister_of_defense_emilio
-        }
-        cost = 0
-    }
-    field_marshal = {
-            skill = 4
-            attack_skill = 5
-            defense_skill = 3
-            planning_skill = 4
-            logistics_skill = 3
-            traits = {
-				war_hero
-                brilliant_strategist
-                career_officer
-                trickster
-            }
-        
-        }
-}
-    SPR_Jose_Antonio_Primo_de_la_Villa = { #何塞·安东尼奥·普里莫·德里维拉
-    name = SPR_Jose_Antonio_Primo_de_la_Villa
-    portraits = {
-        civilian = {
-            large = GFX_leader_SPR_Jose_Antonio_Primo_de_la_Villa
-        }
-    }
-    
-}
     SPR_Don_Carlos = { #唐·卡洛斯
     name = SPR_Don_Carlos
     portraits = {
@@ -51,24 +8,6 @@ characters={
     }
     
 }
-    
-    SPR_Serralo_Sunier = { #塞拉洛·苏涅尔
-    name =  SPR_Serralo_Sunier 
-    portraits = {
-        army = {
-            small = GFX_idea_SPR_Serralo_Sunier
-        }
-       
-    }
-    advisor = {
-        slot = political_advisor
-        idea_token = SPR_Serralo_Sunier_advisor
-        traits = {
-            JUNO_nationalizing_foreign_minister
-        }
-        cost = 0
-    }
-}   
      SPR_Fidel_Davila_Arondo =  { #菲德尔·达维拉·阿隆多
         name = SPR_Fidel_Davila_Arondo
         portraits = {

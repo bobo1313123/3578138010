@@ -4,10 +4,6 @@ spriteTypes = {
 		name = "GFX_leader_SPR_Miguel_Primo_Derivella"
 		texturefile = "gfx/leaders/SPR/TVE_SPR_Miguel_Primo_Derivella.dds"
 	}
-	spriteType = { #弗朗西斯科·佛朗哥
-		name = "GFX_leader_SPR_Francisco_Franco"
-		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco.dds"
-	}
 	spriteType = { #何塞·安东尼奥·普里莫·德里维拉
 		name = "GFX_leader_SPR_Jose_Antonio_Primo_de_la_Villa"
 		texturefile = "gfx/leaders/SPR/SPR_Jose_Antonio_Primo_de_la_Villa.dds"
@@ -15,15 +11,6 @@ spriteTypes = {
 	spriteType = { #唐·卡洛斯
 		name = "GFX_leader_SPR_Don_Carlos"
 		texturefile = "gfx/leaders/SPR/SPR_Don_Carlos.dds"
-	}
-	#顾问
-	spriteType = { #塞拉洛·苏涅尔
-		name = "GFX_idea_SPR_Serralo_Sunier"
-		texturefile = "gfx/interface/ideas/SPR/SPR_Serralo_Sunier.dds"
-	}
-	spriteType = { #弗朗西斯科·佛朗哥
-		name = "GFX_idea_SPR_Francisco_Franco_ad"
-		texturefile = "gfx/interface/ideas/SPR/SPR_Francisco_Franco_ad.dds"
 	}
 	 #事件及世界新闻配图
     spriteType = { #德里维拉之死

@@ -96,4 +96,41 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	#米格尔·卡巴内拉斯·费雷尔
+	SPR_Miguel_Cabanellas = {
+		name = SPR_Miguel_Cabanellas
+		portraits={
+			civilian={
+				large = GFX_SPR_Miguel_Cabanellas_large
+				small = GFX_SPR_Miguel_Cabanellas_small
+			}
+		}
+		field_marshal = {
+			traits = { infantry_leader career_officer infantry_officer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
+	#上将
+	#塞巴斯蒂安·波萨斯·佩雷亚
+	SPR_Sebastian_Pozas_Perea = {
+		name = SPR_Sebastian_Pozas_Perea
+		portraits={
+			civilian={
+				large = GFX_SPR_Sebastian_Pozas_Perea_large
+				small = GFX_SPR_Sebastian_Pozas_Perea_small
+			}
+		}
+		corps_commander = {
+			traits = { SPR_Command_limit guerilla_fighter engineer_officer infantry_officer }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+	}
 }

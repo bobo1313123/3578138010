@@ -1,11 +1,17 @@
 ﻿capital = 41 # Madrid
 oob = "SPR_1936"
 
+#领导人
 recruit_character = SPR_Miguel_Primo_Derivella #米格尔·普里莫·德里维拉
+#政治顾问
+recruit_character = SPR_Serralo_Sunier #塞拉洛·苏涅尔
+recruit_character = SPR_Francisco_Franco #弗朗西斯科·佛朗哥
+recruit_character = SPR_Jose_GilRobles #何塞·希尔-罗夫莱斯
+recruit_character = SPR_Damaso_Berenguer #达马索·贝伦格尔
+
+
 recruit_character = SPR_Jose_Antonio_Primo_de_la_Villa #何塞·安东尼奥·普里莫·德里维拉
 recruit_character = SPR_Don_Carlos #唐·卡洛斯
-recruit_character = SPR_Francisco_Franco #弗朗西斯科·佛朗哥
-recruit_character = SPR_Serralo_Sunier #塞拉洛·苏涅尔
 recruit_character = SPR_Fidel_Davila_Arondo #菲德尔·达维拉·阿隆多
 recruit_character = SPR_Francisco_Martin_Moreno #弗朗西斯科·马丁·莫雷诺
 recruit_character = SPR_Emilio_Esteban_Infant #埃米利奥・埃斯特班・因凡特
@@ -15,11 +21,16 @@ recruit_character = SPR_Manuel_Dies_Allegria #曼努埃尔·迪耶斯·阿莱格
 recruit_character = SPR_Carlos_Asensio_Cabanillas #卡洛斯·阿森西奥·卡巴尼利亚斯
 
 add_ideas = {
+	### 初始民族精神 ###
 	SPR_Papal_Meridian #教皇子午线
 	SPR_Legacy_of_the_Civil_War #内战的遗产
 	SPR_spanish_army #西班牙军队
 	SPR_The_hanging_throne #空悬王座
 	SPR_Autonomy_Dilemma #自治难题
+	### 政治顾问 ###
+	SPR_Serralo_Sunier_pol #塞拉洛·苏涅尔
+	SPR_Francisco_Franco_pol #弗朗西斯科·佛朗哥
+	SPR_Jose_GilRobles_pol #何塞·希尔-罗夫莱斯
 }
 set_convoys = 150
 set_stability = 0.5

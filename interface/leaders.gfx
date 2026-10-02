@@ -43,9 +43,31 @@ spriteTypes = {
 		texturefile = "gfx/leaders/CHI/CHI_Tang_Hualong.dds"
 	}
 	#西班牙
+	#领导人
 	spriteType = { #米格尔·普里莫·德里维拉
 		name = "GFX_SPR_Miguel_Primo_Derivella_large"
 		texturefile = "gfx/leaders/SPR/SPR_Miguel_Primo_Derivella.png"
+	}
+	spriteType = { #弗朗西斯科·佛朗哥
+		name = "GFX_SPR_Francisco_Franco_large"
+		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco.png"
+	}
+	spriteType = { #达马索·贝伦格尔
+		name = "GFX_SPR_Damaso_Berenguer_large"
+		texturefile = "gfx/leaders/SPR/SPR_Damaso_Berenguer.png"
+	}
+	#顾问
+	spriteType = { #塞拉洛·苏涅尔
+		name = "GFX_SPR_Serralo_Sunier_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Serralo_Sunier.png"
+	}
+	spriteType = {
+		name = "GFX_SPR_Francisco_Franco_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Francisco_Franco.png"
+	}
+	spriteType = {
+		name = "GFX_SPR_Jose_GilRobles_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Jose_GilRobles.png"
 	}
 	#波兰
 	#领导人

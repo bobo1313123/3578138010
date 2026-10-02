@@ -52,9 +52,19 @@ spriteTypes = {
 		name = "GFX_SPR_Francisco_Franco_large"
 		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco.png"
 	}
+	#元帅
 	spriteType = { #达马索·贝伦格尔
 		name = "GFX_SPR_Damaso_Berenguer_large"
 		texturefile = "gfx/leaders/SPR/SPR_Damaso_Berenguer.png"
+	}
+	spriteType = { #米格尔·卡巴内拉斯·费雷尔
+		name = "GFX_SPR_Miguel_Cabanellas_large"
+		texturefile = "gfx/leaders/SPR/SPR_Miguel_Cabanellas.png"
+	}
+	#上将
+	spriteType = { #塞巴斯蒂安·波萨斯·佩雷亚
+		name = "GFX_SPR_Sebastian_Pozas_Perea_large"
+		texturefile = "gfx/leaders/SPR/SPR_Sebastian_Pozas_Perea.png"
 	}
 	#顾问
 	spriteType = { #塞拉洛·苏涅尔

@@ -30,6 +30,8 @@
  SPR_Jose_GilRobles_desc: "§Y司政部长§!\n§g军事领导委员会§!"
  
  SPR_Damaso_Berenguer: "达马索·贝伦格尔"
+ SPR_Miguel_Cabanellas: "米格尔·卡巴内拉斯·费雷尔"
+ SPR_Sebastian_Pozas_Perea: "塞巴斯蒂安·波萨斯·佩雷亚"
 
 
 
@@ -40,6 +42,10 @@
  SPR_Lawyer: "律师"
  Spanish_Revivalism: "西班牙复兴主义"
  Spanish_Revivalism_desc: "（待填充）"
+
+
+ SPR_Command_limit: "西班牙上将"
+ SPR_Command_limit_desc: "西班牙近来多为治安类与内战类的分队作战形式，大兵团作战教学在军事院校寥寥无几"
 
 
 

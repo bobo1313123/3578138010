@@ -7,7 +7,11 @@ recruit_character = SPR_Miguel_Primo_Derivella #米格尔·普里莫·德里维�
 recruit_character = SPR_Serralo_Sunier #塞拉洛·苏涅尔
 recruit_character = SPR_Francisco_Franco #弗朗西斯科·佛朗哥
 recruit_character = SPR_Jose_GilRobles #何塞·希尔-罗夫莱斯
+#将领
 recruit_character = SPR_Damaso_Berenguer #达马索·贝伦格尔
+recruit_character = SPR_Miguel_Cabanellas #米格尔·卡巴内拉斯·费雷尔
+recruit_character = SPR_Sebastian_Pozas_Perea #塞巴斯蒂安·波萨斯·佩雷亚
+
 
 
 recruit_character = SPR_Jose_Antonio_Primo_de_la_Villa #何塞·安东尼奥·普里莫·德里维拉

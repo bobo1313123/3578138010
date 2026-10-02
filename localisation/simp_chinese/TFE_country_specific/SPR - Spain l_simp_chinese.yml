@@ -22,24 +22,28 @@
 
  SPR_Miguel_Primo_Derivella: "米格尔·普里莫·德里维拉"
  SPR_Miguel_Primo_Derivella_desc: "§Y出生日期:1870年1月8日§!\n§L当米格尔·普里莫·德里维拉将军在1931年那场流血的政变中接管西班牙时，这个饱受政局动荡和殖民地战争折磨的国家，似乎终于迎来了一位能挥舞军刀斩断乱麻的强人。他来自安达卢西亚的贵族家庭，在摩洛哥和殖民地的赫赫军功为他赢得了威望。国王阿方索十三世的默许，更让这次行动披上了拯救国家于危难的光环。他承诺用“国家、宗教、君主制”的铁腕配方，为西班牙带来秩序与稳定，一场自上而下的“手术”即将开始。\n\n上台之后，他立刻开启了与，社会党人无政府主义者和分离分子的肮脏战争，直到1934年11月，训练有素的摩洛哥非洲兵团踏进了叛乱者在加泰罗尼亚的最后一个据点时，这场血腥的内战才终于结束，而这位独裁者也真正的掌握了整个国家。只不过现在就有你西班牙的雄狮，已年近七旬，却仍然大权在握不肯放手，这无疑让人民在心中产生了一个巨大的疑问，独裁者之后又会是谁呢？§!"
+ SPR_dictator: "大独裁者"
  SPR_Serralo_Sunier: "塞拉洛·苏涅尔"
  SPR_Serralo_Sunier_desc: "§C外交部长§!\n§g军事领导委员会§!"
+ SPR_Smooth_operator: "长袖善舞"
  SPR_Francisco_Franco: "弗朗西斯科·佛朗哥"
  SPR_Francisco_Franco_desc: "§L国防部长§!\n§g军事领导委员会§!"
+ SPR_Europes_youngest_general: "欧洲最年轻的将军"
  SPR_Jose_GilRobles: "何塞·希尔-罗夫莱斯"
- SPR_Jose_GilRobles_desc: "§Y司政部长§!\n§g军事领导委员会§!"
+ SPR_Jose_GilRobles_desc: "§3司政部长§!\n§g军事领导委员会§!"
+ SPR_Lawyer: "律师"
+ SPR_Jose_Calvo_Sotelo: "何塞·卡尔沃·索特沃"
+ SPR_Jose_Calvo_Sotelo_desc: "§Y内政部长§!\n§g军事领导委员会§!"
+ SPR_Mauras_Disciple: "毛拉门徒"
+ SPR_Joaquin_Chapaprieta: "华金·查帕普列塔"
+ SPR_Joaquin_Chapaprieta_desc: "§9财政部长§!\n§g军事领导委员会§!"
  
  SPR_Damaso_Berenguer: "达马索·贝伦格尔"
  SPR_Miguel_Cabanellas: "米格尔·卡巴内拉斯·费雷尔"
  SPR_Sebastian_Pozas_Perea: "塞巴斯蒂安·波萨斯·佩雷亚"
 
 
-
-
- SPR_dictator: "大独裁者"
- SPR_Smooth_operator: "长袖善舞"
- SPR_Europes_youngest_general: "欧洲最年轻的将军"
- SPR_Lawyer: "律师"
+ 
  Spanish_Revivalism: "西班牙复兴主义"
  Spanish_Revivalism_desc: "（待填充）"
 

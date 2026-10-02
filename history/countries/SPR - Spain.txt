@@ -7,6 +7,8 @@ recruit_character = SPR_Miguel_Primo_Derivella #米格尔·普里莫·德里维�
 recruit_character = SPR_Serralo_Sunier #塞拉洛·苏涅尔
 recruit_character = SPR_Francisco_Franco #弗朗西斯科·佛朗哥
 recruit_character = SPR_Jose_GilRobles #何塞·希尔-罗夫莱斯
+recruit_character = SPR_Jose_Calvo_Sotelo #何塞·卡尔沃·索特沃
+recruit_character = SPR_Joaquin_Chapaprieta #华金·查帕普列塔
 #将领
 recruit_character = SPR_Damaso_Berenguer #达马索·贝伦格尔
 recruit_character = SPR_Miguel_Cabanellas #米格尔·卡巴内拉斯·费雷尔
@@ -35,6 +37,8 @@ add_ideas = {
 	SPR_Serralo_Sunier_pol #塞拉洛·苏涅尔
 	SPR_Francisco_Franco_pol #弗朗西斯科·佛朗哥
 	SPR_Jose_GilRobles_pol #何塞·希尔-罗夫莱斯
+	SPR_Jose_Calvo_Sotelo_pol #何塞·卡尔沃·索特沃
+	SPR_Joaquin_Chapaprieta_pol #华金·查帕普列塔
 }
 set_convoys = 150
 set_stability = 0.5

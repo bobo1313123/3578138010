@@ -79,6 +79,14 @@ spriteTypes = {
 		name = "GFX_SPR_Jose_GilRobles_small"
 		texturefile = "gfx/interface/advisors/SPR/SPR_Jose_GilRobles.png"
 	}
+	spriteType = {
+		name = "GFX_SPR_Jose_Calvo_Sotelo_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Jose_Calvo_Sotelo.png"
+	}
+	spriteType = {
+		name = "GFX_SPR_Joaquin_Chapaprieta_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Joaquin_Chapaprieta.png"
+	}
 	#波兰
 	#领导人
 	spriteType = {
@@ -131,46 +139,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_FRA_Andre_Tardieu"
 		texturefile = "gfx/leaders/FRA/FRA_Andre_Tardieu.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Start"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Start.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Democratic"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Democratic.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Loser"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Loser.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Winner"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Winner.dds"
-	}
-	spriteType = {
-		name = "GFX_Adolph_Friedrich"
-		texturefile = "gfx/leaders/DSB/Adolph_Friedrich.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_SPR_LEADERS"
-		texturefile = "gfx/leaders/SPR/TVE_SPR_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Authoritarianism"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Authoritarianism.dds"
-	}
-	spriteType = {
-		name = "GFX_ENG_Edward_VII"
-		texturefile = "gfx/leaders/ENG/ENG_Edward_VII.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_WWII_first_flag"
-		texturefile = "gfx/leaders/DSB_WWII_first_flag.dds"
-	}
-	spriteType = {
-		name = "GFX_STNG"
-		texturefile = "gfx/leaders/JAP/STNG.dds"
 	}
 	spriteType = {
 		name = "GFX_CHI_CHIANG_KAI_SHEIK"
@@ -271,14 +239,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ENG_George_VI"
 		texturefile = "gfx/leaders/ENG/ENG_George_VI.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_Man_F"
-		texturefile = "gfx/leaders/DSB_Man_F.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_Man_S"
-		texturefile = "gfx/leaders/DSB_Man_S.dds"
 	}
 	spriteType = {
 		name = "GFX_ANA_anarchy"
@@ -492,22 +452,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TVE_SWI_LEADERS"
 		texturefile = "gfx/leaders/SWI/TVE_SWI_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_von_Papen"
-		texturefile = "gfx/leaders/DSB/DSB_von_Papen.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_Kurtvon_Schleicher"
-		texturefile = "gfx/leaders/DSB/DSB_Kurtvon_Schleicher.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_Heinrich_Bruning"
-		texturefile = "gfx/leaders/DSB/DSB_Heinrich_Bruning.dds"
-	}
-	spriteType = {
-		name = "GFX_RCA_YXL"
-		texturefile = "gfx/leaders/DSB/RCA_YXL.dds"
 	}
 	spriteType = {
 		name = "GFX_BLR_Bronislav_Vladislavovich_Kaminsky"

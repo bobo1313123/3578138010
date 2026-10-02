@@ -29,4 +29,17 @@ leader_traits ={
 		Conservatism_drift = 0.05
 		tttt_drift = 0.05
 	} 
+	#毛拉门徒
+	SPR_Mauras_Disciple = {
+		random = no
+		political_power_gain = 0.1
+		stability_factor = 0.05
+		drift_defence_factor = 0.05
+	}
+	#独立劳工长
+	SPR_Independent_Labour_Minister = {
+		random= no
+		production_speed_buildings_factor = 0.08
+		
+	}
 }

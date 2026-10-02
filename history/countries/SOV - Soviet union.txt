@@ -1,7 +1,7 @@
 ﻿load_focus_tree = soviet_TVE_focus
 capital = 219 # Moscow
 
-
+set_oob = "RUS_TFE"
 recruit_character = SOV_aleksandr_kerensky #亚历山大·克伦斯基
 set_country_flag = tfe_second_leader
 

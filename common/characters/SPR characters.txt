@@ -77,6 +77,40 @@ characters = {
 			can_be_fired = no
 		}
 	}
+	#何塞·卡尔沃·索特沃
+	SPR_Jose_Calvo_Sotelo = {
+		name = SPR_Jose_Calvo_Sotelo
+		portraits={
+			civilian={
+				small = GFX_SPR_Jose_Calvo_Sotelo_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SPR_Jose_Calvo_Sotelo_pol
+			desc = SPR_Jose_Calvo_Sotelo_desc
+			traits = { SPR_Mauras_Disciple }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	#华金·查帕普列塔
+	SPR_Joaquin_Chapaprieta = {
+		name = SPR_Joaquin_Chapaprieta
+		portraits={
+			civilian={
+				small = GFX_SPR_Joaquin_Chapaprieta_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = SPR_Joaquin_Chapaprieta_pol
+			desc = SPR_Joaquin_Chapaprieta_desc
+			traits = { SPR_Lawyer }
+			cost = 0
+			can_be_fired = no
+		}
+	}
 	#元帅
 	#达马索·贝伦格尔
 	SPR_Damaso_Berenguer = {
@@ -133,4 +167,5 @@ characters = {
 			logistics_skill = 3
 		}
 	}
+	#
 }

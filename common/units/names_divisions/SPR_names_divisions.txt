@@ -1,6 +1,5 @@
-﻿#西班牙编制
-SPR_INF_01 = 
-{
+#西班牙编制
+SPR_INF_01 = {
 	name = "整编混成师"
 
 	for_countries = { SPR }
@@ -9,8 +8,7 @@ SPR_INF_01 =
 
 	fallback_name = "西班牙%d号混成师"
 
-	ordered =
-	{
+	ordered = {
 		1 = { "西班牙%d号混成师 “马德里”" }
 		2 = { "西班牙%d号混成师 “安达卢西亚”" }
 		3 = { "西班牙%d号混成师 “巴伦西亚”" }

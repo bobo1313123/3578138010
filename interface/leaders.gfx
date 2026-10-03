@@ -48,11 +48,15 @@ spriteTypes = {
 		name = "GFX_SPR_Miguel_Primo_Derivella_large"
 		texturefile = "gfx/leaders/SPR/SPR_Miguel_Primo_Derivella.png"
 	}
-	spriteType = { #弗朗西斯科·佛朗哥
-		name = "GFX_SPR_Francisco_Franco_large"
+	spriteType = { #弗朗西斯科·佛朗哥（领导人）
+		name = "GFX_SPR_Francisco_Franco_civ_large"
 		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco.png"
 	}
 	#元帅
+	spriteType = { #弗朗西斯科·佛朗哥（元帅）
+		name = "GFX_SPR_Francisco_Franco_army_large"
+		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco_army.png"
+	}
 	spriteType = { #达马索·贝伦格尔
 		name = "GFX_SPR_Damaso_Berenguer_large"
 		texturefile = "gfx/leaders/SPR/SPR_Damaso_Berenguer.png"
@@ -65,6 +69,50 @@ spriteTypes = {
 	spriteType = { #塞巴斯蒂安·波萨斯·佩雷亚
 		name = "GFX_SPR_Sebastian_Pozas_Perea_large"
 		texturefile = "gfx/leaders/SPR/SPR_Sebastian_Pozas_Perea.png"
+	}
+	spriteType = { #米格尔·努涅斯·德普拉多
+		name = "GFX_SPR_Miguel_Nunez_dePrado_large"
+		texturefile = "gfx/leaders/SPR/SPR_Miguel_Nunez_dePrado.png"
+	}
+	spriteType = { #何塞·米亚哈·梅南特
+		name = "GFX_SPR_Jose_Miaja_Menant_large"
+		texturefile = "gfx/leaders/SPR/SPR_Jose_Miaja_Menant.png"
+	}
+	spriteType = { #贡萨洛·奎波·德里亚诺
+		name = "GFX_SPR_Gonzalo_Queipo_deLlano_large"
+		texturefile = "gfx/leaders/SPR/SPR_Gonzalo_Queipo_deLlano.png"
+	}
+	spriteType = { #菲德尔·达维拉·阿隆多
+		name = "GFX_SPR_Fidel_Davila_Arrondo_large"
+		texturefile = "gfx/leaders/SPR/SPR_Fidel_Davila_Arrondo.png"
+	}
+	spriteType = { #弗朗西斯科·马丁-莫雷诺
+		name = "GFX_SPR_Francisco_Martin_Moreno_large"
+		texturefile = "gfx/leaders/SPR/SPR_Francisco_Martin_Moreno.png"
+	}
+	spriteType = { #埃米利奥·埃斯特万·因方特斯
+		name = "GFX_SPR_Emilio_Esteban_Infantes_large"
+		texturefile = "gfx/leaders/SPR/SPR_Emilio_Esteban_Infantes.png"
+	}
+	spriteType = { #阿古斯丁·穆尼奥斯·格兰德斯
+		name = "GFX_SPR_Agustin_Munoz_Grandes_large"
+		texturefile = "gfx/leaders/SPR/SPR_Agustin_Munoz_Grandes.png"
+	}
+	spriteType = { #胡安·维贡·苏埃罗迪亚斯
+		name = "GFX_SPR_Juan_Vigon_Sueirodias_large"
+		texturefile = "gfx/leaders/SPR/SPR_Juan_Vigon_Sueirodias.png"
+	}
+	spriteType = { #曼努埃尔·迪耶斯·阿莱格里亚
+		name = "GFX_SPR_Manuel_Dies_Allegria_large"
+		texturefile = "gfx/leaders/SPR/SPR_Manuel_Dies_Allegria.png"
+	}
+	spriteType = { #卡洛斯·阿森西奥·卡巴尼利亚斯
+		name = "GFX_SPR_Carlos_Asensio_Cabanillas_large"
+		texturefile = "gfx/leaders/SPR/SPR_Carlos_Asensio_Cabanillas.png"
+	}
+	spriteType = { #埃米利奥·莫拉
+		name = "GFX_SPR_Emilio_Mora_large"
+		texturefile = "gfx/leaders/SPR/SPR_Emilio_Mora.png"
 	}
 	#顾问
 	spriteType = { #塞拉洛·苏涅尔

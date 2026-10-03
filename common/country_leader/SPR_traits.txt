@@ -40,6 +40,7 @@ leader_traits ={
 	SPR_Independent_Labour_Minister = {
 		random= no
 		production_speed_buildings_factor = 0.08
-		
+		industrial_capacity_factory = 0.10
+		consumer_goods_factor = -0.02 
 	}
 }

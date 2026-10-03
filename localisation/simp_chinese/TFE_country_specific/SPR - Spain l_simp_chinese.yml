@@ -37,10 +37,22 @@
  SPR_Mauras_Disciple: "毛拉门徒"
  SPR_Joaquin_Chapaprieta: "华金·查帕普列塔"
  SPR_Joaquin_Chapaprieta_desc: "§9财政部长§!\n§g军事领导委员会§!"
+ SPR_Independent_Labour_Minister: "独立劳工长"
  
  SPR_Damaso_Berenguer: "达马索·贝伦格尔"
  SPR_Miguel_Cabanellas: "米格尔·卡巴内拉斯·费雷尔"
  SPR_Sebastian_Pozas_Perea: "塞巴斯蒂安·波萨斯·佩雷亚"
+ SPR_Miguel_Nunez_dePrado: "米格尔·努涅斯·德普拉多"
+ SPR_Jose_Miaja_Menant: "何塞·米亚哈·梅南特"
+ SPR_Gonzalo_Queipo_deLlano: "贡萨洛·奎波·德里亚诺"
+ SPR_Fidel_Davila_Arrondo: "菲德尔·达维拉·阿隆多"
+ SPR_Francisco_Martin_Moreno: "弗朗西斯科·马丁-莫雷诺"
+ SPR_Emilio_Esteban_Infantes: "埃米利奥·埃斯特万·因方特斯"
+ SPR_Agustin_Munoz_Grandes: "阿古斯丁·穆尼奥斯·格兰德斯"
+ SPR_Juan_Vigon_Sueirodias: "胡安·维贡·苏埃罗迪亚斯"
+ SPR_Manuel_Dies_Allegria: "曼努埃尔·迪耶斯·阿莱格里亚"
+ SPR_Carlos_Asensio_Cabanillas: "卡洛斯·阿森西奥·卡巴尼利亚斯"
+ SPR_Emilio_Mora: "埃米利奥·莫拉"
 
 
  

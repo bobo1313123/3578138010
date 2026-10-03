@@ -1,5 +1,116 @@
 ﻿capital = 41 # Madrid
 oob = "SPR_1936"
+set_naval_oob = "SPR_naval"
+set_stability = 0.63
+set_war_support = 0.72
+set_research_slots = 3
+set_convoys = 230
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+	create_equipment_variant = {
+		name = "Gatito"
+		type = light_tank_chassis_1
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_heavy_machine_gun
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 5
+			tank_nsb_armor_upgrade = 1
+		}
+	}
+}
+set_technology = {
+	### General ###
+	electronic_mechanical_engineering = 1
+	### Infantry ###
+	infantry_weapons = 1
+	basic_train = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	marines = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	tech_trucks = 1
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "SPR_air_bba"
+
+		set_technology = {
+			aa_lmg = 1
+			early_bombs = 1
+			engines_1 = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			air_torpedoe_1 = 1
+			bba_early_transport_plane = 1
+		}
+		SPR_BBA_air_variants = yes
+	else = {
+		set_air_oob = "SPR_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			naval_bomber1 = 1
+			early_bomber = 1
+			strategic_bomber1 = 1
+			tactical_bomber1 = 1
+			early_transport_plane = 1
+		}
+	}
+}
+
+### Navy - MtG ###
+set_technology = {
+	early_ship_hull_light = 1
+	basic_ship_hull_light = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	panzerschiffe = 1
+	early_ship_hull_submarine = 1
+	basic_ship_hull_submarine = 1
+	cruiser_submarines = 1
+	
+	basic_naval_mines = 1
+
+	## Modules##
+	basic_battery = 1
+	basic_light_battery = 1
+	
+	basic_heavy_battery = 1
+	basic_depth_charges = 1
+	basic_torpedo = 1
+	improved_ship_torpedo_launcher = 1
+	basic_cruiser_armor_scheme = 1
+
+	### Transport ###
+	mtg_transport = 1
+}
 
 #领导人
 recruit_character = SPR_Miguel_Primo_Derivella #米格尔·普里莫·德里维拉
@@ -44,10 +155,6 @@ add_ideas = {
 	SPR_Jose_Calvo_Sotelo_pol #何塞·卡尔沃·索特沃
 	SPR_Joaquin_Chapaprieta_pol #华金·查帕普列塔
 }
-set_convoys = 150
-set_stability = 0.5
-
-
 
 add_ideas = {
 	#SPR_Republic_down 共和国之荡

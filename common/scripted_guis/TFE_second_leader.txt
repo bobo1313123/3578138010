@@ -7,7 +7,7 @@
 
         visible = {
             THIS = {
-				has_country_flag = tfe_second_leader
+				has_second_leader = yes
             }
         }
     }
@@ -18,7 +18,7 @@
 
         visible = {
             THIS = {
-				has_country_flag = tfe_second_leader
+				has_second_leader = yes
             }
         }
     }

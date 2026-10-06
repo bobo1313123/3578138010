@@ -5,7 +5,6 @@ recruit_character = GER_Hjalmar_Schacht #亚尔马·沙赫特
 recruit_character = GER_Heinrich_Bruning #海因里希·布吕宁
 recruit_character = GER_Karl_Liebknecht #卡尔·李卜克内西
 
-set_country_flag = tfe_second_leader
 set_research_slots = 4
 add_ideas = {
 	#初始民族精神

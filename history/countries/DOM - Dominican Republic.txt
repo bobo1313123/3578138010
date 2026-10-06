@@ -14,7 +14,7 @@ set_technology = {
 set_war_support = 0.1 
 set_convoys = 5
 
-set_country_flag = tfe_second_leader
+
 
 
 

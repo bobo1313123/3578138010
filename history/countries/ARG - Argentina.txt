@@ -4,9 +4,7 @@ oob = "ARG_1936"
 
 create_faction = ARG_Buenos_Aires_Organization
 add_to_faction = BRB
-#set_country_flag = tfe_Have_a_camp
 
-set_country_flag = tfe_second_leader
 
 set_autonomy = {
 		target = PAR

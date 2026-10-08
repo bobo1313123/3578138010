@@ -4,9 +4,10 @@ bookmarks = {
 		desc = "Europe_bookmark_desc"
 		date = 1935.1.1.12
 		picture = "GFX_bookmark_eu_TVE"
-		default_country = "GER"
+		default_country = "POL"
 		default = yes
 		sort_unplayed_first = no
+
 		"FRA"={
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
 			ideology = Conservatism
@@ -41,11 +42,8 @@ bookmarks = {
 		}
 		"POL"={
 			history = "POL_GATHERING_STORM_DESC"
-			ideology = tttt
+			ideology = Progressivism
 			ideas = {
-				POL_yuanshuai_yuanze
-				POL_jiaoaode_bolanren
-				POL_haibiande_kanke
 			}
 			focuses = {
 			}
@@ -73,6 +71,10 @@ bookmarks = {
 			}
 			focuses = {
 			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
 		}
 	}
 }

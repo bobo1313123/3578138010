@@ -138,6 +138,10 @@ spriteTypes = {
 	#波兰
 	#领导人
 	spriteType = {
+		name = "GFX_POL_Gabriel_Narutowicz_large"
+		texturefile = "gfx/leaders/POL/POL_Gabriel_Narutowicz.png"
+	}
+	spriteType = {
 		name = "GFX_POL_Jozef_Pilsudski_large"
 		texturefile = "gfx/leaders/POL/POL_Jozef_Pilsudski.png"
 	}

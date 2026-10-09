@@ -2,7 +2,9 @@
 oob = "POL_1936"
 set_stability = 0.45
 set_war_support = 0.43
+starting_train_buffer = 1
 load_focus_tree = generic_focus
+set_research_slots = 3
 
 ### 初始科技 ###
 set_technology = {
@@ -80,8 +82,6 @@ if = {
 #领导人
 recruit_character = POL_Gabriel_Narutowicz #加布里埃尔·纳鲁托维奇
 recruit_character = POL_Jozef_Pilsudski #约瑟夫·毕苏斯基
-recruit_character = POL_Walery_Slawek #瓦莱雷·斯瓦韦克
-recruit_character = POL_Edward_Rydz_Smigly #爱德华·雷兹-希米格维
 
 #副手
 
@@ -119,7 +119,6 @@ set_variable = {
 
 add_dynamic_modifier = { modifier = POL_trench_desire } #人心欲壑
 
-set_research_slots = 3
 set_autonomy = {
 	target = LIT
 	autonomy_state = Comrade_country

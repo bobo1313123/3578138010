@@ -10,7 +10,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = progressivism_small
-			traits = {  }
+			traits = { POL_Wrong_Chosen_People }
 		}
 	}
 	#约瑟夫·毕苏斯基

@@ -6,10 +6,10 @@ state = {
 	
 	state_category = metropolis
 	resources = {
-		steel = 24 # was: 40
-		aluminium = 16 # was: 28
-		chromium = 2 # was: 4
-		tungsten = 1 # was: 2
+		steel = 32
+		aluminium = 28
+		chromium = 4
+		tungsten = 2
 	}
 
 	history = {
@@ -17,28 +17,16 @@ state = {
 		add_core_of = LBV
 		add_core_of = ITA
 		add_core_of = TTS
-		victory_points = {
-			6780 25 
+		add_core_of = SPM
+		victory_points = { #都灵
+			6780 28 
 		}
 		buildings = {
-			infrastructure = 4 #was: 7
+			infrastructure = 3
 			arms_factory = 7
 			industrial_complex = 1
 			dockyard = 2
-			air_base = 8
-			
-		}
-		add_core_of = ITA
-		add_core_of = SPM
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 10
-				industrial_complex = 2
-				dockyard = 3
-				6788 = {
-					naval_facility = 1 # Genoa Facilities
-				}
-			}
+			air_base = 3	
 		}
 	}
 

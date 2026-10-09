@@ -48,9 +48,9 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"SPM"={
+		"ITA"={
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
+			ideology = communism
 			ideas = {
 			}
 			focuses = {

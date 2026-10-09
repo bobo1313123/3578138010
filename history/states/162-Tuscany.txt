@@ -29,12 +29,6 @@ state = {
 		}
 		add_core_of = TTS
 		add_core_of = TOS
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces = {

@@ -52,6 +52,18 @@ spriteTypes = {
 		name = "GFX_SPR_Francisco_Franco_civ_large"
 		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco.png"
 	}
+	spriteType = { #何塞·普里莫·德里维拉
+		name = "GFX_SPR_Jose_Primo_Derivella_large"
+		texturefile = "gfx/leaders/SPR/SPR_Jose_Primo_Derivella.png"
+	}
+	spriteType = { #唐·卡洛斯
+		name = "GFX_SPR_Don_Carlos_large"
+		texturefile = "gfx/leaders/SPR/SPR_Don_Carlos.png"
+	}
+	spriteType = { #胡安·德·波旁
+		name = "GFX_SPR_Juan_Deborbon_large"
+		texturefile = "gfx/leaders/SPR/SPR_Juan_Deborbon.png"
+	}
 	#元帅
 	spriteType = { #弗朗西斯科·佛朗哥（元帅）
 		name = "GFX_SPR_Francisco_Franco_army_large"
@@ -172,6 +184,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_LBV_Roberto_Farinacci_small"
 		texturefile = "gfx/interface/advisors/LBV/LBV_Roberto_Farinacci.png"
+	}
+	#西意大利（意大利社会主义共和国）
+	#领导人
+	spriteType = {
+		name = "GFX_ITA_Antonio_Gramsci_large"
+		texturefile = "gfx/leaders/ITA/ITA_Antonio_Gramsci.png"
 	}
 
 
@@ -364,10 +382,6 @@ spriteTypes = {
 		name = "GFX_UKR_Pavlo_Petrovych_Skoropadskyi"
 		texturefile = "gfx/leaders/UKR/UKR_Pavlo_Petrovych_Skoropadskyi.dds"
 	}
-	spriteType = {
-		name = "GFX_Pope_Pius_XI"
-		texturefile = "gfx/leaders/ITA/Pope_Pius_XI.png"
-	}
 	#I'm so sorry but actually there leaders's pitcure are all one person do that me,So for the working-speed, I have to simplification this leaders name.plzzzzz Forgive me,My work is too hard and large.TAT I will Formalize thier leaders if I have enough times after publish this mod.
 	spriteType = {
 		name = "GFX_TVE_DEN_LEADERS"
@@ -402,26 +416,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/SWE/TVE_SWE_LEADERS.dds"
 	}
 	spriteType = {
-		name = "GFX_TVE_LBV_LEADERS"
-		texturefile = "gfx/leaders/ITA/TVE_LBV_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_ITA_KINGDOM_LEADERS"
-		texturefile = "gfx/leaders/ITA/TVE_ITA_KINGDOM_LEADERS.png"
-	}
-	spriteType = {
-		name = "GFX_ITA_Gramsci"
-		texturefile = "gfx/leaders/ITA/ITA_Gramsci.png"
-	}
-	spriteType = {
-		name = "GFX_POR_hesai"
-		texturefile = "gfx/leaders/POR/POR_hesai.PNG"
-	}
-	spriteType = {
-		name = "GFX_TVE_TTS_LEADERS"
-		texturefile = "gfx/leaders/ITA/TVE_TTS_LEADERS.dds"
-	}
-	spriteType = {
 		name = "GFX_FRA_parliament"
 		texturefile = "gfx/leaders/FRA/FRA_parliament.dds"
 	}
@@ -430,20 +424,8 @@ spriteTypes = {
 		texturefile = "gfx/leaders/AUS/AUS_parliament.dds"
 	}
 	spriteType = {
-		name = "GFX_POL_parliament"
-		texturefile = "gfx/leaders/POL/POL_parliament.dds"
-	}
-	spriteType = {
 		name = "GFX_TVE_BEL_LEADERS"
 		texturefile = "gfx/leaders/BEL/TVE_BEL_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_BUL_LEADERS"
-		texturefile = "gfx/leaders/BUL/TVE_BUL_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_IRQ_LEADERS"
-		texturefile = "gfx/leaders/IRQ/TVE_IRQ_LEADERS.dds"
 	}
 	spriteType = {
 		name = "GFX_TVE_JOR_LEADERS"
@@ -460,10 +442,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TVE_SYR_LEADERS"
 		texturefile = "gfx/leaders/SYR/TVE_SYR_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_MON_LEADERS"
-		texturefile = "gfx/leaders/CHI/TVE_MON_LEADERS.dds"
 	}
 	spriteType = {
 		name = "GFX_TVE_MLY_LEADERS"

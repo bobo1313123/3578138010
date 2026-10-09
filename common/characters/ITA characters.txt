@@ -1,0 +1,35 @@
+characters = {
+	#领导人
+	#安东尼奥·葛兰西
+	ITA_Antonio_Gramsci = {
+		name = ITA_Antonio_Gramsci
+		portraits={
+			civilian={
+				large = GFX_ITA_Antonio_Gramsci_large
+			}
+		}
+		country_leader={
+			desc = ITA_Antonio_Gramsci_desc
+			ideology = communism_small
+			traits={ ITA_Revolutionary_Vanguard }
+		}
+	}
+	#政治顾问
+	#萨尔瓦托雷·巴尔齐莱
+	ITA_Salvatore_Barzilai = {
+		name = ITA_Salvatore_Barzilai
+		portraits = {
+			civilian = {
+				small = GFX_ITA_Salvatore_Barzilai_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = ITA_Salvatore_Barzilai_pol
+			desc = ITA_Salvatore_Barzilai_desc
+			traits = { ITA_1 }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+}

@@ -1,13 +1,13 @@
 
 state = {
 	id = 117
-	name = "STATE_117" # Campania
-	manpower = 4240000 # (Campania 3697k + Basilicato 543k )  # was 5333611 before Puglia state was added
+	name = "STATE_117"
+	manpower = 4240000
 	
 	state_category = city
 	resources = {
-		aluminium = 10 # was: 16 (MM: This WAS before my time)
-		steel = 15 # was: 24 (MM: This WAS before my time)
+		aluminium = 15
+		steel = 23
 	}
 
 	history = {

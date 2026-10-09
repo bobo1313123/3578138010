@@ -1,5 +1,5 @@
-﻿capital = 41 # Madrid
-oob = "SPR_1936"
+﻿capital = 41 # 马德里
+oob = "SPR_1935"
 set_naval_oob = "SPR_naval"
 set_stability = 0.63
 set_war_support = 0.72

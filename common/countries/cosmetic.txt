@@ -69,14 +69,6 @@ BOG_color = {
 	color = rgb { 157 43 45 }
 	color_ui = rgb { 80  165  10 }
 }
-ITALY_color = {
-	color = rgb { 0 102 0 }
-	color_ui = rgb { 0 102 0 }
-}
-ITALY_color_TTS = {
-	color = rgb { 0 102 0 }
-	color_ui = rgb { 0 102 0 }
-}
 FNA_color = {
 	color = rgb { 47 74 163 }
 	color_ui = rgb { 47 74 163 }

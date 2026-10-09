@@ -1,10 +1,9 @@
-﻿capital = 158 #都灵
-oob = "ITA_1935"
-set_stability = 0.31
-set_war_support = 0.58
+﻿capital = 117
+set_stability = 0.42
+set_war_support = 0.48
 starting_train_buffer = 1
 load_focus_tree = generic_focus
-set_research_slots = 4
+set_research_slots = 3
 
 ### 初始科技 ###
 set_technology = {
@@ -17,13 +16,18 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
 	trench_warfare = 1
 	
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
+	armored_car1 = 1 #Fiat AB611 entered service in 1933
 }
-if = {
+IF = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
 	}
@@ -32,7 +36,7 @@ if = {
 		basic_light_tank = 1
 	}
 }
-if = {
+IF = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
@@ -41,13 +45,13 @@ if = {
 		basic_light_tank_chassis = 1
 	}
 }
-if = {
+IF = {
 	limit = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	set_technology = { camelry = 1 }
 }
-if = {
+IF = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
 		early_submarine = 1
@@ -59,9 +63,8 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "ITA_1936_naval_legacy"
 }
-if = {
+IF = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
 		basic_naval_mines = 1
@@ -86,81 +89,38 @@ if = {
 		coastal_defense_ships = 1
 		improved_airplane_launcher = 1
 	}
-	set_naval_oob = "ITA_1936_naval_mtg"
-}
-
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "ITA_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			early_bombs = 1
-			aircraft_construction = 1
-			engines_1 = 1
-			engines_2 = 1
-			iw_small_airframe = 1
-			iw_medium_airframe = 1
-			basic_small_airframe = 1
-			basic_medium_airframe = 1
-			air_torpedoe_1 = 1
-			bba_early_transport_plane = 1
-		}
-	else = {
-		set_air_oob = "ITA_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			early_bomber = 1
-			naval_bomber1 = 1
-			CAS1 = 1
-			early_transport_plane = 1
-		}
-	}
 }
 #领导人
-recruit_character = ITA_Antonio_Gramsci #安东尼奥·葛兰西
-#政治顾问
-recruit_character = ITA_Salvatore_Barzilai #萨尔瓦托雷·巴尔齐莱
-recruit_character = ITA_Pietro_Nenni #勤恳的领袖
-recruit_character = ITA_Nikolai_Bukharin #尼古拉·布哈林
-recruit_character = ITA_Emilio_Lussu #埃米利奥·卢苏
+recruit_character = TTS_Vittorio_emanuele_iii #维克托·埃马努埃莱三世
 
 add_ideas = {
-	### 初始法案 ###
-	service_by_requirement #按需服兵役
 
-	### 初始民族精神 ###
-	ITAG_Protracted_civilwar #内战旷久
-	ITA_Disorganized_militia #混乱的民兵
-	ITA_Peril_of_Committee_Democracy #委员会民主的危难
-
-	### 政治顾问 ###
-	ITA_Salvatore_Barzilai_pol #萨尔瓦托雷·巴尔齐莱
-	ITA_Pietro_Nenni_pol #彼得罗·南尼
-	ITA_Nikolai_Bukharin_pol #尼古拉·布哈林
-	ITA_Emilio_Lussu_pol #埃米利奥·卢苏
-	
 }
 
-set_convoys = 90
+set_convoys = 60
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = tttt
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 57
-	Socialism = 21
-	Progressivism = 8
-	Democracy = 14
+    Liberalism = 4
+	Conservatism = 13
+	tttt = 75
+	fascism = 8
 }
 
 add_equipment_to_stockpile = {
 	type = infantry_equipment
-	amount = 220
+	amount = 1200
 }
 add_equipment_to_stockpile = {
 	type = artillery_equipment
-	amount = 12
+	amount = 50
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 20
 }

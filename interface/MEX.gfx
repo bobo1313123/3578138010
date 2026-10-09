@@ -72,4 +72,10 @@ spriteTypes = {
 		name = "GFX_idea_MEX_fulangxisike_muxika"
 		texturefile = "gfx/interface/ideas/MEX/MEX_fulangxisike_muxika.dds"			
 	}
+	###国策
+	SpriteType = { #新的一年
+		name = "GFX_focus_MEX_a_new_year"
+		texturefile = "gfx/interface/goals/MEX/MEX_a_new_year.dds"			
+	}
+	
 }

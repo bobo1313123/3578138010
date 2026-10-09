@@ -1,6 +1,6 @@
 ﻿capital = 1423
 
-set_research_slots = 3
+set_research_slots = 2
 set_stability = 0.75
 set_war_support = 0.55
 set_variable = { var = senators_support value = 48 }
@@ -19,21 +19,39 @@ set_technology = {
 	tech_engineers = 1
 	gw_artillery = 1
 	tech_trucks = 1
-	
-	early_submarine = 1
-	basic_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	early_carrier = 1
-	basic_carrier = 1
-	transport = 1
-	superior_firepower = 1
-	base_strike = 1
+	motorised_infantry = 1
 	basic_train = 1
+
+	#下面是空军科技
+	iw_small_airframe = 1
+	iw_medium_airframe = 1
+	aa_lmg = 1
+	engines_1 = 1
+	early_bombs = 1
+	bba_early_transport_plane = 1
+
+	#下面是海军科技
+	early_ship_hull_light = 1        
+	early_ship_hull_cruiser = 1      
+	early_ship_hull_heavy = 1        
+	early_ship_hull_submarine = 1
+	early_ship_hull_carrier = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1    
+	basic_battery = 1
+	basic_light_battery = 1
+	basic_heavy_battery = 1
+	basic_torpedo = 1
+	sonar = 1
+	smoke_generator = 1
+	basic_depth_charges = 1
+	basic_cruiser_armor_scheme = 1
+	basic_heavy_armor_scheme = 1
+	mtg_transport = 1
+	basic_fire_control_system = 1
+	basic_dp_light_battery = 1
+	coastal_defense_ships = 1
+	
 }
 
 
@@ -85,7 +103,9 @@ if = {
 	}
 }
 
-load_oob = "Second_Civil_War_CSA"
+oob = "CSA_1935"
+set_naval_oob = "CSA_navy_1935"
+set_air_oob = "CSA_air_1935"
 
 recruit_character = CSA_Charles_Coughlin #查尔斯·考夫林
 recruit_character = CSA_Hugh_Long #休伊·朗
@@ -149,4 +169,124 @@ add_ideas = {
 }
 
 
+create_equipment_variant = {#战斗机
+	name = "OPR" 
+	type = small_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = light_mg_4x
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
+	}
+}
+create_equipment_variant = {#轰炸机
+	name = "DENFLY" 
+	type = medium_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = medium_bomb_bay
+		engine_type_slot = engine_1_2x
+		special_type_slot_1 = empty
+	}
+}
+create_equipment_variant = {#舔地机
+	name = "LITEN" 
+	type = small_plane_cas_airframe_0
+	design_team = mio:ENG_hawker_organization
+	modules = {
+		fixed_main_weapon_slot = bomb_locks
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
+	}
+	obsolete = yes
+	icon = "GFX_ENG_CAS1_medium"
+}
 
+
+create_equipment_variant = {#战列舰
+	name = "BattleShip"
+	type = ship_hull_heavy_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_heavy_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = heavy_ship_engine_1
+		fixed_ship_secondaries_slot = dp_ship_secondaries_2
+		fixed_ship_armor_slot = ship_armor_bc_2
+		front_1_custom_slot = ship_anti_air_1
+		mid_1_custom_slot = empty
+		mid_2_custom_slot = ship_secondaries_1
+		rear_1_custom_slot = ship_heavy_battery_1
+	}
+}
+create_equipment_variant = {#潜艇
+	name = "KLF Class"
+	type = ship_hull_submarine_1
+	parent_version = 0
+	modules = {
+		fixed_ship_torpedo_slot = ship_torpedo_sub_1
+		fixed_ship_engine_slot = sub_ship_engine_1
+		rear_1_custom_slot = empty
+	}
+	upgrades = {
+		ship_reliability_upgrade = 3
+		sub_engine_upgrade = 2
+		sub_stealth_upgrade = 2
+		sub_torpedo_upgrade = 3
+	}
+}
+create_equipment_variant = {#巡洋舰
+	name = "AL Class"
+	type = ship_hull_cruiser_1
+	parent_version = 0
+	modules = {
+		fixed_ship_battery_slot = ship_light_medium_battery_1
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = cruiser_ship_engine_1
+		fixed_ship_armor_slot = ship_armor_cruiser_1
+		mid_1_custom_slot = ship_torpedo_1
+		mid_2_custom_slot = ship_torpedo_1
+		rear_1_custom_slot = empty
+	}
+}
+create_equipment_variant = {#航母
+		name = "Courageous Class"
+		type = ship_hull_carrier_conversion_bb
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = dp_ship_secondaries_1
+			mid_1_custom_slot = ship_deck_space
+		}
+	}
+
+
+create_equipment_variant = {#航母
+	name = "General Lee Class"
+	type = ship_hull_carrier_conversion_bb
+	parent_version = 0
+	modules = {
+		fixed_ship_deck_slot_1 = ship_deck_space
+		fixed_ship_deck_slot_2 = ship_deck_space
+		fixed_ship_anti_air_slot = ship_anti_air_1
+		fixed_ship_radar_slot = empty
+		fixed_ship_engine_slot = carrier_ship_engine_1
+		fixed_ship_secondaries_slot = dp_ship_secondaries_1
+		mid_1_custom_slot = ship_deck_space
+	}
+}
+create_equipment_variant = {#舰载战斗机
+	name = "REBEL"
+	type = cv_small_plane_airframe_0
+	modules = {
+		fixed_main_weapon_slot = light_mg_2x
+		engine_type_slot = engine_1_1x
+		special_type_slot_1 = empty
+	}
+}

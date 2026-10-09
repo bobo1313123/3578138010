@@ -347,10 +347,15 @@ SpriteTypes = {
 		name = "GFX_pob_CSA_industrialist"
 		texturefile = "gfx/interface/bop/CSA/CSA_industrialist.dds" 
 	}
+
     #事件及世界新闻配图
     spriteType = { #西部革命
         name = "GFX_events_CSA_western_revolution"
         textureFile = "gfx/interface/events/CSA/CSA_western_revolution.dds"
+    }
+    spriteType = { #特大沙暴席卷西部
+        name = "GFX_news_events_csa_sandstorm_sweeps_the_west"
+        textureFile = "gfx/event_pictures/TVE_NEWS/Amercian/CSA_sandstorm_sweeps_the_west.dds"
     }
 }
     

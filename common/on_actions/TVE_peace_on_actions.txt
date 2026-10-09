@@ -1,0 +1,57 @@
+on_actions = {
+    #法国第一次创死德国
+    on_capitulation = {
+		effect =  {
+			if = {
+				limit ={
+					FROM = {
+						original_tag = FRA
+					}
+					ROOT = {
+						original_tag = DSB
+					}
+				}
+				log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+				FROM = {
+					save_global_event_target_as = winning_country
+				} 
+				ROOT = {
+					save_global_event_target_as = losing_country
+				}
+
+				log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+				if = {
+					limit = {
+						event_target:losing_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:losing_country
+							}
+						}
+					}
+					set_global_flag = losing_country_multiple
+				}
+				if = {
+					limit = {
+						event_target:winning_country = {
+							any_allied_country = {
+								has_war_together_with = event_target:winning_country
+							}
+						}
+					}
+					set_global_flag = winning_country_multiple
+				}
+				every_country = {
+                    white_peace = ROOT
+                }
+				FROM = {
+					FRA = {
+						transfer_state = 51
+						transfer_state = 42
+					}
+				}
+				set_global_flag = show_peace_popup_alert
+			}
+		}
+	}
+}

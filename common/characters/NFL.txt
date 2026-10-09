@@ -1,0 +1,20 @@
+characters = {
+
+	NFL_richard_bennett = {# 理查德·贝内特
+		name = NFL_richard_bennett
+
+		portraits = {
+			civilian = {
+				large = GFX_leader_NFL_Richard_Bennett
+			}
+		}
+
+		country_leader = {
+			ideology = authoritarianism_small
+			#traits = { }
+			expire = "1965.1.1.1"
+			#desc = NFL_richard_bennett_desc
+		}
+	}
+
+}

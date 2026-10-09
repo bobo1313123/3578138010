@@ -5,24 +5,44 @@ SpriteTypes = {
 		texturefile = "gfx/leaders/USA/USA_John_Calvin_Coolidge.dds"
 	}
 	#民族精神
-	spriteType = { #经济危机的余波
-		name = "GFX_idea_USA_The_aftermath_of_the_ec"
-		texturefile = "gfx/interface/ideas/USA/USA_The_aftermath_of_the_ec.dds"
+	spriteType = { #国家由大企业主导
+		name = "GFX_idea_USA_Large_business_owners"
+		texturefile = "gfx/interface/ideas/USA/USA_Large_business_owners.dds"
 	}
-	spriteType = { #福特公司巨头
-		name = "GFX_idea_USA_Ford_giant"
-		texturefile = "gfx/interface/ideas/USA/USA_Ford_giant.dds"
+	#spriteType = { #无能的军队
+	#	name = "GFX_idea_USA_Incompetent_Army"
+	#	texturefile = "gfx/interface/ideas/USA/USA_Incompetent_Army.dds"
+	#}
+	#spriteType = { #民族冲突
+	#	name = "GFX_idea_USA_Ethnic_conflict"
+	#	texturefile = "gfx/interface/ideas/USA/USA_Ethnic_conflict.dds"
+	#}
+	spriteType = { #祖国分裂之殇
+		name = "GFX_idea_USA_The_Tragedy_of_a_Divided_Homeland"
+		texturefile = "gfx/interface/ideas/USA/USA_The_Tragedy_of_a_Divided_Homeland.dds"
 	}
-	spriteType = { #南方宿敌
-		name = "GFX_idea_USA_Southern_Enemy"
-		texturefile = "gfx/interface/ideas/USA/USA_Southern_Enemy.dds"
+	spriteType = { #北方自由州
+		name = "GFX_idea_USA_Northern_Free_State"
+		texturefile = "gfx/interface/ideas/USA/USA_Northern_Free_State.dds"
 	}
-	spriteType = { #开放的社会风气
-		name = "GFX_idea_USA_political_openness"
-		texturefile = "gfx/interface/ideas/USA/USA_political_openness.dds"
+
+	#开局介绍配图
+	spriteType = { 
+		name = "GFX_USAWELCOME"
+		texturefile = "gfx/interface/Playerccccc/USA/USA_WELCOME.dds"
 	}
-	spriteType = { #分裂之家
-		name = "GFX_idea_USA_divided_house"
-		texturefile = "gfx/interface/ideas/USA/USA_divided_house.dds"
+
+	#USA新闻配图
+	spriteType = { #新英格兰州戒严状态结束
+		name = "GFX_news_event_usa_martial_law_ends"
+		texturefile = "gfx/event_pictures/TVE_NEWS/Amercian/USA_Martial_law_in_New_England_has_ended.dds"
+	}
+	spriteType = { #联邦法院判处胡佛贪污：无期徒刑
+		name = "GFX_news_event_usa_hoover_verdict"
+		texturefile = "gfx/event_pictures/TVE_NEWS/Amercian/USA_Hoover_corruption.dds"
+	}
+	spriteType = { #爱达荷州并入联邦政府
+		name = "GFX_news_event_usa_idaho_into_government"
+		texturefile = "gfx/event_pictures/TVE_NEWS/Amercian/USA_Idaho_into_government.dds"
 	}
 }

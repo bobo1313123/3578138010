@@ -1,4 +1,5 @@
 leader_traits ={
+	#领导人特质
 	#傲慢的独裁领袖
 	LBV_Arrogant_Dictator ={
 		random = no
@@ -6,6 +7,7 @@ leader_traits ={
 		war_support_factor = 0.05
 		army_org_factor = 0.05
 	}
+	#顾问特质
 	#党的主脑
 	LBV_party_brain ={
 		random = no

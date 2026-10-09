@@ -1,4 +1,5 @@
 ﻿capital = 158 #都灵
+oob = "ITA_1935"
 set_stability = 0.31
 set_war_support = 0.58
 starting_train_buffer = 1
@@ -119,6 +120,9 @@ if = {
 recruit_character = ITA_Antonio_Gramsci #安东尼奥·葛兰西
 #政治顾问
 recruit_character = ITA_Salvatore_Barzilai #萨尔瓦托雷·巴尔齐莱
+recruit_character = ITA_Pietro_Nenni #勤恳的领袖
+recruit_character = ITA_Nikolai_Bukharin #尼古拉·布哈林
+recruit_character = ITA_Emilio_Lussu #埃米利奥·卢苏
 
 add_ideas = {
 	### 初始法案 ###
@@ -131,6 +135,9 @@ add_ideas = {
 
 	### 政治顾问 ###
 	ITA_Salvatore_Barzilai_pol #萨尔瓦托雷·巴尔齐莱
+	ITA_Pietro_Nenni_pol #彼得罗·南尼
+	ITA_Nikolai_Bukharin_pol #尼古拉·布哈林
+	ITA_Emilio_Lussu_pol #埃米利奥·卢苏
 	
 }
 
@@ -150,6 +157,10 @@ set_popularities = {
 }
 
 add_equipment_to_stockpile = {
-	type = motorized_equipment_1
-	amount = 20
+	type = infantry_equipment
+	amount = 220
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 12
 }

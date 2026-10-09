@@ -191,10 +191,17 @@ spriteTypes = {
 		name = "GFX_ITA_Antonio_Gramsci_large"
 		texturefile = "gfx/leaders/ITA/ITA_Antonio_Gramsci.png"
 	}
-
-
-	
-
+	#顾问
+	spriteType = {
+		name = "GFX_ITA_Salvatore_Barzilai_small"
+		texturefile = "gfx/interface/advisors/ITA/ITA_Salvatore_Barzilai.png"
+	}
+	#南意大利（意大利王国）
+	#领导人
+	spriteType = {
+		name = "GFX_TTS_Vittorio_emanuele_iii_large"
+		texturefile = "gfx/leaders/TTS/TTS_Vittorio_emanuele_iii.png"
+	}
 
 
 

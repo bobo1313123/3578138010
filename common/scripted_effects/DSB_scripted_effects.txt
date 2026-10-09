@@ -1,0 +1,197 @@
+DSB_economy_broken_repair = {
+	if = {
+        limit = { has_idea = industry_has_been_broken }
+        swap_ideas = {
+            remove_idea = industry_has_been_broken
+            add_idea = industry_has_been_broken_1
+        }
+    }
+    else_if = {
+        limit = { has_idea = industry_has_been_broken_1 }
+        swap_ideas = {
+            remove_idea = industry_has_been_broken_1
+            add_idea = industry_has_been_broken_2
+        }
+    }
+    else_if = {
+        limit = { has_idea = industry_has_been_broken_2 }
+		swap_ideas = {
+            remove_idea = industry_has_been_broken_2
+            add_idea = industry_has_been_broken_3
+        }
+    }
+	else_if = {
+        limit = { has_idea = industry_has_been_broken_3 }
+		swap_ideas = {
+            remove_idea = industry_has_been_broken_3
+            add_idea = industry_has_been_broken_4
+        }
+    }
+	else_if = {
+        limit = { has_idea = industry_has_been_broken_4 }
+        remove_ideas = industry_has_been_broken_4
+    }
+}
+Assessment_timeline_for_the_aggression_level_of_the_North_German_Confederation_government_from_an_international_perspective_sf = {
+	if = {
+		limit = { check_variable = { QLDV < 1 } }
+        if = {
+            limit = { has_country_flag = Pass_Medium_Phase_scf }
+        }
+        country_event = { id = DSB.80 }
+	}
+	if = {
+		limit = { check_variable = { QLDV = 1 } }
+        if = {
+            limit = { has_country_flag = Pass_Medium_Phase_scf }
+        }
+        country_event = { id = DSB.80 }
+	}
+	if = {
+		limit = { check_variable = { QLDV = 2 } }
+        if = {
+            limit = { has_country_flag = Pass_Medium_Phase_scf }
+        }
+        country_event = { id = DSB.80 }
+	}
+	if = {
+		limit = { check_variable = { QLDV = 3 } }
+	}
+	if = {
+		limit = { check_variable = { QLDV = 4 } }
+	}
+	if = {
+		limit = { check_variable = { QLDV = 5 } }
+	}
+	if = {
+		limit = { check_variable = { QLDV = 6 } }
+        AUS = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_1
+        }
+        SOV = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_1
+        }
+        FRA = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_1
+        }
+	}
+	if = {
+		limit = { check_variable = { QLDV = 7 } }
+        AUS = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_2
+        }
+        SOV = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_2
+        }
+        FRA = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_2
+        }
+	}
+	if = {
+		limit = { check_variable = { QLDV = 8 } }
+        AUS = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_3
+        }
+        SOV = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_3
+        }
+        FRA = {
+            remove_ideas = JSDY_1
+            remove_ideas = JSDY_2
+            remove_ideas = JSDY_3
+            add_ideas = JSDY_3
+        }
+	}
+	if = {
+		limit = { check_variable = { QLDV > 8 } }
+        AUS = {
+            declare_war_on = {
+                target = DSB
+                type = annex_everything
+            }
+        }
+        SOV = {
+            declare_war_on = {
+                target = DSB
+                type = annex_everything
+            }
+        }
+        FRA = {
+            declare_war_on = {
+                target = DSB
+                type = annex_everything
+            }
+        }
+        DSB = {
+            set_country_flag = Russia_attack_Baltic_scf
+            declare_war_on = {
+                target = RHI
+                type = annex_everything
+            }
+            declare_war_on = {
+                target = BAY
+                type = annex_everything
+            }
+            CSA = {
+                declare_war_on = {
+                    target = RHI
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = BAY
+                    type = annex_everything
+                }
+            }
+            custom_effect_tooltip = DSB_return_end_focus_work_tt
+            hidden_effect = {
+                set_country_flag = dsb_pashe6_work
+                mark_focus_tree_layout_dirty = yes
+                complete_national_focus = DSB_ZMSL
+                news_event = { id = TVE_News.37 }
+                BAY = {
+                    country_event ={ id = script_events.12 }
+                }
+                RHI = {
+                    country_event ={ id = script_events.12 }
+                }
+            }
+        }
+    }
+}
+leader_portraits_effect  = {
+    if = {
+        limit = {
+            NOT = {
+                has_country_flag = change_second_leader
+            }
+        }
+        set_country_flag = change_second_leader
+    }
+    else = {
+        clr_country_flag = change_second_leader
+    }
+}

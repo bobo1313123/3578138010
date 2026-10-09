@@ -1,0 +1,65 @@
+ideas = {
+
+	country = {
+
+		# 巨人脚下
+		BLZ_under_the_giants = {
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				cic_to_overlord_factor = 0.25
+				custom_modifier_tooltip = BLZ_under_the_giants_tip
+			}
+		}
+
+		# 大讨论
+		BLZ_the_great_debate = {
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				defensive_war_stability_factor = -0.1
+			}
+		}
+
+		# 种植园的诅咒
+		BLZ_the_curse_of_the_plantations = {
+			#picture = 
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = -0.2
+				consumer_goods_factor = -0.15
+			}
+		}
+	}
+}

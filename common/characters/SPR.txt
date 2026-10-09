@@ -1,0 +1,237 @@
+characters={
+	SPR_Miguel_Primo_Derivella = { #米格尔·普里莫·德里维拉
+    name = SPR_Miguel_Primo_Derivella
+    portraits = {
+        civilian = {
+            large = GFX_leader_SPR_Miguel_Primo_Derivella
+        }
+    }
+    
+    country_leader = {
+        ideology = Spain_rivera_ideologies
+		desc = MEX_afangsuo_leiyesi_desc
+        traits = {
+            SPR_dictator
+        }
+    }
+}
+    SPR_Francisco_Franco = { #弗朗西斯科·佛朗哥
+    name = SPR_Francisco_Franco
+    portraits = {
+        army = {
+            small = GFX_idea_SPR_Francisco_Franco_ad
+        }
+        civilian = {
+            large = GFX_leader_SPR_Francisco_Franco
+        }
+    }
+    
+    advisor = {
+        slot = political_advisor
+        idea_token = SPR_Francisco_Franco
+        traits = {
+            JUNO_minister_of_defense_emilio
+        }
+        cost = 0
+    }
+    field_marshal = {
+            skill = 4
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
+            traits = {
+				war_hero
+                brilliant_strategist
+                career_officer
+                trickster
+            }
+        
+        }
+}
+    SPR_Jose_Antonio_Primo_de_la_Villa = { #何塞·安东尼奥·普里莫·德里维拉
+    name = SPR_Jose_Antonio_Primo_de_la_Villa
+    portraits = {
+        civilian = {
+            large = GFX_leader_SPR_Jose_Antonio_Primo_de_la_Villa
+        }
+    }
+    
+}
+    SPR_Don_Carlos = { #唐·卡洛斯
+    name = SPR_Don_Carlos
+    portraits = {
+        civilian = {
+            large = GFX_leader_SPR_Don_Carlos
+        }
+    }
+    
+}
+    
+    SPR_Serralo_Sunier = { #塞拉洛·苏涅尔
+    name =  SPR_Serralo_Sunier 
+    portraits = {
+        army = {
+            small = GFX_idea_SPR_Serralo_Sunier
+        }
+       
+    }
+    advisor = {
+        slot = political_advisor
+        idea_token = SPR_Serralo_Sunier_advisor
+        traits = {
+            JUNO_nationalizing_foreign_minister
+        }
+        cost = 0
+    }
+}   
+     SPR_Fidel_Davila_Arondo =  { #菲德尔·达维拉·阿隆多
+        name = SPR_Fidel_Davila_Arondo
+        portraits = {
+            civilian = {
+                #large = SPR_Fidel_Davila_Arondo
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 2 
+            traits = {
+				career_officer
+                infantry_officer
+                SPR_Command_limit
+            }
+        }
+    }
+     SPR_Francisco_Martin_Moreno =  { #弗朗西斯科·马丁·莫雷诺
+        name = SPR_Francisco_Martin_Moreno
+        portraits = {
+            civilian = {
+                #large = SPR_Fidel_Davila_Arondo
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3 
+            traits = {
+                career_officer
+				infantry_officer
+                trait_cautious
+                SPR_Command_limit
+            }
+        }
+    }
+    SPR_Emilio_Esteban_Infant =  { #埃米利奥・埃斯特班・因凡特
+        name = SPR_Emilio_Esteban_Infant
+        portraits = {
+            civilian = {
+                #large = SPR_Fidel_Davila_Arondo
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 3 
+            traits = {
+                infantry_officer
+                trait_reckless
+                career_officer
+                SPR_Command_limit
+            }
+        }
+    }
+    SPR_Agustin_Munoz_Grandes =  { #阿古斯丁·穆尼奥斯·格兰德斯
+        name = SPR_Agustin_Munoz_Grandes
+        portraits = {
+            civilian = {
+                #large = SPR_Fidel_Davila_Arondo
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 1
+            logistics_skill = 3 
+            traits = {
+                defensive_doctrine
+                infantry_officer
+                trait_cautious
+                career_officer
+                SPR_Command_limit
+            }
+        }
+    }
+    SPR_Juan_Vigon_Sueirodias =  { #阿古斯丁·穆尼奥斯·格兰德斯
+        name = SPR_Juan_Vigon_Sueirodias
+        portraits = {
+            civilian = {
+                #large = SPR_Fidel_Davila_Arondo
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 4 
+            traits = {
+                old_guard
+                urban_assault_specialist
+                career_officer
+                SPR_Command_limit
+            }
+        }
+    }
+    SPR_Manuel_Dies_Allegria =  { #曼努埃尔·迪耶斯·阿莱格里亚
+        name = SPR_Manuel_Dies_Allegria
+        portraits = {
+            civilian = {
+                #large = SPR_Fidel_Davila_Arondo
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2 
+            traits = {
+                old_guard
+                career_officer
+                trait_cautious
+                SPR_Command_limit
+            }
+        }
+    }
+    SPR_Carlos_Asensio_Cabanillas =  { #卡洛斯·阿森西奥·卡巴尼利亚斯
+        name = SPR_Carlos_Asensio_Cabanillas
+        portraits = {
+            civilian = {
+                #large = SPR_Fidel_Davila_Arondo
+            }
+        }
+        corps_commander = {
+            skill = 3
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 3 
+            traits = {
+                career_officer
+                brilliant_strategist
+                armor_officer
+                offensive_doctrine
+                SPR_Command_limit
+            }
+        }
+    }
+    
+}

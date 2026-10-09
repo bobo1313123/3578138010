@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_BLZ_Leon_Cortes_Castro.gfx"
+		texturefile = "gfx/leaders/BLZ/BLZ_Leon_Cortes_Castro.dds"
+	}
+}

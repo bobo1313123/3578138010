@@ -15,6 +15,7 @@ ideas = {
 		#臃肿的行政系统
 		GER_Bureaucratic_administrative_system = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Bureaucratic_administrative_system" }
+			picture = GER_Bureaucratic_administrative_system
 			allowed = { always = no }
 			modifier = {
 				political_power_factor = -0.75
@@ -33,6 +34,7 @@ ideas = {
 		#《凡尔赛条约》的枷锁
 		GER_Shackles_of_Treaty_of_Versailles = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Shackles_of_Treaty_of_Versailles" }
+			picture = GER_Shackles_of_Treaty_of_Versailles
 			allowed = { always = no }
 			modifier = {
 				consumer_goods_factor = 0.20

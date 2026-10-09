@@ -1,16 +1,14 @@
 characters={
-	CAN_mackenzie_king={
-		name=CAN_mackenzie_king
-		portraits={
-			civilian={
-				large=GFX_portrait_CAN_mackenzie_king
+	CAN_Mackenzie_King = { #威廉·莱昂·麦肯齐·金
+		name = CAN_Mackenzie_King
+		portraits = {
+			civilian = {
+				large = "GFX_leader_CAN_Mackenzie_King"
 			}
 		}
-		country_leader={
-			ideology=liberalism_small
-			expire="1965.1.1.1"
-			traits = { CAN_liberal_corporatist }
-			id=-1
+		country_leader = {
+			ideology = liberalism_small
+			#traits = {}
 		}
 	}
 
@@ -789,7 +787,7 @@ characters={
 			}
 			do_effect = {
 				NOT = {
-					has_government = communism 
+					has_government = Communism 
 				}
 			}
 			ai_will_do = {

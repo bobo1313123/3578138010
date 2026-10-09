@@ -1,0 +1,9 @@
+spriteTypes = {
+	#领导人
+	spriteType = { # 理查德·贝内特
+		name = "GFX_leader_NFL_Richard_Bennett"
+		texturefile = "gfx/leaders/NFL/NFL_Richard_Bennett.dds"
+		legacy_lazy_load = no
+	}
+	
+}

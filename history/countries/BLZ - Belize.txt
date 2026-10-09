@@ -1,6 +1,6 @@
 ﻿capital = 311
 
-#oob = ""
+oob = "BLZ_1935"
 
 # Starting tech
 set_technology = {
@@ -9,100 +9,29 @@ set_technology = {
 
 set_convoys = 5
 
-recruit_character = BLZ_communist_guy
-recruit_character = BLZ_aa2
-recruit_character = BLZ_ar
-recruit_character = BLZ_acd2
-recruit_character = BLZ_acr
-recruit_character = BLZ_coi
-recruit_character = BLZ_acas
-recruit_character = BLZ_awt
-recruit_character = BLZ_pot
-recruit_character = BLZ_nccr
-recruit_character = BLZ_aco2
-recruit_character = BLZ_Liberalism_guy
-recruit_character = BLZ_ncs
-recruit_character = BLZ_acgs
-recruit_character = BLZ_ncm
-recruit_character = BLZ_mt
-recruit_character = BLZ_nt
-recruit_character = BLZ_ai2
-recruit_character = BLZ_fascist_guy
-recruit_character = BLZ_stc
+recruit_character = BLZ_antonio_soberanis_gomez
 
+set_war_support = 0.3
+set_stability = 0.3
 
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-
-		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
-}
 set_politics = {
-	ruling_party = Liberalism
-	last_election = "1936.1.1"
+	ruling_party = Socialism
+	last_election = "1935.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	Liberalism = 75
-	fascism = 1
-	communism = 1
-	Authoritarianism = 23
+	Communism = 19
+	Socialism = 34
+	Progressivism = 6
+	Liberalism = 9
+	Democracy = 2
+	Conservatism = 5
+	Authoritarianism = 10
+	tttt = 15
 }
-#create_country_leader = {
-#	
-#	name = "Jonas Lote"
-#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
-#	expire = "1965.1.1"
-#	ideology = authoritarianism_small
-#	traits = {
-#		#
-#	}
-#}
 
-
-1939.1.1 = {
-	set_politics = {
-		ruling_party = Liberalism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		Liberalism = 75
-		fascism = 1
-		communism = 1
-		Authoritarianism = 23
-	}
-}
+add_ideas = BLZ_under_the_giants
+add_ideas = BLZ_the_great_debate
+add_ideas = BLZ_the_curse_of_the_plantations

@@ -1,0 +1,10 @@
+USA_Northern_Border_State = {
+	enable = { always = yes }
+    #icon = 
+
+	state_production_speed_buildings_factor = 0.15
+
+	remove_trigger = {
+		NOT = { country_exists = CSA }
+	}
+}

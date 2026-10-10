@@ -1,7 +1,7 @@
 division_template = {
-	name = "革命卫队" 
+	name = "保王民团" 
 	is_locked = no
-	division_names_group = ITA_MIL_01
+	division_names_group = TTS_MIL_01
 	template_counter = 6
 
 	regiments = {
@@ -18,9 +18,9 @@ division_template = {
 	}	
 }
 division_template = {
-	name = "红色步兵团" 
+	name = "王室兵团" 
 	is_locked = no
-	division_names_group = ITA_INF_01
+	division_names_group = TTS_INF_01
 	template_counter = 6
 
 	regiments = {
@@ -34,95 +34,59 @@ division_template = {
 	}	
 }
 
-
 units = {
 	division = {
-		location = 6635
-		division_template = "革命卫队"
+		location = 11833
+		division_template = "保王民团"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 6635
-		division_template = "革命卫队"
+		location = 11833
+		division_template = "保王民团"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 6635
-		division_template = "革命卫队"
+		location = 910
+		division_template = "保王民团"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 776
-		division_template = "革命卫队"
+		location = 9750
+		division_template = "保王民团"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 776
-		division_template = "革命卫队"
+		location = 3885
+		division_template = "保王民团"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 11726
-		division_template = "革命卫队"
+		location = 11861
+		division_template = "王室兵团"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 11726
-		division_template = "红色步兵团"
+		location = 13561
+		division_template = "王室兵团"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 3773
-		division_template = "革命卫队"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
-	}
-	division = {
-		location = 3773
-		division_template = "革命卫队"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
-	}
-	division = {
-		location = 6973
-		division_template = "革命卫队"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
-	}
-	division = {
-		location = 6973
-		division_template = "革命卫队"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
-	}
-	division = {
-		location = 6780
-		division_template = "红色步兵团"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
-	}
-	division = {
-		location = 6780
-		division_template = "红色步兵团"
+		location = 967
+		division_template = "王室兵团"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0

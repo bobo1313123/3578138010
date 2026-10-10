@@ -185,6 +185,22 @@ spriteTypes = {
 		name = "GFX_LBV_Roberto_Farinacci_small"
 		texturefile = "gfx/interface/advisors/LBV/LBV_Roberto_Farinacci.png"
 	}
+	spriteType = {
+		name = "GFX_LBV_Giuseppe_Volpi_small"
+		texturefile = "gfx/interface/advisors/LBV/LBV_Giuseppe_Volpi.png"
+	}
+	spriteType = {
+		name = "GFX_LBV_Dino_Grandi_small"
+		texturefile = "gfx/interface/advisors/LBV/LBV_Dino_Grandi.png"
+	}
+	spriteType = {
+		name = "GFX_LBV_Italo_Balbo_small"
+		texturefile = "gfx/interface/advisors/LBV/LBV_Italo_Balbo.png"
+	}
+	spriteType = {
+		name = "GFX_LBV_Arturo_Bocchini_small"
+		texturefile = "gfx/interface/advisors/LBV/LBV_Arturo_Bocchini.png"
+	}
 	#西意大利（意大利社会主义共和国）
 	#领导人
 	spriteType = {

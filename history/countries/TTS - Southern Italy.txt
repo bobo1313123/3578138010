@@ -1,4 +1,5 @@
 ﻿capital = 117
+oob = "TTS_1935"
 set_stability = 0.42
 set_war_support = 0.48
 starting_train_buffer = 1
@@ -94,7 +95,11 @@ IF = {
 recruit_character = TTS_Vittorio_emanuele_iii #维克托·埃马努埃莱三世
 
 add_ideas = {
+	### 初始法案 ###
+	service_by_requirement #按需服兵役
 
+	### 初始民族精神 ###
+	ITAG_Protracted_civilwar #内战旷久
 }
 
 set_convoys = 60

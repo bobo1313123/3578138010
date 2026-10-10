@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+ TFE_northern_italy_focus: "北意大利国策树" 
+
  ITAG_Protracted_civilwar: "内战旷久"
  ITAG_Protracted_civilwar_desc: "无论是码头捕捞的渔民，还是城市居住的市民，亦或者田野劳作的农民，都对于战争感到了疲惫，人民的心声不再为战争所振奋，后者摧残了人们的心智和生活，经济一再衰退，社会的弹性减少，我们必须立刻结束混乱的战争状态，回归1861的统一。\n\n\n\n\n£GFX_idea_Protracted_civilwar_desc\n\n\n\n§!"
  
@@ -8,15 +10,27 @@
 
  LBV_fascism_party: "国家法西斯党"
  LBV_fascism_party_long: "意大利国家法西斯党"
-
+ LBV_Conservatism_party: "君主派"
+ LBV_Conservatism_party_long: "意大利君主派"
 
  LBV_Benito_Mussolini: "贝尼托·墨索里尼"
  LBV_Benito_Mussolini_desc: "§Y出生日期:1883年7月29日§!\n\n§L社会党热情澎湃的记者、法西斯联盟的总领袖、意大利运动的新偶像——三种描述汇聚在一个人身上毫不冲突的人物便是贝尼托·墨索里尼，在一战阴霾之后饱受祖国衰败摧残的他，毅然另立新党，就这样，一个混杂退伍老兵、失业青年、革命工团主义者、保守主义者的阵线在达权的墨索里尼统领下，冲击着意大利的传统政治绘谱，并占据成一方思想之霸主。\n\n进军罗马的失败酿就墨索里尼政治生涯中最为惨痛的灾难，人力的流失与威望的丧失令他只能退缩阵线，而在战后危机情势下，则自立政府，宣告法西斯民族政府成立，惮赫称王；内战怛怛，疮痍遍地，祖国的分裂、兄弟阎于墙令他痛心，而在未见处，因进军失败而愈演愈烈的流言蜚语则不断折磨他的神智……\n\n最关键的一年，墨索里尼是驾驶摇摇欲坠的帆船，最终荣膺辉煌的冠冕，还是败于私欲友人的背叛，浪得一生激情，无论如何，唯有意志决定他的未来。§!"
+ LBV_Arrogant_Dictator: "傲慢的独裁领袖"
  LBV_Roberto_Farinacci: "罗伯托·法里纳奇"
  LBV_Roberto_Farinacci_desc: "§Y内政部长§!\n§8国家法西斯党§!"
-
- LBV_Arrogant_Dictator: "傲慢的独裁领袖"
  LBV_party_brain: "党的主脑"
+ LBV_Giuseppe_Volpi: "朱塞佩·沃尔皮"
+ LBV_Giuseppe_Volpi_desc: "§9经济部长§!\n§8国家法西斯党§!"
+ LBV_Accountant: "账房先生"
+ LBV_Dino_Grandi: "迪诺·格兰迪"
+ LBV_Dino_Grandi_desc: "§C外交部长§!\n§8国家法西斯党§!"
+ LBV_Fascist_Crusade: "法西斯十字军"
+ LBV_Italo_Balbo: "伊塔洛·巴尔博"
+ LBV_Italo_Balbo_desc: "§L国防部长§!\n§8国家法西斯党§!"
+ LBV_war_lion: "战争的雄狮"
+ LBV_Arturo_Bocchini: "阿尔图罗·博基尼"
+ LBV_Arturo_Bocchini_desc: "§g安全部长§!\n§8国家法西斯党§!"
+ LBV_silent_ghost: "沉默的幽灵"
 
  National_fascism: "国家法西斯主义"
  National_fascism_desc: "（待填充）"
@@ -26,6 +40,14 @@
  LBV_Paralyzed_Blackshirts_desc: "在长达十几年的厮杀后，意大利内战陷入了沉默，黑衫军被改组为国家安全民队，以充当常备军。但预备兵源的素质和人力匮乏问题导致了军队指挥体系和基层的混乱，甚至于难以达到大战的军事水准，为应对如此境况，我们需要改革和整肃国防力量。\n\n\n\n\n£GFX_idea_Paralyzed_Blackshirts_desc\n\n\n\n§!"
  LBV_Committee_in_danger: "岌岌可危的委员会"
  LBV_Committee_in_danger_desc: "法西斯新政制度问题经过几十年的发展已经暴露出许多问题，干部对群众的疏远、组织体系的腐败、政策执行未落实都构成了国家法西斯党面临的糟糕处境，大法西斯委员会需要进行精简和调整以适应国家的发展。\n\n委员会的威望自内战以来逐渐降低，法西斯党内也出现了异见之声，在墨索里尼未听闻处，底下的窃窃私语正不断回荡。\n\n\n\n\n£GFX_idea_Committee_in_danger_desc\n\n\n\n§!"
+ LBV_Summarizing_the_past: "总结过去"
+ LBV_Summarizing_the_past_desc: "仓促地进军确实起到了出其不意的效果，可惜…我们太过于天真。\n\n领袖认为国王会为了挽救这个濒临倾覆的国家而与我们合作，却不想这把“又挫又盾的军刀”竟然会为了一己私利如此犹豫。上一次，因为对于形势的错判，我们没能成功控制全意大利。而这次，我们要坚决以戈止武，彻底结束意大利的乱局！"
+ LBV_Protracted_civilwar_1: "内战旷久"
+ LBV_Protracted_civilwar_1_desc: "无论是码头捕捞的渔民，还是城市居住的市民，亦或者田野劳作的农民，都对于战争感到了疲惫，人民的心声不再为战争所振奋，后者摧残了人们的心智和生活，经济一再衰退，社会的弹性减少，我们必须立刻结束混乱的战争状态，回归1861的统一。\n\n\n\n\n£GFX_idea_Protracted_civilwar_desc\n\n\n\n§!"
  
 
+ LBV_March_on_Rome_Lessons: "吸取进军罗马的教训"
+ LBV_March_on_Rome_Lessons_desc: "圣墓宣言宣告了我党的纲领和目标，然而1922年我党运动却功败垂成，进军罗马的辉煌之路遭到了左翼反对派与颠覆分子的破坏，于米兰成立临时政府后，我党与其他政权陷入角斗战场。原以为战争很快会以黑衫军革命的胜利而告终，却不料持续了如此之长，我们必须得从过去的失败中汲取教训，并更好地奠基于以后的胜利。"
+ LBV_Ready_for_Reunification: "为统一做准备"
+ LBV_Ready_for_Reunification_desc: "无论是党干事还是一般群众都对于内战感到晦暗，他们对于政权的信心也在逐渐丧失。几年前，冲突已停止，在非正式休战停火期间我国得以利用剩下的工业基础与大大小小的农庄建立战时经济基础。并让大萧条带来的影响逐渐淡出常态，遵从“信仰、服从、战斗”的信条，我们将会在最终之战中，夺回我们的家园与祖国！"
  

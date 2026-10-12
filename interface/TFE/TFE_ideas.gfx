@@ -323,4 +323,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SPR/Autonomy_Dilemma_desc.png"
 		legacy_lazy_load = no
 	}
+	#波兰民族精神
+	#瑟姆恐慌
+	spriteType = {
+		name = "GFX_idea_Sejm_panic"
+		texturefile = "gfx/interface/ideas/POL/Sejm_panic.png"
+	}
+	#街头斗殴
+	spriteType = {
+		name = "GFX_idea_Street_brawl"
+		texturefile = "gfx/interface/ideas/POL/Street_brawl.png"
+	}
+	#腐烂生蛆的血肉长城
+	spriteType = {
+		name = "GFX_idea_Ramparts_of_Rotting_Flesh"
+		texturefile = "gfx/interface/ideas/POL/Ramparts_of_Rotting_Flesh.png"
+	}
+	#人心欲壑
+	spriteType = {
+		name = "GFX_modifier_POL_trench_desire"
+		texturefile = "gfx/interface/ideas/POL/trench_desire.png"
+	}
+	
 }

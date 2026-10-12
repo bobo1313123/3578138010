@@ -52,7 +52,6 @@ add_ideas = {
 	GER_Bureaucratic_administrative_system #臃肿的行政系统
 	GER_Aftermath_of_November_Revolution #十一月革命的余烬
 	GER_Shackles_of_Treaty_of_Versailles #《凡尔赛条约》的枷锁
-	GER_turbulent_situation #动荡不安的局面
 	GER_Imperial_Navy_1 #帝国海军
 	GER_Imperial_AirForce_1 #帝国空军
 

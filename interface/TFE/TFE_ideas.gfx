@@ -370,16 +370,6 @@ spriteTypes = {
 		name = "GFX_idea_Shackles_of_Treaty_of_Versailles"
 		texturefile = "gfx/interface/ideas/GER/Shackles_of_Treaty_of_Versailles.png"
 	}
-	#动荡不安的局面
-	spriteType = {
-		name = "GFX_idea_turbulent_situation"
-		texturefile = "gfx/interface/ideas/GER/turbulent_situation.png"
-	}
-	spriteType = {
-		name = "GFX_idea_turbulent_situation_desc"
-		texturefile = "gfx/interface/ideas/GER/turbulent_situation_desc.png"
-		legacy_lazy_load = no
-	}
 	#战火带来的阴影
 	spriteType = {
 		name = "GFX_modifier_GER_Shadow_of_War"

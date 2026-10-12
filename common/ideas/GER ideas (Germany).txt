@@ -45,14 +45,6 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.05
 			}
 		}
-		#动荡不安的局面
-		GER_turbulent_situation = {
-			on_add = { log = "[GetLogRoot]: add idea GER_turbulent_situation" }
-			allowed = { always = no }
-			modifier = {
-				stability_factor = -0.20
-			}
-		}
 		#帝国海军
 		GER_Imperial_Navy_1 = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Imperial_Navy_1" }

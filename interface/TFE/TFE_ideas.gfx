@@ -344,5 +344,80 @@ spriteTypes = {
 		name = "GFX_modifier_POL_trench_desire"
 		texturefile = "gfx/interface/ideas/POL/trench_desire.png"
 	}
-	
+	#德国民族精神
+	#普鲁士军魂
+	spriteType = {
+		name = "GFX_idea_Prussian_military_spirit"
+		texturefile = "gfx/interface/ideas/GER/Prussian_military_spirit.png"
+	}
+	#臃肿的行政系统
+	spriteType = {
+		name = "GFX_idea_Bureaucratic_administrative_system"
+		texturefile = "gfx/interface/ideas/GER/Bureaucratic_administrative_system.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Bureaucratic_administrative_system_desc"
+		texturefile = "gfx/interface/ideas/GER/Bureaucratic_administrative_system_desc.png"
+		legacy_lazy_load = no
+	}
+	#十一月革命的余烬
+	spriteType = {
+		name = "GFX_idea_Aftermath_of_November_Revolution"
+		texturefile = "gfx/interface/ideas/GER/Aftermath_of_November_Revolution.png"
+	}
+	#《凡尔赛条约》的枷锁
+	spriteType = {
+		name = "GFX_idea_Shackles_of_Treaty_of_Versailles"
+		texturefile = "gfx/interface/ideas/GER/Shackles_of_Treaty_of_Versailles.png"
+	}
+	#动荡不安的局面
+	spriteType = {
+		name = "GFX_idea_turbulent_situation"
+		texturefile = "gfx/interface/ideas/GER/turbulent_situation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_turbulent_situation_desc"
+		texturefile = "gfx/interface/ideas/GER/turbulent_situation_desc.png"
+		legacy_lazy_load = no
+	}
+	#战火带来的阴影
+	spriteType = {
+		name = "GFX_modifier_GER_Shadow_of_War"
+		texturefile = "gfx/interface/ideas/GER/Shadow_of_War.png"
+	}
+	spriteType = {
+		name = "GFX_modifier_GER_Shadow_of_War_desc"
+		texturefile = "gfx/interface/ideas/GER/Shadow_of_War_desc.png"
+		legacy_lazy_load = no
+	}
+	#帝国陆军
+	spriteType = {
+		name = "GFX_modifier_GER_Imperial_Army"
+		texturefile = "gfx/interface/ideas/GER/Imperial_Army.png"
+	}
+	spriteType = {
+		name = "GFX_modifier_GER_Imperial_Army_desc"
+		texturefile = "gfx/interface/ideas/GER/Imperial_Army_desc.png"
+		legacy_lazy_load = no
+	}
+	#帝国海军
+	spriteType = {
+		name = "GFX_idea_Imperial_Navy"
+		texturefile = "gfx/interface/ideas/GER/Imperial_Navy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Imperial_Navy_desc"
+		texturefile = "gfx/interface/ideas/GER/Imperial_Navy_desc.png"
+		legacy_lazy_load = no
+	}
+	#帝国空军
+	spriteType = {
+		name = "GFX_idea_Imperial_AirForce"
+		texturefile = "gfx/interface/ideas/GER/Imperial_AirForce.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Imperial_AirForce_desc"
+		texturefile = "gfx/interface/ideas/GER/Imperial_AirForce_desc.png"
+		legacy_lazy_load = no
+	}
 }

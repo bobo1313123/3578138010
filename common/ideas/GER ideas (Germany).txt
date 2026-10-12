@@ -1,8 +1,10 @@
 ideas = {
     country = {
+		### 初始民族精神 ###
 		#普鲁士军魂
 		GER_Prussian_military_spirit = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Prussian_military_spirit" }
+			picture = Prussian_military_spirit
 			allowed = { always = no }
 			modifier = {
 				army_core_attack_factor = 0.05
@@ -15,6 +17,7 @@ ideas = {
 		#臃肿的行政系统
 		GER_Bureaucratic_administrative_system = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Bureaucratic_administrative_system" }
+			picture = Bureaucratic_administrative_system
 			allowed = { always = no }
 			modifier = {
 				political_power_factor = -0.75
@@ -24,6 +27,7 @@ ideas = {
 		#十一月革命的余烬
 		GER_Aftermath_of_November_Revolution = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Aftermath_of_November_Revolution" }
+			picture = Aftermath_of_November_Revolution
 			allowed = { always = no }
 			modifier = {
 				stability_factor = -0.15
@@ -33,6 +37,7 @@ ideas = {
 		#《凡尔赛条约》的枷锁
 		GER_Shackles_of_Treaty_of_Versailles = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Shackles_of_Treaty_of_Versailles" }
+			picture = Shackles_of_Treaty_of_Versailles
 			allowed = { always = no }
 			modifier = {
 				consumer_goods_factor = 0.20
@@ -48,39 +53,10 @@ ideas = {
 				stability_factor = -0.20
 			}
 		}
-		#战火带来的阴影
-		GER_Shadow_of_War_1 = {
-			on_add = { log = "[GetLogRoot]: add idea GER_Shadow_of_War_1" }
-			picture = GER_Shadow_of_War
-			allowed = { always = no }
-			modifier = {
-				conscription_factor = -0.10
-			}
-		}
-		GER_Shadow_of_War_2 = {
-			on_add = { log = "[GetLogRoot]: add idea GER_Shadow_of_War_2" } 
-			picture = GER_Shadow_of_War
-			allowed = { always = no }
-			modifier = {
-				conscription_factor = -0.10
-				consumer_goods_factor = -0.05
-			}
-		}
-		#帝国陆军
-		GER_Imperial_Army_1 = {
-			on_add = { log = "[GetLogRoot]: add idea GER_Imperial_Army_1" }
-			allowed = { always = no }
-			modifier = {
-				army_core_attack_factor = -0.10
-				army_core_defence_factor = -0.10
-				experience_gain_army_factor = -0.15
-				army_attack_factor = -0.10
-				army_defence_factor = -0.10
-			}
-		}
 		#帝国海军
 		GER_Imperial_Navy_1 = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Imperial_Navy_1" }
+			picture = Imperial_Navy
 			allowed = { always = no }
 			modifier = {
 				experience_gain_navy_factor = -0.15
@@ -89,7 +65,6 @@ ideas = {
 				navy_capital_ship_attack_factor = -0.10
 				navy_capital_ship_defence_factor = -0.10
 				navy_carrier_air_attack_factor = -0.10
-				navy_anti_air_attack_factor = -0.10
 				industrial_capacity_dockyard = -0.2
 			}
 			equipment_bonus = {
@@ -118,6 +93,7 @@ ideas = {
 		#帝国空军
 		GER_Imperial_AirForce_1 = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Imperial_AirForce_1" }
+			picture = Imperial_AirForce
 			allowed = { always = no }
 			modifier = {
 				experience_gain_air_factor = -0.15

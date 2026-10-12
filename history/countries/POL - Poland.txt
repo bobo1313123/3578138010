@@ -3,6 +3,7 @@ oob = "POL_1936"
 set_stability = 0.45
 set_war_support = 0.43
 starting_train_buffer = 1
+set_fuel_ratio = 0.8
 load_focus_tree = generic_focus
 set_research_slots = 3
 

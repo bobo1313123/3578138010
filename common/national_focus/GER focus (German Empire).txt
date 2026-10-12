@@ -182,9 +182,9 @@ focus_tree={
 		}
 		completion_reward={
 			log = "[GetDateText]: [Root.GetName]: Focus GER_Settle_unemployed_youth"
-			swap_ideas = {
-				remove_idea = GER_Shadow_of_War_1
-				add_idea = GER_Shadow_of_War_2
+			add_to_variable = {
+				var = GER_consumer_goods_factor
+				value = -0.05
 			}
 		}
 	}

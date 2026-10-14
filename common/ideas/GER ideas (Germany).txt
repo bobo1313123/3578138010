@@ -14,7 +14,7 @@ ideas = {
  				air_doctrine_cost_factor = -0.10
 			}
 		}
-		#臃肿的行政系统
+		#糟糕的政局
 		GER_Bureaucratic_administrative_system = {
 			on_add = { log = "[GetLogRoot]: add idea GER_Bureaucratic_administrative_system" }
 			picture = Bureaucratic_administrative_system
@@ -22,6 +22,7 @@ ideas = {
 			modifier = {
 				political_power_factor = -0.75
 				political_advisor_cost_factor = 0.50
+				stability_factor = -0.20
 			}
 		}
 		#十一月革命的余烬

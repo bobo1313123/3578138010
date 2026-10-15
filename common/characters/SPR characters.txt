@@ -178,7 +178,7 @@ characters = {
 		}
 	}
 	#上将
-	#塞巴斯蒂安波萨斯·佩雷亚
+	#塞巴斯蒂安·波萨斯·佩雷亚
 	SPR_Sebastian_Pozas_Perea = {
 		name = SPR_Sebastian_Pozas_Perea
 		portraits={

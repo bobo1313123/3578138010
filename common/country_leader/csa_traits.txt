@@ -6,6 +6,7 @@ leader_traits = {
 		fascism_drift = 0.01
 		war_support_factor = 0.15		
 	}
+	#顾问特质
 	#改良实干家
 	CSA_Reformers = {
 		random = no

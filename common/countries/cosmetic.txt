@@ -8,6 +8,11 @@ LBV_Mussolini_first = {
 	color = rgb { 126 24 42 }
 	color_ui = rgb { 126 24 42 }
 }
+#开局纽芬兰
+NFL_England_guardian = {
+	color = rgb { 200 16 46 }
+	color_ui = rgb { 200 16 46 }
+}
 
 bo_luo_di_sea = {
 	color = rgb { 138 155 116 }

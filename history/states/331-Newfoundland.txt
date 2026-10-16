@@ -6,10 +6,8 @@ state = {
 	state_category = rural
 
 	history = {
-
-		owner = CAN
-		add_core_of = CAN
-
+		owner = NFL
+		add_core_of = NFL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

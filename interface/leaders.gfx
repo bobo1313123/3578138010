@@ -275,13 +275,32 @@ spriteTypes = {
 		name = "GFX_NMX_Gilberto_Augusto_Abreu_large"
 		texturefile = "gfx/leaders/NMX/NMX_Gilberto_Augusto_Abreu.png"
 	}
-	#
+	#加拿大
+	#领导人
+	spriteType = { #威廉·莱昂·麦肯齐·金
+		name = "GFX_CAN_Mackenzie_King_large" 
+		texturefile = "gfx/leaders/CAN/CAN_Mackenzie_King.png"
+	}
+	#纽芬兰
+	#领导人
+	spriteType = { #理查德·贝内特
+		name = "GFX_NFL_Richard_Bennett_large" 
+		texturefile = "gfx/leaders/NFL/NFL_Richard_Bennett.png"
+	}
+	#中美洲
+	#领导人
+	spriteType = { #莱昂·科尔特斯·卡斯特罗
+		name = "GFX_ELS_Leon_Cortes_Castro_large"
+		texturefile = "gfx/leaders/ELS/ELS_Leon_Cortes_Castro.png"
+	}
 
 
 
 
-
-
+	spriteType = { #何塞·里卡多·佩雷拉·卡布拉尔
+		name = "GFX_POR_hesai"
+		texturefile = "gfx/leaders/POR/POR_hesai.png"
+	}
 	spriteType = {
 		name = "GFX_ENG_George_V"
 		texturefile = "gfx/leaders/ENG/ENG_George_V.dds"

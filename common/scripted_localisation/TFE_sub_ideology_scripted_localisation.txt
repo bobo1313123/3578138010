@@ -156,6 +156,18 @@ defined_text = {
 		}
 		localization_key = colonial_government_tttt
     }
+	text = {
+		trigger = { #宪政自由主义
+			has_country_leader_ideology = constitutional_liberalism
+		}
+		localization_key = constitutional_liberalism
+	}
+	text = {
+		trigger = { #古典自由主义
+			has_country_leader_ideology = classical_liberalism
+		}
+		localization_key = classical_liberalism
+	}
 }
 defined_text = {
 	name = GetSubIdeologyLocSocLib
@@ -171,6 +183,12 @@ defined_text = {
 			has_country_leader_ideology = democracy_small
 		}
 		localization_key = democracy_small
+	}
+	text = {
+		trigger = { #威权民主主义（基督教民主）
+			has_country_leader_ideology = authoritarian_democracy_christian_democracy
+		}
+		localization_key = authoritarian_democracy_christian_democracy
 	}
 }
 defined_text = {
@@ -233,6 +251,12 @@ defined_text = {
 		}
 		localization_key = military_junta
     }
+	text = {
+		trigger = { #英王管辖地
+			has_country_leader_ideology = crown_dominion
+		}
+		localization_key = crown_dominion
+	}
 }
 defined_text = {
 	name = GetSubIdeologyLocAuthDem

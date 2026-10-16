@@ -186,7 +186,13 @@ ideologies = {
 			colonial_government_Liberalism = { #殖民政府
 				can_be_randomly_selected = no
 			}
-
+			constitutional_liberalism = { #USA共和党的宪政自由主义
+				can_be_randomly_selected = no
+				color = { 6 233 249 }
+			}
+			classical_liberalism = { #古典自由主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -199,7 +205,7 @@ ideologies = {
 		}
 
 		color = { 135 206 235 }
-
+		
 		rules = {
 			can_force_government = yes
 			can_send_volunteers = yes
@@ -228,6 +234,10 @@ ideologies = {
 			}
 			steady_Progressivism_subtype = { #稳健进步主义
 				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_christian_democracy = { #USA民主党的威权民主主义（基督教民主）
+				can_be_randomly_selected = no
+				color = { 3 51 246 }
 			}
 		}
 
@@ -347,6 +357,9 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			military_junta_authoritarianism = { # 军政府
+				can_be_randomly_selected = no
+			}
+			crown_dominion = { #英王管辖地
 				can_be_randomly_selected = no
 			}
 		}

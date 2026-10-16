@@ -208,7 +208,7 @@ characters={
 			can_be_fired = no
 		}
 	}
-	#阿洛夫·兰登
+	#阿尔夫·兰登
 	USA_Alf_Landon = {
 		name = USA_Alf_Landon
 		portraits = {

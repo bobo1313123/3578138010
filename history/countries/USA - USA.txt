@@ -72,6 +72,25 @@ recruit_character = USA_Orson_Welles #奥逊•威尔斯
 recruit_character = USA_Al_Smith #阿尔·史密斯
 recruit_character = USA_Corporate_Board #企业理事会
 recruit_character = USA_George_Mosley #乔治·莫斯利
+#政治顾问
+recruit_character = USA_Orson_Welles #奥逊•威尔斯
+recruit_character = USA_William_J_Donovan #威廉•J•多诺万
+recruit_character = USA_Brown_Murray_Cutting #布朗•默里•卡廷
+recruit_character = USA_Dan_Moody #丹•默迪
+recruit_character = USA_Franklin_Delano_Roosevelt #富兰克林•德莱诺•罗斯福
+recruit_character = USA_Dwight_D_Eisenhower #德怀特·D·艾森豪威尔
+recruit_character = USA_Alf_Landon #阿尔夫·兰登
+recruit_character = USA_George_S_Patton_Jr #小乔治·史密斯·巴顿
+recruit_character = USA_William_Tubman #威廉·杜伯曼
+#将领
+recruit_character = USA_Frank_Besson #弗兰克·贝森
+recruit_character = USA_Robert_Berry #罗伯特·贝瑞
+recruit_character = USA_Thomas_Bates #托马斯·贝茨
+recruit_character = USA_Ernest_Bixby #欧内斯特·比克斯比
+recruit_character = USA_Joseph_Baschern #约瑟夫·巴斯彻恩
+recruit_character = USA_Hugh_Milton #休·米尔顿
+recruit_character = USA_Joseph_Stilwell #约瑟夫·史迪威
+recruit_character = USA_Jacob_Devers #雅各布·德弗斯
 
 set_autonomy = {
 	target = IDA

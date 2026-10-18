@@ -63,7 +63,7 @@ set_technology = {
 	basic_dp_light_battery = 1
 	coastal_defense_ships = 1
 } 
-#领导人
+### 领导人 ###
 recruit_character = USA_John_Calvin_Coolidge #约翰·卡尔文·柯立芝
 recruit_character = USA_John_Reed #约翰·里德
 recruit_character = USA_Earl_Browder #厄尔·白劳德

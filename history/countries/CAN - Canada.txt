@@ -29,7 +29,7 @@ set_technology = {
 	mtg_transport = 1
 }
 
-#领导人
+### 领导人 ###
 recruit_character = CAN_Mackenzie_King #威廉·莱昂·麦肯齐·金
 
 set_politics = {

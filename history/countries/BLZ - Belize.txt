@@ -12,7 +12,7 @@ set_technology = {
 	basic_train = 1
 }
 
-#领导人
+### 领导人 ###
 recruit_character = BLZ_Antonio_Soberanis_Gomez #安东尼奥·索贝拉尼斯·戈梅兹
 
 add_ideas = {

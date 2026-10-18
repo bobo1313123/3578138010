@@ -1,53 +1,153 @@
 characters={
-	ROM_gheorghe_tatarescu={
-		name=ROM_gheorghe_tatarescu
+	#领导人
+	#康斯坦丁·阿尔格托亚努
+	ROM_Constantin_Argetoianu = {
+		name = ROM_Constantin_Argetoianu
+		portraits = {
+			civilian={
+				large = GFX_ROM_Constantin_Argetoianu_large
+			}
+		}
+		country_leader = {
+			ideology = authoritarianism_small
+			traits={ }
+		}
+	}
+	#尼古拉·约尔加
+	ROM_Nikola_Jorga = {
+		name = ROM_Nikola_Jorga
 		portraits={
 			civilian={
-				large="GFX_Portrait_romania_gheorghe_tatarescu"
+				large = GFX_ROM_Nikola_Jorga_large
+			}
+		}
+	}
+	#鲍里斯·斯特法诺夫
+	ROM_Boris_Stefanov = { 
+		name = ROM_Boris_Stefanov
+		portraits={
+			civilian={
+				large = GFX_ROM_Boris_Stefanov_large
 			}
 		}
 		country_leader={
-			ideology=Conservatism
-			expire="1965.1.1.1"
-			id=-1
+			ideology = communism_small
+			traits={ }
+		}
+	}
+	#洛塔尔·拉德齐亚努
+	ROM_Lothar_Radzianu = {
+		name = ROM_Lothar_Radzianu
+		portraits={
+			civilian={
+				large = GFX_ROM_Lothar_Radzianu_large
+			}
+		}
+		country_leader={
+			ideology = socialism_small
+			traits={ }
+		}
+	}
+	#杨·米哈拉凯
+	ROM_Ion_Mihalache = {
+		name = ROM_Ion_Mihalache
+		portraits={
+			civilian={
+				large = GFX_ROM_Ion_Mihalache_large
+			}
+		}
+		country_leader={
+			ideology = progressivism_small
+			traits={ }
+		}
+	}
+	#格奥尔基·塔塔内斯库
+	ROM_Gheorghe_Tatarescu = {
+		name = ROM_Gheorghe_Tatarescu
+		portraits={
+			civilian={
+				large = GFX_ROM_Gheorghe_Tatarescu_large
+			}
+		}
+		country_leader={
+			ideology = liberalism_small
+			traits={ }
+		}
+	}
+	#温蒂勒·布勒蒂亚努
+	ROM_Vintila_Bratianu = {
+		name = ROM_Vintila_Bratianu
+		portraits={
+			civilian={
+				large = GFX_ROM_Vintila_Bratianu_large
+			}
+		}
+		country_leader={
+			ideology = democracy_small
+			traits={ }
+		}
+	}
+	#亚历山德鲁·瓦伊达·沃艾沃德
+	ROM_Alexandru_Vaida_Voievod = {
+		name = ROM_Alexandru_Vaida_Voievod
+		portraits={
+			civilian={
+				large = GFX_ROM_Alexandru_Vaida_Voievod_large
+			}
+		}
+		country_leader={
+			ideology = Conservatism_small
+			traits={ }
+		}
+	}
+	#康斯坦丁·普雷赞
+	ROM_Constantin_Prezan = {
+		name = ROM_Constantin_Prezan
+		portraits={
+			civilian={
+				large = GFX_ROM_Constantin_Prezan_large
+			}
+		}
+		country_leader={
+			ideology = tttt_small
+			traits={ }
+		}
+	}
+	#屋大维·戈加
+	ROM_Octavian_Goga = { 
+		name = ROM_Octavian_Goga
+		portraits={
+			civilian={
+				large = GFX_ROM_Octavian_Goga_large
+			}
+		}
+		country_leader={
+			ideology = fascism_small
+			traits={ anti_democrat }
 		}
 	}
 
-	ROM_constantin_ion_parhon={
-		name=ROM_constantin_ion_parhon
+	ROM_Horia_Sima = { #霍里亚·西马
+		name = ROM_Horia_Sima
 		portraits={
 			civilian={
-				large="GFX_Portrait_romania_constantin_ion_parhon"
+				large = GFX_ROM_Horia_Sima_large
 			}
 		}
 		country_leader={
-			ideology=communism_small
-			expire="1965.1.1.1"
-			id=-1
+			ideology = nazism_small
+			traits={ }
 		}
 	}
 
-	ROM_king_michael={
-		name=ROM_king_michael
-		portraits={
-			civilian={
-				large="GFX_Portrait_romania_michael_i"
-			}
-		}
-		country_leader={
-			ideology=liberalism_small
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			ideology=authoritarianism_small
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
+
+
+
+
+
 
 	ROM_armand_calinescu={
-		name=ROM_armand_calinescu
+		name = ROM_armand_calinescu
 		portraits={
 			civilian={
 				large="GFX_Portrait_romania_armand_calinescu"
@@ -66,45 +166,10 @@ characters={
 				prince_of_terror 
 			}
 		}
-
-		country_leader={
-			ideology=authoritarianism_small
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	ROM_octavian_goga={
-		name=ROM_octavian_goga
-		portraits={
-			civilian={
-				large="GFX_Portrait_romania_octavian_goga"
-			}
-		}
-		country_leader={
-			ideology=fascism_small
-			traits={ anti_democrat }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
-	ROM_corneliu_codreanu={
-		name=ROM_corneliu_codreanu
-		portraits={
-			civilian={
-				large="GFX_Portrait_romania_corneliu_zelea_codreanu"
-			}
-		}
-		country_leader={
-			ideology=fascism_small
-			expire="1965.1.1.1"
-			id=-1
-		}
 	}
 
 	ROM_petre_dumitrescu={
-		name=ROM_petre_dumitrescu
+		name = ROM_petre_dumitrescu
 		portraits={
 			army={
 				large="GFX_Portrait_romania_petre_dumitrescu"
@@ -123,7 +188,7 @@ characters={
 	}
 
 	ROM_ioan_mihail_racovita={
-		name=ROM_ioan_mihail_racovita
+		name = ROM_ioan_mihail_racovita
 		portraits={
 			army={
 				large="GFX_Portrait_romania_ioan_mihail_racovita"
@@ -145,7 +210,7 @@ characters={
 	### THEORISTS ###
 
 	ROM_gheorghe_potopeanu={
-		name=ROM_gheorghe_potopeanu
+		name = ROM_gheorghe_potopeanu
 		portraits={
 			army={
 				small="GFX_idea_ROM_gheorghe_potopeanu"
@@ -166,7 +231,7 @@ characters={
 	}
 
 	ROM_emanoil_ionescu={
-		name=ROM_emanoil_ionescu
+		name = ROM_emanoil_ionescu
 		portraits={
 			army={
 				small="GFX_idea_ROM_emanoil_ionescu"
@@ -191,7 +256,7 @@ characters={
 	### ARMY CHIEFS ###
 
 	ROM_constantin_sanatescu={
-		name=ROM_constantin_sanatescu
+		name = ROM_constantin_sanatescu
 		portraits={
 			army={
 				small="GFX_idea_ROM_constantin_sanatescu"
@@ -226,7 +291,7 @@ characters={
 	}
 
 	ROM_ion_antonescu={
-		name=ROM_ion_antonescu
+		name = ROM_ion_antonescu
 		portraits={
 			army={
 				small="GFX_idea_ROM_ion_antonescu"
@@ -266,7 +331,7 @@ characters={
 	### NAVY CHIEFS ###
 
 	ROM_nicolae_sova={
-		name=ROM_nicolae_sova
+		name = ROM_nicolae_sova
 		portraits={
 			army={
 				small="GFX_idea_ROM_nicolae_sova"
@@ -289,7 +354,7 @@ characters={
 	}
 
 	ROM_horia_macellariu={
-		name=ROM_horia_macellariu
+		name = ROM_horia_macellariu
 		portraits={
 			army={
 				small="GFX_idea_ROM_horia_macellariu"
@@ -326,7 +391,7 @@ characters={
 	### AIR CHIEFS ###
 
 	ROM_ermil_gheorghiu={
-		name=ROM_ermil_gheorghiu
+		name = ROM_ermil_gheorghiu
 		portraits={
 			army={
 				small="GFX_idea_ROM_ermil_gheorghiu"
@@ -349,7 +414,7 @@ characters={
 	}
 
 	ROM_gheorghe_jienescu={
-		name=ROM_gheorghe_jienescu
+		name = ROM_gheorghe_jienescu
 		portraits={
 			army={
 				small="GFX_idea_ROM_gheorghe_jienescu"
@@ -375,7 +440,7 @@ characters={
 	### MILITARY HIGH COMMAND ###
 
 	ROM_gheorghe_avramescu={
-		name=ROM_gheorghe_avramescu
+		name = ROM_gheorghe_avramescu
 		portraits={
 			army={
 				small="GFX_idea_ROM_gheorghe_avramescu"
@@ -409,7 +474,7 @@ characters={
 	}
 
 	ROM_gheorghe_mihail={
-		name=ROM_gheorghe_mihail
+		name = ROM_gheorghe_mihail
 		portraits={
 			army={
 				small="GFX_idea_ROM_gheorghe_mihail"
@@ -433,7 +498,7 @@ characters={
 	}	
 	
 	ROM_paul_teodorescu={
-		name=ROM_paul_teodorescu
+		name = ROM_paul_teodorescu
 		portraits={
 			army={
 				small="GFX_idea_ROM_paul_teodorescu"
@@ -457,7 +522,7 @@ characters={
 	}
 
 	ROM_gheorghe_vasiliu={
-		name=ROM_gheorghe_vasiliu
+		name = ROM_gheorghe_vasiliu
 		portraits={
 			army={
 				small="GFX_idea_ROM_gheorghe_vasiliu"
@@ -486,7 +551,7 @@ characters={
 	# Calinescu up there
 
 	ROM_iuliu_maniu={
-		name=ROM_iuliu_maniu
+		name = ROM_iuliu_maniu
 		portraits={
 			army={
 				small="GFX_idea_ROM_iuliu_maniu"
@@ -515,7 +580,7 @@ characters={
 	}
 
 	ROM_gheorghe_gheorghiu_dej={
-		name=ROM_gheorghe_gheorghiu_dej
+		name = ROM_gheorghe_gheorghiu_dej
 		portraits={
 			army={
 				small="GFX_idea_ROM_gheorghe_gheorghiu_dej"
@@ -550,7 +615,7 @@ characters={
 	}
 
 	ROM_gheorghe_argeseanu={
-		name=ROM_gheorghe_argeseanu
+		name = ROM_gheorghe_argeseanu
 		portraits={
 			army={
 				small="GFX_idea_ROM_gheorghe_argeseanu"
@@ -569,7 +634,7 @@ characters={
 	}
 
 	ROM_nicolae_malaxa={
-		name=ROM_nicolae_malaxa
+		name = ROM_nicolae_malaxa
 		portraits={
 			army={
 				small="GFX_idea_ROM_nicolae_malaxa"
@@ -589,7 +654,7 @@ characters={
 	}
 
 	ROM_petru_groza={
-		name=ROM_petru_groza
+		name = ROM_petru_groza
 		portraits={
 			army={
 				small="GFX_idea_ROM_petru_groza"
@@ -611,7 +676,7 @@ characters={
 	}
 
 	ROM_mihail_sturdza={
-		name=ROM_mihail_sturdza
+		name = ROM_mihail_sturdza
 		portraits={
 			army={
 				small="GFX_idea_ROM_mihail_sturdza"
@@ -644,6 +709,17 @@ characters={
 			}
 			ai_will_do = {
 				factor = 0.000
+			}
+		}
+	}
+
+	#为兼容原版事件 events/NSB_Poland.txt（米哈伊尔流亡波兰）而保留的占位角色。
+	#架空设定中罗马尼亚是共和国，故不设 country_leader，他不会出现在罗马尼亚政治界面。
+	ROM_king_michael={
+		name = ROM_king_michael
+		portraits={
+			civilian={
+				large="GFX_Portrait_romania_michael_i"
 			}
 		}
 	}

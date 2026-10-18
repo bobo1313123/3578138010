@@ -42,6 +42,16 @@ spriteTypes = {
 		name = "GFX_CHI_Tang_Hualong_large"
 		texturefile = "gfx/leaders/CHI/CHI_Tang_Hualong.dds"
 	}
+	#罗马尼亚
+	#领导人
+	spriteType = {
+		name = "GFX_ROM_Constantin_Argetoianu_large"
+		texturefile = "gfx/leaders/ROM/ROM_Constantin_Argetoianu.png"
+	}
+	spriteType = {
+		name = "GFX_ROM_Nikola_Jorga_large"
+		texturefile = "gfx/leaders/ROM/ROM_Nikola_Jorga.png"
+	}
 	#西班牙
 	#领导人
 	spriteType = { #米格尔·普里莫·德里维拉

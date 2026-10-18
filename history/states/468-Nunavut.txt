@@ -1,22 +1,20 @@
 state = {
 	id = 468
-	name = "STATE_468" # Saint Lawrence
+	name = "STATE_468"
 	manpower = 2432754
 	
 	state_category = city
 	
 	resources = {
-		aluminium = 3 # was: 4
+		aluminium = 5
 	}
 
 	history = {
-
 		owner = CAN
 		add_core_of = CAN
 		add_core_of = QUE
-
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 3
@@ -24,17 +22,15 @@ state = {
 				naval_base = 6
 			}
 		}
-		
 		victory_points = {
 			4345 20
 		}
 		victory_points = {
-			12149 3
+			12149 5
 		}
 		victory_points = {
-			10230 1
+			10230 5
 		}
-
 	}
 
 	provinces = {

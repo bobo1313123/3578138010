@@ -7,20 +7,20 @@ state={
 	state_category = rural
 	
 	resources={
-		steel=18 # was: 32
-		chromium=1 # was: 2
-		tungsten=18 # was: 34
+		steel=24
+		chromium=3
+		tungsten=25
 	}
 
 	history={
 		owner = IDA
+		add_core_of = IDA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = USA
-		add_core_of = IDA
 		victory_points = {
-			9616 1
+			9616 5
 		}
 	}
 

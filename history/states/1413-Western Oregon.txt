@@ -6,25 +6,19 @@ state = {
 	state_category = town
 	
 	resources = {
-		steel = 2
+		steel = 10
 	}
 	
 	history = {
-
 		owner = SCF
 		add_core_of = SCF
-		
-	
 		buildings = {
-		
 			infrastructure = 3
 			anti_air_building = 1
-
-			
-
 		}
-
-
+		victory_points = {
+			3471 10 
+		}
 	}
 
 	provinces = {

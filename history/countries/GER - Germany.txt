@@ -5,6 +5,7 @@ set_war_support = 0.33
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
 set_research_slots = 4
+set_country_flag = tfe_second_leader
 
 ### 初始科技 ###
 set_technology = {

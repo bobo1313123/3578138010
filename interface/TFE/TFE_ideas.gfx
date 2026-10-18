@@ -410,4 +410,25 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GER/Imperial_AirForce_desc.png"
 		legacy_lazy_load = no
 	}
+	#罗马尼亚民族精神
+	#徒有其表的共和国
+	spriteType = {
+		name = "GFX_idea_hollow_republic"
+		texturefile = "gfx/interface/ideas/ROM/hollow_republic.png"
+	}
+	#一党制霸的反噬
+	spriteType = {
+		name = "GFX_idea_one_party_blowback"
+		texturefile = "gfx/interface/ideas/ROM/one_party_blowback.png"
+	}
+	#刺猬国度
+	spriteType = {
+		name = "GFX_idea_hedgehog_nation"
+		texturefile = "gfx/interface/ideas/ROM/hedgehog_nation.png"
+	}
+	#新播种主义的复兴
+	spriteType = {
+		name = "GFX_idea_new_sowingism"
+		texturefile = "gfx/interface/ideas/ROM/new_sowingism.png"
+	}
 }

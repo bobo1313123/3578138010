@@ -1,41 +1,27 @@
 state = {
 	id = 386
-	name = "STATE_386" # Washington State
+	name = "STATE_386"
 	manpower = 234190
 	
 	state_category = large_town
 
 	history = {
-
 		owner = CAN
 		add_core_of = USA
-
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 5
-
 			7315 = {
 				naval_base = 3
 			}
-
 			# Grand Coulee Dam
-			#10327 = { dam = 1 }
-
+			10327 = { dam = 1 }
 		}
 		victory_points = {
-			1690 1 # Spokane
-		}
-		
-
-		1939.1.1 = {
-			buildings = {
-				7315 = {
-					air_facility = 1 # Boeing Factories
-				}
-			}
+			1690 10 # Spokane
 		}
 	}
 

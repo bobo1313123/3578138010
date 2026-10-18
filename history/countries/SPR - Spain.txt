@@ -113,7 +113,7 @@ set_technology = {
 	mtg_transport = 1
 }
 
-#领导人
+### 领导人 ###
 recruit_character = SPR_Miguel_Primo_Derivella #米格尔·普里莫·德里维拉
 recruit_character = SPR_Jose_Primo_Derivella #何塞·普里莫·德里维拉
 recruit_character = SPR_Don_Carlos #唐·卡洛斯

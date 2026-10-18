@@ -80,7 +80,7 @@ if = {
 		freedom_level = 0.35
 	}
 	set_autonomy = {
-		target = CAN
+		target = NFL
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}

@@ -2,24 +2,24 @@ state={
 	id=1035
 	name="STATE_1035"
 	resources={
-		steel=12 # was: 20.000
+		steel=18
 	}
 
 	state_category = large_town
 
-
 	history={
 		owner = USA
+		add_core_of = USA
 		buildings = {
+			infrastructure = 2
 			industrial_complex = 2
-			infrastructure = 3
+			arms_factory = 1
 			dockyard = 1
 		}
-		add_core_of = USA
 		victory_points = {
-			12459 1 
+			12459 5 
 		}
-
+		set_demilitarized_zone = yes
 	}
 
 	provinces={

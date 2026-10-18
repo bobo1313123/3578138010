@@ -10,13 +10,13 @@ focus_tree = {
 	}
 	
 	default = no
-
+	
 	continuous_focus_position = { x = 70 y = 1100 }
 
 
 	focus = {
 		id = MEX_a_new_year
-		icon = GFX_focus_mex_exile_calles
+		icon = GFX_focus_MEX_a_new_year
 
 		x = 4
 		y = 0
@@ -799,10 +799,629 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = tve_mex.5
+			hidden_effect = {
+				load_focus_tree = { tree = mexico_focus_tree_2 }
+			}
 		}
 	}
 
 
 
 
+}
+
+
+##墨西哥二阶段国策
+focus_tree = {
+	id = mexico_focus_tree_2
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEX
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 70 y = 1100 }
+
+	focus = {
+		id = MEX_wujin_de_siwang
+		icon = GFX_focus_mex_exile_calles
+
+		x = 6
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MEX_Fear_from_the_unknown
+
+		}
+	}
+
+	focus = {
+		id = MEX_xuanbu_jieyan
+		icon = GFX_focus_mex_exile_calles
+
+		x = 0
+		y = 1
+
+		relative_position_id = MEX_wujin_de_siwang
+		prerequisite = { 
+			focus = MEX_wujin_de_siwang
+		}
+	
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MEX_Martial_law
+		}
+	}
+
+	focus = {
+		id = MEX_choubei_jinji_xuanju
+		icon = GFX_focus_mex_exile_calles
+
+		x = 0
+		y = 1
+
+		relative_position_id = MEX_xuanbu_jieyan
+		prerequisite = { 
+			focus = MEX_xuanbu_jieyan
+		}
+	
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = tve_mex.6
+		}
+	}
+
+	focus = {
+		id = MEX_zuopai_jueqi
+		icon = GFX_focus_mex_exile_calles
+
+		x = -3
+		y = 1
+
+		relative_position_id = MEX_choubei_jinji_xuanju
+		prerequisite = { 
+			focus = MEX_choubei_jinji_xuanju
+		}
+	
+		mutually_exclusive = {focus = MEX_youpai_wending_jushi}
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = MEX_junfang_hezuo
+		icon = GFX_focus_mex_exile_calles
+
+		x = -1
+		y = 1
+
+		relative_position_id = MEX_zuopai_jueqi
+		prerequisite = { 
+			focus = MEX_zuopai_jueqi
+		}
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 20
+			custom_effect_tooltip = generic_skip_one_line_tt
+			MEX_junfang_jieru_increase = yes
+		}
+	}
+
+	focus = {
+		id = MEX_nianqingren_zhichi
+		icon = GFX_focus_mex_exile_calles
+
+		x = 0
+		y = 1
+
+		relative_position_id = MEX_junfang_hezuo
+		prerequisite = { 
+			focus = MEX_junfang_hezuo
+		}
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MEX_Association_for_young
+			
+		}
+	}
+
+	focus = {
+		id = MEX_gongren_qunti
+		icon = GFX_focus_mex_exile_calles
+
+		x = 1
+		y = 1
+
+		relative_position_id = MEX_zuopai_jueqi
+		prerequisite = { 
+			focus = MEX_zuopai_jueqi
+		}
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MEX_Support_of_the_workers
+			
+		}
+	}
+
+	focus = {
+		id = MEX_geming_wenhua
+		icon = GFX_focus_mex_exile_calles
+
+		x = 0
+		y = 1
+
+		relative_position_id = MEX_gongren_qunti
+		prerequisite = { 
+			focus = MEX_gongren_qunti
+		}
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_ideas = MEX_revolutionary_propaganda
+		}
+	}
+
+	focus = {
+		id = MEX_dangdairen_zuzhi
+		icon = GFX_focus_mex_exile_calles
+
+		x = 1
+		y = 1
+
+		relative_position_id = MEX_nianqingren_zhichi
+		prerequisite = { 
+			focus = MEX_nianqingren_zhichi
+		}
+		prerequisite = { 
+			focus = MEX_geming_wenhua
+		}
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MEX_Support_of_contemporary_people
+		}
+	}
+
+	focus = {
+		id = MEX_youpai_wending_jushi
+		icon = GFX_focus_mex_exile_calles
+
+		x = 3
+		y = 1
+
+		relative_position_id = MEX_choubei_jinji_xuanju
+		prerequisite = { 
+			focus = MEX_choubei_jinji_xuanju
+		}
+	
+		mutually_exclusive = {focus = MEX_zuopai_jueqi}
+		
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 20
+		}
+	}
+
+	focus = {
+		id = MEX_Guadalupe_hezuo
+		icon = GFX_focus_mex_exile_calles
+
+		x = -1
+		y = 1
+
+		relative_position_id = MEX_youpai_wending_jushi
+		prerequisite = { 
+			focus = MEX_youpai_wending_jushi
+		}
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_popularity = {
+				ideology = Conservatism
+				popularity = 0.1
+			}
+		}
+	}
+
+	focus = {
+		id = MEX_zhenya_jinshanjun
+		icon = GFX_focus_mex_exile_calles
+
+		x = 0
+		y = 1
+
+		relative_position_id = MEX_Guadalupe_hezuo
+		prerequisite = { 
+			focus = MEX_Guadalupe_hezuo
+		}
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = MEX_Suppress_the_militia
+				days = 50
+			}
+			add_popularity = {
+				ideology = nazism
+				popularity = -0.05
+			}
+		}
+	}
+
+	focus = {
+		id = MEX_mincui_qingxv
+		icon = GFX_focus_mex_exile_calles
+
+		x = 1
+		y = 1
+
+		relative_position_id = MEX_youpai_wending_jushi
+		prerequisite = { 
+			focus = MEX_youpai_wending_jushi
+		}
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MEX_Populist_fervor
+			
+		}
+	}
+
+	focus = {
+		id = MEX_meisidisuo_ren
+		icon = GFX_focus_mex_exile_calles
+
+		x = 0
+		y = 1
+
+		relative_position_id = MEX_mincui_qingxv
+		prerequisite = { 
+			focus = MEX_mincui_qingxv
+		}
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = MEX_The_initial_awakening_of_the_nation
+		}
+	}
+
+	focus = {
+		id = MEX_kaliesi_changgtan
+		icon = GFX_focus_mex_exile_calles
+
+		x = 1
+		y = 1
+
+		relative_position_id = MEX_zhenya_jinshanjun
+		prerequisite = { 
+			focus = MEX_meisidisuo_ren
+		}
+		prerequisite = { 
+			focus = MEX_zhenya_jinshanjun
+		}
+		cost = 4
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_war_support = 0.1
+			add_stability = -0.05
+			custom_effect_tooltip = generic_skip_one_line_tt
+			MEX_junfang_jieru_increase = yes
+		}
+	}
+
+	focus = {
+		id = MEX_chenai_luoding
+		icon = GFX_focus_mex_exile_calles
+
+		x = 3
+		y = 1
+
+		relative_position_id = MEX_dangdairen_zuzhi
+		prerequisite = { 
+			focus = MEX_dangdairen_zuzhi focus = MEX_kaliesi_changgtan
+		}
+		
+		cost = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+			
+		}
+
+		bypass = {
+			
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 20
+			custom_effect_tooltip = MEX_chenai_luoding_tt
+
+			hidden_effect = {
+				if = {
+					limit = {has_completed_focus = MEX_dangdairen_zuzhi}
+					country_event = tve_mex.7
+				}
+				if = {
+					limit = {has_completed_focus = MEX_kaliesi_changgtan}
+					country_event = tve_mex.8
+				}
+				remove_ideas = MEX_Fear_from_the_unknown
+				remove_ideas = MEX_Martial_law
+			}
+		}
+	}
 }

@@ -116,7 +116,7 @@ if = {
 		}
 	}
 }
-#领导人
+### 领导人 ###
 recruit_character = ITA_Antonio_Gramsci #安东尼奥·葛兰西
 #政治顾问
 recruit_character = ITA_Salvatore_Barzilai #萨尔瓦托雷·巴尔齐莱

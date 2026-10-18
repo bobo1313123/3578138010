@@ -106,7 +106,7 @@ if = {
 	}
 }
 
-#领导人
+### 领导人 ###
 recruit_character = CSA_Charles_Coughlin #查尔斯·考夫林
 recruit_character = CSA_Hugh_Long #休伊·朗
 recruit_character = CSA_Placeholder #占位

@@ -15,7 +15,7 @@ set_technology = {
 	basic_train = 1
 }
 
-#领导人
+### 领导人 ###
 recruit_character = NFL_Richard_Bennett #理查德·贝内特
 
 add_ideas = {

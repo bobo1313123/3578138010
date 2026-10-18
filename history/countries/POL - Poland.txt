@@ -80,7 +80,7 @@ if = {
 		}
 	}
 }
-#领导人
+### 领导人 ###
 recruit_character = POL_Gabriel_Narutowicz #加布里埃尔·纳鲁托维奇
 recruit_character = POL_Jozef_Pilsudski #约瑟夫·毕苏斯基
 

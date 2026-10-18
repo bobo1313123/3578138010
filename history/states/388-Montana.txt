@@ -5,25 +5,20 @@ state = {
 	state_category = rural
 
 	resources = {
-		tungsten = 11 # was: 16
+		tungsten = 14
 	}
 
 	history = {
-
 		owner = USA
 		add_core_of = USA
-
 		buildings = {
 			infrastructure = 2
-		}
-		
+			#Hungry Horse Dam
+			1854 = { dam = 1 }
+		}	
 		victory_points = {
-			4860 1 # Great Falls
+			4860 10
 		}
-
-		# Hungry Horse Dam
-		#1854 = { dam = 1 }
-
 	}
 
 	provinces = {

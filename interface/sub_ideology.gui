@@ -1,7 +1,7 @@
 guiTypes = {
     containerWindowType = { #子意思形态显示-政治界面
 		name = "subideology_container_politics"
-		position = { x = 201 y = 271 }
+		position = { x = 187 y = 246 }
 		instantTextboxType = {
 			name = "subideology_name"
 			position = { x = 9 y = 10 }

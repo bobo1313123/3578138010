@@ -378,7 +378,7 @@ guiTypes = {
 
 					iconType = {
 						name = "goal_icon"
-						position = { x = 68 y = 39 }
+						position = { x = 50 y = 39 }
 						spriteType = "GFX_goal_unknown"
 						centerposition = yes
 						scale = 0.9

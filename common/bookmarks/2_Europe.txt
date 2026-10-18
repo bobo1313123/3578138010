@@ -24,10 +24,13 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"GRE"={
+		"ROM"={
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
-			ideology = Conservatism
+			ideology = Authoritarianism
 			ideas = {
+				ROM_hollow_republic #徒有其表的共和国
+				ROM_hedgehog_nation #刺猬国度
+				ROM_new_sowingism #新播种主义的复兴
 			}
 			focuses = {
 			}

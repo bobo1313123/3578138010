@@ -42,6 +42,22 @@ spriteTypes = {
 		name = "GFX_CHI_Tang_Hualong_large"
 		texturefile = "gfx/leaders/CHI/CHI_Tang_Hualong.dds"
 	}
+	#日本
+	#领导人
+	spriteType = {
+		name = "GFX_JAP_Hirohito_large"
+		texturefile = "gfx/leaders/JAP/JAP_Hirohito.png"
+	}
+	spriteType = {
+		name = "GFX_JAP_Suzuki_Teiichi_large"
+		texturefile = "gfx/leaders/JAP/JAP_Suzuki_Teiichi.png"
+		legacy_lazy_load = no
+	}
+	#元帅
+	spriteType = {
+		name = "GFX_JAP_Hirohito_army_large"
+		texturefile = "gfx/leaders/JAP/JAP_Hirohito_army.png"
+	}
 	#罗马尼亚
 	#领导人
 	spriteType = {
@@ -361,10 +377,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/JAP/JAP_Tsuyoshi_Inukai.dds"
 	}
 	spriteType = {
-		name = "GFX_GER_HITTLER"
-		texturefile = "gfx/leaders/GER_HITTLER.dds"
-	}
-	spriteType = {
 		name = "GFX_REZHEN"
 		texturefile = "gfx/leaders/CHI/TIB_REZHEN.dds"
 	}
@@ -375,22 +387,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_MON_ENQIN"
 		texturefile = "gfx/leaders/RUS/MON_ENQIN.dds"
-	}
-	spriteType = {
-		name = "GFX_JAP_Hirohito"
-		texturefile = "gfx/leaders/JAP_Hirohito.dds"
-	}
-	spriteType = {
-		name = "GFX_PRC_MAO_ZE_DONG"
-		texturefile = "gfx/leaders/PRC_MAO_ZE_DONG.dds"
-	}
-	spriteType = {
-		name = "GFX_SOV_STALIN"
-		texturefile = "gfx/leaders/SOV_STALIN.dds"
-	}
-	spriteType = {
-		name = "GFX_ENG_Baldwin"
-		texturefile = "gfx/leaders/ENG_Baldwin.dds"
 	}
 	spriteType = {
 		name = "GFX_CHI_HU_HAN_MIN"

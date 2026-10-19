@@ -35,6 +35,11 @@ ideas = {
 				war_support_factor = 0.05
 			}
 		}
+		JAP_Suzuki_Teiichi = { #铃木贞一
+			modifier = {
+				
+			}
+		}
 	}
 
 }

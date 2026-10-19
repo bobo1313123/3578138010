@@ -116,7 +116,7 @@ recruit_character =	CSA_Harold_Iks #哈罗德·伊克斯
 recruit_character =	CSA_henry_ford #亨利·福特
 recruit_character =	CSA_Lyndon_B_Johnson #林登·B·约翰逊
 recruit_character =	CSA_Joseph_Raymond_McCarthy #约瑟夫·雷芒德·麦卡锡
-#将领
+### 将领 ###
 recruit_character = CSA_Walton_Walker #沃尔顿·沃克
 recruit_character = CSA_Leslie_James #莱斯利·詹姆斯
 recruit_character = CSA_Omar_Nelson_Bradley #奥马尔·纳尔逊·布莱德雷

@@ -126,8 +126,8 @@ characters={
 			traits={ anti_democrat }
 		}
 	}
-
-	ROM_Horia_Sima = { #霍里亚·西马
+	#霍里亚·西马
+	ROM_Horia_Sima = {
 		name = ROM_Horia_Sima
 		portraits={
 			civilian={
@@ -137,6 +137,44 @@ characters={
 		country_leader={
 			ideology = nazism_small
 			traits={ }
+		}
+	}
+	#元帅
+	#扬·安东内斯库
+	ROM_Ion_Antonescu = {
+		name = ROM_Ion_Antonescu
+		portraits = {
+			army = {
+				large = GFX_ROM_Ion_Antonescu_army_large
+			}
+		}
+		field_marshal = {
+			desc = ROM_Ion_Antonescu_army_desc
+			traits = { old_guard war_hero }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	#上将
+	#格奥尔基·阿尔杰沙努
+	ROM_Gheorghe_Argeseanu = {
+		name = ROM_Gheorghe_Argeseanu
+		portraits = {
+			army = {
+				large = GFX_ROM_Gheorghe_Argeseanu_army_large
+			}
+		}
+		corps_commander = {
+			desc = ROM_Gheorghe_Argeseanu_army_desc
+			traits = { old_guard politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
 		}
 	}
 
@@ -288,43 +326,6 @@ characters={
 			legacy_id=-1
 		}
 		
-	}
-
-	ROM_ion_antonescu={
-		name = ROM_ion_antonescu
-		portraits={
-			army={
-				small="GFX_idea_ROM_ion_antonescu"
-				large="GFX_Portrait_romania_ion_antonescu"
-			}
-			civilian={
-				large="GFX_Portrait_romania_ion_antonescu"
-			}
-		}
-		advisor={
-			slot = army_chief
-			idea_token = ROM_ion_antonescu
-			allowed = {
-				original_tag = ROM
-			}
-			traits = {
-				army_chief_offensive_2
-			}
-			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		
-		field_marshal={
-			traits={ offensive_doctrine }
-			skill=4
-			attack_skill=4
-			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
-			legacy_id=-1
-		}
 	}
 
 
@@ -610,25 +611,6 @@ characters={
 			}
 			traits = {
 				communist_revolutionary 
-			}
-		}
-	}
-
-	ROM_gheorghe_argeseanu={
-		name = ROM_gheorghe_argeseanu
-		portraits={
-			army={
-				small="GFX_idea_ROM_gheorghe_argeseanu"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = ROM_gheorghe_argeseanu
-			allowed = {
-				original_tag = ROM
-			}
-			traits = {
-				silent_workhorse 
 			}
 		}
 	}

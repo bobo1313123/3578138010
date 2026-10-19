@@ -221,7 +221,7 @@ SpriteTypes = {
 		texturefile = "gfx/texticons/banners/CSA/CSA_jackson_stone_wall_Pictures.dds"
 		legacy_lazy_load = no
 	}
-    #将领
+    ### 将领 ###
      spriteType = { #爱德华·阿尔芒德
 		name = "GFX_general_CSA_Edward_Armand"
 		texturefile = "gfx/leaders/CSA/CSA_Edward_Armand.dds" 

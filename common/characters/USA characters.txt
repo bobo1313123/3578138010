@@ -277,7 +277,7 @@ characters={
 			can_be_fired = no
 		}
 	}
-	#将领
+	#上将
 	#弗兰克·贝森
 	USA_Frank_Besson = {
 		name = USA_Frank_Besson

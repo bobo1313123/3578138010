@@ -30,6 +30,12 @@ defined_text = {
         }
         localization_key = "GER_wilhelm_ii_sl_desc"
     }
+    text = {
+        trigger = { #尼古拉·约尔加
+            has_idea = ROM_Nikola_Jorga
+        }
+        localization_key = "ROM_Nikola_Jorga_sl_desc"
+    }
    # text = {
     #    trigger = { #亨舍尔
     #        has_idea = union_dream

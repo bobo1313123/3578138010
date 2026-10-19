@@ -51,6 +51,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ROM_Nikola_Jorga_large"
 		texturefile = "gfx/leaders/ROM/ROM_Nikola_Jorga.png"
+		legacy_lazy_load = no
 	}
 	#西班牙
 	#领导人

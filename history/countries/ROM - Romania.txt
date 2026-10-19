@@ -51,6 +51,9 @@ add_ideas = {
 	ROM_one_party_blowback #一党制霸的反噬
 	ROM_hedgehog_nation #刺猬国度
 	ROM_new_sowingism #新播种主义的复兴
+
+	### 初始副领袖 ###
+	ROM_Nikola_Jorga #尼古拉·约尔加
 }
 
 set_politics = {

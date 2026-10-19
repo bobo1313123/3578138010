@@ -1,221 +1,154 @@
-﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
-# If we run out of all historical names, the names will be assigned in the old way.
-#
-# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
-#
-# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
-#
-# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
-#
-# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
-#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
-#                  for example the current one is no longer available due to the can_use trigger saying so).
-#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
-#
-# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
-#                 mechanics to be used for fallbacks, then just skip this option.
-#
-# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
-#             this option is available here mainly for a mods.
-#
-# ordered - Is a list of all historical names. 
-#           Numbers must start from 1 and up. 
-#           Numbers can't repeat in one scope.
-#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
-#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
-#           1st argument = The name. It must contain either: 
-#                          %d (for decimal number placement)
-#                          %s (for string number placement - ROMAN numbers like XIV).
-#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
-#                                      where you choose the historical division name.
-#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
-#                                      the current game version.
-
-JAP_INF_01 = {
-	name = "Infantry Division"
-
+﻿JAP_INF_01 = {
+	name = "常设师团"
 	for_countries = { JAP }
-
 	can_use = { always = yes }
 
 	division_types = { "infantry" }
+	fallback_name = "第%d常设师团"
 
-	# Number reservation system will tie to another group.
-	#link_numbering_with = { JAP_INF_01 }
-
-	fallback_name = "%d Hohei Shidan"
-
-	# Names with numbers (only one number per entry). 
-	# It's okay to have gaps in numbering.
 	ordered = {
-		168 = { "Konoe Shidan" }
-		1 = { "%d 'Tama' Hohei Shidan" }
-		2 = { "%d 'Isamu' Hohei Shidan" }
-		3 = { "%d 'Sachi' Hohei Shidan" }
-		4 = { "%d 'Yodo' Hohei Shidan" }
-		5 = { "%d 'Koi' Hohei Shidan" }
-		6 = { "%d 'Akari' Hohei Shidan" }
-		7 = { "%d 'Kuma' Hohei Shidan" }
-		8 = { "%d 'Sugi' Hohei Shidan" }
-		9 = { "%d 'Take' Hohei Shidan" }
-		10 = { "%d 'Tetsu' Hohei Shidan" }
-		11 = { "%d 'Nishiki' Hohei Shidan" }
-		12 = { "%d 'Ken' Hohei Shidan" }
-		13 = { "%d 'Kagami' Hohei Shidan" }
-		14 = { "%d 'Teru' Hohei Shidan" }
-		15 = { "%d 'Matsuri' Hohei Shidan" }
-		16 = { "%d 'Kaki' Hohei Shidan" }
-		17 = { "%d 'Tsuki' Hohei Shidan" }
-		18 = { "%d 'Kiku' Hohei Shidan" }
-		19 = { "%d 'Tora' Hohei Shidan" }
-		20 = { "%d 'Asa' Hohei Shidan" }
-		21 = { "%d 'Utsu' Hohei Shidan" }
-		22 = { "%d 'Hara' Hohei Shidan" }
-		23 = { "%d 'Asahi' Hohei Shidan" }
-		24 = { "%d 'Yama' Hohei Shidan" }
-		35 = { "%d 'Higashi' Hohei Shidan" }
-		36 = { "%d 'Yuki' Hohei Shidan" }
-		37 = { "%d 'Fuyu' Hohei Shidan" }
-		38 = { "%d 'Numa' Hohei Shidan" }
-		39 = { "%d 'Fuji' Hohei Shidan" }
-		40 = { "%d 'Kujira' Hohei Shidan" }
-		41 = { "%d 'Kawa' Hohei Shidan" }
-		42 = { "%d 'Isao' Hohei Shidan" }
-		43 = { "%d 'Homare' Hohei Shidan" }
-		44 = { "%d 'Tachibana' Hohei Shidan" }
-		104 = { "%d 'Ootori' Hohei Shidan" }
-		116 = { "%d 'Ran' Hohei Shidan" }
-		25 = { "%d 'Kuni' Hohei Shidan" }
-		26 = { "%d 'Izumi' Hohei Shidan" }
-		27 = { "%d 'Kiwame' Hohei Shidan" }
-		28 = { "%d 'Toyo' Hohei Shidan" }
-		29 = { "%d 'Rai' Hohei Shidan" }
-		48 = { "%d 'Umi' Hohei Shidan" }
-		50 = { "%d 'Hou' Hohei Shidan" }
-		51 = { "%d 'Moto' Hohei Shidan" }
-		52 = { "%d 'Kashiwa' Hohei Shidan" }
-		53 = { "%d 'Yasushi' Hohei Shidan" }
-		54 = { "%d 'Hei' Hohei Shidan" }
-		55 = { "%d 'Sou' Hohei Shidan" }
-		56 = { "%d 'Tatsu' Hohei Shidan" }
-		57 = { "%d 'Oku' Hohei Shidan" }
-		58 = { "%d 'Hiroshi' Hohei Shidan" }
-		59 = { "%d 'Koromo' Hohei Shidan" }
-		60 = { "%d 'Hoko' Hohei Shidan" }
-		68 = { "%d 'Hinoki' Hohei Shidan" }
-		69 = { "%d 'Katsu' Hohei Shidan" }
-		70 = { "%d 'Yari' Hohei Shidan" }
-		71 = { "%d 'Mikoto' Hohei Shidan" }
-		31 = { "%d 'Retsu' Hohei Shidan" }
-		61 = { "%d 'Tobi' Hohei Shidan" }
-		30 = { "%d 'Hyo' Hohei Shidan" }
-		46 = { "%d 'Sei' Hohei Shidan" }
-		47 = { "%d 'Dan' Hohei Shidan" }
-		62 = { "%d 'Ishi' Hohei Shidan" }
-		63 = { "%d 'Jin' Hohei Shidan" }
-		64 = { "%d 'Kai' Hohei Shidan" }
-		65 = { "%d 'Sen' Hohei Shidan" }
-		49 = { "%d 'Rou' Hohei Shidan" }
-		72 = { "%d 'Den' Hohei Shidan" }
-		77 = { "%d 'Nen' Hohei Shidan" }
-		81 = { "%d 'No' Hohei Shidan" }
-		86 = { "%d 'Seki' Hohei Shidan" }
-		91 = { "%d 'Saki' Hohei Shidan" }
-		100 = { "%d 'Kyo' Hohei Shidan" }
-		102 = { "%d 'Batsu' Hohei Shidan" }
-		103 = { "%d 'Shun' Hohei Shidan" }
-		66 = { "%d 'Kan' Hohei Shidan" }
-		73 = { "%d 'Ikari' Hohei Shidan" }
-		84 = { "%d 'Totsu' Hohei Shidan" }
-		93 = { "%d 'Ketsu' Hohei Shidan" }
-		105 = { "%d 'Kin' Hohei Shidan" }
-		107 = { "%d 'Nagi' Hohei Shidan" }
-		108 = { "%d 'Yū' Hohei Shidan" }
-		109 = { "%d 'Tan' Hohei Shidan" }
-		111 = { "%d 'Ichi' Hohei Shidan" }
-		112 = { "%d 'Kimi' Hohei Shidan" }
-		115 = { "%d 'Kita' Hohei Shidan" }
-		117 = { "%d 'Gu' Hohei Shidan" }
-		114 = { "%d 'Sho' Hohei Shidan" }
-		94 = { "%d 'Iretsu' Hohei Shidan" }
-		118 = { "%d 'Megumi' Hohei Shidan" }
-		119 = { "%d 'Sai' Hohei Shidan" }
-		120 = { "%d 'Maishin' Hohei Shidan" }
-		96 = { "%d 'Gen' Hohei Shidan" }
-		32 = { "%d 'Kaede' Hohei Shidan" }
-		33 = { "%d 'Yumi' Hohei Shidan" }
-		34 = { "%d 'Tsubaki' Hohei Shidan" }
-		79 = { "%d 'So' Hohei Shidan" }
-		88 = { "%d 'Kaname' Hohei Shidan" }
-		89 = { "%d 'Sai' Hohei Shidan" }
-		101 = { "%d Hohei Shidan" }
-		106 = { "%d Hohei Shidan" }
-		110 = { "%d 'Sagi' Hohei Shidan" }
-		121 = { "%d 'Eiko' Hohei Shidan" }
-		122 = { "%d 'Maizuru' Hohei Shidan" }
-		123 = { "%d 'Matsukaze' Hohei Shidan" }
-		124 = { "%d 'Enbo' Hohei Shidan" }
-		125 = { "%d 'Eiki' Hohei Shidan" }
-		127 = { "%d 'Eimai' Hohei Shidan" }
-		128 = { "%d 'Eibu' Hohei Shidan" }
-		129 = { "%d 'Shinbu' Hohei Shidan" }
-		130 = { "%d 'Shoki' Hohei Shidan" }
-		131 = { "%d 'Shūsui' Hohei Shidan" }
-		132 = { "%d 'Shinki' Hohei Shidan" }
-		133 = { "%d 'Shingeki' Hohei Shidan" }
-		134 = { "%d 'Magatama' Hohei Shidan" }
-		135 = { "%d 'Shinshin' Hohei Shidan" }
-		136 = { "%d 'Fubatsu' Hohei Shidan" }
-		137 = { "%d 'Fuyoku' Hohei Shidan" }
-		138 = { "%d 'Fudo' Hohei Shidan" }
-		139 = { "%d 'Fukutsu' Hohei Shidan" }
-		140 = { "%d 'Goto' Hohei Shidan" }
-		142 = { "%d 'Gosen' Hohei Shidan" }
-		143 = { "%d 'Gogo' Hohei Shidan" }
-		144 = { "%d 'Gohan' Hohei Shidan" }
-		145 = { "%d 'Goshu' Hohei Shidan" }
-		146 = { "%d 'Gonan' Hohei Shidan" }
-		147 = { "%d 'Gohoku' Hohei Shidan" }
-		148 = { "%d 'Fugaku' Hohei Shidan" }
-		149 = { "%d 'Fugyo' Hohei Shidan" }
-		150 = { "%d 'Gocho' Hohei Shidan" }
-		151 = { "%d 'Gou' Hohei Shidan" }
-		152 = { "%d 'Gotaku' Hohei Shidan" }
-		153 = { "%d 'Gokyo' Hohei Shidan" }
-		154 = { "%d 'Goro' Hohei Shidan" }
-		155 = { "%d 'Godo' Hohei Shidan" }
-		156 = { "%d 'Gosai' Hohei Shidan" }
-		157 = { "%d 'Gogu' Hohei Shidan" }
-		158 = { "%d 'Fumetsu' Hohei Shidan" }
-		160 = { "%d 'Gosen' Hohei Shidan" }
-		161 = { "%d 'Shinten' Hohei Shidan" }
-		201 = { "%d 'Musashi' Hohei Shidan" }
-		202 = { "%d 'Aoba' Hohei Shidan" }
-		205 = { "%d 'Aki' Hohei Shidan" }
-		206 = { "%d 'Aso' Hohei Shidan" }
-		209 = { "%d 'Kaetsu' Hohei Shidan" }
-		212 = { "%d 'Kikuchi' Hohei Shidan" }
-		214 = { "%d 'Tokiwa' Hohei Shidan" }
-		216 = { "%d 'Hiei' Hohei Shidan" }
-		221 = { "%d 'Tenryū' Hohei Shidan" }
-		222 = { "%d 'Hakkou' Hohei Shidan" }
-		224 = { "%d 'Ako' Hohei Shidan" }
-		225 = { "%d 'Kongo' Hohei Shidan" }
-		229 = { "%d 'Hokuetsu' Hohei Shidan" }
-		230 = { "%d 'Sobu' Hohei Shidan" }
-		231 = { "%d 'Ookuni' Hohei Shidan" }
-		234 = { "%d 'Tone' Hohei Shidan" }
-		303 = { "%d 'Takashi' Hohei Shidan" }
-		308 = { "%d 'Iwaki' Hohei Shidan" }
-		312 = { "%d 'Chitose' Hohei Shidan" }
-		316 = { "%d 'Yamashiro' Hohei Shidan" }
-		320 = { "%d 'Senbu' Hohei Shidan" }
-		321 = { "%d 'Iso' Hohei Shidan" }
-		322 = { "%d 'Bantai' Hohei Shidan" }
-		344 = { "%d 'Kenzan' Hohei Shidan" }
-		351 = { "%d 'Akagi' Hohei Shidan" }
-		354 = { "%d 'Bukou' Hohei Shidan" }
-		355 = { "%d 'Nachi' Hohei Shidan" }
+		168 = { "近卫师团" }
+		1 = { "第%d“玉”常设师团" }
+		2 = { "第%d“勇”常设师团" }
+		3 = { "第%d“幸”常设师团" }
+		4 = { "第%d“淀”常设师团" }
+		5 = { "第%d“鲤”常设师团" }
+		6 = { "第%d“明”常设师团" }
+		7 = { "第%d“熊”常设师团" }
+		8 = { "第%d“杉”常设师团" }
+		9 = { "第%d“武”常设师团" }
+		10 = { "第%d“铁”常设师团" }
+		11 = { "第%d“锦”常设师团" }
+		12 = { "第%d“剑”常设师团" }
+		13 = { "第%d“镜”常设师团" }
+		14 = { "第%d“将”常设师团" }
+		15 = { "第%d“祭”常设师团" }
+		16 = { "第%d“垣”常设师团" }
+		17 = { "第%d“月”常设师团" }
+		18 = { "第%d“菊”常设师团" }
+		19 = { "第%d“虎”常设师团" }
+		20 = { "第%d“朝”常设师团" }
+		21 = { "第%d“讨”常设师团" }
+		22 = { "第%d“原”常设师团" }
+		23 = { "第%d“旭”常设师团" }
+		24 = { "第%d“山”常设师团" }
+		25 = { "第%d“国”常设师团" }
+		26 = { "第%d“泉”常设师团" }
+		27 = { "第%d“极”常设师团" }
+		28 = { "第%d“丰”常设师团" }
+		29 = { "第%d“雷”常设师团" }
+		30 = { "第%d“豹”常设师团" }
+		31 = { "第%d“烈”常设师团" }
+		32 = { "第%d“枫”常设师团" }
+		33 = { "第%d“弓”常设师团" }
+	    34 = { "第%d“椿”常设师团" }
+		35 = { "第%d“东”常设师团" }
+	 	36 = { "第%d“雪”常设师团" }
+		37 = { "第%d“冬”常设师团" }
+		38 = { "第%d“沼”常设师团" }
+		39 = { "第%d“藤”常设师团" }
+		40 = { "第%d“鲸”常设师团" }
+		41 = { "第%d“河”常设师团" }
+		42 = { "第%d“勋”常设师团" }
+ 		43 = { "第%d“誉”常设师团" }
+		44 = { "第%d“橘”常设师团" }
+		46 = { "第%d“静”常设师团" }
+		47 = { "第%d“弹”常设师团" }
+		48 = { "第%d“海”常设师团" }
+		49 = { "第%d“狼”常设师团" }
+		50 = { "第%d“蓬”常设师团" }
+		51 = { "第%d“基”常设师团" }
+		52 = { "第%d“柏”常设师团" }
+		53 = { "第%d“安”常设师团" }
+		54 = { "第%d“兵”常设师团" }
+		55 = { "第%d“壮”常设师团" }
+		56 = { "第%d“龙”常设师团" }
+		57 = { "第%d“奥”常设师团" }
+		58 = { "第%d“广”常设师团" }
+		59 = { "第%d“衣”常设师团" }
+		60 = { "第%d“矛”常设师团" }
+		61 = { "第%d“鸱”常设师团" }
+		62 = { "第%d“石”常设师团" }
+		63 = { "第%d“阵”常设师团" }
+		64 = { "第%d“开”常设师团" }
+		65 = { "第%d“专”常设师团" }
+		66 = { "第%d“敢”常设师团" }
+		68 = { "第%d“桧”常设师团" }
+		69 = { "第%d“胜”常设师团" }
+		70 = { "第%d“铁”常设师团" }
+		71 = { "第%d“命”常设师团" }
+		72 = { "第%d“天”常设师团" }
+		73 = { "第%d“怒”常设师团" }
+		77 = { "第%d“念”常设师团" }
+		79 = { "第%d“奏”常设师团" }
+		81 = { "第%d“纳”常设师团" }
+		84 = { "第%d“突”常设师团" }
+		86 = { "第%d“积”常设师团" }
+		88 = { "第%d“要”常设师团" }
+		89 = { "第%d“祭”常设师团" }
+		91 = { "第%d“短视频”常设师团" } #彩蛋
+		93 = { "第%d“决”常设师团" }
+		94 = { "第%d“威烈”常设师团" }
+		96 = { "第%d“玄”常设师团" }
+		100 = { "第%d“镜”常设师团" }
+		101 = { "第%d“柒”常设师团" }
+		102 = { "第%d“拔”常设师团" }
+		103 = { "第%d“骏”常设师团" }
+		104 = { "第%d“凤”常设师团" }
+		105 = { "第%d“勤”常设师团" }
+		106 = { "第%d“澈”常设师团" }
+		107 = { "第%d“凪”常设师团" }
+		108 = { "第%d“祐”常设师团" }
+		109 = { "第%d“胆”常设师团" }
+		110 = { "第%d“鹭”常设师团" }
+		111 = { "第%d“市”常设师团" }
+		112 = { "第%d“公”常设师团" }
+		114 = { "第%d“将”常设师团" }
+		115 = { "第%d“北”常设师团" }
+		116 = { "第%d“岚”常设师团" }
+		117 = { "第%d“弘”常设师团" }
+		118 = { "第%d“惠”常设师团" }
+		119 = { "第%d“祭”常设师团" }
+		120 = { "第%d“迈进”常设师团" }
+		121 = { "第%d“荣光”常设师团" }
+		122 = { "第%d“舞鹤”常设师团" }
+		123 = { "第%d“松风”常设师团" }
+		124 = { "第%d“远谋”常设师团" }
+		125 = { "第%d“英机”常设师团" }
+		127 = { "第%d“英迈”常设师团" }
+		128 = { "第%d“英武”常设师团" }
+		129 = { "第%d“振武”常设师团" }
+		130 = { "第%d“钟馗”常设师团" }
+		131 = { "第%d“秋水”常设师团" }
+		132 = { "第%d“振起”常设师团" }
+		133 = { "第%d“进击”常设师团" }
+		134 = { "第%d“勾玉”常设师团" }
+		135 = { "第%d“真心”常设师团" }
+		136 = { "第%d“不拔”常设师团" }
+		137 = { "第%d“扶翼”常设师团" }
+		138 = { "第%d“不动”常设师团" }
+		139 = { "第%d“不屈”常设师团" }
+		140 = { "第%d“护东”常设师团" }
+		142 = { "第%d“护仙”常设师团" }
+		143 = { "第%d“护古”常设师团" }
+		144 = { "第%d“护阪”常设师团" }
+		145 = { "第%d“护州”常设师团" }
+		146 = { "第%d“护南”常设师团" }
+		147 = { "第%d“护北”常设师团" }
+		148 = { "第%d“富岳”常设师团" }
+		149 = { "第%d“不挠”常设师团" }
+		150 = { "第%d“护朝”常设师团" }
+		151 = { "第%d“护宇”常设师团" }
+		152 = { "第%d“护泽”常设师团" }
+		153 = { "第%d“护京”常设师团" }
+		154 = { "第%d“护路”常设师团" }
+		155 = { "第%d“护土”常设师团" }
+		156 = { "第%d“护西”常设师团" }
+		157 = { "第%d“护弘”常设师团" }
+		158 = { "第%d“不灭”常设师团" }
+		160 = { "第%d“护鲜”常设师团" }
+		161 = { "第%d“震天”常设师团" }
+		167 = { "第%d“清”常设师团" }
 	}
 }
 

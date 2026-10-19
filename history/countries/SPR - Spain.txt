@@ -124,7 +124,7 @@ recruit_character = SPR_Francisco_Franco #弗朗西斯科·佛朗哥
 recruit_character = SPR_Jose_GilRobles #何塞·希尔-罗夫莱斯
 recruit_character = SPR_Jose_Calvo_Sotelo #何塞·卡尔沃·索特沃
 recruit_character = SPR_Joaquin_Chapaprieta #华金·查帕普列塔
-#将领
+### 将领 ###
 recruit_character = SPR_Damaso_Berenguer #达马索·贝伦格尔
 recruit_character = SPR_Miguel_Cabanellas #米格尔·卡巴内拉斯·费雷尔
 recruit_character = SPR_Sebastian_Pozas_Perea #塞巴斯蒂安·波萨斯·佩雷亚

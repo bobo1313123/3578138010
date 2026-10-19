@@ -82,7 +82,7 @@ recruit_character = USA_Dwight_D_Eisenhower #德怀特·D·艾森豪威尔
 recruit_character = USA_Alf_Landon #阿尔夫·兰登
 recruit_character = USA_George_S_Patton_Jr #小乔治·史密斯·巴顿
 recruit_character = USA_William_Tubman #威廉·杜伯曼
-#将领
+### 将领 ###
 recruit_character = USA_Frank_Besson #弗兰克·贝森
 recruit_character = USA_Robert_Berry #罗伯特·贝瑞
 recruit_character = USA_Thomas_Bates #托马斯·贝茨

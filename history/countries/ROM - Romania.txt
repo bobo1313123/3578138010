@@ -44,6 +44,9 @@ recruit_character = ROM_Alexandru_Vaida_Voievod	#亚历山德鲁·瓦伊达·沃
 recruit_character = ROM_Constantin_Prezan #康斯坦丁·普雷赞
 recruit_character = ROM_Octavian_Goga #屋大维·戈加
 recruit_character = ROM_Horia_Sima #霍里亚·西马
+### 将领 ###
+recruit_character = ROM_Ion_Antonescu #扬·安东内斯库
+recruit_character = ROM_Gheorghe_Argeseanu #格奥尔基·阿尔杰沙努
 
 add_ideas = {
 	### 初始民族精神 ###

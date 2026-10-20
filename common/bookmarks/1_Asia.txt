@@ -10,7 +10,9 @@ bookmarks = {
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
 			ideology = Authoritarianism
 			ideas={
-				
+				CHI_Good_Constitution #宪治稳实业兴
+				CHI_State_Divergences #国心两歧
+				CHI_Questioned_Jiaxu_Congress #备受争议的“甲戌国会”
 			}
 			focuses = {
 				
@@ -20,7 +22,9 @@ bookmarks = {
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
 			ideology = Authoritarianism
 			ideas = {
-				
+				JAP_Chaotic_Cabinet #混乱的内阁
+				JAP_Confused_road #迷茫前路
+				JAP_winner_of_RussoJapanese_War #日俄战争的胜利者
 			}
 			focuses = {
 				

@@ -1,13 +1,19 @@
 state={
 	id=1382
 	name="STATE_1382"
-	manpower = 1270509
+	manpower = 1438365
 
-	state_category = rural
+	state_category = city
 
 	history={
 		owner = JAP
 		add_core_of = JAP
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+		}
 	}
 
 	provinces={

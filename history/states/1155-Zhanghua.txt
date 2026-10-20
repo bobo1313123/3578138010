@@ -1,14 +1,21 @@
 state={
 	id=1155
 	name="STATE_1155"
-	manpower = 1270509
+	manpower = 910509
 
-	state_category = rural
+	state_category = town
 
 	history={
 		owner = JAP
 		add_core_of = PRC
 		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			11959 18 #台中市
+		}
 	}
 
 	provinces={

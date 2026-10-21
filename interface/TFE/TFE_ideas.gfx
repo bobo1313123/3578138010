@@ -431,4 +431,55 @@ spriteTypes = {
 		name = "GFX_idea_new_sowingism"
 		texturefile = "gfx/interface/ideas/ROM/new_sowingism.png"
 	}
+	#俄罗斯民族精神
+	#国家未来之路
+	spriteType = {
+		name = "GFX_idea_Nations_Path_Forward"
+		texturefile = "gfx/interface/ideas/SOV/Nations_Path_Forward.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Nations_Path_Forward_desc"
+		texturefile = "gfx/interface/ideas/SOV/Nations_Path_Forward_desc.png"
+		legacy_lazy_load = no
+	}
+	#经济发展恢复中
+	spriteType = {
+		name = "GFX_idea_Economic_development_recover"
+		texturefile = "gfx/interface/ideas/SOV/Economic_development_recover.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Economic_development_recover_desc"
+		texturefile = "gfx/interface/ideas/SOV/Economic_development_recover_desc.png"
+		legacy_lazy_load = no
+	}
+	#俄罗斯保护主义
+	spriteType = {
+		name = "GFX_idea_Russian_protectionism"
+		texturefile = "gfx/interface/ideas/SOV/Russian_protectionism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Russian_protectionism_desc"
+		texturefile = "gfx/interface/ideas/SOV/Russian_protectionism_desc.png"
+		legacy_lazy_load = no
+	}
+	#无法约束的总参谋部GFX_modifier_SOV_Army_of_Republic
+	spriteType = {
+		name = "GFX_idea_Unconstrained_General_Staff"
+		texturefile = "gfx/interface/ideas/SOV/Unconstrained_General_Staff.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Unconstrained_General_Staff_desc"
+		texturefile = "gfx/interface/ideas/SOV/Unconstrained_General_Staff_desc.png"
+		legacy_lazy_load = no
+	}
+	#共和国之军
+	spriteType = {
+		name = "GFX_modifier_SOV_Army_of_Republic"
+		texturefile = "gfx/interface/ideas/SOV/Army_of_Republic.png"
+	}
+	spriteType = {
+		name = "GFX_modifier_SOV_Army_of_Republic_desc"
+		texturefile = "gfx/interface/ideas/SOV/Army_of_Republic_desc.png"
+		legacy_lazy_load = no
+	}
 }

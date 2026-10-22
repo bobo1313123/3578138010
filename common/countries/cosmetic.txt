@@ -13,6 +13,11 @@ NFL_England_guardian = {
 	color = rgb { 200 16 46 }
 	color_ui = rgb { 200 16 46 }
 }
+#奥斯曼海德拉巴
+HYD_Osman = {
+	color = rgb { 102 205 170 }
+	color_ui = rgb { 102 205 170 }
+}
 
 bo_luo_di_sea = {
 	color = rgb { 138 155 116 }

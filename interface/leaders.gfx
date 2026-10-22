@@ -213,6 +213,7 @@ spriteTypes = {
 		name = "GFX_POL_Edward_Rydz_Smigly_small"
 		texturefile = "gfx/interface/advisors/POL/POL_Edward_Rydz_Smigly.png"
 	}
+	### 意大利大区 ###
 	#北意大利（意大利民族共和国）
 	#领导人
 	spriteType = {
@@ -257,6 +258,7 @@ spriteTypes = {
 		name = "GFX_TTS_Vittorio_emanuele_iii_large"
 		texturefile = "gfx/leaders/TTS/TTS_Vittorio_emanuele_iii.png"
 	}
+	### 美洲大区 ###
 	#北方美国
 	#领导人
 	spriteType = {
@@ -331,6 +333,12 @@ spriteTypes = {
 	spriteType = { #莱昂·科尔特斯·卡斯特罗
 		name = "GFX_ELS_Leon_Cortes_Castro_large"
 		texturefile = "gfx/leaders/ELS/ELS_Leon_Cortes_Castro.png"
+	}
+	### 印度大区 ###
+	#海得拉巴
+	spriteType = { #奥斯曼·阿里·汗
+		name = "GFX_HYD_Osman_Ali_Khan_large"
+		texturefile = "gfx/leaders/HYD/HYD_Osman_Ali_Khan.png"
 	}
 
 

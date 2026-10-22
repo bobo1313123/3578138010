@@ -73,7 +73,8 @@ if = {
 recruit_character = HYD_Osman_Ali_Khan #奥斯曼·阿里·汗
 
 add_ideas = {
-
+	### 初始民族精神 ###
+	HYD_Splendid_Golconda #璀璨戈尔康达
 }
 
 set_politics = {

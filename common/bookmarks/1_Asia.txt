@@ -44,7 +44,7 @@ bookmarks = {
 			history = "TVE_Content_not_suitable_for_play_bookmark_country_desc"
 			ideology = Authoritarianism
 			ideas = {
-				
+				HYD_Splendid_Golconda #璀璨戈尔康达
 			}
 			focuses = {
 				

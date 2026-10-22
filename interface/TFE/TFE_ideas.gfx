@@ -462,7 +462,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV/Russian_protectionism_desc.png"
 		legacy_lazy_load = no
 	}
-	#无法约束的总参谋部GFX_modifier_SOV_Army_of_Republic
+	#无法约束的总参谋部
 	spriteType = {
 		name = "GFX_idea_Unconstrained_General_Staff"
 		texturefile = "gfx/interface/ideas/SOV/Unconstrained_General_Staff.png"
@@ -480,6 +480,17 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_modifier_SOV_Army_of_Republic_desc"
 		texturefile = "gfx/interface/ideas/SOV/Army_of_Republic_desc.png"
+		legacy_lazy_load = no
+	}
+	#海德拉巴民族精神
+	#璀璨戈尔康达
+	spriteType = {
+		name = "GFX_idea_Splendid_Golconda"
+		texturefile = "gfx/interface/ideas/HYD/Splendid_Golconda.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Splendid_Golconda_desc"
+		texturefile = "gfx/interface/ideas/HYD/Splendid_Golconda_desc.png"
 		legacy_lazy_load = no
 	}
 }

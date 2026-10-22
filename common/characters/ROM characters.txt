@@ -9,6 +9,7 @@ characters={
 			}
 		}
 		country_leader = {
+			desc = ROM_Constantin_Argetoianu_desc
 			ideology = authoritarianism_small
 			traits={ }
 		}
@@ -48,7 +49,7 @@ characters={
 			traits={ }
 		}
 	}
-	#杨·米哈拉凯
+	#扬·米哈拉凯
 	ROM_Ion_Mihalache = {
 		name = ROM_Ion_Mihalache
 		portraits={

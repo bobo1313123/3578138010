@@ -421,10 +421,20 @@ spriteTypes = {
 		name = "GFX_idea_one_party_blowback"
 		texturefile = "gfx/interface/ideas/ROM/one_party_blowback.png"
 	}
+	spriteType = {
+		name = "GFX_idea_one_party_blowback_desc"
+		texturefile = "gfx/interface/ideas/ROM/one_party_blowback_desc.png"
+		legacy_lazy_load = no
+	}
 	#刺猬国度
 	spriteType = {
 		name = "GFX_idea_hedgehog_nation"
 		texturefile = "gfx/interface/ideas/ROM/hedgehog_nation.png"
+	}
+	spriteType = {
+		name = "GFX_idea_hedgehog_nation_desc"
+		texturefile = "gfx/interface/ideas/ROM/hedgehog_nation_desc.png"
+		legacy_lazy_load = no
 	}
 	#新播种主义的复兴
 	spriteType = {

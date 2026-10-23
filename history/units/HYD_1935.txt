@@ -110,7 +110,7 @@ units = {
 				owner = ENG
 			}
 			light_tank_chassis_1 = {
-				owner = ENG
+				owner = ENG version_name = "Light Tank Mk. IV"
 			}
 		}
 	}
@@ -131,7 +131,7 @@ units = {
 				owner = ENG
 			}
 			light_tank_chassis_1 = {
-				owner = ENG
+				owner = ENG version_name = "Light Tank Mk. IV"
 			}
 		}
 	}	

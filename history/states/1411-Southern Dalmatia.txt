@@ -20,6 +20,12 @@ state = {
 			9821 = {
 				naval_base = 1
 			}
+			3924 = {
+				naval_base = 3
+			}
+			6889 = {
+				naval_base = 1
+			}
 		}
 		victory_points = { #Dubrovnik
 			6889 3 

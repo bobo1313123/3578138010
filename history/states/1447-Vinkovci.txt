@@ -2,25 +2,23 @@
 state={
 	id = 1447
 	name="STATE_1447"
-	manpower = 282678
+	manpower = 824400
 	resources={
 	
-	}
-	
+	}	
 	state_category = town
-
 	history={
 		owner = CRO
+		add_core_of = CRO
 		add_claim_by = YUG
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 3
+			industrial_complex = 2
 			air_base = 1
 		}
-	
-		
-
-		add_core_of = CRO
+		victory_points = {
+			11580 8
+		}
 	}
 
 	provinces={

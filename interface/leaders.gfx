@@ -220,6 +220,12 @@ spriteTypes = {
 		name = "GFX_CRO_Archduke_Robert_large"
 		texturefile = "gfx/leaders/CRO/CRO_Archduke_Robert.png"
 	}
+	#南斯拉夫
+	#领导人
+	spriteType = {
+		name = "GFX_YUG_Alexander_I_large"
+		texturefile = "gfx/leaders/YUG/YUG_Alexander_I.png"
+	}
 	### 意大利大区 ###
 	#北意大利（意大利民族共和国）
 	#领导人
@@ -587,14 +593,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TVE_HOL_LEADERS"
 		texturefile = "gfx/leaders/HOL/TVE_HOL_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_BOS_LEADERS"
-		texturefile = "gfx/leaders/Yug_and_her_firends/TVE_BOS_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_YUG_LEADERS"
-		texturefile = "gfx/leaders/Yug_and_her_firends/TVE_YUG_LEADERS.dds"
 	}
 	spriteType = {
 		name = "GFX_TVE_ROM_LEADERS"

@@ -5,7 +5,7 @@ set_war_support = 0.40
 starting_train_buffer = 1
 set_fuel_ratio = 0.8
 load_focus_tree = generic_focus
-set_research_slots = 2
+set_research_slots = 3
 set_cosmetic_tag = CRO_Slavonija #斯拉沃尼亚形态
 
 ### 初始科技 ###
@@ -48,6 +48,10 @@ if = {
 ### 领导人 ###
 recruit_character = CRO_Archduke_Robert #罗伯特大公
 
+add_ideas = {
+	### 初始法案 ###
+	extensive_conscription #广泛征兵
+}
 set_politics = {
 	ruling_party = Authoritarianism
 	last_election = "1935.6.9"

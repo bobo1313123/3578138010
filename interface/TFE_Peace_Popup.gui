@@ -6,7 +6,7 @@
 @HEADERS_Y = 0
 guiTypes = {
 	containerWindowType = {
-		name = "TVE_peace_popup_window"
+		name = "TFE_peace_popup_window"
 		position = { x = 0 y = 0 }
 		size = { width = 600 height = 382 }		
 		orientation= center
@@ -29,7 +29,7 @@ guiTypes = {
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
-			text = "TVE_PEACE_POP_TITLE"
+			text = "TFE_Peace_Pop_Title"
 			maxWidth = 410
 			maxHeight = 200
 			format = centre
@@ -37,15 +37,26 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "description"
-			position = { x = 80 y = 240 }
+			position = { x = 80 y = 210 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "hoi_16mbs"
 			borderSize = {x = 0 y = 0}
-			text = "TVE_PEACE_POPUP_DESCRIPTION"
+			text = "TFE_Peace_Popup_description"
 			maxWidth = 410
 			maxHeight = 200
 			format = centre
-		}	
+		}
+		instantTextBoxType = {
+			name = "flavor"
+			position = { x = 70 y = 260 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = -8}
+			text = "TFE_PEACE_POPUP_FLAVOR"
+			maxWidth = 460
+			maxHeight = 100
+			format = centre
+		}
 
 		instantTextBoxType = {
 			name = "War_over"
@@ -53,7 +64,7 @@ guiTypes = {
 			textureFile = ""
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
-			text = "TVE_PEACE_POP_War_over"
+			text = "TFE_PEACE_POP_War_over"
 			maxWidth = 410
 			maxHeight = 200
 			format = centre
@@ -64,7 +75,7 @@ guiTypes = {
 			name = "close_button"
 			position = { x=225 y =340 }
 			quadTextureSprite ="GFX_TVE_PEACE_BUTTON"
-			buttonText = "TVE_close_button"
+			buttonText = "TFE_close_button"
 			buttonFont = "hoi_18mbs"
 			shortcut = "RETURN"
 			clicksound = click_ok

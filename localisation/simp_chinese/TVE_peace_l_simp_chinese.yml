@@ -1,8 +1,4 @@
 ﻿l_simp_chinese:
-TVE_PEACE_POP_TITLE:0"冲突结束提醒"
-TVE_PEACE_POPUP_DESCRIPTION:0"在一场生灵涂炭的战争后，[winning_country.GetFlag]§Y[winning_country.GetNameDef]§!最终击败了[losing_country.GetFlag]§Y[losing_country.GetNameDef]§!."
-TVE_PEACE_POP_War_over:0"[]"
-TVE_close_button:0"已阅"
 
 #introduction
 TVE_DSB_Country_Introduction:0"§Y东普鲁士德意志流亡政府§"

@@ -36,7 +36,7 @@ division_template = {
 units = {
 	division = {
 		name = "萨格勒布防卫军"
-		location = 10412
+		location = 11581
 		division_template = "防卫军"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
@@ -56,6 +56,30 @@ units = {
 		division_template = "防卫军"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "协同军"
+		location = 3592
+		division_template = "协同军"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "协同军"
+		location = 3596
+		division_template = "协同军"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "协同军"
+		location = 624
+		division_template = "协同军"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
 		start_manpower_factor = 1.0
 	}
 	division = {

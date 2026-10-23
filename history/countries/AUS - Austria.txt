@@ -31,7 +31,6 @@ set_autonomy = {
 set_autonomy = {
 	target = CRO
 	autonomous_state = autonomy_colony
-	freedom_level = 0.2
 }
 set_variable = {
 	AUS_CIVIL_WAR_VAR = 0

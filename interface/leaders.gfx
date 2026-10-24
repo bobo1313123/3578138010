@@ -348,7 +348,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ELS/ELS_Leon_Cortes_Castro.png"
 	}
 	### 印度大区 ###
-	#海得拉巴
+	#海德拉巴
 	spriteType = { #奥斯曼·阿里·汗
 		name = "GFX_HYD_Osman_Ali_Khan_large"
 		texturefile = "gfx/leaders/HYD/HYD_Osman_Ali_Khan.png"

@@ -9,7 +9,7 @@ characters = {
 			}
 		}
         country_leader={
-			#desc = SOV_Alexander_Kerensky_desc
+			desc = SOV_Alexander_Kerensky_desc
 			ideology= Kerenskyism
 			traits= {  }
 		}

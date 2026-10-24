@@ -114,19 +114,6 @@ characters={
 			traits={ }
 		}
 	}
-	#屋大维·戈加
-	ROM_Octavian_Goga = { 
-		name = ROM_Octavian_Goga
-		portraits={
-			civilian={
-				large = GFX_ROM_Octavian_Goga_large
-			}
-		}
-		country_leader={
-			ideology = fascism_small
-			traits={ anti_democrat }
-		}
-	}
 	#霍里亚·西马
 	ROM_Horia_Sima = {
 		name = ROM_Horia_Sima
@@ -136,8 +123,21 @@ characters={
 			}
 		}
 		country_leader={
-			ideology = nazism_small
+			ideology = fascism_small
 			traits={ }
+		}
+	}
+	#屋大维·戈加
+	ROM_Octavian_Goga = { 
+		name = ROM_Octavian_Goga
+		portraits={
+			civilian={
+				large = GFX_ROM_Octavian_Goga_large
+			}
+		}
+		country_leader={
+			ideology = nazism_small
+			traits={ anti_democrat }
 		}
 	}
 	#元帅

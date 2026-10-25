@@ -244,6 +244,7 @@
  		}
  		available = {
  		}
+		cancel_if_invalid = no
  		search_filters = { FOCUS_FILTER_POLITICAL }
  		completion_reward = {
 			custom_effect_tooltip = LBV_Launching_another_offensive_tt

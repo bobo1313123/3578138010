@@ -7,11 +7,15 @@ state = {
 	state_category = large_city
 	
 	resources = {
-		aluminium=9 # was: 16
+		aluminium=12
 	}
 
 	history = {
 		owner = LBV
+		add_core_of = LBV
+		add_core_of = ITA
+		add_core_of = TTS
+		add_core_of = SPM
 		victory_points = { #Bologna
 			6606 5
 		}
@@ -21,10 +25,6 @@ state = {
 		victory_points = { #Parma
 			9752 1
 		}
-		add_core_of = LBV
-		add_core_of = ITA
-		add_core_of = TTS
-		add_core_of = SPM
 		buildings = {
 			infrastructure = 4 #was: 7
 			industrial_complex = 1

@@ -277,6 +277,12 @@ spriteTypes = {
 		name = "GFX_TTS_Vittorio_emanuele_iii_large"
 		texturefile = "gfx/leaders/TTS/TTS_Vittorio_emanuele_iii.png"
 	}
+	#教宗国
+	#领导人
+	spriteType = {
+		name = "GFX_PAP_Pope_Pius_XI_large"
+		texturefile = "gfx/leaders/PAP/PAP_Pope_Pius_XI.png"
+	}
 	### 美洲大区 ###
 	#北方美国
 	#领导人

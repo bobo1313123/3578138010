@@ -1,0 +1,4 @@
+LBV_collapse_war_decisions = { #内战决议
+	icon = military_operation
+	allowed = { always = no }
+}

@@ -55,4 +55,56 @@ spriteTypes = {
 		name = "GFX_goal_LBV_Ready_for_Reunification" 
 		texturefile = "gfx/interface/goals/LBV/LBV_Ready_for_Reunification.png"
 	}
+	SpriteType = { #法西斯党政
+		name = "GFX_goal_LBV_Fascist_regime" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Fascist_regime.png"
+	}
+	SpriteType = { #伦巴底防线
+		name = "GFX_goal_LBV_Lombard_Line" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Lombard_Line.png"
+	}
+	SpriteType = { #职业化干部
+		name = "GFX_goal_LBV_Professionalized_Cadres" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Professionalized_Cadres.png"
+	}
+	SpriteType = { #整合地方民兵
+		name = "GFX_goal_LBV_Integrate_local_militias" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Integrate_local_militias.png"
+	}
+	SpriteType = { #再次进军
+		name = "GFX_goal_LBV_Launching_another_offensive" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Launching_another_offensive.png"
+	}
+	SpriteType = { #团结各阶级
+		name = "GFX_goal_LBV_Unite_all_classes" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Unite_all_classes.png"
+	}
+	SpriteType = { #青年突击营
+		name = "GFX_goal_LBV_Youth_Assault_Camp" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Youth_Assault_Camp.png"
+	}
+	SpriteType = { #革命再生
+		name = "GFX_goal_LBV_Revolutionary_Regeneration" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Revolutionary_Regeneration.png"
+	}
+	SpriteType = { #武装安全民队
+		name = "GFX_goal_LBV_Armed_Security_Militia" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Armed_Security_Militia.png"
+	}
+	SpriteType = { #拓进向未来
+		name = "GFX_goal_LBV_Forging_Ahead_Toward_Future" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Forging_Ahead_Toward_Future.png"
+	}
+	SpriteType = { #杜切之矛
+		name = "GFX_goal_LBV_Spear_of_Duche" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Spear_of_Duche.png"
+	}
+	SpriteType = { #为了民族与国家…
+		name = "GFX_goal_LBV_For_Nation_and_Country" 
+		texturefile = "gfx/interface/goals/LBV/LBV_For_Nation_and_Country.png"
+	}
+	SpriteType = { #意大利，崛起
+		name = "GFX_goal_LBV_Italy_Rise" 
+		texturefile = "gfx/interface/goals/LBV/LBV_Italy_Rise.png"
+	}
 }

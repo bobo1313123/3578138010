@@ -67,6 +67,386 @@
 					instant_build = yes
 				}
 			}
+			custom_effect_tooltip = LBV_collapse_war_decisions_tt
+			hidden_effect = {
+				activate_targeted_decision = { target = LBV decision = LBV_Infiltrate_enemy_organization }
+				activate_targeted_decision = { target = LBV decision = LBV_Seeking_foreign_aid }
+				activate_targeted_decision = { target = LBV decision = LBV_Establish_military_factory }
+				activate_targeted_decision = { target = LBV decision = LBV_Destroy_enemy_supplies }
+				activate_targeted_decision = { target = LBV decision = LBV_Seize_enemy_supplies }
+			}
  		}
  	}
+	#法西斯党政
+	focus = {
+		id = LBV_Fascist_regime
+ 		icon = GFX_goal_LBV_Fascist_regime
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Ready_for_Reunification }
+ 		x = -2
+ 		y = 2
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			swap_ideas = {
+				remove_idea = LBV_Committee_in_danger
+				add_idea = LBV_Committee_in_danger_1
+			}
+ 		}
+	}
+	#伦巴底防线
+	focus = {
+		id = LBV_Lombard_Line
+ 		icon = GFX_goal_LBV_Lombard_Line
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Ready_for_Reunification }
+ 		x = 2
+ 		y = 2
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+			custom_effect_tooltip = LBV_Lombard_Line_tt
+			hidden_effect = {
+				1456 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 6946
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 9907
+					}
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 9879
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 1616
+					}
+				}
+				161 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 9924
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 3976
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 6790
+					}
+				}
+				159 = {
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 3780
+					}
+					add_building_construction = {
+						type = bunker
+						level = 1
+						instant_build = yes
+						province = 607
+					}
+				}
+			}
+ 		}
+	}
+	#职业化干部
+	focus = {
+		id = LBV_Professionalized_Cadres
+ 		icon = GFX_goal_LBV_Professionalized_Cadres
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Fascist_regime }
+ 		x = -2
+ 		y = 3
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			add_ideas = LBV_Cadre_Training #干部培训
+ 		}
+	}
+	#整合地方民兵
+	focus = {
+		id = LBV_Integrate_local_militias
+ 		icon = GFX_goal_LBV_Integrate_local_militias
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Ready_for_Reunification }
+ 		x = 2
+ 		y = 3
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 500
+			}
+			custom_effect_tooltip = LBV_three_militias
+			hidden_effect = {
+				load_oob = "LBV_local_militias"
+			}
+ 		}
+	}
+	#再次进军
+	focus = {
+		id = LBV_Launching_another_offensive
+ 		icon = GFX_goal_LBV_Launching_another_offensive
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Professionalized_Cadres }
+		prerequisite = { focus = LBV_Integrate_local_militias }
+ 		x = 0
+ 		y = 4
+ 		cost = 5
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+			custom_effect_tooltip = LBV_Launching_another_offensive_tt
+			hidden_effect = {
+				LBV = {
+					declare_war_on = {
+						target = ITA
+						type = civil_war
+					}
+					declare_war_on = {
+						target = TTS
+						type = civil_war
+					}
+				}
+				ITA = {
+					declare_war_on = {
+						target = TTS
+						type = civil_war
+					}
+				}
+			}
+ 		}
+	}
+	#团结各阶级
+	focus = {
+		id = LBV_Unite_all_classes
+ 		icon = GFX_goal_LBV_Unite_all_classes
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Launching_another_offensive }
+ 		x = -2
+ 		y = 5
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			add_ideas = LBV_united_people #国民一心
+			add_ideas = all_adults_serve #所有成人服兵役
+ 		}
+	}
+	#青年突击营
+	focus = {
+		id = LBV_Youth_Assault_Camp
+ 		icon = GFX_goal_LBV_Youth_Assault_Camp
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Launching_another_offensive }
+ 		x = 2
+ 		y = 5
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+			add_manpower = 1500
+ 			swap_ideas = {
+				remove_idea = LBV_Paralyzed_Blackshirts
+				add_idea = LBV_Paralyzed_Blackshirts_1
+			}
+ 		}
+	}
+	#革命再生
+	focus = {
+		id = LBV_Revolutionary_Regeneration
+ 		icon = GFX_goal_LBV_Revolutionary_Regeneration
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Unite_all_classes }
+ 		x = -2
+ 		y = 6
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			swap_ideas = {
+				remove_idea = LBV_Protracted_civilwar_1
+				add_idea = LBV_Protracted_civilwar_2
+			}
+ 		}
+	}
+	#武装安全民队
+	focus = {
+		id = LBV_Armed_Security_Militia
+ 		icon = GFX_goal_LBV_Armed_Security_Militia
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Youth_Assault_Camp }
+ 		x = 2
+ 		y = 6
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			swap_ideas = {
+				remove_idea = LBV_Paralyzed_Blackshirts_1
+				add_idea = LBV_Paralyzed_Blackshirts_2
+			}
+ 		}
+	}
+	#拓进向未来
+	focus = {
+		id = LBV_Forging_Ahead_Toward_Future
+ 		icon = GFX_goal_LBV_Forging_Ahead_Toward_Future
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Revolutionary_Regeneration }
+ 		x = -2
+ 		y = 7
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			swap_ideas = {
+				remove_idea = LBV_Protracted_civilwar_2
+				add_idea = LBV_Protracted_civilwar_3
+			}
+ 		}
+	}
+	#杜切之矛
+	focus = {
+		id = LBV_Spear_of_Duche
+ 		icon = GFX_goal_LBV_Spear_of_Duche
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Armed_Security_Militia }
+ 		x = 2
+ 		y = 7
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			add_timed_idea = {
+				idea = LBV_Assault_Team
+				days = 180
+			}
+ 		}
+	}
+	#为了民族与国家…
+	focus = {
+		id = LBV_For_Nation_and_Country
+ 		icon = GFX_goal_LBV_For_Nation_and_Country
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_Forging_Ahead_Toward_Future }
+		prerequisite = { focus = LBV_Spear_of_Duche }
+ 		x = 0
+ 		y = 8
+ 		cost = 3
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			swap_ideas = {
+				remove_idea = LBV_Paralyzed_Blackshirts_2
+				add_idea = LBV_Paralyzed_Blackshirts_3
+			}
+ 		}
+	}
+	#意大利，崛起
+	focus = {
+		id = LBV_Italy_Rise
+ 		icon = GFX_goal_LBV_Italy_Rise
+ 		relative_position_id = LBV_March_on_Rome_Lessons
+ 		prerequisite = { focus = LBV_For_Nation_and_Country }
+ 		x = 0
+ 		y = 9
+ 		cost = 1
+ 		ai_will_do = { 
+ 			base = 5
+ 		}
+ 		available = {
+			has_war = no
+ 		}
+ 		search_filters = { FOCUS_FILTER_POLITICAL }
+ 		completion_reward = {
+ 			swap_ideas = {
+				remove_idea = LBV_Protracted_civilwar_2
+				add_idea = LBV_Slow_recovery
+			}
+			remove_ideas = LBV_united_people #国民一心
+			swap_ideas = {
+				remove_idea = LBV_Paralyzed_Blackshirts_3
+				add_idea = LBV_Gradually_recovering_military
+			}
+ 		}
+	}
 }

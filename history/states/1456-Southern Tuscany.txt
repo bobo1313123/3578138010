@@ -2,16 +2,18 @@
 state={
 	id = 1456
 	name="STATE_1456"
-	manpower = 28267
+	manpower = 1884433
 	
-	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = LBV
-	
+		add_core_of = LBV
+		add_core_of = ITA
+		add_core_of = TTS
+		add_core_of = TOS
 		victory_points = {
-			9907 3 
+			9907 3 #佛罗伦萨
 		}
 		buildings = {
 			infrastructure = 2
@@ -24,9 +26,7 @@ state={
 		victory_points = {
 			6946 1 
 		}
-		add_core_of = LBV
-		add_core_of = ITA
-		add_core_of = TTS
+		
 	}
 
 	provinces={

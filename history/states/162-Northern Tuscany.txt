@@ -2,20 +2,19 @@
 state = {
 	id = 162
 	name = "STATE_162"
-	manpower = 3084933
+	manpower = 1584900
 	
 	state_category = large_city
 
 	history = {
 		owner = TTS
-		
-	
-		victory_points = {
-			11833 1 
-		}
-	
+		add_core_of = TTS
+		add_core_of = LBV
+		add_core_of = TOS
 		add_claim_by = ITA
-		add_claim_by = LBV
+		victory_points = {
+			11833 10
+		}
 		buildings = {
 			infrastructure = 4 #was: 8
 			arms_factory = 1
@@ -27,8 +26,6 @@ state = {
 				naval_base = 4
 			}
 		}
-		add_core_of = TTS
-		add_core_of = TOS
 	}
 
 	provinces = {

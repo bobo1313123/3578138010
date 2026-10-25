@@ -23,6 +23,7 @@ leader_traits ={
 	#布尔什维克流亡者
 	ITA_Bolshevik_exiles ={
 		random = no
+		stability_factor = 0.05
 		industrial_capacity_factory = 0.05
 		production_factory_max_efficiency_factor = 0.05
 		local_resources_factor = -0.075

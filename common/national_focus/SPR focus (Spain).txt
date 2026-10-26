@@ -258,6 +258,7 @@
  		id = SPR_Help_Black_Cloak_Eagle
  		icon = GFX_goal_SPR_Help_Black_Cloak_Eagle
 		relative_position_id = SPR_Gunfire_in_Apennines
+		prerequisite = { focus = SPR_Gunfire_in_Apennines }
  		x = 0
  		y = 1
  		cost = 2
@@ -265,7 +266,7 @@
  			base = 1
  		}
  		available = {
-			always = no
+			has_global_flag = ITAG_Wars_of_Unification
  		}
 		allow_branch = {
 			has_country_flag = SPR_help_Fascism 

@@ -45,6 +45,14 @@ spriteTypes = {
 		name = "GFX_goal_SPR_The_old_lion" 
 		texturefile = "gfx/interface/goals/SPR/SPR_The_old_lion.png"
 	}
+	SpriteType = { #亚平宁的枪声
+		name = "GFX_goal_SPR_Gunfire_in_Apennines" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Gunfire_in_Apennines.png"
+	}
+	SpriteType = { #援助黑衫之鹰
+		name = "GFX_goal_SPR_Help_Black_Cloak_Eagle" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Help_Black_Cloak_Eagle.png"
+	}
 	#北意大利国策
 	#战时国策
 	SpriteType = { #吸取进军罗马的教训

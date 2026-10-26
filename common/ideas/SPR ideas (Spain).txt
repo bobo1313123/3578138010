@@ -59,5 +59,15 @@ ideas = {
 				production_speed_buildings_factor = -0.15
 			}
 		}
+		### 国策民族精神 ###
+		#援助黑鹰
+        SPR_Help_Black_Eagle = {
+            on_add = { log = "[GetLogRoot]: add idea SPR_Help_Black_Eagle" }
+			picture = Help_Black_Eagle
+			allowed = { has_global_flag = ITAG_Wars_of_Unification }
+			modifier = {
+                send_volunteer_size = 4
+			}
+		}
     }
 }

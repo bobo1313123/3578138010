@@ -231,5 +231,16 @@ ideas = {
 				mobilization_speed = 0.20
 			}
 		}
+		### 外国民族精神 ###
+		#来自西班牙的援助
+		LBV_Help_From_Spain = {
+			on_add = { log = "[GetLogRoot]: add idea LBV_Help_From_Spain" }
+			picture = Help_From_Spain
+			allowed = { has_global_flag = ITAG_Wars_of_Unification }
+			modifier = {
+				consumer_goods_factor = -0.05
+				army_org = 1.25
+			}
+		}
     }
 }

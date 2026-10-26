@@ -3,6 +3,8 @@
 
  ITAG_Protracted_civilwar: "内战旷久"
  ITAG_Protracted_civilwar_desc: "无论是码头捕捞的渔民，还是城市居住的市民，亦或者田野劳作的农民，都对于战争感到了疲惫，人民的心声不再为战争所振奋，后者摧残了人们的心智和生活，经济一再衰退，社会的弹性减少，我们必须立刻结束混乱的战争状态，回归1861的统一。\n\n\n\n\n£GFX_idea_Protracted_civilwar_desc\n\n\n\n§!"
+
+ ITAG_Wars_of_Unification: "意大利内战开始"
  
  LBV_Mussolini_first: "意大利民族共和国"
  LBV_Mussolini_first_ADJ: "意大利民族共和国"
@@ -66,6 +68,8 @@
  LBV_Slow_recovery_desc: ""
  LBV_Gradually_recovering_military: "逐渐恢复的军队"
  LBV_Gradually_recovering_military_desc: ""
+ LBV_Help_From_Spain: "来自西班牙的援助"
+ LBV_Help_From_Spain_desc: ""
  
  LBV_collapse_war_decisions: "内战旷久"
  LBV_Infiltrate_enemy_organization: "渗透敌方组织"
@@ -96,6 +100,7 @@
  LBV_Unite_all_classes_desc: "不分职业高低贵贱，不分出身门第富贫，唯有心向法西斯主义，才是意大利子民。祖国在召唤，军民一心、上下同体、誓讨乱贼，底定戡乱。"
  LBV_Youth_Assault_Camp: "青年突击营"
  LBV_Youth_Assault_Camp_desc: "我们要将社会最具活力的群体进行动员，那便是青年，要让他们知道，民族和国家的生存即一切，神话是一种信仰，一种热情。其他政治势力都不具备统合意大利民族和完成文化复兴的能力，只有国家法西斯党——这个活力与力量的化身——才能赢得胜利。"
+ LBV_Youth_Assault_Camp_tt: "§Y组建两支有经验的摩托部队§!"
  LBV_Revolutionary_Regeneration: "革命再生"
  LBV_Revolutionary_Regeneration_desc: "法西斯运动，一种意志，一种战斗，一种行动，它是真正的革命，祛除过往朽木般的制度与意志，塑造新的、生命力的国家，法西斯指归乃是如此——现在，我们要实行唯一的、真正的革命，为意大利复兴而战。"
  LBV_Armed_Security_Militia: "武装安全民队"
@@ -108,3 +113,7 @@
  LBV_For_Nation_and_Country_desc: ""
  LBV_Italy_Rise: "意大利，崛起"
  LBV_Italy_Rise_desc: ""
+
+ tfe_norita_focus.1.t: "西班牙国的援助"
+ tfe_norita_focus.1.d: "（占位符）"
+ tfe_norita_focus.1.a: "感谢我们的棕色兄弟"

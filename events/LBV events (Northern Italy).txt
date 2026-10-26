@@ -1,0 +1,15 @@
+add_namespace = tfe_norita_focus
+
+#收到援助
+country_event = {
+	id = tfe_norita_focus.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tfe_spain_history.1" }
+	title = tfe_norita_focus.1.t
+	desc = tfe_norita_focus.1.d
+	#picture = 
+	is_triggered_only = yes 
+	option = {
+		name = tfe_norita_focus.1.a #黑衫军
+		add_ideas = LBV_Help_From_Spain #来自西班牙的援助
+	}
+}

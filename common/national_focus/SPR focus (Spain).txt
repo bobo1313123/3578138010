@@ -281,6 +281,13 @@
 			LBV = {
 				add_ideas = LBV_Help_From_Spain #来自西班牙的援助
 			}
+			hidden_effect = {
+				add_ai_strategy = {
+					type = send_volunteers_desire
+					id = LBV
+					value = 2000
+				}
+			}
  		}
  	}
 	#礼物与恩惠
@@ -362,17 +369,17 @@
 		completion_reward = {
 			custom_effect_tooltip = SPR_Strengthen_Sardinia_Garrison_tt
 			hidden_effect = {
-				declare_war_on = {
-					target = TTS
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = ITA
-					type = annex_everything
-				}
 				SPM = {
+					declare_war_on = {
+						target = TTS
+						type = annex_everything
+					}
+					declare_war_on = {
+						target = ITA
+						type = annex_everything
+					}
 					add_ai_strategy = {
-						type = support
+						type = send_volunteers_desire
 						id = LBV
 						value = 2500
 					}

@@ -16,16 +16,6 @@ country_event = {
 		custom_effect_tooltip = SPR_help_Fascism_tt #帮助法西斯
 		hidden_effect = {
 			mark_focus_tree_layout_dirty = yes
-			add_ai_strategy = {
-				type = send_volunteers_desire
-				id = LBV
-			    value = 2000
-			}
-			add_ai_strategy = {
-				type = send_volunteers_desire
-				id = SPM
-			    value = 2000
-			}
 		}
 	}
 }

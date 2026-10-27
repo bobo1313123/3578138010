@@ -17,9 +17,14 @@ country_event = {
 		hidden_effect = {
 			mark_focus_tree_layout_dirty = yes
 			add_ai_strategy = {
-				type = support
+				type = send_volunteers_desire
 				id = LBV
-			    value = 2500
+			    value = 2000
+			}
+			add_ai_strategy = {
+				type = send_volunteers_desire
+				id = SPM
+			    value = 2000
 			}
 		}
 	}

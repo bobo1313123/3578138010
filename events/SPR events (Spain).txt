@@ -62,14 +62,15 @@ country_event = {
 		add_command_power = -15
 		custom_effect_tooltip = SPR_Aragon_tt
 		hidden_effect = {
+			set_autonomy = {
+				target = SPM
+				autonomy_state = autonomy_colony
+			}
 			SPM = {
 				transfer_state = 114
 				add_state_core = 114
 				load_oob = "SPM_SPR_Garrison"
 				set_cosmetic_tag = SPM_Garrison_tag
-			}
-			LBV = {
-				give_military_access = SPM
 			}
 			114 = {
 				set_demilitarized_zone = no

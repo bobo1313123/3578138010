@@ -110,6 +110,9 @@ add_ideas = {
 	LBV_Paralyzed_Blackshirts #瘫痪的黑衫军
 	LBV_Committee_in_danger #岌岌可危的委员会
 
+	### 副手 ###
+	LBV_Benito_Mussolini_sic #贝尼托·墨索里尼
+
 	### 政治顾问 ###
 	LBV_Roberto_Farinacci_pol #罗伯托·法里纳奇
 	LBV_Giuseppe_Volpi_pol #朱塞佩·沃尔皮

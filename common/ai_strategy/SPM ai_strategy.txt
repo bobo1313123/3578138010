@@ -11,8 +11,12 @@ SPM_Spain_attack_for_Fascism = {
 		NOT = { has_global_flag = ITAG_Wars_of_Unification }
 	}
 	ai_strategy = {
-		type = force_defend_ally_borders
-		id = LBV
+		type = equipment_market_for_sale_factor
+		value = -100
+	}
+	ai_strategy = {
+		type = conquer_target
+		target = TTS
 		value = 2000
 	}
 	ai_strategy = {

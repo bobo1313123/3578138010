@@ -5,13 +5,21 @@ characters={
 		name= LBV_Benito_Mussolini
 		portraits={
 			civilian={
-				large=GFX_LBV_Benito_Mussolini_large
+				large = GFX_LBV_Benito_Mussolini_large
+				small = GFX_LBV_Benito_Mussolini_small
 			}
 		}
 		country_leader={
 			desc = LBV_Benito_Mussolini_desc
 			ideology= National_fascism
-			traits= { LBV_Arrogant_Dictator }
+		}
+		advisor = {
+			slot = second_in_command
+			idea_token = LBV_Benito_Mussolini_sic
+			desc = LBV_Benito_Mussolini_sic_desc
+			traits = { LBV_Arrogant_Dictator }
+			cost = 0
+			can_be_fired = no
 		}
 	}
 

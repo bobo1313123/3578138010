@@ -378,12 +378,13 @@
 						target = ITA
 						type = annex_everything
 					}
-					add_ai_strategy = {
-						type = send_volunteers_desire
-						id = LBV
-						value = 2500
-					}
+					load_oob = "SPM_SPR_Armor"
 					load_oob = "SPM_SPR_Garrison_naval"
+				}
+				add_ai_strategy = {
+					type = send_volunteers_desire
+					id = SPM
+					value = 2500
 				}
 			}
 		}

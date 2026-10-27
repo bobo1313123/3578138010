@@ -6,14 +6,13 @@ recruit_character = GER_Heinrich_Bruning #海因里希·布吕宁
 recruit_character = GER_Karl_Liebknecht #卡尔·李卜克内西
 
 set_country_flag = tfe_second_leader
-
+set_research_slots = 4
 add_ideas = {
 	#初始民族精神
 	GER_Prussian_military_spirit #普鲁士军魂
 	GER_Bureaucratic_administrative_system #臃肿的行政系统
 	GER_Aftermath_of_November_Revolution #十一月革命的余烬
 	GER_Shackles_of_Treaty_of_Versailles #《凡尔赛条约》的枷锁
-	GER_turbulent_situation #动荡不安的局面
 	GER_Shadow_of_War_1 #战火带来的阴影
 	GER_Imperial_Army_1 #帝国陆军
 	GER_Imperial_Navy_1 #帝国海军
@@ -40,7 +39,7 @@ add_breakthrough_progress = {
 	specialization = specialization_air
 	value = 0.3
 }
-
+set_oob = "GER_1936_tfe"
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -87,6 +86,6 @@ set_popularities = {
 	Progressivism = 12
 	Liberalism = 19
 	nazism = 15
-	Communism = 2
+	communism = 2
 	Authoritarianism = 9
 }

@@ -26,7 +26,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 					has_government = Liberalism
 					has_government = fascism
 				}

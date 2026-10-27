@@ -198,7 +198,7 @@ characters = {
 			}
 			visible = {
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 				NOT = {
 					has_country_leader = {
@@ -217,7 +217,7 @@ characters = {
 					}
 				}
 				NOT = {
-					has_government = Communism
+					has_government = communism
 				}
 			}
 
@@ -1003,7 +1003,7 @@ characters = {
 			available = {
 				OR = {
 					has_government = Liberalism
-					has_government = Communism
+					has_government = communism
 				}
 				has_completed_focus = AUS_womens_education_initiative
 			}
@@ -1131,7 +1131,7 @@ characters = {
 				original_tag = AUS
 			}
 			available = {
-				has_government = Communism
+				has_government = communism
 				has_completed_focus = AUS_establish_rote_hilfe	
 			}
 			visible = {
@@ -1161,7 +1161,7 @@ characters = {
 				original_tag = AUS
 			}
 			available = {
-				has_government = Communism
+				has_government = communism
 				has_completed_focus = AUS_establish_rote_hilfe	
 			}
 			visible = {
@@ -1484,7 +1484,7 @@ characters = {
 						has_civil_war = yes
 						OR = {
 							has_government = Liberalism
-							has_government = Communism
+							has_government = communism
 						}
 					}
 					has_civil_war = no
@@ -1620,7 +1620,7 @@ characters = {
 						has_civil_war = yes
 						OR = {
 							has_government = Liberalism
-							has_government = Communism
+							has_government = communism
 						}
 					}
 				
@@ -1734,7 +1734,7 @@ characters = {
 			logistics_skill = 1
 			legacy_id = -1
 			visible = {
-				has_government = Communism
+				has_government = communism
 				OR = {
 					has_completed_focus = AUS_schutzbund_support
 					has_completed_focus = AUS_properly_trained_militias
@@ -1877,7 +1877,7 @@ characters = {
 						has_civil_war = yes
 						OR = {
 							has_government = Liberalism
-							has_government = Communism
+							has_government = communism
 						}
 					}
 				
@@ -2770,7 +2770,7 @@ characters = {
 			legacy_id = -1
 			visible = {
 				OR = {
-					has_government = Communism
+					has_government = communism
 					has_government = Liberalism
 				}
 				OR = {

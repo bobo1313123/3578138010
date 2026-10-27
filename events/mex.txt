@@ -70,7 +70,7 @@ country_event = {
 	id = tve_mex.5
 	title = tve_mex.5.t
 	desc = tve_mex.5.desc
-	picture = GFX_msln
+	picture = GFX_event_msln
 	is_triggered_only = yes
 
 	#yes	

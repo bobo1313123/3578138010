@@ -510,7 +510,7 @@ add_breakthrough_progress = {
 		set_popularities = {
 			Liberalism = 27
 			fascism = 70
-			Communism = 3
+			communism = 3
 		}
 
 		IF = {
@@ -581,7 +581,7 @@ add_breakthrough_progress = {
 			Authoritarianism = 74
 			Liberalism = 2
 			fascism = 24
-			Communism = 0
+			communism = 0
 		}
 
 		IF = {

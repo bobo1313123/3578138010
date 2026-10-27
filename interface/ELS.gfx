@@ -4,4 +4,18 @@ spriteTypes = {
 		name = "GFX_leader_ELS_Leon_Cortes_Castro"
 		texturefile = "gfx/leaders/ELS/ELS_Leon_Cortes_Castro.dds"
 	}
+	#ELS 顾问小图标，贴图尚未制作，做好后放到 gfx/interface/ideas/ELS/ 下再取消注释
+	#这些名字由 characters 里 portraits.civilian.small 引用
+	#spriteType = { #政治盟友 特奥多罗·皮卡多·米查尔斯基
+	#	name = "GFX_idea_ELS_teodoro_picado_michalski_advisor"
+	#	texturefile = "gfx/interface/ideas/ELS/ELS_teodoro_picado_michalski_advisor.dds"
+	#}
+	#spriteType = { #青年政坛骨干 拉斐尔·安赫尔·卡尔德隆·瓜迪亚
+	#	name = "GFX_idea_ELS_Rafael_Angel_Calderon_Guardia_advisor"
+	#	texturefile = "gfx/interface/ideas/ELS/ELS_Rafael_Angel_Calderon_Guardia_advisor.dds"
+	#}
+	#spriteType = { #老牌古典自由派 何塞·马里亚·蒙卡达
+	#	name = "GFX_idea_ELS_Jose_Maria_Moncada_advisor"
+	#	texturefile = "gfx/interface/ideas/ELS/ELS_Jose_Maria_Moncada_advisor.dds"
+	#}
 }

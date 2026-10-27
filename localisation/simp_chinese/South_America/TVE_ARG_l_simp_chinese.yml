@@ -2,8 +2,8 @@
         ARG:0"阿根廷王国"
         ARG_DEF:0"阿根廷王国"
 
-        ARG_Communism_party:0 "阿根廷共产党"
-        ARG_Communism_party_long:0 "阿根廷共产党"
+        ARG_communism_party:0 "阿根廷共产党"
+        ARG_communism_party_long:0 "阿根廷共产党"
         ARG_Socialism_party:0 "阿根廷共产党"
         ARG_Socialism_party_long:0 "阿根廷共产党"
         ARG_Progressivism_party:0 "社会党"

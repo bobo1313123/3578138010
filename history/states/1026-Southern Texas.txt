@@ -20,7 +20,7 @@ state = {
 		#}
 
 		victory_points = {
-			12782 1 
+			12782 10 
 		}
 		
 		buildings = {

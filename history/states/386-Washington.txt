@@ -12,8 +12,8 @@ state = {
 
 		buildings = {
 			infrastructure = 3 #was: 6
-			arms_factory = 3
-			industrial_complex = 3
+			arms_factory = 2
+			industrial_complex = 2
 			dockyard = 1
 			air_base = 5
 
@@ -26,17 +26,9 @@ state = {
 
 		}
 		victory_points = {
-			1690 1 # Spokane
+			1690 10 # Spokane
 		}
 		
-
-		1939.1.1 = {
-			buildings = {
-				7315 = {
-					air_facility = 1 # Boeing Factories
-				}
-			}
-		}
 	}
 
 	provinces = {

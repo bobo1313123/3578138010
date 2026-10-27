@@ -11,6 +11,7 @@ state = {
 		add_core_of = QUE
 
 		buildings = {
+			industrial_complex = 1
 			infrastructure = 1
 		}
 

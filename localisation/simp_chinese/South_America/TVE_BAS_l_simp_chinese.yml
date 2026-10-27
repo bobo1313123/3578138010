@@ -3,8 +3,8 @@
     BAS_DEF:"法属西印度联邦"
     BAS_ADJ:"法属西印度联邦"
 
-    BAS_Communism_party:0 "-"
-    BAS_Communism_party_long:0 "-"
+    BAS_communism_party:0 "-"
+    BAS_communism_party_long:0 "-"
     BAS_Socialism_party:0 "-"
     BAS_Socialism_party_long:0 "-"
     BAS_Progressivism_party:0 "西印度社会运动"

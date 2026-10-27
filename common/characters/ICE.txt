@@ -422,7 +422,7 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 			visible = {
 			
@@ -533,7 +533,7 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 			visible = {
 			
@@ -751,7 +751,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = Communism 
+					has_government = communism 
 					has_completed_focus = ICE_political_unity
 				}
 			}
@@ -785,7 +785,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = Communism 
+					has_government = communism 
 					has_completed_focus = ICE_political_unity
 				}
 			}

@@ -9,8 +9,8 @@
         BRB:0 "大普拉蒂尼"
         BRB_DEF:0 "大普拉蒂尼"
 
-        BRB_Communism_party:0 "巴西共产党"
-        BRB_Communism_party_long:0 "巴西共产党"
+        BRB_communism_party:0 "巴西共产党"
+        BRB_communism_party_long:0 "巴西共产党"
         BRB_Socialism_party:0 "巴西共产党"
         BRB_Socialism_party_long:0 "巴西共产党"
         BRB_Progressivism_party:0 "左翼民主党"

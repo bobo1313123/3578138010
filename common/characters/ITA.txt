@@ -64,20 +64,6 @@ characters = {
 			id=-1
 		}
 	}
-	TVE_LBV_LEADERS = {
-		name=TVE_LBV_LEADERS
-		portraits={
-			civilian={
-				large=GFX_TVE_LBV_LEADERS
-			}
-		}
-		country_leader={
-			ideology = Absolute_monarchy
-			traits={  }
-			expire="1947.1.1.1"
-			id=-1
-		}
-	}
 	ITA_Mussolini = {
 		name=ITA_Mussolini
 		portraits={
@@ -505,7 +491,7 @@ characters = {
 				if = {
 					limit = { has_dlc = "By Blood Alone" }
 					OR = {
-						NOT = { has_government = Communism }
+						NOT = { has_government = communism }
 						has_completed_focus = ITA_common_ground
 					}
 				}
@@ -1051,7 +1037,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				has_completed_focus = ITA_army_leaders
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 		}
 	}
@@ -2975,7 +2961,7 @@ characters = {
 					has_completed_focus = ITA_italian_socialism
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = Communism
+						has_government = communism
 					}
 				}
 			}
@@ -3087,7 +3073,7 @@ characters = {
 					ITA_is_in_liberation_war = yes
 				}
 				OR = {
-					has_government = Communism
+					has_government = communism
 					has_government = Liberalism
 				}
 			}
@@ -3117,7 +3103,7 @@ characters = {
 					ITA_is_in_liberation_war = yes
 				}
 				OR = {
-					has_government = Communism
+					has_government = communism
 					has_government = Liberalism
 				}
 			}
@@ -3172,7 +3158,7 @@ characters = {
 					ITA_is_in_liberation_war = yes
 				}
 				OR = {
-					has_government = Communism
+					has_government = communism
 					has_government = Liberalism
 				}
 			}
@@ -3197,7 +3183,7 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = Communism
+					has_government = communism
 					AND = {
 						has_completed_focus = ITA_common_ground
 						has_government = Liberalism
@@ -3228,7 +3214,7 @@ characters = {
 					ITA_is_in_liberation_war = yes
 				}
 				OR = {
-					has_government = Communism
+					has_government = communism
 					has_government = Liberalism
 				}
 			}
@@ -3265,7 +3251,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = Communism 
+					has_government = communism 
 				}
 			}
 			ai_will_do = {
@@ -3326,7 +3312,7 @@ characters = {
 			logistics_skill = 1
 			legacy_id = 0
 			visible = {
-				has_government = Communism
+				has_government = communism
 			}
 		}
 	}

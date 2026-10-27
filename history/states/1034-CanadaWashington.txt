@@ -12,9 +12,9 @@ state = {
 
 		buildings = {
 			infrastructure = 3 #was: 6
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
 			air_base = 5
 
 		
@@ -22,16 +22,11 @@ state = {
 			# Grand Coulee Dam
 			#10327 = { dam = 1 }
 
+			
 		}
-		
 
-		
-		1939.1.1 = {
-			buildings = {
-				7315 = {
-					air_facility = 1 # Boeing Factories
-				}
-			}
+		victory_points = {
+			10155 10 
 		}
 	}
 

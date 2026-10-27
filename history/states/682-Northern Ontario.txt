@@ -16,9 +16,9 @@ state = {
 		add_core_of = CAN
 
 		buildings = {
+			arms_factory = 1
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
-			arms_factory = 2
 		}
 		
 		victory_points = {

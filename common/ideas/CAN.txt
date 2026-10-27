@@ -1,0 +1,53 @@
+ideas = {
+
+	country = {
+
+		CAN_trade_balance_policy = { #贸易平衡政策
+			#picture = GFX_idea_can_wartime_prices_and_trade_board
+
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = 0.075
+				improve_relations_maintain_cost_factor = -0.15
+			}
+
+			targeted_modifier = {
+				tag = USA
+				trade_cost_for_target_factor = -0.1
+			}
+			targeted_modifier = {
+				tag = CSA
+				trade_cost_for_target_factor = -0.10
+			}
+		}
+
+		CAN_continental_mediator = { #大陆斡旋者
+			#picture = GFX_idea_neutrality_idea
+
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				trade_laws_cost_factor = -0.15
+				mobilization_speed = -0.05
+				production_speed_bunker_factor = -0.12
+				justify_war_goal_time = 0.15
+				stability_factor = 0.04
+			}
+		}
+	}
+
+	
+}

@@ -167,9 +167,9 @@ if = {
 }
 
 set_party_name = {
-	ideology = Communism
-	name = HOL_Communism_1
-	long_name = HOL_Communism_1
+	ideology = communism
+	name = HOL_communism_1
+	long_name = HOL_communism_1
 }
 set_party_name = {
 	ideology = Socialism
@@ -220,7 +220,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	Communism = 3
+	communism = 3
 	Socialism = 27
 	Liberalism = 22
 	Democracy = 35

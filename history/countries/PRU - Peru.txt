@@ -1,98 +1,43 @@
 ﻿capital = 303
 
-oob = "PRU_1936"
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "PRU_1936_air_bba"
-	else = {
-		set_air_oob = "PRU_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-			early_bomber = 1
-			CAS1 = 1
-		}
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "PRU_1936_naval_mtg"
-	else = {
-		set_naval_oob = "PRU_1936_naval_legacy"
-	}
-}
+oob = "PRU_1935"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	tech_trucks = 1
+	tech_support = 1
+	tech_engineers = 1
 	gw_artillery = 1
 	interwar_antiair = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		early_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		coastal_defense_ships = 1
-	}
-}
 
-recruit_character = PRU_'Oscar_benavides
-recruit_character = PRU_sebastián_lynch
-recruit_character = PRU_hilarión_lynch
-recruit_character = PRU_santiago_ruíztagle
-recruit_character = PRU_rafael_escardo
-recruit_character = PRU_alberto_lopez_flores
-recruit_character = PRU_oscar_gilardi
-recruit_character = PRU_felipe_tudela
-recruit_character = PRU_eduardo_cantabria_gomez
-recruit_character = PRU_ernesto_scroth
-recruit_character = PRU_luis_ramirez_ortiz
-recruit_character = PRU_oscar_benavides_larrea
-recruit_character = PRU_manuel_odria_amoretti
-recruit_character = PRU_luis_navarrete
-recruit_character = PRU_paul_de_beaudiez
-recruit_character = PRU_alberto_roque_saldias
-recruit_character = PRU_vladimiro_lopez_trigoso
-recruit_character = PRU_eloy_g_ureta
-recruit_character = PRU_fernando_m_quesada_blanco
-recruit_character = PRU_eduardo_montero_rojas
-recruit_character = PRU_romulo_frias
-recruit_character = PRU_oscar_miro_quesada
-recruit_character = PRU_jose_bustamante_y_rivero
-recruit_character = PRU_armando_reveredo_iglesias
-recruit_character = PRU_reynaldo_vinatea
-
-
- 
-
+recruit_character = PRU_luis_antonio_eguiguren
 set_convoys = 5
 
-
-
 set_politics = {
-	ruling_party = fascism
-	last_election = "1931.10.11"
-	election_frequency = 96
+	ruling_party = Progressivism
+	last_election = "1932.1.1"
+	election_frequency = 60
 	elections_allowed = yes
 }
+
 set_popularities = {
-	Liberalism = 49
-	fascism = 51
+	communism = 0
+	Socialism = 0
+	Progressivism = 5
+	Liberalism = 2
+	Democracy = 12
+	Conservatism = 1
+	Authoritarianism = 25
+	tttt = 35
+	fascism = 18
+	nazism = 2
 }
 
-
+add_ideas = {
+	PRU_constitutional_assembly		#制宪会议
+	PRU_victory_over_red_tyranny	#战胜赤色暴政
+	PRU_feuding_officer_corps		#内斗不止的军官团们
+	PRU_separating_federation		#日渐分离的联邦
+}

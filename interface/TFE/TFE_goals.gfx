@@ -1,0 +1,46 @@
+spriteTypes = {
+	SpriteType = { #硝烟散去
+		name = "GFX_goal_SPR_Battlesmoke_dissipated"
+		texturefile = "gfx/interface/goals/SPR/SPR_Battlesmoke_dissipated.png"
+	}
+	SpriteType = { #被枪所指
+		name = "GFX_goal_SPR_at_gunpoint" 
+		texturefile = "gfx/interface/goals/SPR/SPR_at_gunpoint.png"
+	}
+	SpriteType = { #萧条之国
+		name = "GFX_goal_SPR_depressed_nation"
+		texturefile = "gfx/interface/goals/SPR/SPR_depressed_nation.png"
+	}
+	SpriteType = { #将军政治
+		name = "GFX_goal_SPR_general_politics" 
+		texturefile = "gfx/interface/goals/SPR/SPR_general_politics.png"
+	}
+	SpriteType = { #山中之敌
+		name = "GFX_goal_SPR_Enemy_in_Mountains" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Enemy_in_Mountains.png"
+	}
+	SpriteType = { #生锈齿轮
+		name = "GFX_goal_SPR_Rusted_gear" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Rusted_gear.png"
+	}
+	SpriteType = { #肮脏之战
+		name = "GFX_goal_SPR_Dirty_war" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Dirty_war.png"
+	}
+	SpriteType = { #不得不面对的
+		name = "GFX_goal_SPR_Must_be_faced" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Must_be_faced.png"
+	}
+	SpriteType = { #精兵简政
+		name = "GFX_goal_SPR_Better_soldier_Easier_policy" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Better_soldier_Easier_policy.png"
+	}
+	SpriteType = { #势在必行的改革
+		name = "GFX_goal_SPR_Necessary_reforms" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Necessary_reforms.png"
+	}
+	SpriteType = { #雄狮暮年
+		name = "GFX_goal_SPR_The_old_lion" 
+		texturefile = "gfx/interface/goals/SPR/SPR_The_old_lion.png"
+	}
+}

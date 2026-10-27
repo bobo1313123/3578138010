@@ -22,11 +22,16 @@ state = {
 		victory_points = { #Split
 			3924 3
 		}
+		victory_points = {
+			9821 1
+		}
 		buildings = {
 		
 			infrastructure = 3
 			anti_air_building = 1
-
+			9821 = {
+				naval_base = 1
+			}
 			
 
 		}
@@ -35,7 +40,7 @@ state = {
 	}
 
 	provinces = {
-		3943 3924 11816 3868 6889 11901 984 3974
+		3943 3924 11816 3868 6889 11901 984 3974 9821
 	}
 	local_supplies = 0.0 
 

@@ -75,11 +75,11 @@ set_popularities = {
 	Authoritarianism = 78
 	Liberalism = 10
 	fascism = 2
-	Communism = 10
+	communism = 10
 }
 
 create_country_leader = {
-	name = SMI_Communism_council
+	name = SMI_communism_council
 	picture = GFX_portrait_SMI_sami_council
 	expire = "1965.1.1"
 	ideology = communism_small

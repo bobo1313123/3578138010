@@ -15,12 +15,12 @@ state={
 		owner = CSA
 		buildings = {
 			infrastructure = 3 #was: 5
-			industrial_complex = 3
+			industrial_complex = 5
 		}
 		add_core_of = CSA
 		add_claim_by = USA
 		victory_points = {
-			12501 3 
+			12501 10 
 		}
 
 	}

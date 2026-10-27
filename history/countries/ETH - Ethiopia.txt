@@ -281,7 +281,7 @@ IF = {
 		Authoritarianism = 70
 		fascism = 20 
 		Liberalism = 5
-		Communism = 5
+		communism = 5
 	}
 }
 IF = {

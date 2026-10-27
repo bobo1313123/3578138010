@@ -1,5 +1,5 @@
 ideologies = {
-	Communism = { #共产主义
+	communism = { #共产主义
 
 		types = {
 			communism_small = {
@@ -186,7 +186,13 @@ ideologies = {
 			colonial_government_Liberalism = { #殖民政府
 				can_be_randomly_selected = no
 			}
-
+			constitutional_liberalism = { #USA共和党的宪政自由主义
+				can_be_randomly_selected = no
+				color = { 157 155 18 }
+			}
+			classical_liberalism = { #古典自由主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -226,8 +232,12 @@ ideologies = {
 		types = {
 			democracy_small = {
 			}
-			steady_Progressivism_subtype = {#稳健进步主义
+			steady_Progressivism_subtype = { #稳健进步主义
 				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_christian_democracy = { #USA民主党的威权民主主义（基督教民主）
+				can_be_randomly_selected = no
+				color = { 88 123 203 }
 			}
 		}
 
@@ -349,6 +359,9 @@ ideologies = {
 			military_junta_authoritarianism = { # 军政府
 				can_be_randomly_selected = no
 			}
+			crown_dominion = { #英王管辖地
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -413,6 +426,9 @@ ideologies = {
 			military_junta_tttt = { # 军政府
 				can_be_randomly_selected = no
 			}
+			Spanish_Revivalism = { #西班牙复兴主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -455,12 +471,15 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			MEX_cosmic_racism = { #宇宙种族主义
-
+				can_be_randomly_selected = no
 			}
 			Trujillos_ideology = { #特鲁希略的意识形态
-
+				can_be_randomly_selected = no
 			}
-			military_junta_fascism = { # 军政府-法西斯主义
+			military_junta_fascism = { #军政府-法西斯主义
+				can_be_randomly_selected = no
+			}
+			National_fascism = { #国家法西斯主义
 				can_be_randomly_selected = no
 			}
 		}

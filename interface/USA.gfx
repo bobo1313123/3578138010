@@ -1,0 +1,41 @@
+spriteTypes = {
+	#USA 顾问 / 总司令 小图标，贴图尚未制作，全部注释
+	#做好图片后放到 gfx/interface/ideas/USA/ 下，再取消对应块的注释
+	#这些名字由 characters 里 portraits.<类型>.small 引用
+	#spriteType = { #劳动者协会主席 奥逊·威尔斯（顾问）
+	#	name = "GFX_idea_USA_Orson_Welles_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_Orson_Welles_advisor.dds"
+	#}
+	#spriteType = { #联邦安全部部长 威廉·J·多诺万
+	#	name = "GFX_idea_USA_William_J_Donovan_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_William_J_Donovan_advisor.dds"
+	#}
+	#spriteType = { #自由先锋 布朗·默里·卡廷
+	#	name = "GFX_idea_USA_Brown_Murray_Cutting_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_Brown_Murray_Cutting_advisor.dds"
+	#}
+	#spriteType = { #商业大亨 丹·默迪
+	#	name = "GFX_idea_USA_Dan_Moody_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_Dan_Moody_advisor.dds"
+	#}
+	#spriteType = { #为民而劳的州长 富兰克林·德莱诺·罗斯福
+	#	name = "GFX_idea_USA_Franklin_Delano_Roosevelt_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_Franklin_Delano_Roosevelt_advisor.dds"
+	#}
+	#spriteType = { #总司令 德怀特·D·艾森豪威尔
+	#	name = "GFX_idea_USA_Dwight_D_Eisenhower_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_Dwight_D_Eisenhower_advisor.dds"
+	#}
+	#spriteType = { #政府首脑 阿洛夫·兰登
+	#	name = "GFX_idea_USA_Alf_Landon_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_Alf_Landon_advisor.dds"
+	#}
+	#spriteType = { #联邦国防军总司令 小乔治·史密斯·巴顿
+	#	name = "GFX_idea_USA_George_S_Patton_Jr_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_George_S_Patton_Jr_advisor.dds"
+	#}
+	#spriteType = { #非洲来的改革家 威廉·杜伯曼
+	#	name = "GFX_idea_USA_William_Tubman_advisor"
+	#	texturefile = "gfx/interface/ideas/USA/USA_William_Tubman_advisor.dds"
+	#}
+}

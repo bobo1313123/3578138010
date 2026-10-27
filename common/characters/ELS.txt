@@ -16,14 +16,11 @@ characters={
 
 	ELS_teodoro_picado_michalski = {#特奥多罗・皮卡多・米查尔斯基
 		name = ELS_teodoro_picado_michalski
-		#portraits = {
-		#	civilian = {
-		#		large = ""
-		#	}
-		#	army = {
-		#		small = ""
-		#	}
-		#}
+		portraits = {
+			civilian = {
+				small = GFX_idea_ELS_teodoro_picado_michalski_advisor
+			}
+		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ELS_teodoro_picado_michalski_advisor
@@ -44,14 +41,11 @@ characters={
 
 	ELS_Rafael_Angel_Calderon_Guardia = {#拉斐尔・安赫尔・卡尔德隆・瓜迪亚
 		name = ELS_Rafael_Angel_Calderon_Guardia
-		#portraits = {
-		#	civilian = {
-		#		large = ""
-		#	}
-		#	army = {
-		#		small = ""
-		#	}
-		#}
+		portraits = {
+			civilian = {
+				small = GFX_idea_ELS_Rafael_Angel_Calderon_Guardia_advisor
+			}
+		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ELS_Rafael_Angel_Calderon_Guardia_advisor
@@ -72,14 +66,11 @@ characters={
 
 	ELS_Jose_Maria_Moncada = {#何塞・马里亚・蒙卡达
 		name = ELS_Jose_Maria_Moncada
-		#portraits = {
-		#	civilian = {
-		#		large = ""
-		#	}
-		#	army = {
-		#		small = ""
-		#	}
-		#}
+		portraits = {
+			civilian = {
+				small = GFX_idea_ELS_Jose_Maria_Moncada_advisor
+			}
+		}
 		advisor = {
 			slot = political_advisor
 			idea_token = ELS_Jose_Maria_Moncada_advisor

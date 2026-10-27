@@ -44,3 +44,10 @@ add_ideas = ELS_The_fragile_federal_covenant
 add_ideas = ELS_The_shackles_of_united_fruits
 add_ideas = ELS_A_land_blocked_by_mountains
 add_ideas = ELS_The_church_and_indigenous_peoples
+
+#内阁
+add_ideas = {
+	ELS_teodoro_picado_michalski_advisor
+	ELS_Rafael_Angel_Calderon_Guardia_advisor
+	ELS_Jose_Maria_Moncada_advisor
+}

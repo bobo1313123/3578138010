@@ -75,7 +75,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 50
 	fascism = 3
-	Communism = 47
+	communism = 47
 }
 
 recruit_character = CAT_lluis_companys

@@ -97,7 +97,7 @@ set_politics = {
 set_popularities = { #popularities based on 1933 election statistics.
 	Liberalism = 22
 	fascism = 62
-	Communism = 6
+	communism = 6
 	Authoritarianism = 10
 }
 

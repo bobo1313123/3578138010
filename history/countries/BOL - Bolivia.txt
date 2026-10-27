@@ -1,92 +1,77 @@
 ﻿capital = 302
 
-oob = "BOL_1936"
+oob = "BOL_1935"
+
 every_core_state = {
 	ROOT = {
 		add_to_array = { cores_at_game_start = PREV }
 	}
 }
-IF = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "BOL_1936_air_bba"
-	ELSE = {
-		set_air_oob = "BOL_1936_air_legacy"
-		set_technology = {
-			early_fighter = 1
-		}
-	}
-}
 
-set_cosmetic_tag = peru_bolivian_confederation 
+set_cosmetic_tag = peru_bolivian_confederation
 
 IF = {
 	limit = {
 		has_dlc = "Trial of Allegiance"
 	}
-
-	add_timed_idea = {
-		idea = BOL_toll_of_the_chaco_war
-		days = 1400
-	}
-
-	add_ideas = BOL_era_of_national_regression
-
 	JUNO_set_shared_military_branch_defaults = yes
 }
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	gw_artillery = 1
 	tech_trucks = 1
 	fuel_silos = 1
 }
+recruit_character = BOL_herman_bushi
 
-IF = {
-	limit = {
-		has_dlc = "Trial of Allegiance"
-	}
-	set_politics = {
-		ruling_party = Conservatism
-		last_election = "1934.11.11"
-		election_frequency = 72
-		elections_allowed = yes
-	}
-	set_popularities = {
-		Authoritarianism = 32
-		Conservatism = 54
-		Communism = 12
-		fascism = 2
-	}
-
-
-	ELSE = {
-		set_politics = {
-			ruling_party = Authoritarianism
-			last_election = "1934.11.11"
-			election_frequency = 72
-			elections_allowed = yes
-		}
-
-		set_popularities = {
-			Authoritarianism = 100
-		}
-
-	}
-}
-
-
- 
-add_ideas = {
-	BOL_The_Apra_Party_is_rampant #阿普拉党泛滥
-	BOL_military_extreme #军队极端思想横流
-	BOL_One_country_with_two_central_hubs #一个国家，两个中枢
-}
 set_politics = {
-		ruling_party = Authoritarianism
-		last_election = "1934.11.11"
-		election_frequency = 72
-		elections_allowed = yes
+	ruling_party = tttt
+	last_election = "1934.11.11"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 2
+	Socialism = 4
+	Progressivism = 7
+	Liberalism = 0
+	Democracy = 7
+	Conservatism = 12
+	Authoritarianism = 1
+	tttt = 54
+	fascism = 10
+	nazism = 3
+}
+
+add_ideas = {
+	BOL_military_socialism			#军事社会主义
+	BOL_mountains_of_gold			#群山自黄金
+	BOL_treaty_of_petropolis		#《彼得罗普利斯条约》
+	BOL_national_salvation_government	#救国政府
+}
+
+set_autonomy = {
+	target = AMD
+	autonomous_state = Autonomous_state
+	freedom_level = 0.3
+}
+set_autonomy = {
+	target = CMD
+	autonomous_state = Autonomous_state
+	freedom_level = 0.3
+}
+set_autonomy = {
+	target = EMZ
+	autonomous_state = Autonomous_state
+	freedom_level = 0.3
+}
+set_autonomy = {
+	target = PRU
+	autonomous_state = Autonomous_state
+	freedom_level = 0.6
 }

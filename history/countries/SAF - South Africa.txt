@@ -192,7 +192,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 75
 	fascism = 20
-	Communism = 5
+	communism = 5
 }
 
 recruit_character = SAF_j_b_m_hertzog

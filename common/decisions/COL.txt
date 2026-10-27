@@ -32,7 +32,7 @@ debug_decisions = {
 			}
 			COL = {
 				set_popularities = {
-						Communism = 65
+						communism = 65
 						Socialism = 25
 						Progressivism = 10
 				}
@@ -46,9 +46,9 @@ debug_decisions = {
 			
 		}
 				set_party_name = {
-					ideology = Communism
-					name = COL_Communism_party_1
-					long_name = COL_Communism_party_1_long
+					ideology = communism
+					name = COL_communism_party_1
+					long_name = COL_communism_party_1_long
 		}
 				set_party_name = {
 						ideology = Socialism

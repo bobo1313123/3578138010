@@ -4525,7 +4525,7 @@ country_event = {
 		}
 		complete_national_focus = SPR_maintain_the_second_republic
 	}
-	option = { # Option for Republicans - Communism
+	option = { # Option for Republicans - communism
 		name = lar_spain.2.e
 		trigger = { has_completed_focus = SPR_the_popular_front }
 		ai_chance = {

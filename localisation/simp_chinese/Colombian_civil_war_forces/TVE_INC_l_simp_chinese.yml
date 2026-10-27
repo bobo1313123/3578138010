@@ -3,8 +3,8 @@
         INC_DEF:"大哥伦比亚社会共和国"
         INC_ADJ:"大哥伦比亚社会共和国"
 
-        INC_Communism_party:0 "-"
-        INC_Communism_party_long:0 "-"
+        INC_communism_party:0 "-"
+        INC_communism_party_long:0 "-"
         INC_Socialism_party:0 "-"
         INC_Socialism_party_long:0 "-"
         INC_Progressivism_party:0 "-"

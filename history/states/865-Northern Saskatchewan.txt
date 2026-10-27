@@ -12,6 +12,7 @@ state = {
 		add_core_of = CAN
 
 		buildings = {
+			arms_factory = 1
 			infrastructure = 1
 		}
 

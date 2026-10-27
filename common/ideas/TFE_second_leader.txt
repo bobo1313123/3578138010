@@ -29,6 +29,11 @@ ideas = {
         		 political_power_factor = 0.50
 			}
 		}
+		ROM_nicolae_iorga = { #尼古拉·约尔加
+			modifier = {
+				
+			}
+		}
 	}
 
 

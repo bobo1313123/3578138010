@@ -33,7 +33,7 @@ news_event = { #阿根廷的吹哨人
 			long_name = ARG_Authoritarianism_party2_long
 		}
 		set_popularities = {
-			Communism = 2
+			communism = 2
 			Socialism = 1
 			Progressivism = 7
 			Liberalism = 43
@@ -76,7 +76,7 @@ news_event = { #恩里克·马丁内斯接任总统
 	option = {
 		name = Argentina_news.2.a
 		set_popularities = {
-			Communism = 0
+			communism = 0
 			Socialism = 1
 			Progressivism = 1
 			Liberalism = 5

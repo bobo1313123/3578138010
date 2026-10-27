@@ -79,7 +79,7 @@ set_politics = {
 set_popularities = {
 	Authoritarianism = 93
 	fascism = 3
-	Communism = 4
+	communism = 4
 }
 
 #create_country_leader = {

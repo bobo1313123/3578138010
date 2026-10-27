@@ -9,7 +9,7 @@ state = {
 
 		owner = SOV
 		add_core_of = SOV
-
+		add_core_of = DON
 		buildings = {
 			infrastructure = 3 #was: 5
 

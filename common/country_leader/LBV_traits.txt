@@ -1,0 +1,15 @@
+leader_traits ={
+	#傲慢的独裁领袖
+	LBV_Arrogant_Dictator ={
+		random = no
+		political_power_factor = -0.025
+		war_support_factor = 0.05
+		army_org_factor = 0.05
+	}
+	#党的主脑
+	LBV_party_brain ={
+		random = no
+		political_power_factor = 0.05
+		political_advisor_cost_factor = -0.06
+	}
+}

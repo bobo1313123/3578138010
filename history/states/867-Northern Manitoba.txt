@@ -13,6 +13,7 @@ state = {
 		add_core_of = CAN
 
 		buildings = {
+			industrial_complex = 1
 			infrastructure = 1
 		}
 

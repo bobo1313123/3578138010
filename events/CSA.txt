@@ -1,5 +1,6 @@
 add_namespace = Confederate_State
 add_namespace = Confederate_State_news
+add_namespace = tfe_csa_news
 
 #国内情况
 country_event = {
@@ -54,5 +55,28 @@ news_event = {
 	option = {
 		name = Confederate_State_news.1.a
 		
+	}
+}
+
+news_event = { #特大沙暴席卷西部
+	
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tfe_csa_news.1" }
+	id = tfe_csa_news.1
+	title = tfe_csa_news.1.t
+	desc = tfe_csa_news.1.d
+	picture = GFX_news_events_csa_sandstorm_sweeps_the_west
+
+	fire_only_once = yes
+	major = yes
+
+	trigger = {
+		tag = CSA
+		date > 1935.4.26# 1935 年 4 月 26 日之后
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	option = { #今年又消停不了了
+		name = tfe_csa_news.1.a
 	}
 }

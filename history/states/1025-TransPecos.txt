@@ -15,9 +15,9 @@ state = {
 		add_core_of = CSA
 		add_claim_by = USA
 
-		#victory_points = {
-		#	11386 1 # Lyck
-		#}
+		victory_points = {
+			10894 10
+		}
 
 		
 		buildings = {

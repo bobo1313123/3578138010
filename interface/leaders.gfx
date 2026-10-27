@@ -37,6 +37,104 @@ spriteTypes = {
 		name = "GFX_BUL_Kimon_Georgiev_large"
 		texturefile = "gfx/leaders/BUL/BUL_Kimon_Georgiev.png"
 	}
+	#中华民国
+	spriteType = {
+		name = "GFX_CHI_Tang_Hualong_large"
+		texturefile = "gfx/leaders/CHI/CHI_Tang_Hualong.dds"
+	}
+	#西班牙
+	#领导人
+	spriteType = { #米格尔·普里莫·德里维拉
+		name = "GFX_SPR_Miguel_Primo_Derivella_large"
+		texturefile = "gfx/leaders/SPR/SPR_Miguel_Primo_Derivella.png"
+	}
+	spriteType = { #弗朗西斯科·佛朗哥（领导人）
+		name = "GFX_SPR_Francisco_Franco_civ_large"
+		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco.png"
+	}
+	#元帅
+	spriteType = { #弗朗西斯科·佛朗哥（元帅）
+		name = "GFX_SPR_Francisco_Franco_army_large"
+		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco_army.png"
+	}
+	spriteType = { #达马索·贝伦格尔
+		name = "GFX_SPR_Damaso_Berenguer_large"
+		texturefile = "gfx/leaders/SPR/SPR_Damaso_Berenguer.png"
+	}
+	spriteType = { #米格尔·卡巴内拉斯·费雷尔
+		name = "GFX_SPR_Miguel_Cabanellas_large"
+		texturefile = "gfx/leaders/SPR/SPR_Miguel_Cabanellas.png"
+	}
+	#上将
+	spriteType = { #塞巴斯蒂安·波萨斯·佩雷亚
+		name = "GFX_SPR_Sebastian_Pozas_Perea_large"
+		texturefile = "gfx/leaders/SPR/SPR_Sebastian_Pozas_Perea.png"
+	}
+	spriteType = { #米格尔·努涅斯·德普拉多
+		name = "GFX_SPR_Miguel_Nunez_dePrado_large"
+		texturefile = "gfx/leaders/SPR/SPR_Miguel_Nunez_dePrado.png"
+	}
+	spriteType = { #何塞·米亚哈·梅南特
+		name = "GFX_SPR_Jose_Miaja_Menant_large"
+		texturefile = "gfx/leaders/SPR/SPR_Jose_Miaja_Menant.png"
+	}
+	spriteType = { #贡萨洛·奎波·德里亚诺
+		name = "GFX_SPR_Gonzalo_Queipo_deLlano_large"
+		texturefile = "gfx/leaders/SPR/SPR_Gonzalo_Queipo_deLlano.png"
+	}
+	spriteType = { #菲德尔·达维拉·阿隆多
+		name = "GFX_SPR_Fidel_Davila_Arrondo_large"
+		texturefile = "gfx/leaders/SPR/SPR_Fidel_Davila_Arrondo.png"
+	}
+	spriteType = { #弗朗西斯科·马丁-莫雷诺
+		name = "GFX_SPR_Francisco_Martin_Moreno_large"
+		texturefile = "gfx/leaders/SPR/SPR_Francisco_Martin_Moreno.png"
+	}
+	spriteType = { #埃米利奥·埃斯特万·因方特斯
+		name = "GFX_SPR_Emilio_Esteban_Infantes_large"
+		texturefile = "gfx/leaders/SPR/SPR_Emilio_Esteban_Infantes.png"
+	}
+	spriteType = { #阿古斯丁·穆尼奥斯·格兰德斯
+		name = "GFX_SPR_Agustin_Munoz_Grandes_large"
+		texturefile = "gfx/leaders/SPR/SPR_Agustin_Munoz_Grandes.png"
+	}
+	spriteType = { #胡安·维贡·苏埃罗迪亚斯
+		name = "GFX_SPR_Juan_Vigon_Sueirodias_large"
+		texturefile = "gfx/leaders/SPR/SPR_Juan_Vigon_Sueirodias.png"
+	}
+	spriteType = { #曼努埃尔·迪耶斯·阿莱格里亚
+		name = "GFX_SPR_Manuel_Dies_Allegria_large"
+		texturefile = "gfx/leaders/SPR/SPR_Manuel_Dies_Allegria.png"
+	}
+	spriteType = { #卡洛斯·阿森西奥·卡巴尼利亚斯
+		name = "GFX_SPR_Carlos_Asensio_Cabanillas_large"
+		texturefile = "gfx/leaders/SPR/SPR_Carlos_Asensio_Cabanillas.png"
+	}
+	spriteType = { #埃米利奥·莫拉
+		name = "GFX_SPR_Emilio_Mora_large"
+		texturefile = "gfx/leaders/SPR/SPR_Emilio_Mora.png"
+	}
+	#顾问
+	spriteType = { #塞拉洛·苏涅尔
+		name = "GFX_SPR_Serralo_Sunier_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Serralo_Sunier.png"
+	}
+	spriteType = {
+		name = "GFX_SPR_Francisco_Franco_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Francisco_Franco.png"
+	}
+	spriteType = {
+		name = "GFX_SPR_Jose_GilRobles_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Jose_GilRobles.png"
+	}
+	spriteType = {
+		name = "GFX_SPR_Jose_Calvo_Sotelo_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Jose_Calvo_Sotelo.png"
+	}
+	spriteType = {
+		name = "GFX_SPR_Joaquin_Chapaprieta_small"
+		texturefile = "gfx/interface/advisors/SPR/SPR_Joaquin_Chapaprieta.png"
+	}
 	#波兰
 	#领导人
 	spriteType = {
@@ -60,6 +158,17 @@ spriteTypes = {
 		name = "GFX_POL_Edward_Rydz_Smigly_small"
 		texturefile = "gfx/interface/advisors/POL/POL_Edward_Rydz_Smigly.png"
 	}
+	#北意大利（意大利民族共和国）
+	#领导人
+	spriteType = {
+		name = "GFX_LBV_Benito_Mussolini_large"
+		texturefile = "gfx/leaders/LBV/LBV_Benito_Mussolini.png"
+	}
+	#顾问
+	spriteType = {
+		name = "GFX_LBV_Roberto_Farinacci_small"
+		texturefile = "gfx/interface/advisors/LBV/LBV_Roberto_Farinacci.png"
+	}
 
 
 	
@@ -78,46 +187,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_FRA_Andre_Tardieu"
 		texturefile = "gfx/leaders/FRA/FRA_Andre_Tardieu.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Start"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Start.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Democratic"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Democratic.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Loser"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Loser.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Winner"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Winner.dds"
-	}
-	spriteType = {
-		name = "GFX_Adolph_Friedrich"
-		texturefile = "gfx/leaders/DSB/Adolph_Friedrich.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_SPR_LEADERS"
-		texturefile = "gfx/leaders/SPR/TVE_SPR_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_chiang_WWI_Authoritarianism"
-		texturefile = "gfx/leaders/DSB/DSB_chiang_WWI_Authoritarianism.dds"
-	}
-	spriteType = {
-		name = "GFX_ENG_Edward_VII"
-		texturefile = "gfx/leaders/ENG/ENG_Edward_VII.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_WWII_first_flag"
-		texturefile = "gfx/leaders/DSB_WWII_first_flag.dds"
-	}
-	spriteType = {
-		name = "GFX_STNG"
-		texturefile = "gfx/leaders/JAP/STNG.dds"
 	}
 	spriteType = {
 		name = "GFX_CHI_CHIANG_KAI_SHEIK"
@@ -162,10 +231,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_GER_HITTLER"
 		texturefile = "gfx/leaders/GER_HITTLER.dds"
-	}
-	spriteType = {
-		name = "GFX_ITA_Mussolini"
-		texturefile = "gfx/leaders/ITA_Mussolini.dds"
 	}
 	spriteType = {
 		name = "GFX_REZHEN"
@@ -222,14 +287,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ENG_George_VI"
 		texturefile = "gfx/leaders/ENG/ENG_George_VI.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_Man_F"
-		texturefile = "gfx/leaders/DSB_Man_F.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_Man_S"
-		texturefile = "gfx/leaders/DSB_Man_S.dds"
 	}
 	spriteType = {
 		name = "GFX_ANA_anarchy"
@@ -353,10 +410,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/ITA/ITA_Gramsci.png"
 	}
 	spriteType = {
-		name = "ITA_Mussolini"
-		texturefile = "gfx/leaders/ITA/ITA_Mussolini.png"
-	}
-	spriteType = {
 		name = "GFX_POR_hesai"
 		texturefile = "gfx/leaders/POR/POR_hesai.PNG"
 	}
@@ -447,22 +500,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TVE_SWI_LEADERS"
 		texturefile = "gfx/leaders/SWI/TVE_SWI_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_von_Papen"
-		texturefile = "gfx/leaders/DSB/DSB_von_Papen.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_Kurtvon_Schleicher"
-		texturefile = "gfx/leaders/DSB/DSB_Kurtvon_Schleicher.dds"
-	}
-	spriteType = {
-		name = "GFX_DSB_Heinrich_Bruning"
-		texturefile = "gfx/leaders/DSB/DSB_Heinrich_Bruning.dds"
-	}
-	spriteType = {
-		name = "GFX_RCA_YXL"
-		texturefile = "gfx/leaders/DSB/RCA_YXL.dds"
 	}
 	spriteType = {
 		name = "GFX_BLR_Bronislav_Vladislavovich_Kaminsky"

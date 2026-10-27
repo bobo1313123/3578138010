@@ -1,0 +1,38 @@
+spriteTypes = {
+	#领导人
+	spriteType = { #康斯坦丁·阿尔格托亚努
+		name = "GFX_leader_ROM_Constantin_Argetoianu"
+		texturefile = "gfx/leaders/ROM/ROM_Constantin_Argetoianu.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = { #尼古拉·约尔加
+		name = "GFX_leader_ROM_Nikola_Jorga"
+		texturefile = "gfx/leaders/ROM/ROM_Nikola_Jorga.dds"
+		legacy_lazy_load = no
+	}
+	
+	#民族精神
+	#徒有其表的共和国
+	spriteType = {
+		name = "GFX_idea_ROM_hollow_republic"
+		texturefile = "gfx/interface/ideas/ROM/ROM_hollow_republic.dds"
+	}
+	#一党制霸的反噬
+	spriteType = {
+		name = "GFX_idea_ROM_one_party_blowback"
+		texturefile = "gfx/interface/ideas/ROM/ROM_one_party_blowback.dds"
+	}
+	#刺猬国度
+	spriteType = {
+		name = "GFX_idea_ROM_hedgehog_nation"
+		texturefile = "gfx/interface/ideas/ROM/ROM_hedgehog_nation.dds"
+	}
+	#新播种主义的复兴
+	spriteType = {
+		name = "GFX_idea_ROM_new_sowingism"
+		texturefile = "gfx/interface/ideas/ROM/ROM_new_sowingism.dds"
+	}
+
+
+
+}

@@ -1,0 +1,14 @@
+SpriteTypes = { 
+	#领导人
+	spriteType = { #所罗门·R·古根海姆
+		name = "GFX_leader_AMD_Solomon_Guggenheim"
+		texturefile = "gfx/leaders/AMD/AMD_Solomon_Guggenheim.dds"
+	}
+	#民族精神
+	spriteType = { #碉堡之林
+		name = "GFX_idea_AMD_bunker_forest"
+		texturefile = "gfx/interface/ideas/AMD/AMD_bunker_forest.dds"
+	}
+	
+
+}

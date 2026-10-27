@@ -1,5 +1,6 @@
-division_template = {
-	name = "英国殖民军"
+division_template = {#9 步兵 + 1 炮兵
+	name = "Colonial Infantry"
+	division_names_group = ENG_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -12,59 +13,57 @@ division_template = {
 		infantry = { x = 2 y = 2 }
 		artillery_brigade = { x = 3 y = 0 }
 	}
-	priority = 1
 }
-
-division_template = {
-	name = "国民警卫队"
+division_template = {#4 民兵营
+	name = "National Guard"
+	division_names_group = ENG_INF_01
 	regiments = {
 		militia = { x = 0 y = 0 }
 		militia = { x = 0 y = 1 }
 		militia = { x = 1 y = 0 }
 		militia = { x = 1 y = 1 }
 	}
-	priority = 0
 }
 
 units = {
 	division = {
-		name = "第 1 英国殖民军师"
-		location = 4720
-		division_template = "英国殖民军"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
-	}
-	division = {
-		name = "第 2 英国殖民军师"
-		location = 12503
-		division_template = "英国殖民军"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
-	}
-	division = {
-		name = "第 1 国民警卫队"
-		location = 12680
-		division_template = "国民警卫队"
+		name = "1st 英国殖民军"
+		location = 11715
+		division_template = "Colonial Infantry"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.5
 	}
 	division = {
-		name = "第 2 国民警卫队"
-		location = 12505
-		division_template = "国民警卫队"
+		name = "2nd 英国殖民军"
+		location = 11715
+		division_template = "Colonial Infantry"
 		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.5
 	}
 	division = {
-		name = "第 3 国民警卫队"
-		location = 12505
-		division_template = "国民警卫队"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1.0
-		start_manpower_factor = 1.0
+		name = "1st 国民警卫队民兵"
+		location = 11715
+		division_template = "National Guard"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.4
+		start_manpower_factor = 0.3
+	}
+	division = {
+		name = "2nd 国民警卫队民兵"
+		location = 11715
+		division_template = "National Guard"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.4
+		start_manpower_factor = 0.3
+	}
+	division = {
+		name = "3rd 国民警卫队民兵"
+		location = 11715
+		division_template = "National Guard"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.4
+		start_manpower_factor = 0.3
 	}
 }

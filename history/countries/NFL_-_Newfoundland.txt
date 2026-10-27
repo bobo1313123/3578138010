@@ -1,8 +1,17 @@
-capital = 311
+capital = 331
 
-set_research_slots = 2
-set_stability = 0.60 
-set_war_support = 0.30 
+oob = "NFL_1935"
+
+set_research_slots = 1
+set_stability = 0.60
+set_war_support = 0.30
+
+
+add_ideas = {
+	NFL_guardian_of_the_union_jack
+}
+
+recruit_character = NFL_richard_bennett
 
 set_politics = {
 	ruling_party = Authoritarianism
@@ -27,9 +36,3 @@ set_popularities = {
 set_technology = {
 	infantry_weapons = 1
 }
-
-recruit_character = NFL_Bennett
-
-oob = "NFL_1935"
-
-add_ideas = NFL_union_jack_guardian

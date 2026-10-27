@@ -4,10 +4,6 @@ spriteTypes = {
 		name = "GFX_leader_SPR_Miguel_Primo_Derivella"
 		texturefile = "gfx/leaders/SPR/TVE_SPR_Miguel_Primo_Derivella.dds"
 	}
-	spriteType = { #弗朗西斯科·佛朗哥
-		name = "GFX_leader_SPR_Francisco_Franco"
-		texturefile = "gfx/leaders/SPR/SPR_Francisco_Franco.dds"
-	}
 	spriteType = { #何塞·安东尼奥·普里莫·德里维拉
 		name = "GFX_leader_SPR_Jose_Antonio_Primo_de_la_Villa"
 		texturefile = "gfx/leaders/SPR/SPR_Jose_Antonio_Primo_de_la_Villa.dds"
@@ -16,62 +12,11 @@ spriteTypes = {
 		name = "GFX_leader_SPR_Don_Carlos"
 		texturefile = "gfx/leaders/SPR/SPR_Don_Carlos.dds"
 	}
-	#顾问
-	spriteType = { #塞拉洛·苏涅尔
-		name = "GFX_idea_SPR_Serralo_Sunier"
-		texturefile = "gfx/interface/ideas/SPR/SPR_Serralo_Sunier.dds"
-	}
-	spriteType = { #弗朗西斯科·佛朗哥
-		name = "GFX_idea_SPR_Francisco_Franco_ad"
-		texturefile = "gfx/interface/ideas/SPR/SPR_Francisco_Franco_ad.dds"
-	}
 	 #事件及世界新闻配图
     spriteType = { #德里维拉之死
         name = "GFX_news_SPR_The_death_of_Derivella"
         textureFile = "gfx/interface/news/SPR/SPR_The_death_of_Derivella.dds"
     }
-	###民族精神
-	spriteType = { #内战的遗产
-		name = "GFX_idea_SPR_Legacy_of_the_Civil_War"
-		texturefile = "gfx/interface/ideas/SPR/SPR_Legacy_of_the_Civil_War.dds"
-	}
-	spriteType = { #内战的遗产
-		name = "GFX_idea_SPR_Legacy_of_the_Civil_War_2"
-		texturefile = "gfx/interface/ideas/SPR/SPR_Legacy_of_the_Civil_War.dds"
-	}
-	spriteType = { #西班牙军队
-		name = "GFX_idea_SPR_spanish_army"
-		texturefile = "gfx/interface/ideas/SPR/SPR_spanish_army.dds"
-	}
-	spriteType = { #空悬王座
-		name = "GFX_idea_SPR_The_hanging_throne"
-		texturefile = "gfx/interface/ideas/SPR/SPR_Republic_down.dds"
-	}
-	spriteType = { #自治难题
-		name = "GFX_idea_SPR_Autonomy_Dilemma"
-		texturefile = "gfx/interface/ideas/SPR/SPR_Autonomy_Dilemma.dds"
-	}
-	###民族精神配图
-	spriteType = { #内战的遗产
-		name = "GFX_SPR_spanish_army_Pictures"
-		texturefile = "gfx/texticons/banners/SPR/SPR_spanish_army_Pictures.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #西班牙军队配图
-		name = "GFX_SPR_Legacy_of_the_Civil_War_Pictures"
-		texturefile = "gfx/texticons/banners/SPR/SPR_Legacy_of_the_Civil_War_Pictures.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #空悬王座配图
-		name = "GFX_SPR_The_hanging_throne_Pictures"
-		texturefile = "gfx/texticons/banners/SPR/SPR_The_hanging_throne_Pictures.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #自治难题配图
-		name = "GFX_SPR_Autonomy_Dilemma_Pictures"
-		texturefile = "gfx/texticons/banners/SPR/SPR_Autonomy_Dilemma_Pictures.dds"
-		legacy_lazy_load = no
-	}
 	###国策
 	spriteType = { #硝烟散去
 		name = "GFX_focus_SPR_The_smoke_of_battle_dissipated"

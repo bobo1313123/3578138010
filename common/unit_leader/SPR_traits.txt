@@ -6,7 +6,7 @@ leader_traits ={
 			always = no 
 		}
 		modifier = {
-			max_commander_army_size = -2
+			max_commander_army_size = -8
 		}
 		new_commander_weight = { 
 			factor = 0

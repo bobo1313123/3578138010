@@ -18,7 +18,7 @@ state={
 		}
 		add_claim_by = HUN
 		victory_points = {
-			690 1 
+			690 5 
 		}
 		add_core_of = ROM
 		add_core_of = TRA

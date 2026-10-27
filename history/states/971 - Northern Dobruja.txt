@@ -14,7 +14,7 @@ state = {
 		add_claim_by = BUL
 
 		victory_points = { 
-			657 3 
+			657 5 
 		}
 
 		buildings = {

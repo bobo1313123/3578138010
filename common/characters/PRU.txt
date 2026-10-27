@@ -1,4 +1,23 @@
 characters={
+	PRU_luis_antonio_eguiguren={ #路易斯·安东尼奥·埃吉古伦·埃斯库德罗
+		name=PRU_luis_antonio_eguiguren
+		portraits={
+			civilian={
+				large=GFX_leader_PRU_Luis_Antonio_Eguiguren
+			}
+		}
+		country_leader={
+			ideology = progressivism_small
+			desc=PRU_luis_antonio_eguiguren_desc
+			traits={ PRU_social_democracy_prisoner }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
+
+
 	PRU_Óscar_benavides={
 		name="Óscar Benavides"
 		portraits={
@@ -568,4 +587,5 @@ characters={
 			}
 		}
 	}
+	
 }

@@ -29,7 +29,7 @@ if = {
 ###################
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#GRE_Communism
+#GRE_communism
 #GRE_Liberalism
 #GRE_fascism
 #GRE_Authoritarianism
@@ -190,7 +190,7 @@ set_convoys = 10
 		set_popularities = {
 			Liberalism = 10
 			fascism = 22
-			Communism = 26
+			communism = 26
 			Authoritarianism = 42
 		}
 		
@@ -328,7 +328,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 43
 	fascism = 2
-	Communism = 17
+	communism = 17
 	Conservatism = 38
 }
 

@@ -1,0 +1,49 @@
+ideas = {
+
+	country = {
+
+		ROM_hollow_republic = { #徒有其表的共和国
+			picture = ROM_hollow_republic
+			removal_cost = -1
+
+			modifier = {
+				tttt_drift = 0.01
+				Authoritarianism_drift = 0.01
+				political_power_gain = -0.02
+			}
+		}
+
+		ROM_one_party_blowback = { #一党制霸的反噬
+			picture = ROM_one_party_blowback
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.01
+				war_support_factor = -0.01
+			}
+		}
+
+		ROM_hedgehog_nation = { #刺猬国度
+			picture = ROM_hedgehog_nation
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.1
+				army_org_regain = 0.1
+				training_time_factor = -0.1
+			}
+		}
+
+		ROM_new_sowingism = { #新播种主义的复兴
+			picture = ROM_new_sowingism
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				research_speed_factor = -0.05
+			}
+		}
+
+	}
+}

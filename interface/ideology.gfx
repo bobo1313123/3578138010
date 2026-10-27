@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_ideology_Communism_group"
-		texturefile = "gfx/interface/ideologies/Communism_group.png"
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communism_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_Authoritarianism_group"
@@ -103,6 +103,10 @@ spriteTypes = {
 		name = "GFX_ideology_Spain_rivera_ideologies"
 		texturefile = "gfx/interface/ideologies/Spain_rivera_ideologies.dds"
 	}
+	spriteType = { #西班牙复兴主义
+		name = "GFX_ideology_Spanish_Revivalism"
+		texturefile = "gfx/interface/ideologies/Spanish_Revivalism.png"
+	}
 	spriteType = { #殖民政府-专制主义
 		name = "GFX_ideology_colonial_government_tttt"
 		texturefile = "gfx/interface/ideologies/colonial_government.dds" 
@@ -155,8 +159,11 @@ spriteTypes = {
 		name = "GFX_ideology_military_junta_fascism"
 		texturefile = "gfx/interface/ideologies/military_junta.dds"
 	}
-
-	spriteType = {#稳健进步主义
+	spriteType = { #国家法西斯主义
+		name = "GFX_ideology_National_fascism"
+		texturefile = "gfx/interface/ideologies/National_fascism.png"
+	}
+	spriteType = { #稳健进步主义
 		name = "GFX_ideology_steady_Progressivism_subtype"
 		texturefile = "gfx/interface/ideologies/steady_Progressivism_subtype.dds"
 	}

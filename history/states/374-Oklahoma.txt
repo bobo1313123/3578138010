@@ -23,7 +23,7 @@ state={
 		add_core_of = CSA
 		add_claim_by = USA
 		victory_points = {
-			1806 1 
+			1806 10 
 		}
 
 		1939.1.1 = {

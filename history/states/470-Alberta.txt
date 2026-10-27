@@ -5,6 +5,7 @@ state={
 	history={
 		owner = CAN
 		buildings = {
+			arms_factory = 1
 			infrastructure = 3
 			industrial_complex = 1
 

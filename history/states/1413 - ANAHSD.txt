@@ -19,12 +19,11 @@ state = {
 		
 			infrastructure = 3
 			anti_air_building = 1
-
-			
-
 		}
 
-
+		victory_points = {
+			3471 10 
+		}
 	}
 
 	provinces = {

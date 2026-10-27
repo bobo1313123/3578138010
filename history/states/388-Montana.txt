@@ -15,11 +15,10 @@ state = {
 
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 		}
 		
 		victory_points = {
-			4860 1 # Great Falls
+			4860 10 # Great Falls
 		}
 
 		# Hungry Horse Dam

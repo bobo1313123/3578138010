@@ -1,7 +1,8 @@
 ideas = {
 	country = {
-		NFL_union_jack_guardian = {# 大洋彼岸的米字卫士
-			#picture =
+
+		NFL_guardian_of_the_union_jack = {# 大洋彼岸的米字卫士
+			#picture = generic_democratic_drift
 
 			modifier = {
 				stability_factor = 0.03
@@ -10,5 +11,6 @@ ideas = {
 				tttt_drift = 0.01
 			}
 		}
+
 	}
 }

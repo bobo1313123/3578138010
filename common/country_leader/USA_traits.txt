@@ -1,0 +1,86 @@
+leader_traits = {
+	USA_Chairperson_of_Association = {#劳动者协会主席
+		random = no
+
+		stability_factor = 0.1
+		production_factory_max_efficiency_factor = 0.02
+		Socialism_drift = 0.02
+		Progressivism_drift = 0.02
+	}
+
+	USA_Minister_of_Federal_Security = {#联邦安全部部长
+		random = no
+
+		political_power_gain = 0.2
+		drift_defence_factor = 0.05
+		resistance_growth = -0.1
+	}
+
+	USA_Free_Pioneer = {#自由先锋
+		random = no
+
+		stability_factor = 0.05
+		Liberalism_drift = 0.02
+		Democracy_drift = 0.02
+	}
+
+	USA_Business_Tycoon = {#商业大亨
+		random = no
+
+		consumer_goods_factor = -0.05
+		production_factory_max_efficiency_factor = 0.02
+		trade_laws_cost_factor = -0.5
+	}
+
+	USA_Governor_For_The_People = {#为民而劳的州长
+		random = no
+
+		add_extra_state_shared_building_slots = 3
+		political_power_factor = 0.05
+		mobilization_speed = 0.1
+		stability_factor = 0.1
+	}
+
+	USA_Ike = {#艾克
+		random = no
+
+		army_infantry_attack_factor = 0.1
+		army_infantry_defence_factor = 0.1
+		experience_gain_army_factor = 0.05
+	}
+
+	USA_Tough_Democratic_Diplomat = {#强硬的民主外交官
+		random = no
+
+		agency_upgrade_time = -0.1
+		Democracy_drift = 0.01
+		Liberalism_drift = 0.01
+		send_volunteers_tension = -0.1
+		economy_cost_factor = -0.1
+		lend_lease_tension = -0.1
+		join_faction_tension = -0.5
+		conscription_factor = 0.1
+	}
+
+	USA_Gold_Standard_Economist = {#金本位经济学家
+		random = no
+
+		local_resources_factor = 0.15
+		consumer_goods_factor = -0.2
+	}
+
+	USA_Federal_Army_Commander = {#联邦国防军总司令
+		random = no
+
+		experience_gain_army = 0.1
+		army_attack_factor = 0.15
+		army_defence_factor = 0.1
+	}
+
+	USA_Reformer_From_Africa = {#非洲来的改革家
+		random = no
+
+		local_resources_factor = 0.1
+		resistance_growth = -0.1
+	}
+}

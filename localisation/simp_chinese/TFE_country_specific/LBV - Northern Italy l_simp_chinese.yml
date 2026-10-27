@@ -1,0 +1,31 @@
+﻿l_simp_chinese:
+ ITAG_Protracted_civilwar: "内战旷久"
+ ITAG_Protracted_civilwar_desc: "无论是码头捕捞的渔民，还是城市居住的市民，亦或者田野劳作的农民，都对于战争感到了疲惫，人民的心声不再为战争所振奋，后者摧残了人们的心智和生活，经济一再衰退，社会的弹性减少，我们必须立刻结束混乱的战争状态，回归1861的统一。\n\n\n\n\n£GFX_idea_Protracted_civilwar_desc\n\n\n\n§!"
+ 
+ LBV_Mussolini_first: "意大利民族共和国"
+ LBV_Mussolini_first_ADJ: "意大利民族共和国"
+ LBV_Mussolini_first_DEF: "意大利民族共和国"
+
+ LBV_fascism_party: "国家法西斯党"
+ LBV_fascism_party_long: "意大利国家法西斯党"
+
+
+ LBV_Benito_Mussolini: "贝尼托·墨索里尼"
+ LBV_Benito_Mussolini_desc: "§Y出生日期:1883年7月29日§!\n\n§L社会党热情澎湃的记者、法西斯联盟的总领袖、意大利运动的新偶像——三种描述汇聚在一个人身上毫不冲突的人物便是贝尼托·墨索里尼，在一战阴霾之后饱受祖国衰败摧残的他，毅然另立新党，就这样，一个混杂退伍老兵、失业青年、革命工团主义者、保守主义者的阵线在达权的墨索里尼统领下，冲击着意大利的传统政治绘谱，并占据成一方思想之霸主。\n\n进军罗马的失败酿就墨索里尼政治生涯中最为惨痛的灾难，人力的流失与威望的丧失令他只能退缩阵线，而在战后危机情势下，则自立政府，宣告法西斯民族政府成立，惮赫称王；内战怛怛，疮痍遍地，祖国的分裂、兄弟阎于墙令他痛心，而在未见处，因进军失败而愈演愈烈的流言蜚语则不断折磨他的神智……\n\n最关键的一年，墨索里尼是驾驶摇摇欲坠的帆船，最终荣膺辉煌的冠冕，还是败于私欲友人的背叛，浪得一生激情，无论如何，唯有意志决定他的未来。§!"
+ LBV_Roberto_Farinacci: "罗伯托·法里纳奇"
+ LBV_Roberto_Farinacci_desc: "§Y内政部长§!\n§8国家法西斯党§!"
+
+ LBV_Arrogant_Dictator: "傲慢的独裁领袖"
+ LBV_party_brain: "党的主脑"
+
+ National_fascism: "国家法西斯主义"
+ National_fascism_desc: "（待填充）"
+
+ 
+ LBV_Paralyzed_Blackshirts: "瘫痪的黑衫军"
+ LBV_Paralyzed_Blackshirts_desc: "在长达十几年的厮杀后，意大利内战陷入了沉默，黑衫军被改组为国家安全民队，以充当常备军。但预备兵源的素质和人力匮乏问题导致了军队指挥体系和基层的混乱，甚至于难以达到大战的军事水准，为应对如此境况，我们需要改革和整肃国防力量。\n\n\n\n\n£GFX_idea_Paralyzed_Blackshirts_desc\n\n\n\n§!"
+ LBV_Committee_in_danger: "岌岌可危的委员会"
+ LBV_Committee_in_danger_desc: "法西斯新政制度问题经过几十年的发展已经暴露出许多问题，干部对群众的疏远、组织体系的腐败、政策执行未落实都构成了国家法西斯党面临的糟糕处境，大法西斯委员会需要进行精简和调整以适应国家的发展。\n\n委员会的威望自内战以来逐渐降低，法西斯党内也出现了异见之声，在墨索里尼未听闻处，底下的窃窃私语正不断回荡。\n\n\n\n\n£GFX_idea_Committee_in_danger_desc\n\n\n\n§!"
+ 
+
+ 

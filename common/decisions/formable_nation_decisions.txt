@@ -15361,7 +15361,6 @@ latin_africa_category = {
 				original_tag = ANG # Angola
 				original_tag = GAB # Gabon 
 				original_tag = EQG # Equatorial Guinea
-				original_tag = CMR # Cameroon
 				original_tag = CHA # Chad
 				original_tag = CAR # Central African Republic
 			}
@@ -15377,7 +15376,6 @@ latin_africa_category = {
 				original_tag = ANG # Angola
 				original_tag = GAB # Gabon 
 				original_tag = EQG # Equatorial Guinea
-				original_tag = CMR # Cameroon
 				original_tag = CHA # Chad
 				original_tag = CAR # Central African Republic
 			}

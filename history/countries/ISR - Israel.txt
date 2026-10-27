@@ -79,7 +79,7 @@ set_politics = {
 }
 set_popularities = {
 	Liberalism = 80
-	Communism = 20
+	communism = 20
 }
 
 recruit_character = ISR_david_ben_gurion

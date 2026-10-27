@@ -117,7 +117,8 @@
  SPR_Gifts_and_Graces_tt: "§Y我们将支援意大利过去内战时的旧式装备（不扣除仓库内新式装备）§!"
  SPR_Red_Hunter: "赤猎军"
  SPR_Red_Hunter_desc: ""
-
+ SPR_Strengthen_Sardinia_Garrison: "增援撒丁岛驻军"
+ SPR_Strengthen_Sardinia_Garrison_desc: ""
  SPR_Strengthen_Sardinia_Garrison_tt: "§R我们会尽力援助黑鹰同志！§!"
  
  SPR_help_Fascism: "与黑衫军为伍"

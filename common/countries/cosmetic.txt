@@ -23,6 +23,11 @@ CRO_Slavonija = {
 	color = rgb { 209 199 199 }
 	color_ui = rgb { 209 199 199 }
 }
+#撒丁西班牙驻军
+SPM_Garrison_tag = {
+	color = rgb { 231 91 18 }
+	color_ui = rgb { 231 91 18 }
+}
 
 bo_luo_di_sea = {
 	color = rgb { 138 155 116 }

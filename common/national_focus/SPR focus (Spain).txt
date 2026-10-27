@@ -362,6 +362,14 @@
 		completion_reward = {
 			custom_effect_tooltip = SPR_Strengthen_Sardinia_Garrison_tt
 			hidden_effect = {
+				declare_war_on = {
+					target = TTS
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ITA
+					type = annex_everything
+				}
 				SPM = {
 					add_ai_strategy = {
 						type = support

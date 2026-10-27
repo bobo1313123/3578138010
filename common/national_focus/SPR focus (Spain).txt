@@ -252,7 +252,7 @@
 				producer = SPR
 			}
 			hidden_effect = {
-				country_event = { id = tfe_spain_focus.1 days = 15 }
+				country_event = { id = tfe_spain_focus.1 days = 12 }
 			}
  		}
  	}
@@ -344,6 +344,9 @@
 			LBV = {
 				add_ideas = SPR_Red_Hunting
 			}
+			SPM = {
+				add_ideas = SPR_Red_Hunting
+			}
 		}
 	}
 	#增援撒丁岛驻军
@@ -370,21 +373,13 @@
 			custom_effect_tooltip = SPR_Strengthen_Sardinia_Garrison_tt
 			hidden_effect = {
 				SPM = {
-					declare_war_on = {
-						target = TTS
-						type = annex_everything
-					}
-					declare_war_on = {
-						target = ITA
-						type = annex_everything
+					add_ai_strategy = {
+						type = send_volunteers_desire
+						id = LBV
+						value = 2000
 					}
 					load_oob = "SPM_SPR_Armor"
 					load_oob = "SPM_SPR_Garrison_naval"
-				}
-				add_ai_strategy = {
-					type = send_volunteers_desire
-					id = SPM
-					value = 2500
 				}
 			}
 		}

@@ -10,7 +10,7 @@ ideas = {
 				land_reinforce_rate = 0.02
 				army_org_factor = 0.10
 				army_attack_speed_factor = 0.10
-				ai_focus_aggressive_factor = 2.5
+				send_volunteer_size = 25
 			}
 		}
 

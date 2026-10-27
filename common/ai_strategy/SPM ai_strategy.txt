@@ -3,29 +3,38 @@ SPM_Spain_attack_for_Fascism = {
 		original_tag = SPM
 	}
 	enable = {
-		has_country_flag = SPR_help_Fascism
+		SPM = {
+			has_country_flag = SPR_help_Fascism
+		}
 	}
 	abort = {
 		NOT = { has_global_flag = ITAG_Wars_of_Unification }
 	}
 	ai_strategy = {
-		type = invade
-		id = TTS
+		type = force_defend_ally_borders
+		id = LBV
 		value = 2000
 	}
 	ai_strategy = {
-		type = invade
-		id = ITA
-		value = 1500
+		type = front_control
+		state_trigger = {
+	        is_core_of = TTS
+	    }
+		ratio = 0
+		priority = 200
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
 	}
 	ai_strategy = {
-		type = conquer
-		id = TTS
-		value = 1500
-	}
-	ai_strategy = {
-		type = conquer
-		id = ITA
-		value = 1500
+		type = front_control
+		state_trigger = {
+	        is_core_of = ITA
+	    }
+		ratio = 0
+		priority = 100
+		ordertype = front
+		execution_type = rush
+		execute_order = yes
 	}
 }

@@ -10,6 +10,20 @@ country_event = {
 	is_triggered_only = yes 
 	option = {
 		name = tfe_norita_focus.1.a #黑衫军
-		add_ideas = LBV_Help_From_Spain #来自西班牙的援助
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_0
+			amount = 1500
+			producer = SPR
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 250
+			producer = SPR
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 800
+			producer = SPR
+		}
 	}
 }

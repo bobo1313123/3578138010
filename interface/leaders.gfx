@@ -283,6 +283,12 @@ spriteTypes = {
 		name = "GFX_PAP_Pope_Pius_XI_large"
 		texturefile = "gfx/leaders/PAP/PAP_Pope_Pius_XI.png"
 	}
+	#撒丁驻军
+	#领导人
+	spriteType = {
+		name = "GFX_SPM_Jose_Enrique_Valrela_large"
+		texturefile = "gfx/leaders/SPM/SPM_Jose_Enrique_Valrela.png"
+	}
 	### 美洲大区 ###
 	#北方美国
 	#领导人

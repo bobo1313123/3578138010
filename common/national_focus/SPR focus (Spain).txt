@@ -251,6 +251,9 @@
 				amount = 500
 				producer = SPR
 			}
+			hidden_effect = {
+				country_event = { id = tfe_spain_focus.1 days = 15 }
+			}
  		}
  	}
 	#援助黑衫之鹰
@@ -269,14 +272,105 @@
 			has_global_flag = ITAG_Wars_of_Unification
  		}
 		allow_branch = {
+			has_global_flag = ITAG_Wars_of_Unification
 			has_country_flag = SPR_help_Fascism 
 		}
  		search_filters = { FOCUS_FILTER_POLITICAL }
  		completion_reward = {
  			add_ideas = SPR_Help_Black_Eagle
 			LBV = {
-				country_event = { id = tfe_norita_focus.1 days = 5}
+				add_ideas = LBV_Help_From_Spain #来自西班牙的援助
 			}
  		}
  	}
+	#礼物与恩惠
+	focus = {
+		id = SPR_Gifts_and_Graces
+		icon = GFX_goal_SPR_Gifts_and_Graces
+		relative_position_id = SPR_Gunfire_in_Apennines
+	   	prerequisite = { focus = SPR_Help_Black_Cloak_Eagle }
+		x = -2
+		y = 2
+		cost = 2
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+		   has_global_flag = ITAG_Wars_of_Unification
+		}
+	   	allow_branch = {
+			has_global_flag = ITAG_Wars_of_Unification
+			has_country_flag = SPR_help_Fascism 
+	  	}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = -15
+			custom_effect_tooltip = SPR_Gifts_and_Graces_tt
+			LBV = {
+				army_experience = 25
+				country_event = { id = tfe_norita_focus.1 days = 5 }
+			}
+		}
+	}
+	#赤猎军
+	focus = {
+		id = SPR_Red_Hunter
+		icon = GFX_goal_SPR_Red_Hunter
+		relative_position_id = SPR_Gunfire_in_Apennines
+	   	prerequisite = { focus = SPR_Help_Black_Cloak_Eagle }
+		x = 2
+		y = 2
+		cost = 2
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+		   has_global_flag = ITAG_Wars_of_Unification
+		}
+	   	allow_branch = {
+			has_global_flag = ITAG_Wars_of_Unification
+			has_country_flag = SPR_help_Fascism 
+	  	}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_ideas = SPR_Red_Hunting
+			LBV = {
+				add_ideas = SPR_Red_Hunting
+			}
+		}
+	}
+	#增援撒丁岛驻军
+	focus = {
+		id = SPR_Strengthen_Sardinia_Garrison
+		icon = GFX_goal_SPR_Strengthen_Sardinia_Garrison
+		relative_position_id = SPR_Gunfire_in_Apennines
+	   	prerequisite = { focus = SPR_Help_Black_Cloak_Eagle }
+		x = 0
+		y = 3
+		cost = 2
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+		   has_global_flag = ITAG_Wars_of_Unification
+		}
+	   	allow_branch = {
+			has_global_flag = ITAG_Wars_of_Unification
+			has_country_flag = SPR_help_Fascism 
+	  	}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			custom_effect_tooltip = SPR_Strengthen_Sardinia_Garrison_tt
+			hidden_effect = {
+				SPM = {
+					add_ai_strategy = {
+						type = support
+						id = LBV
+						value = 2500
+					}
+					load_oob = "SPM_SPR_Garrison_naval"
+				}
+			}
+		}
+	}
 }

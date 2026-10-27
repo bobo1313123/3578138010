@@ -241,6 +241,10 @@ spriteTypes = {
 	}
 	#顾问
 	spriteType = {
+		name = "GFX_LBV_Benito_Mussolini_small"
+		texturefile = "gfx/interface/advisors/LBV/LBV_Benito_Mussolini.png"
+	}
+	spriteType = {
 		name = "GFX_LBV_Roberto_Farinacci_small"
 		texturefile = "gfx/interface/advisors/LBV/LBV_Roberto_Farinacci.png"
 	}

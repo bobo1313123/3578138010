@@ -162,3 +162,30 @@ units = {
 		start_manpower_factor = 1.0
 	}
 }
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 5
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.82
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+		}
+		requested_factories = 2
+		progress = 0.82
+		efficiency = 100
+	}
+}

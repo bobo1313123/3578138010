@@ -69,5 +69,17 @@ ideas = {
                 send_volunteer_size = 4
 			}
 		}
+		#赤猎军
+		SPR_Red_Hunting = {
+			on_add = { log = "[GetLogRoot]: add idea SPR_Red_Hunting" }
+			picture = Red_Hunting
+			allowed = { has_global_flag = ITAG_Wars_of_Unification }
+			targeted_modifier = {
+				tag = ITA
+				attack_bonus_against = 0.08
+				defense_bonus_against = 0.05
+				breakthrough_bonus_against = 0.10
+			}
+		}
     }
 }

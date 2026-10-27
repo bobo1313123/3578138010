@@ -1,16 +1,38 @@
-﻿capital = 158
-
-
-
+﻿capital = 114
+set_stability = 0.58
+set_war_support = 0.60
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
-add_ideas = {
+set_convoys = 240
+starting_train_buffer = 1.3
+set_fuel_ratio = 1.0
+#load_focus_tree = 
+set_cosmetic_tag = SPM_Garrison #撒丁驻军
+
+
+### 初始科技 ###
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	trench_warfare = 1
+	
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	armored_car1 = 1 #Fiat AB611 entered service in 1933
 }
-set_cosmetic_tag = SPM_LAND
-
-
-
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_technology = {
@@ -38,30 +60,6 @@ if = {
 	}
 }
 
-
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	tech_trucks = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	early_fighter = 1
-	early_bomber = 1
-	naval_bomber1 = 1
-	CAS1 = 1
-	trench_warfare = 1
-	
-	fuel_silos = 1
-	fuel_refining = 1
-	basic_train = 1
-	armored_car1 = 1 #Fiat AB611 entered service in 1933
-}
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -126,8 +124,12 @@ if = {
 	}
 }
 
+### 领导人 ###
+recruit_character = SPM_Jose_Enrique_Valrela #何塞·恩里克·巴莱拉
 
-set_convoys = 60
+add_ideas = {
+	SPM_Aragon_Brigade #“阿拉贡”旅
+}
 
 set_politics = {
 	ruling_party = tttt
@@ -136,13 +138,30 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Liberalism = 10
-	fascism = 10
-	communism = 20
-	tttt = 60
+	tttt = 85
+	fascism = 15
 }
 
-
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 2500
+	producer = SPR
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 500
+	producer = SPR
+}
+add_equipment_to_stockpile = {
+	type = support_equipment
+	amount = 400
+	producer = SPR
+}
+add_equipment_to_stockpile = {
+	type = motorized_equipment_0
+	amount = 600
+	producer = SPR
+}
 
 ### VARIANTS ###
 # 1936 Start #

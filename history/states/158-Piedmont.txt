@@ -6,8 +6,8 @@ state = {
 	
 	state_category = metropolis
 	resources = {
-		steel = 32
-		aluminium = 28
+		steel = 22
+		aluminium = 18
 		chromium = 4
 		tungsten = 2
 	}
@@ -18,13 +18,12 @@ state = {
 		add_core_of = ITA
 		add_core_of = TTS
 		victory_points = { #都灵
-			6780 28 
+			6780 26
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 7
-			industrial_complex = 1
-			dockyard = 2
+			arms_factory = 5
+			industrial_complex = 3
 			air_base = 3	
 		}
 	}

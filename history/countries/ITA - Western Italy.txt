@@ -58,7 +58,6 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "ITA_1936_naval_legacy"
 }
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -83,12 +82,10 @@ if = {
 		mtg_transport = 1
 		coastal_defense_ships = 1
 	}
-	set_naval_oob = "ITA_1936_naval_mtg"
 }
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "ITA_1936_air_bba"
 		set_technology = {
 			aa_lmg = 1
 			early_bombs = 1
@@ -103,7 +100,6 @@ if = {
 			bba_early_transport_plane = 1
 		}
 	else = {
-		set_air_oob = "ITA_1936_air_legacy"
 		set_technology = {
 			early_fighter = 1
 			early_bomber = 1
@@ -150,7 +146,7 @@ set_popularities = {
 	communism = 57
 	Socialism = 21
 	Progressivism = 8
-	democratic = 14
+	Democracy = 14
 }
 
 add_equipment_to_stockpile = {

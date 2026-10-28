@@ -73,6 +73,10 @@
  LBV_Help_From_Spain_desc: "内战打成如今这副模样，北方这边其实一直指不上多少外人，兵员和弹药一天比一天紧。我们的西班牙朋友这时候肯伸手，称得上是一份难得的情谊。他们把军械、贷款还有从北非战场和内战回来的老兵一批批送过了海。这笔援助解了我们的燃眉之急，让黑衫军有了喘息，也让意大利在欧陆多了一个并肩的同道。这份恩情，我们记下了。"
  
  LBV_collapse_war_decisions: "内战旷久"
+ LBV_Purchasing_Lost_Rifle: "求购流失步枪"
+ LBV_Purchasing_Lost_Rifle_desc: "我们的步枪生产能力远远比不上我们消耗的速度，但邻国政府并不愿意卖给我们枪支，所以只能将目标锁定在那些他国退役枪支与流失枪支上了。"
+ LBV_Managing_black_market: "照顾军火黑市"
+ LBV_Managing_black_market_desc: "可我们在寻常市场可找不到那些火炮类的重武器和新型步枪，要找那些那些真正能打仗的家伙，我们可不得不进行一些麻烦且昂贵的黑市交易。"
  LBV_Infiltrate_enemy_organization: "渗透敌方组织"
  LBV_Seeking_foreign_aid: "寻求外国援助"
  LBV_Establish_military_factory: "建立军工厂"

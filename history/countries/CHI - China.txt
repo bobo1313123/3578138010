@@ -1,8 +1,16 @@
 ﻿capital = 608 #北京
 
-#oob = "CHI_1936"
+oob = "CHI_1936"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "CHI_1936_naval_mtg"
+	else = {
+		set_naval_oob = "CHI_1936_naval_legacy"
+	}
+}
 if = {
 	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "CHI_1936_air_bba"
 	else = {
 		set_air_oob = "CHI_1936_air_legacy"
 		set_technology = {
@@ -91,14 +99,14 @@ save_global_event_target_as = WTT_current_china_leader
 set_convoys = 40
 
 set_politics = {
-	ruling_party = Democracy
+	ruling_party = democratic
 	last_election = "1932.9.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	Democracy = 48
+	democratic = 48
 	Liberalism = 30
 	Conservatism = 6
 	Authoritarianism = 10
@@ -1260,7 +1268,6 @@ if = {
 		basic_battery = 1
 		basic_cruiser_armor_scheme = 1
 		basic_heavy_battery = 1
-		basic_medium_battery = 1
 		basic_light_battery = 1
 		basic_heavy_armor_scheme = 1
 		early_ship_hull_submarine = 1
@@ -1273,6 +1280,6 @@ if = {
 		basic_ship_hull_heavy = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		improved_airplane_launcher = 1
 	}
+	set_naval_oob = "ITA_1936_naval_mtg"
 }

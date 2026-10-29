@@ -50,7 +50,7 @@ LBV_collapse_war_decisions = {
 		days_remove = 28
 		days_re_enable = 16
 
-		ai_will_do = { factor = 300 }
+		ai_will_do = { factor = 350 }
 		modifier = {
 			consumer_goods_factor = 0.08
 			industrial_capacity_factory = -0.05
@@ -71,14 +71,12 @@ LBV_collapse_war_decisions = {
 		fixed_random_seed = no
 	}
 	#瑞士老牌佣兵
-	### 为统一做准备 ###
-	#渗透敌方组织
-	LBV_Infiltrate_enemy_organization = {
+	LBV_Veteran_Swiss_Mercenary = {
 		icon = GFX_decision_category_GER_war_planning
-		allowed = { always = no }
-
+		allowed = { original_tag = LBV }
 		available = {
-			has_war = no
+			country_exists = SWI
+			has_equipment = { infantry_equipment > 480 }
 		}
 		visible = {
 			OR = {
@@ -86,16 +84,76 @@ LBV_collapse_war_decisions = {
 				country_exists = TTS
 			}
 		}
+		cost = 50
+		days_remove = 12
+		days_re_enable = 40
 
-		fire_only_once = yes
-		cost = 20
-		days_remove = 25
+		ai_will_do = { factor = 450 }
+		
+		modifier = {
+			industrial_capacity_factory = -0.15
+		}
+		complete_effect = {  
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -480
+			}
+		}
+		remove_effect = {
+			log = "[GetLogRoot]: Decision remove LBV_Veteran_Swiss_Mercenary"
+			custom_effect_tooltip = LBV_Veteran_Swiss_Mercenary_tt
+			hidden_effect = {
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 159 }
+					create_unit = {
+						division = "name = \"瑞士佣兵队\" division_template = \"瑞士佣兵\" start_experience_factor = 0.75" 
+						owner = LBV
+					}
+				}
+			}
+		}
+		fixed_random_seed = no
+	}
+	### 为统一做准备 ###
+	#渗透敌方组织
+	LBV_Infiltrate_enemy_organization = {
+		icon = GFX_decision_category_GER_war_planning
+		allowed = { always = no }
+		target_root_trigger = {
+			is_neighbor_of = ROOT
+			NOT = { is_owned_by = ROOT }
+		}
+		available = {
+			OR = {
+				is_owned_by = TTS
+				is_owned_by = ITA
+			}
+		}
+		visible = {
+			has_war = yes
+			OR = {
+				country_exists = ITA
+				country_exists = TTS
+			}
+		}
+
+		cost = 15
+		days_remove = 10
 
 		ai_will_do = { factor = 200 }
-
+		modifier = {
+			experience_gain_army_factor = -0.15
+		}
 		remove_effect = {
 			log = "[GetLogRoot]: Decision remove LBV_Infiltrate_enemy_organization"
-			
+			FROM = {
+            	every_division_in_state = {
+                	damage_unit = {
+                    	organ
+                	}
+            	}
+        	}
 		}
 		fixed_random_seed = no
 	}

@@ -35,6 +35,28 @@ defined_text = {
 		localization_key = TFR_PEACE_POPUP_FLAVOR_HYD_RAS
 	}
 	text = {
+		trigger = {
+			event_target:winning_country = {
+				tag = LBV
+			}
+			event_target:losing_country = {
+				tag = TTS
+			}
+		}
+		localization_key = TFR_PEACE_POPUP_FLAVOR_LBV_TTS
+	}
+	text = {
+		trigger = {
+			event_target:winning_country = {
+				tag = LBV
+			}
+			event_target:losing_country = {
+				tag = ITA
+			}
+		}
+		localization_key = TFR_PEACE_POPUP_FLAVOR_LBV_ITA
+	}
+	text = {
 		localization_key = TFE_PEACE_POPUP_FLAVOR_DEFAULT
 	}
 }

@@ -1,10 +1,11 @@
 ﻿l_simp_chinese:
- TFE_northern_italy_focus: "北意大利国策树" 
+ TFE_northern_italy_focus: "北意大利国策树"
+ LBV_Unification_of_Fasitaly: "法西斯统一意大利"
 
  ITAG_Protracted_civilwar: "内战旷久"
  ITAG_Protracted_civilwar_desc: "无论是码头捕捞的渔民，还是城市居住的市民，亦或者田野劳作的农民，都对于战争感到了疲惫，人民的心声不再为战争所振奋，后者摧残了人们的心智和生活，经济一再衰退，社会的弹性减少，我们必须立刻结束混乱的战争状态，回归1861的统一。\n\n\n\n\n£GFX_idea_Protracted_civilwar_desc\n\n\n\n§!"
 
- ITAG_Wars_of_Unification: "意大利内战开始"
+ ITAG_Wars_of_Unification: "意大利内战"
  
  LBV_Mussolini_first: "意大利民族共和国"
  LBV_Mussolini_first_ADJ: "意大利民族共和国"
@@ -125,3 +126,18 @@
  tfe_norita_focus.1.t: "西班牙国的援助"
  tfe_norita_focus.1.d: "第一批西班牙的援助抵达米兰时，码头上堆着打捆的步枪、成箱的弹药，还有从伊比利亚战场轮换下来的老兵。西班牙没有忘记他们在亚平宁半岛北方的同道，马德里方面把军火和见过血的战士们送过了海。这批援助来得正是时候：防线的缺口有东西补了，新兵也有了能带他们的老兵。这份情谊，值得我们把他们当作真正的兄弟来感谢。"
  tfe_norita_focus.1.a: "感谢我们的棕色同袍"
+ 
+ tfe_norita_history.1.t: "王国政府的结局"
+ tfe_norita_history.1.d: ""
+ tfe_norita_history.1.a: ""
+ tfe_norita_history.2.t: "意社赤匪的结局"
+ tfe_norita_history.2.d: ""
+ tfe_norita_history.2.a: ""
+
+ news_norita.1.t: "黑衫军统一意大利"
+ news_norita.1.d: ""
+ news_norita.1.a: "领袖！领袖！领袖！"
+
+ SE_title_text_loc.1: "意大利再统一"
+ SE_title_desc_loc.1: "宁可一日为狮，不可一生为兔。\n-贝尼托·墨索里尼"
+ SE_bottom_text_loc.1: "相信、服从、战斗！"

@@ -7,7 +7,7 @@ defined_text = {
 			check_variable = { global.se_display = 1 }
 			#has_country_flag = visible_superevent_mos_ita
 		}
-		localization_key = GFX_mos_ita_union
+		localization_key = GFX_SE_Fascism_Unification
 	}
 	text = {
 		trigger = { 

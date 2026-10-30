@@ -118,23 +118,35 @@ LBV_collapse_war_decisions = {
 	### 为统一做准备 ###
 	#渗透敌方组织
 	LBV_Infiltrate_enemy_organization = {
-		icon = GFX_decision_category_GER_war_planning
-		allowed = { always = no }
-		target_root_trigger = {
-			is_neighbor_of = ROOT
-			NOT = { is_owned_by = ROOT }
+		icon = generic_scorched_earth
+
+		targets = { LBV }
+
+		target_trigger = {
+			always = yes
 		}
+		highlight_states = {
+			highlight_state_targets = {
+				OR = {
+					is_owned_by = TTS
+					is_owned_by = ITA
+				}
+			}
+		}
+		allowed = { always = no }
+		
 		available = {
-			OR = {
-				is_owned_by = TTS
-				is_owned_by = ITA
+			has_equipment = {
+				infantry_equipment > 128
+				support_equipment > 15
 			}
 		}
 		visible = {
-			has_war = yes
-			OR = {
-				country_exists = ITA
-				country_exists = TTS
+			PREV = {
+				OR = {
+					is_owned_by = TTS
+					is_owned_by = ITA
+				}
 			}
 		}
 
@@ -147,13 +159,7 @@ LBV_collapse_war_decisions = {
 		}
 		remove_effect = {
 			log = "[GetLogRoot]: Decision remove LBV_Infiltrate_enemy_organization"
-			FROM = {
-            	every_division_in_state = {
-                	damage_unit = {
-                    	organ
-                	}
-            	}
-        	}
+			
 		}
 		fixed_random_seed = no
 	}

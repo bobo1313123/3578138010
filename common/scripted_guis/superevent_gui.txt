@@ -17,8 +17,6 @@ scripted_gui = {
 	    	
 	    }
 
-		
-
 		effects = {
 			close_SE_button_click = {
 				every_country = {

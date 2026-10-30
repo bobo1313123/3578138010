@@ -242,6 +242,7 @@ bitmapfonts = {
 		}
 	languages = { "l_simp_chinese" } 
 	}
+
 	
 	bitmapfont_override = {
 		name = "hoi_30header"
@@ -318,10 +319,10 @@ bitmapfonts = {
 	}
 	
 	bitmapfont_override = {
-		name = "hoi_30"
+		name = "hoi_26header"
 		fontfiles = { 
-			"gfx/fonts/hoi_30"
-			"gfx/fonts/Arial_26s"	
+			"gfx/fonts/hoi_26mbs"
+			"gfx/fonts/Arial_20s"	
 		}
 	languages = { "l_simp_chinese" } 
 	}

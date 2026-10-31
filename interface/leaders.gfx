@@ -375,6 +375,17 @@ spriteTypes = {
 		name = "GFX_HYD_Osman_Ali_Khan_large"
 		texturefile = "gfx/leaders/HYD/HYD_Osman_Ali_Khan.png"
 	}
+	### 中东大区 ###
+	#叙利亚
+	spriteType = { #加齐·伊本·费萨尔
+		name = "GFX_SYR_Ghazi_Ibn_Faisal_large"
+		texturefile = "gfx/leaders/SYR/SYR_Ghazi_Ibn_Faisal.png"
+	}
+	#约旦
+	spriteType = { #阿卜杜拉·伊本·侯赛因
+		name = "GFX_JOR_Abdullah_Ibin_Hussein_large"
+		texturefile = "gfx/leaders/JOR/JOR_Abdullah_Ibin_Hussein.png"
+	}
 
 
 
@@ -587,10 +598,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TVE_BEL_LEADERS"
 		texturefile = "gfx/leaders/BEL/TVE_BEL_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_JOR_LEADERS"
-		texturefile = "gfx/leaders/JOR/TVE_JOR_LEADERS.dds"
 	}
 	spriteType = {
 		name = "GFX_TVE_PER_LEADERS"

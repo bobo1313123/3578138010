@@ -1,9 +1,40 @@
 ﻿capital = 554
+oob = "SYR_1935"
+set_stability = 0.58
+set_war_support = 0.46
+set_research_slots = 2
+set_convoys = 84
+starting_train_buffer = 0.85
+set_fuel_ratio = 0.9
+set_cosmetic_tag = SYR_Kingdom #叙利亚王国
 
+country_lock_all_division_template = yes
+### 初始科技 ###
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	tech_trucks = 1
+	marines  = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	basic_train = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+	camelry = 1
+}
 
-set_convoys = 5
-set_cosmetic_tag = SYR_EMPIRE
+### 领导人 ###
 recruit_character = SYR_Ghazi_Ibn_Faisal #加齐·伊本·费萨尔
+
+add_ideas = {
+	SYR_Feudal_society #封建社会
+	SYR_National_Revolutionary_Army #民族革命军
+	SYR_Beneath_Prison_Cage #囚笼之下
+}
+
 set_politics = {
 	ruling_party = tttt
 	last_election = "1936.1.1"
@@ -12,14 +43,15 @@ set_politics = {
 }
 set_popularities = {
 	communism = 5
-	Socialism = 10
+	Socialism = 8
 	Progressivism = 5
 	Liberalism = 6
-	Democracy = 5
+	Democracy = 8
 	Conservatism = 5
 	Authoritarianism = 8
-	tttt = 52
+	tttt = 51
 	fascism = 4
+	nazism = 0
 }
 
 

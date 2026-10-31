@@ -2,7 +2,7 @@
 state={
 	id = 1458
 	name="STATE_1458"
-	manpower = 2826
+	manpower = 725594
 	resources={
 	}
 	
@@ -10,20 +10,22 @@ state={
 
 	history={
 		owner = TUR
-		victory_points = {
-			12473 3 
-		}
-		victory_points = {
-			1549 1
-		}
-		victory_points = {
-			6883 1
-		}
-	
-		
 		add_core_of = SYR
 		add_core_of = KUR
-		
+		victory_points = {
+			12473 10
+		}
+		victory_points = {
+			1549 3
+		}
+		victory_points = {
+			6883 3
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
 	}
 
 	provinces={

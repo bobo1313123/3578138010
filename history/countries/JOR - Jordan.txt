@@ -1,118 +1,57 @@
 ﻿capital = 455
+oob = "JOR_1935"
+set_stability = 0.34
+set_war_support = 0.28
+set_research_slots = 1
+starting_train_buffer = 0.5
+set_fuel_ratio = 0.9
+set_cosmetic_tag = JOR_Hashim #约旦哈希姆王国
 
-# Starting tech
+### 初始科技 ###
 set_technology = {
 	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	tech_trucks = 1
+	marines  = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	basic_train = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	fuel_refining = 1
+	camelry = 1
 }
 
-IF = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
+### 领导人 ###
+recruit_character = JOR_Abdullah_Ibin_Hussein #阿卜杜拉·伊本·侯赛因
+add_ideas = {
+
 }
-
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-	}
-	set_technology = { gwtank = 1 }
-}
-
-set_convoys = 5
-
-# TODO_GoE - Add DLC checks
-set_cosmetic_tag = JOR_emirate
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	complete_special_project = {
-		project = sp:sp_air_radar
+SYR = {
+	set_autonomy = {
+		target = JOR
+		autonomy_state = autonomy_colony
 	}
 }
 
 
 set_politics = {
-	ruling_party = Authoritarianism
+	ruling_party = tttt
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	Liberalism = 25
-	fascism = 20
-	communism = 5
-	Authoritarianism = 50
-}
-
-recruit_character = JOR_abdullah_bin_al_hussein
-
-create_country_leader = {
-	name = "Hashim Kheir"
-	desc = ""
-	picture = GFX_portrait_Hashim_Kheir
-	ideology = Conservatism_small
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saeed Ahmadi"
-	desc = ""
-	picture = GFX_portrait_Saeed_Ahmadi
-	ideology = fascism_small
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fu'ad Nassar"
-	desc = ""
-	picture = GFX_portrait_Fuad_Nassar
-	ideology = communism_small
-	traits = {
-		#
-	}
+	communism = 0
+	Socialism = 4
+	Progressivism = 2
+	Liberalism = 0
+	Democracy = 7
+	Conservatism = 0
+	Authoritarianism = 10
+	tttt = 65
+	fascism = 12
+	nazism = 0
 }

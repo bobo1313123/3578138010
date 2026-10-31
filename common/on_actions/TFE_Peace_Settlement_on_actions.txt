@@ -75,21 +75,16 @@ on_actions = {
 						}
 					}
 					FROM = {
-						white_peace = ROOT
 						country_event = { 
 							id = tfe_norita_history.1 days = 3
 						}
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
-						}
-					}
-					if = {
-						limit = { 
-							NOT = { country_exists = ITA }
-						}
-						news_event = { 
-							id = news_norita.1 days = 2
+						if = {
+							limit = { 
+								NOT = { country_exists = ITA }
+							}
+							news_event = { 
+								id = news_norita.1 days = 2
+							}
 						}
 					}
 					set_global_flag = skip_default_capitulation
@@ -105,21 +100,16 @@ on_actions = {
 						}
 					}
 					FROM = {
-						white_peace = ROOT
 						country_event = { 
 							id = tfe_norita_history.2 days = 3
 						}
-						annex_country = {
-							target = ROOT
-							transfer_troops = no
-						}
-					}
-					if = {
-						limit = { 
-							NOT = { country_exists = TTS }
-						}
-						news_event = { 
-							id = news_norita.1 days = 2
+						if = {
+							limit = { 
+								NOT = { country_exists = TTS }
+							}
+							news_event = { 
+								id = news_norita.1 days = 2
+							}
 						}
 					}
 					set_global_flag = skip_default_capitulation

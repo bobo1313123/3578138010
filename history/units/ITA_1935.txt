@@ -86,14 +86,21 @@ units = {
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 3773
+		location = 771
 		division_template = "革命卫队"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
 		start_manpower_factor = 1.0
 	}
 	division = {
-		location = 3773
+		location = 771
+		division_template = "革命卫队"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+		start_manpower_factor = 1.0
+	}
+	division = {
+		location = 6788
 		division_template = "革命卫队"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0

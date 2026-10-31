@@ -28,6 +28,11 @@ SPM_Garrison_tag = {
 	color = rgb { 231 91 18 }
 	color_ui = rgb { 231 91 18 }
 }
+#叙利亚王国
+SYR_Kingdom = {
+	color = rgb { 80 106 207 }
+	color_ui = rgb { 80 106 207 }
+}
 
 bo_luo_di_sea = {
 	color = rgb { 138 155 116 }

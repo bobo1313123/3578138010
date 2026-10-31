@@ -1,7 +1,0 @@
-spriteTypes = {
-	#领导人
-	spriteType = { #加齐·伊本·费萨尔
-		name = "GFX_leader_SYR_Ghazi_Ibn_Faisal"
-		texturefile = "gfx/leaders/SYR/SYR_Ghazi_Ibn_Faisal.dds"
-	}
-}

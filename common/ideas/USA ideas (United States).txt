@@ -74,7 +74,17 @@ ideas = {
 				Democracy_drift = 0.025
 				Liberalism_drift = 0.025
 			}
-			
+		}
+		### 国策民族精神 ###
+		#《共和共识初建》
+		USA_The_Initial_Establishment_of_the_Republican_Consensus = {
+			on_add = { log = "[GetLogRoot]: add idea USA_The_Initial_Establishment_of_the_Republican_Consensus" }
+			picture = The_Initial_Establishment_of_the_Republican_Consensus
+			allowed = { always = no }
+			modifier = {
+                stability_factor = 0.15
+				Liberalism_drift = 0.08
+			}
 		}
 	}
 }

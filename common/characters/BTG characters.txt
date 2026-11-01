@@ -1,0 +1,17 @@
+characters = {
+	#领导人
+	#安托万三世
+	BTG_Antoine_III = {
+		name = BTG_Antoine_III
+		portraits = {
+			civilian = {
+				large = GFX_BTG_Antoine_III_large
+			}
+		}
+		country_leader = {
+			ideology = authoritarianism_small
+			traits= { }
+		}
+	}
+}
+	

@@ -492,6 +492,98 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SOV/Army_of_Republic_desc.png"
 		legacy_lazy_load = no
 	}
+	#普拉蒂尼民族精神
+	#共和派的避难所
+	spriteType = {
+		name = "GFX_idea_Republican_refuge"
+		texturefile = "gfx/interface/ideas/BRB/Republican_refuge.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Republican_refuge_desc" 
+		texturefile = "gfx/interface/ideas/BRB/Republican_refuge_desc.png"
+		legacy_lazy_load = no
+	}
+	#阿根廷军事援助
+	spriteType = {
+		name = "GFX_idea_argentine_militaryaid"
+		texturefile = "gfx/interface/ideas/BRB/argentine_militaryaid.png"
+	}
+	spriteType = {
+		name = "GFX_idea_argentine_militaryaid_desc" 
+		texturefile = "gfx/interface/ideas/BRB/argentine_militaryaid_desc.png"
+		legacy_lazy_load = no
+	}
+	#瓦加斯民众主义
+	spriteType = {
+		name = "GFX_idea_Vargas_Populism"
+		texturefile = "gfx/interface/ideas/BRB/Vargas_Populism.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Vargas_Populism_desc"
+		texturefile = "gfx/interface/ideas/BRB/Vargas_Populism_desc.png"
+		legacy_lazy_load = no
+	}
+	#阿根廷民族精神
+	#饱受争议的王室
+	spriteType = { 
+		name = "GFX_idea_The_controversial_royal_family"
+		texturefile = "gfx/interface/ideas/ARG/The_controversial_royal_family.png"
+	}
+	spriteType = {
+		name = "GFX_idea_The_controversial_royal_family_desc" 
+		texturefile = "gfx/interface/ideas/ARG/The_controversial_royal_family_desc.png"
+		legacy_lazy_load = no
+	}
+	#失去的繁荣
+	spriteType = { 
+		name = "GFX_idea_lost_prosperity"
+		texturefile = "gfx/interface/ideas/ARG/lost_prosperity.png"
+	}
+	spriteType = {
+		name = "GFX_idea_lost_prosperity_desc" 
+		texturefile = "gfx/interface/ideas/ARG/lost_prosperity_desc.png"
+		legacy_lazy_load = no
+	}
+    #军政关系矛盾
+	spriteType = {
+		name = "GFX_idea_Military_political_rc"
+		texturefile = "gfx/interface/ideas/ARG/Military_political_rc.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Military_political_rc_desc" 
+		texturefile = "gfx/interface/ideas/ARG/Military_political_rc_desc.png"
+		legacy_lazy_load = no
+	}
+    #罗加-萨罗协议
+	spriteType = {
+		name = "GFX_idea_Roga_Saro_Agreement"
+		texturefile = "gfx/interface/ideas/ARG/Roga_Saro_Agreement.png"
+	}
+	#阿根廷国立石油公司
+	spriteType = {
+		name = "GFX_idea_Argentine_National_Oil_Company"
+		texturefile = "gfx/interface/ideas/ARG/Argentine_National_Oil_Company.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Argentine_National_Oil_Company_desc" 
+		texturefile = "gfx/interface/ideas/ARG/Argentine_National_Oil_Company_desc.png"
+		legacy_lazy_load = no
+	}
+	#巴拉圭指数：沸反盈天
+	spriteType = {
+		name = "GFX_idea_Paraguay_Index"
+		texturefile = "gfx/interface/ideas/ARG/Paraguay_Index.png"
+	}
+	spriteType = {
+		name = "GFX_idea_Paraguay_Index_desc" 
+		texturefile = "gfx/interface/ideas/ARG/Paraguay_Index_desc.png"
+		legacy_lazy_load = no
+	}
+	#南美灯塔
+	spriteType = {
+		name = "GFX_idea_south_america_lighthouse"
+		texturefile = "gfx/interface/ideas/ARG/south_america_lighthouse.png"
+	}
 	#海德拉巴民族精神
 	#璀璨戈尔康达
 	spriteType = {

@@ -386,6 +386,11 @@ spriteTypes = {
 		name = "GFX_JOR_Abdullah_Ibin_Hussein_large"
 		texturefile = "gfx/leaders/JOR/JOR_Abdullah_Ibin_Hussein.png"
 	}
+	#犹太国
+	spriteType = { #哈伊姆·魏茨曼
+		name = "GFX_ISR_Chaim_Weizmann_large"
+		texturefile = "gfx/leaders/ISR/ISR_Chaim_Weizmann.png"
+	}
 
 
 
@@ -433,18 +438,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_RUS_Mikhail_Konstantinovich_Tzeterikhs"
 		texturefile = "gfx/leaders/RUS/RUS_Mikhail_Konstantinovich_Tzeterikhs.dds"
-	}
-	spriteType = {
-		name = "GFX_POL_Józef_ Klemens_Piłsudski"
-		texturefile = "gfx/leaders/POL/POL_Józef_ Klemens_Piłsudski.dds"
-	}
-	spriteType = {
-		name = "GFX_JAP_Tsuyoshi_Inukai"
-		texturefile = "gfx/leaders/JAP/JAP_Tsuyoshi_Inukai.dds"
-	}
-	spriteType = {
-		name = "GFX_REZHEN"
-		texturefile = "gfx/leaders/CHI/TIB_REZHEN.dds"
 	}
 	spriteType = {
 		name = "GFX_TVE_TAN_LEADERS"
@@ -507,10 +500,6 @@ spriteTypes = {
 		texturefile = "gfx/leaders/RHI/RHI_Konrad_Adenauer.dds"
 	}
 	spriteType = {
-		name = "GFX_ITA_Gaetano_Rapagnetta"
-		texturefile = "gfx/leaders/ITA/ITA_Gaetano_Rapagnetta.dds"
-	}
-	spriteType = {
 		name = "GFX_TUR_Mustafa_Kemal_Ataturk"
 		texturefile = "gfx/leaders/TUR/TUR_Mustafa_Kemal_Ataturk.dds"
 	}
@@ -541,10 +530,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_AUS_OTTO_I"
 		texturefile = "gfx/leaders/AUS/AUS_OTTO_I.dds"
-	}
-	spriteType = {
-		name = "GFX_CHI_ARMY_STATE"
-		texturefile = "gfx/leaders/CHI/CHI_ARMY_STATE.dds"
 	}
 	spriteType = {
 		name = "GFX_BLR_Biełaruskaja_centralnaja_rada"
@@ -606,10 +591,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_TVE_SAU_LEADERS"
 		texturefile = "gfx/leaders/SAU/TVE_SAU_LEADERS.dds"
-	}
-	spriteType = {
-		name = "GFX_TVE_SYR_LEADERS"
-		texturefile = "gfx/leaders/SYR/TVE_SYR_LEADERS.dds"
 	}
 	spriteType = {
 		name = "GFX_TVE_MLY_LEADERS"

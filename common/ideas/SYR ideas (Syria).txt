@@ -10,7 +10,7 @@ ideas = {
                 political_power_cost = 0.1
 				stability_factor = -0.10
 				production_factory_efficiency_gain_factor = -0.10
-				production_factory_max_efficiency_factor =  -0.10
+				production_factory_max_efficiency_factor = -0.10
 				line_change_production_efficiency_factor = -0.10
 				industrial_capacity_factory = -0.15
 				production_speed_buildings_factor = -0.20
@@ -40,11 +40,14 @@ ideas = {
 			on_add = { log = "[GetLogRoot]: add idea SYR_Beneath_Prison_Cage" }
 			picture = Beneath_Prison_Cage
 			allowed = { always = no }
+			targeted_modifier = {
+				tag = TUR
+				cic_to_target_factor = 0.30
+				mic_to_target_factor = 0.30
+			}
 			modifier = {
                 political_power_factor = -0.20
 				stability_factor = -0.05
-				cic_to_overlord_factor = 0.30
-				mic_to_overlord_factor = 0.30
 				custom_modifier_tooltip = SYR_Beneath_Prison_Cage_tt
 			}
 		}

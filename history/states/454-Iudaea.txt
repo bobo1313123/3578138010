@@ -1,16 +1,14 @@
 state = {
 	id = 454
-	name = "STATE_454" #Palestine
-	manpower = 933142
+	name = "STATE_454"
+	manpower = 733142
 	
-	state_category = rural
+	state_category = town
 
 	history = {
-
 		owner = ISR
-		add_core_of = PAL
 		add_core_of = ISR
-
+		add_core_of = PAL
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -20,10 +18,10 @@ state = {
 			}
 		}
 		victory_points = {
-			1086 3 # Jerusalem
+			1086 8 #耶路撒冷
 		}
 		victory_points = {
-			4206 1 # Tel Aviv
+			4206 2
 		}
 		
 		

@@ -1,34 +1,4 @@
 spriteTypes = { 
-	###领导人及将领
-	spriteType = { #阿梅迪奥二世
-		name = "GFX_leader_ARG_Amedeo_II"
-		texturefile = "gfx/leaders/ARG/ARG_Amedeo_II.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #马塞洛·托尔夸托·德·阿尔维亚尔
-		name = "GFX_leader_ARG_Marcelo_Torquato_de_Alvial"
-		texturefile = "gfx/leaders/ARG/ARG_Marcelo_Torquato_de_Alvial.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #恩里克·马丁内斯
-        name = "GFX_leader_ARG_Enrique_Ma_rtinez"
-        textureFile = "gfx/leaders/ARG/ARG_Enrique_Ma_rtinez.dds"
-    }
-	spriteType = { #胡安·皮斯塔里尼
-		name = "GFX_general_ARG_Juan_Pistarini"
-		texturefile = "gfx/leaders/ARG/ARG_Juan_Pistarini.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #胡安·庇隆
-		name = "GFX_general_ARG_Juan_Peron"
-		texturefile = "gfx/leaders/ARG/ARG_Juan_Peron.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #胡安·庇隆
-		name = "GFX_general_ARG_Edelmiro_Julian_Farrell_Proul"
-		texturefile = "gfx/leaders/ARG/ARG_Edelmiro_Julian_Farrell_Proul.dds"
-		legacy_lazy_load = no
-	}
 	 #事件及世界新闻配图
     spriteType = { #阿根廷的吹哨人
         name = "GFX_news_AGR_Argentina_s_whistleblower"
@@ -46,67 +16,6 @@ spriteTypes = {
         name = "GFX_news_ARG_Fengtian_Jingnan"
         textureFile = "gfx/interface/events/ARG/ARG_Fengtian_Jingnan.dds"
     }
-
-	###民族精神
-	spriteType = { #饱受争议的王室
-		name = "GFX_idea_ARG_The_controversial_royal_family"
-		texturefile = "gfx/interface/ideas/ARG/ARG_The_controversial_royal_family.dds"
-	}
-	spriteType = { #失去的繁荣
-		name = "GFX_idea_ARG_lost_prosperity"
-		texturefile = "gfx/interface/ideas/ARG/ARG_lost_prosperity.dds"
-	}
-	spriteType = { #军政关系矛盾
-		name = "GFX_idea_ARG_Military_political_rc"
-		texturefile = "gfx/interface/ideas/ARG/ARG_Military_political_rc.dds"
-	}
-	spriteType = { #罗加-萨罗协议
-		name = "GFX_idea_ARG_Roga_Saro_Agreement"
-		texturefile = "gfx/interface/ideas/ARG/ARG_Roga_Saro_Agreement.dds"
-	}
-	spriteType = { #阿根廷国立石油公司
-		name = "GFX_idea_ARG_Argentine_National_Oil_Company"
-		texturefile = "gfx/interface/ideas/ARG/ARG_Argentine_National_Oil_Company.dds"
-	}
-	spriteType = { #巴拉圭指数：沸反盈天
-		name = "GFX_idea_ARG_Paraguay_Index"
-		texturefile = "gfx/interface/ideas/ARG/ARG_Paraguay_Index.dds"
-	}
-	spriteType = { #南美灯塔
-		name = "GFX_idea_ARG_south_america_lighthouse"
-		texturefile = "gfx/interface/ideas/ARG/ARG_south_america_lighthouse.dds"
-	}
-	###民族精神配图
-	spriteType = { #饱受争议的王室配图 
-		name = "GFX_ARG_The_controversial_royal_family_Pictures" 
-		texturefile = "gfx/texticons/banners/ARG/ARG_The_controversial_royal_family_Pictures.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #军政关系矛盾配图 
-		name = "GFX_ARG_Military_political_rc_Pictures" 
-		texturefile = "gfx/texticons/banners/ARG/ARG_Military_political_rc_Pictures.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #失去的繁荣配图
-		name = "GFX_ARG_lost_prosperity_Pictures" 
-		texturefile = "gfx/texticons/banners/ARG/ARG_lost_prosperity_Pictures.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #阿根廷国立石油公司配图 
-		name = "GFX_ARG_Argentine_National_Oil_Company_Pictures" 
-		texturefile = "gfx/texticons/banners/ARG/ARG_Argentine_National_Oil_Company_Pictures.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #巴拉圭指数：沸反盈天配图一
-		name = "GFX_ARG_Paraguay_Index_Pictures" 
-		texturefile = "gfx/texticons/banners/ARG/ARG_Paraguay_Index_Pictures.dds"
-		legacy_lazy_load = no
-	}
-	spriteType = { #巴拉圭指数：沸反盈天配图二
-		name = "GFX_ARG_PAR_Pedro_Pablo_Ramirez_Pictures" 
-		texturefile = "gfx/texticons/banners/PAR/PAR_Pedro_Pablo_Ramirez_Pictures.dds"
-		legacy_lazy_load = no
-	}
 	#子意思形态配图
 	spriteType = { #自由激进主义
 		name = "GFX_ARG_liberal_radicalism_Pictures"

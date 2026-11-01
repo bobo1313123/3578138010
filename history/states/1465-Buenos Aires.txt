@@ -1,0 +1,35 @@
+
+state={
+	id = 1465
+	name="STATE_1465"
+	manpower = 921261
+	resources={
+
+	}
+	
+	state_category = large_city
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		victory_points = {
+			12364 18
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 1
+			12364 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+			}
+		}
+	}
+
+	provinces={
+		12364 13540
+	}
+
+	local_supplies=0.0 
+}

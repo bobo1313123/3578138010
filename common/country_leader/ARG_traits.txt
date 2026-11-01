@@ -1,7 +1,14 @@
-leader_traits ={ 
-	ARG_honorary_king = { #名誉国王
+leader_traits ={
+	#领导人特质
+	#名誉国王
+	ARG_honorary_king = {
+		random = no
 		war_support_factor = 0.05
 		stability_factor = 0.05
+	}
+	#体质差
+	ARG_Poor_physical_constitution = {
+		random = no
 	}
 	ARG_prime_minister_number_one = { #一号首相
 		stability_factor = -0.05

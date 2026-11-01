@@ -1178,7 +1178,7 @@ opinion_modifiers = {
 		value = 30
 	}
 	BRB_argentine_militaryaid = { #阿根廷军事援助
-		value = 40
+		value = 60
 	}
 	COL_Do_not_train_the_border = { #不训边境
 		value = -50

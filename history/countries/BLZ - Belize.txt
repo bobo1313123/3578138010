@@ -1,7 +1,7 @@
 ﻿capital = 311 #伯利兹
 oob = "BLZ_1935"
-set_war_support = 0.3
 set_stability = 0.3
+set_war_support = 0.3
 starting_train_buffer = 1
 set_fuel_ratio = 0.8
 set_research_slots = 2

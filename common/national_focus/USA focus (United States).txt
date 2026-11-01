@@ -52,7 +52,7 @@ focus_tree={
 		icon = GFX_goal_USA_Uphold_Republican_Traditions
 		relative_position_id = USA_Political_rotation_end
 		prerequisite = { focus = USA_President_Coolidges_Term }
-		x =-4
+		x = -4
 		y = 2
 		cost = 3
 		ai_will_do = { 
@@ -95,6 +95,64 @@ focus_tree={
 			hidden_effect = {
 				activate_targeted_decision = { target = USA decision = USA_Open_channels_for_public_deliberation }
 			}
+		}
+	}
+	#国家瓶颈事业
+	focus = {
+		id = USA_National_Bottleneck_Project
+		icon = GFX_goal_USA_National_Bottleneck_Project
+		relative_position_id = USA_Political_rotation_end
+		prerequisite = { focus = USA_President_Coolidges_Term }
+		x = 4
+		y = 2
+		cost = 3
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { 
+			add_ideas = USA_Basic_affairs_taken_over
+		}
+	}
+	#整肃政坛乱象
+	focus = {
+		id = USA_National_Bottleneck_Project
+		icon = GFX_goal_USA_National_Bottleneck_Project
+		relative_position_id = USA_Political_rotation_end
+		prerequisite = { focus = USA_Uphold_Republican_Traditions }
+		x = -6
+		y = 3
+		cost = 3
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { 
+			add_ideas = USA_Road_to_Democratic_Reform
+		}
+	}
+	#州权归位
+	focus = {
+		id = USA_State_powers_restored
+		icon = GFX_goal_USA_State_powers_restored
+		relative_position_id = USA_Political_rotation_end
+		prerequisite = { focus = USA_Uphold_Republican_Traditions }
+		prerequisite = { focus = USA_Society_Mending_and_Tearing }
+		x = -2
+		y = 3
+		cost = 2.2
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { 
+			
 		}
 	}
 }

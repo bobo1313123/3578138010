@@ -293,7 +293,7 @@ spriteTypes = {
 		name = "GFX_SPM_Jose_Enrique_Valrela_large"
 		texturefile = "gfx/leaders/SPM/SPM_Jose_Enrique_Valrela.png"
 	}
-	### 美洲大区 ###
+	### 北美洲大区 ###
 	#北方美国
 	#领导人
 	spriteType = {
@@ -368,6 +368,58 @@ spriteTypes = {
 	spriteType = { #莱昂·科尔特斯·卡斯特罗
 		name = "GFX_ELS_Leon_Cortes_Castro_large"
 		texturefile = "gfx/leaders/ELS/ELS_Leon_Cortes_Castro.png"
+	}
+	### 南美洲大区 ###
+	#阿根廷
+	#领导人
+	spriteType = {
+		name = "GFX_ARG_Amedeo_II_large"
+		texturefile = "gfx/leaders/ARG/ARG_Amedeo_II.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #马塞洛·托尔夸托·德·阿尔维亚尔
+		name = "GFX_ARG_Marcelo_Torquato_de_Alvial_large"
+		texturefile = "gfx/leaders/ARG/ARG_Marcelo_Torquato_de_Alvial.png"
+		legacy_lazy_load = no
+	}
+	spriteType = { #恩里克·马丁内斯
+        name = "GFX_ARG_Enrique_Martinez_large"
+        textureFile = "gfx/leaders/ARG/ARG_Enrique_Martinez.png"
+    }
+	#元帅
+	spriteType = { #佩德罗·欧亨尼奥·阿兰布鲁
+        name = "GFX_ARG_Pedro_Eugenio_Aramburu_large"
+        textureFile = "gfx/leaders/ARG/ARG_Pedro_Eugenio_Aramburu.png"
+    }
+	spriteType = { #胡安·皮斯塔里尼
+		name = "GFX_ARG_Juan_Pistarini_large"
+		texturefile = "gfx/leaders/ARG/ARG_Juan_Pistarini.png"
+	}
+	#上将
+	spriteType = { #胡安·庇隆
+		name = "GFX_ARG_Juan_Peron_large"
+		texturefile = "gfx/leaders/ARG/ARG_Juan_Peron.png"
+	}
+	spriteType = { #埃德尔米罗·胡利安·法雷尔·普劳尔
+		name = "GFX_general_ARG_Edelmiro_Julian_Farrell_Proul"
+		texturefile = "gfx/leaders/ARG/ARG_Edelmiro_Julian_Farrell_Proul.png"
+	}
+	#巴拉圭
+	#领导人
+	spriteType = { #巴勃罗·拉米雷斯
+		name = "GFX_PAR_Pablo_Ramirez_large"
+		texturefile = "gfx/leaders/PAR/PAR_Pablo_Ramirez.png"
+		legacy_lazy_load = no
+	}
+	#巴塔哥尼亚
+	spriteType = {
+		name = "GFX_BTG_Antoine_III_large"
+		texturefile = "gfx/leaders/BTG/BTG_Antoine_III.png"
+	}
+	#普拉蒂尼
+	spriteType = { #热图里奥·瓦加斯
+		name = "GFX_BRB_Getulio_Vargas_large"
+		texturefile = "gfx/leaders/BRB/BRB_Getulio_Vargas.png"
 	}
 	### 印度大区 ###
 	#海德拉巴

@@ -1,6 +1,32 @@
-﻿add_namespace = usa_intro
+﻿add_namespace = tfe_usa_focus
+add_namespace = usa_intro
 add_namespace = tfe_usa_news
 add_namespace = tfe_usa
+
+#美国精神
+country_event = {
+	id = tfe_usa_focus.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tfe_usa_focus.1" }
+	title = tfe_usa_focus.1.t
+	desc = tfe_usa_focus.1.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = tfe_usa_focus.1.a
+	}
+}
+#繁荣前景
+country_event = {
+	id = tfe_usa_focus.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event tfe_usa_focus.2" }
+	title = tfe_usa_focus.2.t
+	desc = tfe_usa_focus.2.d
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = tfe_usa_focus.2.a
+	}
+}
 
 country_event = {
 	id = usa_intro.1

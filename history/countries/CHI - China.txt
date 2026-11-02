@@ -99,14 +99,14 @@ save_global_event_target_as = WTT_current_china_leader
 set_convoys = 40
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = Democracy
 	last_election = "1932.9.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 48
+	Democracy = 48
 	Liberalism = 30
 	Conservatism = 6
 	Authoritarianism = 10

@@ -70,6 +70,10 @@ if = {
 }
 ### 领导人 ###
 recruit_character = HYD_Osman_Ali_Khan #奥斯曼·阿里·汗
+### 将领 ###
+recruit_character = HYD_Syed_Ahmed_El_Edroos #赛义德·艾哈迈德·穆赫达尔·阿尔-艾达鲁斯
+recruit_character = HYD_Azam_Jah #阿扎姆·贾
+recruit_character = HYD_Moazzam_Jah #穆阿扎姆·贾
 
 add_ideas = {
 	### 初始民族精神 ###

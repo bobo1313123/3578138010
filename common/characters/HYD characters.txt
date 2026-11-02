@@ -14,4 +14,71 @@ characters = {
 			traits={  }
 		}
 	}
+	#元帅
+	#赛义德·艾哈迈德·穆赫达尔·阿尔-艾达鲁斯
+	HYD_Syed_Ahmed_El_Edroos = {
+        name = HYD_Syed_Ahmed_El_Edroos
+        portraits = {
+            army = {
+                large = GFX_HYD_Syed_Ahmed_El_Edroos_large
+            }
+        }
+        field_marshal = {
+            skill = 3
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 3
+            traits = {
+				infantry_officer
+                trait_cautious
+                career_officer
+            }
+        }
+    }
+	#上将
+	#阿扎姆·贾
+    HYD_Azam_Jah = {
+        name = HYD_Azam_Jah
+		can_be_captured = no
+        portraits = {
+            civilian = {
+                large = GFX_HYD_Azam_Jah_large
+            }
+        }
+        corps_commander = {
+            skill = 2
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 2
+            traits = {
+				politically_connected
+                cavalry_leader
+                trait_reckless
+            }
+        }
+    }
+	#穆阿扎姆·贾
+    HYD_Moazzam_Jah = {
+        name = HYD_Moazzam_Jah
+        portraits = {
+            civilian = {
+                large = GFX_HYD_Moazzam_Jah_large
+            }
+        }
+        corps_commander = {
+            skill = 2
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+            traits = {
+                politically_connected
+				organizer
+                militias_officer
+				trait_reckless
+            }
+        }
+    }
 }

@@ -427,6 +427,18 @@ spriteTypes = {
 		name = "GFX_HYD_Osman_Ali_Khan_large"
 		texturefile = "gfx/leaders/HYD/HYD_Osman_Ali_Khan.png"
 	}
+	spriteType = { #赛义德·艾哈迈德·穆赫达尔·阿尔-艾达鲁斯
+		name = "GFX_HYD_Syed_Ahmed_El_Edroos_large"
+		texturefile = "gfx/leaders/HYD/HYD_Syed_Ahmed_El_Edroos.png"
+	}
+	spriteType = { #阿扎姆·贾
+		name = "GFX_HYD_Azam_Jah_large"
+		texturefile = "gfx/leaders/HYD/HYD_Azam_Jah.png"
+	}
+	spriteType = { #穆阿扎姆·贾
+		name = "GFX_HYD_Moazzam_Jah_large"
+		texturefile = "gfx/leaders/HYD/HYD_Moazzam_Jah.png"
+	}
 	### 中东大区 ###
 	#叙利亚
 	spriteType = { #加齐·伊本·费萨尔

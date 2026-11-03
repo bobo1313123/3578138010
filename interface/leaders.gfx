@@ -439,6 +439,10 @@ spriteTypes = {
 		name = "GFX_HYD_Moazzam_Jah_large"
 		texturefile = "gfx/leaders/HYD/HYD_Moazzam_Jah.png"
 	}
+	spriteType = { #拉贾·拉梅什瓦尔·拉奥
+		name = "GFX_HYD_Raja_Rameshwar_Rao_large"
+		texturefile = "gfx/leaders/HYD/HYD_Raja_Rameshwar_Rao.png"
+	}
 	### 中东大区 ###
 	#叙利亚
 	spriteType = { #加齐·伊本·费萨尔

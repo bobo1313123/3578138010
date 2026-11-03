@@ -24,6 +24,7 @@ characters = {
             }
         }
         field_marshal = {
+            desc = HYD_Syed_Ahmed_El_Edroos_desc
             skill = 3
             attack_skill = 2
             defense_skill = 4
@@ -47,6 +48,7 @@ characters = {
             }
         }
         corps_commander = {
+            desc = HYD_Azam_Jah
             skill = 2
             attack_skill = 3
             defense_skill = 1
@@ -62,12 +64,14 @@ characters = {
 	#穆阿扎姆·贾
     HYD_Moazzam_Jah = {
         name = HYD_Moazzam_Jah
+        can_be_captured = no
         portraits = {
             civilian = {
                 large = GFX_HYD_Moazzam_Jah_large
             }
         }
         corps_commander = {
+            desc = HYD_Moazzam_Jah_desc
             skill = 2
             attack_skill = 1
             defense_skill = 2
@@ -78,6 +82,28 @@ characters = {
 				organizer
                 militias_officer
 				trait_reckless
+            }
+        }
+    }
+    #拉贾·拉梅什瓦尔·拉奥
+    HYD_Raja_Rameshwar_Rao = {
+        name = HYD_Raja_Rameshwar_Rao
+        portraits = {
+            army = {
+                large = GFX_HYD_Raja_Rameshwar_Rao_large
+            }
+        }
+        corps_commander = {
+            desc = HYD_Raja_Rameshwar_Rao_desc
+            skill = 2
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 2
+            traits = {
+                infantry_leader
+                defensive_doctrine
+                career_officer
             }
         }
     }

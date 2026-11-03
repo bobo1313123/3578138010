@@ -1,12 +1,12 @@
 #汤化龙的土黄民国
 ROC_TangsDemo = {
-	color = rgb { 200 150 45 }
-	color_ui = rgb { 200 150 45 }
+	color = rgb { 166 134 42 }
+	color_ui = rgb { 184 152 54 }
 }
 #墨索里尼的民族共和国
 LBV_Mussolini_first = {
-	color = rgb { 126 24 42 }
-	color_ui = rgb { 126 24 42 }
+	color = rgb { 128 92 50 }
+	color_ui = rgb { 150 110 64 }
 }
 #开局纽芬兰
 NFL_England_guardian = {
@@ -90,8 +90,8 @@ BOG_color = {
 	color_ui = rgb { 80  165  10 }
 }
 FNA_color = {
-	color = rgb { 47 74 163 }
-	color_ui = rgb { 47 74 163 }
+	color = rgb { 56 92 168 }
+	color_ui = rgb { 72 110 184 }
 }
 FNA_MOR_color = {
 	color = rgb { 47 74 163 }

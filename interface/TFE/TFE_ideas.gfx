@@ -595,4 +595,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/HYD/Splendid_Golconda_desc.png"
 		legacy_lazy_load = no
 	}
+	#无海岸的堡垒
+	spriteType = {
+		name = "GFX_idea_fortress_without_coast"
+		texturefile = "gfx/interface/ideas/HYD/fortress_without_coast.png"
+	}
+	spriteType = {
+		name = "GFX_idea_fortress_without_coast_desc"
+		texturefile = "gfx/interface/ideas/HYD/fortress_without_coast_desc.png"
+		legacy_lazy_load = no
+	}
 }

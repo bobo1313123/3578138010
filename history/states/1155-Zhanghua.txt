@@ -14,7 +14,7 @@ state={
 			industrial_complex = 1
 		}
 		victory_points = {
-			11959 18 #台中市
+			11959 5 #台中市
 		}
 	}
 

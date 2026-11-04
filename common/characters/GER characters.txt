@@ -10,7 +10,7 @@ characters={
 		}
 		country_leader={
 			desc = GER_wilhelm_ii_desc
-			ideology = progressivism_small
+			ideology = German_Democratic_Party
 			traits={ GER_Kaiser }
 		}
 	}
@@ -26,7 +26,7 @@ characters={
 			}
 		}
 		country_leader = {
-			ideology = progressivism_small
+			ideology = German_Democratic_Party
 		}
 		advisor = {
 			slot = second_in_command

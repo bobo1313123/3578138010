@@ -8,11 +8,18 @@ focus_tree={
 		}
 	}
 
+	continuous_focus_position = { x = 2500 y = 2000 }
+
+	initial_show_position = {
+		x = 8
+		y = -1
+	}
+
 	#苟延残喘
 	focus = {
 		id = GER_clinging_to_life
 		icon = GFX_goal_GER_clinging_to_life
-		x = 14
+		x = 8
 		y = 0
 		cost=1
 		ai_will_do = {
@@ -29,7 +36,7 @@ focus_tree={
 	focus={ #最后一笔债务
 		id=GER_last_debt
 		icon=GFX_GER_last_debt
-		x=14
+		x=8
 		y=1
 		prerequisite={focus=GER_clinging_to_life}
 		cost=1
@@ -52,7 +59,7 @@ focus_tree={
 	focus={ #柏林阅兵
 		id=GER_Berlin_military_parade
 		icon=GFX_GER_Berlin_military_parade
-		x=14
+		x=8
 		y=2
 		prerequisite={focus=GER_last_debt}
 		cost=2
@@ -75,7 +82,7 @@ focus_tree={
 	}
 	focus={ #工人暴乱
 		id=GER_workers_riot
-		x=14
+		x=8
 		y=3
 		prerequisite={focus=GER_Berlin_military_parade}
 		cost=0
@@ -96,7 +103,7 @@ focus_tree={
 	}
 	focus={ #寂静的夜晚
 		id=GER_A_quiet_night
-		x=14
+		x=8
 		y=4
 		prerequisite={focus=GER_workers_riot}
 		cost=4
@@ -115,7 +122,7 @@ focus_tree={
 	}
 	focus={ #宣布紧急状态
 		id=GER_declare_a_state_of_emergency
-		x=14
+		x=8
 		y=5
 		prerequisite={focus=GER_A_quiet_night}
 		cost=5
@@ -133,7 +140,7 @@ focus_tree={
 	}
 	focus={ #稳定议会
 		id=GER_Stable_parliament
-		x=12
+		x=6
 		y=6
 		prerequisite={focus=GER_declare_a_state_of_emergency}
 		cost=4
@@ -151,7 +158,7 @@ focus_tree={
 	}
 	focus={ #开放部分选举
 		id=GER_open_partial_elections
-		x=12
+		x=6
 		y=7
 		prerequisite={focus=GER_Stable_parliament}
 		cost=2
@@ -168,7 +175,7 @@ focus_tree={
 	}
 	focus={ #安顿失业青年
 		id=GER_Settle_unemployed_youth
-		x=12
+		x=6
 		y=8
 		prerequisite={focus=GER_open_partial_elections}
 		cost=2
@@ -188,7 +195,7 @@ focus_tree={
 	}
 	focus={ #安抚军方
 		id=GER_appease_the_military
-		x= 16
+		x= 10
 		y=6
 		prerequisite={focus=GER_declare_a_state_of_emergency}
 		cost=4
@@ -207,7 +214,7 @@ focus_tree={
 	}
 	focus={ #召见施莱谢尔
 		id=GER_Summon_Schleicher
-		x=16
+		x=10
 		y=7
 		prerequisite={focus=GER_appease_the_military}
 		cost=1
@@ -225,7 +232,7 @@ focus_tree={
 	}
 	focus={ #让火焰熄灭
 		id=GER_Extinguish_the_flames
-		x=16
+		x=10
 		y=8
 		prerequisite={focus=GER_Summon_Schleicher}
 		cost=2
@@ -243,7 +250,7 @@ focus_tree={
 	}
 	focus={ #筹备1935年大选
 		id=GER_Preparations_for_the_1935_ge
-		x=14
+		x=8
 		y=9
 		prerequisite={focus=GER_Settle_unemployed_youth}
 		prerequisite={focus=GER_Extinguish_the_flames}

@@ -85,14 +85,14 @@ spriteTypes = {
 	    name = "GFX_focus_COL_Building_ttob_shine"
 	    texturefile = "gfx/interface/goals/COL/COL_Building_ttob.dds"
 	}
-	#SpriteType = { #和工会的洽谈
-	#    name = "GFX_focus_COL_Negotiations_wtlu"
-	#    texturefile = "gfx/interface/goals/COL/COL_Negotiations_wtlue.dds"
-	#}
-	#SpriteType = { #和工会的洽谈
-	#    name = "GFX_focus_COL_Negotiations_wtlu_shine"
-	#    texturefile = "gfx/interface/goals/COL/COL_Negotiations_wtlue.dds"
-	#}
+	SpriteType = { #与工会的洽谈
+	    name = "GFX_focus_COL_Negotiations_wtlu"
+	    texturefile = "gfx/interface/goals/COL/COL_Negotiations_wtlu.dds"
+	}
+	SpriteType = { #与工会的洽谈
+	    name = "GFX_focus_COL_Negotiations_wtlu_shine"
+	    texturefile = "gfx/interface/goals/COL/COL_Negotiations_wtlu.dds"
+	}
 	SpriteType = { #回顾往昔
 	    name = "GFX_focus_COL_Looking_back_otp"
 	    texturefile = "gfx/interface/goals/COL/COL_Looking_back_otp.dds"
@@ -117,14 +117,14 @@ spriteTypes = {
 	    name = "GFX_focus_COL_Contact_the_pic_shine"
 	    texturefile = "gfx/interface/goals/COL/COL_Contact_the_pic.dds"
 	}
-	#SpriteType = { #谴责政变
-	#    name = "GFX_focus_COL_Condemn_the_coup"
-	#    texturefile = "gfx/interface/goals/COL/COL_Condemn_the_coup.dds"
-	#}
-	#SpriteType = { #谴责政变
-	#    name = "GFX_focus_COL_Condemn_the_coup_shine"
-	#    texturefile = "gfx/interface/goals/COL/COL_Condemn_the_coup.dds"
-	#}
+	SpriteType = { #谴责政变
+	    name = "GFX_focus_COL_Condemn_the_coup"
+	    texturefile = "gfx/interface/goals/COL/COL_Condemn_the_coup.dds"
+	}
+	SpriteType = { #谴责政变
+	    name = "GFX_focus_COL_Condemn_the_coup_shine"
+	    texturefile = "gfx/interface/goals/COL/COL_Condemn_the_coup.dds"
+	}
 	SpriteType = { #合并左翼联盟事务
 	    name = "GFX_focus_COL_Consolidating_lwaa"
 	    texturefile = "gfx/interface/goals/COL/COL_Consolidating_lwaa.dds"
@@ -133,11 +133,11 @@ spriteTypes = {
 	    name = "GFX_focus_COL_Consolidating_lwaa_shine"
 	    texturefile = "gfx/interface/goals/COL/COL_Consolidating_lwaa.dds"
 	}
-	SpriteType = { #接通普马雷霍
+	SpriteType = { #接通昔马雷霍
 	    name = "GFX_focus_COL_Connect_to_Pumarejo"
 	    texturefile = "gfx/interface/goals/COL/COL_Connect_to_Pumarejo.dds"
 	}
-	SpriteType = { #接通普马雷霍
+	SpriteType = { #接通昔马雷霍
 	    name = "GFX_focus_COL_Connect_to_Pumarejo_shine"
 	    texturefile = "gfx/interface/goals/COL/COL_Connect_to_Pumarejo.dds"
 	}
@@ -158,21 +158,21 @@ spriteTypes = {
 	    texturefile = "gfx/interface/goals/COL/COL_Reflecting_on_ttdw.dds"
 	}
 	SpriteType = { #新建的哥伦比亚
-	    name = "GFX_focus_COL_A_fully_ripe_pomegranate"
+	    name = "GFX_focus_COL_The_newly_built_Colombia"
 	    texturefile = "gfx/interface/goals/COL/COL_The_newly_built_Colombia.dds"
 	}
 	SpriteType = { #新建的哥伦比亚
-	    name = "GFX_focus_COL_A_fully_ripe_pomegranate_shine"
+	    name = "GFX_focus_COL_The_newly_built_Colombia_shine"
 	    texturefile = "gfx/interface/goals/COL/COL_The_newly_built_Colombia.dds"
 	}
-	#SpriteType = { #以民主为纲领
-	#    name = "GFX_focus_COL_Taking_democracy_atgp"
-	#    texturefile = "gfx/interface/goals/COL/COL_Taking_democracy_atgp.dds"
-	#}
-	#SpriteType = { #以民主为纲领
-	#    name = "GFX_focus_COL_Taking_democracy_atgp_shine"
-	#    texturefile = "gfx/interface/goals/COL/COL_Taking_democracy_atgp.dds"
-	#}
+	SpriteType = { #以民主为纲领
+	    name = "GFX_focus_COL_Taking_democracy_atgp"
+	    texturefile = "gfx/interface/goals/COL/COL_Taking_democracy_atgp.dds"
+	}
+	SpriteType = { #以民主为纲领
+	    name = "GFX_focus_COL_Taking_democracy_atgp_shine"
+	    texturefile = "gfx/interface/goals/COL/COL_Taking_democracy_atgp.dds"
+	}
 	SpriteType = { #熟透的石榴
 	    name = "GFX_focus_COL_A_fully_ripe_pomegranate"
 	    texturefile = "gfx/interface/goals/COL/COL_A_fully_ripe_pomegranate.dds"
@@ -197,14 +197,14 @@ spriteTypes = {
 	    name = "GFX_focus_COL_A_united_nation_shine"
 	    texturefile = "gfx/interface/goals/COL/COL_A_united_nation.dds"
 	}
-	#SpriteType = { #大哥伦比亚之黎明
-	#    name = "GFX_focus_COL_The_Dawn_of_gc"
-	#    texturefile = "gfx/interface/goals/COL/COL_The_Dawn_of_gc.dds"
-	#}
-	#SpriteType = { #大哥伦比亚之黎明
-	#    name = "GFX_focus_COL_The_Dawn_of_gc_shine"
-	#    texturefile = "gfx/interface/goals/COL/COL_The_Dawn_of_gc.dds"
-	#}
+	SpriteType = { #大哥伦比亚之黎明
+	    name = "GFX_focus_COL_The_Dawn_of_gc"
+	    texturefile = "gfx/interface/goals/COL/COL_The_Dawn_of_gc.dds"
+	}
+	SpriteType = { #大哥伦比亚之黎明
+	    name = "GFX_focus_COL_The_Dawn_of_gc_shine"
+	    texturefile = "gfx/interface/goals/COL/COL_The_Dawn_of_gc.dds"
+	}
 	#SpriteType = { #闪耀的启明星
 	#    name = "GFX_focus_COL_The_Shining_Morning_Star"
 	#    texturefile = "gfx/interface/goals/COL/COL_The_Shining_Morning_Star.dds"

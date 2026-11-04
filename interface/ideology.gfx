@@ -167,4 +167,8 @@ spriteTypes = {
 		name = "GFX_ideology_steady_Progressivism_subtype"
 		texturefile = "gfx/interface/ideologies/steady_Progressivism_subtype.dds"
 	}
+	spriteType = { #德意志民主党
+		name = "GFX_ideology_German_Democratic_Party"
+		texturefile = "gfx/interface/ideologies/German_Democratic_Party.dds"
+	}
 }

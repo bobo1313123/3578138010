@@ -123,6 +123,9 @@ ideologies = {
 			Gaitanism = { #盖坦主义
 				can_be_randomly_selected = no
 			}
+			German_Democratic_Party = { #德意志民主党
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {

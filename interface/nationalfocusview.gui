@@ -624,7 +624,7 @@ guiTypes = {
 
 	positionType = {
 		name = "focus_spacing"
-		position = { x = 96 y = 130 }
+		position = { x = 96 y = 160 }
 	}
 
 	positionType = {

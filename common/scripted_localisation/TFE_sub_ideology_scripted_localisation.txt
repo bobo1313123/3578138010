@@ -81,6 +81,12 @@ defined_text = {
 	name = GetSubIdeologyLocLibSoc
 	#进步主义及其子意识形态
 	text = {
+		trigger = { #德意志民主党
+			has_country_leader_ideology = German_Democratic_Party
+		}
+		localization_key = German_Democratic_Party
+	}
+	text = {
 		trigger = { #进步主义
 			OR = {
 				has_country_leader_ideology = progressivism_small

@@ -44,6 +44,15 @@ spriteTypes = {
     }
 
 	#国策
+	spriteType = { #最后一笔债务
+		name = "GFX_GER_last_debt"
+		texturefile = "gfx/interface/goals/GER/GER_last_debt.dds"
+	}
+	
+	spriteType = { #柏林阅兵
+		name = "GFX_GER_Berlin_military_parade"
+		texturefile = "gfx/interface/goals/GER/GER_Berlin_military_parade.dds"
+	}
 	spriteType = { #苟延残喘
 		name = "GFX_goal_GER_clinging_to_life"
 		texturefile = "gfx/interface/goals/GER/GER_clinging_to_life.dds"

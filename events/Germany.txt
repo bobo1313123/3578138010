@@ -6,6 +6,7 @@ country_event = { #一夜
 	id = germany.1
 	title = germany.1.t
 	desc = germany.1.d
+	picture = GFX_report_event_germany_night
 	is_triggered_only = yes
 	#yes	
 	option = {

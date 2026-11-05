@@ -1,31 +1,23 @@
 state = {
 	id = 1020
 	name = "STATE_1020"
-	manpower = 711290
-	state_category = town
-	resources = {
-	}
 
 	history = {
-
-		owner = BLR
-		add_claim_by = SOV
+		owner = SOV
+		add_core_of = SOV
 		add_core_of = BLR
-
-		#victory_points = {
-		#	11386 1 # Lyck
-		#}
-		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 		}
-		
 	}
 
 	provinces={
 		6371 9241 3331 6220
 	}
 
-	local_supplies = 20.0 
+	manpower = 711290
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies = 5.0 
 }

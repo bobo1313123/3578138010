@@ -2,32 +2,28 @@
 state={
 	id = 1445
 	name="STATE_1445"
-	manpower = 2826781
-	resources={
-
-	}
 	
-	state_category = town
-
 	history={
 		owner = POL
-		victory_points = {
-			11301 3
-		}
-		
+		add_core_of = POL
+		add_claim_by = LIT
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+			arms_factory = 1
 			air_base = 1
 		}
-	
-		add_core_of = POL
-		add_core_of = LIT
+		victory_points = {
+			11301 3
+		}
 	}
 
 	provinces={
 		400 347 11301 11357
 	}
+	manpower = 1926720
+	buildings_max_level_factor=1.000
+	state_category = town
 
 	local_supplies=0.0 
 }

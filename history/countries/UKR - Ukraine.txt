@@ -95,7 +95,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = UKR_BIDE_LIULA
+	name = "西蒙·彼得留拉"
 	picture = GFX_UKR_BIDE_LIULA
 	ideology = progressivism_small
 }

@@ -100,8 +100,7 @@ add_ideas={
 	POL_Sejm_panic #瑟姆恐慌
 	POL_Street_brawl #街头斗殴
 	POL_Ramparts_of_Rotting_Flesh #腐烂生蛆的血肉长城
-	#副手
-	POL_Walery_Slawek_sic
+	
 }
 
 set_variable = {
@@ -125,7 +124,7 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = BLR
-	autonomy_state = Comrade_country
+	autonomy_state = Governorate
 }
 set_autonomy = {
 	target = UKR

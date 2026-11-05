@@ -493,10 +493,6 @@
  ARM_Liberalism_party: "亚美尼亚革命联盟" #or ARF
  ARM_communism_party: "亚美尼亚共产党"
  ARM_Authoritarianism_party: "中央政权"
- BLR_fascism_party: "白俄罗斯中央委员会"
- BLR_Liberalism_party: "白俄罗斯基督教民主党"
- BLR_communism_party: "白俄罗斯共产党"
- BLR_Authoritarianism_party: "博热涅茨·叶沃维茨基"
  PAK_Liberalism_party: "共和党"
  PAK_communism_party: "巴基斯坦社会党"
  PAK_Authoritarianism_party: "穆斯林联盟"

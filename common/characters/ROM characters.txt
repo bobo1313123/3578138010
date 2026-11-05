@@ -696,8 +696,7 @@ characters={
 		}
 	}
 
-	#为兼容原版事件 events/NSB_Poland.txt（米哈伊尔流亡波兰）而保留的占位角色。
-	#架空设定中罗马尼亚是共和国，故不设 country_leader，他不会出现在罗马尼亚政治界面。
+	#米哈伊尔（占位，流亡波兰）
 	ROM_king_michael={
 		name = ROM_king_michael
 		portraits={

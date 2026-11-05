@@ -25,10 +25,10 @@ defined_text = {
         localization_key = "DOM_Raphael_Trujillo_sl_desc"
     }
     text = {
-        trigger = { #威廉二世
-            has_idea = GER_wilhelm_ii
+        trigger = { #亚尔马·沙赫特
+            has_idea = GER_Hjalmar_Schacht
         }
-        localization_key = "GER_wilhelm_ii_sl_desc"
+        localization_key = "GER_Hjalmar_Schacht_sl_desc"
     }
     text = {
         trigger = { #尼古拉·约尔加

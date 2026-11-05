@@ -443,6 +443,10 @@ spriteTypes = {
 		name = "GFX_HYD_Raja_Rameshwar_Rao_large"
 		texturefile = "gfx/leaders/HYD/HYD_Raja_Rameshwar_Rao.png"
 	}
+	spriteType = { #萨法拉兹·阿里·汗
+		name = "GFX_HYD_Sarfaraz_Ali_Khan_large"
+		texturefile = "gfx/leaders/HYD/HYD_Sarfaraz_Ali_Khan.png"
+	}
 	### 中东大区 ###
 	#叙利亚
 	spriteType = { #加齐·伊本·费萨尔

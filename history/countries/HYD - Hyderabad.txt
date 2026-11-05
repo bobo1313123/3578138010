@@ -75,6 +75,7 @@ recruit_character = HYD_Syed_Ahmed_El_Edroos #赛义德·艾哈迈德·穆赫达
 recruit_character = HYD_Azam_Jah #阿扎姆·贾
 recruit_character = HYD_Moazzam_Jah #穆阿扎姆·贾
 recruit_character = HYD_Raja_Rameshwar_Rao #拉贾·拉梅什瓦尔·拉奥
+recruit_character = HYD_Sarfaraz_Ali_Khan #萨法拉兹·阿里·汗
 
 add_ideas = {
 	### 初始民族精神 ###

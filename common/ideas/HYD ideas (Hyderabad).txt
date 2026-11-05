@@ -10,7 +10,7 @@ ideas = {
 				stability_factor = 0.25
 				consumer_goods_factor = -0.15
 				local_resources_factor = 0.15
-				local_building_slots_factor = 0.25
+				global_building_slots_factor = 0.25
 				trade_opinion_factor = 0.15
 			}
 		}

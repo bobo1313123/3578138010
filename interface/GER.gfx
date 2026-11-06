@@ -8,14 +8,17 @@ spriteTypes = {
 	spriteType = { #亚尔马·沙赫特
 		name = "GFX_leader_GER_Hjalmar_Schacht"
 		texturefile = "gfx/leaders/GER/GER_Hjalmar_Schacht.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = { #海因里希·布吕宁
 		name = "GFX_leader_GER_Heinrich_Bruning"
 		texturefile = "gfx/leaders/GER/GER_Heinrich_Bruning.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = { #库尔特·冯·施莱谢尔
 		name = "GFX_leader_GER_Kurt_von_Schleicher"
 		texturefile = "gfx/leaders/GER/GER_Kurt_von_Schleicher.dds"
+		legacy_lazy_load = no
 	}
 	
 	

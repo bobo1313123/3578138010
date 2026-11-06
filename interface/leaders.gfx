@@ -204,6 +204,12 @@ spriteTypes = {
 		name = "GFX_POL_Edward_Rydz_Smigly_large"
 		texturefile = "gfx/leaders/POL/POL_Edward_Rydz_Smigly.png"
 	}
+	#白俄罗斯
+	#领导人
+	spriteType = {
+		name = "GFX_POL_Juliusz_Rommel_large"
+		texturefile = "gfx/leaders/POL/POL_Juliusz_Rommel.png"
+	}
 	#顾问
 	spriteType = {
 		name = "GFX_POL_Walery_Slawek_small"

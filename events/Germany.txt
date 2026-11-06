@@ -29,12 +29,14 @@ country_event = { #罪人
 	immediate = {log = "[GetDateText]: [Root.GetName]: event germany.3"}
 	id = germany.3
 	title = germany.3.t
-	desc = germany..d
+	desc = germany.3.d
+	picture = GFX_report_event_germany_sinner
 	is_triggered_only = yes
 
 	#yes	
 	option = {
 		name = germany.3.a
+		add_manpower = -5
 	}
 }
 country_event = { #木偶

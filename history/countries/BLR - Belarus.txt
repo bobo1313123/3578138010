@@ -38,15 +38,14 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	Liberalism = 15
-	Authoritarianism = 60
-	communism = 20
-	fascism = 5
+	communism = 2
+	Liberalism = 1
+	Democracy = 3
+	Conservatism = 8
+	Authoritarianism = 68
+	tttt = 12
+	fascism = 6
 }
-
-recruit_character = BLR_adam_stankievic
-recruit_character = BLR_panteleimon_ponomarenko
-recruit_character = BLR_radislau_astrouski
 
 
 

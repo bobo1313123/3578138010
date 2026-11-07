@@ -6,29 +6,23 @@ state = {
 	state_category = rural
 	
 	resources = {
-		chromium = 15 # was: 22
+		chromium = 18
 	}
 
 	history = {
-
-		owner = UKR
-		add_core_of = RKR
+		owner = NRO
+		add_core_of = NRO
 		add_core_of = UKR
 		add_core_of = CRI
-
-		victory_points = {
-			721 1 # Kherson
-		}
-		
 		buildings = {
-			infrastructure = 3 #was: 5
-			air_base = 3
-
-			# Kakhovka Dam
-			#737 = { dam = 1 }
-			
+			infrastructure = 3
+			dockyard = 1
+			arms_factory = 1
+			737 = { dam = 1 }
 		}
-		
+		victory_points = {
+			721 5 #赫尔松
+		}
 	}
 
 	provinces = {

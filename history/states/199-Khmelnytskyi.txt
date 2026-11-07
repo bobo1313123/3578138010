@@ -16,7 +16,7 @@ state={
 			industrial_complex = 1
 			air_base = 3
 		}
-		add_claim_by = RKR
+		add_claim_by = NRO
 		add_core_of = UKR
 	}
 

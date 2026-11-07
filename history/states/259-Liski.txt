@@ -11,7 +11,7 @@ state={
 			11504 3
 		}
 		owner = UKR
-		add_core_of = RKR
+		add_core_of = NRO
 		buildings = {
 			infrastructure = 3 #was: 5
 		}

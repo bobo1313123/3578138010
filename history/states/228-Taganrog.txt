@@ -1,21 +1,23 @@
 
 state={
 	id=228
-	name="STATE_228" # Voroshilovgrad
-	manpower = 2167411
+	name="STATE_228"
+	manpower = 1637411
 	
 	state_category = town
 
 	history={
-		owner = UKR
-		add_core_of = RKR
-		victory_points = {
-			9461 1
-		}
-		buildings = {
-			infrastructure = 3 #was: 5
-		}
+		owner = NRO
+		add_core_of = NRO
 		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		victory_points = {
+			9461 8
+		}
 	}
 
 	provinces={

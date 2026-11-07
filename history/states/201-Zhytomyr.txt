@@ -15,7 +15,7 @@ state={
 			infrastructure = 3 #was: 5
 			air_base = 3
 		}
-		add_claim_by = RKR
+		add_claim_by = NRO
 		add_core_of = UKR
 	}
 

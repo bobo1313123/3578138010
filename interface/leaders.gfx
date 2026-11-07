@@ -26,6 +26,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	#南俄军区
+	#领导人
+	spriteType = {
+		name = "GFX_RCA_Lavr_Kornilov_large"
+		texturefile = "gfx/leaders/RCA/RCA_Lavr_Kornilov.png"
+	}
 	spriteType = {
 		name = "GFX_RCA_Anton_Denikin_large"
 		texturefile = "gfx/leaders/RCA/RCA_Anton_Denikin.png"
@@ -33,6 +38,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_RCA_Aleksey_Karelin_large"
 		texturefile = "gfx/leaders/RCA/RCA_Aleksey_Karelin.dds"
+	}
+	#新俄罗斯
+	#领导人
+	spriteType = {
+		name = "GFX_NRO_Mikhail_Drozdovsky_large"
+		texturefile = "gfx/leaders/NRO/NRO_Mikhail_Drozdovsky.dds"
 	}
 	#远东军区
 	spriteType = {
@@ -500,10 +511,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_FRA_Laval"
 		texturefile = "gfx/leaders/FRA_Laval.dds"
-	}
-	spriteType = {
-		name = "GFX_RUS_Mikhail_Gordeevich_Drozdovsky"
-		texturefile = "gfx/leaders/RUS/RUS_Mikhail_Gordeevich_Drozdovsky.dds"
 	}
 	spriteType = {
 		name = "GFX_RUS_Krasnov"

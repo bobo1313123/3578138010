@@ -1,60 +1,39 @@
 state = {
 	id = 137
 	name = "STATE_137"
-	manpower = 1061607
+	manpower = 1081607
 	
 	state_category = city
 
 	history = {
-
-		owner = UKR
-		add_core_of = RKR
-		
+		owner = NRO
+		add_core_of = NRO
 		add_core_of = UKR
-
-		victory_points = {
-			3686 20 # Sevastopol
-		}
-
-		victory_points = {
-			9680 1 # Kerch
-		}
-
-		victory_points = {
-			6704 1 # Yalta
-		}
-
-		victory_points = {
-			705 3 # Simferopol
-		}
-
+		add_core_of = CRI
 		buildings = {
-
 			infrastructure = 3
-			dockyard = 1
+			dockyard = 2
 			air_base = 3
-
 			3686 = {
 				naval_base = 10
 				coastal_bunker = 3
 			}
-
 			9680 = {
 				naval_base = 1
 				coastal_bunker = 1
 			}
-			
 		}
-
-		add_core_of = CRI
-
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-				3686 = {
-					naval_facility = 1 # Sevastopol Naval Facilties
-				}
-			}
+		victory_points = {
+			3686 20 #塞瓦斯托波尔
+		}
+		victory_points = {
+			9680 5 #刻赤
+		}
+		victory_points = {
+			6704 5 # 雅尔塔
+		}
+		victory_points = {
+			705 3 #辛菲罗波尔
 		}
 	}
 

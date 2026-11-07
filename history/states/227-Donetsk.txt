@@ -2,20 +2,22 @@
 state={
 	id=227
 	name="STATE_227"
-	manpower = 3767336
+	manpower = 2067336
 	
 	state_category = city
 
 	history={
-		owner = UKR
-		add_core_of = RKR
+		owner = NRO
+		add_core_of = NRO
+		add_core_of = UKR
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
 		}
 		victory_points = {
-			6474 10
+			6474 10 #顿涅茨克
 		}
-		add_core_of = UKR
 	}
 
 	provinces={

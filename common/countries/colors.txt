@@ -4,6 +4,10 @@ NRO = {
 	color = rgb { 0 180 255 }
 	color_ui = rgb { 0 180 255 }
 }
+PUK = {
+	color = rgb { 60 116 178 }
+	color_ui = rgb { 60 116 178 }
+}
 GER = {
 	color = rgb { 86 86 86 }
 	color_ui = rgb { 108 108 108 }

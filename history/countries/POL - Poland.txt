@@ -127,8 +127,8 @@ set_autonomy = {
 	autonomy_state = Governorate
 }
 set_autonomy = {
-	target = UKR
-	autonomy_state = Comrade_country
+	target = PUK
+	autonomy_state = Governorate
 }
 
 set_politics = {

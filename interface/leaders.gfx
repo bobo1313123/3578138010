@@ -4,6 +4,11 @@ spriteTypes = {
 		name = "GFX_TIB_Rezhen_large"
 		texturefile = "gfx/leaders/TIB/TIB_the_5th_reting_rinpoche.png"
 	}
+	#锡金
+	spriteType = {
+		name = "GFX_SKK_Sidkeong_Tulku_Namgyal_large"
+		texturefile = "gfx/leaders/SKK/SKK_Sidkeong_Tulku_Namgyal.png"
+	}
 	#亚洲骑兵团 
 	spriteType = {
 		name = "GFX_ENT_Ungern_Sternberg_large"
@@ -223,6 +228,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_POL_Edward_Rydz_Smigly_small"
 		texturefile = "gfx/interface/advisors/POL/POL_Edward_Rydz_Smigly.png"
+	}
+	#西乌克兰省
+	#领导人
+	spriteType = {
+		name = "GFX_PUK_Petro_Dyachenko_large"
+		texturefile = "gfx/leaders/PUK/PUK_Petro_Dyachenko.png"
 	}
 	### 奥地利大区 ###
 	#波西米亚

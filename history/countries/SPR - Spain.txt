@@ -3,10 +3,10 @@ oob = "SPR_1935"
 set_naval_oob = "SPR_navy_1935"
 set_stability = 0.63
 set_war_support = 0.72
+starting_train_buffer = 1.2
+set_fuel_ratio = 0.9
 set_research_slots = 3
 set_convoys = 230
-set_fuel_ratio = 0.9
-starting_train_buffer = 1.2
 
 ### 初始科技 ###
 if = {

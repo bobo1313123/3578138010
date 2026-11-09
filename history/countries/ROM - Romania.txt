@@ -71,9 +71,9 @@ set_popularities = {
 	Progressivism = 10
 	Liberalism = 5
 	Democracy = 11
-	Conservatism = 12
-	Authoritarianism = 23
-	tttt = 5
+	Conservatism = 17
+	Authoritarianism = 28
+	tttt = 10
 	fascism = 11
 	nazism = 5
 }

@@ -2,19 +2,14 @@
 state={
 	id = 1488
 	name="STATE_1488"
-	manpower = 128261
-	resources={
-
-	}
-	state_category = town
-
+	
 	history={
 		owner = POL
 		add_core_of = POL
 		add_core_of = UKR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
+			industrial_complex = 2
 		}
 	}
 
@@ -22,5 +17,8 @@ state={
 		11479 9558 536 9468 
 	}
 
-	local_supplies=0.0 
+	state_category = town
+	manpower=96233
+	buildings_max_level_factor=1.000
+	local_supplies=1.0
 }

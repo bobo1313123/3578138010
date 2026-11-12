@@ -1,4 +1,4 @@
-﻿capital = 784
+﻿capital = 11
 oob = "LIT_1936"
 set_stability = 0.35
 set_war_support = 0.4

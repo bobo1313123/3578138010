@@ -1,10 +1,9 @@
 ﻿capital = 10
 oob = "POL_1935"
-set_stability = 0.45
+set_stability = 0.42
 set_war_support = 0.43
 starting_train_buffer = 1
 set_fuel_ratio = 0.8
-load_focus_tree = generic_focus
 set_research_slots = 3
 
 ### 初始科技 ###
@@ -80,8 +79,14 @@ if = {
 	}
 }
 ### 领导人 ###
-recruit_character = POL_Gabriel_Narutowicz #加布里埃尔·纳鲁托维奇
-recruit_character = POL_Jozef_Pilsudski #约瑟夫·毕苏斯基
+recruit_character = POL_Gabriel_Narutowicz #加布里埃尔·纳鲁托维奇（进步主义·执政）
+recruit_character = POL_Jozef_Pilsudski #约瑟夫·毕苏斯基（专制主义·国防部）
+recruit_character = POL_Karol_Swierczewski #卡罗尔·希维尔切夫斯基（共产主义·布尔什维克残部）
+recruit_character = POL_Jan_Dabski #扬·达布斯基（社会主义·人民党“人民团结”）
+recruit_character = POL_Stanislaw_Wojciechowski #斯坦尼斯瓦夫·沃伊切霍夫斯基（民主主义·人民党“皮亚斯特”）
+recruit_character = POL_Stanislaw_Adamski #斯坦尼斯瓦夫·亚当斯基（保守主义·基督教国家工党）
+recruit_character = POL_Adam_Stefan_Sapieha #亚当·斯德望·萨皮耶哈（威权主义·克拉科夫主教团）
+recruit_character = POL_Roman_Dmowski #罗曼·德莫夫斯基（法西斯主义·民族民主运动）
 
 #副手
 

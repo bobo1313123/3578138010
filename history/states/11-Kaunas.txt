@@ -6,17 +6,16 @@ state={
 	history={
 		owner = LIT
 		add_core_of = LIT
-		victory_points = {
-			6296 15
-		}
-		victory_points = {
-			9357 5
-		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 3
-
+			industrial_complex = 2
+		}
+		victory_points = {
+			6296 10
+		}
+		victory_points = {
+			9357 5
 		}
 	}
 
@@ -24,8 +23,8 @@ state={
 		327 6296 6360 9357 9404 
 	}
 
-	local_supplies=10.0 
-	manpower=971940
-	buildings_max_level_factor=1.000
 	state_category=town
+	manpower=801940
+	buildings_max_level_factor=1.000
+	local_supplies=6.0 
 }

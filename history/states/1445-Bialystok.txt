@@ -2,6 +2,9 @@
 state={
 	id = 1445
 	name="STATE_1445"
+	resources = {
+		steel = 3
+	}
 	
 	history={
 		owner = POL
@@ -21,7 +24,7 @@ state={
 	provinces={
 		400 347 11301 11357
 	}
-	manpower = 1926720
+	manpower = 636720
 	buildings_max_level_factor=1.000
 	state_category = town
 

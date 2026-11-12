@@ -1,9 +1,6 @@
 state={
 	id=784
 	name="STATE_784"
-	manpower = 517081
-	
-	state_category = town
 	
 	history={
 		owner = BLR
@@ -17,7 +14,7 @@ state={
 			air_base = 4
 		}
 		victory_points = {
-			3320 8
+			3320 12
 		}
 	}
 
@@ -25,5 +22,8 @@ state={
 		3320 9274 9295 11342 11391
 	}
 
-	local_supplies=0.0 
+	manpower = 1017081
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=3.0 
 }

@@ -24,7 +24,7 @@ set_technology = {
 }
 
 ### 领导人 ###
-
+recruit_character = LIT_Kazys_Grinius #卡齐斯·格里纽斯
 
 add_ideas = {
 	### 初始民族精神 ###

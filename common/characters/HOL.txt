@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Conservatism
+			ideology=Conservatism_small
 			traits={ strict_austerity_adherent }
 			expire="1965.1.1.1"
 			id=-1
@@ -117,7 +117,16 @@ characters={
 			}
 		}
 	}
-	
+	HOL_louis_beel = {
+		name = HOL_louis_beel
+		country_leader = {
+			ideology = democracy_small
+			expire = "1965.1.1.1"
+			id = -1
+			#traits = { }
+		}
+	}
+
 	HOL_willem_schermerhorn={
 		advisor={
 			slot = political_advisor

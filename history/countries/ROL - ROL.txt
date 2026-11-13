@@ -2,10 +2,10 @@
 load_focus_tree = generic_focus
 #set_cosmetic_tag = HOL_BEL_LUX
 
-set_research_slots = 3
-set_stability = 0.75
-set_war_support = 0
-add_command_power = 10
+set_research_slots = 2
+set_stability = 0.2
+set_war_support = 0.2
+add_command_power = 20
 
 set_technology = {
 	infantry_weapons = 1
@@ -28,16 +28,9 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	communism = 97
-	Socialism = 0
-	Liberalism = 1
-	Democracy = 1
-	Conservatism = 0
-	nazism = 1
+	communism = 75
+	Socialism = 10
+	Progressivism = 15
 }
-
 set_convoys = 150
-set_stability = 0.75
-
-recruit_character = TVE_HOL_LEADERS
 

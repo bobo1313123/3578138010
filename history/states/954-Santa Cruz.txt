@@ -2,25 +2,25 @@ state={
 	id=954
 	name="STATE_954"
 	resources={
-		oil=9
+		oil=3.000
+	}
+	provinces={
+		2169 12946 12952 13305 
 	}
 	history = {
+
 		owner = BTG
 		add_core_of = BTG
 		add_core_of = ARG
+
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 1
 			10953 = {
 				naval_base = 1
 			}
 		}
-		victory_points = {
-			12952 5 #里奥加耶戈斯
-		}
-	}
-	provinces={
-		2169 12946 12952 13305 
+
+		
 	}
 	manpower=132000
 	buildings_max_level_factor=1.000

@@ -174,8 +174,8 @@ BHU = {
 	color_ui = rgb { 166 115 81 }
 }
 BOL = {
-	color = rgb { 179 127 32 }
-	color_ui = rgb { 214 196 145 }
+	color = rgb { 132 14 78 }
+	color_ui = rgb { 170 40 110 }
 }
 BRA = {
 	color = rgb { 76 152 62 }
@@ -258,8 +258,8 @@ PHI = {
 	color_ui = rgb { 166 140 210 }
 }
 PRU = {
-	color = rgb { 183 176 191 }
-	color_ui = rgb { 214 206 214 }
+	color = rgb { 129 64 58 }
+	color_ui = rgb { 129 64 58 }
 }
 SAF = {
 	color = rgb { 185 97 150 }
@@ -1328,4 +1328,16 @@ WAL = {
 ROL = {
 	color = rgb { 139 25 33 }
 	color_ui = rgb { 139 22 31 }
+}
+EMZ = {
+	color = rgb { 121 70 9 }
+	color_ui = rgb { 121 70 9 }
+}
+CMD = {
+	color = rgb { 190 55 138 }
+	color_ui = rgb { 214 90 168 }
+}
+AMD = {
+	color = rgb { 238 105 190 }
+	color_ui = rgb { 246 140 208 }
 }

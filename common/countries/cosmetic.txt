@@ -213,3 +213,9 @@ MIS_CCW = {
 	color = rgb { 6 54 98 }
 	color_ui = rgb { 255 190 127 }
 }
+
+# 尼德兰王国（内战复辟后）
+HOL_KINGDOM = {
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 203 138 74 }
+}

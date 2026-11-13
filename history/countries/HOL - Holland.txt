@@ -1,6 +1,10 @@
 ﻿capital = 7
 load_focus_tree = generic_focus
-oob = "HOL_1936"
+
+# 内战触发器
+country_event = { id = TFE_HOL_EVENT.1 days = 151 }
+
+oob = "HOL_1935"
 set_cosmetic_tag = HOL_BEL_LUX
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -124,6 +128,8 @@ add_ideas = {
 
 
 
+
+recruit_character = TVE_HOL_LEADERS
 recruit_character = HOL_hendrikus_colijn
 recruit_character = HOL_anton_mussert
 recruit_character = HOL_lou_de_visser
@@ -230,7 +236,6 @@ set_popularities = {
 set_convoys = 150
 set_stability = 0.75
 
-recruit_character = TVE_HOL_LEADERS
 
 ### VARIANTS ###
 # 1936 Start #

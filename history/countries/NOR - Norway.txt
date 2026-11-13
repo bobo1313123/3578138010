@@ -1,4 +1,4 @@
-﻿capital = 110 # Oslo
+capital = 110 # Oslo
 load_focus_tree = generic_focus
 oob = "NOR_1936"
 
@@ -432,4 +432,5 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
+}
 }

@@ -241,6 +241,18 @@ spriteTypes = {
 		name = "GFX_PUK_Petro_Dyachenko_large"
 		texturefile = "gfx/leaders/PUK/PUK_Petro_Dyachenko.png"
 	}
+	#波罗的国
+	#领导人
+	spriteType = {
+		name = "GFX_BAT_Pavel_Belmont_Avalov_large"
+		texturefile = "gfx/leaders/BAT/BAT_Pavel_Belmont_Avalov.dds"
+	}
+	#立陶宛
+	#领导人
+	spriteType = {
+		name = "GFX_LIT_Kazys_Grinius_large"
+		texturefile = "gfx/leaders/LIT/LIT_Kazys_Grinius.dds"
+	}
 	### 奥地利大区 ###
 	#波西米亚
 	#领导人

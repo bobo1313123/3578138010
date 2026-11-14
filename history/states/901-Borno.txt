@@ -1,19 +1,19 @@
 state = {
 	id = 901
 	name = "STATE_901"
-	manpower = 166240
+	manpower = 1666240
 	state_category = pastoral
+	resources = {
+		steel = 10
+	}
 
 	history = {
-
-		owner = BOG
+		owner = FWA
 		add_core_of = NGA
-		add_core_of = SOK
-
+		#add_core_of = SOK
 		buildings = {
 			infrastructure = 1
 		}
-
 	}  
 
 	provinces = {

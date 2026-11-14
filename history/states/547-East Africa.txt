@@ -2,22 +2,20 @@
 state={
 	id=547
 	name="STATE_547"
-	manpower = 1085440
+	manpower = 1105440
 	state_category=rural
 
 	history={
-		owner = BOG
+		owner = KEN
+		add_core_of = KEN
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			
+			arms_factory = 1
 		}
 		victory_points = {
-			1939 2 
+			1939 10
 		}
-		
-		add_core_of = KEN
-
 	}
 
 	provinces={

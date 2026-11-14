@@ -1,92 +1,45 @@
 ﻿capital = 547
+oob = "KEN_1935"
+set_stability = 0.21
+set_war_support = 0.23
+starting_train_buffer = 0.6
+set_fuel_ratio = 0.85
+load_focus_tree = generic_focus
+set_research_slots = 2
+set_convoys = 78
 
-oob = "KEN_1936"
-
-# Starting tech
+### 初始科技 ###
 set_technology = {
 	infantry_weapons = 1
+	tech_support = 1	
 	tech_mountaineers = 1
 	tech_trucks = 1
+	gw_artillery = 1
+	basic_train = 1
+	gwtank_chassis = 1
 }
 
-set_convoys = 5
+### 领导人 ###
+recruit_character = KEN_Thomas_Cholmondeley #托马斯·乔尔蒙德利
 
-recruit_character = KEN_acas
-recruit_character = KEN_communist_guy
-recruit_character = KEN_ncs
-recruit_character = KEN_awt
-recruit_character = KEN_pot
-recruit_character = KEN_fascist_guy
-recruit_character = KEN_ai2
-recruit_character = KEN_nt
-recruit_character = KEN_aco2
-recruit_character = KEN_ar
-recruit_character = KEN_acr
-recruit_character = KEN_mt
-recruit_character = KEN_stc
-recruit_character = KEN_aa2
-recruit_character = KEN_acgs
-recruit_character = KEN_ncm
-recruit_character = KEN_nccr
-recruit_character = KEN_coi
-recruit_character = KEN_Liberalism_guy
-recruit_character = KEN_acd2
+add_ideas = {
+	### 初始民族精神 ###
 
-1939.1.1 = {
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	set_technology = {
-
-		#doctrines
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	complete_special_project = {
-		project = sp:sp_air_radar
-	}
 }
 
-# A colony of Italy in 1939.  However, if independent it would have the same politics as in 1936
 set_politics = {
-	ruling_party = Authoritarianism
-	last_election = "1936.1.1"
+	ruling_party = Conservatism
+	last_election = "1933.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	Authoritarianism = 100
+	communism = 6
+	Socialism = 4
+	Conservatism = 46
+	Authoritarianism = 21
+	tttt = 15
+	fascism = 8
 }
 
-create_country_leader = {
-	
-	
-	name = "Dedan Ngwale"
-	picture = GFX_portrait_Dedan_Ngwale
-	expire = "1965.1.1"
-	ideology = authoritarianism_small
-	traits = {
-		#
-	}
-}
 

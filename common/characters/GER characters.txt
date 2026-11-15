@@ -10,7 +10,7 @@ characters={
 		}
 		country_leader={
 			desc = GER_wilhelm_ii_desc
-			ideology = German_Democratic_Party
+			ideology = social_liberalism
 			traits={ GER_Kaiser }
 		}
 	}
@@ -49,7 +49,7 @@ characters={
 		}
 		country_leader={
 			desc = GER_Heinrich_Bruning_desc
-			ideology = Conservatism_small
+			ideology = christian_democracy
 			traits={ }
 		}
 	}

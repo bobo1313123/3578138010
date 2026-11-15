@@ -123,7 +123,7 @@ ideologies = {
 			Gaitanism = { #盖坦主义
 				can_be_randomly_selected = no
 			}
-			German_Democratic_Party = { #德意志民主党
+			social_liberalism = { #社会自由主义
 				can_be_randomly_selected = no
 			}
 		}
@@ -302,6 +302,9 @@ ideologies = {
 			Right_wing_conservatism = { #右翼保守主义
 				can_be_randomly_selected = no
 			}
+			christian_democracy = { #基督教民主主义
+				can_be_randomly_selected = no
+			}
 			FRA_blue = {
 				color = { 0 0 102 }
 				can_be_randomly_selected = no
@@ -360,6 +363,9 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			military_junta_authoritarianism = { # 军政府
+				can_be_randomly_selected = no
+			}
+			authoritarian_conservatism = { #威权保守主义
 				can_be_randomly_selected = no
 			}
 			crown_dominion = { #英王管辖地

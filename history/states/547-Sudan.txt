@@ -1,18 +1,21 @@
 
 state={
-	id = 547
-	name="STATE_547" #Kurdufan / was "Sudan"
-	
-	manpower = 1802132
+	id=547
+	name="STATE_547"
+	manpower = 772132
+	state_category=rural
+	resources = {
+		steel = 8
+		chromium = 4
+	}
 
 	history = {
-		owner = BOG
+		owner = SUD
 		add_core_of = SUD
 		buildings = {
 			infrastructure = 2
-
+			industrial_complex = 1
 		}
-
 	}
 
 	provinces={

@@ -17,6 +17,7 @@ set_technology = {
 	gw_artillery = 1
 	basic_train = 1
 	gwtank_chassis = 1
+	camelry = 1
 }
 
 ### 领导人 ###
@@ -24,7 +25,8 @@ recruit_character = KEN_Thomas_Cholmondeley #托马斯·乔尔蒙德利
 
 add_ideas = {
 	### 初始民族精神 ###
-
+	KEN_Stalemate_Between_Plateau_and_Coast #高原与海岸的僵局
+	KEN_Rebellious_Child #叛逆的孩子
 }
 
 set_politics = {

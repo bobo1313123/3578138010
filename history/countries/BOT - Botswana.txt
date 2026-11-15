@@ -22,7 +22,7 @@ recruit_character = BOT_Charles_ArdenClarke #查尔斯·阿登-克拉克
 
 add_ideas = {
 	### 初始民族精神 ###
-
+	BOT_Shadow_of_Cape #开普的阴影
 }
 
 

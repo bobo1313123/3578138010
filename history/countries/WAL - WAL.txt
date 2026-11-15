@@ -2,8 +2,8 @@
 load_focus_tree = generic_focus
 
 set_research_slots = 2
-set_stability = 0.7
-set_war_support = 0.3 #we see what you are doing there Adolf
+set_stability = 0.2
+set_war_support = 0.2
 
 set_technology = {
 	infantry_weapons = 1
@@ -18,44 +18,21 @@ set_technology = {
 	basic_train = 1
 	gw_artillery = 1
 	interwar_antitank = 1
-	BEL_chasseurs_ardennais = 1 
 	tech_mountaineers = 1
 }
 
-
-
-#recruit_character = TVE_BEL_LEADERS
-
-
-
-
 set_politics = {
-	ruling_party = Conservatism
-	last_election = "1936.1.1" #Was 1932.11.27 but changed to allow for Government Resigns focus to simulate this election.
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = fascism
+	last_election = "1935.1.1" 
+	elections_allowed = no
 }
 
 set_popularities = {
-	Conservatism = 83
-	fascism = 11
+	Conservatism = 11
+	fascism = 83
 	communism = 6
 }
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = Liberalism
-		last_election = "1939.4.2"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-	set_popularities = {
-		Liberalism = 87
-		fascism = 8
-		communism = 5
-	}
-}
 
 set_convoys = 80
-set_stability = 0.75
 

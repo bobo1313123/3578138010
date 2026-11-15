@@ -584,6 +584,12 @@ spriteTypes = {
 		name = "GFX_idea_south_america_lighthouse"
 		texturefile = "gfx/interface/ideas/ARG/south_america_lighthouse.png"
 	}
+	#阿塔卡马民族精神
+	#碉堡之林
+	spriteType = {
+		name = "GFX_idea_bunker_forest"
+		texturefile = "gfx/interface/ideas/AMD/bunker_forest.png"
+	}
 	#海德拉巴民族精神
 	#璀璨戈尔康达
 	spriteType = {

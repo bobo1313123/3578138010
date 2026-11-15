@@ -461,6 +461,11 @@ spriteTypes = {
 		name = "GFX_BRB_Getulio_Vargas_large"
 		texturefile = "gfx/leaders/BRB/BRB_Getulio_Vargas.png"
 	}
+	#阿塔卡马
+	spriteType = { #所罗门·R·古根海姆
+		name = "GFX_AMD_Solomon_Guggenheim_large"
+		texturefile = "gfx/leaders/AMD/AMD_Solomon_Guggenheim.dds"
+	}
 	### 印度大区 ###
 	#海德拉巴
 	spriteType = { #奥斯曼·阿里·汗

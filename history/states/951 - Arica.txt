@@ -11,10 +11,9 @@ state = {
 
 	history = {
 
-		owner = BOL
+		owner = AMD
 		add_core_of = CHL
-		add_claim_by = PRU
-
+		add_core_of = AMD
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1

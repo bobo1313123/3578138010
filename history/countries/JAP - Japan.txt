@@ -1,4 +1,4 @@
-﻿capital = 1380 #东京
+capital = 1380 #东京
 oob = "JAP_1935"
 set_stability = 0.39
 set_war_support = 0.67
@@ -874,3 +874,5 @@ IF = {
 		}
 	}
 	
+
+}

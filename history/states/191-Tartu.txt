@@ -4,19 +4,19 @@ state={
 	name="STATE_191"
 
 	history={
-		owner = EST
+		owner = BAT
+		add_core_of = BAT
+		add_core_of = EST
 		victory_points = {
-			9221 1 
+			9221 5
 		}
 		victory_points = {
-			592 1 #Voru
+			592 3
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-
+			infrastructure = 3
+			industrial_complex = 1
 		}
-		add_core_of = EST
-
 	}
 
 	provinces={

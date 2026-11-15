@@ -9,6 +9,7 @@ characters = {
 			}
 		}
 		country_leader = {
+			desc = POL_Gabriel_Narutowicz_desc
 			ideology = progressivism_small
 			traits = { POL_Wrong_Chosen_People }
 		}

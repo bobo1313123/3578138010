@@ -9,6 +9,7 @@ characters = {
 			}
 		}
 		country_leader = {
+			desc = PUK_Petro_Dyachenko_desc
 			ideology = military_junta_tttt
 			traits = {  }
 		}

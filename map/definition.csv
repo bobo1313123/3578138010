@@ -13286,7 +13286,7 @@
 13285;160;21;94;land;false;jungle;3
 13286;133;224;187;land;false;mountain;3
 13287;221;190;75;land;true;mountain;3
-13288;212;59;206;land;true;mountain;3
+13288;212;59;206;land;false;mountain;3
 13289;81;254;121;land;false;jungle;3
 13290;215;223;17;land;false;jungle;3
 13291;96;182;231;land;false;jungle;3
@@ -13560,3 +13560,8 @@
 13559;142;57;128;land;false;plains;1
 13560;255;173;234;land;false;plains;1
 13561;255;155;210;land;false;plains;1
+13562;117;38;57;land;false;jungle;3
+13563;87;120;88;land;false;plains;3
+13564;150;223;132;land;false;jungle;3
+13565;223;133;198;land;false;jungle;3
+13566;94;144;223;land;false;jungle;3

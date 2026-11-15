@@ -384,4 +384,38 @@
 			}
 		}
 	}
+	#意大利军团
+	focus = {
+		id = SPR_Italian_Legion
+		icon = GFX_goal_SPR_Italian_Legion
+		relative_position_id = SPR_Gunfire_in_Apennines
+		prerequisite = { focus = SPR_Strengthen_Sardinia_Garrison }
+	   	prerequisite = { focus = SPR_Red_Hunter }
+		x = 2
+		y = 4
+		cost = 2
+		ai_will_do = { 
+			base = 1
+		}
+		available = {
+		   has_global_flag = ITAG_Wars_of_Unification
+		}
+	   	allow_branch = {
+			has_global_flag = ITAG_Wars_of_Unification
+			has_country_flag = SPR_help_Fascism 
+	  	}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = SPR_Red_Hunting
+				add_idea = SPR_Black_Eagle_Legion #黑鹰军团
+			}
+			SPM = {
+				swap_ideas = {
+					remove_idea = SPR_Red_Hunting
+					add_idea = SPR_Black_Eagle_Legion #黑鹰军团
+				}
+			}
+		}
+	}
 }

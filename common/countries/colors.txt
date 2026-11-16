@@ -483,8 +483,8 @@ MZB = {
 	color_ui = rgb { 131 70 104 }
 }
 KEN = {
-	color = rgb { 152 112 27 }
-	color_ui = rgb { 150 110 24 }
+	color = rgb { 107 169 144 }
+	color_ui = rgb { 107 169 144 }
 }
 ZIM = {
 	color = rgb { 36 36 199 }

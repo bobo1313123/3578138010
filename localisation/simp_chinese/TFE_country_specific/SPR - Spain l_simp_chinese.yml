@@ -82,6 +82,8 @@
  SPR_Help_Black_Eagle_desc: ""
  SPR_Red_Hunting: "赤猎军"
  SPR_Red_Hunting_desc: ""
+ SPR_Black_Eagle_Legion: "黑鹰军团"
+ SPR_Black_Eagle_Legion_desc: ""
 
 
 
@@ -120,6 +122,8 @@
  SPR_Strengthen_Sardinia_Garrison: "增援撒丁岛驻军"
  SPR_Strengthen_Sardinia_Garrison_desc: ""
  SPR_Strengthen_Sardinia_Garrison_tt: "§R我们会尽力援助黑鹰同志！§!"
+ SPR_Italian_Legion: "意大利军团"
+ SPR_Italian_Legion_desc: ""
  
  SPR_help_Fascism: "与黑衫军为伍"
  SPR_help_Fascism_tt: "§f我们将帮助黑衫军统一意大利！§!"

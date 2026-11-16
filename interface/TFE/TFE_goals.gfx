@@ -53,6 +53,18 @@ spriteTypes = {
 		name = "GFX_goal_SPR_Help_Black_Cloak_Eagle" 
 		texturefile = "gfx/interface/goals/SPR/SPR_Help_Black_Cloak_Eagle.png"
 	}
+	SpriteType = { #礼物与恩惠
+		name = "GFX_goal_SPR_Gifts_and_Graces" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Gifts_and_Graces.png"
+	}
+	SpriteType = { #赤猎军
+		name = "GFX_goal_SPR_Red_Hunter" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Red_Hunter.png"
+	}
+	SpriteType = { #增援撒丁岛驻军
+		name = "GFX_goal_SPR_Strengthen_Sardinia_Garrison" 
+		texturefile = "gfx/interface/goals/SPR/SPR_Strengthen_Sardinia_Garrison.png"
+	}
 	#北意大利国策
 	#战时国策
 	SpriteType = { #吸取进军罗马的教训

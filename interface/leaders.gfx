@@ -1,8 +1,8 @@
 spriteTypes = {
 	#西藏
 	spriteType = {
-		name = "GFX_TIB_Rezhen_large"
-		texturefile = "gfx/leaders/TIB/TIB_the_5th_reting_rinpoche.png"
+		name = "GFX_TIB_Panchen_Chokyi_Nyima_large"
+		texturefile = "gfx/leaders/TIB/TIB_Panchen_Chokyi_Nyima.png"
 	}
 	#锡金
 	spriteType = {

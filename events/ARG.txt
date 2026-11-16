@@ -141,3 +141,15 @@ news_event = { #奉天靖难
 		
 	}
 }
+
+country_event = { #新年
+	immediate = {log = "[GetDateText]: [Root.GetName]: event Argentina.1"}
+	id = Argentina.1
+	title = Argentina.1.t
+	desc = Argentina.1.d
+	is_triggered_only = yes
+
+	option = {
+		name = Argentina.1.a
+	}
+}

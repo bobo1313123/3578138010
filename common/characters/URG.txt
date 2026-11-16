@@ -1,16 +1,19 @@
 characters = {
-	URG_Gabriel_Tra = {
-		name = URG_Gabriel_Tra #加夫列尔·特拉
+	#领导人
+	#卡洛斯·多明戈·马克斯
+	URG_Carlos_Domingo_Marx = {
+		name = URG_Carlos_Domingo_Marx
 		portraits = {
 			civilian = {
-				large = GFX_idea_URG_Gabriel_Tra
+				large = GFX_URG_Carlos_Domingo_Marx_large
 			}
 		}
 		country_leader = {
-			ideology =  tttt_small
-			expire = "1950.1.1.1"
-			id = -1 
+			desc = URG_Carlos_Domingo_Marx_desc
+			ideology = military_junta_authoritarianism
+			traits = {
+				URG_caudillo_of_uruguay
+			}
 		}
 	}
 }
-	

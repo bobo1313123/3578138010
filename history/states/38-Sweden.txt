@@ -1,7 +1,7 @@
 state = {
 	id = 38
 	name = "STATE_38" # Gävleborg
-	manpower = 931955
+	manpower = 929919
 	state_category = town
 	
 

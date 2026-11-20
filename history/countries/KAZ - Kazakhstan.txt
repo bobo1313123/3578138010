@@ -1,4 +1,4 @@
-﻿capital = 586 #Almaty
+﻿capital = 584 #Almaty
 
 oob = "KAZ_1936"
 
@@ -95,7 +95,7 @@ set_politics = {
 }
 set_popularities = {
 	Conservatism = 60
-	Communism = 40
+	communism = 40
 }
 
 create_country_leader = {

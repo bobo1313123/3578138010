@@ -1,4 +1,4 @@
-﻿capital = 651 #Ufa
+﻿capital = 642 #Ufa
 
 #oob = "BSK_1936"
 
@@ -92,7 +92,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 50
 	fascism = 10
-	Communism = 20
+	communism = 20
 	Authoritarianism = 20
 }
 

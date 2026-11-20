@@ -1,5 +1,5 @@
 ideologies = {
-	Communism = { #共产主义
+	communism = { #共产主义
 
 		types = {
 			communism_small = {
@@ -123,6 +123,9 @@ ideologies = {
 			Gaitanism = { #盖坦主义
 				can_be_randomly_selected = no
 			}
+			German_Democratic_Party = { #德意志民主党
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -186,7 +189,13 @@ ideologies = {
 			colonial_government_Liberalism = { #殖民政府
 				can_be_randomly_selected = no
 			}
-
+			constitutional_liberalism = { #USA共和党的宪政自由主义
+				can_be_randomly_selected = no
+				color = { 6 233 249 }
+			}
+			classical_liberalism = { #古典自由主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -199,7 +208,7 @@ ideologies = {
 		}
 
 		color = { 135 206 235 }
-
+		
 		rules = {
 			can_force_government = yes
 			can_send_volunteers = yes
@@ -216,7 +225,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_fascist = yes # uses the democratic AI behaviour
+		ai_fascist = yes # uses the Democracy AI behaviour
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 		
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
@@ -226,8 +235,12 @@ ideologies = {
 		types = {
 			democracy_small = {
 			}
-			steady_Progressivism_subtype = {#稳健进步主义
+			steady_Progressivism_subtype = { #稳健进步主义
 				can_be_randomly_selected = no
+			}
+			authoritarian_democracy_christian_democracy = { #USA民主党的威权民主主义（基督教民主）
+				can_be_randomly_selected = no
+				color = { 3 51 246 }
 			}
 		}
 
@@ -269,7 +282,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_fascist = yes # uses the democratic AI behaviour
+		ai_fascist = yes # uses the Democracy AI behaviour
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 		
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
@@ -304,7 +317,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 
-		color = { 80 78 79 }
+		color = { 0 93 149 }
 
 		rules = {
 			can_force_government = yes
@@ -321,7 +334,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_fascist = yes # uses the democratic AI behaviour
+		ai_fascist = yes # uses the Democracy AI behaviour
 		ai_ideology_wanted_units_factor = 1.10 # multiplies threat impact on number of desired units by this value, defaults to 1.0. If at war, the larger of this value and NDefines::NAI::WANTED_UNITS_WAR_THREAT_FACTOR will be used instead
 		
 		ai_give_core_state_control_threshold = 0 # Extra threshold value added to DIPLOMATIC_ACTION_PROPOSE_SCORE for this ideology to give back core state control to other country
@@ -349,6 +362,10 @@ ideologies = {
 			military_junta_authoritarianism = { # 军政府
 				can_be_randomly_selected = no
 			}
+			crown_dominion = { #英王管辖地
+				can_be_randomly_selected = no
+			}
+			
 		}
 
 		dynamic_faction_names = {
@@ -413,6 +430,9 @@ ideologies = {
 			military_junta_tttt = { # 军政府
 				can_be_randomly_selected = no
 			}
+			Spanish_Revivalism = { #西班牙复兴主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -455,12 +475,15 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			MEX_cosmic_racism = { #宇宙种族主义
-
+				can_be_randomly_selected = no
 			}
 			Trujillos_ideology = { #特鲁希略的意识形态
-
+				can_be_randomly_selected = no
 			}
-			military_junta_fascism = { # 军政府-法西斯主义
+			military_junta_fascism = { #军政府-法西斯主义
+				can_be_randomly_selected = no
+			}
+			National_fascism = { #国家法西斯主义
 				can_be_randomly_selected = no
 			}
 		}

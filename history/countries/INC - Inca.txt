@@ -1,4 +1,4 @@
-﻿capital = 494 #Cusco
+﻿capital = 492 #Cusco
 
 oob = "CHL_1936"
 

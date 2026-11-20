@@ -1,8 +1,11 @@
 ﻿capital = 7
 load_focus_tree = generic_focus
-oob = "HOL_1936"
+
+# 内战触发器
+country_event = { id = TFE_HOL_EVENT.1 days = 151 }
+
+oob = "HOL_1935"
 set_cosmetic_tag = HOL_BEL_LUX
-#set_country_flag = tfe_second_leader
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "HOL_1936_naval_mtg"
@@ -125,6 +128,8 @@ add_ideas = {
 
 
 
+
+recruit_character = TVE_HOL_LEADERS
 recruit_character = HOL_hendrikus_colijn
 recruit_character = HOL_anton_mussert
 recruit_character = HOL_lou_de_visser
@@ -167,9 +172,9 @@ if = {
 }
 
 set_party_name = {
-	ideology = Communism
-	name = HOL_Communism_1
-	long_name = HOL_Communism_1
+	ideology = communism
+	name = HOL_communism_1
+	long_name = HOL_communism_1
 }
 set_party_name = {
 	ideology = Socialism
@@ -220,7 +225,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	Communism = 3
+	communism = 3
 	Socialism = 27
 	Liberalism = 22
 	Democracy = 35
@@ -231,7 +236,6 @@ set_popularities = {
 set_convoys = 150
 set_stability = 0.75
 
-recruit_character = TVE_HOL_LEADERS
 
 ### VARIANTS ###
 # 1936 Start #

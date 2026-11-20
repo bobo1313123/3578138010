@@ -1,4 +1,4 @@
-﻿capital = 889 # Elisabethville
+﻿capital = 867 # Elisabethville
 
 oob = "COG_1936"
 
@@ -64,7 +64,7 @@ set_politics = {
 set_popularities = {
 	Authoritarianism = 60
 	Liberalism = 20
-	Communism = 15
+	communism = 15
 	fascism = 5
 }
 

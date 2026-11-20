@@ -1,4 +1,4 @@
-add_namespace = script_events
+﻿add_namespace = script_events
 add_namespace = TVE_News
 #奥匈帝国民族叛乱
 country_event = {
@@ -15,7 +15,7 @@ country_event = {
 		}
 		country_lock_all_division_template = no
 		news_event = { id = TVE_News.15 }
-		764 = {
+		744 = {
 			set_demilitarized_zone = no
 		}
 		SLO = {
@@ -23,21 +23,21 @@ country_event = {
 			transfer_state = 71
 		}
 		YUG = {
-			transfer_state = 764
+			transfer_state = 744
 		}
 		HUN = {
-			transfer_state = 664
+			transfer_state = 655
 			transfer_state = 73
 			transfer_state = 155
-			transfer_state = 974
-			transfer_state = 973
+			transfer_state = 952
+			transfer_state = 951
 			transfer_state = 43
 			transfer_state = 154
 			transfer_state = 45
 		}
 		SLV = {
 			transfer_state = 102
-			transfer_state = 853
+			transfer_state = 831
 		}
 		declare_war_on = {
 			target = HUN
@@ -816,8 +816,8 @@ country_event = {
 		}
 		news_event = { id = TVE_News.8 }
 		MLY = {
-			transfer_state = 1044
-			transfer_state = 1046
+			transfer_state = 1021
+			transfer_state = 1023
 			every_state = {
 				limit = {
 					is_core_of = MAL
@@ -826,7 +826,7 @@ country_event = {
 			}
 		}
 		SIA = {
-			transfer_state = 1045
+			transfer_state = 1022
 		}
 		MAL = {
 			declare_war_on = {
@@ -870,8 +870,8 @@ country_event = {
 		}
 		news_event = { id = TVE_News.9 }
 		TUR = {
-			transfer_state = 342
-			transfer_state = 345
+			transfer_state = 340
+			transfer_state = 343
 			183 = {
 				set_demilitarized_zone = yes
 			}
@@ -921,10 +921,10 @@ country_event = {
 			}
 			set_demilitarized_zone = yes
 			add_core_of = RAJ
-			439 = {
+			437 = {
 				set_demilitarized_zone = no
 			}
-			992 = {
+			970 = {
 				set_demilitarized_zone = no
 				remove_core_of = RAJ
 			}
@@ -960,60 +960,60 @@ country_event = {
 			name = ENG_CIVIL_WAR
 		}
 		AFG = {
-			transfer_state = 988
-			transfer_state = 987
-			transfer_state = 442
+			transfer_state = 966
+			transfer_state = 965
+			transfer_state = 440
 		}
-		442 = {
+		440 = {
 			add_core_of = AFG
 		}
-		987 = {
+		965 = {
 			add_core_of = AFG
 		}
-		988 = {
+		966 = {
 			add_core_of = AFG
 		}
 		KAS = {
-			transfer_state = 441
-			transfer_state = 787
+			transfer_state = 439
+			transfer_state = 767
 		}
 		KHL = {
-			transfer_state = 440
-			transfer_state = 445
-			transfer_state = 986
+			transfer_state = 438
+			transfer_state = 443
+			transfer_state = 964
 		}
 		SIN = {
-			transfer_state = 443
+			transfer_state = 441
 		}
 		BLC = {
-			transfer_state = 444
-			transfer_state = 1012
+			transfer_state = 442
+			transfer_state = 990
 		}
 		RAS = {
-			transfer_state = 982
+			transfer_state = 960
 		}
 		MYS = {
-			transfer_state = 425
+			transfer_state = 423
 		}
 		HYD = {
-			transfer_state = 427
+			transfer_state = 425
 		}
 		SKK = {
-			transfer_state = 985
+			transfer_state = 963
 		}
 		RJP = {
-			transfer_state = 433
-			transfer_state = 989
+			transfer_state = 431
+			transfer_state = 967
 		}
 		TGB = {
-			transfer_state = 428
-			transfer_state = 429
+			transfer_state = 426
+			transfer_state = 427
 			country_event = {
 				id = script_events.13
 			}
 		}
 		FIR = {
-			transfer_state = 439
+			transfer_state = 437
 			every_state = {
 				limit = {
 					is_core_of = RAJ
@@ -1042,9 +1042,9 @@ country_event = {
 			set_politics = { ruling_party = fascism elections_allowed = no }
 		}
 		BOG = {
-			transfer_state = 423
-			transfer_state = 424
-			transfer_state = 983
+			transfer_state = 421
+			transfer_state = 422
+			transfer_state = 961
 			set_autonomy = {
 				target = MYS
 				autonomy_state = autonomy_dominion
@@ -1055,7 +1055,7 @@ country_event = {
 			}
 		}
 		TIB = {
-			transfer_state = 434
+			transfer_state = 432
 		}
 		FIR = {
 			country_event = {
@@ -1080,26 +1080,26 @@ country_event = {
 			base = 100
 		}
 		JAP = {
-			transfer_state = 646
+			transfer_state = 637
+			transfer_state = 629
+			transfer_state = 623
 			transfer_state = 638
-			transfer_state = 632
-			transfer_state = 647
 		}
 		add_named_threat = {
 			threat = 5
 			name = ENG_CIVIL_WAR
 		}
-		684 = { set_demilitarized_zone = yes }
-		633 = { set_demilitarized_zone = yes }
+		675 = { set_demilitarized_zone = yes }
+		624 = { set_demilitarized_zone = yes }
+		621 = { set_demilitarized_zone = yes }
+		622 = { set_demilitarized_zone = yes }
+		620 = { set_demilitarized_zone = yes }
+		716 = { set_demilitarized_zone = yes }
 		630 = { set_demilitarized_zone = yes }
-		631 = { set_demilitarized_zone = yes }
-		629 = { set_demilitarized_zone = yes }
-		727 = { set_demilitarized_zone = yes }
-		639 = { set_demilitarized_zone = yes }
-		725 = { set_demilitarized_zone = yes }
-		642 = { set_demilitarized_zone = yes }
-		643 = { set_demilitarized_zone = yes }
-		636 = { set_demilitarized_zone = yes }
+		714 = { set_demilitarized_zone = yes }
+		633 = { set_demilitarized_zone = yes }
+		634 = { set_demilitarized_zone = yes }
+		627 = { set_demilitarized_zone = yes }
 		BOG = {
 			add_timed_idea = {
 				idea = FengSuoLand
@@ -1130,30 +1130,30 @@ country_event = {
 			name = ENG_CIVIL_WAR
 		}
 		ANA = {
-			transfer_state = 883
-			transfer_state = 886
-			transfer_state = 767
-			transfer_state = 551
-			transfer_state = 887
+			transfer_state = 861
+			transfer_state = 864
+			transfer_state = 747
 			transfer_state = 549
-			transfer_state = 885
-			transfer_state = 884
-			transfer_state = 548
-			transfer_state = 559
-			transfer_state = 269
+			transfer_state = 865
 			transfer_state = 547
-			transfer_state = 844
-			transfer_state = 903
-			transfer_state = 904
-			transfer_state = 905
+			transfer_state = 863
+			transfer_state = 862
 			transfer_state = 546
-			transfer_state = 900
-			transfer_state = 901
-			transfer_state = 902
+			transfer_state = 557
+			transfer_state = 269
+			transfer_state = 545
+			transfer_state = 822
+			transfer_state = 881
+			transfer_state = 882
+			transfer_state = 883
+			transfer_state = 544
+			transfer_state = 878
+			transfer_state = 879
+			transfer_state = 880
 			set_cosmetic_tag = anarchy_color
 		}
 		EGY = {
-			transfer_state = 446
+			transfer_state = 444
 		}
 		FNA = {
 			annex_country = {
@@ -1195,7 +1195,7 @@ country_event = {
 				autonomous_state = autonomy_dominion
 				freedom_level = 0.75
 			}
-			transfer_state = 1043
+			transfer_state = 1020
 		}
 		if = {
 			limit = {
@@ -1206,7 +1206,7 @@ country_event = {
 				autonomous_state = autonomy_dominion
 				freedom_level = 0.75
 			}
-			transfer_state = 1043
+			transfer_state = 1020
 		}
 		if = {
 			limit = {
@@ -1288,7 +1288,7 @@ country_event = {
 		}
 		add_ideas = Commonwealth_dominant_country
 		add_ideas = The_afterglow_of_the_sun_that_never_sets
-		transfer_state = 446
+		transfer_state = 444
 		country_event = { id = script_events.29 days = 30 }
 	}  
 }
@@ -1409,7 +1409,7 @@ country_event = {
 			base = 100
 		}
 		FPH = {
-			transfer_state = 623
+			transfer_state = 614
 			every_state = {
 				limit = {
 					is_core_of = PHI

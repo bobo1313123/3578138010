@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 ##### Country Events #####
 ###########################
 
@@ -185,7 +185,7 @@ country_event = { #Theodor Innitzer is no longer fascist
 			modifier = {
 				factor = 10
 				OR = {
-					has_government = democratic
+					has_government = Democracy
 					has_government = communism
 				}
 			}
@@ -499,7 +499,7 @@ country_event = { #triggers missions for countdown to murder of MHC
 				factor = 2
 				OR = {
 					has_government = neutrality
-					has_government = democratic
+					has_government = Democracy
 				}
 			}
 			modifier = {
@@ -890,7 +890,7 @@ country_event = { # Event for Austria Germany Objects to the DNSAP ban and deman
 			base = 5
 			modifier = {
 				factor = 2 
-				has_government = democratic
+				has_government = Democracy
 				FROM = {
 					OR = {
 						has_government = fascism
@@ -1003,7 +1003,7 @@ country_event = { #Godwin von Brumowski offers his service
 			modifier = {
 				factor = 0.1
 				OR = {
-					has_government = democratic
+					has_government = Democracy
 					has_government = communism
 				}
 			}
@@ -1021,7 +1021,7 @@ country_event = { #Godwin von Brumowski offers his service
 			modifier = {
 				factor = 10
 				OR = {
-					has_government = democratic
+					has_government = Democracy
 					has_government = communism
 				}
 			}
@@ -1864,7 +1864,7 @@ country_event = { #Italy requests Austria revokes their claims in turn for guara
 		}
 
 		remove_state_claim = 39 #Alto Adige
-		remove_state_claim = 850 #Trentino
+		remove_state_claim = 828 #Trentino
 
 		FROM = {
 			give_guarantee = ROOT
@@ -3151,7 +3151,7 @@ country_event = { #militias causing unrest
 			}
 			modifier = {
 				factor = 5
-				has_government = democratic
+				has_government = Democracy
 			}
 		}
 
@@ -3168,7 +3168,7 @@ country_event = { #militias causing unrest
 			modifier = {
 				factor = 10
 				NOT = {
-					has_government = democratic
+					has_government = Democracy
 				}
 			}
 		}
@@ -3290,7 +3290,7 @@ country_event = { #Austria picks cosmetic tag, and in what way and to what exten
 		}
 
 		add_state_core = 50 #Württemberg
-		add_state_core = 978 #Baden
+		add_state_core = 956 #Baden
 		add_state_core = 52 #Oberbayern
 		add_state_core = 53 #Niederbayern
 		add_state_core = 54 #Franken
@@ -3426,8 +3426,8 @@ country_event = { #FROM, Austria, Demands we integrate
 					limit = {
 						OR = {
 							state = 155
-							state = 974
-							state = 973
+							state = 952
+							state = 951
 							state = 154
 							state = 43
 						}
@@ -3495,7 +3495,7 @@ country_event = { #FROM, Austria, Demands we integrate
 					limit = {
 						OR = {
 							state = 69
-							state = 972
+							state = 950
 							state = 9
 							state = 75
 							state = 74
@@ -3547,8 +3547,8 @@ country_event = { #FROM, Austria, Demands we integrate
 				ROOT = {
 					OR = {
 						AND = {
-							owns_state = 853
-							controls_state = 853
+							owns_state = 831
+							controls_state = 831
 						}
 						AND = {
 							owns_state = 102
@@ -3563,11 +3563,11 @@ country_event = { #FROM, Austria, Demands we integrate
 			}
 			IF = {
 				limit = { 
-					owns_state = 853
-					controls_state = 853 
+					owns_state = 831
+					controls_state = 831 
 				}
 				FROM = {
-					add_state_claim = 853
+					add_state_claim = 831
 				}
 			}
 			IF = {
@@ -3621,8 +3621,8 @@ country_event = { #FROM, Austria, Demands we integrate
 						is_subject_of = ROOT
 						OR = {
 							AND = {
-								owns_state = 853
-								controls_state = 853
+								owns_state = 831
+								controls_state = 831
 							}
 							AND = {
 								owns_state = 102
@@ -3641,8 +3641,8 @@ country_event = { #FROM, Austria, Demands we integrate
 					FROM.FROM = {
 						OWNER = {
 							is_subject_of = ROOT
-							owns_state = 853
-							controls_state = 853 
+							owns_state = 831
+							controls_state = 831 
 						}
 					}
 					
@@ -3665,7 +3665,7 @@ country_event = { #FROM, Austria, Demands we integrate
 				}
 				
 				FROM = {
-					add_state_claim = 853
+					add_state_claim = 831
 				}
 			}
 			IF = {
@@ -3901,9 +3901,9 @@ country_event = { #FROM, Austria, Demands we integrate
 				every_state = {
 					limit = {
 						OR = {
-							state = 934
+							state = 912
 							state = 44
-							state = 805
+							state = 785
 						}
 						OR = {
 							is_fully_controlled_by = ROOT
@@ -3956,12 +3956,12 @@ country_event = { #FROM, Austria, Demands we integrate
 						is_on_continent = europe
 						OR = {
 							state = 155
-							state = 974
-							state = 973
+							state = 952
+							state = 951
 							state = 154
 							state = 43
 							state = 69
-							state = 972
+							state = 950
 							state = 9
 							state = 75
 							state = 74
@@ -3974,9 +3974,9 @@ country_event = { #FROM, Austria, Demands we integrate
 							state = 84
 							state = 82
 							state = 80
-							state = 934
+							state = 912
 							state = 44
-							state = 805
+							state = 785
 						}
 						OR = {
 							is_fully_controlled_by = ROOT
@@ -4186,8 +4186,8 @@ country_event = { #FROM, Austria, Demands we integrate
 				limit = {
 					OR = {
 						AND = {
-							owns_state = 853
-							controls_state = 853
+							owns_state = 831
+							controls_state = 831
 						}
 						AND = {
 							owns_state = 102
@@ -4236,8 +4236,8 @@ country_event = { #FROM, Austria, Demands we integrate
 							is_subject_of = ROOT
 							OR = {
 								AND = {
-									owns_state = 853
-									controls_state = 853
+									owns_state = 831
+									controls_state = 831
 								}
 								AND = {
 									owns_state = 102
@@ -4256,8 +4256,8 @@ country_event = { #FROM, Austria, Demands we integrate
 						FROM.FROM = {
 							OWNER = {
 								is_subject_of = ROOT
-								owns_state = 853
-								controls_state = 853 
+								owns_state = 831
+								controls_state = 831 
 							}
 						}
 						
@@ -4597,12 +4597,12 @@ country_event = { #FROM integrates
 						is_on_continent = europe
 						OR = {
 							state = 155
-							state = 974
-							state = 973
+							state = 952
+							state = 951
 							state = 154
 							state = 43
 							state = 69
-							state = 972
+							state = 950
 							state = 9
 							state = 75
 							state = 74
@@ -4615,9 +4615,9 @@ country_event = { #FROM integrates
 							state = 84
 							state = 82
 							state = 80
-							state = 934
+							state = 912
 							state = 44
-							state = 805
+							state = 785
 						}
 						OR = {
 							is_fully_controlled_by = FROM
@@ -4692,13 +4692,13 @@ country_event = { #FROM integrates
 		IF = { #YUG stuff
 			limit = { 
 				FROM = { 
-					owns_state = 853
-					controls_state = 853
+					owns_state = 831
+					controls_state = 831
 				}
 			}
 
 			ROOT = {
-				transfer_state = 853
+				transfer_state = 831
 			}
 		}
 
@@ -4706,14 +4706,14 @@ country_event = { #FROM integrates
 			limit = { 
 				FROM.FROM = { 
 					OWNER = {
-						owns_state = 853
-						controls_state = 853
+						owns_state = 831
+						controls_state = 831
 					}
 				}
 			}
 
 			ROOT = {
-				transfer_state = 853
+				transfer_state = 831
 			}
 		}
 
@@ -5839,7 +5839,7 @@ country_event = { #FROM gives us Trentino and Alto Adige/caves to our threats
 						is_core_of = ITA
 						NOT = {
 							state = 39
-							state = 850
+							state = 828
 						}
 					}
 					add_extra_state_shared_building_slots = 2
@@ -5879,7 +5879,7 @@ country_event = { #FROM gives us Trentino and Alto Adige/caves to our threats
 			transfer_state_to = ROOT
 			add_core_of = ROOT
 		}
-		850 = { #Trentino
+		828 = { #Trentino
 			transfer_state_to = ROOT
 			add_core_of = ROOT
 		}
@@ -5917,7 +5917,7 @@ country_event = { #FROM refuses to give us Trentino and Alto Adige/does not cave
 			add_core_of = ROOT
 			add_claim_by = ROOT
 		}
-		850 = {
+		828 = {
 			add_core_of = ROOT	
 			add_claim_by = ROOT		
 		}
@@ -7302,7 +7302,7 @@ country_event = { #FROM proposes less restrictive agreement
 	option = { #we want someone to oversee this.
 		name = AUS_political_events.73.c
 		trigger = { 
-			has_government = democratic 
+			has_government = Democracy 
 			AUS = {	
 				AUS_karl_renner = {
 					is_hired_as_advisor = no
@@ -8173,12 +8173,12 @@ country_event = { #Austria informed that their ultimatum was rejected
 
 			IF = {
 				limit = {
-					has_government = democratic
+					has_government = Democracy
 				}
 
 				start_civil_war = {
 					ideology = communism
-					ruling_party = democratic
+					ruling_party = Democracy
 					size = var:AUS_FROM_communist_support 
 					ROOT = {
 						puppet = {
@@ -8243,7 +8243,7 @@ country_event = { #Austria informed that their ultimatum was rejected
 	}
 }
 
-country_event = { #Electing a new democratic leader
+country_event = { #Electing a new Democracy leader
 	id = AUS_political_events.90
 	title = AUS_political_events.90.t
 	desc = AUS_political_events.90.desc
@@ -8292,7 +8292,7 @@ country_event = { #Electing a new democratic leader
 		}
 	
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = Democracy
 			elections_allowed = yes
 			last_election = "1936.1.1"
 			election_frequency = 48
@@ -8310,7 +8310,7 @@ country_event = { #Electing a new democratic leader
 		promote_character = AUS_karl_renner
 
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = Democracy
 			elections_allowed = yes
 			last_election = "1936.1.1"
 			election_frequency = 48
@@ -8332,7 +8332,7 @@ country_event = { #Electing a new democratic leader
 		promote_character = AUS_vinzenz_schumy
 
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = Democracy
 			elections_allowed = yes
 			last_election = "1936.1.1"
 			election_frequency = 48
@@ -8414,7 +8414,7 @@ country_event = { #Otto wants to be a field marshal
   		}
 
 		set_capital = {
-			state = 848
+			state = 826
 			remember_old_capital = yes
 		}
 
@@ -8470,7 +8470,7 @@ country_event = { #Liechtenstein seeks to purchase Alaska
 		custom_effect_tooltip = generic_this_might_cause_tt
 		effect_tooltip = {
 			FROM = {
-				add_state_claim = 463 #Alaska
+				add_state_claim = 461 #Alaska
 
 				create_wargoal = {
 					type = take_claimed_state
@@ -8566,7 +8566,7 @@ country_event = { #America refuses to sell Alaska
 			base = 10
 		}
 
-		add_state_claim = 463 #Alaska
+		add_state_claim = 461 #Alaska
 
 		create_wargoal = {
 			type = take_claimed_state
@@ -8865,7 +8865,7 @@ country_event = { #Germany informed of Austria's refusal to install Seyss-Inquar
 			limit = {
 				ENG = {
 					exists = yes
-					has_government = democratic
+					has_government = Democracy
 				}
 				ROOT = { has_country_flag = GER_has_already_upped_pressure_for_seyss_inquart_flag }
 			}
@@ -8882,7 +8882,7 @@ country_event = { #Germany informed of Austria's refusal to install Seyss-Inquar
 			limit = {
 				FRA = {
 					exists = yes
-					has_government = democratic
+					has_government = Democracy
 					ROOT = { has_country_flag = GER_has_already_upped_pressure_for_seyss_inquart_flag }
 				}
 			}
@@ -8899,7 +8899,7 @@ country_event = { #Germany informed of Austria's refusal to install Seyss-Inquar
 			limit = {
 				CZE = {
 					exists = yes
-					has_government = democratic
+					has_government = Democracy
 					ROOT = { has_country_flag = GER_has_already_upped_pressure_for_seyss_inquart_flag }
 				}
 			}
@@ -9352,9 +9352,9 @@ country_event = { #Austria informed of Italy backing down
 				add_state_claim = 4
 				add_state_claim = 152
 				add_state_claim = 153
-				add_state_claim = 848
-				add_state_claim = 975
-				add_state_claim = 976
+				add_state_claim = 826
+				add_state_claim = 953
+				add_state_claim = 954
 				create_wargoal = {
 					type = take_state_focus
 					target = AUS
@@ -9414,9 +9414,9 @@ country_event = { #Austria informed of Italy supporting them
 				add_state_claim = 4
 				add_state_claim = 152
 				add_state_claim = 153
-				add_state_claim = 848
-				add_state_claim = 975
-				add_state_claim = 976
+				add_state_claim = 826
+				add_state_claim = 953
+				add_state_claim = 954
 				create_wargoal = {
 					type = take_state_focus
 					target = AUS
@@ -9929,9 +9929,9 @@ country_event = { #FROM demands further concessions
 			IF = {
 				limit = {
 					OR = {
-						controls_state = 764
+						controls_state = 744
 						any_subject_country = {
-							controls_state = 764
+							controls_state = 744
 						}
 					}
 				}
@@ -9962,9 +9962,9 @@ country_event = { #FROM demands further concessions
 			IF = {
 				limit = {
 					OR = {
-						controls_state = 804
+						controls_state = 784
 						any_subject_country = {
-							controls_state = 804
+							controls_state = 784
 						}
 					}
 				}
@@ -10016,13 +10016,13 @@ country_event = { #FROM demands further concessions
 			IF = {
 				limit = {
 					OR = {
-						controls_state = 764
+						controls_state = 744
 						any_subject_country = {
-							controls_state = 764
+							controls_state = 744
 						}
 					}
 				}
-				764 = { add_claim_by = FROM } 
+				744 = { add_claim_by = FROM } 
 			}
 			IF = {
 				limit = {
@@ -10049,13 +10049,13 @@ country_event = { #FROM demands further concessions
 			IF = {
 				limit = {
 					OR = {
-						controls_state = 804
+						controls_state = 784
 						any_subject_country = {
-							controls_state = 804
+							controls_state = 784
 						}
 					}
 				}
-				804 = { add_claim_by = FROM } 
+				784 = { add_claim_by = FROM } 
 			}
 			IF = {
 				limit = {
@@ -10103,9 +10103,9 @@ country_event = { #FROM hands over states
 			limit = {
 				FROM = {
 					OR = {
-						controls_state = 764
+						controls_state = 744
 						any_subject_country = {
-							controls_state = 764
+							controls_state = 744
 						}
 					}
 				}
@@ -10145,9 +10145,9 @@ country_event = { #FROM hands over states
 			limit = {
 				FROM = {
 					OR = {
-						controls_state = 804
+						controls_state = 784
 						any_subject_country = {
-							controls_state = 804
+							controls_state = 784
 						}
 					}
 				}
@@ -10190,15 +10190,15 @@ country_event = { #FROM refuses to give us what we want
 			limit = {
 				FROM = {
 					OR = {
-						controls_state = 764
+						controls_state = 744
 						any_subject_country = {
-							controls_state = 764
+							controls_state = 744
 						}
 					}
 				}
 				
 			}
-			764 = { add_claim_by = ROOT } 
+			744 = { add_claim_by = ROOT } 
 		}
 		IF = {
 			limit = {
@@ -10232,15 +10232,15 @@ country_event = { #FROM refuses to give us what we want
 			limit = {
 				FROM = {
 					OR = {
-						controls_state = 804
+						controls_state = 784
 						any_subject_country = {
-							controls_state = 804
+							controls_state = 784
 						}
 					}
 				}
 				
 			}
-			804 = { add_claim_by = ROOT } 
+			784 = { add_claim_by = ROOT } 
 		}
 		IF = {
 			limit = {
@@ -10767,7 +10767,7 @@ news_event = { #Austria holds elections again
 	option = { #great!
 		name = AUS_news_events.12.a
 		trigger = {
-			has_government = democratic
+			has_government = Democracy
 		}
 	}
 
@@ -10775,7 +10775,7 @@ news_event = { #Austria holds elections again
 		name = AUS_news_events.12.b
 		trigger = {
 			NOT = {
-				has_government = democratic
+				has_government = Democracy
 			}
 		}
 	}

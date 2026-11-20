@@ -1,4 +1,4 @@
-﻿capital = 564 #Ulan Ude in Buryatia
+﻿capital = 562 #Ulan Ude in Buryatia
 
 #oob = "BYA_1936"
 
@@ -94,7 +94,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 50
 	fascism = 0
-	Communism = 0
+	communism = 0
 	Authoritarianism = 50
 }
 

@@ -1,11 +1,11 @@
 load_focus_tree = generic_focus
-capital = 563
+capital = 561
 
 oob = "FEM_1936"
 
 set_research_slots = 3
 
-#领导人
+### 领导人 ###
 recruit_character = FEM_Nikolai_Kosov
 
 # Starting tech
@@ -155,5 +155,5 @@ set_popularities = {
 	tttt = 60
 	fascism = 15
 	nazism = 15
-	Communism = 10
+	communism = 10
 }

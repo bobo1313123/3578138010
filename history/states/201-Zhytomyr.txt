@@ -1,6 +1,6 @@
 
 state={
-	id=201
+	id = 201
 	name="STATE_201"
 	manpower = 1417834
 	
@@ -15,7 +15,7 @@ state={
 			infrastructure = 3 #was: 5
 			air_base = 3
 		}
-		add_claim_by = RKR
+		add_claim_by = NRO
 		add_core_of = UKR
 	}
 

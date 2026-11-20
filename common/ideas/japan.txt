@@ -347,7 +347,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 			
 			removal_cost = -1
@@ -578,7 +578,7 @@ ideas = {
 			
 			modifier = {
 				stability_weekly = -0.01
-				Communism_drift = 0.03
+				communism_drift = 0.03
 			}
 		}
 
@@ -608,7 +608,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 			
 			removal_cost = -1
@@ -626,7 +626,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 			
 			removal_cost = -1
@@ -645,7 +645,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = Communism
+				has_government = communism
 			}
 			
 			removal_cost = -1

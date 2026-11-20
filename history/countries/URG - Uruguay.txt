@@ -1,4 +1,4 @@
-﻿capital = 300
+﻿capital = 299
 load_focus_tree = generic_focus
 oob = "URG_1936"
 every_core_state = {
@@ -84,7 +84,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 44
 	tttt = 53
-	Communism = 3
+	communism = 3
 	fascism = 0
 }
 

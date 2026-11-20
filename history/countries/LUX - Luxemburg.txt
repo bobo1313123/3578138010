@@ -74,11 +74,8 @@ recruit_character = LUX_felix_of_luxembourg
 		interwar_antiair = 1
 		
 		#doctrines
-		air_superiority = 1
 		
 		
-		pocket_defence = 1
-		defence_in_depth = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -126,7 +123,7 @@ set_popularities = {
 	Conservatism = 70
 	Authoritarianism = 15
 	fascism = 12
-	Communism = 3
+	communism = 3
 }
 
 1939.1.1 = {

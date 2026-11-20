@@ -1,4 +1,4 @@
-﻿capital = 800
+﻿capital = 780
 
 set_research_slots = 2
 
@@ -71,15 +71,10 @@ if = {
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
 
 		
-		pocket_defence = 1
-		defence_in_depth = 1
 		
 		
-		convoy_sailing = 1
-		submarine_operations = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -134,7 +129,7 @@ set_politics = {
 
 set_popularities = {
 	Liberalism = 40
-	Communism = 25
+	communism = 25
 	fascism = 30
 	Authoritarianism = 5
 }

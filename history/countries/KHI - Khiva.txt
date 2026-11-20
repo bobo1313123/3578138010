@@ -1,4 +1,4 @@
-﻿capital = 831 #Khiva
+﻿capital = 809 #Khiva
 
 #oob = "KHI_1936"
 
@@ -94,7 +94,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 60
 	fascism = 10
-	Communism = 20
+	communism = 20
 	Authoritarianism = 10
 }
 

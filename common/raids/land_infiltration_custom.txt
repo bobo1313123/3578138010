@@ -1,4 +1,4 @@
-types = {
+﻿types = {
 
 	PRC_weapons_depot_raid = {
 
@@ -79,7 +79,7 @@ types = {
 			var:target_state = {
 				is_core_of = PRC
 				NOT = {
-					state = 524 #it's an island, bruh
+					state = 522 #it's an island, bruh
 				}
 				OR = {
 					has_dynamic_modifier = {
@@ -689,11 +689,11 @@ types = {
 			   		set_state_flag = PRC_probe_border_defenses_state_flag
 			   		if = {
 							limit = {
-								state = 1045
+								state = 1022
 							}
 							damage_units = {
 							    province = 3745
-							    state = 1045
+							    state = 1022
 							    region = 144
 							   # damage = 0.25
 							    org_damage = 0.5
@@ -704,7 +704,7 @@ types = {
 							}
 							damage_units = {
 							    province = 5025
-							    state = 1045
+							    state = 1022
 							    region = 144
 							    #damage = 0.5
 							    org_damage = 0.5
@@ -716,11 +716,11 @@ types = {
 						}
 				    	else_if = {
 				    		limit = {
-				    			state = 615
+				    			state = 607
 				    		}
 					    	damage_units = {
 							    province = 10367
-							    state = 615
+							    state = 607
 							    region = 245
 							  #  damage = 0.35
 							    org_damage = 0.4
@@ -731,7 +731,7 @@ types = {
 							}
 							damage_units = {
 							    province = 1531
-							    state = 615
+							    state = 607
 							    region = 245
 							  # damage = 0.35
 							    org_damage = 0.4
@@ -742,7 +742,7 @@ types = {
 							}
 							damage_units = {
 							    province = 4074
-							    state = 615
+							    state = 607
 							    region = 245
 							   # damage = 0.35
 							    org_damage = 0.4
@@ -811,11 +811,11 @@ types = {
 						}
 						if = {
 							limit = {
-								state = 1045
+								state = 1022
 							}
 							damage_units = {
 							    province = 3745
-							    state = 1045
+							    state = 1022
 							    region = 144
 							   # damage = 0.25
 							    org_damage = 0.7
@@ -826,7 +826,7 @@ types = {
 							}
 							damage_units = {
 							    province = 5025
-							    state = 1045
+							    state = 1022
 							    region = 144
 							    #damage = 0.5
 							    org_damage = 0.7
@@ -838,11 +838,11 @@ types = {
 						}
 				    	else_if = {
 				    		limit = {
-				    			state = 615
+				    			state = 607
 				    		}
 					    	damage_units = {
 							    province = 10367
-							    state = 615
+							    state = 607
 							    region = 245
 							  #  damage = 0.35
 							    org_damage = 0.65
@@ -853,7 +853,7 @@ types = {
 							}
 							damage_units = {
 							    province = 1531
-							    state = 615
+							    state = 607
 							    region = 245
 							  #  damage = 0.35
 							     org_damage = 0.65
@@ -864,7 +864,7 @@ types = {
 							}
 							damage_units = {
 							    province = 4074
-							    state = 615
+							    state = 607
 							    region = 245
 							   # damage = 0.35
 							    org_damage = 0.65
@@ -934,11 +934,11 @@ types = {
 
 						if = {
 							limit = {
-								state = 1045
+								state = 1022
 							}
 							damage_units = {
 							    province = 3745
-							    state = 1045
+							    state = 1022
 							    region = 144
 							   # damage = 0.25
 							    org_damage = 0.8
@@ -949,7 +949,7 @@ types = {
 							}
 							damage_units = {
 							    province = 5025
-							    state = 1045
+							    state = 1022
 							    region = 144
 							   # damage = 0.5
 							    org_damage = 0.8
@@ -961,11 +961,11 @@ types = {
 						}
 				    	else_if = {
 				    		limit = {
-				    			state = 615
+				    			state = 607
 				    		}
 					    	damage_units = {
 							    province = 10367
-							    state = 615
+							    state = 607
 							    region = 245
 							  #  damage = 0.35
 							    org_damage = 0.65
@@ -976,7 +976,7 @@ types = {
 							}
 							damage_units = {
 							    province = 1531
-							    state = 615
+							    state = 607
 							    region = 245
 							  #  damage = 0.35
 							    org_damage = 0.65
@@ -987,7 +987,7 @@ types = {
 							}
 							damage_units = {
 							    province = 4074
-							    state = 615
+							    state = 607
 							    region = 245
 							  #  damage = 0.35
 							    org_damage = 0.65

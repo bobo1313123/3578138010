@@ -1,4 +1,4 @@
-﻿capital = 1059 # Vienna
+﻿capital = 1036 # Vienna
 
 set_oob = "AUS_ww_1936"
 set_variable = { aus_economy = 20000 }
@@ -7,6 +7,7 @@ load_focus_tree = austria_TVE_FOCUS
 add_manpower = 500000
 recruit_character = Archduke_Franz_Ferdinand_of_Austria
 #recruit_character = AUS_kurt_schuschnigg
+
 create_faction = AUS_HUN_FAC
 add_to_faction = AUS
 add_to_faction = HUN
@@ -24,9 +25,8 @@ set_autonomy = {
 	freedom_level = 0.2
 }
 set_autonomy = {
-	target = CZE
+	target = CRO
 	autonomous_state = autonomy_colony
-	freedom_level = 0.2
 }
 set_variable = {
 	AUS_CIVIL_WAR_VAR = 0
@@ -682,19 +682,10 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-CZE = {
-	
-set_politics = {
-	ruling_party = tttt
-	last_election = "1935.5.19"
-	election_frequency = 60
-	elections_allowed = yes
-}
-}
 set_popularities = {
 	tttt = 19
 	fascism = 10
-	Communism = 0
+	communism = 0
 	Progressivism = 0
 	Socialism = 28
 	Liberalism = 13
@@ -748,7 +739,7 @@ set_party_name = {
 	long_name = AUS_GUNMU_1
 }
 set_party_name = {
-	ideology = Communism
+	ideology = communism
 	name = AUS_GUNMU_1
 	long_name = AUS_GUNMU_1
 }

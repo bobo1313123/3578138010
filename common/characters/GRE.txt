@@ -1504,7 +1504,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = Communism 
+					has_government = communism 
 					SWE_refuge_for_revolutionaries_trigger = yes
 				}
 			}
@@ -1634,7 +1634,7 @@ characters={
 				has_completed_focus = GRE_fiscal_responsibility 
 				NOT = {
 					OR = {
-						has_government = Communism 
+						has_government = communism 
 						has_country_leader = {
 							character = GRE_emmanouil_tsouderos
 							ruling_only = yes 

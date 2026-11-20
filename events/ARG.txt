@@ -33,7 +33,7 @@ news_event = { #阿根廷的吹哨人
 			long_name = ARG_Authoritarianism_party2_long
 		}
 		set_popularities = {
-			Communism = 2
+			communism = 2
 			Socialism = 1
 			Progressivism = 7
 			Liberalism = 43
@@ -45,24 +45,24 @@ news_event = { #阿根廷的吹哨人
 			nazism = 1
 		}
 		add_country_leader_role = {
-        character = ARG_Marcelo_Torquato_de_Alvial
-        promote_leader = yes
-        country_leader = {
-			desc = ARG_Marcelo_Torquato_de_Alvial_desc
-            ideology = liberal_radicalism
-			traits = {
-				ARG_head_of_government
-				ARG_prime_minister_number_one
+        	character = ARG_Marcelo_Torquato_de_Alvial
+        	promote_leader = yes
+        	country_leader = {
+				desc = ARG_Marcelo_Torquato_de_Alvial_desc
+            	ideology = liberal_radicalism
+				traits = {
+					ARG_head_of_government
+					ARG_prime_minister_number_one
+				}
+        	}
+    	}
+		hidden_effect = {
+			swap_ideas = {
+				remove_idea = ARG_Marcelo_Torquato_de_Alvial
+				add_idea = ARG_Amedeo_II
 			}
-        }
-    }
-	hidden_effect = {
-		swap_ideas = {
-		remove_idea = ARG_Marcelo_Torquato_de_Alvial
-		add_idea = ARG_Amedeo_II
-	}
-	}
-	custom_effect_tooltip = second_leader_tt2
+		}
+		custom_effect_tooltip = second_leader_tt2
 	}
 }
 news_event = { #恩里克·马丁内斯接任总统
@@ -76,7 +76,7 @@ news_event = { #恩里克·马丁内斯接任总统
 	option = {
 		name = Argentina_news.2.a
 		set_popularities = {
-			Communism = 0
+			communism = 0
 			Socialism = 1
 			Progressivism = 1
 			Liberalism = 5

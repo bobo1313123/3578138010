@@ -1,4 +1,4 @@
-﻿capital = 1015 # Nizwa
+﻿capital = 993 # Nizwa
 
 # Starting tech
 set_technology = {
@@ -30,8 +30,6 @@ set_convoys = 5
 	set_technology = {
 
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -61,7 +59,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 5
 	fascism = 0
-	Communism = 5
+	communism = 5
 	Authoritarianism = 90
 }
 

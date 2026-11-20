@@ -1,0 +1,21 @@
+﻿state = {
+	id = 603
+	name = "STATE_611"
+	manpower = 4011018
+	state_category = pastoral
+	history = {
+		owner = CHI
+		add_core_of = MEN
+		add_core_of = CHI
+		add_core_of = PRC
+		add_extra_state_shared_building_slots = 2
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		1551 1608 1796 4222 4495 7648 7674 10372 12348 12448
+	}
+	local_supplies = 7
+}

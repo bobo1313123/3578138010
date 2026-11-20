@@ -1,10 +1,6 @@
-﻿capital = 797
+﻿capital = 777
 load_focus_tree = generic_focus
-set_autonomy = {
-	target = SYR
-	autonomous_state = autonomy_colony
-	freedom_level = 0.2
-}
+
 if = {
 	limit = {
 		NOT = {
@@ -49,7 +45,7 @@ if = {
 ###################
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#TUR_Communism
+#TUR_communism
 #TUR_Liberalism
 #TUR_fascism
 #TUR_Authoritarianism
@@ -210,10 +206,10 @@ if = {
 			limit = {
 				OR = {
 					state = 49
-					state = 342
-					state = 343
-					state = 346
-					state = 347
+					state = 340
+					state = 341
+					state = 344
+					state = 345
 				}
 			}
 			set_state_flag = TUR_ideological_battleground_state
@@ -252,7 +248,6 @@ if = {
 }
 
 
-
 set_politics = {
 	ruling_party = Progressivism
 	last_election = "1935.2.8"
@@ -261,7 +256,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 6
 	Progressivism = 30
-	Communism = 1
+	communism = 1
 	Socialism = 10
 	Liberalism = 12
 	Democracy = 18

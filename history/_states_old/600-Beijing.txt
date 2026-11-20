@@ -1,0 +1,36 @@
+﻿state = {
+	id = 600
+	name = "STATE_608"
+	manpower = 12189418
+	state_category = large_city
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_extra_state_shared_building_slots = 2
+		buildings = {
+			air_base = 3
+			industrial_complex = 2
+			infrastructure = 3
+			9843 = {
+				landmark_forbidden_city = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
+			10068 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			9843 20
+			10068 1
+		}
+	}
+	provinces = {
+		4140 9843 11761
+	}
+	local_supplies = 7
+}

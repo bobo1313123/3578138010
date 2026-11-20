@@ -1,4 +1,4 @@
-﻿capital = 812
+﻿capital = 792
 load_focus_tree = generic_focus
 oob = "EST_1936"
 if = {
@@ -171,12 +171,7 @@ set_convoys = 5
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -223,7 +218,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 20
 	fascism = 15
-	Communism = 5
+	communism = 5
 	Authoritarianism = 60
 }
 

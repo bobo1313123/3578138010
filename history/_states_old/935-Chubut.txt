@@ -1,0 +1,38 @@
+﻿state = {
+	id = 935
+	name = "STATE_955"
+	manpower = 395040
+	
+	state_category = rural
+	
+	resources = {
+		oil = 4
+	}
+
+	history = {
+
+		owner =MPQ
+		add_core_of = MPQ
+		add_core_of = ARG
+
+		buildings = {
+			infrastructure = 1
+			10953 = {
+				naval_base = 1
+			}
+		}
+
+		
+
+		victory_points = {
+			8161 1 
+		}
+		
+	}
+
+	provinces = {
+		8161 8176 11005 13306 
+	}
+
+	local_supplies = 0.0 
+}

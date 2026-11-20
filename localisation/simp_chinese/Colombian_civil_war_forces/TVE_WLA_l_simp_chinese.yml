@@ -6,8 +6,8 @@
         WLA_CCW_DEF:0 "玻利瓦尔指挥部"
         WLA_CCW_adj:0 "玻利瓦尔指挥部"
 
-        WLA_Communism_party:0 "-"
-        WLA_Communism_party_long:0 "-"
+        WLA_communism_party:0 "-"
+        WLA_communism_party_long:0 "-"
         WLA_Socialism_party:0 "-"
         WLA_Socialism_party_long:0 "-"
         WLA_Progressivism_party:0 "国家民主党"

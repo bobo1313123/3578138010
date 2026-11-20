@@ -94,7 +94,7 @@ set_politics = {
 }
 set_popularities = {
 	Conservatism = 60
-	Communism = 40
+	communism = 40
 }
 
 create_country_leader = {

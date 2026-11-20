@@ -3,8 +3,8 @@
         ITZ_DEF:"巴拿马独立政府"
         ITZ_ADJ:"巴拿马独立政府"
 
-        ITZ_Communism_party:0 "-"
-        ITZ_Communism_party_long:0 "-"
+        ITZ_communism_party:0 "-"
+        ITZ_communism_party_long:0 "-"
         ITZ_Socialism_party:0 "-"
         ITZ_Socialism_party_long:0 "-"
         ITZ_Progressivism_party:0 ""

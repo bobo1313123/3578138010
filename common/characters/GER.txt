@@ -94,15 +94,6 @@ characters = {
 
 	### NON-ALIGNED ###
 
-	GER_wilhelm_ii = { #Empty Wilhelm II so he doesn't become ruler automatically if the neutrals are in power
-		name = GER_wilhelm_ii
-		portraits = {
-			civilian = {
-				large = GFX_portrait_ger_wilhelm_ii
-			}	
-		}
-	}
-
 	GER_wilhelm_iii = { #Empty Wilhelm III so he doesn't become ruler automatically if the neutrals are in power
 		name = GER_wilhelm_iii
 		portraits = {
@@ -2782,7 +2773,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					has_government = Democracy 
 				}
 			}
 			ai_will_do = {
@@ -3009,7 +3000,7 @@ characters = {
 			available = {
 				OR = {
 					has_government = neutrality
-					has_government = democratic
+					has_government = Democracy
 				}
 			}
 			traits = {
@@ -3104,7 +3095,7 @@ characters = {
 			available = {
 				OR = {
 					has_government = neutrality
-					has_government = democratic
+					has_government = Democracy
 				}
 			}
 			traits = {
@@ -3353,7 +3344,7 @@ characters = {
 					AND = {
 						OR = {	
 							has_government = neutrality
-							has_government = democratic
+							has_government = Democracy
 						}
 						has_completed_focus = GER_monarchist_sentiment
 					}
@@ -3398,7 +3389,7 @@ characters = {
 					AND = {
 						OR = {	
 							has_government = neutrality
-							has_government = democratic
+							has_government = Democracy
 						}
 						has_completed_focus = GER_monarchist_sentiment
 					}

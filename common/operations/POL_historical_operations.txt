@@ -1,4 +1,4 @@
-operation_warsaw_uprising = { ### 8 2/40
+﻿operation_warsaw_uprising = { ### 8 2/40
 	icon = GFX_operations_boost_resistance
 	map_icon = GFX_operations_boost_resistance_map
 	name = operation_warsaw_uprising
@@ -103,8 +103,8 @@ operation_warsaw_uprising = { ### 8 2/40
 						state = 10
 						state = 72
 						state = 162
-						state = 784
-						state = 807
+						state = 764
+						state = 787
 						state = 85
 						state = 86
 						state = 87

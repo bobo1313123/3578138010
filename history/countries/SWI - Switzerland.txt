@@ -348,12 +348,7 @@ if = { #########   By Blood Alone Stuff
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -385,7 +380,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 96
 	fascism = 2
-	Communism = 2
+	communism = 2
 }
 
 #1939.1.1 = {
@@ -393,7 +388,7 @@ set_popularities = {
 #	set_popularities = {
 #		Liberalism = 95
 #		fascism = 2
-#		Communism = 3
+#		communism = 3
 #	}
 #}
 

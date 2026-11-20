@@ -406,7 +406,7 @@ characters={
 				}
 				do_effect  = {
 					not  = {
-						has_government  = Communism 
+						has_government  = communism 
 					}
 				}
 				ai_will_do  = {

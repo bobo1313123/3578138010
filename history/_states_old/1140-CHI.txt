@@ -1,0 +1,38 @@
+﻿state = {
+	id = 1140
+	name = "STATE_1340"
+	manpower = 24535909
+	state_category = rural
+	resources = {
+		steel = 11
+	}
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_extra_state_shared_building_slots = 4
+		buildings = {
+			air_base = 6
+			dockyard = 1
+			industrial_complex = 1
+			infrastructure = 4
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 1
+
+			}
+
+		}
+	}
+	provinces = {
+		1099 7094 7222 10017 10064 11916 11994 12036
+	}
+	local_supplies = 7
+}

@@ -91,11 +91,11 @@ set_politics = {
 set_popularities = {
 	Progressivism = 50
 	fascism = 30
-	Communism = 20
+	communism = 20
 }
 
 create_country_leader = {
-	name = UKR_BIDE_LIULA
+	name = "西蒙·彼得留拉"
 	picture = GFX_UKR_BIDE_LIULA
 	ideology = progressivism_small
 }

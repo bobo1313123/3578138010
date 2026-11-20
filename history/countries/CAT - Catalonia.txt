@@ -45,8 +45,6 @@ set_convoys = 20
 	set_technology = {
 
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -75,7 +73,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 50
 	fascism = 3
-	Communism = 47
+	communism = 47
 }
 
 recruit_character = CAT_lluis_companys

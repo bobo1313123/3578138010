@@ -170,7 +170,7 @@ instant_effect = {
 			type = support_equipment_1
 			creator = "CAN"
 		}
-		requested_factories = 4
+		requested_factories = 1
 		progress = 0.3
 		efficiency = 30
 	}

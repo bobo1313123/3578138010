@@ -1,4 +1,4 @@
-﻿capital = 399 #Izhevsk
+﻿capital = 397 #Izhevsk
 
 #oob = "UDM_1936"
 
@@ -91,7 +91,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 60
 	fascism = 20
-	Communism = 10
+	communism = 10
 	Authoritarianism = 10
 }
 

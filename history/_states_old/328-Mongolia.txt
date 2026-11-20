@@ -1,0 +1,30 @@
+﻿state = {
+	id = 328
+	name = "STATE_330"
+	manpower = 2976568
+	state_category = large_town
+	resources = {
+		chromium = 3
+		steel = 2
+	}
+	history = {
+		owner = CHI
+		add_core_of = MON
+		add_core_of = CHI
+		add_extra_state_shared_building_slots = 3
+		buildings = {
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 3
+			infrastructure = 1
+		}
+		victory_points = {
+			4801 10
+		}
+	}
+	provinces = {
+		1868 4732 4801 4862 7749 7823 7885 10575 12533 12612 12665
+	}
+	local_supplies = 7
+	buildings_max_level_factor = 1.000
+}

@@ -50,7 +50,7 @@ hispaniola_category = {
 						}
 					}
 				}
-				319 = { add_core_of = ROOT }
+				318 = { add_core_of = ROOT }
 			}
 			
 			IF =  {
@@ -61,7 +61,7 @@ hispaniola_category = {
 						}
 					}
 				}
-				318 = { add_core_of = ROOT }
+				317 = { add_core_of = ROOT }
 			}
 
 			hidden_effect = {
@@ -136,7 +136,7 @@ guianas_category = {
 						}
 					}
 				}
-				309 = { 
+				308 = { 
 					add_core_of = ROOT 
 					transfer_state_to = ROOT
 				}
@@ -151,7 +151,7 @@ guianas_category = {
 						}
 					}
 				}
-				310 = { 
+				309 = { 
 					add_core_of = ROOT 
 					transfer_state_to = ROOT
 				}
@@ -166,7 +166,7 @@ guianas_category = {
 						}
 					}
 				}
-				687 = { 
+				678 = { 
 					add_core_of = ROOT 
 					transfer_state_to = ROOT
 				}
@@ -181,7 +181,7 @@ guianas_category = {
 						}
 					}
 				}
-				488 = { add_core_of = ROOT }
+				486 = { add_core_of = ROOT }
 			}
 
 			# Amapa
@@ -193,7 +193,7 @@ guianas_category = {
 						}
 					}
 				}
-				939 = { add_core_of = ROOT }
+				917 = { add_core_of = ROOT }
 			}
 
 			# Rio Branco
@@ -205,7 +205,7 @@ guianas_category = {
 						}
 					}
 				}
-				969 = { add_core_of = ROOT }
+				947 = { add_core_of = ROOT }
 			}
 
 			hidden_effect = {
@@ -218,7 +218,7 @@ guianas_category = {
 							}
 						}
 					}
-					968 = { add_core_of = ROOT }
+					946 = { add_core_of = ROOT }
 				}
 			}
 

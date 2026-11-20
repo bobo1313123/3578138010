@@ -1,4 +1,4 @@
-﻿capital = 441 
+﻿capital = 439 
 
 set_research_slots = 3
 add_political_power = 2000

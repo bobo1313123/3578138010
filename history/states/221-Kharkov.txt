@@ -1,6 +1,6 @@
 
 state={
-	id=221
+	id = 221
 	name="STATE_221"
 	manpower = 2227520
 	
@@ -12,7 +12,7 @@ state={
 
 	history={
 		owner = UKR
-		add_core_of = RKR
+		add_core_of = NRO
 		victory_points = {
 			418 10
 		}

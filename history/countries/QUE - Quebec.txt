@@ -1,4 +1,4 @@
-﻿capital = 468 # Montreal (Saint Lawrence)
+﻿capital = 466 # Montreal (Saint Lawrence)
 
 if = {
 	limit = {
@@ -27,7 +27,6 @@ set_technology = {
 	tech_recon = 1
 	tech_trucks = 1
 	gw_artillery = 1
-	trench_warfare = 1
 	
 	basic_train = 1
 }
@@ -94,7 +93,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 70
 	fascism = 10
-	Communism = 15
+	communism = 15
 	Authoritarianism = 5
 }
 

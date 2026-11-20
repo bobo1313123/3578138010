@@ -1,4 +1,4 @@
-﻿capital = 336 #Kuala Lumpur
+﻿capital = 334 #Kuala Lumpur
 
 oob = "MAL_1936"
 
@@ -24,7 +24,6 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	
-	trench_warfare = 1
 
 	
 	electronic_mechanical_engineering = 1
@@ -123,7 +122,7 @@ set_politics = {
 }
 set_popularities = {
 	Conservatism = 33
-	Communism = 33
+	communism = 33
 	Authoritarianism = 34
 }
 
@@ -154,12 +153,7 @@ set_cosmetic_tag = MAL_UK # British Malaya
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1

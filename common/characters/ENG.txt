@@ -297,7 +297,7 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-					has_government  = Communism 
+					has_government  = communism 
 				}
 				if  = {
 					limit  = {
@@ -313,7 +313,7 @@ characters={
 			}
 			do_effect  = {
 				NOT = {
-					has_government  = Communism 
+					has_government  = communism 
 				}
 			}
 			ai_will_do  = {
@@ -2070,7 +2070,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_george_orwell
 			available  = {
-				has_government  = Communism 
+				has_government  = communism 
 				if  = {
 					limit  = {
 						has_dlc = "Man the Guns"
@@ -2106,7 +2106,7 @@ characters={
 			idea_token = ENG_sylvia_pankhurst
 			available  = {
 				OR = {
-					has_government  = Communism 
+					has_government  = communism 
 					SWE_refuge_for_revolutionaries_trigger = yes
 				}
 			}

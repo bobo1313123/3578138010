@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=Conservatism
+			ideology=Conservatism_small
 			traits={ strict_austerity_adherent }
 			expire="1965.1.1.1"
 			id=-1
@@ -117,7 +117,16 @@ characters={
 			}
 		}
 	}
-	
+	HOL_louis_beel = {
+		name = HOL_louis_beel
+		country_leader = {
+			ideology = democracy_small
+			expire = "1965.1.1.1"
+			id = -1
+			#traits = { }
+		}
+	}
+
 	HOL_willem_schermerhorn={
 		advisor={
 			slot = political_advisor
@@ -349,7 +358,7 @@ characters={
 			logistics_skill = 2
 			legacy_id = -1
 			visible = {
-				has_government = Communism
+				has_government = communism
 			}
 		}
 	}
@@ -653,7 +662,7 @@ characters={
 				}
 				available  = {
 					OR = {
-						has_government  = Communism 
+						has_government  = communism 
 						SWE_refuge_for_revolutionaries_trigger = yes
 						CHL_hub_of_the_revolution_trigger = yes
 					}
@@ -735,7 +744,7 @@ characters={
 				available  = {
 					OR = {
 						AND = {
-							has_government  = Communism 
+							has_government  = communism 
 							has_completed_focus  = HOL_decolonization 
 						}
 						SWE_refuge_for_revolutionaries_trigger = yes

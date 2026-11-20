@@ -1,4 +1,4 @@
-﻿capital = 442 
+﻿capital = 440 
 
 
 set_research_slots = 3
@@ -15,7 +15,7 @@ set_politics = {
 }
 set_popularities = {
 	Liberalism = 30
-	Communism = 5
+	communism = 5
 	Authoritarianism = 60
 	fascism = 5
 }

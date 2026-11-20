@@ -1,13 +1,61 @@
+#汤化龙的土黄民国
+ROC_TangsDemo = {
+	color = rgb { 166 134 42 }
+	color_ui = rgb { 184 152 54 }
+}
+#墨索里尼的民族共和国
+LBV_Mussolini_first = {
+	color = rgb { 128 92 50 }
+	color_ui = rgb { 150 110 64 }
+}
+#开局纽芬兰
+NFL_England_guardian = {
+	color = rgb { 200 16 46 }
+	color_ui = rgb { 200 16 46 }
+}
+#奥斯曼海德拉巴
+HYD_Osman = {
+	color = rgb { 102 205 170 }
+	color_ui = rgb { 102 205 170 }
+}
+#斯拉沃尼亚形态
+CRO_Slavonija = {
+	color = rgb { 209 199 199 }
+	color_ui = rgb { 209 199 199 }
+}
+#撒丁西班牙驻军
+SPM_Garrison_tag = {
+	color = rgb { 231 91 18 }
+	color_ui = rgb { 231 91 18 }
+}
+#叙利亚王国
+SYR_Kingdom = {
+	color = rgb { 80 106 207 }
+	color_ui = rgb { 80 106 207 }
+}
+#约旦哈希姆王国
+JOR_Hashim = {
+	color = rgb { 80 106 207 }
+	color_ui = rgb { 80 106 207 }
+}
+#第聂伯东岸军区
+NRO_RUS_Puppet = {
+	color = rgb { 35 108 41 }
+	color_ui = rgb { 35 108 41 }
+}
+
+#尼日尔南岸联邦
+NGA_South_niger = {
+	color = rgb { 237 145 33 }
+	color_ui = rgb { 237 145 33 }
+}
+
 bo_luo_di_sea = {
 	color = rgb { 138 155 116 }
 	color_ui = rgb { 138 155 116 }
 }
 HUN_EMPIRE_neutrality_TVE = {
 	color = rgb { 209 199 199 }
-	color_ui = rgb { 209 199 199 }
-}
-RKR_UKR_IND = {
-	color = rgb { 191 253 0 }
 	color_ui = rgb { 209 199 199 }
 }
 CZE_AUS_EMPIRE = {
@@ -43,8 +91,8 @@ TRA_ROM_ANT = {
 	color_ui = rgb { 255 255 120 }
 }
 ROC = {
-	color = rgb { 200 150 45 }
-	color_ui = rgb { 200 150 45 }
+	color = rgb { 55 64 130 }
+	color_ui = rgb { 55 64 130 }
 }
 ENG_NEW_color = {
 	color = rgb { 157 43 45 }
@@ -58,17 +106,9 @@ BOG_color = {
 	color = rgb { 157 43 45 }
 	color_ui = rgb { 80  165  10 }
 }
-ITALY_color = {
-	color = rgb { 0 102 0 }
-	color_ui = rgb { 0 102 0 }
-}
-ITALY_color_TTS = {
-	color = rgb { 0 102 0 }
-	color_ui = rgb { 0 102 0 }
-}
 FNA_color = {
-	color = rgb { 47 74 163 }
-	color_ui = rgb { 47 74 163 }
+	color = rgb { 56 92 168 }
+	color_ui = rgb { 72 110 184 }
 }
 FNA_MOR_color = {
 	color = rgb { 47 74 163 }
@@ -117,11 +157,6 @@ AUS_COLOR = {
 KAZ_color = {
 	color = rgb { 14 115 229 }
 	color_ui = rgb { 14 115 229 }
-}
-
-YUG_CRO = {
-	color = rgb { 0 217 200 }
-	color_ui = rgb { 13 217 200 }
 }
 
 YUG_BOS = {
@@ -183,4 +218,10 @@ MAY_CCW = {
 MIS_CCW = {
 	color = rgb { 6 54 98 }
 	color_ui = rgb { 255 190 127 }
+}
+
+# 尼德兰王国（内战复辟后）
+HOL_KINGDOM = {
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 203 138 74 }
 }

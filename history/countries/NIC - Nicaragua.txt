@@ -1,4 +1,4 @@
-﻿capital = 317
+﻿capital = 316
 
 oob = "NIC_1936"
 
@@ -64,12 +64,7 @@ set_convoys = 10
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -100,7 +95,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 15
 	fascism = 5
-	Communism = 10
+	communism = 10
 	TTTT = 70
 }
 

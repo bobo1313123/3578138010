@@ -1,4 +1,4 @@
-﻿capital = 366 
+﻿capital = 364 
 
 set_politics = {
 	ruling_party = Liberalism
@@ -9,7 +9,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 72
 	fascism = 2
-	Communism = 14
+	communism = 14
 	Authoritarianism = 12
 }
 

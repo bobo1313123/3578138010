@@ -48,7 +48,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			1423 = { set_demilitarized_zone = yes }
+			1202 = { set_demilitarized_zone = yes }
 			unlock_decision_category_tooltip = CSA_Richmond_Confederation
 				set_power_balance = {
     			id = CSA_Development_of_the_AP
@@ -201,16 +201,16 @@ focus_tree = {
 				remove_idea = CSA_slave_and_industry
 				add_idea = CSA_slave_and_industry_2
 			}
-			375 = {
+			373 = {
 				add_extra_state_shared_building_slots = 1
 			}
-			1026 = {
+			1004 = {
 				add_extra_state_shared_building_slots = 1
 			}
-			362 = {
+			360 = {
 				add_extra_state_shared_building_slots = 2
 			}
-			371 = {
+			369 = {
 				add_extra_state_shared_building_slots = 1
 			}
 			MEX = {
@@ -257,7 +257,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			1423 = {
+			1202 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = { 
 					type = infrastructure
@@ -275,7 +275,7 @@ focus_tree = {
 					province = 7388
 				}
 			}
-			366 = {
+			364 = {
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = { 
 					type = infrastructure
@@ -293,7 +293,7 @@ focus_tree = {
 					province = 7388
 				}
 			}
-			363 = {
+			361 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = { 
 					type = infrastructure
@@ -306,7 +306,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			371 = {
+			369 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = { 
 					type = infrastructure
@@ -319,7 +319,7 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			362 = {
+			360 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = { 
 					type = infrastructure

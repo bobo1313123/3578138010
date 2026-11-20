@@ -62,15 +62,15 @@ commonwealth_let_raj_defend_itself = {
 		type = put_unit_buffers
 		# burmese states
 		states = {
-			288
-			640
-			430
-			997
-			999
-			993
-			994
-			995
-			996
+			287
+			638
+			428
+			989
+			991
+			985
+			986
+			987
+			988
 		}
 		ratio = 0
 		area = burma

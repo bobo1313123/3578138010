@@ -16,7 +16,7 @@ add_ideas = {
 }
 
 load_focus_tree = generic_focus
-#领导人
+### 领导人 ###
 recruit_character = BUL_boris_iii
 recruit_character = BUL_Kimon_Georgiev #基蒙·格奥尔基耶夫
 
@@ -41,14 +41,14 @@ country_lock_all_division_template = yes
 	round_variable = BUL_march_destination
 	48 = { set_state_flag = BUL_initial_bulgarian_state_flag }
 	212 = { set_state_flag = BUL_initial_bulgarian_state_flag }
-	801 = { set_state_flag = BUL_initial_bulgarian_state_flag }
+	781 = { set_state_flag = BUL_initial_bulgarian_state_flag }
 	211  = { set_state_flag = BUL_initial_bulgarian_state_flag }
 	77 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
-	803 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	783 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 	106 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
-	731 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	720 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 	184 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
-	971 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	949 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 
 	add_opinion_modifier = { 
 		target = GRE
@@ -68,7 +68,7 @@ country_lock_all_division_template = yes
 	}
 
 set_popularities = {
-	Communism = 3
+	communism = 3
 	Socialism = 5
 	Progressivism = 5
 	Liberalism = 7

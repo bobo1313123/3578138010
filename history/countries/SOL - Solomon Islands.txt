@@ -1,4 +1,4 @@
-﻿capital = 634
+﻿capital = 625
 
 #oob = ""
 
@@ -45,8 +45,6 @@ recruit_character = SOL_acgs
 	set_technology = {
 
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -75,6 +73,6 @@ set_politics = {
 set_popularities = {
 	Liberalism = 50
 	fascism = 6
-	Communism = 6
+	communism = 6
 	Authoritarianism = 38
 }

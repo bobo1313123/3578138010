@@ -10,7 +10,7 @@ characters={
 		}
 		country_leader={
 			desc = GER_wilhelm_ii_desc
-			ideology = progressivism_small
+			ideology = German_Democratic_Party
 			traits={ GER_Kaiser }
 		}
 	}
@@ -24,16 +24,6 @@ characters={
 			army = {
 				small = GFX_GER_Hjalmar_Schacht_small
 			}
-		}
-		country_leader = {
-			ideology = progressivism_small
-		}
-		advisor = {
-			slot = second_in_command
-			idea_token = GER_Hjalmar_Schacht_sic
-			traits = { GER_Imperial_Wizard_sic }
-			cost = 0
-			can_be_fired = no
 		}
 		advisor = {
 			slot = political_advisor

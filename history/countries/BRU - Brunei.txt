@@ -1,4 +1,4 @@
-﻿capital = 1023 #Brunei Town
+﻿capital = 1001 #Brunei Town
 
 # Starting tech
 set_technology = {
@@ -16,7 +16,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
+	Democracy = 10
 	fascism = 5
 	communism = 5
 	neutrality = 80

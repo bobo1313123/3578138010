@@ -1,0 +1,24 @@
+﻿state = {
+	id = 705
+	name = "STATE_714"
+	manpower = 4964700
+	state_category = pastoral
+	resources = {
+		oil = 87
+	}
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		4592 4649 7526 7613 7767 7897 10379
+	}
+	local_supplies = 7
+	buildings_max_level_factor = 1.000
+}

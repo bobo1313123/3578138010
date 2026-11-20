@@ -245,8 +245,6 @@ set_convoys = 5
 	set_technology = {
 
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -281,7 +279,7 @@ IF = {
 		Authoritarianism = 70
 		fascism = 20 
 		Liberalism = 5
-		Communism = 5
+		communism = 5
 	}
 }
 IF = {

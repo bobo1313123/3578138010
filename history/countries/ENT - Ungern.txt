@@ -1,4 +1,4 @@
-capital = 1066
+﻿capital = 1043
 load_oob = ENT_1936
 set_research_slots = 3
 
@@ -7,7 +7,7 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
-#领导人
+### 领导人 ###
 recruit_character = ENT_Ungern_Sternberg
 
 if = {

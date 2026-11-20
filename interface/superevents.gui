@@ -38,7 +38,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name = "SE_desc"
 			position = { x = 40 y = 440 }
-			font = "hoi_30header"
+			font = "hoi_24header"
 			borderSize = {x = 0 y = 0}
 			text = "SE_desc_text"
 			maxWidth = 400
@@ -51,7 +51,7 @@ guiTypes = {
 			position = { x=471 y =526} 
 			quadTextureSprite ="GFX_superevent_bottom" 
 			buttonText = "SE_bottom_text" 
-			buttonFont = "hoi_36header"
+			buttonFont = "nsb_hoi_24header"
 			
 			
 		}

@@ -1,14 +1,15 @@
 
 state={
-	id=238
+	id = 238
 	name="STATE_238"
-	manpower = 556677
+	manpower = 488915
 	
 	state_category = rural
 
 	history={
 		owner = RCA
 		add_core_of = RCA
+		add_core_of = DON
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

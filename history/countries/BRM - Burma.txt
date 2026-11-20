@@ -1,4 +1,4 @@
-﻿capital = 995 # Rangoon
+﻿capital = 973 # Rangoon
 
 oob = "BRM_1936"
 
@@ -51,8 +51,6 @@ recruit_character = BRM_fascist_guy
 	set_technology = {
 
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -83,7 +81,7 @@ set_politics = {
 set_popularities = {
 	Conservatism = 72
 	fascism = 2
-	Communism = 14
+	communism = 14
 	Authoritarianism = 12
 }
 

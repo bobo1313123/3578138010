@@ -1,4 +1,4 @@
-﻿capital = 323
+﻿capital = 321
 
 oob = "NEP_1936"
 
@@ -66,11 +66,8 @@ set_stability = 0.8
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
 
 		
-		pocket_defence = 1
-		defence_in_depth = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1

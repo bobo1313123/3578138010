@@ -6,8 +6,8 @@
         ECU_CCW_DEF:0 "厄瓜多尔联合政府"
         ECU_CCW_adj:0 "厄瓜多尔联合政府"
 
-        ECU_Communism_party:0 "厄瓜多尔共产党"
-        ECU_Communism_party_long:0 "厄瓜多尔共产党"
+        ECU_communism_party:0 "厄瓜多尔共产党"
+        ECU_communism_party_long:0 "厄瓜多尔共产党"
         ECU_Socialism_party:0 "-"
         ECU_Socialism_party_long:0 "-"
         ECU_Progressivism_party:0 "-"

@@ -82,8 +82,9 @@ focus_tree={
 			add_war_support = 0.2
 			add_doctrine_cost_reduction = { 
 				name = CHI_know_thy_self
-				category = cat_mass_assault
+				category = land_doctrine
 				cost_reduction = 0.15
+				uses = 1
 			}
 			swap_ideas = {
 				remove_idea = BBR_revolutionary_enthusiasm_1

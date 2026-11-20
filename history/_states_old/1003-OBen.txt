@@ -1,0 +1,30 @@
+﻿state = {
+	id = 1003
+	name = "STATE_1023"
+	manpower = 212000
+	state_category = town
+
+	history = {
+
+		owner = HOL
+		add_core_of = HOL
+		add_core_of = BEL
+		add_core_of = GER
+
+		#victory_points = {
+		#	11386 1 # Lyck
+		#}
+		add_core_of = WAL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+	}
+
+	provinces={
+		3488
+	}
+
+	local_supplies = 20.0 
+}

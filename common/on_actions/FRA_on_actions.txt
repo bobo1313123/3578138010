@@ -1,9 +1,9 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			459 = { set_state_flag = FRA_Algeria_flag }
-			460 = { set_state_flag = FRA_Algeria_flag }
-			513 = { set_state_flag = FRA_Algeria_flag }
+			457 = { set_state_flag = FRA_Algeria_flag }
+			458 = { set_state_flag = FRA_Algeria_flag }
+			511 = { set_state_flag = FRA_Algeria_flag }
 		}
 	}
 }

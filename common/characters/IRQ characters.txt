@@ -390,7 +390,7 @@ characters = {
 			idea_token = IRQ_husain_al_rahhal
 
 			traits  = {
-				#Communism drift, something related to opinions, possibly a small research boost, stability malus, editor of As-Sahifah
+				#communism drift, something related to opinions, possibly a small research boost, stability malus, editor of As-Sahifah
 				IRQ_as_sahifah_editor
 			}
 			allowed = { 

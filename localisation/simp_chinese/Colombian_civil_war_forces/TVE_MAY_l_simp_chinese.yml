@@ -6,8 +6,8 @@
         MAY_CCW_DEF:0 "哥伦比亚军政府"
         MAY_CCW_adj:0 "哥伦比亚军政府"
 
-        MAY_Communism_party:0 "-"
-        MAY_Communism_party_long:0 "-"
+        MAY_communism_party:0 "-"
+        MAY_communism_party_long:0 "-"
         MAY_Socialism_party:0 "-"
         MAY_Socialism_party_long:0 "-"
         MAY_Progressivism_party:0 ""

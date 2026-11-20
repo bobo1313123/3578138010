@@ -7,8 +7,8 @@ spriteTypes = {
 		legacy_lazy_load = yes
 	}
 	spriteType = { 
-		name = "GFX_mos_ita_union"
-		texturefile = "gfx/superevents/mos_ita_union.png"
+		name = "GFX_SE_Fascism_Unification"
+		texturefile = "gfx/superevents/Fascism_Unification.png"
 		legacy_lazy_load = yes
 	}
 	spriteType = { 

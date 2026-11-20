@@ -1,0 +1,44 @@
+﻿state = {
+	id = 736
+	name = "STATE_753"
+	manpower = 12193563
+	state_category = rural
+	history = {
+		owner = CHI
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		add_core_of = TIB
+		add_extra_state_shared_building_slots = 9
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+			}
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 1
+
+			}
+
+		}
+	}
+	provinces = {
+		4403 4407 4559 4937 5193 7965 7988 8104 8126 10787 10856 10903 12789
+	}
+	local_supplies = 7
+	buildings_max_level_factor = 1.000
+}

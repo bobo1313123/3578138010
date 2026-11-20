@@ -1,5 +1,13 @@
 characters={
 
+	BEL_staf_deklerk = {
+		name = BEL_staf_deklerk
+		country_leader = {
+			ideology = fascism_small
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
 
 ####### Country Leaders #######
 
@@ -678,7 +686,7 @@ characters={
 			corps_commander = {
 			visible = {
 				NOT = { 
-					has_government = Communism 
+					has_government = communism 
 				}
 			}
 				traits = { career_officer urban_assault_specialist }
@@ -860,7 +868,7 @@ characters={
 			corps_commander = {
 				visible = {
 					NOT = { 
-						has_government = Communism 
+						has_government = communism 
 						has_government = fascism
 						has_government = Authoritarianism 
 					}

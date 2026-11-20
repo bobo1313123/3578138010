@@ -1,4 +1,4 @@
-﻿capital = 671 #Hanoi
+﻿capital = 662 #Hanoi
 
 oob = "VIN_1936"
 
@@ -16,7 +16,6 @@ set_technology = {
 	motorised_infantry = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	trench_warfare = 1
 	
 }
 if = {
@@ -100,7 +99,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 35
 	fascism = 15
-	Communism = 15
+	communism = 15
 	Authoritarianism = 35
 }
 

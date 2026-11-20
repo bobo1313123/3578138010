@@ -151,7 +151,7 @@ set_popularities = {
 	fascism = 60
 	tttt = 15
 	nazism = 15
-	Communism = 10
+	communism = 10
 }
 recruit_character = ENG_Rotha_Lintorn_Orman
 

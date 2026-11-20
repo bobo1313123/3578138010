@@ -1,0 +1,42 @@
+﻿state = {
+	id = 611
+	name = "STATE_620"
+	manpower = 26812109
+	state_category = city
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			air_base = 1
+			arms_factory = 3
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			buildings = {
+				industrial_complex = 3
+				infrastructure = 3 #was: 6
+				air_base = 2
+				arms_factory = 2
+			}
+			JAP = {
+				set_province_controller = 1036
+				set_province_controller = 4619
+				set_province_controller = 4631
+				set_province_controller = 7167
+				set_province_controller = 7637
+				set_province_controller = 9959
+				set_province_controller = 10462
+
+			}
+
+		}
+	}
+	provinces = {
+		4130 7167 7625 9934 10462
+	}
+	local_supplies = 7
+	buildings_max_level_factor = 1.000
+}

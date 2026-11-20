@@ -30,7 +30,7 @@
 	NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = -0.1 -- -0.2
 	NDefines.NMilitary.ZERO_ORG_MOVEMENT_MODIFIER = -0.2 -- -0.8
 	NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = -0.03 -- -0.05
-	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 18 --24
+	NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 24 --24
 	NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 24 --24
 	NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 5 --5
 	NDefines.NMilitary.GARRISON_ORDER_ARMY_CAP_FACTOR = 1.0	-- 3.0, armies gets increased cap when they are garrisoned

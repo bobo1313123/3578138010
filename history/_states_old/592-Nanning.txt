@@ -1,0 +1,46 @@
+﻿state = {
+	id = 592
+	name = "STATE_594"
+	manpower = 6550001
+	state_category = town
+	resources = {
+		chromium = 3
+		steel = 8
+		tungsten = 11
+	}
+	history = {
+		owner = GXI
+		add_core_of = GXI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			10004 = { # Fangcheng
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		victory_points = {
+			7137 3
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				remove_core_of = GXC
+				CHI = { transfer_state = PREV }
+			}
+			JAP = {
+				set_province_controller = 1018
+				set_province_controller = 4023
+				set_province_controller = 10004
+			} 			
+		}
+	}
+	provinces = {
+		1469 4121 4177 4656 7137 10004 11926 1018 4023 
+	}
+	local_supplies = 1
+}

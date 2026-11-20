@@ -368,25 +368,25 @@ GER_weltpolitik_cat = {
 	}
 
 	on_map_area = {
-		state = 773
-		state = 777
-		state = 546
-		state = 768
-		state = 769
-		state = 895
-		state = 894
-		state = 541
-		state = 893
-		state = 743
-		state = 647
-		state = 979
-		state = 737
-		state = 684
-		state = 633
-		state = 634 # If Bougainville is ever made it's own state switch this and the associated decision from 634 to that!
-		state = 646
+		state = 753
+		state = 757
+		state = 544
+		state = 748
+		state = 749
+		state = 873
+		state = 872
+		state = 539
+		state = 871
+		state = 732
+		state = 638
+		state = 957
 		state = 726
-		state = 725
+		state = 675
+		state = 624
+		state = 625 # If Bougainville is ever made it's own state switch this and the associated decision from 634 to that!
+		state = 637
+		state = 715
+		state = 714
 		name = GER_recruiting_schutztruppe_locations_map_category_name
 		zoom = 500
 	}
@@ -488,7 +488,7 @@ GER_proletarian_revolution_cat = {
 
 	visible = {
 		is_subject = no
-		NOT = { has_government = Communism }
+		NOT = { has_government = communism }
 		has_country_flag = GER_the_proletarian_revolution_flag
 	}
 
@@ -511,7 +511,7 @@ GER_volkskommissariats_cat = {
 
 	visible = {
 		is_subject = no
-		has_government = Communism
+		has_government = communism
 		has_completed_focus = GER_establish_volkskommissariats
 	}
 
@@ -531,7 +531,7 @@ GER_spreading_the_red_flame_cat = {
 
 	visible = {
 		is_subject = no
-		has_government = Communism
+		has_government = communism
 		has_completed_focus = GER_spark_the_flame_of_revolution
 	}
 }

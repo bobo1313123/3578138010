@@ -3,8 +3,8 @@
         HAI_DEF:"海地共和国"
         HAI_ADJ:"海地共和国"
 
-        HAI_Communism_party:0 "海地共产党"
-        HAI_Communism_party_long:0 "海地共产党"
+        HAI_communism_party:0 "海地共产党"
+        HAI_communism_party_long:0 "海地共产党"
         HAI_Socialism_party:0 "海地共产党"
         HAI_Socialism_party_long:0 "海地共产党"
         HAI_Progressivism_party:0 "海地共产党"

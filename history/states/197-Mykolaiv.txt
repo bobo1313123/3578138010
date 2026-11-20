@@ -1,8 +1,8 @@
 
 state={
-	id=197
+	id = 197
 	name="STATE_197"
-	manpower = 896311
+	manpower = 1007291
 	
 	state_category = rural
 
@@ -15,7 +15,7 @@ state={
 			infrastructure = 3 #was: 5
 			dockyard = 1
 		}
-		add_claim_by = RKR
+		add_claim_by = NRO
 		add_core_of = UKR
 		1939.1.1 = {
 			buildings = {

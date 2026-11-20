@@ -65,7 +65,7 @@ characters={
 
 					available = {
 						NOT = {
-							has_government =  Communism
+							has_government =  communism
 							has_country_leader = {
 								ruling_only = yes
 								character = PER_reza_shah_pahlavi
@@ -89,7 +89,7 @@ characters={
 				legacy_id = -1 
 				visible = {
 					NOT = {
-						has_government = Communism
+						has_government = communism
 						has_government = Liberalism
 					}
 				}
@@ -157,7 +157,7 @@ characters={
 					visible = {
 						NOT = {
 							OR = {
-								has_government = Communism
+								has_government = communism
 								has_completed_focus = PER_islamic_revolution
 							}
 						}
@@ -165,7 +165,7 @@ characters={
 
 					available = {
 						NOT = {
-							has_government =  Communism
+							has_government =  communism
 							has_country_leader = {
 								ruling_only = yes
 								character = PER_mohammed_reza_pahlavi
@@ -449,7 +449,7 @@ characters={
 			}
 
 			visible = {
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 
 			available = {
@@ -1325,7 +1325,7 @@ characters={
 			legacy_id=-1
 			visible = {
 				has_completed_focus = PER_united_progressive_parties
-				has_government = Communism
+				has_government = communism
 			}
 		}
 		advisor = {
@@ -1337,7 +1337,7 @@ characters={
 			}
 			available = {
 				has_completed_focus = PER_united_progressive_parties
-				has_government = Communism
+				has_government = communism
 			}
 			traits = {
 				army_regrouping_2
@@ -1366,7 +1366,7 @@ characters={
 			legacy_id=-1
 			visible = {
 				has_completed_focus = PER_united_progressive_parties
-				has_government = Communism
+				has_government = communism
 			}
 		}
 	}

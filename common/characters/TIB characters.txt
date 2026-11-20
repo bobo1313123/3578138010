@@ -1,16 +1,16 @@
 characters = {
-	#五世热振活佛
-    TIB_5th_Rezhen = {
-        name = TIB_5th_Rezhen
+    #领导人
+    #九世班禅额尔德尼
+	TIB_Panchen_Chokyi_Nyima = {
+        name = TIB_Panchen_Chokyi_Nyima
         portraits = {
-            civilian = {
-				small = GFX_portrait_WEI_Muweizhu_civilian_small
-				large = GFX_TIB_Rezhen_large
+			civilian = {
+				large = GFX_TIB_Panchen_Chokyi_Nyima_large
 			}
 		}
-        country_leader = {
-			ideology = Theocracy
-            traits = {  }
+		country_leader = {
+			ideology = authoritarianism_small
+			traits = { }
 		}
     }
 }

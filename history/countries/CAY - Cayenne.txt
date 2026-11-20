@@ -1,4 +1,4 @@
-﻿capital = 310
+﻿capital = 309
 
 #oob = ""
 
@@ -24,8 +24,6 @@ set_convoys = 5
 	set_technology = {
 
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -55,7 +53,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 75
 	fascism = 1
-	Communism = 1
+	communism = 1
 	Authoritarianism = 23
 }
 #create_country_leader = {

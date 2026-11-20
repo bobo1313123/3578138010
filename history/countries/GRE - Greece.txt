@@ -29,7 +29,7 @@ if = {
 ###################
 
 #Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#GRE_Communism
+#GRE_communism
 #GRE_Liberalism
 #GRE_fascism
 #GRE_Authoritarianism
@@ -45,7 +45,6 @@ set_technology = {
 	tech_recon = 1
 	tech_trucks = 1
 	gw_artillery = 1
-	trench_warfare = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 }
@@ -190,7 +189,7 @@ set_convoys = 10
 		set_popularities = {
 			Liberalism = 10
 			fascism = 22
-			Communism = 26
+			communism = 26
 			Authoritarianism = 42
 		}
 		
@@ -273,12 +272,7 @@ set_convoys = 10
 		support_weapons = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -328,7 +322,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 43
 	fascism = 2
-	Communism = 17
+	communism = 17
 	Conservatism = 38
 }
 

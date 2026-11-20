@@ -1,4 +1,4 @@
-﻿capital = 316
+﻿capital = 315
 
 oob = "COS_1936"
 
@@ -56,11 +56,7 @@ set_convoys = 10
 		infantry_weapons1 = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -104,7 +100,7 @@ set_popularities = {
 
 	set_popularities = {
 		Liberalism = 95
-		Communism = 5
+		communism = 5
 	}
 
 	recruit_character = COS_leon_cortes_castro

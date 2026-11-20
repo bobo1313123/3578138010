@@ -1,4 +1,4 @@
-﻿capital = 617
+﻿capital = 609
 
 oob = "SIK_1936"
 
@@ -87,10 +87,7 @@ if = {
 	oob = "SIK_1939"
 	set_technology = {
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -113,11 +110,11 @@ if = {
 }
 
 set_politics = {
-	ruling_party = Communism
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	Communism = 100
+	communism = 100
 }

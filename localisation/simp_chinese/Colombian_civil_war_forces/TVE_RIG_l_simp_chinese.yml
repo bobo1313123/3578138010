@@ -6,8 +6,8 @@
         RIG_CCW_DEF:0 "委内瑞拉临时政府"
         RIG_CCW_ADJ:0 "委内瑞拉临时政府"
 
-        RIG_Communism_party:0 "-"
-        RIG_Communism_party_long:0 "-"
+        RIG_communism_party:0 "-"
+        RIG_communism_party_long:0 "-"
         RIG_Socialism_party:0 "-"
         RIG_Socialism_party_long:0 "-"
         RIG_Progressivism_party:0 ""

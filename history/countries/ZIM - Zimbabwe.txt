@@ -1,4 +1,4 @@
-﻿capital = 545
+﻿capital = 543
 
 oob = "ZIM_1936"
 
@@ -46,8 +46,6 @@ recruit_character = ZIM_Liberalism_guy
 	set_technology = {
 
 		#doctrines
-		grand_battle_plan = 1
-		trench_warfare = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1

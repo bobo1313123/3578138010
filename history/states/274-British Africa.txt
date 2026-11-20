@@ -12,16 +12,16 @@ state = {
 
 	history = {
 
-		owner = BOG
+		owner = FWA
 		add_core_of = GHA
-
 		victory_points = {
-			10862 2 # Accra 
+			10862 8 # Accra
+		}
+		victory_points = {
+			12787 3 # Kumasi
 		}
 
-		victory_points = {
-			12787 1 # Kumasi 
-		}
+
 
 		buildings = {
 			infrastructure = 2

@@ -1,0 +1,22 @@
+﻿state = {
+	id = 706
+	name = "STATE_715"
+	manpower = 6184391
+	state_category = town
+	history = {
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		add_extra_state_shared_building_slots = 2
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		930 1499 1638 12337
+	}
+	local_supplies = 7
+}

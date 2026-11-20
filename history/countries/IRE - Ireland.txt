@@ -52,7 +52,7 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	Communism = 0
+	communism = 0
 	Socialism = 3
 	Progressivism = 22
 	Liberalism = 25
@@ -74,9 +74,9 @@ set_popularities = {
 	}
 }
 set_party_name = {
-	ideology = Communism
-	name = IRE_1_Communism
-	long_name = IRE_1_Communism
+	ideology = communism
+	name = IRE_1_communism
+	long_name = IRE_1_communism
 }
 set_party_name = {
 	ideology = Socialism

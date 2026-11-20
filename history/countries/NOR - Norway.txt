@@ -1,4 +1,4 @@
-﻿capital = 110 # Oslo
+capital = 110 # Oslo
 load_focus_tree = generic_focus
 oob = "NOR_1936"
 
@@ -251,12 +251,7 @@ if = {
 		support_weapons2 = 1 
 		
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
-		submarine_operations = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -306,7 +301,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 96
 	fascism = 2
-	Communism = 2
+	communism = 2
 }
 
 1939.1.1 = {
@@ -319,7 +314,7 @@ set_popularities = {
 	set_popularities = {
 		Liberalism = 84
 		fascism = 2
-		Communism = 2
+		communism = 2
 		Authoritarianism = 12
 	}
 }
@@ -437,4 +432,5 @@ if = {
 				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
+}
 }

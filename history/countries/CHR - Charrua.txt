@@ -1,4 +1,4 @@
-﻿capital = 300 #Montevideo
+﻿capital = 299 #Montevideo
 
 oob = "CHL_1936"
 
@@ -57,7 +57,7 @@ set_politics = {
 }
 set_popularities = {
 	Liberalism = 15
-	Communism = 10
+	communism = 10
 	Authoritarianism = 70
 	fascism = 5
 }

@@ -2,7 +2,7 @@
 load_focus_tree = generic_focus
 set_oob = "ICE_1936"
 
-set_variable = { ICE.Communism_support_needed = 0.15 }
+set_variable = { ICE.communism_support_needed = 0.15 }
 
 set_research_slots = 2
 
@@ -153,12 +153,7 @@ IF = {
 			tech_trucks = 1
 
 			#doctrines
-			air_superiority = 1
-			grand_battle_plan = 1
-			trench_warfare = 1
 			
-			battlefleet_concentration = 1
-			submarine_operations = 1
 
 			#electronics
 			electronic_mechanical_engineering = 1
@@ -211,12 +206,7 @@ IF = {
 			tech_trucks = 1
 
 			#doctrines
-			air_superiority = 1
-			grand_battle_plan = 1
-			trench_warfare = 1
 			
-			battlefleet_concentration = 1
-			submarine_operations = 1
 
 			#electronics
 			electronic_mechanical_engineering = 1
@@ -252,7 +242,7 @@ set_politics = {
 set_popularities = {
 	Liberalism = 96
 	fascism = 2
-	Communism = 2
+	communism = 2
 }
 
 1939.1.1 = {
@@ -265,7 +255,7 @@ set_popularities = {
 	set_popularities = {
 		Liberalism = 84
 		fascism = 2
-		Communism = 2
+		communism = 2
 		Authoritarianism = 12
 	}
 }

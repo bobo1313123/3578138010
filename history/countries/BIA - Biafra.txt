@@ -1,4 +1,4 @@
-﻿capital = 900 # Benue
+﻿capital = 878 # Benue
 
 #oob = "COG_1936"
 
@@ -64,7 +64,7 @@ set_politics = {
 set_popularities = {
 	Authoritarianism = 40
 	Liberalism = 55
-	Communism = 5
+	communism = 5
 	fascism = 0
 }
 

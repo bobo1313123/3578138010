@@ -1,6 +1,6 @@
-is_core_Iberia = { #伊比利亚地区
+﻿is_core_Iberia = { #伊比利亚地区
 	OR = {
-		state = 792
+		state = 772
 		state = 165
 	}
 }

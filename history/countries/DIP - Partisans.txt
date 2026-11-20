@@ -1,4 +1,4 @@
-﻿capital = 430 #East Bengal
+﻿capital = 428 #East Bengal
 
 set_research_slots = 2
 # Starting tech
@@ -63,7 +63,7 @@ set_politics = {
 }
 set_popularities = {
 	Liberalism = 30
-	Communism = 5
+	communism = 5
 	Authoritarianism = 60
 	fascism = 5
 }

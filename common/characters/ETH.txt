@@ -492,7 +492,7 @@ characters = {
 			}
 			allowed_civil_war = {
 				NOT = { has_government = fascism }
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 			}
 			name = ETH_desta_damtew
 			portraits = {
@@ -1092,7 +1092,7 @@ characters = {
 		allowed_civil_war = {
 			OR = {
 				has_government = fascism
-				has_government = Communism
+				has_government = communism
 				has_government = Authoritarianism
 			}
 		}
@@ -1167,7 +1167,7 @@ characters = {
 					OR = {
 						has_government = Authoritarianism
 						has_government = Liberalism
-						has_government = Communism
+						has_government = communism
 						AND = {
 							has_country_leader = {
 								character = ETH_abba_jofir
@@ -1257,7 +1257,7 @@ characters = {
 			OR = {
 				has_government = Liberalism
 				has_government = Authoritarianism
-				has_government = Communism
+				has_government = communism
 			}
 		}
 		portraits = {
@@ -1297,7 +1297,7 @@ characters = {
 		allowed_civil_war = {
 			OR = {
 				has_government = Liberalism
-				has_government = Communism
+				has_government = communism
 				has_government = Authoritarianism
 			}
 		}
@@ -1315,7 +1315,7 @@ characters = {
 			available = {
 				OR = { 
 					has_government = Liberalism 
-					has_government = Communism 
+					has_government = communism 
 				}
 				NOT = { has_idea_with_trait = minister_of_finance_deressa }
 			}
@@ -1432,7 +1432,7 @@ characters = {
 			}
 			available = {
 				NOT = { has_government = fascism }
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 				NOT = { has_country_flag = ETH_selassie_left_flag }
 			}
 			traits  = {
@@ -1459,7 +1459,7 @@ characters = {
 				OR = {
 					has_government = Liberalism
 					has_government = Authoritarianism
-					has_government = Communism
+					has_government = communism
 				}
 			}
 			portraits = {
@@ -1535,7 +1535,7 @@ characters = {
 			}
 			available = {
 				NOT = { has_government = fascism }
-				NOT = { has_government = Communism }
+				NOT = { has_government = communism }
 				NOT = { has_global_flag = second_italo_ethiopian_war_flag }
 				has_completed_focus = ETH_bring_in_foreign_advisors
 			}

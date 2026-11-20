@@ -349,13 +349,13 @@ POL_promote_falangism_decisions = {
 	}
 
 	on_map_area = {
-		state = 317
+		state = 316
 		name = POL_promote_falangism_central_america
 		zoom = 250
 	}
 
 	on_map_area = {
-		state = 318
+		state = 317
 		name = POL_promote_falangism_caribbean
 		zoom = 500
 	}

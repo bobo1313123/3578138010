@@ -1,4 +1,4 @@
-﻿capital = 493 #Cartagena
+﻿capital = 491 #Cartagena
 
 oob = "CHL_1936"
 
@@ -58,7 +58,7 @@ set_politics = {
 }
 set_popularities = {
 	Liberalism = 20
-	Communism = 20
+	communism = 20
 	Authoritarianism = 60
 	fascism = 0
 }

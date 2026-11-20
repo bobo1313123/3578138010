@@ -64,12 +64,7 @@ recruit_character = IRE_ernest_walton
 		infantry_weapons2 = 1
 
 		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
 		
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -93,7 +88,7 @@ recruit_character = IRE_ernest_walton
 }
 
 set_politics = {
-	ruling_party = Communism
+	ruling_party = communism
 	last_election = "1933.1.24"
 	election_frequency = 48
 	elections_allowed = yes
@@ -101,5 +96,5 @@ set_politics = {
 set_popularities = {
 	Conservatism = 48
 	fascism = 50
-	Communism = 2
+	communism = 2
 }

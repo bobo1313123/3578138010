@@ -48,5 +48,11 @@ defined_text = {
     #    }
     #    localization_key = "jhon_heser_second_leader"
   #  }
+    text = {
+        trigger = { #安东尼奥·萨拉查
+            has_idea = POR_antonio_de_oliveira_salazar
+        }
+        localization_key = "POR_antonio_de_oliveira_salazar_sl_desc"
+    }
 
 }

@@ -30,5 +30,10 @@ spriteTypes = {
 		name = "GFX_Duarte_II"
 		texturefile = "gfx/leaders/POR/Duarte_II.dds"
 	}
+	spriteType = { #安东尼奥·萨拉查
+		name = "GFX_leader_POR_Antonio_Salazar"
+		texturefile = "gfx/leaders/POR/Antonio_Salazar.png"
+		legacy_lazy_load = no
+	}
 
 }

@@ -282,8 +282,8 @@ TIB = {
 	color_ui = rgb { 187 210 166 }
 }
 URG = {
-	color = rgb { 162 182 143 }
-	color_ui = rgb { 187 210 166 }
+	color = rgb { 30 102 163 }
+	color_ui = rgb { 39 60 96 }
 }
 VEN = {
 	color = rgb { 162 182 143 }

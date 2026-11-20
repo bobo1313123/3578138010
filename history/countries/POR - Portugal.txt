@@ -5,7 +5,10 @@ add_ideas = {
 	king_in_huoshan
 	spr_ring
 	zhiming_headache
+	### 副领袖 ###
+	POR_antonio_de_oliveira_salazar
 }
+set_country_flag = tfe_second_leader #副领导人
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "POR_1936_naval_mtg"
@@ -100,6 +103,17 @@ if = {
 }
 
 recruit_character = POR_Duarte_II
+recruit_character = POR_antonio_de_oliveira_salazar
+recruit_character = POR_antonio_oscar_carmona
+recruit_character = POR_juan_ramon_jimenez
+recruit_character = POR_jose_saramago
+recruit_character = POR_fernando_pessoa
+
+activate_advisor = POR_antonio_de_oliveira_salazar_government
+activate_advisor = POR_antonio_oscar_carmona_pol
+activate_advisor = POR_juan_ramon_jimenez
+activate_advisor = POR_jose_saramago
+activate_advisor = POR_fernando_pessoa
 
 set_autonomy = {
 		target = MZB

@@ -224,3 +224,7 @@ HOL_KINGDOM = {
 	color = rgb { 203 138 74 }
 	color_ui = rgb { 203 138 74 }
 }
+ARG_puppet_URG = {
+	color = rgb { 30 102 163 }
+	color_ui = rgb { 39 60 96 }
+}

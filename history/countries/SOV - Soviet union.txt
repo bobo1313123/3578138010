@@ -32,6 +32,18 @@ set_technology = {
 ### 领导人 ###
 recruit_character = SOV_Alexander_Kerensky #亚历山大·克伦斯基
 recruit_character = SOV_Viktor_Chernov #维克托·切尔诺夫
+recruit_character = SOV_nikolai_voznesensky #尼古拉·沃兹涅先斯基
+recruit_character = SOV_alexander_fadeyev #亚历山大·法捷耶夫
+recruit_character = SOV_mikhail_bulgakov #米哈伊尔·布尔加科夫
+recruit_character = SOV_irakli_tsereteli #伊拉克利·策烈铁里
+recruit_character = SOV_anton_denikin #安东·邓尼金
+
+activate_advisor = SOV_viktor_chernov_government
+activate_advisor = SOV_nikolai_voznesensky
+activate_advisor = SOV_alexander_fadeyev
+activate_advisor = SOV_mikhail_bulgakov
+activate_advisor = SOV_irakli_tsereteli
+activate_advisor = SOV_anton_denikin
 
 add_ideas = {
 	### 初始民族精神 ###

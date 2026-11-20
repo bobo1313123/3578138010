@@ -1,4 +1,4 @@
-capital = 494 # Cuzco
+capital = 492 # Cuzco
 
 set_stability = 0.4
 set_war_support = 0.7

@@ -1,0 +1,26 @@
+
+state={
+	id = 1495
+	name="STATE_1495"
+	manpower = 28261
+	resources={
+
+	}
+	
+	state_category = town
+
+	history={
+		owner = TTS
+		buildings = {
+		
+		}
+		add_core_of = TTS
+		
+	}
+
+	provinces={
+		851 3958 3968 6972 9856
+	}
+
+	local_supplies=0.0 
+}

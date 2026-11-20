@@ -2,30 +2,34 @@ state = {
 	id = 274
 	name = "STATE_274"
 	state_category = rural
-	manpower = 2453600
+	manpower = 3163600
+
 	resources = {
-		steel = 6
-		tungsten = 6
-		aluminium = 6
-		chromium = 5
-		oil = 6
-	}
+		steel = 8 
+		tungsten = 8 
+		chromium = 4
+	} #Maganese
 
 	history = {
+
 		owner = FWA
 		add_core_of = GHA
+		victory_points = {
+			10862 8 # Accra
+		}
+		victory_points = {
+			12787 3 # Kumasi
+		}
+
+
+
 		buildings = {
 			infrastructure = 2
 			10862 = {
 				naval_base = 2
 			}
 		}
-		victory_points = {
-			10862 8
-		}
-		victory_points = {
-			12787 3
-		}
+
 	}
 
 	provinces = {

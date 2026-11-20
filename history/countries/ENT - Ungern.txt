@@ -1,4 +1,4 @@
-capital = 1066
+﻿capital = 1043
 load_oob = ENT_1936
 set_research_slots = 3
 

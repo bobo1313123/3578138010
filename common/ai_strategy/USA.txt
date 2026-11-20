@@ -252,7 +252,7 @@ USA_unit_buffer_for_europe = {
 			127
 			128
 			129
-			338
+			336
 			123
 			122
 		}
@@ -275,7 +275,7 @@ USA_unit_buffer_for_europe = {
 			180
 			112
 			179
-			795
+			789
 			169
 			173
 			167
@@ -294,18 +294,18 @@ USA_unit_buffer_for_europe = {
 
 		# north africa
 		states = {
-			290
-			461
+			289
 			459
-			460
+			457
 			458
-			665
+			456
+			663
+			446
+			447
 			448
 			449
 			450
-			451
-			452
-			447
+			445
 		}
 
 		ratio = 0.15
@@ -350,18 +350,18 @@ USA_unit_buffer_for_africa = {
 
 		# north africa
 		states = {
-			290
-			461
+			289
 			459
-			460
+			457
 			458
-			665
+			456
+			663
+			446
+			447
 			448
 			449
 			450
-			451
-			452
-			447
+			445
 		}
 
 		ratio = 0.2
@@ -378,11 +378,11 @@ USA_unit_buffer_for_africa = {
 
 		# west africa
 		states = {
-			699
-			557
+			697
+			555
 			272
-			792
-			700
+			786
+			698
 		}
 
 		ratio = 0.15
@@ -399,11 +399,11 @@ USA_unit_buffer_for_africa = {
 
 		# east africa
 		states = {
-			559
+			557
 			269
 			268
-			550
-			551
+			548
+			549
 		}
 
 		ratio = 0.15
@@ -420,9 +420,9 @@ USA_unit_buffer_for_africa = {
 
 		# south africa
 		states = {
-			541
-			681
-			719
+			539
+			679
+			715
 		}
 
 		ratio = 0.15

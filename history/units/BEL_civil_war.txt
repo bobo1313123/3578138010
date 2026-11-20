@@ -57,7 +57,7 @@ units = {
 	}
 	division = {
 		name = "Vlaamse Landstorm"
-		location = 13516
+		location = 13427
 		division_template = "Vlaamse Wacht"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4

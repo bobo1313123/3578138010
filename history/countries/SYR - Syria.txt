@@ -1,11 +1,11 @@
-﻿capital = 554
+﻿capital = 552
 oob = "SYR_1935"
 set_stability = 0.58
 set_war_support = 0.46
 set_research_slots = 2
+set_convoys = 84
 starting_train_buffer = 0.85
 set_fuel_ratio = 0.9
-set_convoys = 84
 set_cosmetic_tag = SYR_Kingdom #叙利亚王国
 
 country_lock_all_division_template = yes

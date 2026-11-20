@@ -1,4 +1,4 @@
-﻿capital = 375
+﻿capital = 373
 
 set_stability = 0.5
 set_war_support = 0.25
@@ -13,7 +13,7 @@ set_technology = {
 	basic_train = 1
 }
 
-
+### 领导人 ###
 recruit_character = TEX_Kress_Houston #克雷斯·休斯顿
 
 add_ideas = {

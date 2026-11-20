@@ -1,4 +1,4 @@
-debug_decisions = {
+﻿debug_decisions = {
 	DEBUG_Manu = {
 		priority = 999
 		allowed = {
@@ -563,7 +563,7 @@ GER_operational_planning_category = {
 						#type = armor
 					}
 					divisions_in_state = {
-						state = 977
+						state = 955
 						size > 5
 						#type = armor
 					}
@@ -573,7 +573,7 @@ GER_operational_planning_category = {
 						#type = armor
 					}
 					divisions_in_state = {
-						state = 980
+						state = 958
 						size > 5
 						#type = armor
 					}
@@ -1598,7 +1598,7 @@ GER_fortify_the_vaterland_cat = {
 			NOT = { 
 				has_full_control_of_state = 51 #Rineland
 				has_full_control_of_state = 42 #Moselland
-				has_full_control_of_state = 978 #Baden
+				has_full_control_of_state = 956 #Baden
 			}
 		}
 
@@ -1860,7 +1860,7 @@ GER_fortify_the_vaterland_cat = {
 						state_is_fully_controlled_by_ROOT_subject_or_faction_member = yes
 						bunker < 10
 						OR = { #From the Baltic to Azov
-							state = 813 #Virumaa
+							state = 793 #Virumaa
 							state = 209 #Pskov
 							state = 210 #Nevel
 							state = 207 #Vitebsk

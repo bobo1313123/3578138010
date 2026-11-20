@@ -1,4 +1,4 @@
-﻿capital = 1423 #里士满
+﻿capital = 1204 #里士满
 oob = "CSA_1935"
 set_naval_oob = "CSA_navy_1935"
 set_air_oob = "CSA_air_1935"

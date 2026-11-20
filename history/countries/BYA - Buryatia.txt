@@ -1,4 +1,4 @@
-﻿capital = 564 #Ulan Ude in Buryatia
+﻿capital = 562 #Ulan Ude in Buryatia
 
 #oob = "BYA_1936"
 

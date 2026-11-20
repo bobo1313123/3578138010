@@ -27,9 +27,9 @@ PUK_Reintegrate_Ukrainian_territory = { #整合乌克兰故土
 				state = 227
 				state = 228
 				state = 259
-				state = 834
-				state = 1018
-				state = 1489
+				state = 812
+				state = 996
+				state = 1267
 			}
 		}
 
@@ -55,9 +55,9 @@ PUK_Reintegrate_Ukrainian_territory = { #整合乌克兰故土
 				controls_state = 227
 				controls_state = 228
 				controls_state = 259
-				controls_state = 834
-				controls_state = 1018
-				controls_state = 1489
+				controls_state = 812
+				controls_state = 996
+				controls_state = 1267
 			}
 		}
 
@@ -94,9 +94,9 @@ PUK_Reintegrate_Ukrainian_territory = { #整合乌克兰故土
 				227 = { add_core_of = ROOT }
 				228 = { add_core_of = ROOT }
 				259 = { add_core_of = ROOT }
-				834 = { add_core_of = ROOT }
-				1018 = { add_core_of = ROOT }
-				1489 = { add_core_of = ROOT }
+				812 = { add_core_of = ROOT }
+				996 = { add_core_of = ROOT }
+				1267 = { add_core_of = ROOT }
 			}
 		}
 		ai_will_do = {

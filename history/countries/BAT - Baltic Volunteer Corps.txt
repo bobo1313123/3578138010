@@ -1,4 +1,4 @@
-capital = 808
+capital = 788
 oob = "BAT_1935"
 set_stability = 0.33
 set_war_support = 0.54

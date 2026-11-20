@@ -1,6 +1,6 @@
 
 state={
-	id=108
+	id = 108
 	name="STATE_108"
 	resources={
 		steel=3.000
@@ -21,7 +21,7 @@ state={
 	provinces={
 		3922 3939 6953 6970 6998
 	}
-	manpower=707000
+	manpower=308605
 	buildings_max_level_factor=1.000
 	state_category=town
 

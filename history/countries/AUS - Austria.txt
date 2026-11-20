@@ -1,4 +1,4 @@
-﻿capital = 1059 # Vienna
+﻿capital = 1036 # Vienna
 
 set_oob = "AUS_ww_1936"
 set_variable = { aus_economy = 20000 }

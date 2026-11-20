@@ -20,7 +20,7 @@ state = {
 		304 331 360 386 3350 3759 6373 11313 
 	}
 
-	manpower = 841084
+	manpower = 1041084
 	state_category = town
 
 	local_supplies = 1.0 

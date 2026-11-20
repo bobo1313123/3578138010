@@ -1,0 +1,20 @@
+state = {
+	id = 1056
+	name = "STATE_1056"
+	manpower = 1934378
+	state_category = rural
+	history = {
+		owner = FUJ
+		add_core_of = FUJ
+		add_core_of = PRC
+		add_core_of = CHI
+		add_extra_state_shared_building_slots = 3
+		victory_points = {
+			1006 5
+		}
+	}
+	provinces = {
+		1006 4053 7099
+	}
+	local_supplies = 7
+}

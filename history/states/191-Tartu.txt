@@ -1,6 +1,6 @@
 
 state={
-	id=191
+	id = 191
 	name="STATE_191"
 
 	history={
@@ -11,12 +11,13 @@ state={
 			9221 5
 		}
 		victory_points = {
-			592 3
+			592 3 #Voru
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 3 #was: 5
+
 		}
+
 	}
 
 	provinces={

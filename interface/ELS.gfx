@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {#莱昂・科尔特斯・卡斯特罗
+		name = "GFX_leader_ELS_Leon_Cortes_Castro"
+		texturefile = "gfx/leaders/ELS/ELS_Leon_Cortes_Castro.dds"
+	}
+}

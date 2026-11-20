@@ -1,5 +1,5 @@
 state={
-	id=98
+	id = 98
 	name="STATE_98"
 
 	history={
@@ -19,6 +19,6 @@ state={
 	}
 
 	state_category = town
-	manpower = 1012100
+	manpower = 1030075
 	local_supplies=7.0 
 }

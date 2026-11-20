@@ -1,4 +1,4 @@
-﻿capital = 295 # Leopoldville/Kinshaasa
+﻿capital = 294 # Leopoldville/Kinshaasa
 load_focus_tree = generic_focus
 set_oob = "COG_1936"
 set_cosmetic_tag = COG_FREEDOM

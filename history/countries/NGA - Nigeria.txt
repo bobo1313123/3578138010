@@ -1,4 +1,4 @@
-﻿capital = 558
+﻿capital = 556
 oob = "NGA_1935"
 set_stability = 0.19
 set_war_support = 0.20

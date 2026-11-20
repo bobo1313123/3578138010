@@ -1,19 +1,21 @@
 state={
-	id=1080
+	id = 1080
 	name="STATE_1080"
-	manpower = 1270509
+	manpower = 12581
 
 	state_category = rural
 
 	history={
-		owner = ZJG
-		add_core_of = ZJG
-		add_core_of = PRC
-		add_core_of = CHI
+		owner = TAN
+		add_core_of = TAN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
 	}
 
 	provinces={
-		7174 11920 9944 
+		12625 7703 
 	}
 
 	local_supplies=7.0 

@@ -1,0 +1,33 @@
+state = {
+	id = 1294
+	name = "STATE_1294"
+
+	state_category = rural
+	history = {
+		owner = KEN
+		add_core_of = KEN
+		add_core_of = TZN
+		buildings = {
+			infrastructure = 2
+			2196 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			2196 10
+		}
+		victory_points = {
+			8205 3
+		}
+	}
+
+	provinces = {
+		2196 8205
+	}
+	manpower = 330859
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0
+}

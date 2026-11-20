@@ -1,4 +1,4 @@
-on_actions = {
+﻿on_actions = {
 
 	on_capitulation = {
 		effect = {
@@ -26,20 +26,20 @@ on_actions = {
 						remove_core_of = ROL
 					}
 					transfer_state = 8
-					transfer_state = 1023
+					transfer_state = 1001
 					8 = { add_core_of = GER remove_core_of = HOL }
-					1023 = { add_core_of = GER remove_core_of = HOL }
+					1001 = { add_core_of = GER remove_core_of = HOL }
 
 					if = {
 						limit = { country_exists = FRA }
 						FRA = {
 							transfer_state = 34
-							transfer_state = 980
-							transfer_state = 1053
+							transfer_state = 958
+							transfer_state = 1030
 						}
 						34 = { add_core_of = FRA remove_core_of = HOL }
-						980 = { add_core_of = FRA remove_core_of = HOL }
-						1053 = { add_core_of = FRA remove_core_of = HOL }
+						958 = { add_core_of = FRA remove_core_of = HOL }
+						1030 = { add_core_of = FRA remove_core_of = HOL }
 					}
 
 					if = {

@@ -1,4 +1,4 @@
-﻿capital = 579 #Salekhard
+﻿capital = 577 #Salekhard
 
 #oob = "TAY_1936"
 

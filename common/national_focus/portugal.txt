@@ -1,4 +1,4 @@
-### search_filters = {FOCUS_FILTER_POLITICAL}
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -76,13 +76,13 @@ focus_tree = {
 		available = {
 			NOT = { has_government = fascism }
 			OR = {
-				has_full_control_of_state = 796 #North Angola
-				has_full_control_of_state = 540 #Luanda
-				has_full_control_of_state = 891 #South West Angola
-				has_full_control_of_state = 892 #Zambesi
-				has_full_control_of_state = 544 #Mozambique
-				has_full_control_of_state = 896 #Manica e Sofala
-				has_full_control_of_state = 897 #Zambeziá-Mozambique
+				has_full_control_of_state = 776 #North Angola
+				has_full_control_of_state = 538 #Luanda
+				has_full_control_of_state = 869 #South West Angola
+				has_full_control_of_state = 870 #Zambesi
+				has_full_control_of_state = 542 #Mozambique
+				has_full_control_of_state = 874 #Manica e Sofala
+				has_full_control_of_state = 875 #Zambeziá-Mozambique
 			}
 		}
 
@@ -120,13 +120,13 @@ focus_tree = {
 		id = POR_limited_self_rule
 		available = {
 			OR = {
-				has_full_control_of_state = 796 #North Angola
-				has_full_control_of_state = 540 #Luanda
-				has_full_control_of_state = 891 #Zambesi
-				has_full_control_of_state = 892 #Southwest Angola
-				has_full_control_of_state = 544 #Mozambique
-				has_full_control_of_state = 896 #Manica e Sofala
-				has_full_control_of_state = 897 #Zambezia
+				has_full_control_of_state = 776 #North Angola
+				has_full_control_of_state = 538 #Luanda
+				has_full_control_of_state = 869 #Zambesi
+				has_full_control_of_state = 870 #Southwest Angola
+				has_full_control_of_state = 542 #Mozambique
+				has_full_control_of_state = 874 #Manica e Sofala
+				has_full_control_of_state = 875 #Zambezia
 			}
 		}
 
@@ -170,30 +170,30 @@ focus_tree = {
 			ANG = {
 				if = {
 					limit = { 
-						POR = { has_full_control_of_state = 796 }
+						POR = { has_full_control_of_state = 776 }
 					}
-					transfer_state = 796
+					transfer_state = 776
 					POR = { set_country_flag = POR_released_angola_flag }
 				}
 				if = {
 					limit = { 
-						POR = { has_full_control_of_state = 540 }
+						POR = { has_full_control_of_state = 538 }
 					}
-					transfer_state = 540
+					transfer_state = 538
 					POR = { set_country_flag = POR_released_angola_flag }
 				}
 				if = {
 					limit = { 
-						POR = { has_full_control_of_state = 891 }
+						POR = { has_full_control_of_state = 869 }
 					}
-					transfer_state = 891
+					transfer_state = 869
 					POR = { set_country_flag = POR_released_angola_flag }
 				}	
 				if = {
 					limit = { 
-						POR = { has_full_control_of_state = 892 }
+						POR = { has_full_control_of_state = 870 }
 					}
-					transfer_state = 892
+					transfer_state = 870
 					POR = { set_country_flag = POR_released_angola_flag }
 				}							
 			}
@@ -201,23 +201,23 @@ focus_tree = {
 			MZB = {
 				if = {
 					limit = { 
-						POR = { has_full_control_of_state = 544 }
+						POR = { has_full_control_of_state = 542 }
 					}
-					transfer_state = 544
+					transfer_state = 542
 					POR = { set_country_flag = POR_released_mozambique_flag }
 				}	
 				if = {
 					limit = { 
-						POR = { has_full_control_of_state = 896 }
+						POR = { has_full_control_of_state = 874 }
 					}
-					transfer_state = 896
+					transfer_state = 874
 					POR = { set_country_flag = POR_released_mozambique_flag }
 				}
 				if = {
 					limit = { 
-						POR = { has_full_control_of_state = 897 }
+						POR = { has_full_control_of_state = 875 }
 					}
-					transfer_state = 897
+					transfer_state = 875
 					POR = { set_country_flag = POR_released_mozambique_flag }
 				}
 			}
@@ -280,7 +280,7 @@ focus_tree = {
 		id = POR_infrastructure_in_angola
 		available = {
 			OR = {
-				has_full_control_of_state = 796
+				has_full_control_of_state = 776
 				796 = {
 					owner = { is_subject_of = ROOT }
 				}
@@ -300,7 +300,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
 
-			796 = {		
+			776 = {		
 				
 				add_building_construction = {
 					type = naval_base
@@ -317,7 +317,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 1	
 			}
 
-			540 = {		
+			538 = {		
 
 				add_building_construction = {
 					type = naval_base
@@ -340,7 +340,7 @@ focus_tree = {
 		id = POR_develop_north_angola
 		available = {	
 			OR = {
-				has_full_control_of_state = 796
+				has_full_control_of_state = 776
 				796 = {
 					owner = { is_subject_of = ROOT }
 				}
@@ -360,7 +360,7 @@ focus_tree = {
 		cost = 10
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
-			796 = {
+			776 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = infrastructure
@@ -386,7 +386,7 @@ focus_tree = {
 		id = POR_develop_south_angola
 		available = {
 			OR = {
-				has_full_control_of_state = 540
+				has_full_control_of_state = 538
 				540 = {
 					owner = { is_subject_of = ROOT }
 				}
@@ -405,7 +405,7 @@ focus_tree = {
 		cost = 10
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
-			540 = {
+			538 = {
 				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = infrastructure
@@ -443,7 +443,7 @@ focus_tree = {
 		id = POR_portuguese_oil
 		available = {
 			OR = {
-				has_full_control_of_state = 796
+				has_full_control_of_state = 776
 				796 = {
 					owner = { is_subject_of = ROOT }
 				}
@@ -475,7 +475,7 @@ focus_tree = {
 		id = POR_develop_mozambique
 		available = {
 			OR = {
-				has_full_control_of_state = 544
+				has_full_control_of_state = 542
 				544 = {
 					owner = { is_subject_of = ROOT }
 				}
@@ -494,7 +494,7 @@ focus_tree = {
 		cost = 10
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = { 
-			544 = {
+			542 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = infrastructure
@@ -511,7 +511,7 @@ focus_tree = {
 					amount = 6
 				}
 			}
-			897 = {
+			875 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = naval_base
@@ -533,7 +533,7 @@ focus_tree = {
 			OR = {
 				has_full_control_of_state = 180 #PORTO
 				has_full_control_of_state = 181 #GUARDA
-				has_full_control_of_state = 795 #SANTAREM
+				has_full_control_of_state = 775 #SANTAREM
 				has_full_control_of_state = 179 #BEJA
 				has_full_control_of_state = 112 #LISBON
 			}
@@ -575,8 +575,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { has_full_control_of_state = 795 }
-				795 = {
+				limit = { has_full_control_of_state = 775 }
+				775 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = infrastructure
@@ -773,7 +773,7 @@ focus_tree = {
 		available = {	
 			OR = {
 				has_full_control_of_state = 181 #GUARDA
-				has_full_control_of_state = 795 #SANTAREM
+				has_full_control_of_state = 775 #SANTAREM
 				has_full_control_of_state = 179 #BEJA
 				has_full_control_of_state = 180 #PORTO
 				has_full_control_of_state = 112 #LISBON
@@ -804,8 +804,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { has_full_control_of_state = 795 }
-				795 = {
+				limit = { has_full_control_of_state = 775 }
+				775 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = infrastructure
@@ -870,7 +870,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_full_control_of_state = 112
-				has_full_control_of_state = 795
+				has_full_control_of_state = 775
 			}			
 		}
 
@@ -890,7 +890,7 @@ focus_tree = {
 				unlock_decision_tooltip = POR_develop_lisbon_tungsten_deposits
 			}
 			if = {
-				limit = { has_full_control_of_state = 795 }
+				limit = { has_full_control_of_state = 775 }
 				unlock_decision_tooltip = POR_develop_santarem_chromium_deposits
 			}			
 		}
@@ -1393,8 +1393,8 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_full_control_of_state = 795 }
-				795 = {
+				limit = { has_full_control_of_state = 775 }
+				775 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -1518,8 +1518,8 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { has_full_control_of_state = 795 }
-				795 = {
+				limit = { has_full_control_of_state = 775 }
+				775 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -1967,9 +1967,9 @@ focus_tree = {
 		id = POR_atlantic_defense_strategy
 		available = {
 			OR = {
-				has_full_control_of_state = 698
-				has_full_control_of_state = 697
-				has_full_control_of_state = 702
+				has_full_control_of_state = 689
+				has_full_control_of_state = 688
+				has_full_control_of_state = 693
 			}			
 		}
 
@@ -1984,7 +1984,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = { 
 			if = {
-				limit = { has_full_control_of_state = 698 }
+				limit = { has_full_control_of_state = 689 }
 				698 = { #Azores
 					add_building_construction = {
 						type = coastal_bunker		
@@ -2002,7 +2002,7 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { has_full_control_of_state = 697 }
+				limit = { has_full_control_of_state = 688 }
 				697 = { #Madeira
 					add_building_construction = {
 						type = coastal_bunker		
@@ -2020,7 +2020,7 @@ focus_tree = {
 			}
 
 			if = {
-				limit = { has_full_control_of_state = 702 }
+				limit = { has_full_control_of_state = 693 }
 				702 = { #Cape Verde
 					add_building_construction = {
 						type = coastal_bunker		
@@ -2043,9 +2043,9 @@ focus_tree = {
 		id = POR_endless_sea
 		available = {
 			OR = {
-				has_full_control_of_state = 321
-				has_full_control_of_state = 729
-				has_full_control_of_state = 721
+				has_full_control_of_state = 320
+				has_full_control_of_state = 718
+				has_full_control_of_state = 710
 			}
 		}
 
@@ -2062,7 +2062,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = POR_endless_sea
  			if = {
-				limit = { has_full_control_of_state = 321 }
+				limit = { has_full_control_of_state = 320 }
 	 			321 = { #Goa
 					add_building_construction = {
 						type = coastal_bunker
@@ -2086,7 +2086,7 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_full_control_of_state = 729 }
+				limit = { has_full_control_of_state = 718 }
 				729 = { #Macau
 					add_building_construction = {
 						type = coastal_bunker
@@ -2110,7 +2110,7 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_full_control_of_state = 721 }
+				limit = { has_full_control_of_state = 710 }
 				721 = { #Portuguese Timor
 					add_building_construction = {
 						type = coastal_bunker
@@ -2581,7 +2581,7 @@ focus_tree = {
 				has_full_control_of_state = 112
 				has_full_control_of_state = 180
 				has_full_control_of_state = 181
-				has_full_control_of_state = 795
+				has_full_control_of_state = 775
 			}
 		}
 
@@ -2589,7 +2589,7 @@ focus_tree = {
 			NOT = { has_full_control_of_state = 112 }
 			NOT = { has_full_control_of_state = 180 }
 			NOT = { has_full_control_of_state = 181 }
-			NOT = { has_full_control_of_state = 795 }
+			NOT = { has_full_control_of_state = 775 }
 		}
 		prerequisite = { focus = POR_nation_in_arms }
 		icon = GFX_goal_generic_soviet_construction
@@ -2634,8 +2634,8 @@ focus_tree = {
 				}
 			}
 			if = {
-				limit = { has_full_control_of_state = 795 }
-				795 = { #Santarem
+				limit = { has_full_control_of_state = 775 }
+				775 = { #Santarem
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = industrial_complex		
@@ -3822,7 +3822,7 @@ focus_tree = {
 
 		select_effect = {
 			random_country = {
-				limit = { controls_state = 592 }
+				limit = { controls_state = 590 }
 				ROOT = {
 					add_ai_strategy = {
 						type = prepare_for_war
@@ -3866,7 +3866,7 @@ focus_tree = {
 
 			hidden_effect = {
 				random_country = {
-					limit = { controls_state = 592 }
+					limit = { controls_state = 590 }
 					ROOT = {
 						add_ai_strategy = {
 							type = declare_war
@@ -5293,15 +5293,15 @@ focus_tree = {
 			every_country = {
 				limit = {
 					OR = {
+						controls_state = 590
 						controls_state = 592
-						controls_state = 594
-						controls_state = 325
+						controls_state = 323
+						controls_state = 605
 						controls_state = 613
-						controls_state = 622
-						controls_state = 604
-						controls_state = 615
-						controls_state = 611
-						controls_state = 328
+						controls_state = 598
+						controls_state = 607
+						controls_state = 603
+						controls_state = 326
 					}
 				}
 				ROOT = {
@@ -5315,7 +5315,7 @@ focus_tree = {
 		}
 
 		available = {		
-			owns_state = 729
+			owns_state = 718
 		}
 
 		bypass = {		
@@ -5472,7 +5472,7 @@ focus_tree = {
 
 			hidden_effect = {
 				random_country = {
-					limit = { controls_state = 592 }
+					limit = { controls_state = 590 }
 					ROOT = {
 						add_ai_strategy = {
 							type = prepare_for_war
@@ -5594,10 +5594,10 @@ focus_tree = {
 			every_country = {
 				limit = { 
 					OR = {
-						controls_state = 770
-						controls_state = 545
-						controls_state = 771
-						controls_state = 981
+						controls_state = 750
+						controls_state = 543
+						controls_state = 751
+						controls_state = 959
 					}
 				}
 				ROOT = {
@@ -5615,10 +5615,10 @@ focus_tree = {
 
 		bypass = {
 			AND = {
-				owns_state = 770
-				owns_state = 545
-				owns_state = 771
-				owns_state = 981
+				owns_state = 750
+				owns_state = 543
+				owns_state = 751
+				owns_state = 959
 			}
 		}
 		prerequisite = { focus = POR_refuse_the_naval_blockade }
@@ -5629,19 +5629,19 @@ focus_tree = {
 		relative_position_id = POR_refuse_the_naval_blockade
 		cost = 10
 		completion_reward = { 	
-			add_state_claim = 770 #Malawi
-			add_state_claim = 545 #Rhodesia
-			add_state_claim = 771 #Zambia
-			add_state_claim = 981 #Barotseland
+			add_state_claim = 750 #Malawi
+			add_state_claim = 543 #Rhodesia
+			add_state_claim = 751 #Zambia
+			add_state_claim = 959 #Barotseland
 
 			hidden_effect = {
 				random_country = {
 					limit = { 
 						OR = {
-							controls_state = 770
-							controls_state = 545
-							controls_state = 771
-							controls_state = 981
+							controls_state = 750
+							controls_state = 543
+							controls_state = 751
+							controls_state = 959
 						}
 					}
 					ROOT = {
@@ -5661,7 +5661,7 @@ focus_tree = {
 
 		select_effect = {
 			random_country = {
-				limit = { controls_state = 336 }
+				limit = { controls_state = 334 }
 				ROOT = {
 					add_ai_strategy = {
 						type = prepare_for_war
@@ -5671,7 +5671,7 @@ focus_tree = {
 				}
 			}
 			random_country = {
-				limit = { controls_state = 667 }
+				limit = { controls_state = 658 }
 				ROOT = {
 					add_ai_strategy = {
 						type = prepare_for_war
@@ -5686,10 +5686,10 @@ focus_tree = {
 		}
 
 		bypass = {
-			owns_state = 336
-			owns_state = 667
-			owns_state = 673
-			owns_state = 668
+			owns_state = 334
+			owns_state = 658
+			owns_state = 664
+			owns_state = 659
 		}
 		prerequisite = { focus = POR_mapa_cor_de_rosa }
 		icon = GFX_focus_RAJ_seek_help_from_germany
@@ -5699,14 +5699,14 @@ focus_tree = {
 		relative_position_id = POR_mapa_cor_de_rosa
 		cost = 10
 		completion_reward = { 
-			add_state_claim = 336 # Singapore
-			add_state_claim = 667 # Lesser Sunda
-			add_state_claim = 673 # Sulawesi
-			add_state_claim = 668 # The Moluccas
+			add_state_claim = 334 # Singapore
+			add_state_claim = 658 # Lesser Sunda
+			add_state_claim = 664 # Sulawesi
+			add_state_claim = 659 # The Moluccas
 
 			hidden_effect = {
 				random_country = {
-					limit = { controls_state = 336 }
+					limit = { controls_state = 334 }
 					ROOT = {
 						add_ai_strategy = {
 							type = declare_war
@@ -5716,7 +5716,7 @@ focus_tree = {
 					}
 				}
 				random_country = {
-					limit = { controls_state = 667 }
+					limit = { controls_state = 658 }
 					ROOT = {
 						add_ai_strategy = {
 							type = declare_war
@@ -5736,7 +5736,7 @@ focus_tree = {
 
 		select_effect = {
 			random_country = {
-				limit = { controls_state = 500 }
+				limit = { controls_state = 498 }
 				ROOT = {
 					add_ai_strategy = {
 						type = prepare_for_war
@@ -5751,28 +5751,28 @@ focus_tree = {
 		}
 
 		bypass = {
-			owns_state = 500
-			owns_state = 501
-			owns_state = 944
-			owns_state = 503
-			owns_state = 502
-			owns_state = 504
-			owns_state = 496
-			owns_state = 943
-			owns_state = 280
-			owns_state = 505
-			owns_state = 499
-			owns_state = 941
-			owns_state = 942
-			owns_state = 936
-			owns_state = 937
 			owns_state = 498
-			owns_state = 935
+			owns_state = 499
+			owns_state = 922
+			owns_state = 501
+			owns_state = 500
+			owns_state = 502
+			owns_state = 494
+			owns_state = 921
+			owns_state = 280
+			owns_state = 503
 			owns_state = 497
-			owns_state = 938
-			owns_state = 939
+			owns_state = 919
+			owns_state = 920
+			owns_state = 914
+			owns_state = 915
+			owns_state = 496
+			owns_state = 913
 			owns_state = 495
-			owns_state = 940
+			owns_state = 916
+			owns_state = 917
+			owns_state = 493
+			owns_state = 918
 		}
 		prerequisite = { focus = POR_mapa_cor_de_rosa }
 
@@ -5785,32 +5785,32 @@ focus_tree = {
 		relative_position_id = POR_mapa_cor_de_rosa
 		cost = 10
 		completion_reward = { 	
-			add_state_claim = 500 #Rio
-			add_state_claim = 501 #Sap Paulo
-			add_state_claim = 944 #Parana
-			add_state_claim = 503 #Santa Catarina
-			add_state_claim = 502 #Rio Grande do Sul
-			add_state_claim = 504 #Punta Pora
-			add_state_claim = 496 #Minas Gerais
-			add_state_claim = 943 #Espirito Santo
+			add_state_claim = 498 #Rio
+			add_state_claim = 499 #Sap Paulo
+			add_state_claim = 922 #Parana
+			add_state_claim = 501 #Santa Catarina
+			add_state_claim = 500 #Rio Grande do Sul
+			add_state_claim = 502 #Punta Pora
+			add_state_claim = 494 #Minas Gerais
+			add_state_claim = 921 #Espirito Santo
 			add_state_claim = 280 #Mato Grosso
-			add_state_claim = 505 #Goias
-			add_state_claim = 499 #Bahia
-			add_state_claim = 941 #Tocantins
-			add_state_claim = 942 #Guapore
-			add_state_claim = 936 #Pernambuco
-			add_state_claim = 937 #Piaui
-			add_state_claim = 498 #Rio Grande do Norte
-			add_state_claim = 935 #Ceara
-			add_state_claim = 497 #Maranhao
-			add_state_claim = 938 #Para
-			add_state_claim = 939 #Amapa - Rio Branco
-			add_state_claim = 495 #Amazonas
-			add_state_claim = 940 #Acre
+			add_state_claim = 503 #Goias
+			add_state_claim = 497 #Bahia
+			add_state_claim = 919 #Tocantins
+			add_state_claim = 920 #Guapore
+			add_state_claim = 914 #Pernambuco
+			add_state_claim = 915 #Piaui
+			add_state_claim = 496 #Rio Grande do Norte
+			add_state_claim = 913 #Ceara
+			add_state_claim = 495 #Maranhao
+			add_state_claim = 916 #Para
+			add_state_claim = 917 #Amapa - Rio Branco
+			add_state_claim = 493 #Amazonas
+			add_state_claim = 918 #Acre
 
 			hidden_effect = {
 				random_country = {
-					limit = { controls_state = 500 }
+					limit = { controls_state = 498 }
 					ROOT = {
 						add_ai_strategy = {
 							type = declare_war
@@ -6431,7 +6431,7 @@ focus_tree = {
 				}
 				AND = {
 					NOT = { country_exists = BRA }
-					owns_state = 500
+					owns_state = 498
 				}
 			}
 		}
@@ -6623,6 +6623,16 @@ focus_tree = {
 
 		select_effect = {
 			random_country = {
+				limit = { controls_state = 299 }
+				ROOT = {
+					add_ai_strategy = {
+						type = prepare_for_war
+						id = PREV
+						value = 100
+					}
+				}
+			}
+			random_country = {
 				limit = { controls_state = 300 }
 				ROOT = {
 					add_ai_strategy = {
@@ -6633,17 +6643,7 @@ focus_tree = {
 				}
 			}
 			random_country = {
-				limit = { controls_state = 301 }
-				ROOT = {
-					add_ai_strategy = {
-						type = prepare_for_war
-						id = PREV
-						value = 100
-					}
-				}
-			}
-			random_country = {
-				limit = { controls_state = 510 }
+				limit = { controls_state = 508 }
 				ROOT = {
 					add_ai_strategy = {
 						type = prepare_for_war
@@ -6658,11 +6658,11 @@ focus_tree = {
 		}
 
 		bypass = {
+			owns_state = 299
+			owns_state = 923
+			owns_state = 924
 			owns_state = 300
-			owns_state = 945
-			owns_state = 946
-			owns_state = 301
-			owns_state = 510
+			owns_state = 508
 		}
 		prerequisite = { focus = POR_the_kingdom_reunited focus = POR_recover_brazil }
 
@@ -6673,13 +6673,23 @@ focus_tree = {
 		relative_position_id = POR_the_kingdom_reunited
 		cost = 10
 		completion_reward = { 
+			add_state_claim = 299
+			add_state_claim = 923
+			add_state_claim = 924
 			add_state_claim = 300
-			add_state_claim = 945
-			add_state_claim = 946
-			add_state_claim = 301
-			add_state_claim = 510
+			add_state_claim = 508
 
 			hidden_effect = {
+				random_country = {
+					limit = { controls_state = 299 }
+					ROOT = {
+						add_ai_strategy = {
+							type = declare_war
+							id = PREV
+							value = 100
+						}
+					}
+				}
 				random_country = {
 					limit = { controls_state = 300 }
 					ROOT = {
@@ -6691,17 +6701,7 @@ focus_tree = {
 					}
 				}
 				random_country = {
-					limit = { controls_state = 301 }
-					ROOT = {
-						add_ai_strategy = {
-							type = declare_war
-							id = PREV
-							value = 100
-						}
-					}
-				}
-				random_country = {
-					limit = { controls_state = 510 }
+					limit = { controls_state = 508 }
 					ROOT = {
 						add_ai_strategy = {
 							type = declare_war

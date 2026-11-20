@@ -1,4 +1,4 @@
-﻿capital = 576 #Tura
+﻿capital = 574 #Tura
 
 #oob = "EVE_1936"
 

@@ -1,4 +1,4 @@
-capital = 1065
+﻿capital = 1042
 oob = "PWQ_1935"
 set_stability = 0.38
 set_war_support = 0.21

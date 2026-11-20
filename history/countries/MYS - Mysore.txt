@@ -1,4 +1,4 @@
-﻿capital = 425 #mysore
+﻿capital = 423 #mysore
 
 
 set_research_slots = 2

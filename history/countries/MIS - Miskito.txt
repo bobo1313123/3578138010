@@ -1,4 +1,4 @@
-﻿capital = 317 #Nicaragua
+﻿capital = 316 #Nicaragua
 
 oob = "CHL_1936"
 

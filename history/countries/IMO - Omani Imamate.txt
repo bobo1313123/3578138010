@@ -1,4 +1,4 @@
-﻿capital = 1015 # Nizwa
+﻿capital = 993 # Nizwa
 
 # Starting tech
 set_technology = {

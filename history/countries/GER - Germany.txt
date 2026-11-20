@@ -1,4 +1,4 @@
-﻿capital = 1049 # 柏林
+﻿capital = 1026 # 柏林
 oob = "GER_1935"
 set_stability = 0.56
 set_war_support = 0.33

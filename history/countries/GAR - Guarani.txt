@@ -1,4 +1,4 @@
-﻿capital = 301 #Asuncion
+﻿capital = 300 #Asuncion
 
 oob = "CHL_1936"
 

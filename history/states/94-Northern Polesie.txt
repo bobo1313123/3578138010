@@ -1,5 +1,5 @@
 state={
-	id=94
+	id = 94
 	name="STATE_94"
 
 	history={
@@ -18,7 +18,7 @@ state={
 	provinces={
 		560 3256 3556 6280 6306 6415 11285 11528 
 	}
-	manpower=632200
+	manpower=570317
 	buildings_max_level_factor=1.000
 	state_category=rural
 

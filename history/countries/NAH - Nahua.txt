@@ -1,4 +1,4 @@
-﻿capital = 314 #San Salvador
+﻿capital = 313 #San Salvador
 
 oob = "CHL_1936"
 

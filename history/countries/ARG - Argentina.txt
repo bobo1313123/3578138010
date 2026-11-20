@@ -1,4 +1,4 @@
-﻿capital = 1465
+﻿capital = 1245
 oob = "ARG_1935"
 set_stability = 0.42
 set_war_support = 0.38

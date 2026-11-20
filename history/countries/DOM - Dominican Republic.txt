@@ -1,4 +1,4 @@
-﻿capital = 319
+﻿capital = 318
 
 oob = "DOM_1936"
 set_country_flag = tfe_second_leader #副领导人

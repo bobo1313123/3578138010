@@ -1,5 +1,5 @@
 state={
-	id=286
+	id = 286
 	name="STATE_286"
 	resources={
 		rubber=55.00 # was: 94.000
@@ -15,10 +15,6 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 2
-			4401 = {
-				naval_base = 4
-
-			}
 
 		}
 
@@ -27,7 +23,7 @@ state={
 	provinces={
 		1423 1396 12288
 	}
-	manpower=5245000
+	manpower=652444
 	buildings_max_level_factor=1.000
 	state_category=town
 

@@ -1,4 +1,4 @@
-﻿capital = 992 #Sikkim
+﻿capital = 970 #Sikkim
 
 
 set_research_slots = 2

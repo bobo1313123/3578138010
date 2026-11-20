@@ -1,0 +1,30 @@
+state = {
+	id = 1288
+	name = "STATE_1288"
+	manpower = 2487338
+	state_category = rural
+	history = {
+		owner = FUJ
+		add_core_of = FUJ
+		add_core_of = PRC
+		add_core_of = CHI
+		add_extra_state_shared_building_slots = 3
+		buildings = {
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		victory_points = {
+			7071 10
+		}
+		victory_points = {
+			10010 3
+		}
+	}
+	provinces = {
+		7071 7131 10010 10054 10093 12084
+	}
+	local_supplies = 7
+}

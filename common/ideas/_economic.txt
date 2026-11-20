@@ -1,4 +1,4 @@
-ideas = {
+﻿ideas = {
 
 
 	economy = {
@@ -787,12 +787,12 @@ ideas = {
 					has_completed_focus = POL_expand_gdynia_seaport
 					NOT = {
 						owns_state = 85
-						owns_state = 807
+						owns_state = 787
 					}
 					any_owned_state = {
 						NOT = {
 							state = 85
-							state = 807
+							state = 787
 						}
 						is_coastal = yes
 					}

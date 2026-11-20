@@ -1,0 +1,132 @@
+division_template = {
+	name = "National Guard"
+	template_counter = 3
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "National Guard Cavalry Unit"
+	template_counter = 2
+	is_locked = yes
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		division_template = "National Guard"
+		location = 13093
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		division_template = "National Guard"
+		location = 8017
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		division_template = "National Guard"
+		location = 10842
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		division_template = "National Guard"
+		location = 10842
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		division_template = "National Guard"
+		location = 10842
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		division_template = "National Guard"
+		location = 10842
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		division_template = "National Guard"
+		location = 10842
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		division_template = "National Guard"
+		location = 10842
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+
+### Starting Equipment ###		产线
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ELS"
+		}
+		requested_factories = 2
+		progress = 0.68
+		efficiency = 100
+	}
+}

@@ -203,7 +203,7 @@ country_event = { #列克星敦大罢工事件
 			name = TFE_USA_Socialism_party_2
 			long_name = TFE_USA_Socialism_party_2_long
 		}
-		369 = { #肯塔基州
+		367 = { #肯塔基州
 			set_demilitarized_zone = yes
 		}
 		country_event = { id = tfe_usa.3 days = 14 }

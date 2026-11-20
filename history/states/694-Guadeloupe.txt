@@ -7,9 +7,18 @@ state={
 	state_category = rural
 
 	history={
+<<<<<<<< HEAD:history/states/694-Guadeloupe.txt
 		owner = FRA
 		add_claim_by = FRA
 		add_core_of = CAY
+========
+		add_core_of = GDL
+		owner = BAS
+		add_claim_by = BAS
+		victory_points = {
+			9377 1
+		}
+>>>>>>>> 4952a9f65ccc113cd097139602cdecca58de776f:history/states/694-French Caribbean.txt
 		buildings = {
 			infrastructure = 4
 			air_base = 1

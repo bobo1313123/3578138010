@@ -1,4 +1,4 @@
-﻿capital = 797
+﻿capital = 777
 load_focus_tree = generic_focus
 
 if = {
@@ -206,10 +206,10 @@ if = {
 			limit = {
 				OR = {
 					state = 49
-					state = 342
-					state = 343
-					state = 346
-					state = 347
+					state = 340
+					state = 341
+					state = 344
+					state = 345
 				}
 			}
 			set_state_flag = TUR_ideological_battleground_state

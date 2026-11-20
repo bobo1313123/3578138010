@@ -1,0 +1,9 @@
+opinion_modifiers ={
+	USA_CSA_ethnic_division ={
+		value = -200      
+		decay = 0         #每月变化 0，永久保持 -200
+		trade = no        #影响贸易关系
+		max_trust = -200
+		min_trust = -200 
+	}
+}

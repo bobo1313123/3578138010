@@ -1,4 +1,4 @@
-﻿capital = 981 #Mongu
+﻿capital = 959 #Mongu
 
 # Starting tech
 set_technology = {

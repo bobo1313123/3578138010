@@ -1,4 +1,4 @@
-capital = 291 # Baghdad
+capital = 290 # Baghdad
 
 set_stability = 0.4
 set_war_support = 0.7

@@ -1,4 +1,4 @@
-﻿capital = 366 
+﻿capital = 364 
 
 set_politics = {
 	ruling_party = Liberalism

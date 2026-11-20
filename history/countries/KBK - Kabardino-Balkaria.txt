@@ -1,4 +1,4 @@
-﻿capital = 827 #Nalchik
+﻿capital = 805 #Nalchik
 
 #oob = "KBK_1936"
 

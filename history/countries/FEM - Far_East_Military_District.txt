@@ -1,5 +1,5 @@
 load_focus_tree = generic_focus
-capital = 563
+capital = 561
 
 oob = "FEM_1936"
 

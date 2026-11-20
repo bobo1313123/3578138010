@@ -1,4 +1,4 @@
-﻿capital = 458 # Tunis
+﻿capital = 456 # Tunis
 
 set_stability = 0.4
 set_war_support = 0.7

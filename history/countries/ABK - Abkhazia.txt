@@ -1,4 +1,4 @@
-﻿capital = 826 #Sukhumi
+﻿capital = 804 #Sukhumi
 
 #oob = "ABK_1936"
 

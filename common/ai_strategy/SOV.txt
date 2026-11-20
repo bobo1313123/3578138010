@@ -1,4 +1,4 @@
-SOV_unit_production = {
+﻿SOV_unit_production = {
 	allowed = {
 		original_tag = SOV
 	}
@@ -1169,18 +1169,18 @@ SOV_scorched_earth_german_front_baltics = {
 		type = scorched_earth_prio
 		id = SOV
 		states = {
-			814
+			794
 			11
 			189
-			815
+			795
 			190
-			809
-			810
-			808
-			811
+			789
+			790
+			788
+			791
 			13
-			812
-			813
+			792
+			793
 			191
 		}
 	}
@@ -1228,7 +1228,7 @@ SOV_scorched_earth_german_front_Poland = {
 		type = scorched_earth_prio
 		id = SOV
 		states = {
-			784
+			764
 			96
 			95
 			94
@@ -1455,7 +1455,7 @@ SOV_scorched_earth_german_front_stalingrad = {
 			265
 			245
 			238
-			829
+			807
 		}
 	}
 }
@@ -1857,7 +1857,7 @@ SOV_ultimatum_ROM = {
 			}
 		}
 		OR = {
-			NOT = { owns_state = 766 } #Southern Bessarabia
+			NOT = { owns_state = 746 } #Southern Bessarabia
 			766 = {
 				owner = { NOT = { is_in_faction_with = ROOT } }
 			}
@@ -1883,7 +1883,7 @@ SOV_ultimatum_ROM = {
 					}
 				}
 				OR = {
-					owns_state = 766 #Southern Bessarabia
+					owns_state = 746 #Southern Bessarabia
 					766 = {
 						owner = { is_in_faction_with = ROOT }
 					}
@@ -2038,10 +2038,10 @@ SOV_defend_leningrad_if_at_war_with_fin = {
 			OR = {
 				state = 195
 				state = 146
-				state = 928
+				state = 906
 				state = 111
-				state = 927
-				state = 926
+				state = 905
+				state = 904
 			}
 		}
 		tag = FIN

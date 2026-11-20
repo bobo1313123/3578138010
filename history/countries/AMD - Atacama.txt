@@ -1,4 +1,4 @@
-﻿capital = 506
+﻿capital = 504
 
 oob = "AMD_1935"
 

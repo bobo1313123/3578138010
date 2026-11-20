@@ -1,4 +1,4 @@
-﻿capital = 360 #华盛顿特区
+﻿capital = 358 #华盛顿特区
 oob = "USA_1935"
 set_naval_oob = "USA_navy_1935"
 set_air_oob = "USA_air_1935"

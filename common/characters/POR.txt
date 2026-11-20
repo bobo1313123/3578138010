@@ -13,6 +13,14 @@ characters = {
 			expire = "1965.1.1.1"
 			id = -1
 		}
+		advisor = {
+			slot = second_in_command
+			idea_token = POR_antonio_de_oliveira_salazar_government
+			desc = POR_antonio_de_oliveira_salazar_desc
+			traits = { POR_salazar_head_of_government }
+			cost = 0
+			can_be_fired = no
+		}
 	}
 	POR_Duarte_II = {
 		name = POR_Duarte_II
@@ -439,6 +447,14 @@ characters = {
 			ai_will_do = {
 				factor = 1.000
 			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = POR_antonio_oscar_carmona_pol
+			desc = POR_antonio_oscar_carmona_desc
+			traits = { POR_carmona_defence_minister }
+			cost = 0
+			can_be_fired = no
 		}
 		name = POR_antonio_oscar_carmona
 		portraits = {
@@ -1379,6 +1395,42 @@ characters = {
 			army = {
 				small = "GFX_idea_POR_agostinho_lourenco"
 			}
+		}
+	}
+	#胡安·拉蒙·希梅内斯
+	POR_juan_ramon_jimenez = {
+		name = POR_juan_ramon_jimenez
+		advisor = {
+			slot = political_advisor
+			idea_token = POR_juan_ramon_jimenez
+			desc = POR_juan_ramon_jimenez_desc
+			traits = { POR_jimenez_interior_minister }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	#若泽·萨拉马戈
+	POR_jose_saramago = {
+		name = POR_jose_saramago
+		advisor = {
+			slot = political_advisor
+			idea_token = POR_jose_saramago
+			desc = POR_jose_saramago_desc
+			traits = { POR_saramago_foreign_minister }
+			cost = 0
+			can_be_fired = no
+		}
+	}
+	#费尔南多·佩索阿
+	POR_fernando_pessoa = {
+		name = POR_fernando_pessoa
+		advisor = {
+			slot = political_advisor
+			idea_token = POR_fernando_pessoa
+			desc = POR_fernando_pessoa_desc
+			traits = { POR_pessoa_propaganda_minister }
+			cost = 0
+			can_be_fired = no
 		}
 	}
 }

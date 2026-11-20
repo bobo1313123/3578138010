@@ -38,6 +38,11 @@ ideas = {
 				
 			}
 		}
+		POR_antonio_de_oliveira_salazar = { #安东尼奥·萨拉查
+			modifier = {
+				
+			}
+		}
 	}
 
 }

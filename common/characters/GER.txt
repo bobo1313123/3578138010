@@ -165,7 +165,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = Conservatism_small
+			ideology = christian_democracy
 			traits = { GER_traditionalist }
 			expire = "1965.1.1.1"
 			id = -1

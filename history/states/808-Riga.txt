@@ -7,22 +7,21 @@ state={
 	}
 
 	history={
-		owner = LAT
-		victory_points = {
-			9340 5 
-		}
+		owner = BAT
+		add_core_of = BAT
+		add_core_of = LAT
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 4
 			air_base = 3
 			9340 = {
 				naval_base = 3
 			}
-
 		}
-		add_core_of = LAT
-
+		victory_points = {
+			9340 20
+		}
 	}
 
 	provinces={
@@ -31,4 +30,5 @@ state={
 	manpower=420250
 	buildings_max_level_factor=1.000
 	state_category=city
+	local_supplies=2.0 
 }

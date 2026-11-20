@@ -8,11 +8,12 @@ state={
 
 	history={
 		owner = CAN
+		add_core_of = CAN
 		victory_points = {
-			7361 3
+			7361 10
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 2
 			air_base = 3
@@ -21,7 +22,6 @@ state={
 
 			}
 		}
-		add_core_of = CAN
 	}
 
 	provinces={

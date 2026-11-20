@@ -1,7 +1,7 @@
 state = {
 	id = 492
 	name = "STATE_492"
-	manpower = 1601278
+	manpower = 401278
 
 	resources = {
 		tungsten = 6
@@ -11,9 +11,9 @@ state = {
 
 	history = {
 
-		owner = BOL
+		owner = PRU
+		add_core_of = PRU
 		add_core_of = BOL
-
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -22,23 +22,15 @@ state = {
 				naval_base = 1
 			}
 		}
+		victory_points = {
+			2225 5 
+		}
 		
-		victory_points = {
-			2210 5 
-		}
-
-		victory_points = {
-			13288 1
-		}
-
-		victory_points = {
-			13286 1
-		}
 
 	}
 
 	provinces = {
-		2182 2210 2225 5202 12953 13175 13286 13288
+		2225 5202 12953
 	}
 	
 	buildings_max_level_factor = 1.000

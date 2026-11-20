@@ -5,8 +5,7 @@ state={
 		996 11913 11982 13406 13407 13408 13409 13410 13411 13412
 	}
 	history={
-		owner = JSU
-		add_core_of = JSU
+		owner = CHI
 add_core_of = CHI
 		add_core_of = PRC
 		
@@ -15,6 +14,14 @@ add_core_of = CHI
 			
 
 		buildings = {
+			11913 = {
+				landmark_nanjing_presidential_palace = {
+					level = 1
+					allowed = {
+						has_dlc = "No Compromise, No Surrender"
+					}
+				}
+			}
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
 			air_base = 6

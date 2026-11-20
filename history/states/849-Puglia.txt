@@ -2,21 +2,27 @@
 state = {
 	id = 849
 	name = "STATE_849"
-	manpower = 2642000 
+	manpower = 2642000
 	state_category = city
+	resources = {
+		steel = 6
+	}
 	history = {
 		owner = TTS
+		add_core_of = TTS
+		add_claim_by = ITA
+		add_claim_by = LBV
 		victory_points = { #Bari
-			9784 3
+			9784 5
 		}
 		victory_points = { #Brindisi
-			11998 3
+			11998 5
 		}
 		victory_points = { #Taranto
 			11837 15 
 		}
 		victory_points = { #Foggia
-			883 3
+			883 12
 		}
 		buildings = {
 			infrastructure = 2
@@ -28,15 +34,6 @@ state = {
 			}
 			9784 = { #Bari
 				naval_base = 3
-			}
-		}
-		add_claim_by = ITA
-		add_claim_by = LBV
-		add_core_of = TTS
-
-		1939.1.1 = {
-			buildings = {
-				dockyard = 5
 			}
 		}
 	}

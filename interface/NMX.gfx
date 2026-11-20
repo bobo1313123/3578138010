@@ -1,7 +1,0 @@
-spriteTypes = {
-	#领导人
-	spriteType = { #吉尔伯托·奥古斯托·阿布瑞尔
-		name = "GFX_leader_NMX_jierbote_aburuier"
-		texturefile = "gfx/leaders/NMX/NMX_jierbote_aburuier.dds"
-	}
-}

@@ -8,8 +8,7 @@ state={
 		7094 11916 12036 
 	}
 	history={
-		owner = ANH
-		add_core_of = ANH
+		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {

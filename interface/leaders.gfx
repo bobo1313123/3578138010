@@ -452,9 +452,9 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	#巴塔哥尼亚
-	spriteType = {
-		name = "GFX_BTG_Antoine_III_large"
-		texturefile = "gfx/leaders/BTG/BTG_Antoine_III.png"
+	spriteType = { #巴塔哥尼亚摄政委员会
+		name = "GFX_BTG_Regency_Council_large"
+		texturefile = "gfx/leaders/BTG/BTG_Regency_Council.png"
 	}
 	#普拉蒂尼
 	spriteType = { #热图里奥·瓦加斯
@@ -736,5 +736,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_BLR_Bronislav_Vladislavovich_Kaminsky"
 		texturefile = "gfx/leaders/BLR/BLR_Bronislav_Vladislavovich_Kaminsky.dds"
+	}
+	#乌拉圭
+	spriteType = { #卡洛斯·多明戈·马克斯
+		name = "GFX_URG_Carlos_Domingo_Marx_large"
+		texturefile = "gfx/leaders/URG/URG_Carlos_Domingo_Marx.dds"
 	}
 }

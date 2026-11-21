@@ -1,15 +1,10 @@
 ideas = {
 	country = {
-		URG_The_Legacy_of_Jose_Batlleri_Ordonez = { #何塞·巴特列·奥多涅斯的遗产
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_The_Legacy_of_Jose_Batlleri_Ordone"}
+		URG_red_and_white = { #红与白
+			picture = URG_The_Legacy_of_Jose_Batlleri_Ordonez
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_red_and_white"}
 			modifier = {
-				political_power_factor = 0.1
-			}
-		}
-		URG_state_welfare_system = { #URG_state_welfare_system
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea URG_state_welfare_system"}
-			modifier = {
-				war_support_factor = 0.2
+				stability_factor = -0.2
 			}
 		}
 	}

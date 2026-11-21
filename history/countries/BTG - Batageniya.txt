@@ -21,7 +21,7 @@ set_technology = {
 }
 
 ### 领导人 ###
-recruit_character = BTG_Antoine_III #安托万三世
+recruit_character = BTG_Regency_Council #摄政委员会
 
 add_ideas = { 
 	

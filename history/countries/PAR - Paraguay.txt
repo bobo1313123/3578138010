@@ -1,4 +1,4 @@
-﻿capital = 301
+﻿capital = 300
 oob = "PAR_1935"
 set_stability = 0.19
 set_war_support = 0.17

@@ -1,4 +1,4 @@
-﻿capital = 300
+﻿capital = 299
 load_focus_tree = generic_focus
 oob = "URG_1936"
 every_core_state = {

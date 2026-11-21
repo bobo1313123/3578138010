@@ -1,4 +1,4 @@
-﻿capital = 914
+﻿capital = 892
 
 if = {
 	limit = { has_aat = yes }

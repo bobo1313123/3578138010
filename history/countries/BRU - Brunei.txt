@@ -1,4 +1,4 @@
-﻿capital = 1023 #Brunei Town
+﻿capital = 1001 #Brunei Town
 
 # Starting tech
 set_technology = {

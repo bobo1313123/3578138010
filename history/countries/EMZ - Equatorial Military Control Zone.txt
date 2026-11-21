@@ -1,4 +1,4 @@
-﻿capital = 491
+﻿capital = 489
 oob = "EMZ_1935"
 load_focus_tree = generic_focus
 set_research_slots = 1

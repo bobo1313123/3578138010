@@ -1,4 +1,4 @@
-﻿capital = 311 #Belize
+﻿capital = 310 #Belize
 
 oob = "CHL_1936"
 

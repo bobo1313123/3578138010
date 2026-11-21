@@ -1,4 +1,4 @@
-﻿capital = 995 # Rangoon
+﻿capital = 973 # Rangoon
 
 oob = "BRM_1936"
 

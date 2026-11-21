@@ -1,4 +1,4 @@
-﻿capital = 651 #Ufa
+﻿capital = 642 #Ufa
 
 #oob = "BSK_1936"
 

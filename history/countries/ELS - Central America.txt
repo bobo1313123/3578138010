@@ -1,4 +1,4 @@
-﻿capital = 314
+﻿capital = 313
 oob = "ELS_1935"
 set_war_support = 0.3
 set_stability = 0.3

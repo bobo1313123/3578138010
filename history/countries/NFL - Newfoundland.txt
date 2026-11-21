@@ -1,4 +1,4 @@
-capital = 331 #纽芬兰
+capital = 329 #纽芬兰
 set_cosmetic_tag = NFL_England_guardian
 oob = "NFL_1935"
 set_stability = 0.60

@@ -1,4 +1,4 @@
-﻿capital = 1060
+﻿capital = 16 # Paris/Ile de France
 
 set_oob = "FRA_TFE"
 add_command_power = 20

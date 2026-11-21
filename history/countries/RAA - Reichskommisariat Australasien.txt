@@ -1,4 +1,4 @@
-capital = 979 # Kaiser-Wilhelmsland
+﻿capital = 957 # Kaiser-Wilhelmsland
 
 set_stability = 0.4
 set_war_support = 0.7

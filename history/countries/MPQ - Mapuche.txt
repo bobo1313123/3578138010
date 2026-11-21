@@ -1,4 +1,4 @@
-capital = 955
+﻿capital = 933
 oob = "MPQ_1935"
 set_stability = 0.44
 set_war_support = 0.29

@@ -1,4 +1,4 @@
-﻿capital = 900 # Benue
+﻿capital = 878 # Benue
 
 #oob = "COG_1936"
 

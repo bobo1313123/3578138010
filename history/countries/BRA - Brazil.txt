@@ -1,4 +1,4 @@
-﻿capital = 500
+﻿capital = 498
 
 load_focus_tree = generic_focus
 oob = "BRA_1936"

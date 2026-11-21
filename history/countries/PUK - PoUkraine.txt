@@ -1,4 +1,4 @@
-capital = 1489 #利沃夫
+﻿capital = 1269 #利沃夫
 oob = "PUK_1935"
 set_stability = 0.38
 set_war_support = 0.44

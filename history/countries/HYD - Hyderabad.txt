@@ -1,4 +1,4 @@
-﻿capital = 427 #海德拉巴城
+﻿capital = 425 #海德拉巴城
 oob = "HYD_1935"
 set_stability = 0.62
 set_war_support = 0.55

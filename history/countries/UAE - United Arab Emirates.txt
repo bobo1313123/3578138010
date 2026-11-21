@@ -1,4 +1,4 @@
-﻿capital = 658 # Abu Dhabi
+﻿capital = 649 # Abu Dhabi
 
 #oob = ""
 

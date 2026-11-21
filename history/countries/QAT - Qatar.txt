@@ -1,4 +1,4 @@
-﻿capital = 765 # Doha
+﻿capital = 745 # Doha
 
 #oob = ""
 

@@ -1,42 +1,84 @@
-﻿capital = 551
-oob = "SUD_1935"
-set_stability = 0.53
-set_war_support = 0.42
-set_research_slots = 2
-starting_train_buffer = 0.85
-set_fuel_ratio = 0.9
-set_convoys = 145
+﻿capital = 549
 
-### 初始科技 ###
+# Starting tech
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1	
-	tech_mountaineers = 1
-	tech_trucks = 1
-	gw_artillery = 1
-	basic_train = 1
-	gwtank_chassis = 1
-	camelry = 1
 }
 
-### 领导人 ###
-recruit_character = SUD_Abd_Rahman_Mahdi #阿卜杜勒-拉赫曼·马赫迪
+set_convoys = 20
 
-add_ideas = {
-	### 初始民族精神 ###
-	SUD_Ansar_Sect_Network #安萨教派网络
-	SUD_Olive_Branch_from_Paris #巴黎的橄榄枝
+recruit_character = SUD_coi
+recruit_character = SUD_aa2
+recruit_character = SUD_Liberalism_guy
+recruit_character = SUD_acd2
+recruit_character = SUD_acr
+recruit_character = SUD_fascist_guy
+recruit_character = SUD_stc
+recruit_character = SUD_ncs
+recruit_character = SUD_awt
+recruit_character = SUD_mt
+recruit_character = SUD_communist_guy
+recruit_character = SUD_ai2
+recruit_character = SUD_ar
+recruit_character = SUD_acas
+recruit_character = SUD_acgs
+recruit_character = SUD_ncm
+recruit_character = SUD_nt
+recruit_character = SUD_pot
+recruit_character = SUD_nccr
+recruit_character = SUD_aco2
+
+1939.1.1 = {
+	
+	#generic focuses
+	complete_national_focus = army_effort
+	complete_national_focus = equipment_effort
+	complete_national_focus = motorization_effort
+	complete_national_focus = aviation_effort
+	complete_national_focus = naval_effort
+	complete_national_focus = large_navy
+	complete_national_focus = industrial_effort
+	complete_national_focus = construction_effort
+	complete_national_focus = production_effort
+	
+	set_technology = {
+		tech_support = 1
+		tech_recon = 1
+		support_weapons = 1
+		gw_artillery = 1
+
+		#doctrines
+		
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		mechanical_computing = 1
+		computing_machine = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		construction1 = 1
+		construction2 = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
+	}
 }
 
 set_politics = {
-	ruling_party = tttt
-	last_election = "1932.1.1"
+	ruling_party = Authoritarianism
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	Conservatism = 14
-	Authoritarianism = 28
-	tttt = 43
-	fascism = 15
+	Liberalism = 25
+	fascism = 20
+	communism = 5
+	Authoritarianism = 50
 }

@@ -1,4 +1,4 @@
-﻿capital = 463 #Anchorage
+﻿capital = 461 #Anchorage
 
 oob = "CHL_1936"
 

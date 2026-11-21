@@ -1,4 +1,4 @@
-﻿capital = 475 #Chiapas
+﻿capital = 473 #Chiapas
 
 oob = "CHL_1936"
 

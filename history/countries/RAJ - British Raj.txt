@@ -1,4 +1,4 @@
-capital = 439
+﻿capital = 437
 oob = "RAJ_1935"
 set_stability = 0.6
 set_war_support = 0.1
@@ -209,7 +209,7 @@ if = {
 }
 
 every_owned_state = {
-	limit = { NOT = { state = 992 } } #province of 'Aden
+	limit = { NOT = { state = 970 } } #province of 'Aden
 	ROOT = {
 		add_to_array = { array = owned_states_at_game_start value = PREV }
 	}
@@ -244,18 +244,18 @@ if = {
 	every_owned_state = {
 		limit = {
 			NOT = {
-				state = 992
-				state = 441
-				state = 787
-				state = 442
-				state = 987
+				state = 970
+				state = 439
+				state = 767
 				state = 440
-				state = 445
-				state = 444
-				state = 1012
-				state = 432
-				state = 434
+				state = 965
+				state = 438
+				state = 443
+				state = 442
 				state = 990
+				state = 430
+				state = 432
+				state = 968
 			}
 		}
 		add_core_of = RAJ

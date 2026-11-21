@@ -1,4 +1,4 @@
-﻿capital = 902 # Sokoto
+﻿capital = 880 # Sokoto
 
 # Starting tech
 set_technology = {

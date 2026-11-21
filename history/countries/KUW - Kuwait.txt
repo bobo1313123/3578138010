@@ -1,4 +1,4 @@
-﻿capital = 656 # Kuwait City
+﻿capital = 647 # Kuwait City
 
 #oob = ""
 

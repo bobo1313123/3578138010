@@ -1,4 +1,4 @@
-capital = 1408 #布拉格
+﻿capital = 1189 #布拉格
 oob = "CZE_1935"
 set_stability = 0.39
 set_war_support = 0.23

@@ -1,5 +1,5 @@
-load_focus_tree = generic_focus
-capital = 784 #Sukhumi
+﻿load_focus_tree = generic_focus
+capital = 764 #Sukhumi
 
 #oob = "ABK_1936"
 

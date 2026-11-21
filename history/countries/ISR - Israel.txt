@@ -1,4 +1,4 @@
-﻿capital = 454
+﻿capital = 452
 oob = "ISR_1935"
 set_stability = 0.25
 set_war_support = 0.51

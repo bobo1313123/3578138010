@@ -1,4 +1,4 @@
-﻿capital = 671 #Hanoi
+﻿capital = 662 #Hanoi
 
 oob = "VIN_1936"
 

@@ -1,4 +1,4 @@
-capital = 546 # Dar-es-salam
+capital = 544 # Dar-es-salam
 
 set_stability = 0.4
 set_war_support = 0.7

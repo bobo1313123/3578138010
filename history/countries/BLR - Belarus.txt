@@ -1,4 +1,4 @@
-﻿capital = 1050 #格罗德诺
+﻿capital = 1027 #格罗德诺
 oob = "BLR_1935"
 set_stability = 0.35
 set_war_support = 0.43
@@ -38,14 +38,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 2
-	Liberalism = 1
-	Democracy = 3
-	Conservatism = 8
-	Authoritarianism = 68
-	tttt = 12
-	fascism = 6
+	Liberalism = 15
+	Authoritarianism = 60
+	communism = 20
+	fascism = 5
 }
+
+recruit_character = BLR_adam_stankievic
+recruit_character = BLR_panteleimon_ponomarenko
+recruit_character = BLR_radislau_astrouski
 
 
 

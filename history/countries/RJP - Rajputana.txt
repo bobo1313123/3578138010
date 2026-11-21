@@ -1,4 +1,4 @@
-﻿capital = 433 #Rajasthan
+﻿capital = 431 #Rajasthan
 
 
 set_research_slots = 2

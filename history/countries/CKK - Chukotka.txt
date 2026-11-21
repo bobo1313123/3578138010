@@ -1,4 +1,4 @@
-﻿capital = 822 #Anadyr
+﻿capital = 800 #Anadyr
 
 #oob = "CKK_1936"
 

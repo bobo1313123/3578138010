@@ -1,4 +1,4 @@
-capital = 439 # Delhi
+capital = 437 # Delhi
 
 set_stability = 0.4
 set_war_support = 0.7

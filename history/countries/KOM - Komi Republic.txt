@@ -1,4 +1,4 @@
-﻿capital = 397 #Syktyvkar
+﻿capital = 395 #Syktyvkar
 
 #oob = "KOM_1936"
 

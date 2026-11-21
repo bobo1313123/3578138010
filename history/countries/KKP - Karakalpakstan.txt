@@ -1,4 +1,4 @@
-﻿capital = 823 #Nukus
+﻿capital = 801 #Nukus
 
 #oob = "KKP_1936"
 

@@ -1,4 +1,4 @@
-﻿capital = 474 #Cancún, Yucatan
+﻿capital = 472 #Cancún, Yucatan
 
 oob = "MEX_1936"
 

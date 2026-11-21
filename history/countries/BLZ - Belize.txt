@@ -1,4 +1,4 @@
-﻿capital = 311 #伯利兹
+﻿capital = 310 #伯利兹
 oob = "BLZ_1935"
 set_stability = 0.3
 set_war_support = 0.3

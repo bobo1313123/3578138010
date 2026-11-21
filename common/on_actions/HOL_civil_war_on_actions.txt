@@ -50,6 +50,7 @@ on_actions = {
 	}
 
 	# on_annex: ROOT = 吞并者，FROM = 被吞并国
+	# 兜底：国家不是通过「投降→吞并」消失时，也在这里判定一次
 	on_annex = {
 		effect = {
 			if = {

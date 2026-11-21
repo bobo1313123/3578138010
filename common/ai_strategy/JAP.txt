@@ -1,4 +1,4 @@
-﻿JAP_stock_up_on_trains_before_china = {
+JAP_stock_up_on_trains_before_china = {
 	allowed = {
 		original_tag = JAP
 	}
@@ -440,12 +440,12 @@ JAP_philippines_and_garrison = {
 
 		# states to put garrison orders (if no state is friendly, strat is invalid)
 		states = {
-			614
-			325
-			615
-			616
-			619
-			618
+			623
+			327
+			624
+			625
+			628
+			627
 		}
 
 		# ai areas that the orders will use these buffers in
@@ -1189,7 +1189,7 @@ jap_invasions_of_gxc_are_super_tough_and_waste_manpower_unless_its_hainan = {
 
 	ai_strategy = {
 	    type = invasion_unit_request
-	    state = 589
+	    state = 591
 	    value = 350
 	}
 }
@@ -1398,16 +1398,16 @@ JAP_unit_buffer_for_home_islands_invasion_force = {
 
 		# states to put garrison orders (if no state is friendly, strat is invalid)
 		states = {
-			526
-			527
 			528
 			529
 			530
-			533
-			532
-			282
 			531
+			532
+			535
 			534
+			282
+			533
+			536
 		}
 
 		# ai areas that the orders will use these buffers in
@@ -1489,8 +1489,8 @@ JAP_invade_andaman = {
 		 has_country_flag = agreed_to_help_bose
 		 NOT = {
 		 	OR = {
-		 		has_full_control_of_state = 722
-		 		RAJ = { has_full_control_of_state = 722 }
+		 		has_full_control_of_state = 733
+		 		RAJ = { has_full_control_of_state = 733 }
 		 	}
 		 }	
 	}
@@ -1517,7 +1517,7 @@ JAP_invade_andaman = {
 		#order_id = 2
 
 		states = {
-			722
+			733
 		}
 
 		# ai areas that the orders will use these buffers in
@@ -1563,7 +1563,7 @@ JAP_get_the_rubber_islands = {
 
 	ai_strategy = {
 	    type = invasion_unit_request
-	    state = 334
+	    state = 336
 	    value = 350
 	}
 	ai_strategy = {
@@ -1593,13 +1593,13 @@ JAP_invade_burma = {
 
 	ai_strategy = {
 	    type = invasion_unit_request
-	    state = 429
+	    state = 431
 	    value = 120
 	}
 
 	ai_strategy = {
 	    type = invasion_unit_request
-	    state = 428
+	    state = 430
 	    value = 100
 	}
 

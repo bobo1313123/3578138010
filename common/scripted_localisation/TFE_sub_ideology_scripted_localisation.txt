@@ -82,9 +82,9 @@ defined_text = {
 	#进步主义及其子意识形态
 	text = {
 		trigger = { #德意志民主党
-			has_country_leader_ideology = German_Democratic_Party
+			has_country_leader_ideology = social_liberalism
 		}
-		localization_key = German_Democratic_Party
+		localization_key = social_liberalism
 	}
 	text = {
 		trigger = { #进步主义
@@ -214,6 +214,12 @@ defined_text = {
 		localization_key = Conservatism_small
 	}
 	text = {
+		trigger = { #基督教民主主义
+			has_country_leader_ideology = christian_democracy
+		}
+		localization_key = christian_democracy
+	}
+	text = {
 		trigger = { #右翼保守主义
 			has_country_leader_ideology = Right_wing_conservatism
 		}
@@ -232,6 +238,12 @@ defined_text = {
 			
 		}
 		localization_key = authoritarianism_small
+	}
+	text = {
+		trigger = { #威权保守主义
+			has_country_leader_ideology = authoritarian_conservatism
+		}
+		localization_key = authoritarian_conservatism
 	}
 	text = {
 		trigger = { #袁世凯主义

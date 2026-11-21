@@ -43,7 +43,6 @@ NRO_RUS_Puppet = {
 	color = rgb { 35 108 41 }
 	color_ui = rgb { 35 108 41 }
 }
-
 #尼日尔南岸联邦
 NGA_South_niger = {
 	color = rgb { 237 145 33 }
@@ -226,6 +225,6 @@ HOL_KINGDOM = {
 	color_ui = rgb { 203 138 74 }
 }
 ARG_puppet_URG = {
-	color = rgb { 30 102 163 }
-	color_ui = rgb { 39 60 96 }
+	color = rgb { 50 64 90 }
+	color_ui = rgb { 189 204 255 }
 }

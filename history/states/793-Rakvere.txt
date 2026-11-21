@@ -7,21 +7,19 @@ state={
 		owner = BAT
 		add_core_of = BAT
 		add_core_of = EST
-		victory_points = {
-			4640 3 #Narva
-		}
-		victory_points = {
-			11127 3 #Rakvere
-		}
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
+			industrial_complex = 1
 			4640 = {
 				naval_base = 1
-
 			}
-
 		}
-
+		victory_points = {
+			4640 3
+		}
+		victory_points = {
+			11127 3
+		}
 	}
 
 	provinces={

@@ -114,7 +114,6 @@ on_actions = {
 			1056 = { set_state_flag = ROC_flag_Fujian }
 			1056 = { set_state_flag = ROC_flag_Fujian }
 			1056 = { set_state_flag = ROC_flag_Fujian }
-			1288 = { set_state_flag = ROC_flag_Fujian }
 
 			#浙江
 			594 = { set_state_flag = ROC_flag_Zhejiang }

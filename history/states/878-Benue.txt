@@ -1,23 +1,26 @@
 state = {
 	id = 878
 	name = "STATE_878"
-	manpower = 1163674
+	manpower = 1363674
 	state_category = pastoral 
+	resources = {
+		steel = 8
+		coal = 6
+		oil = 12
+		tungsten = 4
+		chromium = 6
+	}
 
 	history = {
-
 		owner = FWA
 		add_core_of = NGA
-		victory_points = {
-			8034 5 # Enugu
-		}
-
-
-
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
-
+		victory_points = {
+			8034 5
+		}
 	}
 
 	provinces = {

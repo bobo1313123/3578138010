@@ -1,4 +1,4 @@
-﻿GER_unit_production = {
+GER_unit_production = {
 	allowed = {
 		original_tag = GER
 	}
@@ -3243,13 +3243,13 @@ GER_blitz_france = {
 	ai_strategy = {
 		type = force_concentration_target_weight
 		state = 29 # Nord-Pas_de_Calais
-		state = 765 # Picardy
+		state = 785 # Picardy
 		state = 16 # Ile de France
 		state = 15 # Normandy
 		# include Belgium as well even though we hopefully have already taken it
 		state = 6 # Vlaanderen
 		state = 34 # Wallonie
-		state = 955 # Antwerpen
+		state = 977 # Antwerpen
 
 		value = 80 # +80%
 	}
@@ -3468,7 +3468,7 @@ GER_normandy_buffer = {
 			14
 			15
 			29
-			724
+			735
 			22
 		}
 		ratio = 0.11

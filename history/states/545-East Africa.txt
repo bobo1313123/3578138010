@@ -8,16 +8,14 @@ state={
 	history={
 		owner = KEN
 		add_core_of = KEN
-		victory_points = {
-			1939 10
-		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			
+			arms_factory = 1
 		}
-		
-
+		victory_points = {
+			1939 10
+		}
 	}
 
 	provinces={

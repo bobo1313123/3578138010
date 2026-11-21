@@ -1,4 +1,4 @@
-﻿ideas = {
+ideas = {
 
 
 	economy = {
@@ -565,6 +565,61 @@
 						ratio > 0.5
 					}
 				}
+
+				IF = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Death or Dishonor"
+						NOT = {
+							has_dlc = "Gotterdammerung"
+						}
+					}
+					IF = {
+						limit = {
+							has_dlc = "Arms Against Tyranny"
+						}
+						NOT = { has_idea = HUN_treaty_of_triannon_aat }
+					}
+					ELSE = {
+						NOT = { has_idea = HUN_treaty_of_triannon }
+					}
+				}
+				ELSE_IF = {
+					limit = {
+						original_tag = HUN
+						has_dlc = "Gotterdammerung"
+					}
+					IF = {
+						limit = {
+							has_dlc = "Arms Against Tyranny"
+						}
+						custom_trigger_tooltip = {
+							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
+							NOT = { 
+								OR = {
+									has_idea = HUN_treaty_of_triannon_aat_wuw 
+									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_debuff 
+									has_idea = HUN_treaty_of_triannon_aat_wuw_no_army_exp_debuff 
+									has_idea = HUN_treaty_of_triannon_aat_wuw_no_air_or_army_debuff 
+								}
+							}
+							
+						}		
+					}
+					ELSE = {
+						custom_trigger_tooltip = {
+							tooltip = wuw_HUN_not_has_trianon_for_laws_tt
+							NOT = { 
+								OR = {
+									has_idea = HUN_treaty_of_triannon_wuw 
+									has_idea = HUN_treaty_of_triannon_wuw_no_army_exp_debuff 
+									has_idea = HUN_treaty_of_triannon_wuw_no_air_debuff 
+									has_idea = HUN_treaty_of_triannon_wuw_no_air_or_army_debuff 
+								}
+							}
+						}
+					}
+				}
 				
 				if = {
 					limit = {
@@ -787,12 +842,12 @@
 					has_completed_focus = POL_expand_gdynia_seaport
 					NOT = {
 						owns_state = 85
-						owns_state = 787
+						owns_state = 807
 					}
 					any_owned_state = {
 						NOT = {
 							state = 85
-							state = 787
+							state = 807
 						}
 						is_coastal = yes
 					}
@@ -986,6 +1041,21 @@
 							has_idea = tot_economic_mobilisation
 						}
 					}
+				}
+
+				if = {
+					limit = {
+						original_tag = CHI
+						has_dlc = "Waking the Tiger"
+					}
+					NOT = { has_idea = CHI_nine_power_treaty }
+				}
+				if = {
+					limit = {
+						original_tag = SPR
+						has_dlc = "La Resistance"
+					}
+					NOT = { has_completed_focus = SPR_all_must_bear_the_torch }
 				}
 			}
 

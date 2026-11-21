@@ -7,11 +7,12 @@ state={
 		owner = BAT
 		add_core_of = BAT
 		add_core_of = EST
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 		victory_points = {
 			185 3
-		}
-		buildings = {
-			infrastructure = 1
 		}
 	}
 

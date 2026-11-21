@@ -11,13 +11,12 @@ state={
 			9221 5
 		}
 		victory_points = {
-			592 3 #Voru
+			592 3
 		}
 		buildings = {
-			infrastructure = 3 #was: 5
-
+			infrastructure = 3
+			industrial_complex = 1
 		}
-
 	}
 
 	provinces={

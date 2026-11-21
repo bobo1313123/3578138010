@@ -1,7 +1,7 @@
 state = {
 	id = 1056
 	name = "STATE_1056"
-	manpower = 1934378
+	manpower = 4421716
 	state_category = rural
 	history = {
 		owner = FUJ
@@ -9,12 +9,25 @@ state = {
 		add_core_of = PRC
 		add_core_of = CHI
 		add_extra_state_shared_building_slots = 3
+		buildings = {
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
 		victory_points = {
 			1006 5
 		}
+		victory_points = {
+			7071 3
+		}
+		victory_points = {
+			10010 3
+		}
 	}
 	provinces = {
-		1006 4053 7099
+		1006 4053 7071 7099 7131 10010 10054 10093 12084
 	}
 	local_supplies = 7
 }

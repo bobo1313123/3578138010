@@ -1,4 +1,4 @@
-﻿capital = 545
+capital = 545
 oob = "KEN_1935"
 set_stability = 0.21
 set_war_support = 0.23
@@ -43,4 +43,5 @@ set_popularities = {
 	tttt = 15
 	fascism = 8
 }
+
 

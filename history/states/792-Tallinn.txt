@@ -7,21 +7,18 @@ state={
 		owner = BAT
 		add_core_of = BAT
 		add_core_of = EST
-		victory_points = {
-			3152 15
-		}
 		buildings = {
-			infrastructure = 3 #was: 5
-			arms_factory = 1
+			infrastructure = 3
+			arms_factory = 2
 			industrial_complex = 3
 			3152 = {
 				naval_base = 3
 				coastal_bunker = 1
-
 			}
-
 		}
-
+		victory_points = {
+			3152 15
+		}
 	}
 
 	provinces={

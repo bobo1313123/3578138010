@@ -1,22 +1,22 @@
 state = {
 	id = 880
 	name = "STATE_880"
-	manpower = 332479
+	manpower = 1432479
 	state_category = pastoral
+	resources = {
+		chromium = 8
+	}
 
 	history = {
-
 		owner = FWA
 		add_core_of = NGA
-		victory_points = {
-			1891 3 # Sokoto
-		}
-
+		#add_core_of = SOK
 		buildings = {
 			infrastructure = 1
 		}
-
-
+		victory_points = {
+			1891 3 #索科托
+		}
 	}
 
 	provinces = {

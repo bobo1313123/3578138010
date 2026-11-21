@@ -1,9 +1,12 @@
 state={
-	id = 865
+	id=865
 	name="STATE_865"
-
-	manpower = 302020
+	manpower = 422020
 	state_category = wasteland
+	resources = {
+		steel = 6
+		chromium = 5
+	}
 	
 	history = {
 		owner = FWA
@@ -11,7 +14,6 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-
 	}
 
 	provinces={

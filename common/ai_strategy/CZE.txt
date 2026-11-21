@@ -395,7 +395,7 @@ CZE_tank_export = { #TONKS
 		}
 		has_war = no
 		controls_state = 69 #Sudetenland
-		controls_state = 950 #Southern Sudetenland
+		controls_state = 972 #Southern Sudetenland
 	}
 	abort_when_not_enabled = yes
 

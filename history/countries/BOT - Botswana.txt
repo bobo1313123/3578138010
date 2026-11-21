@@ -1,7 +1,5 @@
-﻿capital = 540
-
+capital = 540
 oob = "BOT_1935"
-
 set_stability = 0.12
 set_war_support = 0.24
 starting_train_buffer = 0.65
@@ -40,4 +38,3 @@ set_popularities = {
 	tttt = 51
 	fascism = 12
 }
-

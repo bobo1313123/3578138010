@@ -3,9 +3,9 @@ oob = "SYR_1935"
 set_stability = 0.58
 set_war_support = 0.46
 set_research_slots = 2
-set_convoys = 84
 starting_train_buffer = 0.85
 set_fuel_ratio = 0.9
+set_convoys = 84
 set_cosmetic_tag = SYR_Kingdom #叙利亚王国
 
 country_lock_all_division_template = yes
@@ -26,6 +26,7 @@ set_technology = {
 recruit_character = SYR_Ghazi_Ibn_Faisal #加齐·伊本·费萨尔
 
 add_ideas = {
+	### 初始民族精神 ###
 	SYR_Feudal_society #封建社会
 	SYR_National_Revolutionary_Army #民族革命军
 	SYR_Beneath_Prison_Cage #囚笼之下

@@ -5,7 +5,7 @@ characters = {
         name = BRB_Getulio_Vargas
         portraits = {
             civilian = {
-                large = GFX_leader_BRB_Getulio_Vargas
+                large = GFX_BRB_Getulio_Vargas_large
             }
         }
         country_leader = {

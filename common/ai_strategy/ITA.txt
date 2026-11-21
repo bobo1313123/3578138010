@@ -1,4 +1,4 @@
-﻿ITA_unit_production = {
+ITA_unit_production = {
 
 	allowed = {	original_tag = ITA }
 	enable = {
@@ -275,7 +275,7 @@ ITA_shore_up_against_france = {
 
 		# savoy piedmont
 		state = 158
-		state = 724
+		state = 735
 
 		value = 10
 	}
@@ -1084,7 +1084,7 @@ ITA_prepare_ethiopian_theatre = {
 	ai_strategy = {
 		type = put_unit_buffers
 		states = {
-			822
+			844
 		}
 		ratio = 0.2
 
@@ -1134,7 +1134,7 @@ ITA_attack_north = {
 	ai_strategy = {
 		type = front_control
 
-		state = 819 # assault Begemder
+		state = 841 # assault Begemder
 
 		ratio = 0.2
 
@@ -1159,7 +1159,7 @@ ITA_attack_south = {
 	ai_strategy = {
 		type = front_control
 
-		state = 815 # assault Sidamo
+		state = 837 # assault Sidamo
 
 		ratio = 0.2
 
@@ -1209,7 +1209,7 @@ ITA_attack_harar = {
 	ai_strategy = {
 		type = front_control
 
-		state = 813 # assault Hararghe
+		state = 835 # assault Hararghe
 
 		ratio = 0.2
 

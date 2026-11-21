@@ -1,5 +1,5 @@
 state={
-	id=10
+	id = 10
 	name="STATE_10"
 	resources={
 		steel = 13
@@ -24,7 +24,7 @@ state={
 		467 3482 3544 6511 9400 11492
 	}
 
-	manpower = 2044500
+	manpower = 1903561
 	state_category = large_city
 	local_supplies=7.0 
 }

@@ -1,8 +1,8 @@
 
 state={
-	id=29
+	id = 29
 	name="STATE_29"
-	manpower = 2976400
+	manpower = 1564649
 	
 	state_category = large_city
 	resources={
@@ -20,9 +20,6 @@ state={
 			infrastructure = 4
 			industrial_complex = 3
 			air_base = 10
-			575 = {
-				naval_base = 6
-			}
 		}
 		add_core_of = FRA
 		1939.1.1 = {
@@ -33,7 +30,7 @@ state={
 	}
 
 	provinces={
-		11548 13514 13513 13515 13519 13507 13508 13509 6504 3536
+		11548 13425 13424 13426 13430 13418 13419 13420 6504 3536
 	}
 
 	local_supplies=15.0 

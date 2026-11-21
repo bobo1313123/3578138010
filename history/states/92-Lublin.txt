@@ -1,5 +1,5 @@
 state={
-	id=92
+	id = 92
 	name="STATE_92"
 	resources = {
 		steel = 22
@@ -24,7 +24,7 @@ state={
 		3521 3559 6484 9521 9544 11399 11466 
 	}
 
-	manpower=1464600
+	manpower=1825999
 	buildings_max_level_factor=1.000
 	state_category=town
 

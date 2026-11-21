@@ -1,5 +1,5 @@
 state={
-	id=175
+	id = 175
 	name="STATE_175"
 
 	history={

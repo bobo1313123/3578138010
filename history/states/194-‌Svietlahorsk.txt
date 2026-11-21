@@ -1,6 +1,6 @@
 
 state={
-	id=194
+	id = 194
 	name="STATE_194"
 
 	history={
@@ -19,7 +19,7 @@ state={
 	provinces={
 		215 3203 3293 6319
 	}
-	manpower = 534632
+	manpower = 364031
 	buildings_max_level_factor=1.000
 	state_category = town
 

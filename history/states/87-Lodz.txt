@@ -1,5 +1,5 @@
 state={
-	id=87
+	id = 87
 	name="STATE_87"
 	resources={
 		steel = 18
@@ -22,6 +22,6 @@ state={
 	}
 
 	state_category = town
-	manpower = 2632000
+	manpower = 3232827
 	local_supplies=0.0 
 }

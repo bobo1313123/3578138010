@@ -1,5 +1,5 @@
 state={
-	id=88
+	id = 88
 	name="STATE_88"
 	resources={
 		oil = 11
@@ -23,7 +23,7 @@ state={
 		442 6499 11507 6522
 	}
 
-	manpower=182366
+	manpower=1084582
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=4.0 

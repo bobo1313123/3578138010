@@ -26,6 +26,7 @@ set_technology = {
 recruit_character = SYR_Ghazi_Ibn_Faisal #加齐·伊本·费萨尔
 
 add_ideas = {
+	### 初始民族精神 ###
 	SYR_Feudal_society #封建社会
 	SYR_National_Revolutionary_Army #民族革命军
 	SYR_Beneath_Prison_Cage #囚笼之下

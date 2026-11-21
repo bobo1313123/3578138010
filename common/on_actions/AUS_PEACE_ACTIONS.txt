@@ -1,4 +1,4 @@
-on_actions = {
+﻿on_actions = {
 	#奥地利黑线北上进攻德意志
 	on_capitulation = {
 		effect =  {
@@ -95,10 +95,10 @@ on_actions = {
 					
 					}
 					GER = {
-						transfer_state = 763
-						transfer_state = 1017
+						transfer_state = 743
+						transfer_state = 995
 						transfer_state = 5
-						transfer_state = 1019
+						transfer_state = 997
 						transfer_state = 188
 					}
 					BAY = {
@@ -115,7 +115,7 @@ on_actions = {
 					HAN = {
 						transfer_state = 56
 						transfer_state = 57
-						transfer_state = 1022
+						transfer_state = 1000
 						transfer_state = 59
 						set_cosmetic_tag = AUS_POPCOLOR
 					}
@@ -128,7 +128,7 @@ on_actions = {
 						set_cosmetic_tag = AUS_POPCOLOR
 					}
 					SHL = {
-						transfer_state = 909
+						transfer_state = 887
 						transfer_state = 58
 						set_cosmetic_tag = DEN_POPCOLOR
 					}

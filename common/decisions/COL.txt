@@ -1,34 +1,34 @@
-debug_decisions = {
+﻿debug_decisions = {
 	COL_Colombian_Civil_War = { #哥伦比亚内战测试
 		complete_effect = {
 		hidden_effect = {
 			BOL = {
-				transfer_state = 491
+				transfer_state = 489
 			}
 			ECU = {
 				set_cosmetic_tag = ECU_CCW
-				transfer_state = 305
-				transfer_state = 490 
+				transfer_state = 304
+				transfer_state = 488 
 			}
 			MIS = {
-				transfer_state = 1433
-				transfer_state = 1434
+				transfer_state = 1211
+				transfer_state = 1212
 			}
 			INC = {
-				transfer_state = 1435
-				transfer_state = 1438
+				transfer_state = 1213
+				transfer_state = 1216
 			}
 			MAY = {
-				transfer_state = 1436
+				transfer_state = 1214
 			}
 			ITZ = {
-				transfer_state = 304
+				transfer_state = 303
 			}
 			RIG = {
-				transfer_state = 1431
+				transfer_state = 1209
 			}
 			WLA = {
-				transfer_state = 488
+				transfer_state = 486
 			}
 			COL = {
 				set_popularities = {
@@ -107,8 +107,8 @@ COL_Colombian_Civil_War = { # 哥伦比亚内战
         timeout_effect = {
             ECU = {
                 set_cosmetic_tag = ECU_CCW
-                transfer_state = 305
-                transfer_state = 490
+                transfer_state = 304
+                transfer_state = 488
                 inherit_technology = COL
             }
 
@@ -127,8 +127,8 @@ COL_Colombian_Civil_War = { # 哥伦比亚内战
 
         timeout_effect = {
             MIS = {
-                transfer_state = 1433
-                transfer_state = 1434
+                transfer_state = 1211
+                transfer_state = 1212
                 inherit_technology = COL
                 every_owned_state = {
                     add_core_of = MIS
@@ -150,7 +150,7 @@ COL_Colombian_Civil_War = { # 哥伦比亚内战
         }
         timeout_effect = {
             BOL = {
-                transfer_state = 491
+                transfer_state = 489
                 inherit_technology = COL
                 every_owned_state = {
                     add_core_of = BOL
@@ -172,7 +172,7 @@ COL_Colombian_Civil_War = { # 哥伦比亚内战
         }
         timeout_effect = {
             MAY = {
-                transfer_state = 1436
+                transfer_state = 1214
                 inherit_technology = COL
                 every_owned_state = {
                     add_core_of = MAY
@@ -194,7 +194,7 @@ COL_Colombian_Civil_War = { # 哥伦比亚内战
 
         timeout_effect = {
             RIG = {
-                transfer_state = 1431
+                transfer_state = 1209
                 inherit_technology = COL
                 every_owned_state = {
                     add_core_of = RIG
@@ -216,7 +216,7 @@ COL_Colombian_Civil_War = { # 哥伦比亚内战
 
         timeout_effect = {
             WLA = {
-                transfer_state = 488
+                transfer_state = 486
                 inherit_technology = COL
                 every_owned_state = {
                     add_core_of = WLA
@@ -238,8 +238,8 @@ COL_Colombian_Civil_War = { # 哥伦比亚内战
 
         timeout_effect = {
             INC = {
-                transfer_state = 1435
-                transfer_state = 1438
+                transfer_state = 1213
+                transfer_state = 1216
                 inherit_technology = COL
                 every_owned_state = {
                     add_core_of = INC
@@ -261,7 +261,7 @@ COL_Colombian_Civil_War = { # 哥伦比亚内战
 
         timeout_effect = {
             ITZ = {
-                transfer_state = 304
+                transfer_state = 303
                 inherit_technology = COL
                 every_owned_state = {
                     add_core_of = ITZ

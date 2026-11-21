@@ -1,4 +1,4 @@
-add_namespace = GER_TVE_EVENT
+﻿add_namespace = GER_TVE_EVENT
 add_namespace = germany
 add_namespace = germany_news
 country_event = { #一夜
@@ -180,7 +180,7 @@ country_event = {
 		}
 		GER ={
 			set_capital = {
-				state = 1049
+				state = 1026
 			} 
 		}
 		
@@ -188,22 +188,22 @@ country_event = {
 		52 = { set_demilitarized_zone = yes }
 		53 = { set_demilitarized_zone = yes }
 		50 = { set_demilitarized_zone = yes }
-		978 = { set_demilitarized_zone = yes }
+		956 = { set_demilitarized_zone = yes }
 		42 = { set_demilitarized_zone = yes }
 		51 = { set_demilitarized_zone = yes }
-		1022 = { set_demilitarized_zone = yes }
-		1021 = { set_demilitarized_zone = yes }
+		1000 = { set_demilitarized_zone = yes }
+		999 = { set_demilitarized_zone = yes }
 		56 = { set_demilitarized_zone = yes }
 		55 = { set_demilitarized_zone = yes }
 		57 = { set_demilitarized_zone = yes }
 		59 = { set_demilitarized_zone = yes }
-		763 = { set_demilitarized_zone = yes }
-		1017 = { set_demilitarized_zone = yes }
-		1019 = { set_demilitarized_zone = yes }
+		743 = { set_demilitarized_zone = yes }
+		995 = { set_demilitarized_zone = yes }
+		997 = { set_demilitarized_zone = yes }
 		5 = { set_demilitarized_zone = yes }
 		188 = { set_demilitarized_zone = yes }
 		67 = { set_demilitarized_zone = yes }
-		909 = { set_demilitarized_zone = yes }
+		887 = { set_demilitarized_zone = yes }
 		58 = { set_demilitarized_zone = yes }
 		
 	}
@@ -225,13 +225,13 @@ country_event = {
 		}
 		54 = { set_demilitarized_zone = no }
 		50 = { set_demilitarized_zone = no }
-		978 = { set_demilitarized_zone = no }
+		956 = { set_demilitarized_zone = no }
 		BAY = {
 			transfer_state = 53
 			transfer_state = 52
 			transfer_state = 50
 			transfer_state = 54
-			transfer_state = 978
+			transfer_state = 956
 			load_oob = BAY_CIVIL
 		}
 	}
@@ -252,25 +252,25 @@ country_event = {
 		}
 		42 = { set_demilitarized_zone = no }
 		51 = { set_demilitarized_zone = no }
-		1022 = { set_demilitarized_zone = no }
-		1021 = { set_demilitarized_zone = no }
+		1000 = { set_demilitarized_zone = no }
+		999 = { set_demilitarized_zone = no }
 		55 = { set_demilitarized_zone = no }
 		57 = { set_demilitarized_zone = no }
 		56 = { set_demilitarized_zone = no }
-		909 = { set_demilitarized_zone = no }
+		887 = { set_demilitarized_zone = no }
 		58 = { set_demilitarized_zone = no }
 		SPT = {
 			transfer_state = 42
 			transfer_state = 51
-			transfer_state = 1022
-			transfer_state = 1021
+			transfer_state = 1000
+			transfer_state = 999
 			transfer_state = 55
 			transfer_state = 57
 			transfer_state = 56
 			load_oob = SPT_CIVIL
 		}
 		SHL = {
-			transfer_state = 909
+			transfer_state = 887
 			transfer_state = 58
 			set_cosmetic_tag = SHL_RED
 			set_politics = { ruling_party = Socialism }
@@ -316,15 +316,15 @@ country_event = {
 			hours = 24
 		}
 		188 = { set_demilitarized_zone = no }
-		763 = { set_demilitarized_zone = no }
-		1017 = { set_demilitarized_zone = no }
+		743 = { set_demilitarized_zone = no }
+		995 = { set_demilitarized_zone = no }
 		5 = { set_demilitarized_zone = no }
-		1019 = { set_demilitarized_zone = no }
+		997 = { set_demilitarized_zone = no }
 		FRE = {
 			transfer_state = 5
-			transfer_state = 1019
-			transfer_state = 763
-			transfer_state = 1017
+			transfer_state = 997
+			transfer_state = 743
+			transfer_state = 995
 		}
 		PBR = {
 			transfer_state = 188

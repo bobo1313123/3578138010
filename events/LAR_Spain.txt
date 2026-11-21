@@ -527,10 +527,10 @@ country_event = {
 					limit = {
 						check_variable = { var = SPA_garrison_control value = 1 compare = equals }
 						NOT = {
-							state = 290
-							state = 699
-							state = 783
-							state = 297
+							state = 289
+							state = 690
+							state = 763
+							state = 296
 						}
 					}
 					# Transfer states and set flag to prepare for post-Civil War de-coring
@@ -806,8 +806,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -842,8 +842,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -878,8 +878,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -914,8 +914,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -950,8 +950,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -986,8 +986,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -1029,8 +1029,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -1065,8 +1065,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -1101,8 +1101,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -1137,8 +1137,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -1326,8 +1326,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -1362,8 +1362,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -1398,8 +1398,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -1441,8 +1441,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -1477,8 +1477,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -1740,8 +1740,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -1791,8 +1791,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -1842,8 +1842,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -1893,8 +1893,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -1944,8 +1944,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -2014,8 +2014,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -2051,8 +2051,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -2088,8 +2088,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -2125,8 +2125,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -2162,8 +2162,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -2434,8 +2434,8 @@ country_event = {
 						has_country_flag = SPA_the_army_of_africa_flag
 					}
 					SPA = {
-						transfer_state = 290
-						290 = { set_state_flag = SPR_sided_with_nationalists_flag }
+						transfer_state = 289
+						289 = { set_state_flag = SPR_sided_with_nationalists_flag }
 						division_template = {
 							name = "División del Ejército de África"
 							template_counter = 4
@@ -2630,10 +2630,10 @@ country_event = {
 					limit = {
 						check_variable = { var = SPA_garrison_control value = 1 compare = equals }
 						NOT = {
-							state = 290
-							state = 699
-							state = 783
-							state = 297
+							state = 289
+							state = 690
+							state = 763
+							state = 296
 						}
 					}
 					create_unit = {
@@ -2907,8 +2907,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -2944,8 +2944,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -2981,8 +2981,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3018,8 +3018,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3055,8 +3055,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3092,8 +3092,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3136,8 +3136,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -3173,8 +3173,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -3210,8 +3210,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -3247,8 +3247,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -3437,8 +3437,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3473,8 +3473,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3509,8 +3509,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3552,8 +3552,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -3588,8 +3588,8 @@ country_event = {
 										}
 									}
 									NOT = {
-										state = 790
-										state = 792
+										state = 770
+										state = 772
 									}
 								}
 							}
@@ -3852,8 +3852,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3889,8 +3889,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3926,8 +3926,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -3963,8 +3963,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -4000,8 +4000,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -4055,8 +4055,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -4092,8 +4092,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -4129,8 +4129,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -4166,8 +4166,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -4203,8 +4203,8 @@ country_event = {
 									}
 								}
 								NOT = {
-									state = 790
-									state = 792
+									state = 770
+									state = 772
 								}
 							}
 						}
@@ -5291,9 +5291,9 @@ country_event = {
 							NOT = { state = 172 }
 							NOT = { state = 174 }
 							NOT = { state = 176 }
-							NOT = { state = 788 }
-							NOT = { state = 789 }
-							NOT = { state = 791 }
+							NOT = { state = 768 }
+							NOT = { state = 769 }
+							NOT = { state = 771 }
 							check_variable = { var = SPA_garrison_control value = 2 compare = greater_than_or_equals }
 						}
 						any_owned_state = {
@@ -5329,9 +5329,9 @@ country_event = {
 							state = 172
 							state = 174
 							state = 176
-							state = 788
-							state = 789
-							state = 791
+							state = 768
+							state = 769
+							state = 771
 						}
 						check_variable = { var = SPA_garrison_control value = 4 compare = less_than }
 					}
@@ -5375,13 +5375,13 @@ country_event = {
 						state = 174
 						state = 175
 						state = 176
-						state = 788
-						state = 789
-						state = 790
-						state = 791
-						state = 792
-						state = 793
-						state = 794
+						state = 768
+						state = 769
+						state = 770
+						state = 771
+						state = 772
+						state = 773
+						state = 774
 					}
 				}
 				set_state_flag = SPR_unplanned_offensive_flag
@@ -5417,13 +5417,13 @@ country_event = {
 						state = 174
 						state = 175
 						state = 176
-						state = 788
-						state = 789
-						state = 790
-						state = 791
-						state = 792
-						state = 793
-						state = 794
+						state = 768
+						state = 769
+						state = 770
+						state = 771
+						state = 772
+						state = 773
+						state = 774
 					}
 				}
 				add_dynamic_modifier = {
@@ -5490,10 +5490,10 @@ country_event = {
 				if = {
 					limit = {
 						num_of_controlled_states > 10
-						controls_state = 791
+						controls_state = 771
 					}
 					SPB = {
-						transfer_state = 791
+						transfer_state = 771
 					}
 				}
 				if = {
@@ -5527,7 +5527,7 @@ country_event = {
 									state = 172
 									state = 174
 									state = 176
-									state = 791
+									state = 771
 								}
 							}
 							has_state_flag = SPR_core_of_spain_flag
@@ -5546,7 +5546,7 @@ country_event = {
 									state = 172
 									state = 174
 									state = 176
-									state = 791
+									state = 771
 								}
 							}
 							has_state_flag = SPR_core_of_spain_flag
@@ -5616,7 +5616,7 @@ country_event = {
 						OR = {
 							controls_state = 171
 							controls_state = 174
-							controls_state = 791
+							controls_state = 771
 						}
 					}
 					random_state = {
@@ -5624,7 +5624,7 @@ country_event = {
 							OR = {
 								state = 171
 								state = 174
-								state = 791
+								state = 771
 							}
 							has_state_flag = SPR_core_of_spain_flag
 							is_controlled_by = ROOT
@@ -5659,7 +5659,7 @@ country_event = {
 					OR = {
 						controls_state = 171
 						controls_state = 174
-						controls_state = 791
+						controls_state = 771
 					}
 				}
 				random_state = {
@@ -5667,7 +5667,7 @@ country_event = {
 						OR = {
 							state = 171
 							state = 174
-							state = 791
+							state = 771
 						}
 						has_state_flag = SPR_core_of_spain_flag
 						is_controlled_by = ROOT
@@ -5683,7 +5683,7 @@ country_event = {
 						OR = {
 							controls_state = 171
 							controls_state = 174
-							controls_state = 791
+							controls_state = 771
 						}
 					}
 					random_state = {
@@ -5691,7 +5691,7 @@ country_event = {
 							OR = {
 								state = 171
 								state = 174
-								state = 791
+								state = 771
 							}
 							has_state_flag = SPR_core_of_spain_flag
 							is_controlled_by = ROOT
@@ -5724,7 +5724,7 @@ country_event = {
 						controls_state = 176
 						controls_state = 171
 						controls_state = 174
-						controls_state = 791
+						controls_state = 771
 					}
 				}
 				random_state = {
@@ -5821,7 +5821,7 @@ country_event = {
 				if = {
 					limit = {
 						NOT = {
-							owns_state = 791
+							owns_state = 771
 							owns_state = 174
 							owns_state = 171
 						}
@@ -6810,7 +6810,7 @@ country_event = {
 				limit = {
 					OR = {
 						controls_state = 165
-						controls_state = 794
+						controls_state = 774
 						controls_state = 166
 					}
 				}
@@ -6818,7 +6818,7 @@ country_event = {
 					limit = {
 						OR = {
 							state = 165
-							state = 794
+							state = 774
 							state = 166
 						}
 						is_capital = no
@@ -6834,7 +6834,7 @@ country_event = {
 							NOT = {
 								AND = {
 									controls_state = 165
-									controls_state = 794
+									controls_state = 774
 									controls_state = 166
 								}
 							}
@@ -6848,7 +6848,7 @@ country_event = {
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									state = 166
 								}
 								is_owned_by = SPC
@@ -6875,7 +6875,7 @@ country_event = {
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									state = 166
 									state = 167
 								}
@@ -6893,7 +6893,7 @@ country_event = {
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									state = 166
 									state = 167
 								}
@@ -7626,14 +7626,14 @@ country_event = {
 			if = {
 				limit = {
 					controls_state = 165
-					controls_state = 794
+					controls_state = 774
 				}
 				set_capital = { state = 165 }
 				every_state = {
 					limit = {
 						OR = {
 							state = 165
-							state = 794
+							state = 774
 							state = 166
 						}
 						is_controlled_by = ROOT
@@ -7647,7 +7647,7 @@ country_event = {
 					random_state = {
 						limit = {
 							NOT = { state = 165 }
-							NOT = { state = 794 }
+							NOT = { state = 774 }
 							NOT = { state = 166 }
 							NOT = { state = 41 }
 							is_controlled_by = ROOT
@@ -7655,7 +7655,7 @@ country_event = {
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									has_state_flag = SPR_anarchist_state_flag
 								}
 							}
@@ -7670,7 +7670,7 @@ country_event = {
 					random_state = {
 						limit = {
 							NOT = { state = 165 }
-							NOT = { state = 794 }
+							NOT = { state = 774 }
 							NOT = { state = 166 }
 							NOT = { state = 41 }
 							is_controlled_by = ROOT
@@ -7678,7 +7678,7 @@ country_event = {
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									has_state_flag = SPR_anarchist_state_flag
 								}
 							}
@@ -7693,7 +7693,7 @@ country_event = {
 					random_state = {
 						limit = {
 							NOT = { state = 165 }
-							NOT = { state = 794 }
+							NOT = { state = 774 }
 							NOT = { state = 166 }
 							NOT = { state = 41 }
 							is_controlled_by = ROOT
@@ -7701,7 +7701,7 @@ country_event = {
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									has_state_flag = SPR_anarchist_state_flag
 								}
 							}
@@ -7716,7 +7716,7 @@ country_event = {
 					random_state = {
 						limit = {
 							NOT = { state = 165 }
-							NOT = { state = 794 }
+							NOT = { state = 774 }
 							NOT = { state = 166 }
 							NOT = { state = 41 }
 							is_controlled_by = ROOT
@@ -7724,7 +7724,7 @@ country_event = {
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									has_state_flag = SPR_anarchist_state_flag
 								}
 							}
@@ -7739,14 +7739,14 @@ country_event = {
 					random_state = {
 						limit = {
 							NOT = { state = 165 }
-							NOT = { state = 794 }
+							NOT = { state = 774 }
 							NOT = { state = 166 }
 							is_controlled_by = ROOT
 							NOT = { has_state_flag = SPR_anarchist_state_flag }
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									has_state_flag = SPR_anarchist_state_flag
 								}
 							}
@@ -7761,14 +7761,14 @@ country_event = {
 					random_state = {
 						limit = {
 							NOT = { state = 165 }
-							NOT = { state = 794 }
+							NOT = { state = 774 }
 							NOT = { state = 166 }
 							is_controlled_by = ROOT
 							NOT = { has_state_flag = SPR_anarchist_state_flag }
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									has_state_flag = SPR_anarchist_state_flag
 								}
 							}
@@ -7783,14 +7783,14 @@ country_event = {
 					random_state = {
 						limit = {
 							NOT = { state = 165 }
-							NOT = { state = 794 }
+							NOT = { state = 774 }
 							NOT = { state = 166 }
 							is_controlled_by = ROOT
 							NOT = { has_state_flag = SPR_anarchist_state_flag }
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									has_state_flag = SPR_anarchist_state_flag
 								}
 							}
@@ -7800,14 +7800,14 @@ country_event = {
 					random_state = {
 						limit = {
 							NOT = { state = 165 }
-							NOT = { state = 794 }
+							NOT = { state = 774 }
 							NOT = { state = 166 }
 							is_controlled_by = ROOT
 							NOT = { has_state_flag = SPR_anarchist_state_flag }
 							any_neighbor_state = {
 								OR = {
 									state = 165
-									state = 794
+									state = 774
 									has_state_flag = SPR_anarchist_state_flag
 								}
 							}
@@ -7830,13 +7830,13 @@ country_event = {
 					OR = {
 						controls_state = 165
 						controls_state = 166
-						controls_state = 794
+						controls_state = 774
 					}
 				}
 				random_owned_state = {
 					limit = {
 						NOT = { state = 165 }
-						NOT = { state = 794 }
+						NOT = { state = 774 }
 						NOT = { state = 166 }
 						is_controlled_by = ROOT
 					}
@@ -7846,7 +7846,7 @@ country_event = {
 					limit = {
 						has_state_flag = SPR_core_of_spain_flag
 						NOT = { state = 165 }
-						NOT = { state = 794 }
+						NOT = { state = 774 }
 						NOT = { state = 166 }
 						is_controlled_by = ROOT
 						NOT = { has_state_flag = SPR_anarchist_state_flag }
@@ -9436,7 +9436,7 @@ country_event = {
 			    target = ROOT
 			}
 		}
-		290 = {
+		289 = {
 			add_extra_state_shared_building_slots = 3
 			add_building_construction = {
 				type = industrial_complex
@@ -9472,7 +9472,7 @@ country_event = {
 	
 	option = { # OK
 		name = lar_spain.38.a
-		290 = {
+		289 = {
 			add_extra_state_shared_building_slots = 3
 			add_building_construction = {
 				type = industrial_complex
@@ -9508,14 +9508,14 @@ country_event = {
 		}
 		effect_tooltip = {
 			FROM = {
-				transfer_state = 461
-				transfer_state = 462
 				transfer_state = 459
 				transfer_state = 460
-				transfer_state = 513
-				transfer_state = 514
+				transfer_state = 457
 				transfer_state = 458
-				transfer_state = 665
+				transfer_state = 511
+				transfer_state = 512
+				transfer_state = 456
+				transfer_state = 656
 			}
 		}
 		hidden_effect = {
@@ -9560,14 +9560,14 @@ country_event = {
 		}
 		effect_tooltip = {
 			FROM = {
-				add_state_claim = 461
-				add_state_claim = 462
 				add_state_claim = 459
 				add_state_claim = 460
-				add_state_claim = 513
-				add_state_claim = 514
+				add_state_claim = 457
 				add_state_claim = 458
-				add_state_claim = 665
+				add_state_claim = 511
+				add_state_claim = 512
+				add_state_claim = 456
+				add_state_claim = 656
 				create_wargoal = {
 					type = take_state_focus
 					target = ROOT
@@ -9595,14 +9595,14 @@ country_event = {
 	
 	option = { # Ok
 		name = lar_spain.40.a
-		transfer_state = 461
-		transfer_state = 462
 		transfer_state = 459
 		transfer_state = 460
-		transfer_state = 513
-		transfer_state = 514
+		transfer_state = 457
 		transfer_state = 458
-		transfer_state = 665
+		transfer_state = 511
+		transfer_state = 512
+		transfer_state = 456
+		transfer_state = 656
 	}
 }
 
@@ -9617,14 +9617,14 @@ country_event = {
 	
 	option = { # Damn
 		name = lar_spain.41.a
-		add_state_claim = 461
-		add_state_claim = 462
 		add_state_claim = 459
 		add_state_claim = 460
-		add_state_claim = 513
-		add_state_claim = 514
+		add_state_claim = 457
 		add_state_claim = 458
-		add_state_claim = 665
+		add_state_claim = 511
+		add_state_claim = 512
+		add_state_claim = 456
+		add_state_claim = 656
 		create_wargoal = {
 			type = take_state_focus
 			target = FROM
@@ -10719,7 +10719,7 @@ country_event = {
 			FROM = {
 				transfer_state = 165
 				transfer_state = 167
-				transfer_state = 794
+				transfer_state = 774
 			}
 		}
 		FROM = { country_event = lar_spain.89 }
@@ -11278,7 +11278,7 @@ country_event = {
 		set_country_flag = SOV_annexed_spanish_land
 		transfer_state = 165
 		transfer_state = 167
-		transfer_state = 794
+		transfer_state = 774
 		hidden_effect = { SPD = { country_event = { id = lar_spain.84 } } }
 		division_template = {
 			name = "Spanish Loyalist Division"
@@ -11402,7 +11402,7 @@ country_event = {
 			SOV = {
 				transfer_state = 165
 				transfer_state = 167
-				transfer_state = 794
+				transfer_state = 774
 			}
 		}
 	}
@@ -11490,8 +11490,8 @@ country_event = {
 		has_completed_focus = SPR_war_of_independence
 		has_country_flag = SOV_took_spanish_states
 		has_war_with = SOV
-		SOV = { owns_state = 794 }
-		has_full_control_of_state = 794
+		SOV = { owns_state = 774 }
+		has_full_control_of_state = 774
 	}
 
 	mean_time_to_happen = {
@@ -11508,7 +11508,7 @@ country_event = {
 
 	option = { # Excellent!
 		name = lar_spain.85.a
-		transfer_state = 794
+		transfer_state = 774
 		hidden_effect = { SOV = { country_event = { id = lar_spain.88 } } }
 	}
 }
@@ -11548,7 +11548,7 @@ country_event = {
 				FROM = {
 					transfer_state = 165
 					transfer_state = 167
-					transfer_state = 794
+					transfer_state = 774
 				}
 			}
 		}

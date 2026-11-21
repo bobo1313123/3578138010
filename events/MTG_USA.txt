@@ -725,12 +725,12 @@ country_event = {
 			every_owned_state = {
 				limit = {
 					OR = {
-						state = 393
-						state = 396
+						state = 391
 						state = 394
 						state = 392
-						state = 395
-						state = 391
+						state = 390
+						state = 393
+						state = 389
 					}
 				}
 				USB = {
@@ -778,8 +778,8 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				OR = {
-					state = 369 # two more states join CSA because you are a meanie!
-					state = 373
+					state = 367 # two more states join CSA because you are a meanie!
+					state = 371
 				}
 			}
 			CSA = {
@@ -1418,8 +1418,8 @@ country_event = {
 				ruling_party = neutrality
 				ideology = Democracy
 				size = 0.7
-				capital = 357
-				states = { 357 685 }
+				capital = 355
+				states = { 355 676 }
 				keep_unit_leaders = { 57 }
 			}
 			division_template = {
@@ -1762,12 +1762,12 @@ country_event = {
 				every_owned_state = {
 					limit = {
 						OR = {
-							state = 373
-							state = 394
-							state = 395
-							state = 261
-							state = 396
+							state = 371
+							state = 392
 							state = 393
+							state = 261
+							state = 394
+							state = 391
 						}
 					}
 					set_state_flag = bund_midwest
@@ -1787,8 +1787,8 @@ country_event = {
 				ruling_party = neutrality
 				ideology = Democracy
 				size = 0.7
-				capital = 357
-				states = { 357 685 }
+				capital = 355
+				states = { 355 676 }
 			}
 		}
 		if = {
@@ -1838,9 +1838,9 @@ country_event = {
 			every_owned_state = {
 				limit = {
 					OR = {
-						state = 385
-						state = 386
-						state = 378
+						state = 383
+						state = 384
+						state = 376
 					}
 				}
 				event_target:USA_civil_war_democrats = {
@@ -1926,9 +1926,9 @@ country_event = {
 			every_owned_state = {
 				limit = {
 					OR = {
-						state = 385
-						state = 386
-						state = 378
+						state = 383
+						state = 384
+						state = 376
 					}
 				}
 				event_target:USA_civil_war_democrats = {
@@ -1968,10 +1968,10 @@ country_event = {
 			every_owned_state = {
 				limit = {
 					OR = {
+						state = 356
 						state = 358
-						state = 360
+						state = 357
 						state = 359
-						state = 361
 					}
 				}
 				event_target:USA_civil_war_democrats = {
@@ -2042,9 +2042,9 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				OR = {
-					state = 388
-					state = 387
-					state = 381
+					state = 386
+					state = 385
+					state = 379
 				}
 			}
 			event_target:USA_civil_war_democrats = {
@@ -2126,11 +2126,11 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				OR = {
-					state = 379
 					state = 377
+					state = 375
+					state = 378
+					state = 374
 					state = 380
-					state = 376
-					state = 382
 				}
 			}
 			event_target:USA_civil_war_democrats = {
@@ -2212,11 +2212,11 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				OR = {
+					state = 387
+					state = 388
+					state = 382
 					state = 389
 					state = 390
-					state = 384
-					state = 391
-					state = 392
 				}
 			}
 			event_target:USA_civil_war_democrats = {
@@ -2298,12 +2298,12 @@ country_event = {
 		every_owned_state = {
 			limit = {
 				OR = {
-					state = 373
-					state = 394
-					state = 395
-					state = 261
-					state = 396
+					state = 371
+					state = 392
 					state = 393
+					state = 261
+					state = 394
+					state = 391
 				}
 			}
 			event_target:USA_civil_war_democrats = {
@@ -2557,11 +2557,11 @@ country_event = {
 		}
 		effect_tooltip = {
 			FROM = {
-				transfer_state = 740
-				transfer_state = 473
-				transfer_state = 739
+				transfer_state = 729
 				transfer_state = 471
-				transfer_state = 864
+				transfer_state = 728
+				transfer_state = 469
+				transfer_state = 842
 			}
 		}
 	}
@@ -2611,11 +2611,11 @@ country_event = {
 	is_triggered_only = yes
 	option = { #agree
 		name = mtg_usa_canadian_corridor.2.a
-		transfer_state = 740
-		transfer_state = 473
-		transfer_state = 739
+		transfer_state = 729
 		transfer_state = 471
-		transfer_state = 864
+		transfer_state = 728
+		transfer_state = 469
+		transfer_state = 842
 	}
 }
 
@@ -2922,9 +2922,9 @@ country_event = {
 				}
 				if = {
 					limit = {
-						has_full_control_of_state = 326
+						has_full_control_of_state = 324
 					}
-					transfer_state = 326
+					transfer_state = 324
 				}
 			}
 			if = {
@@ -2945,10 +2945,10 @@ country_event = {
 			}
 			else_if = {
 				limit = {
-					has_full_control_of_state = 336
+					has_full_control_of_state = 334
 				}
 				USA = {
-					transfer_state = 336
+					transfer_state = 334
 				}
 			}
 		}
@@ -3003,9 +3003,9 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_full_control_of_state = 326 }
+				FROM = { has_full_control_of_state = 324 }
 			}
-			transfer_state = 326
+			transfer_state = 324
 		}
 		if = {
 			limit = {
@@ -3025,10 +3025,10 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				FROM = { has_full_control_of_state = 336 }
+				FROM = { has_full_control_of_state = 334 }
 			}
 			USA = {
-				transfer_state = 336
+				transfer_state = 334
 			}
 		}
 	}
@@ -3485,10 +3485,10 @@ country_event = {
 		}
 		effect_tooltip = {
 			FROM = {
-				transfer_state = 671
-				transfer_state = 670
+				transfer_state = 662
+				transfer_state = 661
 				transfer_state = 286
-				transfer_state = 741
+				transfer_state = 730
 			}
 		}
 	}
@@ -3536,10 +3536,10 @@ country_event = {
 	is_triggered_only = yes
 	option = { #agree
 		name = mtg_usa_secure_asia.8.a
-			transfer_state = 671
-			transfer_state = 670
+			transfer_state = 662
+			transfer_state = 661
 			transfer_state = 286
-			transfer_state = 741
+			transfer_state = 730
 	}
 }
 
@@ -4420,12 +4420,12 @@ country_event = {
 				target = JAP
 				type = topple_government
 			}
-		add_state_claim = 633
-		add_state_claim = 684
-		add_state_claim = 645
-		add_state_claim = 646
-		add_state_claim = 647
-		add_state_claim = 648
+		add_state_claim = 624
+		add_state_claim = 675
+		add_state_claim = 636
+		add_state_claim = 637
+		add_state_claim = 638
+		add_state_claim = 639
 		hidden_effect = { news_event = { id = news.335 } } #Triggers news event for war between JAP and USA
 	}
 }
@@ -4514,12 +4514,12 @@ country_event = {
 				target = JAP
 				type = topple_government
 			}
-		add_state_claim = 633
-		add_state_claim = 684
-		add_state_claim = 645
-		add_state_claim = 646
-		add_state_claim = 647
-		add_state_claim = 648
+		add_state_claim = 624
+		add_state_claim = 675
+		add_state_claim = 636
+		add_state_claim = 637
+		add_state_claim = 638
+		add_state_claim = 639
 		hidden_effect = { news_event = { id = news.335 } } #Triggers news event for war between JAP and USA
 	}
 }

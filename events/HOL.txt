@@ -1,4 +1,4 @@
-add_namespace = TFE_HOL_NEWS
+﻿add_namespace = TFE_HOL_NEWS
 add_namespace = TFE_HOL_EVENT
 
 # 1 腐败败露（1935.6.1）
@@ -89,9 +89,9 @@ country_event = {
 
 		WAL = {
 			transfer_state = 34
-			transfer_state = 980
-			transfer_state = 1053
-			transfer_state = 1023
+			transfer_state = 958
+			transfer_state = 1030
+			transfer_state = 1001
 			every_owned_state = {
 				add_core_of = WAL
 			}
@@ -127,7 +127,7 @@ country_event = {
 
 		BEL = {
 			transfer_state = 6
-			transfer_state = 977
+			transfer_state = 955
 			every_owned_state = {
 				add_core_of = BEL
 			}

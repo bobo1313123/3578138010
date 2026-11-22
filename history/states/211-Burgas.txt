@@ -3,27 +3,11 @@ state={
 	id = 211
 	name="STATE_211"
 	manpower = 1358383
-
-
 	state_category = town
 
 	history={
 		owner = BUL
-		victory_points = { #Varna
-			9783 5
-		}
-		victory_points = { #Burgas
-			9902 3
-		}
-		victory_points = { #Sliven
-			6967 3
-		}
-		victory_points = { #Yambol
-			9888 1
-		}
-		victory_points = { #Shumen
-			9769 1
-		}
+		add_core_of = BUL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
@@ -34,7 +18,21 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = BUL
+		victory_points = {
+			9783 12
+		}
+		victory_points = {
+			9902 8
+		}
+		victory_points = {
+			6967 4
+		}
+		victory_points = {
+			9888 3
+		}
+		victory_points = {
+			9769 4
+		}
 	}
 
 	provinces={

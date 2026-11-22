@@ -2,27 +2,29 @@
 state={
 	id = 275
 	name="STATE_275" # Transvaal
-	manpower = 3680363
+	manpower = 3780363
 	
 	state_category = city
 	
 	resources={
-		steel=11 #was: 5   was: 8
-		chromium=53 # was: 80
+		steel = 8
+		chromium = 64
+		coal = 20
 	}
 
 	history={
 		owner = SAF
+		add_core_of = SAF
 		buildings = {
-			infrastructure = 3 #was: 5
+			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 5
+			industrial_complex = 4
 			air_base = 3
 		}
 		victory_points = {
-			10400 10
+			10400 13
 		}
-		add_core_of = SAF
+		
 	}
 
 	provinces={

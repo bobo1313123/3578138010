@@ -3,16 +3,13 @@ state={
 	id = 105
 	name="STATE_105"
 	resources={
-		chromium=20.000
-		aluminium=70.000
+		chromium = 31
+		aluminium = 104
 	}
 
 	history={
-		victory_points = {
-			9809 3 
-		}
-	
 		owner = YUG
+		add_core_of = YUG
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
@@ -20,16 +17,16 @@ state={
 			9809 = {
 				naval_base = 1
 			}
-		
 		}
-		add_core_of = YUG
-
+		victory_points = {
+			9809 5
+		}
 	}
 
 	provinces={
 		9809 11858 
 	}
-	manpower=550823
+	manpower=380823
 	buildings_max_level_factor=1.000
 	state_category=rural
 

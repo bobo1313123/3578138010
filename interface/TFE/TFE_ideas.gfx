@@ -590,6 +590,22 @@ spriteTypes = {
 		name = "GFX_idea_bunker_forest"
 		texturefile = "gfx/interface/ideas/AMD/bunker_forest.png"
 	}
+	#南非民族精神
+	#非洲福利之邦
+	spriteType = {
+		name = "GFX_idea_Welfare_State_in_Africa"
+		texturefile = "gfx/interface/ideas/SAF/Welfare_State_in_Africa.png"
+	}
+	#同床异梦的党
+	spriteType = {
+		name = "GFX_idea_Party_with_Facade_of_Peace"
+		texturefile = "gfx/interface/ideas/SAF/Party_with_Facade_of_Peace.png"
+	}
+	#分裂之家
+	spriteType = {
+		name = "GFX_idea_House_Divided"
+		texturefile = "gfx/interface/ideas/SAF/House_Divided.png"
+	}
 	#海德拉巴民族精神
 	#璀璨戈尔康达
 	spriteType = {

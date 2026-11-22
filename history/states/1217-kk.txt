@@ -2,22 +2,17 @@
 state={
 	id = 1217
 	name="STATE_1217"
-	manpower = 198872
-	resources={
-	}
-	
+	manpower = 198872	
 	state_category = town
 
 	history={
 		owner = BUL
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-			air_base = 4
-		}
-	
 		add_claim_by = BUL
 		set_demilitarized_zone = yes
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+		}
 	}
 
 	provinces={

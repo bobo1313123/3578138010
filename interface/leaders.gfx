@@ -508,7 +508,12 @@ spriteTypes = {
 		name = "GFX_ISR_Chaim_Weizmann_large"
 		texturefile = "gfx/leaders/ISR/ISR_Chaim_Weizmann.png"
 	}
-
+	### 非洲大区 ###
+	#南非
+	spriteType = { #弗雷德里克·克雷斯韦尔
+		name = "GFX_SAF_Frederic_Creswell_large"
+		texturefile = "gfx/leaders/SAF/SAF_Frederic_Creswell.png"
+	}
 
 
 

@@ -19,18 +19,18 @@ focus_tree={
 	#不能妥协的斗争
 	focus = {
 		id = POL_refuse_to_compromise
-		icon = GFX_goal_support_democracy
+		icon = GFX_goal_POL_refuse_to_compromise
+		cost = 2
 		x = 12
 		y = 0
-		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
 		allow_branch = {
 			has_government = Progressivism
 		}
 		available = {
 			has_government = Progressivism
-		}
-		ai_will_do = {
-			factor = 10
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
@@ -47,15 +47,40 @@ focus_tree={
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = POL_refuse_to_compromise }
 		relative_position_id = POL_refuse_to_compromise
+		cost = 2
 		x = -4
 		y = 1
-		cost = 2
 		ai_will_do = {
 			factor = 10
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
-			
+			add_to_variable = {
+				POL_consumer_goods_expected_value = 0.03
+				tooltip = consumer_goods_expected_value_tt
+			}
+			add_to_variable = {
+				POL_political_power_factor = 0.10
+				tooltip = political_power_factor_tt
+			}
+		}
+	}
+	#游说旁观者
+	focus = {
+		id = POL_Lobbying_onlookers
+		icon = GFX_goal_POL_Lobbying_onlookers
+		prerequisite = { focus = POL_refuse_to_compromise }
+		relative_position_id = POL_refuse_to_compromise
+		cost = 3
+		x =0
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = -25
+
 		}
 	}
 }

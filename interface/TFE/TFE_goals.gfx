@@ -127,4 +127,9 @@ spriteTypes = {
 		name = "GFX_goal_LBV_Italy_Rise" 
 		texturefile = "gfx/interface/goals/LBV/LBV_Italy_Rise.png"
 	}
+	#波兰国策
+	SpriteType = { #不能妥协的斗争
+		name = "GFX_goal_POL_refuse_to_compromise" 
+		texturefile = "gfx/interface/goals/POL/POL_refuse_to_compromise.png"
+	}
 }

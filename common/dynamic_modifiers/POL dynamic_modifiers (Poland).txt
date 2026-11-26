@@ -2,6 +2,7 @@
 POL_trench_desire = {
 	icon = GFX_modifier_POL_trench_desire
 	#enable = {  }
+	political_power_factor = POL_political_power_factor
 	consumer_goods_expected_value = POL_consumer_goods_expected_value
 	consumer_goods_factor = POL_consumer_goods_factor
 	research_speed_factor = POL_research_speed_factor

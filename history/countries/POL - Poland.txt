@@ -107,7 +107,9 @@ add_ideas={
 	POL_Ramparts_of_Rotting_Flesh #腐烂生蛆的血肉长城
 	
 }
-
+set_variable = {
+	POL_political_power_factor = 0
+}
 set_variable = {
 	POL_consumer_goods_expected_value = 0.12
 }

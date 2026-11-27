@@ -1,0 +1,9 @@
+leader_traits = {
+	#领导人特质
+	#继业者
+	FRM_successor = {
+		random = no
+		war_stability_factor = 0.10
+		army_attack_speed_factor = 0.08
+	}
+}

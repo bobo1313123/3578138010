@@ -1,0 +1,17 @@
+characters = {
+	#领导人
+	#艾哈迈德·穆罕默德·努曼
+	FRM_Ahmad_Muhammad_Numan = {
+		name = FRM_Ahmad_Muhammad_Numan
+		portraits = {
+			civilian={
+				large = GFX_FRM_Ahmad_Muhammad_Numan_large
+			}
+		}
+		country_leader = {
+			desc = FRM_Ahmad_Muhammad_Numan_desc
+			ideology = socialism_small
+			traits = { FRM_successor }
+		}
+	}
+}

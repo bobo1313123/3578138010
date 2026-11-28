@@ -1,0 +1,55 @@
+capital = 292
+oob = "FRM_1935"
+set_stability = 0.35
+set_war_support = 0.65
+starting_train_buffer = 0.60
+set_fuel_ratio = 0.55
+set_convoys = 28
+set_research_slots = 3
+
+### 初始科技 ###
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	tech_trucks = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	basic_train = 1
+	camelry = 1
+}
+
+declare_war_on = {
+	target = YEM
+	type = annex_everything
+}
+
+### 领导人 ###
+recruit_character = FRM_Ahmad_Muhammad_Numan #艾哈迈德·穆罕默德·努曼
+
+add_ideas = {
+	### 初始民族精神 ###
+	FRM_Down_with_Imam #打倒伊玛目！
+	FRM_Support_from_Iraq #伊拉克支持
+	FRM_Tribal_socialism #部落社会主义
+}
+
+set_politics = {
+	ruling_party = Socialism
+	last_election = "1932.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 17
+	Socialism = 35
+	Progressivism = 5
+	Liberalism = 11
+	Democracy = 0
+	Conservatism = 0
+	Authoritarianism = 17
+	tttt = 15
+	fascism = 0
+	nazism = 0
+}

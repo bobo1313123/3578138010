@@ -69,6 +69,10 @@ POL = {
 	color = rgb { 143 64 123 }
 	color_ui = rgb { 139 64 121 }
 }
+FRM = {
+	color = rgb { 252 157 154 }
+	color_ui = rgb { 252 157 154 }
+}
 PBR = {
 	color = rgb { 199 158 186 }
 	color_ui = rgb { 195 154 182 }

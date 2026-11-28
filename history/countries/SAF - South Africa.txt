@@ -1,5 +1,6 @@
 ﻿capital = 275
 oob = "SAF_1935"
+set_naval_oob = "SAF_navy_1935"
 set_stability = 0.29
 set_war_support = 0.24
 starting_train_buffer = 0.9
@@ -21,12 +22,17 @@ set_technology = {
 	fuel_silos = 1
 	gwtank_chassis = 1
 
-	basic_naval_mines = 1
-	submarine_mine_laying = 1
+	early_ship_hull_cruiser = 1
+	basic_ship_hull_cruiser = 1
 	early_ship_hull_light = 1
 	early_ship_hull_submarine = 1
 	basic_ship_hull_submarine = 1
+
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
 	basic_battery = 1
+	basic_light_battery = 1
+	basic_heavy_battery = 1
 	basic_torpedo = 1
 }
 
@@ -57,4 +63,25 @@ set_popularities = {
 	tttt = 8
 	fascism = 4
 	nazism = 1
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	create_equipment_variant = {
+		name = "飞鱼"
+		type = ship_hull_cruiser_2
+		modules = {
+			front_1_custom_slot = ship_light_battery_2
+			mid_1_custom_slot = ship_light_battery_2
+			mid_2_custom_slot = ship_light_battery_3
+			fixed_ship_battery_slot = ship_light_battery_4
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_sonar_2
+		}
+		upgrades = {
+		
+		}
+		obsolete = no
+	}
 }

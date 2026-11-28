@@ -100,11 +100,6 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
-		target = EGY
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
 		target = AST
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2

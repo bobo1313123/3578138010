@@ -1,0 +1,63 @@
+ideas = {
+    country = {
+		### 初始民族精神 ###
+		#法鲁克王朝
+		EGY_The_Faruq_Dynasty = {
+			on_add = { log = "[GetLogRoot]: add idea EGY_The_Faruq_Dynasty" }
+			picture = The_Faruq_Dynasty
+			allowed = { always = no }
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.05
+				tttt_drift = 0.03
+			}
+		}
+		#迷茫之国
+		EGY_Land_of_Confusion = {
+			on_add = { log = "[GetLogRoot]: add idea EGY_Land_of_Confusion" }
+			picture = Land_of_Confusion
+			allowed = { always = no }
+			modifier = {
+				political_power_factor = -0.10
+				stability_factor = -0.10
+				drift_defence_factor = -0.50
+			}
+		}
+		#半途而废的现代化
+		EGY_Halfway_modernization = {
+			on_add = { log = "[GetLogRoot]: add idea EGY_Halfway_modernization" }
+			picture = Halfway_modernization
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.15
+				production_factory_efficiency_gain_factor = 0.05
+				Liberalism_drift = 0.01
+				Democracy_drift = 0.01
+				Conservatism_drift = 0.01
+			}
+		}
+		#萌发的左翼运动
+		EGY_Emerging_leftwing_movement = {
+			on_add = { log = "[GetLogRoot]: add idea EGY_Emerging_leftwing_movement" }
+			picture = Emerging_leftwing_movement
+			allowed = { always = no }
+			modifier = {
+				political_power_factor = -0.10
+				stability_factor = -0.05
+				communism_drift = 0.01
+				Socialism_drift = 0.02
+				Progressivism_drift = 0.01
+			}
+		}
+		#大阿拉伯之梦
+		EGY_Great_Arab_Dream = {
+			on_add = { log = "[GetLogRoot]: add idea EGY_Great_Arab_Dream" }
+			picture = Great_Arab_Dream
+			allowed = { always = no }
+			modifier = {
+				
+			}
+		}
+	}
+}

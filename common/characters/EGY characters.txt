@@ -1,0 +1,17 @@
+characters={
+	#领导人
+	#福阿德一世
+	EGY_Fuad_I = {
+		name = EGY_Fuad_I
+		portraits={
+			civilian={
+				large = GFX_EGY_Fuad_I_large
+			}
+		}
+		country_leader={
+			desc = EGY_Fuad_I_desc
+			ideology = tttt_small
+			traits = {  }
+		}
+	}
+}

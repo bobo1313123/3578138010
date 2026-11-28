@@ -439,6 +439,9 @@ ideologies = {
 			Spanish_Revivalism = { #西班牙复兴主义
 				can_be_randomly_selected = no
 			}
+			tttt_radical_nationalism = { #激进民族主义
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {

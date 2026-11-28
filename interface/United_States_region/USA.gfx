@@ -25,4 +25,17 @@ SpriteTypes = {
 		name = "GFX_idea_USA_divided_house"
 		texturefile = "gfx/interface/ideas/USA/USA_divided_house.dds"
 	}
+	#国策
+	spriteType = { #柯立芝总统的任期
+		name = "GFX_goal_USA_President_Coolidges_Term"
+		texturefile = "gfx/interface/goals/USA/USA_President_Coolidges_Term.png"
+	}
+	spriteType = { #坚守共和传统
+		name = "GFX_goal_USA_Uphold_Republican_Traditions"
+		texturefile = "gfx/interface/goals/USA/USA_Uphold_Republican_Traditions.png"
+	}
+	spriteType = { #弥和撕裂的社会
+		name = "GFX_goal_USA_Society_Mending_and_Tearing"
+		texturefile = "gfx/interface/goals/USA/USA_Society_Mending_and_Tearing.png"
+	}
 }

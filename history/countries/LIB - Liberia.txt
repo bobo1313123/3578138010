@@ -1,99 +1,48 @@
 ﻿capital = 297
-
-oob = "LIB_1936"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
-
+oob = "LIB_1935"
+set_stability = 0.42
+set_war_support = 0.42
+starting_train_buffer = 0.75
+set_fuel_ratio = 0.70
+set_research_slots = 2
 set_convoys = 10
 
-recruit_character = LIB_edgar_cailloux
-recruit_character = LIB_andre_fields
-recruit_character = LIB_james_brooks
-recruit_character = LIB_won_loy_chan
-recruit_character = LIB_benton_stukes
-recruit_character = LIB_reginald_brandon
-recruit_character = LIB_aaron_pinn
-recruit_character = LIB_john__r_fox
-recruit_character = LIB_samuel_nell
-recruit_character = LIB_joseph_smith
-recruit_character = LIB_stewart_holland
-recruit_character = LIB_benjamin_o_davis
-recruit_character = LIB_george_remond
-recruit_character = LIB_iver_virgin
+### 初始科技 ###
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_trucks = 1
+	basic_train = 1
+}
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	add_command_power = 100
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "LIB_1939"
-	set_technology = {
-		#doctrines
-		
-		
-
-		
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		mechanical_computing = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-	complete_special_project = {
-		project = sp:sp_air_radar
+CSA = {
+	set_autonomy = {
+		target = LIB
+		autonomous_state = autonomy_colony
 	}
 }
+
+add_ideas = {
+	### 初始民族精神 ###
+	LIB_shattered_land
+	LIB_richmond_divide_and_rule
+}
+
+### 领导人 ###
+recruit_character = LIB_Edwin_Barclay #埃德温·巴克利
+
 
 set_politics = {
-	ruling_party = Liberalism
-	last_election = "1931.1.1"
-	election_frequency = 96
-	elections_allowed = yes
+	ruling_party = tttt
+	last_election = "1934.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 set_popularities = {
-	Liberalism = 100
+	tttt = 49
+	Liberalism = 30
+	Progressivism = 21
 }
 
-create_country_leader = {
-	name = "Edwin Barclay"
-	desc = "POLITICS_EDWIN_BARCLAY_DESC"
-	picture = "GFX_portrait_lib_edwin_barclay"
-	expire = "1965.1.1"
-	ideology = Conservatism_small
-	traits = {
-		#
-	}
-}
 
-1939.1.1 = {
-	set_politics = {
-		ruling_party = Liberalism
-		last_election = "1939.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}

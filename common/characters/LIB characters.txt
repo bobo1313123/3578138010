@@ -1,4 +1,20 @@
 characters={
+	#领导人
+	#埃德温·巴克利
+	LIB_Edwin_Barclay = {
+		name = LIB_Edwin_Barclay
+		#portraits={
+		#	civilian={
+		#		large="GFX_portrait_lib_edwin_barclay"
+		#		small="GFX_portrait_lib_edwin_barclay_small"
+		#	}
+		#}
+		country_leader = {
+			ideology = tttt_radical_nationalism
+			traits = { }
+		}
+	}
+
 	LIB_edgar_cailloux={
 		advisor={
 			slot = high_command
@@ -306,4 +322,5 @@ characters={
 			}
 		}
 	}
+	
 }

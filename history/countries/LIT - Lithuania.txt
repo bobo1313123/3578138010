@@ -5,6 +5,7 @@ set_war_support = 0.4
 starting_train_buffer = 0.85
 set_fuel_ratio = 0.80
 set_research_slots = 3
+set_convoys = 45
 load_focus_tree = generic_focus
 set_cosmetic_tag = LIT_poland_comrade
 
